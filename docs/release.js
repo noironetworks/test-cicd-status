@@ -24,23 +24,43 @@ fetch('release_artifacts/releases.yaml')
           releaseRow.appendChild(commitCell);
 
           const quayTagsCell = document.createElement('td');
-          const quayTags = image.quay.map(tag => tag.tag).join('\n ');
-          quayTagsCell.textContent = quayTags;
+          const quayTagsList = document.createElement('ul');
+          for (const quayTag of image.quay) {
+            const quayTagItem = document.createElement('li');
+            quayTagItem.textContent = quayTag.tag;
+            quayTagsList.appendChild(quayTagItem);
+          }
+          quayTagsCell.appendChild(quayTagsList);
           releaseRow.appendChild(quayTagsCell);
 
           const quaySHACell = document.createElement('td');
-          const quaySHAs = image.quay.map(tag => tag.sha).join('\n ');
-          quaySHACell.textContent = quaySHAs;
+          const quaySHAsList = document.createElement('ul');
+          for (const quayTag of image.quay) {
+            const quaySHATagItem = document.createElement('li');
+            quaySHATagItem.textContent = quayTag.sha;
+            quaySHAsList.appendChild(quaySHATagItem);
+          }
+          quaySHACell.appendChild(quaySHAsList);
           releaseRow.appendChild(quaySHACell);
 
           const dockerTagsCell = document.createElement('td');
-          const dockerTags = image.docker.map(tag => tag.tag).join('\n ');
-          dockerTagsCell.textContent = dockerTags;
+          const dockerTagsList = document.createElement('ul');
+          for (const dockerTag of image.docker) {
+            const dockerTagItem = document.createElement('li');
+            dockerTagItem.textContent = dockerTag.tag;
+            dockerTagsList.appendChild(dockerTagItem);
+          }
+          dockerTagsCell.appendChild(dockerTagsList);
           releaseRow.appendChild(dockerTagsCell);
 
           const dockerSHACell = document.createElement('td');
-          const dockerSHAs = image.docker.map(tag => tag.sha).join('\n ');
-          dockerSHACell.textContent = dockerSHAs;
+          const dockerSHAsList = document.createElement('ul');
+          for (const dockerTag of image.docker) {
+            const dockerSHATagItem = document.createElement('li');
+            dockerSHATagItem.textContent = dockerTag.sha;
+            dockerSHAsList.appendChild(dockerSHATagItem);
+          }
+          dockerSHACell.appendChild(dockerSHAsList);
           releaseRow.appendChild(dockerSHACell);
  
           /*const quayTagCell = document.createElement('td');
