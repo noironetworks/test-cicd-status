@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Release Details</title>
+  <style>
+    table {
+      border-collapse: collapse;
+    }
+    th, td {
+      border: 1px solid black;
+      padding: 8px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Release Details</h1>
+
+  <table id="release-table">
+    <thead>
+      <tr>
+        <th>Image</th>
+        <th>Commit ID</th>
+        <th colspan="2">Quay</th>
+        <th colspan="2">Docker</th>
+        <th>SBoM</th>
+        <th>CVE</th>
+        <th>Build Logs</th>
+      </tr>
+      <tr>
+        <th></th>
+        <th></th>
+        <th>Tag</th>
+        <th>SHA</th>
+        <th>Tag</th>
+        <th>SHA</th>
+        <th></th>
+        <th></th>
+        <th></th>
+      </tr>
+    </thead>
+    <tbody>
+    </tbody>
+  </table>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/js-yaml/3.14.1/js-yaml.min.js"></script>
+  <script src="release.js"></script>
+</body>
+</html>

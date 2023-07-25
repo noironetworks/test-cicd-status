@@ -1,0 +1,65 @@
+releases:
+- release_name: kmr2-5.2.7
+  images:
+    - name: exampleImage
+      commit: 1234567890abcdef
+      quay:
+       - tag: v1.0
+         sha: abcdef123456
+       - tag: latest
+         sha: 9876543210fedcba
+      docker:
+       - tag: v1.0
+         sha: abcdef123456
+       - tag: latest
+         sha: 9876543210fedcba
+      sbom: /path/to/sbom
+      cve: /path/to/cve
+      build-logs: /path/to/build/logs
+    - name: anotherImage
+      commit: 0987654321fedcba
+      quay:
+       - tag: v2.0
+         sha: 7890abcd1234
+       - tag: 2.1
+         sha: efedcba09876
+      docker:
+       - tag: v2.0
+         sha: 7890abcd1234
+       - tag: 2.1
+         sha: efedcba09876
+      sbom: /path/to/another/sbom 
+      cve: /path/to/another/cve
+      build-logs: /path/to/another/build/logs
+- release_name: x.y.z
+  images:
+    - name: exampleImagexyz
+      commit: 1234567890abcdef
+      quay:
+       - tag: v1.0
+         sha: abcdef123456
+       - tag: latest
+         sha: 9876543210fedcba
+      docker:
+       - tag: v1.0
+         sha: abcdef123456
+       - tag: latest
+         sha: 9876543210fedcba
+      sbom: /path/to/sbomx
+      cve: /path/to/cvex
+      build-logs: /path/to/build/logsx
+    - name: anotherImagexyz
+      commit: 0987654321fedcba
+      quay:
+       - tag: v2.0
+         sha: 7890abcd1234
+       - tag: 2.1
+         sha: efedcba09876
+      docker:
+      - tag: v2.0
+        sha: 7890abcd1234
+      - tag: 2.1
+        sha: efedcba09876
+      sbom: /path/to/another/sbomx 
+      cve: /path/to/another/cvex
+      build-logs: /path/to/another/build/logsx
