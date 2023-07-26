@@ -63,17 +63,25 @@ fetch('release_artifacts/releases.yaml')
           dockerSHACell.appendChild(dockerSHAsList);
           releaseRow.appendChild(dockerSHACell);
 
-
           const sbomCell = document.createElement('td');
-          sbomCell.textContent = image.sbom;
+          const sbomLink = document.createElement('a');
+          sbomLink.href = image.sbom;
+          sbomLink.textContent = 'SBoM';
+          sbomCell.appendChild(sbomLink);
           releaseRow.appendChild(sbomCell);
 
           const cveCell = document.createElement('td');
-          cveCell.textContent = image.cve;
+          const cveLink = document.createElement('a');
+          cveLink.href = image.cve;
+          cveLink.textContent = 'CVE';
+          cveCell.appendChild(cveLink);
           releaseRow.appendChild(cveCell);
 
           const buildLogsCell = document.createElement('td');
-          buildLogsCell.textContent = image['build-logs'];
+          const buildLogsLink = document.createElement('a');
+          buildLogsLink.href =  image['build-logs'];
+          buildLogsLink.textContent = 'Build Logs';
+          buildLogsCell.appendChild(buildLogsLink);
           releaseRow.appendChild(buildLogsCell);
 
           tableBody.appendChild(releaseRow);

@@ -14,9 +14,9 @@ releases:
          sha: abcdef123456
        - tag: latest
          sha: 9876543210fedcba
-      sbom: /path/to/sbom
-      cve: /path/to/cve
-      build-logs: /path/to/build/logs
+      sbom: release_artifacts/6.0.3.1/exampleImage-6.0.3.1-sbom.txt
+      cve: release_artifacts/6.0.3.1/exampleImage-6.0.3.1-cve.txt
+      build-logs: release_artifacts/6.0.3.1/6.0.3.1-buildLogs.log
     - name: anotherImage
       commit: 0987654321fedcba
       quay:
@@ -29,9 +29,9 @@ releases:
          sha: 7890abcd1234
        - tag: 2.1
          sha: efedcba09876
-      sbom: /path/to/another/sbom 
-      cve: /path/to/another/cve
-      build-logs: /path/to/another/build/logs
+      sbom: release_artifacts/6.0.3.1/anotherImage-6.0.3.1-sbom.txt
+      cve: release_artifacts/6.0.3.1/anotherImage-6.0.3.1-cve.txt
+      build-logs: release_artifacts/6.0.3.1/6.0.3.1-buildLogs.log
 - release_name: x.y.z
   images:
     - name: exampleImagexyz
@@ -46,9 +46,9 @@ releases:
          sha: abcdef123456
        - tag: latest
          sha: 9876543210fedcba
-      sbom: /path/to/sbomx
-      cve: /path/to/cvex
-      build-logs: /path/to/build/logsx
+      sbom: release_artifacts/x.y.z/exampleImagexyz-sbom.txt
+      cve: release_artifacts/x.y.z/exampleImagexyz-cve.txt
+      build-logs: release_artifacts/x.y.z/x.y.z-buildLogs.log
     - name: anotherImagexyz
       commit: 0987654321fedcba
       quay:
@@ -61,6 +61,6 @@ releases:
         sha: 7890abcd1234
       - tag: 2.1
         sha: efedcba09876
-      sbom: /path/to/another/sbomx 
-      cve: /path/to/another/cvex
-      build-logs: /path/to/another/build/logsx
+      sbom: release_artifacts/x.y.z/anotherImagexyz-sbom.txt
+      cve: release_artifacts/x.y.z/anotherImagexyz-cve.txt
+      build-logs: release_artifacts/x.y.z/x.y.z-buildLogs.log
