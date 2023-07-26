@@ -62,22 +62,7 @@ fetch('release_artifacts/releases.yaml')
           }
           dockerSHACell.appendChild(dockerSHAsList);
           releaseRow.appendChild(dockerSHACell);
- 
-          /*const quayTagCell = document.createElement('td');
-          quayTagCell.textContent = `Tag: ${image.tags.quay.tag}`;
-          releaseRow.appendChild(quayTagCell);
 
-          const quayShaCell = document.createElement('td');
-          quayShaCell.textContent = `SHA: ${image.tags.quay.sha}`;
-          releaseRow.appendChild(quayShaCell);
-
-          const dockerTagCell = document.createElement('td');
-          dockerTagCell.textContent = `Tag: ${image.tags.docker.tag}`;
-          releaseRow.appendChild(dockerTagCell);
-
-          const dockerShaCell = document.createElement('td');
-          dockerShaCell.textContent = `SHA: ${image.tags.docker.sha}`;
-          releaseRow.appendChild(dockerShaCell);*/
 
           const sbomCell = document.createElement('td');
           sbomCell.textContent = image.sbom;

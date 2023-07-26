@@ -1,5 +1,6 @@
 releases:
-- release_name: kmr2-5.2.7
+- release_name: 6.0.3.1
+  last_updated: 2021-09-30
   images:
     - name: exampleImage
       commit: 1234567890abcdef
