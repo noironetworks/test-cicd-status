@@ -1,66 +1,77 @@
 releases:
-- release_name: 6.0.3.1
-  last_updated: 2021-09-30
-  images:
-    - name: exampleImage
-      commit: 1234567890abcdef
-      quay:
-       - tag: v1.0
-         sha: abcdef123456
-       - tag: latest
-         sha: 9876543210fedcba
-      docker:
-       - tag: v1.0
-         sha: abcdef123456
-       - tag: latest
-         sha: 9876543210fedcba
-      sbom: release_artifacts/6.0.3.1/exampleImage-6.0.3.1-sbom.txt
-      cve: release_artifacts/6.0.3.1/exampleImage-6.0.3.1-cve.txt
-      build-logs: release_artifacts/6.0.3.1/6.0.3.1-buildLogs.log
-    - name: anotherImage
-      commit: 0987654321fedcba
-      quay:
-       - tag: v2.0
-         sha: 7890abcd1234
-       - tag: 2.1
-         sha: efedcba09876
-      docker:
-       - tag: v2.0
-         sha: 7890abcd1234
-       - tag: 2.1
-         sha: efedcba09876
-      sbom: release_artifacts/6.0.3.1/anotherImage-6.0.3.1-sbom.txt
-      cve: release_artifacts/6.0.3.1/anotherImage-6.0.3.1-cve.txt
-      build-logs: release_artifacts/6.0.3.1/6.0.3.1-buildLogs.log
-- release_name: x.y.z
-  images:
-    - name: exampleImagexyz
-      commit: 1234567890abcdef
-      quay:
-       - tag: v1.0
-         sha: abcdef123456
-       - tag: latest
-         sha: 9876543210fedcba
-      docker:
-       - tag: v1.0
-         sha: abcdef123456
-       - tag: latest
-         sha: 9876543210fedcba
-      sbom: release_artifacts/x.y.z/exampleImagexyz-sbom.txt
-      cve: release_artifacts/x.y.z/exampleImagexyz-cve.txt
-      build-logs: release_artifacts/x.y.z/x.y.z-buildLogs.log
-    - name: anotherImagexyz
-      commit: 0987654321fedcba
-      quay:
-       - tag: v2.0
-         sha: 7890abcd1234
-       - tag: 2.1
-         sha: efedcba09876
-      docker:
-      - tag: v2.0
-        sha: 7890abcd1234
-      - tag: 2.1
-        sha: efedcba09876
-      sbom: release_artifacts/x.y.z/anotherImagexyz-sbom.txt
-      cve: release_artifacts/x.y.z/anotherImagexyz-cve.txt
-      build-logs: release_artifacts/x.y.z/x.y.z-buildLogs.log
+- images:
+  - build-logs: release_artifacts/6.0.3.1/6.0.3.1-buildLogs.log
+    commit: 1234567890abcdef
+    cve: release_artifacts/6.0.3.1/exampleImage-6.0.3.1-cve.txt
+    docker:
+    - sha: abcdef123456
+      tag: v1.0
+    - sha: 9876543210fedcba
+      tag: latest
+    name: exampleImage
+    quay:
+    - sha: abcdef123456
+      tag: v1.0
+    - sha: 9876543210fedcba
+      tag: latest
+    sbom: release_artifacts/6.0.3.1/exampleImage-6.0.3.1-sbom.txt
+  - build-logs: release_artifacts/6.0.3.1/6.0.3.1-buildLogs.log
+    commit: 0987654321fedcba
+    cve: release_artifacts/6.0.3.1/anotherImage-6.0.3.1-cve.txt
+    docker:
+    - sha: 7890abcd1234
+      tag: v2.0
+    - sha: efedcba09876
+      tag: 2.1
+    name: anotherImage
+    quay:
+    - sha: 7890abcd1234
+      tag: v2.0
+    - sha: efedcba09876
+      tag: 2.1
+    sbom: release_artifacts/6.0.3.1/anotherImage-6.0.3.1-sbom.txt
+  - build-logs: release_artifacts/6.0.3.1/acc-provision-operator-6.0.3.1-buildlog.txt
+    commit: b1c012c509019f467c7223d485c229ffe9c80071
+    cve: release_artifacts/6.0.3.1/acc-provision-operator-6.0.3.1-cve.txt
+    docker:
+    - sha: ''
+      tag: 6.0.3.1.test-cicd.81c2369
+    name: acc-provision-operator
+    quay:
+    - sha: ''
+      tag: 6.0.3.1.test-cicd.81c2369
+    sbom: release_artifacts/6.0.3.1/acc-provision-operator-6.0.3.1-sbom.txt
+  last_updated: null
+  release_name: 6.0.3.1
+- images:
+  - build-logs: release_artifacts/x.y.z/x.y.z-buildLogs.log
+    commit: 1234567890abcdef
+    cve: release_artifacts/x.y.z/exampleImagexyz-cve.txt
+    docker:
+    - sha: abcdef123456
+      tag: v1.0
+    - sha: 9876543210fedcba
+      tag: latest
+    name: exampleImagexyz
+    quay:
+    - sha: abcdef123456
+      tag: v1.0
+    - sha: 9876543210fedcba
+      tag: latest
+    sbom: release_artifacts/x.y.z/exampleImagexyz-sbom.txt
+  - build-logs: release_artifacts/x.y.z/x.y.z-buildLogs.log
+    commit: 0987654321fedcba
+    cve: release_artifacts/x.y.z/anotherImagexyz-cve.txt
+    docker:
+    - sha: 7890abcd1234
+      tag: v2.0
+    - sha: efedcba09876
+      tag: 2.1
+    name: anotherImagexyz
+    quay:
+    - sha: 7890abcd1234
+      tag: v2.0
+    - sha: efedcba09876
+      tag: 2.1
+    sbom: release_artifacts/x.y.z/anotherImagexyz-sbom.txt
+  release_name: x.y.z
