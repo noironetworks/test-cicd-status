@@ -1,9 +1,9 @@
 travis_fold:start:worker_info[0K[33;1mWorker information[0m
-hostname: f02d4a8c-0bbe-4105-8093-25214eeacb92@1.worker-com-76d7c77ffb-zv6f8.gce-production-1
+hostname: 85f7aaff-efbb-4010-a935-a3d8bc515659@1.worker-com-56bcc5cbcf-d9s8v.gce-production-2
 version: v6.2.24 https://github.com/travis-ci/worker/tree/ee57d650a7692c1ac03f74ac073d0fd150c9f030
-instance: travis-job-25028849-3844-4944-9a63-26eeb805e0c0 travis-ci-sardonyx-xenial-1684402799-0876f6f0 (via amqp)
-startup: 6.812297549s
-travis_fold:end:worker_info[0Ktravis_time:start:09dc3a6e[0Ktravis_time:end:09dc3a6e:start=1690506020037422725,finish=1690506020187738823,duration=150316098,event=no_world_writable_dirs[0Ktravis_time:start:094bf2ba[0Ktravis_time:end:094bf2ba:start=1690506020190455356,finish=1690506020193333716,duration=2878360,event=setup_filter[0Ktravis_time:start:1cce9f13[0Ktravis_time:end:1cce9f13:start=1690506020199154618,finish=1690506020207129510,duration=7974892,event=agent[0Ktravis_time:start:1e730bbd[0Ktravis_time:end:1e730bbd:start=1690506020209671007,finish=1690506020211681085,duration=2010078,event=check_unsupported[0Ktravis_time:start:277ae781[0Ktravis_fold:start:system_info[0K[33;1mBuild system information[0m
+instance: travis-job-e0b45d73-1c17-41e3-8c7e-b1ad1eee1343 travis-ci-sardonyx-xenial-1684402799-0876f6f0 (via amqp)
+startup: 6.249605556s
+travis_fold:end:worker_info[0Ktravis_time:start:159399c0[0Ktravis_time:end:159399c0:start=1690506398255011994,finish=1690506398403044097,duration=148032103,event=no_world_writable_dirs[0Ktravis_time:start:01627406[0Ktravis_time:end:01627406:start=1690506398405778618,finish=1690506398409007053,duration=3228435,event=setup_filter[0Ktravis_time:start:12fa1862[0Ktravis_time:end:12fa1862:start=1690506398413927538,finish=1690506398421538176,duration=7610638,event=agent[0Ktravis_time:start:12a8bccc[0Ktravis_time:end:12a8bccc:start=1690506398424155094,finish=1690506398426561817,duration=2406723,event=check_unsupported[0Ktravis_time:start:0375fb50[0Ktravis_fold:start:system_info[0K[33;1mBuild system information[0m
 Build language: python
 Build dist: xenial
 Build id: 264843764
@@ -168,13 +168,13 @@ ruby-2.7.6
 ruby-3.0.4
 ruby-3.1.2
 travis_fold:end:system_info[0K
-travis_time:end:277ae781:start=1690506020214287834,finish=1690506020221371263,duration=7083429,event=show_system_info[0Ktravis_time:start:01c642c8[0Ktravis_time:end:01c642c8:start=1690506020224048357,finish=1690506020251472920,duration=27424563,event=rm_riak_source[0Ktravis_time:start:0a596446[0Ktravis_time:end:0a596446:start=1690506020261844000,finish=1690506020287261686,duration=25417686,event=fix_rwky_redis[0Ktravis_time:start:16a21ef8[0Ktravis_time:end:16a21ef8:start=1690506020292422280,finish=1690506020992857317,duration=700435037,event=wait_for_network[0Ktravis_time:start:35127006[0Ktravis_time:end:35127006:start=1690506020996734778,finish=1690506021245588651,duration=248853873,event=update_apt_keys[0Ktravis_time:start:1a8406fc[0Ktravis_time:end:1a8406fc:start=1690506021250356299,finish=1690506021302766570,duration=52410271,event=fix_hhvm_source[0Ktravis_time:start:19572314[0Ktravis_time:end:19572314:start=1690506021307816605,finish=1690506021311085196,duration=3268591,event=update_mongo_arch[0Ktravis_time:start:13926d45[0Ktravis_time:end:13926d45:start=1690506021315502721,finish=1690506021355758168,duration=40255447,event=fix_sudo_enabled_trusty[0Ktravis_time:start:0b95f0b8[0Ktravis_time:end:0b95f0b8:start=1690506021360808425,finish=1690506021363363671,duration=2555246,event=update_glibc[0Ktravis_time:start:082039eb[0Ktravis_time:end:082039eb:start=1690506021367187404,finish=1690506021395170096,duration=27982692,event=clean_up_path[0Ktravis_time:start:0b4961e0[0Ktravis_time:end:0b4961e0:start=1690506021399955308,finish=1690506021409963287,duration=10007979,event=fix_etc_hosts[0Ktravis_time:start:1027f3f8[0Ktravis_time:end:1027f3f8:start=1690506021413583733,finish=1690506021421865767,duration=8282034,event=fix_mvn_settings_xml[0Ktravis_time:start:029f77bf[0Ktravis_time:end:029f77bf:start=1690506021425452041,finish=1690506021434998293,duration=9546252,event=no_ipv6_localhost[0Ktravis_time:start:1006f68e[0Ktravis_time:end:1006f68e:start=1690506021439817741,finish=1690506021442338552,duration=2520811,event=fix_etc_mavenrc[0Ktravis_time:start:01a50987[0Ktravis_time:end:01a50987:start=1690506021446634238,finish=1690506021450025617,duration=3391379,event=fix_wwdr_certificate[0Ktravis_time:start:0cf4ed60[0Ktravis_time:end:0cf4ed60:start=1690506021455049945,finish=1690506021479297149,duration=24247204,event=put_localhost_first[0Ktravis_time:start:1b8d10ae[0Ktravis_time:end:1b8d10ae:start=1690506021484435636,finish=1690506021487515692,duration=3080056,event=home_paths[0Ktravis_time:start:1147835d[0Ktravis_time:end:1147835d:start=1690506021492328444,finish=1690506021503881797,duration=11553353,event=disable_initramfs[0Ktravis_time:start:15b391b4[0Ktravis_time:end:15b391b4:start=1690506021507963557,finish=1690506021778583703,duration=270620146,event=disable_ssh_roaming[0Ktravis_time:start:22b4776d[0Ktravis_time:end:22b4776d:start=1690506021782984103,finish=1690506021785784328,duration=2800225,event=debug_tools[0Ktravis_time:start:059b75ce[0Ktravis_time:end:059b75ce:start=1690506021790585881,finish=1690506021794105470,duration=3519589,event=uninstall_oclint[0Ktravis_time:start:08e5568e[0Ktravis_time:end:08e5568e:start=1690506021799011500,finish=1690506021802525618,duration=3514118,event=rvm_use[0Ktravis_time:start:2285dff4[0Ktravis_time:end:2285dff4:start=1690506021806297057,finish=1690506021813916665,duration=7619608,event=rm_etc_boto_cfg[0Ktravis_time:start:13cc9daa[0Ktravis_time:end:13cc9daa:start=1690506021817414296,finish=1690506021820146055,duration=2731759,event=rm_oraclejdk8_symlink[0Ktravis_time:start:22955949[0Ktravis_time:end:22955949:start=1690506021825055039,finish=1690506021911404605,duration=86349566,event=enable_i386[0Ktravis_time:start:0d71243a[0Ktravis_time:end:0d71243a:start=1690506021916760013,finish=1690506021920491064,duration=3731051,event=update_rubygems[0Ktravis_time:start:13e06628[0Ktravis_time:end:13e06628:start=1690506021925479594,finish=1690506022817599896,duration=892120302,event=ensure_path_components[0Ktravis_time:start:0a1d88c8[0Ktravis_time:end:0a1d88c8:start=1690506022822908779,finish=1690506022825176449,duration=2267670,event=redefine_curl[0Ktravis_time:start:00608d69[0Ktravis_time:end:00608d69:start=1690506022829562570,finish=1690506022947176269,duration=117613699,event=nonblock_pipe[0Ktravis_time:start:1d3c2bb7[0Ktravis_time:end:1d3c2bb7:start=1690506022951721010,finish=1690506028982667236,duration=6030946226,event=apt_get_update[0Ktravis_time:start:1b90cf56[0Ktravis_time:end:1b90cf56:start=1690506028987911323,finish=1690506028990950550,duration=3039227,event=deprecate_xcode_64[0Ktravis_time:start:12a944d5[0Ktravis_time:end:12a944d5:start=1690506028994928671,finish=1690506032680144295,duration=3685215624,event=update_heroku[0Ktravis_time:start:168ad818[0Ktravis_time:end:168ad818:start=1690506032685666288,finish=1690506032688455898,duration=2789610,event=shell_session_update[0Ktravis_time:start:012e13ce[0Ktravis_fold:start:docker_mtu_and_registry_mirrors[0Ktravis_fold:end:docker_mtu_and_registry_mirrors[0Ktravis_time:end:012e13ce:start=1690506032693801777,finish=1690506035175755420,duration=2481953643,event=set_docker_mtu_and_registry_mirrors[0Ktravis_time:start:19b99b00[0Ktravis_fold:start:resolvconf[0Ktravis_fold:end:resolvconf[0Ktravis_time:end:19b99b00:start=1690506035189976536,finish=1690506035255343037,duration=65366501,event=resolvconf[0Ktravis_time:start:09848a60[0Ktravis_time:end:09848a60:start=1690506035265160934,finish=1690506035392067704,duration=126906770,event=maven_central_mirror[0Ktravis_time:start:1beea558[0Ktravis_time:end:1beea558:start=1690506035396914828,finish=1690506035485265468,duration=88350640,event=maven_https[0K[33;1m3.6 is not installed; attempting download[0m
+travis_time:end:0375fb50:start=1690506398429270638,finish=1690506398438942395,duration=9671757,event=show_system_info[0Ktravis_time:start:017b9661[0Ktravis_time:end:017b9661:start=1690506398442137565,finish=1690506398457445643,duration=15308078,event=rm_riak_source[0Ktravis_time:start:07c85f9e[0Ktravis_time:end:07c85f9e:start=1690506398461281302,finish=1690506398474064647,duration=12783345,event=fix_rwky_redis[0Ktravis_time:start:16a5fa8a[0Ktravis_time:end:16a5fa8a:start=1690506398497073655,finish=1690506399009666135,duration=512592480,event=wait_for_network[0Ktravis_time:start:08ca2a54[0Ktravis_time:end:08ca2a54:start=1690506399015722170,finish=1690506399255636455,duration=239914285,event=update_apt_keys[0Ktravis_time:start:034d51f8[0Ktravis_time:end:034d51f8:start=1690506399260366348,finish=1690506399311878585,duration=51512237,event=fix_hhvm_source[0Ktravis_time:start:36017640[0Ktravis_time:end:36017640:start=1690506399317184242,finish=1690506399320436498,duration=3252256,event=update_mongo_arch[0Ktravis_time:start:034b4aca[0Ktravis_time:end:034b4aca:start=1690506399323917303,finish=1690506399363725081,duration=39807778,event=fix_sudo_enabled_trusty[0Ktravis_time:start:29499a0b[0Ktravis_time:end:29499a0b:start=1690506399369473832,finish=1690506399372469961,duration=2996129,event=update_glibc[0Ktravis_time:start:21258e44[0Ktravis_time:end:21258e44:start=1690506399375990057,finish=1690506399407501511,duration=31511454,event=clean_up_path[0Ktravis_time:start:2604960a[0Ktravis_time:end:2604960a:start=1690506399413629702,finish=1690506399423922244,duration=10292542,event=fix_etc_hosts[0Ktravis_time:start:04f257e4[0Ktravis_time:end:04f257e4:start=1690506399429462676,finish=1690506399438013230,duration=8550554,event=fix_mvn_settings_xml[0Ktravis_time:start:00db1ee3[0Ktravis_time:end:00db1ee3:start=1690506399447122841,finish=1690506399457501369,duration=10378528,event=no_ipv6_localhost[0Ktravis_time:start:077f18c4[0Ktravis_time:end:077f18c4:start=1690506399461095530,finish=1690506399463301319,duration=2205789,event=fix_etc_mavenrc[0Ktravis_time:start:1911ca92[0Ktravis_time:end:1911ca92:start=1690506399470118745,finish=1690506399474053163,duration=3934418,event=fix_wwdr_certificate[0Ktravis_time:start:2f3f19f9[0Ktravis_time:end:2f3f19f9:start=1690506399480093013,finish=1690506399504395790,duration=24302777,event=put_localhost_first[0Ktravis_time:start:004ab958[0Ktravis_time:end:004ab958:start=1690506399510286533,finish=1690506399513306739,duration=3020206,event=home_paths[0Ktravis_time:start:1ab676e8[0Ktravis_time:end:1ab676e8:start=1690506399519433383,finish=1690506399532245283,duration=12811900,event=disable_initramfs[0Ktravis_time:start:03c738de[0Ktravis_time:end:03c738de:start=1690506399538368561,finish=1690506399820353914,duration=281985353,event=disable_ssh_roaming[0Ktravis_time:start:00b691f8[0Ktravis_time:end:00b691f8:start=1690506399826400180,finish=1690506399828865411,duration=2465231,event=debug_tools[0Ktravis_time:start:1223bb40[0Ktravis_time:end:1223bb40:start=1690506399834164931,finish=1690506399838056114,duration=3891183,event=uninstall_oclint[0Ktravis_time:start:06777981[0Ktravis_time:end:06777981:start=1690506399843445063,finish=1690506399846737297,duration=3292234,event=rvm_use[0Ktravis_time:start:0a657f9b[0Ktravis_time:end:0a657f9b:start=1690506399853762977,finish=1690506399861748094,duration=7985117,event=rm_etc_boto_cfg[0Ktravis_time:start:07843b3e[0Ktravis_time:end:07843b3e:start=1690506399866522893,finish=1690506399869607941,duration=3085048,event=rm_oraclejdk8_symlink[0Ktravis_time:start:2655ad22[0Ktravis_time:end:2655ad22:start=1690506399873407741,finish=1690506399961257011,duration=87849270,event=enable_i386[0Ktravis_time:start:1e4e97c7[0Ktravis_time:end:1e4e97c7:start=1690506399964983096,finish=1690506399968760129,duration=3777033,event=update_rubygems[0Ktravis_time:start:39778276[0Ktravis_time:end:39778276:start=1690506399972391843,finish=1690506400848219563,duration=875827720,event=ensure_path_components[0Ktravis_time:start:1c261829[0Ktravis_time:end:1c261829:start=1690506400853964867,finish=1690506400856854699,duration=2889832,event=redefine_curl[0Ktravis_time:start:38954b19[0Ktravis_time:end:38954b19:start=1690506400861788101,finish=1690506400973232308,duration=111444207,event=nonblock_pipe[0Ktravis_time:start:036830c4[0Ktravis_time:end:036830c4:start=1690506400978284601,finish=1690506407010166210,duration=6031881609,event=apt_get_update[0Ktravis_time:start:1a080079[0Ktravis_time:end:1a080079:start=1690506407015788257,finish=1690506407018095430,duration=2307173,event=deprecate_xcode_64[0Ktravis_time:start:158ea1ba[0Ktravis_time:end:158ea1ba:start=1690506407022576800,finish=1690506410633030169,duration=3610453369,event=update_heroku[0Ktravis_time:start:05ba0e76[0Ktravis_time:end:05ba0e76:start=1690506410637874701,finish=1690506410641332202,duration=3457501,event=shell_session_update[0Ktravis_time:start:260445d8[0Ktravis_fold:start:docker_mtu_and_registry_mirrors[0Ktravis_fold:end:docker_mtu_and_registry_mirrors[0Ktravis_time:end:260445d8:start=1690506410645878158,finish=1690506413059168219,duration=2413290061,event=set_docker_mtu_and_registry_mirrors[0Ktravis_time:start:242db644[0Ktravis_fold:start:resolvconf[0Ktravis_fold:end:resolvconf[0Ktravis_time:end:242db644:start=1690506413067118344,finish=1690506413129192779,duration=62074435,event=resolvconf[0Ktravis_time:start:065904f8[0Ktravis_time:end:065904f8:start=1690506413136889878,finish=1690506413264528458,duration=127638580,event=maven_central_mirror[0Ktravis_time:start:06bf5c40[0Ktravis_time:end:06bf5c40:start=1690506413271362963,finish=1690506413359858663,duration=88495700,event=maven_https[0K[33;1m3.6 is not installed; attempting download[0m
 [33;1mDownloading archive: https://storage.googleapis.com/travis-ci-language-archives/python/binaries/ubuntu/16.04/x86_64/python-3.6.tar.bz2[0m
-travis_time:start:036e4d50[0K$ curl -sSf --retry 5 -o python-3.6.tar.bz2 ${archive_url}
-travis_time:end:036e4d50:start=1690506035583525394,finish=1690506036215369855,duration=631844461,event=configure[0Ktravis_time:start:005b0d48[0K$ sudo tar xjf python-3.6.tar.bz2 --directory /
-travis_time:end:005b0d48:start=1690506036221981237,finish=1690506046100036009,duration=9878054772,event=configure[0Ktravis_time:start:01a20320[0Ktravis_fold:start:services[0Ktravis_time:start:02f56110[0K$ sudo systemctl start docker
-travis_time:end:02f56110:start=1690506046124773742,finish=1690506046135628371,duration=10854629,event=prepare[0Ktravis_fold:end:services[0Ktravis_time:end:02f56110:start=1690506046124773742,finish=1690506049142483594,duration=3017709852,event=services[0Ktravis_time:start:219de58e[0Ktravis_time:end:219de58e:start=1690506049150344046,finish=1690506049152651099,duration=2307053,event=fix_ps4[0Ktravis_time:start:00a9a112[0K
-travis_fold:start:git.checkout[0Ktravis_time:start:1a841868[0Ktravis_time:end:1a841868:start=1690506049162237029,finish=1690506049167233504,duration=4996475,event=checkout[0Ktravis_time:start:06d6122f[0K$ git clone --depth=50 --branch=6.0.3.1.test-cicd https://github.com/noironetworks/acc-provision-operator.git noironetworks/acc-provision-operator
+travis_time:start:07f9b440[0K$ curl -sSf --retry 5 -o python-3.6.tar.bz2 ${archive_url}
+travis_time:end:07f9b440:start=1690506413442074679,finish=1690506413962748769,duration=520674090,event=configure[0Ktravis_time:start:024ee818[0K$ sudo tar xjf python-3.6.tar.bz2 --directory /
+travis_time:end:024ee818:start=1690506413971804871,finish=1690506423963664090,duration=9991859219,event=configure[0Ktravis_time:start:0f51b64c[0Ktravis_fold:start:services[0Ktravis_time:start:0b96bf92[0K$ sudo systemctl start docker
+travis_time:end:0b96bf92:start=1690506423989471671,finish=1690506424002393234,duration=12921563,event=prepare[0Ktravis_fold:end:services[0Ktravis_time:end:0b96bf92:start=1690506423989471671,finish=1690506427010137942,duration=3020666271,event=services[0Ktravis_time:start:297a2d2f[0Ktravis_time:end:297a2d2f:start=1690506427014161095,finish=1690506427016833230,duration=2672135,event=fix_ps4[0Ktravis_time:start:1ddb0c70[0K
+travis_fold:start:git.checkout[0Ktravis_time:start:30ff0cc0[0Ktravis_time:end:30ff0cc0:start=1690506427024530049,finish=1690506427032341763,duration=7811714,event=checkout[0Ktravis_time:start:0522ea66[0K$ git clone --depth=50 --branch=6.0.3.1.test-cicd https://github.com/noironetworks/acc-provision-operator.git noironetworks/acc-provision-operator
 Cloning into 'noironetworks/acc-provision-operator'...
 Note: switching to 'b1c012c509019f467c7223d485c229ffe9c80071'.
 
@@ -193,10 +193,10 @@ Or undo this operation with:
 
 Turn off this advice by setting config variable advice.detachedHead to false
 
-travis_time:end:06d6122f:start=1690506049171934197,finish=1690506050286130319,duration=1114196122,event=checkout[0K$ cd noironetworks/acc-provision-operator
+travis_time:end:0522ea66:start=1690506427037635314,finish=1690506428136657012,duration=1099021698,event=checkout[0K$ cd noironetworks/acc-provision-operator
 $ git checkout -qf 6.0.3.1.test-cicd
 travis_fold:end:git.checkout[0K
-travis_time:end:06d6122f:start=1690506049171934197,finish=1690506050519787617,duration=1347853420,event=checkout[0Ktravis_time:start:01e1e110[0K
+travis_time:end:0522ea66:start=1690506427037635314,finish=1690506428366998176,duration=1329362862,event=checkout[0Ktravis_time:start:109e3dd4[0K
 [33;1mSetting environment variables from repository settings[0m
 $ export TRAVIS_TAGGER=[secure]
 $ export QUAY_TRAVIS_NOIRO_ROBO_USER=[secure]
@@ -209,12 +209,12 @@ $ export GIT_USER=[secure]
 $ export GIT_TOKEN=[secure]
 $ export GIT_EMAIL=[secure]
 
-travis_time:end:01e1e110:start=1690506050525072593,finish=1690506050555868575,duration=30795982,event=env[0Ktravis_time:start:0d754510[0K$ source ~/virtualenv/python3.6/bin/activate
-travis_time:end:0d754510:start=1690506050564654014,finish=1690506050574829896,duration=10175882,event=[0K$ python --version
+travis_time:end:109e3dd4:start=1690506428375163044,finish=1690506428389008385,duration=13845341,event=env[0Ktravis_time:start:1b48b2e4[0K$ source ~/virtualenv/python3.6/bin/activate
+travis_time:end:1b48b2e4:start=1690506428393862334,finish=1690506428400052427,duration=6190093,event=[0K$ python --version
 Python 3.6.9
 $ pip --version
 pip 21.3.1 from /home/travis/virtualenv/python3.6.9/lib/python3.6/site-packages/pip (python 3.6)
-travis_fold:start:install[0Ktravis_time:start:0e52baf0[0K$ pip3 install docker molecule openshift jmespath pyyaml
+travis_fold:start:install[0Ktravis_time:start:01d9caa8[0K$ pip3 install docker molecule openshift jmespath pyyaml
 Collecting docker
   Downloading docker-5.0.3-py2.py3-none-any.whl (146 kB)
 Collecting molecule
@@ -225,78 +225,78 @@ Collecting jmespath
   Downloading jmespath-0.10.0-py2.py3-none-any.whl (24 kB)
 Collecting pyyaml
   Downloading PyYAML-6.0.1-cp36-cp36m-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (677 kB)
-Collecting requests!=2.18.0,>=2.14.2
-  Downloading requests-2.27.1-py2.py3-none-any.whl (63 kB)
 Collecting websocket-client>=0.32.0
   Downloading websocket_client-1.3.1-py3-none-any.whl (54 kB)
-Collecting Jinja2>=2.11.3
-  Downloading Jinja2-3.0.3-py3-none-any.whl (133 kB)
-Requirement already satisfied: dataclasses in /home/travis/virtualenv/python3.6.9/lib/python3.6/site-packages (from molecule) (0.8)
+Collecting requests!=2.18.0,>=2.14.2
+  Downloading requests-2.27.1-py2.py3-none-any.whl (63 kB)
+Collecting enrich>=1.2.7
+  Downloading enrich-1.2.7-py3-none-any.whl (8.7 kB)
+Collecting click-help-colors>=0.9
+  Downloading click_help_colors-0.9.1-py3-none-any.whl (5.5 kB)
+Collecting paramiko<3,>=2.5.0
+  Downloading paramiko-2.12.0-py2.py3-none-any.whl (213 kB)
+Collecting click<9,>=8.0
+  Downloading click-8.0.4-py3-none-any.whl (97 kB)
+Collecting rich>=9.5.1
+  Downloading rich-12.6.0-py3-none-any.whl (237 kB)
 Collecting cerberus!=1.3.3,!=1.3.4,>=1.3.1
   Downloading Cerberus-1.3.2.tar.gz (52 kB)
   Preparing metadata (setup.py): started
   Preparing metadata (setup.py): finished with status 'done'
-Collecting rich>=9.5.1
-  Downloading rich-12.6.0-py3-none-any.whl (237 kB)
-Collecting cookiecutter>=1.7.3
-  Downloading cookiecutter-1.7.3-py2.py3-none-any.whl (34 kB)
-Collecting click<9,>=8.0
-  Downloading click-8.0.4-py3-none-any.whl (97 kB)
+Requirement already satisfied: packaging in /home/travis/virtualenv/python3.6.9/lib/python3.6/site-packages (from molecule) (21.3)
+Requirement already satisfied: pluggy<2.0,>=0.7.1 in /home/travis/virtualenv/python3.6.9/lib/python3.6/site-packages (from molecule) (1.0.0)
 Collecting ansible-compat>=1.0.0
   Downloading ansible_compat-1.0.0-py3-none-any.whl (16 kB)
-Requirement already satisfied: pluggy<2.0,>=0.7.1 in /home/travis/virtualenv/python3.6.9/lib/python3.6/site-packages (from molecule) (1.0.0)
-Collecting enrich>=1.2.7
-  Downloading enrich-1.2.7-py3-none-any.whl (8.7 kB)
 Requirement already satisfied: importlib-metadata in /home/travis/virtualenv/python3.6.9/lib/python3.6/site-packages (from molecule) (4.8.3)
-Collecting paramiko<3,>=2.5.0
-  Downloading paramiko-2.12.0-py2.py3-none-any.whl (213 kB)
-Collecting click-help-colors>=0.9
-  Downloading click_help_colors-0.9.1-py3-none-any.whl (5.5 kB)
-Requirement already satisfied: packaging in /home/travis/virtualenv/python3.6.9/lib/python3.6/site-packages (from molecule) (21.3)
+Requirement already satisfied: dataclasses in /home/travis/virtualenv/python3.6.9/lib/python3.6/site-packages (from molecule) (0.8)
+Collecting Jinja2>=2.11.3
+  Downloading Jinja2-3.0.3-py3-none-any.whl (133 kB)
+Collecting cookiecutter>=1.7.3
+  Downloading cookiecutter-1.7.3-py2.py3-none-any.whl (34 kB)
+Collecting python-string-utils
+  Downloading python_string_utils-1.0.0-py3-none-any.whl (26 kB)
 Collecting kubernetes>=12.0
   Downloading kubernetes-27.2.0-py2.py3-none-any.whl (1.5 MB)
 Collecting six
   Downloading six-1.16.0-py2.py3-none-any.whl (11 kB)
-Collecting python-string-utils
-  Downloading python_string_utils-1.0.0-py3-none-any.whl (26 kB)
 Collecting subprocess-tee>=0.3.5
   Downloading subprocess_tee-0.3.5-py3-none-any.whl (8.0 kB)
 Collecting cached-property~=1.5
   Downloading cached_property-1.5.2-py2.py3-none-any.whl (7.6 kB)
 Requirement already satisfied: setuptools in /home/travis/virtualenv/python3.6.9/lib/python3.6/site-packages (from cerberus!=1.3.3,!=1.3.4,>=1.3.1->molecule) (59.6.0)
-Collecting jinja2-time>=0.2.0
-  Downloading jinja2_time-0.2.0-py2.py3-none-any.whl (6.4 kB)
-Collecting binaryornot>=0.4.4
-  Downloading binaryornot-0.4.4-py2.py3-none-any.whl (9.0 kB)
-Collecting poyo>=0.5.0
-  Downloading poyo-0.5.0-py2.py3-none-any.whl (10 kB)
 Collecting python-slugify>=4.0.0
   Downloading python_slugify-6.1.2-py2.py3-none-any.whl (9.4 kB)
+Collecting poyo>=0.5.0
+  Downloading poyo-0.5.0-py2.py3-none-any.whl (10 kB)
+Collecting binaryornot>=0.4.4
+  Downloading binaryornot-0.4.4-py2.py3-none-any.whl (9.0 kB)
+Collecting jinja2-time>=0.2.0
+  Downloading jinja2_time-0.2.0-py2.py3-none-any.whl (6.4 kB)
 Collecting MarkupSafe>=2.0
   Downloading MarkupSafe-2.0.1-cp36-cp36m-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_12_x86_64.manylinux2010_x86_64.whl (30 kB)
-Collecting oauthlib>=3.2.2
-  Downloading oauthlib-3.2.2-py3-none-any.whl (151 kB)
-Requirement already satisfied: certifi>=14.05.14 in /home/travis/virtualenv/python3.6.9/lib/python3.6/site-packages (from kubernetes>=12.0->openshift) (2022.6.15)
-Collecting urllib3>=1.24.2
-  Downloading urllib3-1.26.16-py2.py3-none-any.whl (143 kB)
-Collecting google-auth>=1.0.1
-  Downloading google_auth-2.22.0-py2.py3-none-any.whl (181 kB)
 Collecting python-dateutil>=2.5.3
   Downloading python_dateutil-2.8.2-py2.py3-none-any.whl (247 kB)
+Collecting google-auth>=1.0.1
+  Downloading google_auth-2.22.0-py2.py3-none-any.whl (181 kB)
+Requirement already satisfied: certifi>=14.05.14 in /home/travis/virtualenv/python3.6.9/lib/python3.6/site-packages (from kubernetes>=12.0->openshift) (2022.6.15)
+Collecting oauthlib>=3.2.2
+  Downloading oauthlib-3.2.2-py3-none-any.whl (151 kB)
+Collecting urllib3>=1.24.2
+  Downloading urllib3-1.26.16-py2.py3-none-any.whl (143 kB)
 Collecting requests-oauthlib
   Downloading requests_oauthlib-1.3.1-py2.py3-none-any.whl (23 kB)
 Collecting pynacl>=1.0.1
   Downloading PyNaCl-1.5.0-cp36-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (1.1 MB)
-Collecting cryptography>=2.5
-  Downloading cryptography-40.0.2-cp36-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (3.7 MB)
 Collecting bcrypt>=3.1.3
   Downloading bcrypt-4.0.1-cp36-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (593 kB)
-Requirement already satisfied: zipp>=0.5 in /home/travis/virtualenv/python3.6.9/lib/python3.6/site-packages (from importlib-metadata->molecule) (3.6.0)
+Collecting cryptography>=2.5
+  Downloading cryptography-40.0.2-cp36-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (3.7 MB)
 Requirement already satisfied: typing-extensions>=3.6.4 in /home/travis/virtualenv/python3.6.9/lib/python3.6/site-packages (from importlib-metadata->molecule) (4.1.1)
-Collecting charset-normalizer~=2.0.0
-  Downloading charset_normalizer-2.0.12-py3-none-any.whl (39 kB)
+Requirement already satisfied: zipp>=0.5 in /home/travis/virtualenv/python3.6.9/lib/python3.6/site-packages (from importlib-metadata->molecule) (3.6.0)
 Collecting idna<4,>=2.5
   Downloading idna-3.4-py3-none-any.whl (61 kB)
+Collecting charset-normalizer~=2.0.0
+  Downloading charset_normalizer-2.0.12-py3-none-any.whl (39 kB)
 Collecting pygments<3.0.0,>=2.6.0
   Downloading Pygments-2.14.0-py3-none-any.whl (1.1 MB)
 Collecting commonmark<0.10.0,>=0.9.0
@@ -308,10 +308,10 @@ Collecting cffi>=1.12
   Downloading cffi-1.15.1-cp36-cp36m-manylinux_2_5_x86_64.manylinux1_x86_64.whl (402 kB)
 Collecting pyasn1-modules>=0.2.1
   Downloading pyasn1_modules-0.3.0-py2.py3-none-any.whl (181 kB)
-Collecting cachetools<6.0,>=2.0.0
-  Downloading cachetools-4.2.4-py3-none-any.whl (10 kB)
 Collecting rsa<5,>=3.1.4
   Downloading rsa-4.9-py3-none-any.whl (34 kB)
+Collecting cachetools<6.0,>=2.0.0
+  Downloading cachetools-4.2.4-py3-none-any.whl (10 kB)
 Collecting arrow
   Downloading arrow-1.2.3-py3-none-any.whl (66 kB)
 Collecting text-unidecode>=1.3
@@ -323,23 +323,23 @@ Collecting pyasn1<0.6.0,>=0.4.6
 Building wheels for collected packages: cerberus
   Building wheel for cerberus (setup.py): started
   Building wheel for cerberus (setup.py): finished with status 'done'
-  Created wheel for cerberus: filename=Cerberus-1.3.2-py3-none-any.whl size=54356 sha256=941ea06cb78b8a027f60cecc579be4e453c43669ccad4b59a0a1f9e6e4615a53
+  Created wheel for cerberus: filename=Cerberus-1.3.2-py3-none-any.whl size=54356 sha256=495ce615c2d545232364f63e068f0cdb41472e85caaddb3baf110f3536336b07
   Stored in directory: /home/travis/.cache/pip/wheels/57/73/88/653dda2eaa03ee38e7ab10f48ddaadd192fadda426bb5c0bdf
 Successfully built cerberus
 Installing collected packages: six, urllib3, python-dateutil, pycparser, pyasn1, MarkupSafe, idna, charset-normalizer, text-unidecode, rsa, requests, pygments, pyasn1-modules, oauthlib, Jinja2, commonmark, chardet, cffi, cachetools, arrow, websocket-client, subprocess-tee, rich, requests-oauthlib, pyyaml, python-slugify, pynacl, poyo, jinja2-time, google-auth, cryptography, click, cached-property, binaryornot, bcrypt, python-string-utils, paramiko, kubernetes, enrich, cookiecutter, click-help-colors, cerberus, ansible-compat, openshift, molecule, jmespath, docker
 Successfully installed Jinja2-3.0.3 MarkupSafe-2.0.1 ansible-compat-1.0.0 arrow-1.2.3 bcrypt-4.0.1 binaryornot-0.4.4 cached-property-1.5.2 cachetools-4.2.4 cerberus-1.3.2 cffi-1.15.1 chardet-5.0.0 charset-normalizer-2.0.12 click-8.0.4 click-help-colors-0.9.1 commonmark-0.9.1 cookiecutter-1.7.3 cryptography-40.0.2 docker-5.0.3 enrich-1.2.7 google-auth-2.22.0 idna-3.4 jinja2-time-0.2.0 jmespath-0.10.0 kubernetes-27.2.0 molecule-3.6.1 oauthlib-3.2.2 openshift-0.13.2 paramiko-2.12.0 poyo-0.5.0 pyasn1-0.5.0 pyasn1-modules-0.3.0 pycparser-2.21 pygments-2.14.0 pynacl-1.5.0 python-dateutil-2.8.2 python-slugify-6.1.2 python-string-utils-1.0.0 pyyaml-6.0.1 requests-2.27.1 requests-oauthlib-1.3.1 rich-12.6.0 rsa-4.9 six-1.16.0 subprocess-tee-0.3.5 text-unidecode-1.3 urllib3-1.26.16 websocket-client-1.3.1
-travis_time:end:0e52baf0:start=1690506050893872068,finish=1690506063329577988,duration=12435705920,event=install[0Ktravis_fold:end:install[0Ktravis_fold:start:before_script.1[0Ktravis_time:start:02a38574[0K$ export DOCKER_BUILDKIT=1
-travis_time:end:02a38574:start=1690506063334701270,finish=1690506063337855353,duration=3154083,event=before_script[0Ktravis_fold:end:before_script.1[0Ktravis_fold:start:before_script.2[0Ktravis_time:start:016ae2cc[0K$ export RELEASE_TAG=6.0.3.1
-travis_time:end:016ae2cc:start=1690506063342629038,finish=1690506063345701310,duration=3072272,event=before_script[0Ktravis_fold:end:before_script.2[0Ktravis_fold:start:before_script.3[0Ktravis_time:start:110643dc[0K$ export UPSTREAM_ID=81c2369
-travis_time:end:110643dc:start=1690506063350417063,finish=1690506063353612662,duration=3195599,event=before_script[0Ktravis_fold:end:before_script.3[0Ktravis_fold:start:before_script.4[0Ktravis_time:start:108df620[0K$ export EXPECTED_TAG_PREFIX=${RELEASE_TAG}
-travis_time:end:108df620:start=1690506063358231863,finish=1690506063361301381,duration=3069518,event=before_script[0Ktravis_fold:end:before_script.4[0Ktravis_time:start:0a6531b0[0K$ echo "Skip running UTs"
+travis_time:end:01d9caa8:start=1690506428712620011,finish=1690506440815073475,duration=12102453464,event=install[0Ktravis_fold:end:install[0Ktravis_fold:start:before_script.1[0Ktravis_time:start:0c8ba0e8[0K$ export DOCKER_BUILDKIT=1
+travis_time:end:0c8ba0e8:start=1690506440822743640,finish=1690506440825627264,duration=2883624,event=before_script[0Ktravis_fold:end:before_script.1[0Ktravis_fold:start:before_script.2[0Ktravis_time:start:269f072e[0K$ export RELEASE_TAG=6.0.3.1
+travis_time:end:269f072e:start=1690506440831818476,finish=1690506440834950600,duration=3132124,event=before_script[0Ktravis_fold:end:before_script.2[0Ktravis_fold:start:before_script.3[0Ktravis_time:start:065f4f3c[0K$ export UPSTREAM_ID=81c2369
+travis_time:end:065f4f3c:start=1690506440841234817,finish=1690506440843851078,duration=2616261,event=before_script[0Ktravis_fold:end:before_script.3[0Ktravis_fold:start:before_script.4[0Ktravis_time:start:08886560[0K$ export EXPECTED_TAG_PREFIX=${RELEASE_TAG}
+travis_time:end:08886560:start=1690506440853203062,finish=1690506440856984307,duration=3781245,event=before_script[0Ktravis_fold:end:before_script.4[0Ktravis_time:start:1aa5e4ee[0K$ echo "Skip running UTs"
 Skip running UTs
-travis_time:end:0a6531b0:start=1690506063365855375,finish=1690506063368862743,duration=3007368,event=script[0K[32;1mThe command "echo "Skip running UTs"" exited with 0.[0m
-travis_time:start:35899af0[0K$ git clone http://www.github.com/noironetworks/cicd -b test-cicd /tmp/cicd
+travis_time:end:1aa5e4ee:start=1690506440865550710,finish=1690506440869624947,duration=4074237,event=script[0K[32;1mThe command "echo "Skip running UTs"" exited with 0.[0m
+travis_time:start:0c69abe3[0K$ git clone http://www.github.com/noironetworks/cicd -b test-cicd /tmp/cicd
 Cloning into '/tmp/cicd'...
 warning: redirecting to https://github.com/noironetworks/cicd.git/
-travis_time:end:35899af0:start=1690506063373557241,finish=1690506063951379113,duration=577821872,event=script[0K[32;1mThe command "git clone http://www.github.com/noironetworks/cicd -b test-cicd /tmp/cicd" exited with 0.[0m
-travis_time:start:252add4e[0K$ /tmp/cicd/travis/build-push-acc-provision-operator-image.sh || travis_terminate 1
+travis_time:end:0c69abe3:start=1690506440880010593,finish=1690506441518080394,duration=638069801,event=script[0K[32;1mThe command "git clone http://www.github.com/noironetworks/cicd -b test-cicd /tmp/cicd" exited with 0.[0m
+travis_time:start:003e6bae[0K$ /tmp/cicd/travis/build-push-acc-provision-operator-image.sh || travis_terminate 1
 ++dirname /tmp/cicd/travis/build-push-acc-provision-operator-image.sh
 +SCRIPTS_DIR=/tmp/cicd/travis
 +source /tmp/cicd/travis/globals.sh
@@ -370,64 +370,70 @@ Date:   Tue Jul 25 17:16:36 2023 -0700
 +OTHER_IMAGE_TAGS=6.0.3.1.test-cicd.81c2369,6.0.3.1.test-cicd.81c2369.072823.455
 +docker build -t quay.io/noirolabs/acc-provision-operator:6.0.3.1.test-cicd.81c2369 --file=Dockerfile .
 #1 [internal] load build definition from Dockerfile
-#1 sha256:49f4744a7d938378e29a2b5058693589a59875c89576f34a6c6fcff80fffbe86
+#1 sha256:6f2f55c350981eb8cdc91e3cbfa3595c759ee4108143d335656e7fb4f41810fc
 #1 transferring dockerfile: 1.12kB done
 #1 DONE 0.0s
 
 #2 [internal] load .dockerignore
-#2 sha256:65aef72a0ee0fe1f7181cf2b4b4a5d2b86aa415ec78fba8a04b63f596035abe5
+#2 sha256:798999da8ba4f95620a65d6e6f1c243d97cc271d1f12c8c62f3b43120987fed1
 #2 transferring context: 2B done
 #2 DONE 0.0s
 
 #3 [internal] load metadata for quay.io/operator-framework/ansible-operator:latest
 #3 sha256:19ced71c0529b375f94920309431647e58c68dba63c3de217d08cba4d6dbfa9f
-#3 DONE 0.6s
+#3 DONE 0.5s
 
 #5 [internal] load build context
-#5 sha256:f1a52c27c9a954a4bab3fa3475b4df087aef858b0ae736069fd904525eb8c5ff
+#5 sha256:136b5ec5d4e2e0aaf886bdb93e93e070131cef9d3534d9f52152c1bdda4d7533
 #5 transferring context: 7.42kB done
 #5 DONE 0.0s
 
 #4 [ 1/11] FROM quay.io/operator-framework/ansible-operator:latest@sha256:0fb346fdc395bcf5be4154628a7b3fe8e193a0c2fcee51824e44f11551331f8a
 #4 sha256:376202c314e50a58547e7982cf00a4a8fbd5a8635f76130dee79547eaf4c9a04
 #4 resolve quay.io/operator-framework/ansible-operator:latest@sha256:0fb346fdc395bcf5be4154628a7b3fe8e193a0c2fcee51824e44f11551331f8a done
-#4 sha256:6c53be4efe39270422e3e2f7ee1c15887955e3d5e378ea6577c622f358f87691 0B / 79.29MB 0.2s
-#4 sha256:72ca3ec4400f027d616983e8a29f7b622b81b0a27da3fa0c9bc8a15abf591286 0B / 258B 0.2s
-#4 sha256:ee229233a41330fd04955edf3ba628d81a44446edd5bcc3205d777ac9686cec3 0B / 44.09MB 0.2s
-#4 sha256:0fb346fdc395bcf5be4154628a7b3fe8e193a0c2fcee51824e44f11551331f8a 1.25kB / 1.25kB done
-#4 sha256:d0cfa04b4f6f3cb9e3f70beb3e9a9c7555bd3ee1e6f6f28811861f0d3216f245 2.27kB / 2.27kB done
 #4 sha256:4b81dfebff446335c7920b9e02ab56b791c5aca88a4476a5dc86ced37a42e837 11.60kB / 11.60kB done
-#4 sha256:6c53be4efe39270422e3e2f7ee1c15887955e3d5e378ea6577c622f358f87691 5.24MB / 79.29MB 0.3s
+#4 sha256:d0cfa04b4f6f3cb9e3f70beb3e9a9c7555bd3ee1e6f6f28811861f0d3216f245 2.27kB / 2.27kB done
+#4 sha256:6c53be4efe39270422e3e2f7ee1c15887955e3d5e378ea6577c622f358f87691 0B / 79.29MB 0.1s
+#4 sha256:72ca3ec4400f027d616983e8a29f7b622b81b0a27da3fa0c9bc8a15abf591286 0B / 258B 0.1s
+#4 sha256:ee229233a41330fd04955edf3ba628d81a44446edd5bcc3205d777ac9686cec3 0B / 44.09MB 0.1s
+#4 sha256:6c53be4efe39270422e3e2f7ee1c15887955e3d5e378ea6577c622f358f87691 4.19MB / 79.29MB 0.2s
+#4 sha256:0fb346fdc395bcf5be4154628a7b3fe8e193a0c2fcee51824e44f11551331f8a 1.25kB / 1.25kB done
+#4 sha256:6c53be4efe39270422e3e2f7ee1c15887955e3d5e378ea6577c622f358f87691 20.12MB / 79.29MB 0.3s
 #4 sha256:72ca3ec4400f027d616983e8a29f7b622b81b0a27da3fa0c9bc8a15abf591286 258B / 258B 0.2s done
 #4 sha256:82f04b121ea21206a69ac160f78095cc3d9aeda79331bdcc90743fcd5dd20baf 0B / 6.12MB 0.3s
-#4 sha256:6c53be4efe39270422e3e2f7ee1c15887955e3d5e378ea6577c622f358f87691 20.97MB / 79.29MB 0.4s
-#4 sha256:6c53be4efe39270422e3e2f7ee1c15887955e3d5e378ea6577c622f358f87691 48.23MB / 79.29MB 0.6s
-#4 sha256:ee229233a41330fd04955edf3ba628d81a44446edd5bcc3205d777ac9686cec3 18.87MB / 44.09MB 0.6s
+#4 sha256:6c53be4efe39270422e3e2f7ee1c15887955e3d5e378ea6577c622f358f87691 46.60MB / 79.29MB 0.5s
+#4 sha256:ee229233a41330fd04955edf3ba628d81a44446edd5bcc3205d777ac9686cec3 22.02MB / 44.09MB 0.5s
 #4 sha256:82f04b121ea21206a69ac160f78095cc3d9aeda79331bdcc90743fcd5dd20baf 6.12MB / 6.12MB 0.5s done
-#4 sha256:ef6ed2ebdfc2767161373a225e61be7c234a4269bad2466649b0472e4928f9bc 0B / 23.20MB 0.6s
-#4 sha256:6c53be4efe39270422e3e2f7ee1c15887955e3d5e378ea6577c622f358f87691 59.77MB / 79.29MB 0.7s
-#4 sha256:ee229233a41330fd04955edf3ba628d81a44446edd5bcc3205d777ac9686cec3 28.31MB / 44.09MB 0.7s
-#4 sha256:ef6ed2ebdfc2767161373a225e61be7c234a4269bad2466649b0472e4928f9bc 8.39MB / 23.20MB 0.7s
-#4 sha256:6c53be4efe39270422e3e2f7ee1c15887955e3d5e378ea6577c622f358f87691 73.40MB / 79.29MB 0.9s
-#4 sha256:ee229233a41330fd04955edf3ba628d81a44446edd5bcc3205d777ac9686cec3 44.09MB / 44.09MB 0.9s
-#4 sha256:ef6ed2ebdfc2767161373a225e61be7c234a4269bad2466649b0472e4928f9bc 23.20MB / 23.20MB 0.9s done
-#4 sha256:6c53be4efe39270422e3e2f7ee1c15887955e3d5e378ea6577c622f358f87691 79.29MB / 79.29MB 1.2s
-#4 sha256:ee229233a41330fd04955edf3ba628d81a44446edd5bcc3205d777ac9686cec3 44.09MB / 44.09MB 1.0s done
-#4 sha256:4416c4cd6b88ec88992c058f710f63929e244aa5fb7b1ddc02c24b15364aba09 0B / 6.22kB 1.2s
-#4 sha256:6c53be4efe39270422e3e2f7ee1c15887955e3d5e378ea6577c622f358f87691 79.29MB / 79.29MB 1.4s done
-#4 sha256:7020ac1190ec47d8a2068da7ee8d3c790146c4d6de8be43bf8cccfabddb8b3b5 0B / 9.46kB 1.4s
-#4 sha256:dcca45adbdafd7a4b891640640f1dab0746e5dd038469d5bcb45654dc40ffe79 0B / 574B 1.4s
-#4 extracting sha256:6c53be4efe39270422e3e2f7ee1c15887955e3d5e378ea6577c622f358f87691
-#4 sha256:4416c4cd6b88ec88992c058f710f63929e244aa5fb7b1ddc02c24b15364aba09 6.22kB / 6.22kB 1.5s done
-#4 sha256:4f4fb700ef54461cfa02571ae0db9a0dc1e0cdb5577484a6d75e68dc38e8acc1 0B / 32B 1.5s
-#4 sha256:7020ac1190ec47d8a2068da7ee8d3c790146c4d6de8be43bf8cccfabddb8b3b5 9.46kB / 9.46kB 1.6s done
+#4 sha256:ef6ed2ebdfc2767161373a225e61be7c234a4269bad2466649b0472e4928f9bc 0B / 23.20MB 0.5s
+#4 sha256:6c53be4efe39270422e3e2f7ee1c15887955e3d5e378ea6577c622f358f87691 57.67MB / 79.29MB 0.6s
+#4 sha256:ee229233a41330fd04955edf3ba628d81a44446edd5bcc3205d777ac9686cec3 33.85MB / 44.09MB 0.6s
+#4 sha256:6c53be4efe39270422e3e2f7ee1c15887955e3d5e378ea6577c622f358f87691 79.29MB / 79.29MB 0.8s
+#4 sha256:ee229233a41330fd04955edf3ba628d81a44446edd5bcc3205d777ac9686cec3 44.09MB / 44.09MB 0.8s
+#4 sha256:ef6ed2ebdfc2767161373a225e61be7c234a4269bad2466649b0472e4928f9bc 8.39MB / 23.20MB 0.8s
+#4 sha256:ee229233a41330fd04955edf3ba628d81a44446edd5bcc3205d777ac9686cec3 44.09MB / 44.09MB 0.8s done
+#4 sha256:ef6ed2ebdfc2767161373a225e61be7c234a4269bad2466649b0472e4928f9bc 16.78MB / 23.20MB 0.9s
+#4 sha256:4416c4cd6b88ec88992c058f710f63929e244aa5fb7b1ddc02c24b15364aba09 0B / 6.22kB 0.9s
+#4 sha256:ef6ed2ebdfc2767161373a225e61be7c234a4269bad2466649b0472e4928f9bc 23.20MB / 23.20MB 1.1s
+#4 sha256:4416c4cd6b88ec88992c058f710f63929e244aa5fb7b1ddc02c24b15364aba09 6.22kB / 6.22kB 1.1s
+#4 sha256:6c53be4efe39270422e3e2f7ee1c15887955e3d5e378ea6577c622f358f87691 79.29MB / 79.29MB 1.1s done
+#4 sha256:4416c4cd6b88ec88992c058f710f63929e244aa5fb7b1ddc02c24b15364aba09 6.22kB / 6.22kB 1.1s done
+#4 sha256:dcca45adbdafd7a4b891640640f1dab0746e5dd038469d5bcb45654dc40ffe79 0B / 574B 1.2s
+#4 sha256:ef6ed2ebdfc2767161373a225e61be7c234a4269bad2466649b0472e4928f9bc 23.20MB / 23.20MB 1.2s done
+#4 extracting sha256:6c53be4efe39270422e3e2f7ee1c15887955e3d5e378ea6577c622f358f87691 0.1s
+#4 sha256:7020ac1190ec47d8a2068da7ee8d3c790146c4d6de8be43bf8cccfabddb8b3b5 0B / 9.46kB 1.3s
+#4 sha256:4f4fb700ef54461cfa02571ae0db9a0dc1e0cdb5577484a6d75e68dc38e8acc1 0B / 32B 1.3s
+#4 sha256:7020ac1190ec47d8a2068da7ee8d3c790146c4d6de8be43bf8cccfabddb8b3b5 9.46kB / 9.46kB 1.3s done
+#4 sha256:ed6f90162942ba59092f5706c63f6b859acb8604c683fb3d03aff79e9774c130 0B / 25.63MB 1.4s
+#4 sha256:4f4fb700ef54461cfa02571ae0db9a0dc1e0cdb5577484a6d75e68dc38e8acc1 32B / 32B 1.4s done
 #4 sha256:dcca45adbdafd7a4b891640640f1dab0746e5dd038469d5bcb45654dc40ffe79 574B / 574B 1.5s done
-#4 sha256:ed6f90162942ba59092f5706c63f6b859acb8604c683fb3d03aff79e9774c130 0B / 25.63MB 1.6s
-#4 sha256:4f4fb700ef54461cfa02571ae0db9a0dc1e0cdb5577484a6d75e68dc38e8acc1 32B / 32B 1.7s done
-#4 sha256:ed6f90162942ba59092f5706c63f6b859acb8604c683fb3d03aff79e9774c130 17.83MB / 25.63MB 1.8s
-#4 sha256:ed6f90162942ba59092f5706c63f6b859acb8604c683fb3d03aff79e9774c130 25.63MB / 25.63MB 1.9s
-#4 sha256:ed6f90162942ba59092f5706c63f6b859acb8604c683fb3d03aff79e9774c130 25.63MB / 25.63MB 1.9s done
-#4 extracting sha256:6c53be4efe39270422e3e2f7ee1c15887955e3d5e378ea6577c622f358f87691 4.2s done
+#4 sha256:ed6f90162942ba59092f5706c63f6b859acb8604c683fb3d03aff79e9774c130 3.15MB / 25.63MB 2.1s
+#4 sha256:ed6f90162942ba59092f5706c63f6b859acb8604c683fb3d03aff79e9774c130 6.29MB / 25.63MB 2.2s
+#4 sha256:ed6f90162942ba59092f5706c63f6b859acb8604c683fb3d03aff79e9774c130 9.44MB / 25.63MB 2.3s
+#4 sha256:ed6f90162942ba59092f5706c63f6b859acb8604c683fb3d03aff79e9774c130 13.63MB / 25.63MB 2.4s
+#4 sha256:ed6f90162942ba59092f5706c63f6b859acb8604c683fb3d03aff79e9774c130 16.78MB / 25.63MB 2.5s
+#4 sha256:ed6f90162942ba59092f5706c63f6b859acb8604c683fb3d03aff79e9774c130 19.92MB / 25.63MB 2.6s
+#4 sha256:ed6f90162942ba59092f5706c63f6b859acb8604c683fb3d03aff79e9774c130 25.63MB / 25.63MB 2.8s done
+#4 extracting sha256:6c53be4efe39270422e3e2f7ee1c15887955e3d5e378ea6577c622f358f87691 4.3s done
 #4 extracting sha256:72ca3ec4400f027d616983e8a29f7b622b81b0a27da3fa0c9bc8a15abf591286
 #4 extracting sha256:72ca3ec4400f027d616983e8a29f7b622b81b0a27da3fa0c9bc8a15abf591286 done
 #4 extracting sha256:ee229233a41330fd04955edf3ba628d81a44446edd5bcc3205d777ac9686cec3 0.1s
@@ -436,707 +442,706 @@ Date:   Tue Jul 25 17:16:36 2023 -0700
 #4 extracting sha256:82f04b121ea21206a69ac160f78095cc3d9aeda79331bdcc90743fcd5dd20baf 0.4s done
 #4 extracting sha256:ef6ed2ebdfc2767161373a225e61be7c234a4269bad2466649b0472e4928f9bc
 #4 extracting sha256:ef6ed2ebdfc2767161373a225e61be7c234a4269bad2466649b0472e4928f9bc 2.1s done
-#4 extracting sha256:4416c4cd6b88ec88992c058f710f63929e244aa5fb7b1ddc02c24b15364aba09
 #4 extracting sha256:4416c4cd6b88ec88992c058f710f63929e244aa5fb7b1ddc02c24b15364aba09 0.1s done
+#4 extracting sha256:7020ac1190ec47d8a2068da7ee8d3c790146c4d6de8be43bf8cccfabddb8b3b5
 #4 extracting sha256:7020ac1190ec47d8a2068da7ee8d3c790146c4d6de8be43bf8cccfabddb8b3b5 done
-#4 extracting sha256:dcca45adbdafd7a4b891640640f1dab0746e5dd038469d5bcb45654dc40ffe79
 #4 extracting sha256:dcca45adbdafd7a4b891640640f1dab0746e5dd038469d5bcb45654dc40ffe79 done
 #4 extracting sha256:4f4fb700ef54461cfa02571ae0db9a0dc1e0cdb5577484a6d75e68dc38e8acc1 done
-#4 extracting sha256:ed6f90162942ba59092f5706c63f6b859acb8604c683fb3d03aff79e9774c130 0.1s
-#4 extracting sha256:ed6f90162942ba59092f5706c63f6b859acb8604c683fb3d03aff79e9774c130 0.7s done
-#4 DONE 12.9s
+#4 extracting sha256:ed6f90162942ba59092f5706c63f6b859acb8604c683fb3d03aff79e9774c130
+#4 extracting sha256:ed6f90162942ba59092f5706c63f6b859acb8604c683fb3d03aff79e9774c130 0.8s done
+#4 DONE 12.4s
 
 #6 [ 2/11] COPY docker/licenses /licenses
-#6 sha256:13c8ae2907f4d66602b0b9da1fca09a6e10282fce62d6a0c8f88b5432b25039d
+#6 sha256:b2ee214fcb9d27c87efe326e28bcd54447f05692e86eb0df14958130a7efacda
 #6 DONE 2.7s
 
 #7 [ 3/11] COPY requirements.yml /opt/ansible/requirements.yml
-#7 sha256:6b058740801b9ded56726a09ada8d22a353e5503bb84ae5ff2beccbf49c5a7b6
+#7 sha256:b015380ad005126a7bea5bab9ddf57663ebbfcdfe6bc880cac714ef5a226b044
 #7 DONE 0.1s
 
 #8 [ 4/11] RUN update-crypto-policies --set LEGACY && pip3 install pyopenssl
-#8 sha256:e008c677378c9e4dee0f037520da1ddf41d0b403a05b35106145a368cd4bc37c
-#8 0.461 Setting system policy to LEGACY
-#8 0.461 Note: System-wide crypto policies are applied on application start-up.
-#8 0.461 It is recommended to restart the system for the change of policies
-#8 0.461 to fully take place.
-#8 0.778 WARNING: The directory '/opt/ansible/.cache/pip' or its parent directory is not owned or is not writable by the current user. The cache has been disabled. Check the permissions and owner of that directory. If executing pip with sudo, you should use sudo's -H flag.
-#8 0.914 Collecting pyopenssl
-#8 0.984   Downloading pyOpenSSL-23.2.0-py3-none-any.whl (59 kB)
-#8 0.999      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 59.0/59.0 kB 4.2 MB/s eta 0:00:00
-#8 1.009 Requirement already satisfied: cryptography!=40.0.0,!=40.0.1,<42,>=38.0.0 in /usr/local/lib64/python3.9/site-packages (from pyopenssl) (41.0.2)
-#8 1.028 Requirement already satisfied: cffi>=1.12 in /usr/local/lib64/python3.9/site-packages (from cryptography!=40.0.0,!=40.0.1,<42,>=38.0.0->pyopenssl) (1.15.1)
-#8 1.039 Requirement already satisfied: pycparser in /usr/local/lib/python3.9/site-packages (from cffi>=1.12->cryptography!=40.0.0,!=40.0.1,<42,>=38.0.0->pyopenssl) (2.21)
-#8 1.281 Installing collected packages: pyopenssl
-#8 1.326 Successfully installed pyopenssl-23.2.0
-#8 1.326 WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
-#8 1.441 
-#8 1.441 [notice] A new release of pip is available: 23.1.2 -> 23.2.1
-#8 1.441 [notice] To update, run: python3.9 -m pip install --upgrade pip
+#8 sha256:805fbbe399d796e17ed073a7f9a064a1707fa06847c4deab5bc705eec7964db4
+#8 0.442 Setting system policy to LEGACY
+#8 0.442 Note: System-wide crypto policies are applied on application start-up.
+#8 0.442 It is recommended to restart the system for the change of policies
+#8 0.442 to fully take place.
+#8 0.753 WARNING: The directory '/opt/ansible/.cache/pip' or its parent directory is not owned or is not writable by the current user. The cache has been disabled. Check the permissions and owner of that directory. If executing pip with sudo, you should use sudo's -H flag.
+#8 0.881 Collecting pyopenssl
+#8 0.937   Downloading pyOpenSSL-23.2.0-py3-none-any.whl (59 kB)
+#8 0.956      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 59.0/59.0 kB 3.3 MB/s eta 0:00:00
+#8 0.967 Requirement already satisfied: cryptography!=40.0.0,!=40.0.1,<42,>=38.0.0 in /usr/local/lib64/python3.9/site-packages (from pyopenssl) (41.0.2)
+#8 0.985 Requirement already satisfied: cffi>=1.12 in /usr/local/lib64/python3.9/site-packages (from cryptography!=40.0.0,!=40.0.1,<42,>=38.0.0->pyopenssl) (1.15.1)
+#8 0.994 Requirement already satisfied: pycparser in /usr/local/lib/python3.9/site-packages (from cffi>=1.12->cryptography!=40.0.0,!=40.0.1,<42,>=38.0.0->pyopenssl) (2.21)
+#8 1.235 Installing collected packages: pyopenssl
+#8 1.276 Successfully installed pyopenssl-23.2.0
+#8 1.278 WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
+#8 1.393 
+#8 1.393 [notice] A new release of pip is available: 23.1.2 -> 23.2.1
+#8 1.393 [notice] To update, run: python3.9 -m pip install --upgrade pip
 #8 DONE 1.6s
 
 #9 [ 5/11] RUN ansible-galaxy collection install -r /opt/ansible/requirements.yml  && chmod -R ug+rwx /opt/ansible/.ansible
-#9 sha256:1616863b53f2f4aca00b898d33aab55aa821b07a236e64c7564c0363d873ed3c
-#9 5.302 Starting galaxy collection install process
-#9 5.302 Process install dependency map
-#9 5.302 Starting collection install process
-#9 5.302 Downloading https://galaxy.ansible.com/download/community-kubernetes-1.2.1.tar.gz to /opt/ansible/.ansible/tmp/ansible-local-705ew0hu1/tmppqq3jg4s/community-kubernetes-1.2.1-l8ujuytm
-#9 5.302 Installing 'community.kubernetes:1.2.1' to '/opt/ansible/.ansible/collections/ansible_collections/community/kubernetes'
-#9 5.302 community.kubernetes:1.2.1 was installed successfully
-#9 5.302 Downloading https://galaxy.ansible.com/download/operator_sdk-util-0.2.0.tar.gz to /opt/ansible/.ansible/tmp/ansible-local-705ew0hu1/tmppqq3jg4s/operator_sdk-util-0.2.0-8wentjt3
-#9 5.302 Installing 'operator_sdk.util:0.2.0' to '/opt/ansible/.ansible/collections/ansible_collections/operator_sdk/util'
-#9 5.302 operator_sdk.util:0.2.0 was installed successfully
-#9 DONE 5.4s
+#9 sha256:94b6e4e30427da6d942cca4c0bd953deec87277c743166623b16796a236b34d5
+#9 2.691 Starting galaxy collection install process
+#9 2.691 Process install dependency map
+#9 2.691 Starting collection install process
+#9 2.691 Downloading https://galaxy.ansible.com/download/community-kubernetes-1.2.1.tar.gz to /opt/ansible/.ansible/tmp/ansible-local-12ek1v0nyg/tmpq_ut8qm2/community-kubernetes-1.2.1-pncph_2c
+#9 2.691 Installing 'community.kubernetes:1.2.1' to '/opt/ansible/.ansible/collections/ansible_collections/community/kubernetes'
+#9 2.691 community.kubernetes:1.2.1 was installed successfully
+#9 2.691 Downloading https://galaxy.ansible.com/download/operator_sdk-util-0.2.0.tar.gz to /opt/ansible/.ansible/tmp/ansible-local-12ek1v0nyg/tmpq_ut8qm2/operator_sdk-util-0.2.0-bagnd4tp
+#9 2.691 Installing 'operator_sdk.util:0.2.0' to '/opt/ansible/.ansible/collections/ansible_collections/operator_sdk/util'
+#9 2.691 operator_sdk.util:0.2.0 was installed successfully
+#9 DONE 2.8s
 
 #10 [ 6/11] RUN yum install git -y
-#10 sha256:2c08bb67315440f8e44234ef958d42e7707cda0abf0eb55dc41da72ebb8a4f99
-#10 0.898 Updating Subscription Management repositories.
-#10 0.898 Unable to read consumer identity
-#10 0.898 Subscription Manager is operating in container mode.
-#10 0.902 
-#10 0.902 This system is not registered with an entitlement server. You can use subscription-manager to register.
-#10 0.902 
-#10 1.427 Red Hat Universal Base Image 8 (RPMs) - BaseOS  1.7 MB/s | 844 kB     00:00    
-#10 1.955 Red Hat Universal Base Image 8 (RPMs) - AppStre 8.9 MB/s | 3.4 MB     00:00    
-#10 2.804 Red Hat Universal Base Image 8 (RPMs) - CodeRea 388 kB/s | 106 kB     00:00    
-#10 3.112 Dependencies resolved.
-#10 3.119 =====================================================================================================
-#10 3.119  Package                  Arch    Version                                 Repository             Size
-#10 3.119 =====================================================================================================
-#10 3.119 Installing:
-#10 3.119  git                      x86_64  2.39.3-1.el8_8                          ubi-8-appstream-rpms  104 k
-#10 3.119 Installing dependencies:
-#10 3.119  emacs-filesystem         noarch  1:26.1-10.el8_8.2                       ubi-8-baseos-rpms      70 k
-#10 3.119  git-core                 x86_64  2.39.3-1.el8_8                          ubi-8-appstream-rpms   11 M
-#10 3.119  git-core-doc             noarch  2.39.3-1.el8_8                          ubi-8-appstream-rpms  3.0 M
-#10 3.119  groff-base               x86_64  1.22.3-18.el8                           ubi-8-baseos-rpms     1.0 M
-#10 3.119  less                     x86_64  530-1.el8                               ubi-8-baseos-rpms     164 k
-#10 3.119  libedit                  x86_64  3.1-23.20170329cvs.el8                  ubi-8-baseos-rpms     102 k
-#10 3.119  ncurses                  x86_64  6.1-9.20180224.el8                      ubi-8-baseos-rpms     387 k
-#10 3.119  openssh                  x86_64  8.0p1-17.el8_7                          ubi-8-baseos-rpms     523 k
-#10 3.119  openssh-clients          x86_64  8.0p1-17.el8_7                          ubi-8-baseos-rpms     669 k
-#10 3.119  openssl                  x86_64  1:1.1.1k-9.el8_7                        ubi-8-baseos-rpms     710 k
-#10 3.119  perl-Carp                noarch  1.42-396.el8                            ubi-8-baseos-rpms      30 k
-#10 3.119  perl-Data-Dumper         x86_64  2.167-399.el8                           ubi-8-baseos-rpms      58 k
-#10 3.119  perl-Digest              noarch  1.17-395.el8                            ubi-8-appstream-rpms   27 k
-#10 3.119  perl-Digest-MD5          x86_64  2.55-396.el8                            ubi-8-appstream-rpms   37 k
-#10 3.119  perl-Encode              x86_64  4:2.97-3.el8                            ubi-8-baseos-rpms     1.5 M
-#10 3.119  perl-Errno               x86_64  1.28-422.el8                            ubi-8-baseos-rpms      77 k
-#10 3.119  perl-Error               noarch  1:0.17025-2.el8                         ubi-8-appstream-rpms   46 k
-#10 3.119  perl-Exporter            noarch  5.72-396.el8                            ubi-8-baseos-rpms      34 k
-#10 3.119  perl-File-Path           noarch  2.15-2.el8                              ubi-8-baseos-rpms      38 k
-#10 3.119  perl-File-Temp           noarch  0.230.600-1.el8                         ubi-8-baseos-rpms      63 k
-#10 3.119  perl-Getopt-Long         noarch  1:2.50-4.el8                            ubi-8-baseos-rpms      63 k
-#10 3.119  perl-Git                 noarch  2.39.3-1.el8_8                          ubi-8-appstream-rpms   79 k
-#10 3.119  perl-HTTP-Tiny           noarch  0.074-1.el8                             ubi-8-baseos-rpms      58 k
-#10 3.119  perl-IO                  x86_64  1.38-422.el8                            ubi-8-baseos-rpms     142 k
-#10 3.119  perl-MIME-Base64         x86_64  3.15-396.el8                            ubi-8-baseos-rpms      31 k
-#10 3.119  perl-Net-SSLeay          x86_64  1.88-2.module+el8.6.0+13392+f0897f98    ubi-8-appstream-rpms  379 k
-#10 3.119  perl-PathTools           x86_64  3.74-1.el8                              ubi-8-baseos-rpms      90 k
-#10 3.119  perl-Pod-Escapes         noarch  1:1.07-395.el8                          ubi-8-baseos-rpms      20 k
-#10 3.119  perl-Pod-Perldoc         noarch  3.28-396.el8                            ubi-8-baseos-rpms      88 k
-#10 3.119  perl-Pod-Simple          noarch  1:3.35-395.el8                          ubi-8-baseos-rpms     213 k
-#10 3.119  perl-Pod-Usage           noarch  4:1.69-395.el8                          ubi-8-baseos-rpms      34 k
-#10 3.119  perl-Scalar-List-Utils   x86_64  3:1.49-2.el8                            ubi-8-baseos-rpms      68 k
-#10 3.119  perl-Socket              x86_64  4:2.027-3.el8                           ubi-8-baseos-rpms      59 k
-#10 3.119  perl-Storable            x86_64  1:3.11-3.el8                            ubi-8-baseos-rpms      98 k
-#10 3.119  perl-Term-ANSIColor      noarch  4.06-396.el8                            ubi-8-baseos-rpms      46 k
-#10 3.119  perl-Term-Cap            noarch  1.17-395.el8                            ubi-8-baseos-rpms      23 k
-#10 3.119  perl-TermReadKey         x86_64  2.37-7.el8                              ubi-8-appstream-rpms   40 k
-#10 3.119  perl-Text-ParseWords     noarch  3.30-395.el8                            ubi-8-baseos-rpms      18 k
-#10 3.119  perl-Text-Tabs+Wrap      noarch  2013.0523-395.el8                       ubi-8-baseos-rpms      24 k
-#10 3.119  perl-Time-Local          noarch  1:1.280-1.el8                           ubi-8-baseos-rpms      34 k
-#10 3.119  perl-URI                 noarch  1.73-3.el8                              ubi-8-appstream-rpms  116 k
-#10 3.119  perl-Unicode-Normalize   x86_64  1.25-396.el8                            ubi-8-baseos-rpms      82 k
-#10 3.119  perl-constant            noarch  1.33-396.el8                            ubi-8-baseos-rpms      25 k
-#10 3.119  perl-interpreter         x86_64  4:5.26.3-422.el8                        ubi-8-baseos-rpms     6.3 M
-#10 3.119  perl-libnet              noarch  3.11-3.el8                              ubi-8-appstream-rpms  121 k
-#10 3.119  perl-libs                x86_64  4:5.26.3-422.el8                        ubi-8-baseos-rpms     1.6 M
-#10 3.119  perl-macros              x86_64  4:5.26.3-422.el8                        ubi-8-baseos-rpms      73 k
-#10 3.119  perl-parent              noarch  1:0.237-1.el8                           ubi-8-baseos-rpms      20 k
-#10 3.119  perl-podlators           noarch  4.11-1.el8                              ubi-8-baseos-rpms     118 k
-#10 3.119  perl-threads             x86_64  1:2.21-2.el8                            ubi-8-baseos-rpms      61 k
-#10 3.119  perl-threads-shared      x86_64  1.58-2.el8                              ubi-8-baseos-rpms      48 k
-#10 3.119 Installing weak dependencies:
-#10 3.119  perl-IO-Socket-IP        noarch  0.39-5.el8                              ubi-8-appstream-rpms   47 k
-#10 3.119  perl-IO-Socket-SSL       noarch  2.066-4.module+el8.3.0+6446+594cad75    ubi-8-appstream-rpms  298 k
-#10 3.119  perl-Mozilla-CA          noarch  20160104-7.module+el8.3.0+6498+9eecfe51 ubi-8-appstream-rpms   15 k
-#10 3.119 Enabling module streams:
-#10 3.119  perl                             5.26                                                               
-#10 3.119  perl-IO-Socket-SSL               2.066                                                              
-#10 3.119  perl-libwww-perl                 6.34                                                               
-#10 3.119 
-#10 3.119 Transaction Summary
-#10 3.119 =====================================================================================================
-#10 3.119 Install  55 Packages
-#10 3.119 
-#10 3.126 Total download size: 30 M
-#10 3.126 Installed size: 90 M
-#10 3.126 Downloading Packages:
-#10 3.261 (1/55): perl-Scalar-List-Utils-1.49-2.el8.x86_6 521 kB/s |  68 kB     00:00    
-#10 3.303 (2/55): perl-PathTools-3.74-1.el8.x86_64.rpm    527 kB/s |  90 kB     00:00    
-#10 3.306 (3/55): less-530-1.el8.x86_64.rpm               938 kB/s | 164 kB     00:00    
-#10 3.341 (4/55): perl-threads-2.21-2.el8.x86_64.rpm      1.6 MB/s |  61 kB     00:00    
-#10 3.366 (5/55): perl-Pod-Simple-3.35-395.el8.noarch.rpm 3.5 MB/s | 213 kB     00:00    
-#10 3.377 (6/55): perl-Term-ANSIColor-4.06-396.el8.noarch 1.3 MB/s |  46 kB     00:00    
-#10 3.405 (7/55): openssh-clients-8.0p1-17.el8_7.x86_64.r 4.6 MB/s | 669 kB     00:00    
-#10 3.411 (8/55): perl-Data-Dumper-2.167-399.el8.x86_64.r 1.3 MB/s |  58 kB     00:00    
-#10 3.423 (9/55): libedit-3.1-23.20170329cvs.el8.x86_64.r 2.2 MB/s | 102 kB     00:00    
-#10 3.438 (10/55): perl-IO-1.38-422.el8.x86_64.rpm        4.2 MB/s | 142 kB     00:00    
-#10 3.442 (11/55): perl-threads-shared-1.58-2.el8.x86_64. 1.5 MB/s |  48 kB     00:00    
-#10 3.462 (12/55): perl-HTTP-Tiny-0.074-1.el8.noarch.rpm  1.5 MB/s |  58 kB     00:00    
-#10 3.476 (13/55): perl-Pod-Perldoc-3.28-396.el8.noarch.r 2.6 MB/s |  88 kB     00:00    
-#10 3.497 (14/55): perl-Pod-Escapes-1.07-395.el8.noarch.r 355 kB/s |  20 kB     00:00    
-#10 3.507 (15/55): perl-Socket-2.027-3.el8.x86_64.rpm     1.8 MB/s |  59 kB     00:00    
-#10 3.584 (16/55): openssh-8.0p1-17.el8_7.x86_64.rpm      6.7 MB/s | 523 kB     00:00    
-#10 3.626 (17/55): perl-File-Path-2.15-2.el8.noarch.rpm   295 kB/s |  38 kB     00:00    
-#10 3.647 (18/55): perl-parent-0.237-1.el8.noarch.rpm     322 kB/s |  20 kB     00:00    
-#10 3.754 (19/55): perl-libs-5.26.3-422.el8.x86_64.rpm     15 MB/s | 1.6 MB     00:00    
-#10 3.784 (20/55): perl-Text-Tabs+Wrap-2013.0523-395.el8. 820 kB/s |  24 kB     00:00    
-#10 3.794 (21/55): perl-Encode-2.97-3.el8.x86_64.rpm      4.4 MB/s | 1.5 MB     00:00    
-#10 3.841 (22/55): emacs-filesystem-26.1-10.el8_8.2.noarc 1.5 MB/s |  70 kB     00:00    
-#10 3.888 (23/55): perl-Getopt-Long-2.50-4.el8.noarch.rpm 2.0 MB/s |  63 kB     00:00    
-#10 3.909 (24/55): groff-base-1.22.3-18.el8.x86_64.rpm    8.2 MB/s | 1.0 MB     00:00    
-#10 3.942 (25/55): perl-interpreter-5.26.3-422.el8.x86_64  20 MB/s | 6.3 MB     00:00    
-#10 3.953 (26/55): perl-macros-5.26.3-422.el8.x86_64.rpm  1.1 MB/s |  73 kB     00:00    
-#10 3.977 (27/55): perl-podlators-4.11-1.el8.noarch.rpm   1.7 MB/s | 118 kB     00:00    
-#10 4.036 (28/55): perl-Time-Local-1.280-1.el8.noarch.rpm 359 kB/s |  34 kB     00:00    
-#10 4.041 (29/55): perl-Carp-1.42-396.el8.noarch.rpm      345 kB/s |  30 kB     00:00    
-#10 4.058 (30/55): perl-Exporter-5.72-396.el8.noarch.rpm  421 kB/s |  34 kB     00:00    
-#10 4.073 (31/55): perl-Storable-3.11-3.el8.x86_64.rpm    3.1 MB/s |  98 kB     00:00    
-#10 4.076 (32/55): perl-Text-ParseWords-3.30-395.el8.noar 513 kB/s |  18 kB     00:00    
-#10 4.089 (33/55): perl-Unicode-Normalize-1.25-396.el8.x8 2.7 MB/s |  82 kB     00:00    
-#10 4.106 (34/55): ncurses-6.1-9.20180224.el8.x86_64.rpm   12 MB/s | 387 kB     00:00    
-#10 4.120 (35/55): perl-Errno-1.28-422.el8.x86_64.rpm     2.4 MB/s |  77 kB     00:00    
-#10 4.129 (36/55): openssl-1.1.1k-9.el8_7.x86_64.rpm       13 MB/s | 710 kB     00:00    
-#10 4.134 (37/55): perl-File-Temp-0.230.600-1.el8.noarch. 2.2 MB/s |  63 kB     00:00    
-#10 4.158 (38/55): perl-Term-Cap-1.17-395.el8.noarch.rpm  791 kB/s |  23 kB     00:00    
-#10 4.162 (39/55): perl-MIME-Base64-3.15-396.el8.x86_64.r 1.1 MB/s |  31 kB     00:00    
-#10 4.175 (40/55): perl-constant-1.33-396.el8.noarch.rpm  472 kB/s |  25 kB     00:00    
-#10 4.189 (41/55): perl-Pod-Usage-1.69-395.el8.noarch.rpm 1.2 MB/s |  34 kB     00:00    
-#10 4.191 (42/55): perl-Error-0.17025-2.el8.noarch.rpm    1.6 MB/s |  46 kB     00:00    
-#10 4.205 (43/55): perl-Digest-1.17-395.el8.noarch.rpm    915 kB/s |  27 kB     00:00    
-#10 4.227 (44/55): perl-TermReadKey-2.37-7.el8.x86_64.rpm 1.0 MB/s |  40 kB     00:00    
-#10 4.233 (45/55): perl-IO-Socket-SSL-2.066-4.module+el8. 6.9 MB/s | 298 kB     00:00    
-#10 4.236 (46/55): perl-Mozilla-CA-20160104-7.module+el8. 501 kB/s |  15 kB     00:00    
-#10 4.267 (47/55): perl-URI-1.73-3.el8.noarch.rpm         3.6 MB/s | 116 kB     00:00    
-#10 4.279 (48/55): perl-IO-Socket-IP-0.39-5.el8.noarch.rp 925 kB/s |  47 kB     00:00    
-#10 4.281 (49/55): perl-Digest-MD5-2.55-396.el8.x86_64.rp 787 kB/s |  37 kB     00:00    
-#10 4.320 (50/55): perl-libnet-3.11-3.el8.noarch.rpm      3.2 MB/s | 121 kB     00:00    
-#10 4.350 (51/55): perl-Net-SSLeay-1.88-2.module+el8.6.0+ 4.5 MB/s | 379 kB     00:00    
-#10 4.353 (52/55): perl-Git-2.39.3-1.el8_8.noarch.rpm     2.3 MB/s |  79 kB     00:00    
-#10 4.414 (53/55): git-core-doc-2.39.3-1.el8_8.noarch.rpm  23 MB/s | 3.0 MB     00:00    
-#10 4.444 (54/55): git-2.39.3-1.el8_8.x86_64.rpm          1.1 MB/s | 104 kB     00:00    
-#10 4.568 (55/55): git-core-2.39.3-1.el8_8.x86_64.rpm      50 MB/s |  11 MB     00:00    
-#10 4.571 --------------------------------------------------------------------------------
-#10 4.571 Total                                            21 MB/s |  30 MB     00:01     
-#10 5.189 Running transaction check
-#10 5.225 Transaction check succeeded.
-#10 5.225 Running transaction test
-#10 5.506 Transaction test succeeded.
-#10 5.509 Running transaction
-#10 6.031   Preparing        :                                                        1/1 
-#10 6.128   Installing       : openssl-1:1.1.1k-9.el8_7.x86_64                       1/55 
-#10 6.166   Installing       : ncurses-6.1-9.20180224.el8.x86_64                     2/55 
-#10 6.181   Installing       : emacs-filesystem-1:26.1-10.el8_8.2.noarch             3/55 
-#10 6.309   Installing       : groff-base-1.22.3-18.el8.x86_64                       4/55 
-#10 6.330   Installing       : perl-Digest-1.17-395.el8.noarch                       5/55 
-#10 6.342   Installing       : perl-Digest-MD5-2.55-396.el8.x86_64                   6/55 
-#10 6.357   Installing       : perl-Data-Dumper-2.167-399.el8.x86_64                 7/55 
-#10 6.381   Installing       : perl-libnet-3.11-3.el8.noarch                         8/55 
-#10 6.433   Installing       : perl-Net-SSLeay-1.88-2.module+el8.6.0+13392+f0897f    9/55 
-#10 6.462   Installing       : perl-URI-1.73-3.el8.noarch                           10/55 
-#10 6.479   Installing       : perl-Pod-Escapes-1:1.07-395.el8.noarch               11/55 
-#10 6.490   Installing       : perl-Time-Local-1:1.280-1.el8.noarch                 12/55 
-#10 6.499   Installing       : perl-Mozilla-CA-20160104-7.module+el8.3.0+6498+9ee   13/55 
-#10 6.511   Installing       : perl-IO-Socket-IP-0.39-5.el8.noarch                  14/55 
-#10 6.544   Installing       : perl-IO-Socket-SSL-2.066-4.module+el8.3.0+6446+594   15/55 
-#10 6.560   Installing       : perl-Term-ANSIColor-4.06-396.el8.noarch              16/55 
-#10 6.592   Installing       : perl-Pod-Simple-1:3.35-395.el8.noarch                17/55 
-#10 6.609   Installing       : perl-File-Temp-0.230.600-1.el8.noarch                18/55 
-#10 6.620   Installing       : perl-Term-Cap-1.17-395.el8.noarch                    19/55 
-#10 6.635   Installing       : perl-HTTP-Tiny-0.074-1.el8.noarch                    20/55 
-#10 6.655   Installing       : perl-podlators-4.11-1.el8.noarch                     21/55 
-#10 6.681   Installing       : perl-Pod-Perldoc-3.28-396.el8.noarch                 22/55 
-#10 6.692   Installing       : perl-Text-ParseWords-3.30-395.el8.noarch             23/55 
-#10 6.703   Installing       : perl-Pod-Usage-4:1.69-395.el8.noarch                 24/55 
-#10 6.720   Installing       : perl-Storable-1:3.11-3.el8.x86_64                    25/55 
-#10 6.731   Installing       : perl-MIME-Base64-3.15-396.el8.x86_64                 26/55 
-#10 6.747   Installing       : perl-Getopt-Long-1:2.50-4.el8.noarch                 27/55 
-#10 6.760   Installing       : perl-Socket-4:2.027-3.el8.x86_64                     28/55 
-#10 6.774   Installing       : perl-Errno-1.28-422.el8.x86_64                       29/55 
-#10 6.989   Installing       : perl-Encode-4:2.97-3.el8.x86_64                      30/55 
-#10 7.003   Installing       : perl-parent-1:0.237-1.el8.noarch                     31/55 
-#10 7.012   Installing       : perl-macros-4:5.26.3-422.el8.x86_64                  32/55 
-#10 7.022   Installing       : perl-Carp-1.42-396.el8.noarch                        33/55 
-#10 7.033   Installing       : perl-Exporter-5.72-396.el8.noarch                    34/55 
-#10 7.231   Installing       : perl-libs-4:5.26.3-422.el8.x86_64                    35/55 
-#10 7.252   Installing       : perl-Scalar-List-Utils-3:1.49-2.el8.x86_64           36/55 
-#10 7.267   Installing       : perl-threads-shared-1.58-2.el8.x86_64                37/55 
-#10 7.284   Installing       : perl-threads-1:2.21-2.el8.x86_64                     38/55 
-#10 7.298   Installing       : perl-Text-Tabs+Wrap-2013.0523-395.el8.noarch         39/55 
-#10 7.319   Installing       : perl-Unicode-Normalize-1.25-396.el8.x86_64           40/55 
-#10 7.330   Installing       : perl-File-Path-2.15-2.el8.noarch                     41/55 
-#10 7.348   Installing       : perl-PathTools-3.74-1.el8.x86_64                     42/55 
-#10 7.368   Installing       : perl-IO-1.38-422.el8.x86_64                          43/55 
-#10 7.384   Installing       : perl-constant-1.33-396.el8.noarch                    44/55 
-#10 7.906   Installing       : perl-interpreter-4:5.26.3-422.el8.x86_64             45/55 
-#10 7.934   Installing       : perl-Error-1:0.17025-2.el8.noarch                    46/55 
-#10 7.947   Installing       : perl-TermReadKey-2.37-7.el8.x86_64                   47/55 
-#10 7.957   Running scriptlet: openssh-8.0p1-17.el8_7.x86_64                        48/55 
-#10 8.026   Installing       : openssh-8.0p1-17.el8_7.x86_64                        48/55 
-#10 8.047   Installing       : libedit-3.1-23.20170329cvs.el8.x86_64                49/55 
-#10 8.122   Installing       : openssh-clients-8.0p1-17.el8_7.x86_64                50/55 
-#10 8.146   Installing       : less-530-1.el8.x86_64                                51/55 
-#10 9.135   Installing       : git-core-2.39.3-1.el8_8.x86_64                       52/55 
-#10 9.537   Installing       : git-core-doc-2.39.3-1.el8_8.noarch                   53/55 
-#10 9.560   Installing       : perl-Git-2.39.3-1.el8_8.noarch                       54/55 
-#10 9.575   Installing       : git-2.39.3-1.el8_8.x86_64                            55/55 
-#10 9.588   Running scriptlet: git-2.39.3-1.el8_8.x86_64                            55/55 
-#10 9.657   Verifying        : perl-Scalar-List-Utils-3:1.49-2.el8.x86_64            1/55 
-#10 9.657   Verifying        : less-530-1.el8.x86_64                                 2/55 
-#10 9.657   Verifying        : perl-PathTools-3.74-1.el8.x86_64                      3/55 
-#10 9.658   Verifying        : openssh-clients-8.0p1-17.el8_7.x86_64                 4/55 
-#10 9.658   Verifying        : perl-threads-1:2.21-2.el8.x86_64                      5/55 
-#10 9.659   Verifying        : perl-Pod-Simple-1:3.35-395.el8.noarch                 6/55 
-#10 9.659   Verifying        : perl-Term-ANSIColor-4.06-396.el8.noarch               7/55 
-#10 9.659   Verifying        : perl-Data-Dumper-2.167-399.el8.x86_64                 8/55 
-#10 9.660   Verifying        : libedit-3.1-23.20170329cvs.el8.x86_64                 9/55 
-#10 9.660   Verifying        : perl-IO-1.38-422.el8.x86_64                          10/55 
-#10 9.661   Verifying        : perl-threads-shared-1.58-2.el8.x86_64                11/55 
-#10 9.661   Verifying        : perl-HTTP-Tiny-0.074-1.el8.noarch                    12/55 
-#10 9.661   Verifying        : perl-Pod-Escapes-1:1.07-395.el8.noarch               13/55 
-#10 9.662   Verifying        : perl-Pod-Perldoc-3.28-396.el8.noarch                 14/55 
-#10 9.662   Verifying        : perl-Encode-4:2.97-3.el8.x86_64                      15/55 
-#10 9.663   Verifying        : perl-Socket-4:2.027-3.el8.x86_64                     16/55 
-#10 9.663   Verifying        : perl-File-Path-2.15-2.el8.noarch                     17/55 
-#10 9.663   Verifying        : openssh-8.0p1-17.el8_7.x86_64                        18/55 
-#10 9.664   Verifying        : perl-parent-1:0.237-1.el8.noarch                     19/55 
-#10 9.664   Verifying        : perl-interpreter-4:5.26.3-422.el8.x86_64             20/55 
-#10 9.664   Verifying        : perl-libs-4:5.26.3-422.el8.x86_64                    21/55 
-#10 9.665   Verifying        : perl-Text-Tabs+Wrap-2013.0523-395.el8.noarch         22/55 
-#10 9.665   Verifying        : groff-base-1.22.3-18.el8.x86_64                      23/55 
-#10 9.666   Verifying        : emacs-filesystem-1:26.1-10.el8_8.2.noarch            24/55 
-#10 9.666   Verifying        : perl-Getopt-Long-1:2.50-4.el8.noarch                 25/55 
-#10 9.666   Verifying        : perl-macros-4:5.26.3-422.el8.x86_64                  26/55 
-#10 9.667   Verifying        : perl-podlators-4.11-1.el8.noarch                     27/55 
-#10 9.667   Verifying        : perl-Time-Local-1:1.280-1.el8.noarch                 28/55 
-#10 9.667   Verifying        : perl-Carp-1.42-396.el8.noarch                        29/55 
-#10 9.668   Verifying        : perl-Exporter-5.72-396.el8.noarch                    30/55 
-#10 9.668   Verifying        : perl-Storable-1:3.11-3.el8.x86_64                    31/55 
-#10 9.669   Verifying        : perl-Text-ParseWords-3.30-395.el8.noarch             32/55 
-#10 9.669   Verifying        : perl-Unicode-Normalize-1.25-396.el8.x86_64           33/55 
-#10 9.669   Verifying        : ncurses-6.1-9.20180224.el8.x86_64                    34/55 
-#10 9.670   Verifying        : openssl-1:1.1.1k-9.el8_7.x86_64                      35/55 
-#10 9.670   Verifying        : perl-Errno-1.28-422.el8.x86_64                       36/55 
-#10 9.670   Verifying        : perl-File-Temp-0.230.600-1.el8.noarch                37/55 
-#10 9.671   Verifying        : perl-constant-1.33-396.el8.noarch                    38/55 
-#10 9.671   Verifying        : perl-Term-Cap-1.17-395.el8.noarch                    39/55 
-#10 9.672   Verifying        : perl-MIME-Base64-3.15-396.el8.x86_64                 40/55 
-#10 9.672   Verifying        : perl-Pod-Usage-4:1.69-395.el8.noarch                 41/55 
-#10 9.672   Verifying        : perl-Error-1:0.17025-2.el8.noarch                    42/55 
-#10 9.673   Verifying        : perl-Digest-1.17-395.el8.noarch                      43/55 
-#10 9.673   Verifying        : perl-TermReadKey-2.37-7.el8.x86_64                   44/55 
-#10 9.673   Verifying        : perl-IO-Socket-SSL-2.066-4.module+el8.3.0+6446+594   45/55 
-#10 9.674   Verifying        : perl-Mozilla-CA-20160104-7.module+el8.3.0+6498+9ee   46/55 
-#10 9.674   Verifying        : perl-IO-Socket-IP-0.39-5.el8.noarch                  47/55 
-#10 9.674   Verifying        : perl-Digest-MD5-2.55-396.el8.x86_64                  48/55 
-#10 9.675   Verifying        : perl-URI-1.73-3.el8.noarch                           49/55 
-#10 9.675   Verifying        : perl-Net-SSLeay-1.88-2.module+el8.6.0+13392+f0897f   50/55 
-#10 9.675   Verifying        : perl-libnet-3.11-3.el8.noarch                        51/55 
-#10 9.675   Verifying        : git-core-doc-2.39.3-1.el8_8.noarch                   52/55 
-#10 9.675   Verifying        : perl-Git-2.39.3-1.el8_8.noarch                       53/55 
-#10 9.675   Verifying        : git-2.39.3-1.el8_8.x86_64                            54/55 
-#10 9.676   Verifying        : git-core-2.39.3-1.el8_8.x86_64                       55/55 
-#10 9.795 Installed products updated.
-#10 9.926 
-#10 9.926 Installed:
-#10 9.926   emacs-filesystem-1:26.1-10.el8_8.2.noarch                                     
-#10 9.926   git-2.39.3-1.el8_8.x86_64                                                     
-#10 9.926   git-core-2.39.3-1.el8_8.x86_64                                                
-#10 9.926   git-core-doc-2.39.3-1.el8_8.noarch                                            
-#10 9.926   groff-base-1.22.3-18.el8.x86_64                                               
-#10 9.926   less-530-1.el8.x86_64                                                         
-#10 9.926   libedit-3.1-23.20170329cvs.el8.x86_64                                         
-#10 9.926   ncurses-6.1-9.20180224.el8.x86_64                                             
-#10 9.926   openssh-8.0p1-17.el8_7.x86_64                                                 
-#10 9.926   openssh-clients-8.0p1-17.el8_7.x86_64                                         
-#10 9.926   openssl-1:1.1.1k-9.el8_7.x86_64                                               
-#10 9.926   perl-Carp-1.42-396.el8.noarch                                                 
-#10 9.926   perl-Data-Dumper-2.167-399.el8.x86_64                                         
-#10 9.926   perl-Digest-1.17-395.el8.noarch                                               
-#10 9.926   perl-Digest-MD5-2.55-396.el8.x86_64                                           
-#10 9.926   perl-Encode-4:2.97-3.el8.x86_64                                               
-#10 9.926   perl-Errno-1.28-422.el8.x86_64                                                
-#10 9.926   perl-Error-1:0.17025-2.el8.noarch                                             
-#10 9.926   perl-Exporter-5.72-396.el8.noarch                                             
-#10 9.926   perl-File-Path-2.15-2.el8.noarch                                              
-#10 9.926   perl-File-Temp-0.230.600-1.el8.noarch                                         
-#10 9.926   perl-Getopt-Long-1:2.50-4.el8.noarch                                          
-#10 9.926   perl-Git-2.39.3-1.el8_8.noarch                                                
-#10 9.926   perl-HTTP-Tiny-0.074-1.el8.noarch                                             
-#10 9.926   perl-IO-1.38-422.el8.x86_64                                                   
-#10 9.926   perl-IO-Socket-IP-0.39-5.el8.noarch                                           
-#10 9.926   perl-IO-Socket-SSL-2.066-4.module+el8.3.0+6446+594cad75.noarch                
-#10 9.926   perl-MIME-Base64-3.15-396.el8.x86_64                                          
-#10 9.926   perl-Mozilla-CA-20160104-7.module+el8.3.0+6498+9eecfe51.noarch                
-#10 9.926   perl-Net-SSLeay-1.88-2.module+el8.6.0+13392+f0897f98.x86_64                   
-#10 9.926   perl-PathTools-3.74-1.el8.x86_64                                              
-#10 9.926   perl-Pod-Escapes-1:1.07-395.el8.noarch                                        
-#10 9.926   perl-Pod-Perldoc-3.28-396.el8.noarch                                          
-#10 9.926   perl-Pod-Simple-1:3.35-395.el8.noarch                                         
-#10 9.926   perl-Pod-Usage-4:1.69-395.el8.noarch                                          
-#10 9.926   perl-Scalar-List-Utils-3:1.49-2.el8.x86_64                                    
-#10 9.926   perl-Socket-4:2.027-3.el8.x86_64                                              
-#10 9.926   perl-Storable-1:3.11-3.el8.x86_64                                             
-#10 9.926   perl-Term-ANSIColor-4.06-396.el8.noarch                                       
-#10 9.926   perl-Term-Cap-1.17-395.el8.noarch                                             
-#10 9.926   perl-TermReadKey-2.37-7.el8.x86_64                                            
-#10 9.926   perl-Text-ParseWords-3.30-395.el8.noarch                                      
-#10 9.926   perl-Text-Tabs+Wrap-2013.0523-395.el8.noarch                                  
-#10 9.926   perl-Time-Local-1:1.280-1.el8.noarch                                          
-#10 9.926   perl-URI-1.73-3.el8.noarch                                                    
-#10 9.926   perl-Unicode-Normalize-1.25-396.el8.x86_64                                    
-#10 9.926   perl-constant-1.33-396.el8.noarch                                             
-#10 9.926   perl-interpreter-4:5.26.3-422.el8.x86_64                                      
-#10 9.926   perl-libnet-3.11-3.el8.noarch                                                 
-#10 9.926   perl-libs-4:5.26.3-422.el8.x86_64                                             
-#10 9.926   perl-macros-4:5.26.3-422.el8.x86_64                                           
-#10 9.926   perl-parent-1:0.237-1.el8.noarch                                              
-#10 9.926   perl-podlators-4.11-1.el8.noarch                                              
-#10 9.926   perl-threads-1:2.21-2.el8.x86_64                                              
-#10 9.926   perl-threads-shared-1.58-2.el8.x86_64                                         
-#10 9.926 
-#10 9.926 Complete!
-#10 DONE 10.6s
+#10 sha256:8838c3f89421fd8c479cae1f232dbba4f24a84e144cde2079bb28c5d544ff162
+#10 0.832 Updating Subscription Management repositories.
+#10 0.832 Unable to read consumer identity
+#10 0.832 Subscription Manager is operating in container mode.
+#10 0.836 
+#10 0.836 This system is not registered with an entitlement server. You can use subscription-manager to register.
+#10 0.836 
+#10 1.226 Red Hat Universal Base Image 8 (RPMs) - BaseOS  2.4 MB/s | 844 kB     00:00    
+#10 1.911 Red Hat Universal Base Image 8 (RPMs) - AppStre 6.2 MB/s | 3.4 MB     00:00    
+#10 2.735 Red Hat Universal Base Image 8 (RPMs) - CodeRea 437 kB/s | 106 kB     00:00    
+#10 3.042 Dependencies resolved.
+#10 3.049 =====================================================================================================
+#10 3.049  Package                  Arch    Version                                 Repository             Size
+#10 3.049 =====================================================================================================
+#10 3.049 Installing:
+#10 3.049  git                      x86_64  2.39.3-1.el8_8                          ubi-8-appstream-rpms  104 k
+#10 3.049 Installing dependencies:
+#10 3.049  emacs-filesystem         noarch  1:26.1-10.el8_8.2                       ubi-8-baseos-rpms      70 k
+#10 3.049  git-core                 x86_64  2.39.3-1.el8_8                          ubi-8-appstream-rpms   11 M
+#10 3.049  git-core-doc             noarch  2.39.3-1.el8_8                          ubi-8-appstream-rpms  3.0 M
+#10 3.049  groff-base               x86_64  1.22.3-18.el8                           ubi-8-baseos-rpms     1.0 M
+#10 3.049  less                     x86_64  530-1.el8                               ubi-8-baseos-rpms     164 k
+#10 3.049  libedit                  x86_64  3.1-23.20170329cvs.el8                  ubi-8-baseos-rpms     102 k
+#10 3.049  ncurses                  x86_64  6.1-9.20180224.el8                      ubi-8-baseos-rpms     387 k
+#10 3.049  openssh                  x86_64  8.0p1-17.el8_7                          ubi-8-baseos-rpms     523 k
+#10 3.049  openssh-clients          x86_64  8.0p1-17.el8_7                          ubi-8-baseos-rpms     669 k
+#10 3.049  openssl                  x86_64  1:1.1.1k-9.el8_7                        ubi-8-baseos-rpms     710 k
+#10 3.049  perl-Carp                noarch  1.42-396.el8                            ubi-8-baseos-rpms      30 k
+#10 3.049  perl-Data-Dumper         x86_64  2.167-399.el8                           ubi-8-baseos-rpms      58 k
+#10 3.049  perl-Digest              noarch  1.17-395.el8                            ubi-8-appstream-rpms   27 k
+#10 3.049  perl-Digest-MD5          x86_64  2.55-396.el8                            ubi-8-appstream-rpms   37 k
+#10 3.049  perl-Encode              x86_64  4:2.97-3.el8                            ubi-8-baseos-rpms     1.5 M
+#10 3.049  perl-Errno               x86_64  1.28-422.el8                            ubi-8-baseos-rpms      77 k
+#10 3.049  perl-Error               noarch  1:0.17025-2.el8                         ubi-8-appstream-rpms   46 k
+#10 3.049  perl-Exporter            noarch  5.72-396.el8                            ubi-8-baseos-rpms      34 k
+#10 3.049  perl-File-Path           noarch  2.15-2.el8                              ubi-8-baseos-rpms      38 k
+#10 3.049  perl-File-Temp           noarch  0.230.600-1.el8                         ubi-8-baseos-rpms      63 k
+#10 3.049  perl-Getopt-Long         noarch  1:2.50-4.el8                            ubi-8-baseos-rpms      63 k
+#10 3.049  perl-Git                 noarch  2.39.3-1.el8_8                          ubi-8-appstream-rpms   79 k
+#10 3.049  perl-HTTP-Tiny           noarch  0.074-1.el8                             ubi-8-baseos-rpms      58 k
+#10 3.049  perl-IO                  x86_64  1.38-422.el8                            ubi-8-baseos-rpms     142 k
+#10 3.049  perl-MIME-Base64         x86_64  3.15-396.el8                            ubi-8-baseos-rpms      31 k
+#10 3.049  perl-Net-SSLeay          x86_64  1.88-2.module+el8.6.0+13392+f0897f98    ubi-8-appstream-rpms  379 k
+#10 3.049  perl-PathTools           x86_64  3.74-1.el8                              ubi-8-baseos-rpms      90 k
+#10 3.049  perl-Pod-Escapes         noarch  1:1.07-395.el8                          ubi-8-baseos-rpms      20 k
+#10 3.049  perl-Pod-Perldoc         noarch  3.28-396.el8                            ubi-8-baseos-rpms      88 k
+#10 3.049  perl-Pod-Simple          noarch  1:3.35-395.el8                          ubi-8-baseos-rpms     213 k
+#10 3.049  perl-Pod-Usage           noarch  4:1.69-395.el8                          ubi-8-baseos-rpms      34 k
+#10 3.049  perl-Scalar-List-Utils   x86_64  3:1.49-2.el8                            ubi-8-baseos-rpms      68 k
+#10 3.049  perl-Socket              x86_64  4:2.027-3.el8                           ubi-8-baseos-rpms      59 k
+#10 3.049  perl-Storable            x86_64  1:3.11-3.el8                            ubi-8-baseos-rpms      98 k
+#10 3.049  perl-Term-ANSIColor      noarch  4.06-396.el8                            ubi-8-baseos-rpms      46 k
+#10 3.049  perl-Term-Cap            noarch  1.17-395.el8                            ubi-8-baseos-rpms      23 k
+#10 3.049  perl-TermReadKey         x86_64  2.37-7.el8                              ubi-8-appstream-rpms   40 k
+#10 3.049  perl-Text-ParseWords     noarch  3.30-395.el8                            ubi-8-baseos-rpms      18 k
+#10 3.049  perl-Text-Tabs+Wrap      noarch  2013.0523-395.el8                       ubi-8-baseos-rpms      24 k
+#10 3.049  perl-Time-Local          noarch  1:1.280-1.el8                           ubi-8-baseos-rpms      34 k
+#10 3.049  perl-URI                 noarch  1.73-3.el8                              ubi-8-appstream-rpms  116 k
+#10 3.049  perl-Unicode-Normalize   x86_64  1.25-396.el8                            ubi-8-baseos-rpms      82 k
+#10 3.049  perl-constant            noarch  1.33-396.el8                            ubi-8-baseos-rpms      25 k
+#10 3.049  perl-interpreter         x86_64  4:5.26.3-422.el8                        ubi-8-baseos-rpms     6.3 M
+#10 3.049  perl-libnet              noarch  3.11-3.el8                              ubi-8-appstream-rpms  121 k
+#10 3.049  perl-libs                x86_64  4:5.26.3-422.el8                        ubi-8-baseos-rpms     1.6 M
+#10 3.049  perl-macros              x86_64  4:5.26.3-422.el8                        ubi-8-baseos-rpms      73 k
+#10 3.049  perl-parent              noarch  1:0.237-1.el8                           ubi-8-baseos-rpms      20 k
+#10 3.049  perl-podlators           noarch  4.11-1.el8                              ubi-8-baseos-rpms     118 k
+#10 3.049  perl-threads             x86_64  1:2.21-2.el8                            ubi-8-baseos-rpms      61 k
+#10 3.049  perl-threads-shared      x86_64  1.58-2.el8                              ubi-8-baseos-rpms      48 k
+#10 3.049 Installing weak dependencies:
+#10 3.049  perl-IO-Socket-IP        noarch  0.39-5.el8                              ubi-8-appstream-rpms   47 k
+#10 3.049  perl-IO-Socket-SSL       noarch  2.066-4.module+el8.3.0+6446+594cad75    ubi-8-appstream-rpms  298 k
+#10 3.049  perl-Mozilla-CA          noarch  20160104-7.module+el8.3.0+6498+9eecfe51 ubi-8-appstream-rpms   15 k
+#10 3.049 Enabling module streams:
+#10 3.049  perl                             5.26                                                               
+#10 3.049  perl-IO-Socket-SSL               2.066                                                              
+#10 3.049  perl-libwww-perl                 6.34                                                               
+#10 3.049 
+#10 3.049 Transaction Summary
+#10 3.049 =====================================================================================================
+#10 3.049 Install  55 Packages
+#10 3.049 
+#10 3.054 Total download size: 30 M
+#10 3.054 Installed size: 90 M
+#10 3.055 Downloading Packages:
+#10 3.218 (1/55): perl-Scalar-List-Utils-1.49-2.el8.x86_6 435 kB/s |  68 kB     00:00    
+#10 3.221 (2/55): perl-PathTools-3.74-1.el8.x86_64.rpm    566 kB/s |  90 kB     00:00    
+#10 3.241 (3/55): less-530-1.el8.x86_64.rpm               915 kB/s | 164 kB     00:00    
+#10 3.277 (4/55): perl-threads-2.21-2.el8.x86_64.rpm      1.1 MB/s |  61 kB     00:00    
+#10 3.313 (5/55): perl-Term-ANSIColor-4.06-396.el8.noarch 1.2 MB/s |  46 kB     00:00    
+#10 3.348 (6/55): perl-Pod-Simple-3.35-395.el8.noarch.rpm 2.0 MB/s | 213 kB     00:00    
+#10 3.357 (7/55): perl-Data-Dumper-2.167-399.el8.x86_64.r 1.3 MB/s |  58 kB     00:00    
+#10 3.372 (8/55): openssh-clients-8.0p1-17.el8_7.x86_64.r 4.2 MB/s | 669 kB     00:00    
+#10 3.386 (9/55): libedit-3.1-23.20170329cvs.el8.x86_64.r 3.0 MB/s | 102 kB     00:00    
+#10 3.414 (10/55): perl-threads-shared-1.58-2.el8.x86_64. 1.1 MB/s |  48 kB     00:00    
+#10 3.424 (11/55): perl-IO-1.38-422.el8.x86_64.rpm        2.1 MB/s | 142 kB     00:00    
+#10 3.434 (12/55): perl-HTTP-Tiny-0.074-1.el8.noarch.rpm  1.2 MB/s |  58 kB     00:00    
+#10 3.443 (13/55): perl-Pod-Escapes-1.07-395.el8.noarch.r 723 kB/s |  20 kB     00:00    
+#10 3.478 (14/55): perl-Pod-Perldoc-3.28-396.el8.noarch.r 1.6 MB/s |  88 kB     00:00    
+#10 3.494 (15/55): perl-Socket-2.027-3.el8.x86_64.rpm     1.1 MB/s |  59 kB     00:00    
+#10 3.521 (16/55): perl-File-Path-2.15-2.el8.noarch.rpm   1.0 MB/s |  38 kB     00:00    
+#10 3.552 (17/55): perl-parent-0.237-1.el8.noarch.rpm     657 kB/s |  20 kB     00:00    
+#10 3.558 (18/55): openssh-8.0p1-17.el8_7.x86_64.rpm      8.0 MB/s | 523 kB     00:00    
+#10 3.572 (19/55): perl-Encode-2.97-3.el8.x86_64.rpm       11 MB/s | 1.5 MB     00:00    
+#10 3.602 (20/55): perl-Text-Tabs+Wrap-2013.0523-395.el8. 826 kB/s |  24 kB     00:00    
+#10 3.667 (21/55): groff-base-1.22.3-18.el8.x86_64.rpm     18 MB/s | 1.0 MB     00:00    
+#10 3.698 (22/55): emacs-filesystem-26.1-10.el8_8.2.noarc 2.2 MB/s |  70 kB     00:00    
+#10 3.710 (23/55): perl-libs-5.26.3-422.el8.x86_64.rpm     10 MB/s | 1.6 MB     00:00    
+#10 3.731 (24/55): perl-Getopt-Long-2.50-4.el8.noarch.rpm 1.9 MB/s |  63 kB     00:00    
+#10 3.741 (25/55): perl-macros-5.26.3-422.el8.x86_64.rpm  2.4 MB/s |  73 kB     00:00    
+#10 3.779 (26/55): perl-interpreter-5.26.3-422.el8.x86_64  28 MB/s | 6.3 MB     00:00    
+#10 3.782 (27/55): perl-Time-Local-1.280-1.el8.noarch.rpm 821 kB/s |  34 kB     00:00    
+#10 3.786 (28/55): perl-podlators-4.11-1.el8.noarch.rpm   2.1 MB/s | 118 kB     00:00    
+#10 3.809 (29/55): perl-Carp-1.42-396.el8.noarch.rpm      1.0 MB/s |  30 kB     00:00    
+#10 3.812 (30/55): perl-Exporter-5.72-396.el8.noarch.rpm  1.1 MB/s |  34 kB     00:00    
+#10 3.820 (31/55): perl-Storable-3.11-3.el8.x86_64.rpm    2.8 MB/s |  98 kB     00:00    
+#10 3.843 (32/55): perl-Unicode-Normalize-1.25-396.el8.x8 2.7 MB/s |  82 kB     00:00    
+#10 3.857 (33/55): perl-Text-ParseWords-3.30-395.el8.noar 374 kB/s |  18 kB     00:00    
+#10 3.863 (34/55): ncurses-6.1-9.20180224.el8.x86_64.rpm  9.0 MB/s | 387 kB     00:00    
+#10 3.886 (35/55): openssl-1.1.1k-9.el8_7.x86_64.rpm       16 MB/s | 710 kB     00:00    
+#10 3.889 (36/55): perl-Errno-1.28-422.el8.x86_64.rpm     2.4 MB/s |  77 kB     00:00    
+#10 3.916 (37/55): perl-constant-1.33-396.el8.noarch.rpm  863 kB/s |  25 kB     00:00    
+#10 3.921 (38/55): perl-Term-Cap-1.17-395.el8.noarch.rpm  724 kB/s |  23 kB     00:00    
+#10 3.927 (39/55): perl-File-Temp-0.230.600-1.el8.noarch. 992 kB/s |  63 kB     00:00    
+#10 3.945 (40/55): perl-MIME-Base64-3.15-396.el8.x86_64.r 1.0 MB/s |  31 kB     00:00    
+#10 3.951 (41/55): perl-Pod-Usage-1.69-395.el8.noarch.rpm 1.1 MB/s |  34 kB     00:00    
+#10 3.958 (42/55): perl-Error-0.17025-2.el8.noarch.rpm    1.5 MB/s |  46 kB     00:00    
+#10 3.976 (43/55): perl-Digest-1.17-395.el8.noarch.rpm    905 kB/s |  27 kB     00:00    
+#10 3.980 (44/55): perl-TermReadKey-2.37-7.el8.x86_64.rpm 1.3 MB/s |  40 kB     00:00    
+#10 3.993 (45/55): perl-IO-Socket-SSL-2.066-4.module+el8. 8.3 MB/s | 298 kB     00:00    
+#10 4.006 (46/55): perl-Mozilla-CA-20160104-7.module+el8. 519 kB/s |  15 kB     00:00    
+#10 4.010 (47/55): perl-IO-Socket-IP-0.39-5.el8.noarch.rp 1.6 MB/s |  47 kB     00:00    
+#10 4.023 (48/55): perl-Digest-MD5-2.55-396.el8.x86_64.rp 1.2 MB/s |  37 kB     00:00    
+#10 4.044 (49/55): perl-URI-1.73-3.el8.noarch.rpm         3.0 MB/s | 116 kB     00:00    
+#10 4.060 (50/55): perl-Net-SSLeay-1.88-2.module+el8.6.0+ 7.4 MB/s | 379 kB     00:00    
+#10 4.066 (51/55): perl-libnet-3.11-3.el8.noarch.rpm      2.7 MB/s | 121 kB     00:00    
+#10 4.098 (52/55): git-2.39.3-1.el8_8.x86_64.rpm          3.2 MB/s | 104 kB     00:00    
+#10 4.102 (53/55): perl-Git-2.39.3-1.el8_8.noarch.rpm     1.9 MB/s |  79 kB     00:00    
+#10 4.130 (54/55): git-core-doc-2.39.3-1.el8_8.noarch.rpm  35 MB/s | 3.0 MB     00:00    
+#10 4.288 (55/55): git-core-2.39.3-1.el8_8.x86_64.rpm      57 MB/s |  11 MB     00:00    
+#10 4.291 --------------------------------------------------------------------------------
+#10 4.292 Total                                            24 MB/s |  30 MB     00:01     
+#10 4.910 Running transaction check
+#10 4.946 Transaction check succeeded.
+#10 4.946 Running transaction test
+#10 5.226 Transaction test succeeded.
+#10 5.229 Running transaction
+#10 5.738   Preparing        :                                                        1/1 
+#10 5.834   Installing       : openssl-1:1.1.1k-9.el8_7.x86_64                       1/55 
+#10 5.871   Installing       : ncurses-6.1-9.20180224.el8.x86_64                     2/55 
+#10 5.886   Installing       : emacs-filesystem-1:26.1-10.el8_8.2.noarch             3/55 
+#10 6.011   Installing       : groff-base-1.22.3-18.el8.x86_64                       4/55 
+#10 6.033   Installing       : perl-Digest-1.17-395.el8.noarch                       5/55 
+#10 6.044   Installing       : perl-Digest-MD5-2.55-396.el8.x86_64                   6/55 
+#10 6.058   Installing       : perl-Data-Dumper-2.167-399.el8.x86_64                 7/55 
+#10 6.080   Installing       : perl-libnet-3.11-3.el8.noarch                         8/55 
+#10 6.129   Installing       : perl-Net-SSLeay-1.88-2.module+el8.6.0+13392+f0897f    9/55 
+#10 6.161   Installing       : perl-URI-1.73-3.el8.noarch                           10/55 
+#10 6.175   Installing       : perl-Pod-Escapes-1:1.07-395.el8.noarch               11/55 
+#10 6.185   Installing       : perl-Time-Local-1:1.280-1.el8.noarch                 12/55 
+#10 6.193   Installing       : perl-Mozilla-CA-20160104-7.module+el8.3.0+6498+9ee   13/55 
+#10 6.205   Installing       : perl-IO-Socket-IP-0.39-5.el8.noarch                  14/55 
+#10 6.236   Installing       : perl-IO-Socket-SSL-2.066-4.module+el8.3.0+6446+594   15/55 
+#10 6.259   Installing       : perl-Term-ANSIColor-4.06-396.el8.noarch              16/55 
+#10 6.290   Installing       : perl-Pod-Simple-1:3.35-395.el8.noarch                17/55 
+#10 6.307   Installing       : perl-File-Temp-0.230.600-1.el8.noarch                18/55 
+#10 6.317   Installing       : perl-Term-Cap-1.17-395.el8.noarch                    19/55 
+#10 6.332   Installing       : perl-HTTP-Tiny-0.074-1.el8.noarch                    20/55 
+#10 6.352   Installing       : perl-podlators-4.11-1.el8.noarch                     21/55 
+#10 6.381   Installing       : perl-Pod-Perldoc-3.28-396.el8.noarch                 22/55 
+#10 6.392   Installing       : perl-Text-ParseWords-3.30-395.el8.noarch             23/55 
+#10 6.402   Installing       : perl-Pod-Usage-4:1.69-395.el8.noarch                 24/55 
+#10 6.419   Installing       : perl-Storable-1:3.11-3.el8.x86_64                    25/55 
+#10 6.430   Installing       : perl-MIME-Base64-3.15-396.el8.x86_64                 26/55 
+#10 6.445   Installing       : perl-Getopt-Long-1:2.50-4.el8.noarch                 27/55 
+#10 6.458   Installing       : perl-Socket-4:2.027-3.el8.x86_64                     28/55 
+#10 6.468   Installing       : perl-Errno-1.28-422.el8.x86_64                       29/55 
+#10 6.682   Installing       : perl-Encode-4:2.97-3.el8.x86_64                      30/55 
+#10 6.696   Installing       : perl-parent-1:0.237-1.el8.noarch                     31/55 
+#10 6.705   Installing       : perl-macros-4:5.26.3-422.el8.x86_64                  32/55 
+#10 6.715   Installing       : perl-Carp-1.42-396.el8.noarch                        33/55 
+#10 6.729   Installing       : perl-Exporter-5.72-396.el8.noarch                    34/55 
+#10 6.923   Installing       : perl-libs-4:5.26.3-422.el8.x86_64                    35/55 
+#10 6.944   Installing       : perl-Scalar-List-Utils-3:1.49-2.el8.x86_64           36/55 
+#10 6.958   Installing       : perl-threads-shared-1.58-2.el8.x86_64                37/55 
+#10 6.972   Installing       : perl-threads-1:2.21-2.el8.x86_64                     38/55 
+#10 6.987   Installing       : perl-Text-Tabs+Wrap-2013.0523-395.el8.noarch         39/55 
+#10 7.006   Installing       : perl-Unicode-Normalize-1.25-396.el8.x86_64           40/55 
+#10 7.019   Installing       : perl-File-Path-2.15-2.el8.noarch                     41/55 
+#10 7.036   Installing       : perl-PathTools-3.74-1.el8.x86_64                     42/55 
+#10 7.056   Installing       : perl-IO-1.38-422.el8.x86_64                          43/55 
+#10 7.068   Installing       : perl-constant-1.33-396.el8.noarch                    44/55 
+#10 7.603   Installing       : perl-interpreter-4:5.26.3-422.el8.x86_64             45/55 
+#10 7.629   Installing       : perl-Error-1:0.17025-2.el8.noarch                    46/55 
+#10 7.641   Installing       : perl-TermReadKey-2.37-7.el8.x86_64                   47/55 
+#10 7.651   Running scriptlet: openssh-8.0p1-17.el8_7.x86_64                        48/55 
+#10 7.718   Installing       : openssh-8.0p1-17.el8_7.x86_64                        48/55 
+#10 7.743   Installing       : libedit-3.1-23.20170329cvs.el8.x86_64                49/55 
+#10 7.816   Installing       : openssh-clients-8.0p1-17.el8_7.x86_64                50/55 
+#10 7.841   Installing       : less-530-1.el8.x86_64                                51/55 
+#10 8.826   Installing       : git-core-2.39.3-1.el8_8.x86_64                       52/55 
+#10 9.230   Installing       : git-core-doc-2.39.3-1.el8_8.noarch                   53/55 
+#10 9.252   Installing       : perl-Git-2.39.3-1.el8_8.noarch                       54/55 
+#10 9.267   Installing       : git-2.39.3-1.el8_8.x86_64                            55/55 
+#10 9.280   Running scriptlet: git-2.39.3-1.el8_8.x86_64                            55/55 
+#10 9.354   Verifying        : perl-Scalar-List-Utils-3:1.49-2.el8.x86_64            1/55 
+#10 9.354   Verifying        : less-530-1.el8.x86_64                                 2/55 
+#10 9.354   Verifying        : perl-PathTools-3.74-1.el8.x86_64                      3/55 
+#10 9.355   Verifying        : openssh-clients-8.0p1-17.el8_7.x86_64                 4/55 
+#10 9.355   Verifying        : perl-threads-1:2.21-2.el8.x86_64                      5/55 
+#10 9.355   Verifying        : perl-Pod-Simple-1:3.35-395.el8.noarch                 6/55 
+#10 9.355   Verifying        : perl-Term-ANSIColor-4.06-396.el8.noarch               7/55 
+#10 9.355   Verifying        : perl-Data-Dumper-2.167-399.el8.x86_64                 8/55 
+#10 9.355   Verifying        : libedit-3.1-23.20170329cvs.el8.x86_64                 9/55 
+#10 9.355   Verifying        : perl-IO-1.38-422.el8.x86_64                          10/55 
+#10 9.355   Verifying        : perl-threads-shared-1.58-2.el8.x86_64                11/55 
+#10 9.355   Verifying        : perl-HTTP-Tiny-0.074-1.el8.noarch                    12/55 
+#10 9.356   Verifying        : perl-Pod-Escapes-1:1.07-395.el8.noarch               13/55 
+#10 9.356   Verifying        : perl-Pod-Perldoc-3.28-396.el8.noarch                 14/55 
+#10 9.356   Verifying        : perl-Encode-4:2.97-3.el8.x86_64                      15/55 
+#10 9.356   Verifying        : perl-Socket-4:2.027-3.el8.x86_64                     16/55 
+#10 9.356   Verifying        : perl-File-Path-2.15-2.el8.noarch                     17/55 
+#10 9.356   Verifying        : openssh-8.0p1-17.el8_7.x86_64                        18/55 
+#10 9.356   Verifying        : perl-parent-1:0.237-1.el8.noarch                     19/55 
+#10 9.356   Verifying        : perl-interpreter-4:5.26.3-422.el8.x86_64             20/55 
+#10 9.357   Verifying        : perl-libs-4:5.26.3-422.el8.x86_64                    21/55 
+#10 9.357   Verifying        : perl-Text-Tabs+Wrap-2013.0523-395.el8.noarch         22/55 
+#10 9.357   Verifying        : groff-base-1.22.3-18.el8.x86_64                      23/55 
+#10 9.357   Verifying        : emacs-filesystem-1:26.1-10.el8_8.2.noarch            24/55 
+#10 9.357   Verifying        : perl-Getopt-Long-1:2.50-4.el8.noarch                 25/55 
+#10 9.357   Verifying        : perl-macros-4:5.26.3-422.el8.x86_64                  26/55 
+#10 9.357   Verifying        : perl-podlators-4.11-1.el8.noarch                     27/55 
+#10 9.357   Verifying        : perl-Time-Local-1:1.280-1.el8.noarch                 28/55 
+#10 9.357   Verifying        : perl-Carp-1.42-396.el8.noarch                        29/55 
+#10 9.358   Verifying        : perl-Exporter-5.72-396.el8.noarch                    30/55 
+#10 9.358   Verifying        : perl-Storable-1:3.11-3.el8.x86_64                    31/55 
+#10 9.358   Verifying        : perl-Text-ParseWords-3.30-395.el8.noarch             32/55 
+#10 9.358   Verifying        : perl-Unicode-Normalize-1.25-396.el8.x86_64           33/55 
+#10 9.358   Verifying        : ncurses-6.1-9.20180224.el8.x86_64                    34/55 
+#10 9.358   Verifying        : openssl-1:1.1.1k-9.el8_7.x86_64                      35/55 
+#10 9.358   Verifying        : perl-Errno-1.28-422.el8.x86_64                       36/55 
+#10 9.358   Verifying        : perl-File-Temp-0.230.600-1.el8.noarch                37/55 
+#10 9.359   Verifying        : perl-constant-1.33-396.el8.noarch                    38/55 
+#10 9.359   Verifying        : perl-Term-Cap-1.17-395.el8.noarch                    39/55 
+#10 9.359   Verifying        : perl-MIME-Base64-3.15-396.el8.x86_64                 40/55 
+#10 9.359   Verifying        : perl-Pod-Usage-4:1.69-395.el8.noarch                 41/55 
+#10 9.359   Verifying        : perl-Error-1:0.17025-2.el8.noarch                    42/55 
+#10 9.359   Verifying        : perl-Digest-1.17-395.el8.noarch                      43/55 
+#10 9.359   Verifying        : perl-TermReadKey-2.37-7.el8.x86_64                   44/55 
+#10 9.359   Verifying        : perl-IO-Socket-SSL-2.066-4.module+el8.3.0+6446+594   45/55 
+#10 9.360   Verifying        : perl-Mozilla-CA-20160104-7.module+el8.3.0+6498+9ee   46/55 
+#10 9.360   Verifying        : perl-IO-Socket-IP-0.39-5.el8.noarch                  47/55 
+#10 9.360   Verifying        : perl-Digest-MD5-2.55-396.el8.x86_64                  48/55 
+#10 9.360   Verifying        : perl-URI-1.73-3.el8.noarch                           49/55 
+#10 9.360   Verifying        : perl-Net-SSLeay-1.88-2.module+el8.6.0+13392+f0897f   50/55 
+#10 9.360   Verifying        : perl-libnet-3.11-3.el8.noarch                        51/55 
+#10 9.360   Verifying        : git-core-doc-2.39.3-1.el8_8.noarch                   52/55 
+#10 9.360   Verifying        : perl-Git-2.39.3-1.el8_8.noarch                       53/55 
+#10 9.360   Verifying        : git-2.39.3-1.el8_8.x86_64                            54/55 
+#10 9.360   Verifying        : git-core-2.39.3-1.el8_8.x86_64                       55/55 
+#10 9.473 Installed products updated.
+#10 9.632 
+#10 9.632 Installed:
+#10 9.632   emacs-filesystem-1:26.1-10.el8_8.2.noarch                                     
+#10 9.632   git-2.39.3-1.el8_8.x86_64                                                     
+#10 9.632   git-core-2.39.3-1.el8_8.x86_64                                                
+#10 9.632   git-core-doc-2.39.3-1.el8_8.noarch                                            
+#10 9.632   groff-base-1.22.3-18.el8.x86_64                                               
+#10 9.632   less-530-1.el8.x86_64                                                         
+#10 9.632   libedit-3.1-23.20170329cvs.el8.x86_64                                         
+#10 9.632   ncurses-6.1-9.20180224.el8.x86_64                                             
+#10 9.632   openssh-8.0p1-17.el8_7.x86_64                                                 
+#10 9.632   openssh-clients-8.0p1-17.el8_7.x86_64                                         
+#10 9.632   openssl-1:1.1.1k-9.el8_7.x86_64                                               
+#10 9.632   perl-Carp-1.42-396.el8.noarch                                                 
+#10 9.632   perl-Data-Dumper-2.167-399.el8.x86_64                                         
+#10 9.632   perl-Digest-1.17-395.el8.noarch                                               
+#10 9.632   perl-Digest-MD5-2.55-396.el8.x86_64                                           
+#10 9.632   perl-Encode-4:2.97-3.el8.x86_64                                               
+#10 9.632   perl-Errno-1.28-422.el8.x86_64                                                
+#10 9.632   perl-Error-1:0.17025-2.el8.noarch                                             
+#10 9.632   perl-Exporter-5.72-396.el8.noarch                                             
+#10 9.632   perl-File-Path-2.15-2.el8.noarch                                              
+#10 9.632   perl-File-Temp-0.230.600-1.el8.noarch                                         
+#10 9.632   perl-Getopt-Long-1:2.50-4.el8.noarch                                          
+#10 9.632   perl-Git-2.39.3-1.el8_8.noarch                                                
+#10 9.632   perl-HTTP-Tiny-0.074-1.el8.noarch                                             
+#10 9.632   perl-IO-1.38-422.el8.x86_64                                                   
+#10 9.632   perl-IO-Socket-IP-0.39-5.el8.noarch                                           
+#10 9.632   perl-IO-Socket-SSL-2.066-4.module+el8.3.0+6446+594cad75.noarch                
+#10 9.632   perl-MIME-Base64-3.15-396.el8.x86_64                                          
+#10 9.632   perl-Mozilla-CA-20160104-7.module+el8.3.0+6498+9eecfe51.noarch                
+#10 9.632   perl-Net-SSLeay-1.88-2.module+el8.6.0+13392+f0897f98.x86_64                   
+#10 9.632   perl-PathTools-3.74-1.el8.x86_64                                              
+#10 9.632   perl-Pod-Escapes-1:1.07-395.el8.noarch                                        
+#10 9.632   perl-Pod-Perldoc-3.28-396.el8.noarch                                          
+#10 9.632   perl-Pod-Simple-1:3.35-395.el8.noarch                                         
+#10 9.632   perl-Pod-Usage-4:1.69-395.el8.noarch                                          
+#10 9.632   perl-Scalar-List-Utils-3:1.49-2.el8.x86_64                                    
+#10 9.632   perl-Socket-4:2.027-3.el8.x86_64                                              
+#10 9.632   perl-Storable-1:3.11-3.el8.x86_64                                             
+#10 9.632   perl-Term-ANSIColor-4.06-396.el8.noarch                                       
+#10 9.632   perl-Term-Cap-1.17-395.el8.noarch                                             
+#10 9.632   perl-TermReadKey-2.37-7.el8.x86_64                                            
+#10 9.632   perl-Text-ParseWords-3.30-395.el8.noarch                                      
+#10 9.632   perl-Text-Tabs+Wrap-2013.0523-395.el8.noarch                                  
+#10 9.632   perl-Time-Local-1:1.280-1.el8.noarch                                          
+#10 9.632   perl-URI-1.73-3.el8.noarch                                                    
+#10 9.632   perl-Unicode-Normalize-1.25-396.el8.x86_64                                    
+#10 9.632   perl-constant-1.33-396.el8.noarch                                             
+#10 9.632   perl-interpreter-4:5.26.3-422.el8.x86_64                                      
+#10 9.632   perl-libnet-3.11-3.el8.noarch                                                 
+#10 9.632   perl-libs-4:5.26.3-422.el8.x86_64                                             
+#10 9.632   perl-macros-4:5.26.3-422.el8.x86_64                                           
+#10 9.632   perl-parent-1:0.237-1.el8.noarch                                              
+#10 9.632   perl-podlators-4.11-1.el8.noarch                                              
+#10 9.632   perl-threads-1:2.21-2.el8.x86_64                                              
+#10 9.632   perl-threads-shared-1.58-2.el8.x86_64                                         
+#10 9.632 
+#10 9.632 Complete!
+#10 DONE 10.2s
 
 #11 [ 7/11] RUN git clone --single-branch --branch master https://github.com/noironetworks/acc-provision.git
-#11 sha256:ab32ccaf4739dc8deb485ef630d0c9f5457a174db99a9d0222d0f12c84e32f60
-#11 0.516 Cloning into 'acc-provision'...
-#11 DONE 5.6s
+#11 sha256:604ef6495061b97d241c1067d07f03b36ae05205fc2feefd68923c109c7c570d
+#11 0.490 Cloning into 'acc-provision'...
+#11 DONE 5.7s
 
 #12 [ 8/11] RUN cd acc-provision/provision && python3 setup.py install
-#12 sha256:5b7f0bfc4b8b30dd2c01268892004b9663f6604a3fc840545f9fdc58dcdb82d4
-#12 0.663 running install
-#12 0.663 /usr/local/lib/python3.9/site-packages/setuptools/_distutils/cmd.py:66: SetuptoolsDeprecationWarning: setup.py install is deprecated.
-#12 0.663 !!
-#12 0.663 
-#12 0.663         ********************************************************************************
-#12 0.663         Please avoid running ``setup.py`` directly.
-#12 0.663         Instead, use pypa/build, pypa/installer or other
-#12 0.663         standards-based tools.
-#12 0.663 
-#12 0.663         See https://blog.ganssle.io/articles/2021/10/setup-py-deprecated.html for details.
-#12 0.663         ********************************************************************************
-#12 0.663 
-#12 0.663 !!
-#12 0.663   self.initialize_options()
-#12 0.736 /usr/local/lib/python3.9/site-packages/setuptools/_distutils/cmd.py:66: EasyInstallDeprecationWarning: easy_install command is deprecated.
-#12 0.736 !!
-#12 0.736 
-#12 0.736         ********************************************************************************
-#12 0.736         Please avoid running ``setup.py`` and ``easy_install``.
-#12 0.736         Instead, use pypa/build, pypa/installer or other
-#12 0.736         standards-based tools.
-#12 0.736 
-#12 0.736         See https://github.com/pypa/setuptools/issues/917 for details.
-#12 0.736         ********************************************************************************
-#12 0.736 
-#12 0.736 !!
-#12 0.736   self.initialize_options()
-#12 0.786 running bdist_egg
-#12 0.804 running egg_info
-#12 0.804 creating acc_provision.egg-info
-#12 0.811 writing acc_provision.egg-info/PKG-INFO
-#12 0.811 writing dependency_links to acc_provision.egg-info/dependency_links.txt
-#12 0.812 writing entry points to acc_provision.egg-info/entry_points.txt
-#12 0.813 writing requirements to acc_provision.egg-info/requires.txt
-#12 0.813 writing top-level names to acc_provision.egg-info/top_level.txt
-#12 0.813 writing manifest file 'acc_provision.egg-info/SOURCES.txt'
-#12 0.829 reading manifest file 'acc_provision.egg-info/SOURCES.txt'
-#12 0.829 reading manifest template 'MANIFEST.in'
-#12 0.832 writing manifest file 'acc_provision.egg-info/SOURCES.txt'
-#12 0.832 installing library code to build/bdist.linux-x86_64/egg
-#12 0.832 running install_lib
-#12 0.832 running build_py
-#12 0.833 creating build
-#12 0.833 creating build/lib
-#12 0.833 creating build/lib/acc_provision
-#12 0.833 copying acc_provision/cloud_provision.py -> build/lib/acc_provision
-#12 0.833 copying acc_provision/acc_provision.py -> build/lib/acc_provision
-#12 0.834 copying acc_provision/kafka_cert.py -> build/lib/acc_provision
-#12 0.834 copying acc_provision/fake_apic.py -> build/lib/acc_provision
-#12 0.834 copying acc_provision/apic_provision.py -> build/lib/acc_provision
-#12 0.835 copying acc_provision/acc_retrieve_cert.py -> build/lib/acc_provision
-#12 0.835 copying acc_provision/test_main.py -> build/lib/acc_provision
-#12 0.835 copying acc_provision/__init__.py -> build/lib/acc_provision
-#12 0.836 creating build/lib/gitversion
-#12 0.836 copying gitversion/gitversion.py -> build/lib/gitversion
-#12 0.836 copying gitversion/__init__.py -> build/lib/gitversion
-#12 0.837 creating build/lib/acc_provision/templates
-#12 0.837 copying acc_provision/templates/__init__.py -> build/lib/acc_provision/templates
-#12 0.839 copying acc_provision/RELEASE-VERSION -> build/lib/acc_provision
-#12 0.839 copying acc_provision/flavors.yaml -> build/lib/acc_provision
-#12 0.839 copying acc_provision/versions.yaml -> build/lib/acc_provision
-#12 0.840 copying acc_provision/templates/99-master-kubelet-node-ip.yaml -> build/lib/acc_provision/templates
-#12 0.840 copying acc_provision/templates/99-worker-kubelet-node-ip.yaml -> build/lib/acc_provision/templates
-#12 0.841 copying acc_provision/templates/99-worker-kubelet-node-port.yaml -> build/lib/acc_provision/templates
-#12 0.841 copying acc_provision/templates/acc-provision-configmap.yaml -> build/lib/acc_provision/templates
-#12 0.841 copying acc_provision/templates/acc-provision-crd.yaml -> build/lib/acc_provision/templates
-#12 0.841 copying acc_provision/templates/aci-containers.yaml -> build/lib/acc_provision/templates
-#12 0.842 copying acc_provision/templates/aci-network-provider-cluster-1-3-13.yaml -> build/lib/acc_provision/templates
-#12 0.842 copying acc_provision/templates/aci-network-provider-cluster-1-3-17.yaml -> build/lib/acc_provision/templates
-#12 0.843 copying acc_provision/templates/aci-network-provider-cluster-1-3-18.yaml -> build/lib/acc_provision/templates
-#12 0.843 copying acc_provision/templates/aci-network-provider-cluster-1-3-20.yaml -> build/lib/acc_provision/templates
-#12 0.843 copying acc_provision/templates/aci-network-provider-cluster-1-3-21.yaml -> build/lib/acc_provision/templates
-#12 0.844 copying acc_provision/templates/aci-network-provider-cluster-1-4-6.yaml -> build/lib/acc_provision/templates
-#12 0.844 copying acc_provision/templates/aci-network-provider-cluster.yaml -> build/lib/acc_provision/templates
-#12 0.844 copying acc_provision/templates/aci-operators-configmap.yaml -> build/lib/acc_provision/templates
-#12 0.844 copying acc_provision/templates/aci-operators-cr.yaml -> build/lib/acc_provision/templates
-#12 0.845 copying acc_provision/templates/aci-operators-crd.yaml -> build/lib/acc_provision/templates
-#12 0.845 copying acc_provision/templates/aci-operators.yaml -> build/lib/acc_provision/templates
-#12 0.845 copying acc_provision/templates/aks-provision-config.yaml -> build/lib/acc_provision/templates
-#12 0.846 copying acc_provision/templates/apic.json -> build/lib/acc_provision/templates
-#12 0.846 copying acc_provision/templates/calico-bgp-config.yaml -> build/lib/acc_provision/templates
-#12 0.846 copying acc_provision/templates/calico-bgp-peer.yaml -> build/lib/acc_provision/templates
-#12 0.847 copying acc_provision/templates/calico-node.yaml -> build/lib/acc_provision/templates
-#12 0.847 copying acc_provision/templates/calico-provision-config.yaml -> build/lib/acc_provision/templates
-#12 0.847 copying acc_provision/templates/calicoctl.yaml -> build/lib/acc_provision/templates
-#12 0.848 copying acc_provision/templates/cluster-network-03-config.yaml -> build/lib/acc_provision/templates
-#12 0.848 copying acc_provision/templates/custom-resources-aci-calico.yaml -> build/lib/acc_provision/templates
-#12 0.848 copying acc_provision/templates/dpu-containers.yaml -> build/lib/acc_provision/templates
-#12 0.848 copying acc_provision/templates/overlay-provision-config.yaml -> build/lib/acc_provision/templates
-#12 0.849 copying acc_provision/templates/provision-config.yaml -> build/lib/acc_provision/templates
-#12 0.849 copying acc_provision/templates/tigera-operator.yaml -> build/lib/acc_provision/templates
-#12 0.851 creating build/bdist.linux-x86_64
-#12 0.851 creating build/bdist.linux-x86_64/egg
-#12 0.851 creating build/bdist.linux-x86_64/egg/acc_provision
-#12 0.852 copying build/lib/acc_provision/RELEASE-VERSION -> build/bdist.linux-x86_64/egg/acc_provision
-#12 0.852 copying build/lib/acc_provision/cloud_provision.py -> build/bdist.linux-x86_64/egg/acc_provision
-#12 0.852 copying build/lib/acc_provision/acc_provision.py -> build/bdist.linux-x86_64/egg/acc_provision
-#12 0.853 copying build/lib/acc_provision/kafka_cert.py -> build/bdist.linux-x86_64/egg/acc_provision
-#12 0.853 copying build/lib/acc_provision/versions.yaml -> build/bdist.linux-x86_64/egg/acc_provision
-#12 0.853 copying build/lib/acc_provision/fake_apic.py -> build/bdist.linux-x86_64/egg/acc_provision
-#12 0.854 copying build/lib/acc_provision/flavors.yaml -> build/bdist.linux-x86_64/egg/acc_provision
-#12 0.854 copying build/lib/acc_provision/apic_provision.py -> build/bdist.linux-x86_64/egg/acc_provision
-#12 0.855 copying build/lib/acc_provision/acc_retrieve_cert.py -> build/bdist.linux-x86_64/egg/acc_provision
-#12 0.856 creating build/bdist.linux-x86_64/egg/acc_provision/templates
-#12 0.856 copying build/lib/acc_provision/templates/overlay-provision-config.yaml -> build/bdist.linux-x86_64/egg/acc_provision/templates
-#12 0.856 copying build/lib/acc_provision/templates/provision-config.yaml -> build/bdist.linux-x86_64/egg/acc_provision/templates
-#12 0.856 copying build/lib/acc_provision/templates/aci-network-provider-cluster.yaml -> build/bdist.linux-x86_64/egg/acc_provision/templates
-#12 0.857 copying build/lib/acc_provision/templates/cluster-network-03-config.yaml -> build/bdist.linux-x86_64/egg/acc_provision/templates
-#12 0.857 copying build/lib/acc_provision/templates/aci-operators-crd.yaml -> build/bdist.linux-x86_64/egg/acc_provision/templates
-#12 0.857 copying build/lib/acc_provision/templates/aci-containers.yaml -> build/bdist.linux-x86_64/egg/acc_provision/templates
-#12 0.858 copying build/lib/acc_provision/templates/aci-operators-cr.yaml -> build/bdist.linux-x86_64/egg/acc_provision/templates
-#12 0.858 copying build/lib/acc_provision/templates/acc-provision-crd.yaml -> build/bdist.linux-x86_64/egg/acc_provision/templates
-#12 0.858 copying build/lib/acc_provision/templates/apic.json -> build/bdist.linux-x86_64/egg/acc_provision/templates
-#12 0.858 copying build/lib/acc_provision/templates/aci-network-provider-cluster-1-3-17.yaml -> build/bdist.linux-x86_64/egg/acc_provision/templates
-#12 0.859 copying build/lib/acc_provision/templates/dpu-containers.yaml -> build/bdist.linux-x86_64/egg/acc_provision/templates
-#12 0.859 copying build/lib/acc_provision/templates/99-worker-kubelet-node-ip.yaml -> build/bdist.linux-x86_64/egg/acc_provision/templates
-#12 0.859 copying build/lib/acc_provision/templates/aci-network-provider-cluster-1-3-18.yaml -> build/bdist.linux-x86_64/egg/acc_provision/templates
-#12 0.860 copying build/lib/acc_provision/templates/aks-provision-config.yaml -> build/bdist.linux-x86_64/egg/acc_provision/templates
-#12 0.860 copying build/lib/acc_provision/templates/99-worker-kubelet-node-port.yaml -> build/bdist.linux-x86_64/egg/acc_provision/templates
-#12 0.860 copying build/lib/acc_provision/templates/aci-operators-configmap.yaml -> build/bdist.linux-x86_64/egg/acc_provision/templates
-#12 0.860 copying build/lib/acc_provision/templates/tigera-operator.yaml -> build/bdist.linux-x86_64/egg/acc_provision/templates
-#12 0.861 copying build/lib/acc_provision/templates/aci-operators.yaml -> build/bdist.linux-x86_64/egg/acc_provision/templates
-#12 0.861 copying build/lib/acc_provision/templates/custom-resources-aci-calico.yaml -> build/bdist.linux-x86_64/egg/acc_provision/templates
-#12 0.861 copying build/lib/acc_provision/templates/99-master-kubelet-node-ip.yaml -> build/bdist.linux-x86_64/egg/acc_provision/templates
-#12 0.862 copying build/lib/acc_provision/templates/calico-node.yaml -> build/bdist.linux-x86_64/egg/acc_provision/templates
-#12 0.862 copying build/lib/acc_provision/templates/aci-network-provider-cluster-1-3-20.yaml -> build/bdist.linux-x86_64/egg/acc_provision/templates
-#12 0.862 copying build/lib/acc_provision/templates/aci-network-provider-cluster-1-3-21.yaml -> build/bdist.linux-x86_64/egg/acc_provision/templates
-#12 0.863 copying build/lib/acc_provision/templates/aci-network-provider-cluster-1-3-13.yaml -> build/bdist.linux-x86_64/egg/acc_provision/templates
-#12 0.863 copying build/lib/acc_provision/templates/calicoctl.yaml -> build/bdist.linux-x86_64/egg/acc_provision/templates
-#12 0.863 copying build/lib/acc_provision/templates/aci-network-provider-cluster-1-4-6.yaml -> build/bdist.linux-x86_64/egg/acc_provision/templates
-#12 0.863 copying build/lib/acc_provision/templates/calico-provision-config.yaml -> build/bdist.linux-x86_64/egg/acc_provision/templates
-#12 0.864 copying build/lib/acc_provision/templates/calico-bgp-peer.yaml -> build/bdist.linux-x86_64/egg/acc_provision/templates
-#12 0.864 copying build/lib/acc_provision/templates/__init__.py -> build/bdist.linux-x86_64/egg/acc_provision/templates
-#12 0.864 copying build/lib/acc_provision/templates/calico-bgp-config.yaml -> build/bdist.linux-x86_64/egg/acc_provision/templates
-#12 0.865 copying build/lib/acc_provision/templates/acc-provision-configmap.yaml -> build/bdist.linux-x86_64/egg/acc_provision/templates
-#12 0.865 copying build/lib/acc_provision/test_main.py -> build/bdist.linux-x86_64/egg/acc_provision
-#12 0.865 copying build/lib/acc_provision/__init__.py -> build/bdist.linux-x86_64/egg/acc_provision
-#12 0.866 creating build/bdist.linux-x86_64/egg/gitversion
-#12 0.866 copying build/lib/gitversion/gitversion.py -> build/bdist.linux-x86_64/egg/gitversion
-#12 0.866 copying build/lib/gitversion/__init__.py -> build/bdist.linux-x86_64/egg/gitversion
-#12 0.867 byte-compiling build/bdist.linux-x86_64/egg/acc_provision/cloud_provision.py to cloud_provision.cpython-39.pyc
-#12 0.878 byte-compiling build/bdist.linux-x86_64/egg/acc_provision/acc_provision.py to acc_provision.cpython-39.pyc
-#12 0.906 byte-compiling build/bdist.linux-x86_64/egg/acc_provision/kafka_cert.py to kafka_cert.cpython-39.pyc
-#12 0.910 byte-compiling build/bdist.linux-x86_64/egg/acc_provision/fake_apic.py to fake_apic.cpython-39.pyc
-#12 0.911 byte-compiling build/bdist.linux-x86_64/egg/acc_provision/apic_provision.py to apic_provision.cpython-39.pyc
-#12 0.964 byte-compiling build/bdist.linux-x86_64/egg/acc_provision/acc_retrieve_cert.py to acc_retrieve_cert.cpython-39.pyc
-#12 0.965 byte-compiling build/bdist.linux-x86_64/egg/acc_provision/templates/__init__.py to __init__.cpython-39.pyc
-#12 0.966 byte-compiling build/bdist.linux-x86_64/egg/acc_provision/test_main.py to test_main.cpython-39.pyc
-#12 0.975 byte-compiling build/bdist.linux-x86_64/egg/acc_provision/__init__.py to __init__.cpython-39.pyc
-#12 0.976 byte-compiling build/bdist.linux-x86_64/egg/gitversion/gitversion.py to gitversion.cpython-39.pyc
-#12 0.976 byte-compiling build/bdist.linux-x86_64/egg/gitversion/__init__.py to __init__.cpython-39.pyc
-#12 0.978 creating build/bdist.linux-x86_64/egg/EGG-INFO
-#12 0.978 installing scripts to build/bdist.linux-x86_64/egg/EGG-INFO/scripts
-#12 0.978 running install_scripts
-#12 0.978 running build_scripts
-#12 0.978 creating build/scripts-3.9
-#12 0.979 copying bin/acikubectl -> build/scripts-3.9
-#12 0.979 creating build/bdist.linux-x86_64/egg/EGG-INFO/scripts
-#12 0.979 copying build/scripts-3.9/acikubectl -> build/bdist.linux-x86_64/egg/EGG-INFO/scripts
-#12 0.979 changing mode of build/bdist.linux-x86_64/egg/EGG-INFO/scripts/acikubectl to 755
-#12 0.979 copying acc_provision.egg-info/PKG-INFO -> build/bdist.linux-x86_64/egg/EGG-INFO
-#12 0.979 copying acc_provision.egg-info/SOURCES.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
-#12 0.980 copying acc_provision.egg-info/dependency_links.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
-#12 0.980 copying acc_provision.egg-info/entry_points.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
-#12 0.981 copying acc_provision.egg-info/not-zip-safe -> build/bdist.linux-x86_64/egg/EGG-INFO
-#12 0.981 copying acc_provision.egg-info/requires.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
-#12 0.981 copying acc_provision.egg-info/top_level.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
-#12 0.981 creating dist
-#12 0.981 creating 'dist/acc_provision-6.0.3.1-py3.9.egg' and adding 'build/bdist.linux-x86_64/egg' to it
-#12 1.059 removing 'build/bdist.linux-x86_64/egg' (and everything under it)
-#12 1.064 Processing acc_provision-6.0.3.1-py3.9.egg
-#12 1.068 creating /usr/lib/python3.9/site-packages/acc_provision-6.0.3.1-py3.9.egg
-#12 1.068 Extracting acc_provision-6.0.3.1-py3.9.egg to /usr/lib/python3.9/site-packages
-#12 1.204 Adding acc-provision 6.0.3.1 to easy-install.pth file
-#12 1.205 Installing acikubectl script to /usr/bin
-#12 1.206 Installing acc-provision script to /usr/bin
-#12 1.207 Installing acc-retrieve-cert script to /usr/bin
-#12 1.207 
-#12 1.207 Installed /usr/lib/python3.9/site-packages/acc_provision-6.0.3.1-py3.9.egg
-#12 1.208 Processing dependencies for acc-provision==6.0.3.1
-#12 1.209 Searching for boto3
-#12 1.210 Reading https://pypi.org/simple/boto3/
-#12 14.51 Downloading https://files.pythonhosted.org/packages/6a/87/9d2a8549e9237fcf791bac40dad0180a78052c41195db59c077b29614070/boto3-1.28.13-py3-none-any.whl#sha256=b2d178c8a56fe3e4c9b123dccdff20e9555d12a597b72627fa659aa6295e238a
-#12 14.59 Best match: boto3 1.28.13
-#12 14.59 Processing boto3-1.28.13-py3-none-any.whl
-#12 14.59 Installing boto3-1.28.13-py3-none-any.whl to /usr/lib/python3.9/site-packages
-#12 14.61 Adding boto3 1.28.13 to easy-install.pth file
-#12 14.61 detected new path './acc_provision-6.0.3.1-py3.9.egg'
-#12 14.63 
-#12 14.63 Installed /usr/lib/python3.9/site-packages/boto3-1.28.13-py3.9.egg
-#12 14.63 Searching for s3transfer<0.7.0,>=0.6.0
-#12 14.63 Reading https://pypi.org/simple/s3transfer/
-#12 14.73 Downloading https://files.pythonhosted.org/packages/ec/fa/9416461ee05efabe477d588288bdd88acb69a51ee4b31a9b73d3b5b716fc/s3transfer-0.6.1-py3-none-any.whl#sha256=3c0da2d074bf35d6870ef157158641178a4204a6e689e82546083e31e0311346
-#12 14.82 Best match: s3transfer 0.6.1
-#12 14.82 Processing s3transfer-0.6.1-py3-none-any.whl
-#12 14.82 Installing s3transfer-0.6.1-py3-none-any.whl to /usr/lib/python3.9/site-packages
-#12 14.85 Adding s3transfer 0.6.1 to easy-install.pth file
-#12 14.86 detected new path './boto3-1.28.13-py3.9.egg'
-#12 14.86 
-#12 14.86 Installed /usr/lib/python3.9/site-packages/s3transfer-0.6.1-py3.9.egg
-#12 14.86 Searching for jmespath<2.0.0,>=0.7.1
-#12 14.86 Reading https://pypi.org/simple/jmespath/
-#12 14.92 Downloading https://files.pythonhosted.org/packages/31/b4/b9b800c45527aadd64d5b442f9b932b00648617eb5d63d2c7a6587b7cafc/jmespath-1.0.1-py3-none-any.whl#sha256=02e2e4cc71b5bcab88332eebf907519190dd9e6e82107fa7f83b1003a6252980
-#12 14.99 Best match: jmespath 1.0.1
-#12 14.99 Processing jmespath-1.0.1-py3-none-any.whl
-#12 14.99 Installing jmespath-1.0.1-py3-none-any.whl to /usr/lib/python3.9/site-packages
-#12 15.01 Adding jmespath 1.0.1 to easy-install.pth file
-#12 15.01 detected new path './s3transfer-0.6.1-py3.9.egg'
-#12 15.01 Installing jp.py script to /usr/bin
-#12 15.01 
-#12 15.01 Installed /usr/lib/python3.9/site-packages/jmespath-1.0.1-py3.9.egg
-#12 15.01 Searching for botocore<1.32.0,>=1.31.13
-#12 15.01 Reading https://pypi.org/simple/botocore/
-#12 36.26 Downloading https://files.pythonhosted.org/packages/c3/64/a8bca6bd0c73271e7b587836f2f439f084836c38389dc0ed4860f40358fa/botocore-1.31.13-py3-none-any.whl#sha256=78b96afbd88b8bd4c0967611a4cedddd9ea33d8601309dc351f81cbb5479d976
-#12 36.43 Best match: botocore 1.31.13
-#12 36.43 Processing botocore-1.31.13-py3-none-any.whl
-#12 36.43 Installing botocore-1.31.13-py3-none-any.whl to /usr/lib/python3.9/site-packages
-#12 36.91 Adding botocore 1.31.13 to easy-install.pth file
-#12 36.91 detected new path './jmespath-1.0.1-py3.9.egg'
-#12 36.93 
-#12 36.93 Installed /usr/lib/python3.9/site-packages/botocore-1.31.13-py3.9.egg
-#12 36.94 Searching for MarkupSafe==2.1.3
-#12 36.94 Best match: MarkupSafe 2.1.3
-#12 36.95 Adding MarkupSafe 2.1.3 to easy-install.pth file
-#12 36.95 detected new path './botocore-1.31.13-py3.9.egg'
-#12 36.95 
-#12 36.95 Using /usr/local/lib64/python3.9/site-packages
-#12 36.95 Searching for pyOpenSSL==23.2.0
-#12 36.95 Best match: pyOpenSSL 23.2.0
-#12 36.95 Adding pyOpenSSL 23.2.0 to easy-install.pth file
-#12 36.95 
-#12 36.95 Using /usr/local/lib/python3.9/site-packages
-#12 36.95 Searching for Jinja2==3.1.2
-#12 36.95 Best match: Jinja2 3.1.2
-#12 36.95 Adding Jinja2 3.1.2 to easy-install.pth file
-#12 36.95 
-#12 36.95 Using /usr/local/lib/python3.9/site-packages
-#12 36.96 Searching for PyYAML==6.0.1
-#12 36.96 Best match: PyYAML 6.0.1
-#12 36.96 Adding PyYAML 6.0.1 to easy-install.pth file
-#12 36.96 
-#12 36.96 Using /usr/local/lib64/python3.9/site-packages
-#12 36.96 Searching for requests==2.31.0
-#12 36.96 Best match: requests 2.31.0
-#12 36.96 Adding requests 2.31.0 to easy-install.pth file
-#12 36.96 
-#12 36.96 Using /usr/local/lib/python3.9/site-packages
-#12 36.96 Searching for cryptography==41.0.2
-#12 36.96 Best match: cryptography 41.0.2
-#12 36.96 Adding cryptography 41.0.2 to easy-install.pth file
-#12 36.96 
-#12 36.96 Using /usr/local/lib64/python3.9/site-packages
-#12 36.96 Searching for certifi==2023.7.22
-#12 36.96 Best match: certifi 2023.7.22
-#12 36.96 Adding certifi 2023.7.22 to easy-install.pth file
-#12 36.96 
-#12 36.96 Using /usr/local/lib/python3.9/site-packages
-#12 36.97 Searching for urllib3==1.26.16
-#12 36.97 Best match: urllib3 1.26.16
-#12 36.97 Adding urllib3 1.26.16 to easy-install.pth file
-#12 36.97 
-#12 36.97 Using /usr/local/lib/python3.9/site-packages
-#12 36.97 Searching for idna==3.4
-#12 36.97 Best match: idna 3.4
-#12 36.97 Adding idna 3.4 to easy-install.pth file
-#12 36.97 
-#12 36.97 Using /usr/local/lib/python3.9/site-packages
-#12 36.97 Searching for charset-normalizer==3.2.0
-#12 36.97 Best match: charset-normalizer 3.2.0
-#12 36.97 Adding charset-normalizer 3.2.0 to easy-install.pth file
-#12 36.97 Installing normalizer script to /usr/bin
-#12 36.97 
-#12 36.97 Using /usr/local/lib64/python3.9/site-packages
-#12 36.97 Searching for python-dateutil==2.8.2
-#12 36.97 Best match: python-dateutil 2.8.2
-#12 36.97 Adding python-dateutil 2.8.2 to easy-install.pth file
-#12 36.97 
-#12 36.97 Using /usr/local/lib/python3.9/site-packages
-#12 36.97 Searching for cffi==1.15.1
-#12 36.97 Best match: cffi 1.15.1
-#12 36.98 Adding cffi 1.15.1 to easy-install.pth file
-#12 36.98 
-#12 36.98 Using /usr/local/lib64/python3.9/site-packages
-#12 36.98 Searching for six==1.16.0
-#12 36.98 Best match: six 1.16.0
-#12 36.98 Adding six 1.16.0 to easy-install.pth file
-#12 36.98 
-#12 36.98 Using /usr/local/lib/python3.9/site-packages
-#12 36.98 Searching for pycparser==2.21
-#12 36.98 Best match: pycparser 2.21
-#12 36.98 Adding pycparser 2.21 to easy-install.pth file
-#12 36.98 
-#12 36.98 Using /usr/local/lib/python3.9/site-packages
-#12 36.98 Finished processing dependencies for acc-provision==6.0.3.1
-#12 DONE 37.4s
+#12 sha256:38c390b6a464fd8bdac03f9ef68bdfe68120ebb9d2b7cf0a50e18c8956f00eca
+#12 0.649 running install
+#12 0.650 /usr/local/lib/python3.9/site-packages/setuptools/_distutils/cmd.py:66: SetuptoolsDeprecationWarning: setup.py install is deprecated.
+#12 0.650 !!
+#12 0.650 
+#12 0.650         ********************************************************************************
+#12 0.650         Please avoid running ``setup.py`` directly.
+#12 0.650         Instead, use pypa/build, pypa/installer or other
+#12 0.650         standards-based tools.
+#12 0.650 
+#12 0.650         See https://blog.ganssle.io/articles/2021/10/setup-py-deprecated.html for details.
+#12 0.650         ********************************************************************************
+#12 0.650 
+#12 0.650 !!
+#12 0.650   self.initialize_options()
+#12 0.727 /usr/local/lib/python3.9/site-packages/setuptools/_distutils/cmd.py:66: EasyInstallDeprecationWarning: easy_install command is deprecated.
+#12 0.727 !!
+#12 0.727 
+#12 0.727         ********************************************************************************
+#12 0.727         Please avoid running ``setup.py`` and ``easy_install``.
+#12 0.727         Instead, use pypa/build, pypa/installer or other
+#12 0.727         standards-based tools.
+#12 0.727 
+#12 0.727         See https://github.com/pypa/setuptools/issues/917 for details.
+#12 0.727         ********************************************************************************
+#12 0.727 
+#12 0.727 !!
+#12 0.727   self.initialize_options()
+#12 0.773 running bdist_egg
+#12 0.782 running egg_info
+#12 0.782 creating acc_provision.egg-info
+#12 0.786 writing acc_provision.egg-info/PKG-INFO
+#12 0.787 writing dependency_links to acc_provision.egg-info/dependency_links.txt
+#12 0.787 writing entry points to acc_provision.egg-info/entry_points.txt
+#12 0.787 writing requirements to acc_provision.egg-info/requires.txt
+#12 0.787 writing top-level names to acc_provision.egg-info/top_level.txt
+#12 0.788 writing manifest file 'acc_provision.egg-info/SOURCES.txt'
+#12 0.798 reading manifest file 'acc_provision.egg-info/SOURCES.txt'
+#12 0.799 reading manifest template 'MANIFEST.in'
+#12 0.801 writing manifest file 'acc_provision.egg-info/SOURCES.txt'
+#12 0.801 installing library code to build/bdist.linux-x86_64/egg
+#12 0.801 running install_lib
+#12 0.801 running build_py
+#12 0.802 creating build
+#12 0.803 creating build/lib
+#12 0.803 creating build/lib/acc_provision
+#12 0.803 copying acc_provision/cloud_provision.py -> build/lib/acc_provision
+#12 0.803 copying acc_provision/acc_provision.py -> build/lib/acc_provision
+#12 0.804 copying acc_provision/kafka_cert.py -> build/lib/acc_provision
+#12 0.804 copying acc_provision/fake_apic.py -> build/lib/acc_provision
+#12 0.804 copying acc_provision/apic_provision.py -> build/lib/acc_provision
+#12 0.805 copying acc_provision/acc_retrieve_cert.py -> build/lib/acc_provision
+#12 0.805 copying acc_provision/test_main.py -> build/lib/acc_provision
+#12 0.806 copying acc_provision/__init__.py -> build/lib/acc_provision
+#12 0.806 creating build/lib/gitversion
+#12 0.806 copying gitversion/gitversion.py -> build/lib/gitversion
+#12 0.806 copying gitversion/__init__.py -> build/lib/gitversion
+#12 0.807 creating build/lib/acc_provision/templates
+#12 0.807 copying acc_provision/templates/__init__.py -> build/lib/acc_provision/templates
+#12 0.808 copying acc_provision/RELEASE-VERSION -> build/lib/acc_provision
+#12 0.809 copying acc_provision/flavors.yaml -> build/lib/acc_provision
+#12 0.809 copying acc_provision/versions.yaml -> build/lib/acc_provision
+#12 0.809 copying acc_provision/templates/99-master-kubelet-node-ip.yaml -> build/lib/acc_provision/templates
+#12 0.810 copying acc_provision/templates/99-worker-kubelet-node-ip.yaml -> build/lib/acc_provision/templates
+#12 0.810 copying acc_provision/templates/99-worker-kubelet-node-port.yaml -> build/lib/acc_provision/templates
+#12 0.810 copying acc_provision/templates/acc-provision-configmap.yaml -> build/lib/acc_provision/templates
+#12 0.810 copying acc_provision/templates/acc-provision-crd.yaml -> build/lib/acc_provision/templates
+#12 0.811 copying acc_provision/templates/aci-containers.yaml -> build/lib/acc_provision/templates
+#12 0.811 copying acc_provision/templates/aci-network-provider-cluster-1-3-13.yaml -> build/lib/acc_provision/templates
+#12 0.811 copying acc_provision/templates/aci-network-provider-cluster-1-3-17.yaml -> build/lib/acc_provision/templates
+#12 0.812 copying acc_provision/templates/aci-network-provider-cluster-1-3-18.yaml -> build/lib/acc_provision/templates
+#12 0.812 copying acc_provision/templates/aci-network-provider-cluster-1-3-20.yaml -> build/lib/acc_provision/templates
+#12 0.812 copying acc_provision/templates/aci-network-provider-cluster-1-3-21.yaml -> build/lib/acc_provision/templates
+#12 0.813 copying acc_provision/templates/aci-network-provider-cluster-1-4-6.yaml -> build/lib/acc_provision/templates
+#12 0.813 copying acc_provision/templates/aci-network-provider-cluster.yaml -> build/lib/acc_provision/templates
+#12 0.813 copying acc_provision/templates/aci-operators-configmap.yaml -> build/lib/acc_provision/templates
+#12 0.813 copying acc_provision/templates/aci-operators-cr.yaml -> build/lib/acc_provision/templates
+#12 0.814 copying acc_provision/templates/aci-operators-crd.yaml -> build/lib/acc_provision/templates
+#12 0.814 copying acc_provision/templates/aci-operators.yaml -> build/lib/acc_provision/templates
+#12 0.814 copying acc_provision/templates/aks-provision-config.yaml -> build/lib/acc_provision/templates
+#12 0.814 copying acc_provision/templates/apic.json -> build/lib/acc_provision/templates
+#12 0.815 copying acc_provision/templates/calico-bgp-config.yaml -> build/lib/acc_provision/templates
+#12 0.815 copying acc_provision/templates/calico-bgp-peer.yaml -> build/lib/acc_provision/templates
+#12 0.815 copying acc_provision/templates/calico-node.yaml -> build/lib/acc_provision/templates
+#12 0.815 copying acc_provision/templates/calico-provision-config.yaml -> build/lib/acc_provision/templates
+#12 0.816 copying acc_provision/templates/calicoctl.yaml -> build/lib/acc_provision/templates
+#12 0.816 copying acc_provision/templates/cluster-network-03-config.yaml -> build/lib/acc_provision/templates
+#12 0.816 copying acc_provision/templates/custom-resources-aci-calico.yaml -> build/lib/acc_provision/templates
+#12 0.817 copying acc_provision/templates/dpu-containers.yaml -> build/lib/acc_provision/templates
+#12 0.817 copying acc_provision/templates/overlay-provision-config.yaml -> build/lib/acc_provision/templates
+#12 0.817 copying acc_provision/templates/provision-config.yaml -> build/lib/acc_provision/templates
+#12 0.817 copying acc_provision/templates/tigera-operator.yaml -> build/lib/acc_provision/templates
+#12 0.818 creating build/bdist.linux-x86_64
+#12 0.819 creating build/bdist.linux-x86_64/egg
+#12 0.819 creating build/bdist.linux-x86_64/egg/acc_provision
+#12 0.819 copying build/lib/acc_provision/RELEASE-VERSION -> build/bdist.linux-x86_64/egg/acc_provision
+#12 0.819 copying build/lib/acc_provision/cloud_provision.py -> build/bdist.linux-x86_64/egg/acc_provision
+#12 0.820 copying build/lib/acc_provision/acc_provision.py -> build/bdist.linux-x86_64/egg/acc_provision
+#12 0.820 copying build/lib/acc_provision/kafka_cert.py -> build/bdist.linux-x86_64/egg/acc_provision
+#12 0.820 copying build/lib/acc_provision/versions.yaml -> build/bdist.linux-x86_64/egg/acc_provision
+#12 0.820 copying build/lib/acc_provision/fake_apic.py -> build/bdist.linux-x86_64/egg/acc_provision
+#12 0.821 copying build/lib/acc_provision/flavors.yaml -> build/bdist.linux-x86_64/egg/acc_provision
+#12 0.821 copying build/lib/acc_provision/apic_provision.py -> build/bdist.linux-x86_64/egg/acc_provision
+#12 0.822 copying build/lib/acc_provision/acc_retrieve_cert.py -> build/bdist.linux-x86_64/egg/acc_provision
+#12 0.822 creating build/bdist.linux-x86_64/egg/acc_provision/templates
+#12 0.822 copying build/lib/acc_provision/templates/overlay-provision-config.yaml -> build/bdist.linux-x86_64/egg/acc_provision/templates
+#12 0.822 copying build/lib/acc_provision/templates/provision-config.yaml -> build/bdist.linux-x86_64/egg/acc_provision/templates
+#12 0.823 copying build/lib/acc_provision/templates/aci-network-provider-cluster.yaml -> build/bdist.linux-x86_64/egg/acc_provision/templates
+#12 0.823 copying build/lib/acc_provision/templates/cluster-network-03-config.yaml -> build/bdist.linux-x86_64/egg/acc_provision/templates
+#12 0.823 copying build/lib/acc_provision/templates/aci-operators-crd.yaml -> build/bdist.linux-x86_64/egg/acc_provision/templates
+#12 0.823 copying build/lib/acc_provision/templates/aci-containers.yaml -> build/bdist.linux-x86_64/egg/acc_provision/templates
+#12 0.823 copying build/lib/acc_provision/templates/aci-operators-cr.yaml -> build/bdist.linux-x86_64/egg/acc_provision/templates
+#12 0.824 copying build/lib/acc_provision/templates/acc-provision-crd.yaml -> build/bdist.linux-x86_64/egg/acc_provision/templates
+#12 0.824 copying build/lib/acc_provision/templates/apic.json -> build/bdist.linux-x86_64/egg/acc_provision/templates
+#12 0.824 copying build/lib/acc_provision/templates/aci-network-provider-cluster-1-3-17.yaml -> build/bdist.linux-x86_64/egg/acc_provision/templates
+#12 0.824 copying build/lib/acc_provision/templates/dpu-containers.yaml -> build/bdist.linux-x86_64/egg/acc_provision/templates
+#12 0.825 copying build/lib/acc_provision/templates/99-worker-kubelet-node-ip.yaml -> build/bdist.linux-x86_64/egg/acc_provision/templates
+#12 0.825 copying build/lib/acc_provision/templates/aci-network-provider-cluster-1-3-18.yaml -> build/bdist.linux-x86_64/egg/acc_provision/templates
+#12 0.825 copying build/lib/acc_provision/templates/aks-provision-config.yaml -> build/bdist.linux-x86_64/egg/acc_provision/templates
+#12 0.825 copying build/lib/acc_provision/templates/99-worker-kubelet-node-port.yaml -> build/bdist.linux-x86_64/egg/acc_provision/templates
+#12 0.825 copying build/lib/acc_provision/templates/aci-operators-configmap.yaml -> build/bdist.linux-x86_64/egg/acc_provision/templates
+#12 0.826 copying build/lib/acc_provision/templates/tigera-operator.yaml -> build/bdist.linux-x86_64/egg/acc_provision/templates
+#12 0.826 copying build/lib/acc_provision/templates/aci-operators.yaml -> build/bdist.linux-x86_64/egg/acc_provision/templates
+#12 0.826 copying build/lib/acc_provision/templates/custom-resources-aci-calico.yaml -> build/bdist.linux-x86_64/egg/acc_provision/templates
+#12 0.826 copying build/lib/acc_provision/templates/99-master-kubelet-node-ip.yaml -> build/bdist.linux-x86_64/egg/acc_provision/templates
+#12 0.827 copying build/lib/acc_provision/templates/calico-node.yaml -> build/bdist.linux-x86_64/egg/acc_provision/templates
+#12 0.827 copying build/lib/acc_provision/templates/aci-network-provider-cluster-1-3-20.yaml -> build/bdist.linux-x86_64/egg/acc_provision/templates
+#12 0.827 copying build/lib/acc_provision/templates/aci-network-provider-cluster-1-3-21.yaml -> build/bdist.linux-x86_64/egg/acc_provision/templates
+#12 0.829 copying build/lib/acc_provision/templates/aci-network-provider-cluster-1-3-13.yaml -> build/bdist.linux-x86_64/egg/acc_provision/templates
+#12 0.829 copying build/lib/acc_provision/templates/calicoctl.yaml -> build/bdist.linux-x86_64/egg/acc_provision/templates
+#12 0.829 copying build/lib/acc_provision/templates/aci-network-provider-cluster-1-4-6.yaml -> build/bdist.linux-x86_64/egg/acc_provision/templates
+#12 0.829 copying build/lib/acc_provision/templates/calico-provision-config.yaml -> build/bdist.linux-x86_64/egg/acc_provision/templates
+#12 0.829 copying build/lib/acc_provision/templates/calico-bgp-peer.yaml -> build/bdist.linux-x86_64/egg/acc_provision/templates
+#12 0.829 copying build/lib/acc_provision/templates/__init__.py -> build/bdist.linux-x86_64/egg/acc_provision/templates
+#12 0.829 copying build/lib/acc_provision/templates/calico-bgp-config.yaml -> build/bdist.linux-x86_64/egg/acc_provision/templates
+#12 0.829 copying build/lib/acc_provision/templates/acc-provision-configmap.yaml -> build/bdist.linux-x86_64/egg/acc_provision/templates
+#12 0.829 copying build/lib/acc_provision/test_main.py -> build/bdist.linux-x86_64/egg/acc_provision
+#12 0.829 copying build/lib/acc_provision/__init__.py -> build/bdist.linux-x86_64/egg/acc_provision
+#12 0.830 creating build/bdist.linux-x86_64/egg/gitversion
+#12 0.830 copying build/lib/gitversion/gitversion.py -> build/bdist.linux-x86_64/egg/gitversion
+#12 0.830 copying build/lib/gitversion/__init__.py -> build/bdist.linux-x86_64/egg/gitversion
+#12 0.831 byte-compiling build/bdist.linux-x86_64/egg/acc_provision/cloud_provision.py to cloud_provision.cpython-39.pyc
+#12 0.842 byte-compiling build/bdist.linux-x86_64/egg/acc_provision/acc_provision.py to acc_provision.cpython-39.pyc
+#12 0.868 byte-compiling build/bdist.linux-x86_64/egg/acc_provision/kafka_cert.py to kafka_cert.cpython-39.pyc
+#12 0.872 byte-compiling build/bdist.linux-x86_64/egg/acc_provision/fake_apic.py to fake_apic.cpython-39.pyc
+#12 0.873 byte-compiling build/bdist.linux-x86_64/egg/acc_provision/apic_provision.py to apic_provision.cpython-39.pyc
+#12 0.926 byte-compiling build/bdist.linux-x86_64/egg/acc_provision/acc_retrieve_cert.py to acc_retrieve_cert.cpython-39.pyc
+#12 0.928 byte-compiling build/bdist.linux-x86_64/egg/acc_provision/templates/__init__.py to __init__.cpython-39.pyc
+#12 0.928 byte-compiling build/bdist.linux-x86_64/egg/acc_provision/test_main.py to test_main.cpython-39.pyc
+#12 0.937 byte-compiling build/bdist.linux-x86_64/egg/acc_provision/__init__.py to __init__.cpython-39.pyc
+#12 0.938 byte-compiling build/bdist.linux-x86_64/egg/gitversion/gitversion.py to gitversion.cpython-39.pyc
+#12 0.939 byte-compiling build/bdist.linux-x86_64/egg/gitversion/__init__.py to __init__.cpython-39.pyc
+#12 0.940 creating build/bdist.linux-x86_64/egg/EGG-INFO
+#12 0.940 installing scripts to build/bdist.linux-x86_64/egg/EGG-INFO/scripts
+#12 0.940 running install_scripts
+#12 0.941 running build_scripts
+#12 0.941 creating build/scripts-3.9
+#12 0.941 copying bin/acikubectl -> build/scripts-3.9
+#12 0.942 creating build/bdist.linux-x86_64/egg/EGG-INFO/scripts
+#12 0.942 copying build/scripts-3.9/acikubectl -> build/bdist.linux-x86_64/egg/EGG-INFO/scripts
+#12 0.943 changing mode of build/bdist.linux-x86_64/egg/EGG-INFO/scripts/acikubectl to 755
+#12 0.943 copying acc_provision.egg-info/PKG-INFO -> build/bdist.linux-x86_64/egg/EGG-INFO
+#12 0.943 copying acc_provision.egg-info/SOURCES.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+#12 0.944 copying acc_provision.egg-info/dependency_links.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+#12 0.944 copying acc_provision.egg-info/entry_points.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+#12 0.945 copying acc_provision.egg-info/not-zip-safe -> build/bdist.linux-x86_64/egg/EGG-INFO
+#12 0.945 copying acc_provision.egg-info/requires.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+#12 0.946 copying acc_provision.egg-info/top_level.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+#12 0.946 creating dist
+#12 0.947 creating 'dist/acc_provision-6.0.3.1-py3.9.egg' and adding 'build/bdist.linux-x86_64/egg' to it
+#12 1.015 removing 'build/bdist.linux-x86_64/egg' (and everything under it)
+#12 1.020 Processing acc_provision-6.0.3.1-py3.9.egg
+#12 1.023 creating /usr/lib/python3.9/site-packages/acc_provision-6.0.3.1-py3.9.egg
+#12 1.023 Extracting acc_provision-6.0.3.1-py3.9.egg to /usr/lib/python3.9/site-packages
+#12 1.152 Adding acc-provision 6.0.3.1 to easy-install.pth file
+#12 1.153 Installing acikubectl script to /usr/bin
+#12 1.155 Installing acc-provision script to /usr/bin
+#12 1.155 Installing acc-retrieve-cert script to /usr/bin
+#12 1.156 
+#12 1.156 Installed /usr/lib/python3.9/site-packages/acc_provision-6.0.3.1-py3.9.egg
+#12 1.156 Processing dependencies for acc-provision==6.0.3.1
+#12 1.158 Searching for boto3
+#12 1.158 Reading https://pypi.org/simple/boto3/
+#12 14.20 Downloading https://files.pythonhosted.org/packages/6a/87/9d2a8549e9237fcf791bac40dad0180a78052c41195db59c077b29614070/boto3-1.28.13-py3-none-any.whl#sha256=b2d178c8a56fe3e4c9b123dccdff20e9555d12a597b72627fa659aa6295e238a
+#12 14.27 Best match: boto3 1.28.13
+#12 14.27 Processing boto3-1.28.13-py3-none-any.whl
+#12 14.27 Installing boto3-1.28.13-py3-none-any.whl to /usr/lib/python3.9/site-packages
+#12 14.31 Adding boto3 1.28.13 to easy-install.pth file
+#12 14.31 detected new path './acc_provision-6.0.3.1-py3.9.egg'
+#12 14.32 
+#12 14.32 Installed /usr/lib/python3.9/site-packages/boto3-1.28.13-py3.9.egg
+#12 14.33 Searching for s3transfer<0.7.0,>=0.6.0
+#12 14.33 Reading https://pypi.org/simple/s3transfer/
+#12 14.40 Downloading https://files.pythonhosted.org/packages/ec/fa/9416461ee05efabe477d588288bdd88acb69a51ee4b31a9b73d3b5b716fc/s3transfer-0.6.1-py3-none-any.whl#sha256=3c0da2d074bf35d6870ef157158641178a4204a6e689e82546083e31e0311346
+#12 14.47 Best match: s3transfer 0.6.1
+#12 14.47 Processing s3transfer-0.6.1-py3-none-any.whl
+#12 14.47 Installing s3transfer-0.6.1-py3-none-any.whl to /usr/lib/python3.9/site-packages
+#12 14.49 Adding s3transfer 0.6.1 to easy-install.pth file
+#12 14.49 detected new path './boto3-1.28.13-py3.9.egg'
+#12 14.49 
+#12 14.49 Installed /usr/lib/python3.9/site-packages/s3transfer-0.6.1-py3.9.egg
+#12 14.49 Searching for jmespath<2.0.0,>=0.7.1
+#12 14.49 Reading https://pypi.org/simple/jmespath/
+#12 14.55 Downloading https://files.pythonhosted.org/packages/31/b4/b9b800c45527aadd64d5b442f9b932b00648617eb5d63d2c7a6587b7cafc/jmespath-1.0.1-py3-none-any.whl#sha256=02e2e4cc71b5bcab88332eebf907519190dd9e6e82107fa7f83b1003a6252980
+#12 14.60 Best match: jmespath 1.0.1
+#12 14.60 Processing jmespath-1.0.1-py3-none-any.whl
+#12 14.61 Installing jmespath-1.0.1-py3-none-any.whl to /usr/lib/python3.9/site-packages
+#12 14.62 Adding jmespath 1.0.1 to easy-install.pth file
+#12 14.62 detected new path './s3transfer-0.6.1-py3.9.egg'
+#12 14.62 Installing jp.py script to /usr/bin
+#12 14.62 
+#12 14.62 Installed /usr/lib/python3.9/site-packages/jmespath-1.0.1-py3.9.egg
+#12 14.62 Searching for botocore<1.32.0,>=1.31.13
+#12 14.62 Reading https://pypi.org/simple/botocore/
+#12 35.63 Downloading https://files.pythonhosted.org/packages/c3/64/a8bca6bd0c73271e7b587836f2f439f084836c38389dc0ed4860f40358fa/botocore-1.31.13-py3-none-any.whl#sha256=78b96afbd88b8bd4c0967611a4cedddd9ea33d8601309dc351f81cbb5479d976
+#12 35.82 Best match: botocore 1.31.13
+#12 35.82 Processing botocore-1.31.13-py3-none-any.whl
+#12 35.82 Installing botocore-1.31.13-py3-none-any.whl to /usr/lib/python3.9/site-packages
+#12 36.29 Adding botocore 1.31.13 to easy-install.pth file
+#12 36.29 detected new path './jmespath-1.0.1-py3.9.egg'
+#12 36.31 
+#12 36.31 Installed /usr/lib/python3.9/site-packages/botocore-1.31.13-py3.9.egg
+#12 36.32 Searching for MarkupSafe==2.1.3
+#12 36.32 Best match: MarkupSafe 2.1.3
+#12 36.32 Adding MarkupSafe 2.1.3 to easy-install.pth file
+#12 36.33 detected new path './botocore-1.31.13-py3.9.egg'
+#12 36.33 
+#12 36.33 Using /usr/local/lib64/python3.9/site-packages
+#12 36.33 Searching for pyOpenSSL==23.2.0
+#12 36.33 Best match: pyOpenSSL 23.2.0
+#12 36.33 Adding pyOpenSSL 23.2.0 to easy-install.pth file
+#12 36.33 
+#12 36.33 Using /usr/local/lib/python3.9/site-packages
+#12 36.33 Searching for Jinja2==3.1.2
+#12 36.33 Best match: Jinja2 3.1.2
+#12 36.33 Adding Jinja2 3.1.2 to easy-install.pth file
+#12 36.33 
+#12 36.33 Using /usr/local/lib/python3.9/site-packages
+#12 36.33 Searching for PyYAML==6.0.1
+#12 36.33 Best match: PyYAML 6.0.1
+#12 36.33 Adding PyYAML 6.0.1 to easy-install.pth file
+#12 36.33 
+#12 36.33 Using /usr/local/lib64/python3.9/site-packages
+#12 36.33 Searching for requests==2.31.0
+#12 36.33 Best match: requests 2.31.0
+#12 36.33 Adding requests 2.31.0 to easy-install.pth file
+#12 36.33 
+#12 36.33 Using /usr/local/lib/python3.9/site-packages
+#12 36.34 Searching for cryptography==41.0.2
+#12 36.34 Best match: cryptography 41.0.2
+#12 36.34 Adding cryptography 41.0.2 to easy-install.pth file
+#12 36.34 
+#12 36.34 Using /usr/local/lib64/python3.9/site-packages
+#12 36.34 Searching for certifi==2023.7.22
+#12 36.34 Best match: certifi 2023.7.22
+#12 36.34 Adding certifi 2023.7.22 to easy-install.pth file
+#12 36.34 
+#12 36.34 Using /usr/local/lib/python3.9/site-packages
+#12 36.34 Searching for urllib3==1.26.16
+#12 36.34 Best match: urllib3 1.26.16
+#12 36.34 Adding urllib3 1.26.16 to easy-install.pth file
+#12 36.34 
+#12 36.34 Using /usr/local/lib/python3.9/site-packages
+#12 36.34 Searching for idna==3.4
+#12 36.34 Best match: idna 3.4
+#12 36.34 Adding idna 3.4 to easy-install.pth file
+#12 36.34 
+#12 36.34 Using /usr/local/lib/python3.9/site-packages
+#12 36.34 Searching for charset-normalizer==3.2.0
+#12 36.34 Best match: charset-normalizer 3.2.0
+#12 36.34 Adding charset-normalizer 3.2.0 to easy-install.pth file
+#12 36.34 Installing normalizer script to /usr/bin
+#12 36.34 
+#12 36.34 Using /usr/local/lib64/python3.9/site-packages
+#12 36.35 Searching for python-dateutil==2.8.2
+#12 36.35 Best match: python-dateutil 2.8.2
+#12 36.35 Adding python-dateutil 2.8.2 to easy-install.pth file
+#12 36.35 
+#12 36.35 Using /usr/local/lib/python3.9/site-packages
+#12 36.35 Searching for cffi==1.15.1
+#12 36.35 Best match: cffi 1.15.1
+#12 36.35 Adding cffi 1.15.1 to easy-install.pth file
+#12 36.35 
+#12 36.35 Using /usr/local/lib64/python3.9/site-packages
+#12 36.35 Searching for six==1.16.0
+#12 36.35 Best match: six 1.16.0
+#12 36.35 Adding six 1.16.0 to easy-install.pth file
+#12 36.35 
+#12 36.35 Using /usr/local/lib/python3.9/site-packages
+#12 36.35 Searching for pycparser==2.21
+#12 36.35 Best match: pycparser 2.21
+#12 36.35 Adding pycparser 2.21 to easy-install.pth file
+#12 36.35 
+#12 36.35 Using /usr/local/lib/python3.9/site-packages
+#12 36.35 Finished processing dependencies for acc-provision==6.0.3.1
+#12 DONE 36.8s
 
 #13 [ 9/11] COPY watches.yaml /opt/ansible/watches.yaml
-#13 sha256:501f27954c4775b5b09a086c46e54b1a201c6e747064b893f129f7532bcb3aac
+#13 sha256:c5f4cab7b59e40c82b8e789bf110f700bfb1e0a8a1a631f45dc6cdb3dcea224a
 #13 DONE 0.1s
 
 #14 [10/11] COPY roles/ /opt/ansible/roles/
-#14 sha256:e0e18fa22d8475d01dec79ee17c198955e6b0112cfcff2da67f172660aed4474
+#14 sha256:702d618389a7efa135a8168f8c62fb25de6cfd3caa817f10e651dadc06cee581
 #14 DONE 0.1s
 
 #15 [11/11] COPY playbooks/ /opt/ansible/playbooks/
-#15 sha256:7d3b2133a686ff79cf4d225985d25203251fc43e390168b335e1752b70d1d334
+#15 sha256:753141a9ef8cb2a4ffee39d3f48398ec7972a2f16831632f83ca03da2400e565
 #15 DONE 0.1s
 
 #16 exporting to image
 #16 sha256:e8c613e07b0b7ff33893b694f7759a10d42e180f2b4dc349fb57dc6b71dcab00
 #16 exporting layers
 #16 exporting layers 1.6s done
-#16 writing image sha256:a545f8716b7fcca9787f4c83bb2dc6fc908f26faf50d6c6ceb73a75d36ecb70b done
+#16 writing image sha256:09f69fb463313ffc12801a46ee205160e77a94db9bb48ad27722d6a0b761a445 done
 #16 naming to quay.io/noirolabs/acc-provision-operator:6.0.3.1.test-cicd.81c2369 done
 #16 DONE 1.6s
 +docker images
 REPOSITORY                                 TAG                         IMAGE ID       CREATED         SIZE
-quay.io/noirolabs/acc-provision-operator   6.0.3.1.test-cicd.81c2369   a545f8716b7f   2 seconds ago   728MB
+quay.io/noirolabs/acc-provision-operator   6.0.3.1.test-cicd.81c2369   09f69fb46331   2 seconds ago   727MB
 ++docker image inspect '--format={{.Id}}' quay.io/noirolabs/acc-provision-operator:6.0.3.1.test-cicd.81c2369
-+IMAGE_SHA=sha256:a545f8716b7fcca9787f4c83bb2dc6fc908f26faf50d6c6ceb73a75d36ecb70b
++IMAGE_SHA=sha256:09f69fb463313ffc12801a46ee205160e77a94db9bb48ad27722d6a0b761a445
 +/tmp/cicd/travis/push-images.sh quay.io/noirolabs acc-provision-operator 6.0.3.1.test-cicd.81c2369 6.0.3.1.test-cicd.81c2369,6.0.3.1.test-cicd.81c2369.072823.455
 ++dirname /tmp/cicd/travis/push-images.sh
 +SCRIPTS_DIR=/tmp/cicd/travis
@@ -1161,8 +1166,8 @@ quay.io/noirolabs/acc-provision-operator   6.0.3.1.test-cicd.81c2369   a545f8716
 +OTHER_IMAGE_TAGS='6.0.3.1.test-cicd.81c2369 6.0.3.1.test-cicd.81c2369.072823.455'
 +OTHER_IMAGE_TAGS='6.0.3.1.test-cicd.81c2369 6.0.3.1.test-cicd.81c2369.072823.455 6.0.3.1.test-cicd.81c2369.z kmr2-5.2.7-test'
 +BUILT_IMAGE=quay.io/noirolabs/acc-provision-operator:6.0.3.1.test-cicd.81c2369
-+sh -s -- -b /tmp
 +curl -sSfL https://raw.githubusercontent.com/anchore/grype/main/install.sh
++sh -s -- -b /tmp
 [info] checking github for the current release tag 
 [info] fetching release script for tag='v0.64.2' 
 [info] checking github for the current release tag 
@@ -1176,7 +1181,7 @@ quay.io/noirolabs/acc-provision-operator   6.0.3.1.test-cicd.81c2369   a545f8716
 +docker sbom --format spdx-json quay.io/noirolabs/acc-provision-operator:6.0.3.1.test-cicd.81c2369
 +tee /tmp/cve.txt
 +/tmp/grype
-[0;90m[0028][0m [0;33m WARN[0m some package(s) are missing CPEs. This may result in missing vulnerabilities. You may autogenerate these using: --add-cpes-if-none
+[0;90m[0030][0m [0;33m WARN[0m some package(s) are missing CPEs. This may result in missing vulnerabilities. You may autogenerate these using: --add-cpes-if-none
 NAME                    INSTALLED                                 FIXED-IN     TYPE    VULNERABILITY        SEVERITY 
 bzip2-libs              1.0.6-26.el8                              (won't fix)  rpm     CVE-2019-12900       Low       
 certifi                 2023.7.22                                 2023.07.22   python  GHSA-xqr8-7jwr-rhp7  Low       
@@ -1439,228 +1444,167 @@ vim-minimal             2:8.0.1763-19.el8_6.4                     (won't fix)  r
 vim-minimal             2:8.0.1763-19.el8_6.4                     (won't fix)  rpm     CVE-2023-2610        Low
 +docker sbom quay.io/noirolabs/acc-provision-operator:6.0.3.1.test-cicd.81c2369
 +tee /tmp/sbom.txt
-NAME                                              VERSION                                   TYPE      
-Jinja2                                            3.1.2                                     python     
-MarkupSafe                                        2.1.3                                     python     
-PyGObject                                         3.28.3                                    python     
-PySocks                                           1.6.8                                     python     
-PyYAML                                            6.0.1                                     python     
-acc-provision                                     6.0.3.1                                   python     
-acl                                               2.2.53-1.el8                              rpm        
-ansible-core                                      2.15.2                                    python     
-ansible-runner                                    2.3.3                                     python     
-ansible-runner-http                               1.0.0                                     python     
-audit-libs                                        3.0.7-4.el8                               rpm        
-basesystem                                        11-5.el8                                  rpm        
-bash                                              4.4.20-4.el8_6                            rpm        
-brotli                                            1.0.6-3.el8                               rpm        
-bzip2-libs                                        1.0.6-26.el8                              rpm        
-ca-certificates                                   2022.2.54-80.2.el8_6                      rpm        
-cachetools                                        5.3.1                                     python     
-certifi                                           2023.7.22                                 python     
-cffi                                              1.15.1                                    python     
-chardet                                           3.0.4                                     python     
-charset-normalizer                                3.2.0                                     python     
-chkconfig                                         1.19.1-1.el8                              rpm        
-coreutils-single                                  8.30-15.el8                               rpm        
-cracklib                                          2.9.6-15.el8                              rpm        
-c8-6.el8                                 rpm        
+1.27-6.el8_5                            rpm        
+dbus                                              1:1.12.8-24.el8                           rpm        
+dbus-common                                       1:1.12.8-24.el8                           rpm        
+dbus-daemon                                       1:1.12.8-24.el8                           rpm        
+dbus-glib                                         0.110-2.el8                               rpm        
+dbus-libs                                         1:1.12.8-24.el8                           rpm        
+dbus-python                                       1.2.4                                     python     
+dbus-tools                                        1:1.12.8-24.el8                           rpm        
+decorator                                         4.2.1                                     python     
+device-mapper                                     8:1.02.181-9.el8                          rpm        
+device-mapper-libs                                8:1.02.181-9.el8                          rpm        
+distlib                                           0.3.7                                     python     
+dmidecode                                         1:3.3-4.el8                               rpm        
+dnf                                               4.7.0-16.el8_8                            rpm        
+dnf-data                                          4.7.0-16.el8_8                            rpm        
+dnf-plugin-subscription-manager                   1.28.36-2.el8                             rpm        
+docutils                                          0.20.1                                    python     
+elfutils-default-yama-scope                       0.188-3.el8                               rpm        
+elfutils-libelf                                   0.188-3.el8                               rpm        
+elfutils-libs                                     0.188-3.el8                               rpm        
+emacs-filesystem                                  1:26.1-10.el8_8.2                         rpm        
+ethtool                                           0.14                                      python     
+expat                                             2.2.5-11.el8                              rpm        
+file-libs                                         5.33-24.el8                               rpm        
+filelock                                          3.12.2                                    python     
+filesystem                                        3.8-6.el8                                 rpm        
 findutils                                         1:4.6.0-20.el8                            rpm        
 gawk                                              4.2.1-4.el8                               rpm        
 gdb-gdbserver                                     8.2-19.el8                                rpm        
 gdbm                                              1:1.18-2.el8                              rpm        
 gdbm-libs                                         1:1.18-2.el8                              rpm        
-git                                               2.39.3-1.el8_8                            rpm        
-git-core                                          2.39.3-1.el8_8                            rpm        
-git-core-doc                                      2.39.3-1.el8_8                            rpm        
-github.com/antlr/antlr4/runtime/Go/antlr          v1.4.10                                   go-module  
-github.com/beorn7/perks                           v1.0.1                                    go-module  
-github.com/blang/semver/v4                        v4.0.0                                    go-module  
-github.com/cespare/xxhash/v2                      v2.2.0                                    go-module  
-github.com/davecgh/go-spew                        v1.1.1                                    go-module  
-github.com/emicklei/go-restful/v3                 v3.10.1                                   go-module  
-github.com/evanphx/json-patch/v5                  v5.6.0                                    go-module  
-github.com/fsnotify/fsnotify                      v1.6.0                                    go-module  
-github.com/go-logr/logr                           v1.2.3                                    go-module  
-github.com/go-logr/zapr                           v1.2.3                                    go-module  
-github.com/go-openapi/jsonpointer                 v0.19.5                                   go-module  
-github.com/go-openapi/jsonreference               v0.20.0                                   go-module  
-github.com/go-openapi/swag                        v0.22.3                                   go-module  
-github.com/gogo/protobuf                          v1.3.2                                    go-module  
-github.com/golang/groupcache                      v0.0.0-20210331224755-41bb18bfe9da        go-module  
-github.com/golang/protobuf                        v1.5.2                                    go-module  
-github.com/google/cel-go                          v0.12.6                                   go-module  
-github.com/google/gnostic                         v0.6.9                                    go-module  
-github.com/google/go-cmp                          v0.5.9                                    go-module  
+git                                               2.39.3-1.el8_8                            rpm                     v0.5.9                                    go-module  
 github.com/google/gofuzz                          v1.2.0                                    go-module  
 github.com/google/uuid                            v1.3.0                                    go-module  
 github.com/h2non/filetype                         v1.1.1                                    go-module  
-github.com/h2non/go-is-svg                        v0.0.0-20160927212452-35e8c4b0612c        go-module   v1.10.0                                   go-module  
-go.uber.org/multierr                              v1.8.0                                    go-module  
-go.uber.org/zap                                   v1.24.0                                   go-module  
-gobject-introspection                             1.56.1-1.el8                              rpm        
-golang.org/x/net                                  v0.10.0                                   go-module  
-golang.org/x/oauth2                               v0.6.0                                    go-module  
-golang.org/x/sys                                  v0.8.0                                    go-module  
-golang.org/x/term                                 v0.8.0                                    go-module  
-golang.org/x/text                                 v0.9.0                                    go-module  
-golang.org/x/time                                 v0.3.0                                    go-module  
-gomodules.xyz/jsonpatch/v2                        v2.2.0                                    go-module  
-google-auth                                       2.22.0                                    python     
-google.golang.org/genproto                        v0.0.0-20230320184635-7606e756e683        go-module  
-google.golang.org/grpc                            v1.53.0                                   go-module  
-google.golang.org/protobuf                        v1.29.1                                   go-module  
-gopkg.in/inf.v0                                   v0.9.1                                    go-module  
-gopkg.in/yaml.v2                                  v2.4.0                                    go-module  
-gopkg.in/yaml.v3                                  v3.0.1                                    go-module  
-gpg                                               1.13.1                                    python     
-gpg-pubkey                                        d4082792-5b32db75                         rpm        
-gpg-pubkey                                        fd431d51-4ae0493b                         rpm        
-gpgme                                             1.13.1-11.el8                             rpm        
-grep                                              3.1-6.el8                                 rpm        
-groff-base                                        1.22.3-18.el8                             rpm        
-gzip                                              1.9-13.el8_5                              rpm        
-idna                                              2.5                                       python     
-idna                                              3.4                                       python     
-ima-evm-utils                                     1.3.2-12.el8                              rpm        
+github.com/h2non/go-is-svg                        v0.0.0-20160927212452-35e8c4b0612c        go-module  
+github.com/imdario/mergo                          v0.3.13                                   go-module  
+github.com/josharian/intern                       v1.0.0                                    go-module  
+github.com/json-iterator/go                       v1.1.12                                   go-module  
+github.com/mailru/easyjson                        v0.7.7                                    go-module  
+github.com/matttproud/golang_protobuf_extensions  v1.0.4                                    go-module  
+github.com/modern-go/concurrent                   v0.0.0-20180306012644-bacd9c7ef1dd        go-module  
+github.com/modern-go/reflect2                     v1.0.2                                    go-module  
+github.com/munnerz/goautoneg                      v0.0.0-20191010083416-a7dc8b61c822        go-module  
+github.com/mxk/go-flowrate                        v0.0.0-20140419014527-cca7078d478f        go-module  
+github.com/onsi/gomega                            v1.24.2                                   go-module  
+github.com/operator-framework/api                 v0.17.4-0.20230223191600-0131a6301e42     go-module  
+github.com/operator-framework/operator-lib        v0.11.1-0.20230306195046-28cadc6b6055     go-module  
+github.com/operator-framework/operator-registry   v1.28.0                                   go-module  
+github.com/operator-framework/operator-sdk        e67da35ef4fff3e471a208904b2a142b27ae32b1  go-module  
+github.com/pkg/errors                             v0.9.1                                    go-module  
+github.com/prometheus/client_golang               v1.14.0                                   go-module  
+github.com/prometheus/client_model                v0.3.0                                    go-module  
+github.com/prometheus/common                      v0.37.0                                   go-module  
+github.com/prometheus/procfs                      v0.8.0                                    go-module  
+github.com/sirupsen/logrus                        v1.9.3                                    go-module  
+github.com/spf13/afero                            v1.9.3                                    go-module  
+github.com/spf13/cobra                            v1.6.1                                    go-module  
+github.com/spf13/pflag                            v1.0.5                                    go-module  
+github.com/stoewer/go-strcase                     v1.2.0                                    go-module  
+glib2                                             2.56.4-161.el8                            rpm        
+glibc                                             2.28-225.el8                              rpm        
+glibc-common                                      2.28-225.el8                                          1.3.2-12.el8                              rpm        
 importlib-metadata                                6.2.1                                     python     
 importlib-resources                               5.0.7                                     python     
 info                                              6.5-7.el8                                 rpm        
-iniparse                                          0.4                                       python      3.1-23.20170329cvs.el8                    rpm        
-libfdisk                                          2.32.1-42.el8_8                           rpm        
-libffi                                            3.1-24.el8                                rpm        
-libgcc                                            8.5.0-18.el8                              rpm        
-libgcrypt                                         1.8.5-7.el8_6                             rpm        
-libgpg-error                                      1.31-1.el8                                rpm        
-libidn2                                           2.2.0-1.el8                               rpm        
-libksba                                           1.3.5-9.el8_7                             rpm        
-libmodulemd                                       2.13.0-1.el8                              rpm        
-libmount                                          2.32.1-42.el8_8                           rpm        
-libnghttp2                                        1.33.0-3.el8_2.1                          rpm        
-libnl3                                            3.7.0-1.el8                               rpm        
-libnsl2                                           1.2.0-2.20180605git4a062cf.el8            rpm        
-libpsl                                            0.20.2-6.el8                              rpm        
-libpwquality                                      1.4.4-6.el8                               rpm        
-librepo                                           1.14.2-4.el8                              rpm        
-libreport-filesystem                              2.9.5-15.el8                              rpm        
-librhsm                                           0.0.3-5.el8                               rpm        
-libseccomp                                        2.5.2-1.el8                               rpm        
-libselinux                                        2.9-8.el8                                 rpm        
-libsemanage                                       2.9-9.el8_6                               rpm        
-libsepol                                          2.9-3.el8                                 rpm        
-libsigsegv                                        2.11-5.el8                                rpm        
-libsmartcols                                      2.32.1-42.el8_8                           rpm        
-libsolv                                           0.7.20-4.el8_7                            rpm        
-libssh                                            0.9.6-10.el8_8                            rpm        
-libssh-config                                     0.9.6-10.el8_8                            rpm        
-libstdc++                                         8.5.0-18.el8                              rpm        
+iniparse                                          0.4                                       python     
+json-c                                            0.13.1-3.el8                              rpm        
+json-glib                                         1.4.4-1.el8                               rpm        
+k8s.io/api                                        v0.26.2                                   go-module  
+k8s.io/apiextensions-apiserver                    v0.26.2                                   go-module  
+k8s.io/apimachinery                               v0.26.2                                   go-module  
+k8s.io/client-go                                  v0.26.2                                   go-module  
+k8s.io/component-base                             v0.26.2                                   go-module  
+k8s.io/klog/v2                                    v2.90.1                                   go-module  
+k8s.io/kube-openapi                               v0.0.0-20221012153701-172d655c2280        go-module  
+k8s.io/kubectl                                    v0.26.2                                   go-module  
+k8s.io/utils                                      v0.0.0-20230711102312-30195339c3c7        go-module  
+keyutils-libs                                     1.5.10-9.el8                              rpm        
+kmod-libs                                         25-19.el8                                 rpm        
+krb5-libs                                         1.18.2-25.el8_8                           rpm        
+kubernetes                                        26.1.0                                    python     
+langpacks-en                                      1.0-12.el8                                rpm        
+less                                              530-1.el8                                 rpm        
+libacl                                            2.2.53-1.el8                              rpm        
+libarchive                                        3.3.3-5.el8                               rpm        
+libassuan                                         2.5.1-3.el8                               rpm        
+libattr                                           2.4.48-3.el8                              rpm        
+libblkid                                          2.32.1-42.el8_8                           rpm        
+libcap                                            2.48-4.el8                                rpm        
+libcap-ng                                         0.7.11-1.el8                              rpm        
+libcom_err                                        1.45.6-5.el8                              rpm        
+libcomps                                          0.1.18                                    python     
+libcomps                                          0.1.18-1.el8                                          8.5.0-18.el8                              rpm        
 libtasn1                                          4.13-4.el8_7                              rpm        
-libtirpc                                 rpm        
-pcre2                                             10.32-3.el8_6                             rpm        
-perl-Carp                                         1.42-396.el8                              rpm        
-perl-Data-Dumper                                  2.167-399.el8                             rpm        
-perl-Digest                                       1.17-395.el8                              rpm        
-perl-Digest-MD5                                   2.55-396.el8                              rpm        
-perl-Encode                                       4:2.97-3.el8                              rpm        
-perl-Errno                                        0:1.28-422.el8                            rpm        
-perl-Error                                        1:0.17025-2.el8                           rpm        
-perl-Exporter                                     5.72-396.el8                              rpm        
-perl-File-Path                                    2.15-2.el8                                rpm        
-perl-File-Temp                                    0.230.600-1.el8                           rpm        
-perl-Getopt-Long                                  1:2.50-4.el8                              rpm        
-perl-Git                                          2.39.3-1.el8_8                            rpm        
-perl-HTTP-Tiny                                    0.074-1.el8                               rpm        
-perl-IO                                           0:1.38-422.el8                            rpm        
-perl-IO-Socket-IP                                 0.39-5.el8                                rpm        
-perl-IO-Socket-SSL                                2.066-4.module+el8.3.0+6446+594cad75      rpm        
-perl-MIME-Base64                                  3.15-396.el8                              rpm        
-perl-Mozilla-CA                                   20160104-7.module+el8.3.0+6498+9eecfe51   rpm        
-perl-Net-SSLeay                                   1.88-2.module+el8.6.0+13392+f0897f98      rpm        
-perl-PathTools                                    3.74-1.el8                                rpm        
-perl-Pod-Escapes                                  1:1.07-395.el8                            rpm        
-perl-Pod-Perldoc                                  3.28-396.el8                              rpm        
-perl-Pod-Simple                                   1:3.35-395.el8                            rpm        
-perl-Pod-Usage                                    4:1.69-395.el8                            rpm        
-perl-Scalar-List-Utils                            3:1.49-2.el8                              rpm        
-perl-Socket                                       4:2.027-3.el8                             rpm        
-perl-Storable                                     1:3.11-3.el8                              rpm        
-perl-Term-ANSIColor                               4.06-396.el8                              rpm        
-perl-Term-Cap                                     1.17-395.el8                              rpm        
+libtirpc                                          1.1.4-8.el8                               rpm        
+libunistring                                      0.9.9-3.el8                               rpm        
+libusbx                                           1.0.23-4.el8                              rpm        
+libuser                                           0.62-25.el8                               rpm        
+libutempter                                       1.1.6-14.el8                              rpm        
+libuuid                                           2.32.1-42.el8_8                           rpm        
+libverto                                          0.3.2-2.el8                               rpm        
+libxcrypt                                         4.1.1-6.el8                               rpm        
+libxml2                                           2.9.7-16.el8                              rpm        
+libyaml                                           0.1.7-5.el8                               rpm        
+libzstd                                           1.4.4-1.el8                               rpm        
+lockfile                                          0.12.2                                    python     
+lua-libs                                          5.3.4-12.el8                              rpm        
+lz4-libs                                          1.8.3-3.el8_4                             rpm        
+mpfr                                              3.1.6-1.el8                               rpm        
+ncurses                                           6.1-9.20180224.el8                        rpm        
+ncurses-base                                      6.1-9.20180224.el8                        rpm        
+ncurses-libs                                      6.1-9.20180224.el8                        rpm        
+nettle                                            3.4.1-7.el8                               rpm        
+npth                                              1.5-4.el8                                 rpm        
+oauthlib                                          3.2.2                                     python     
+openldap                                          2.4.46-18.el8                             rpm        
+openssh                                           8.0p1-17.el8_7                            rpm        
+openssh-clients                                   8.0p1-17.el8_7                            rpm        
+openssl                                           1:1.1.1k-9.el8_7                          rpm        
+openssl-libs                                      1:1.1.1k-9.el8_7                          rpm        
+p11-kit                                           0.23.22-1.el8                             rpm        
+p11-kit-trust                                     0.23.22-1.el8                             rpm        
+packaging                                         23.1                                      python     
+pam                                               1.3.1-25.el8                                          1.17-395.el8                              rpm        
 perl-TermReadKey                                  2.37-7.el8                                rpm        
-perl-Text-ParseWords                     python     
-python-dmidecode                                  3.12.2                                    python     
-python3-chardet                                   3.0.4-7.el8                               rpm        
-python3-cloud-what                                1.28.36-2.el8                             rpm        
-python3-dateutil                                  1:2.6.1-6.el8                             rpm        
-python3-dbus                                      1.2.4-15.el8                              rpm        
-python3-decorator                                 4.2.1-2.el8                               rpm        
-python3-dmidecode                                 3.12.3-2.el8                              rpm        
-python3-dnf                                       4.7.0-16.el8_8                            rpm        
-python3-dnf-plugins-core                          4.0.21-19.el8_8                           rpm        
-python3-ethtool                                   0.14-5.el8                                rpm        
-python3-gobject-base                              3.28.3-2.el8                              rpm        
-python3-gpg                                       1.13.1-11.el8                             rpm        
-python3-hawkey                                    0.63.0-14.el8_8                           rpm        
-python3-idna                                      2.5-5.el8                                 rpm        
-python3-iniparse                                  0.4-31.el8                                rpm        
-python3-inotify                                   0.9.6-13.el8                              rpm        
-python3-libcomps                                  0.1.18-1.el8                              rpm        
-python3-libdnf                                    0.63.0-14.el8_8                           rpm        
-python3-librepo                                   1.14.2-4.el8                              rpm        
-python3-libs                                      3.6.8-51.el8_8.1                          rpm        
-python3-libxml2                                   2.9.7-16.el8                              rpm        
-python3-pip-wheel                                 9.0.3-22.el8                              rpm        
-python3-pysocks                                   1.6.8-3.el8                               rpm        
-python3-requests                                  2.20.0-2.1.el8_1                          rpm        
-python3-rpm                                       4.14.3-26.el8                             rpm        
-python3-setuptools-wheel                          39.2.0-7.el8                              rpm        
-python3-six                                       1.11.0-8.el8                              rpm        
-python3-subscription-manager-rhsm                 1.28.36-2.el8                             rpm        
-python3-syspurpose                                1.28.36-2.el8                             rpm        
-python3-systemd                                   234-8.el8                                 rpm        
+perl-Text-ParseWords                              3.30-395.el8                              rpm        
+perl-Text-Tabs+Wrap                               2013.0523-395.el8                         rpm        
+perl-Time-Local                                   1:1.280-1.el8                             rpm        
+perl-URI                                          1.73-3.el8                                rpm        
+perl-Unicode-Normalize                            1.25-396.el8                              rpm        
+perl-constant                                     1.33-396.el8                              rpm        
+perl-interpreter                                  4:5.26.3-422.el8                          rpm        
+perl-libnet                                       3.11-3.el8                                rpm        
+perl-libs                                         4:5.26.3-422.el8                          rpm        
+perl-macros                                       4:5.26.3-422.el8                          rpm        
+perl-parent                                       1:0.237-1.el8                             rpm        
+perl-podlators                                    4.11-1.el8                                rpm        
+perl-threads                                      1:2.21-2.el8                              rpm        
+perl-threads-shared                               1.58-2.el8                                rpm        
+pexpect                                           4.8.0                                     python     
+pip                                               20.2.4                                    python     
+pip                                               23.1.2                                    python     
+pipenv                                            2023.6.26                                 python     
+platform-python                                   3.6.8-51.el8_8.1                          rpm        
+platform-python-setuptools                        39.2.0-7.el8                              rpm        
+platformdirs                                      3.9.1                                     python     
+popt                                              1.18-1.el8                                rpm        
+ptyprocess                                        0.7.0                                     python     
+publicsuffix-list-dafsa                           20180723-1.el8                            rpm        
+pyOpenSSL                                         23.2.0                                    python     
+pyasn1                                            0.5.0                                     python     
+pyasn1-modules                                    0.3.0                                     python     
+pycparser                                         2.21                                      python     
+pyinotify                                         0.9.6                                     python     
+python-daemon                                     3.0.1                                                 234-8.el8                                 rpm        
 python3-urllib3                                   1.24.2-5.el8                              rpm        
-python39                                 python     
-subscription-manager                              1.28.36-2.el8                             rpm        
-subscription-manager-rhsm-certificates            1.28.36-2.el8                             rpm        
-syspurpose                                        1.28.36                                   python     
-systemd                                           239-74.el8_8.2                            rpm        
-systemd-libs                                      239-74.el8_8.2                            rpm        
-systemd-pam                                       239-74.el8_8.2                            rpm        
-systemd-python                                    234                                       python     
-tar                                               2:1.30-9.el8                              rpm        
-tpm2-tss                                          2.3.2-4.el8                               rpm        
-tzdata                                            2023c-1.el8                               rpm        
-urllib3                                           1.24.2                                    python     
-urllib3                                           1.26.16                                   python     
-usermode                                          1.113-2.el8                               rpm        
-util-linux                                        2.32.1-42.el8_8                           rpm        
-vim-minimal                                       2:8.0.1763-19.el8_6.4                     rpm        
-virt-what                                         1.25-3.el8                                rpm        
-virtualenv                                        20.24.2                                   python     
-virtualenv-clone                                  0.5.7                                     python     
-websocket-client                                  1.6.1                                     python     
-which                                             2.21-18.el8                               rpm        
-xz-libs                                           5.2.4-4.el8_6                             rpm        
-yum                                               4.7.0-16.el8_8                            rpm        
-zipp                                              3.16.2                                    python     
-zlib                                              1.2.11-21.el8_7                           rpm        
-+/tmp/cicd/travis/push-to-cicd-status.sh quay.io/noirolabs acc-provision-operator 6.0.3.1.test-cicd.81c2369 6.0.3.1.test-cicd.81c2369,6.0.3.1.test-cicd.81c2369.072823.455 sha256:a545f8716b7fcca9787f4c83bb2dc6fc908f26faf50d6c6ceb73a75d36ecb70b
-++dirname /tmp/cicd/travis/push-to-cicd-status.sh
-+SCRIPTS_DIR=/tmp/cicd/travis
-++git rev-parse --abbrev-ref HEAD
-+current_branch=HEAD
-+IMAGE_BUILD_REGISTRY=quay.io/noirolabs
-+IMAGE=acc-provision-operator
-+IMAGE_BUILD_TAG=6.0.3.1.test-cicd.81c2369
-+OTHER_IMAGE_TAGS=6.0.3.1.test-cicd.81c2369,6.0.3.1.test-cicd.81c2369.072823.455
-+IMAGE_SHA=sha256:a545f8716b7fcca9787f4c83bb2dc6fc908f26faf50d6c6ceb73a75d36ecb70b
-+GIT_REPO=https://github.com/noironetworks/test-cicd-status.git
-+GIT_LOCAL_DIR=test-cicd-status
-+From https://github.com/noironetworks/test-cicd-status
- * branch            main       -> FETCH_HEAD
-Already up to date.
-+mkdir -p /tmp/test-cicd-status/docs/release_artifacts/6.0.3.1/acc-provision-operator
-+curl https://api.travis-ci.com/v3/job/606914334/log.txt
-  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-                                 Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+python39                                          3.9.16-1.module+el8.8.0+18968+3d7b19f0.1  rpm        
+python39-libs                                     3.9.16-1.module+el8.8.0+18968+3d7b19f0.1  rpm        
+python39-pip                                      20.2.4-7.module+el8.6.0+13003+6bb2c488    rpm        
+python39-pip-wheel                                20.2.4-7.module+el8.6.0+13003+6bb2c488    rpm        
+python39-setuptools                               50.3.2-4.module+el8.5.0+12204+54860423    rpm        
+python39-setuptools-wheel                         50.3.2-4.module+el8.5.0+12204+54860423    rpm        
+readline                                          7
