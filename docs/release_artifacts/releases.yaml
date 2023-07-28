@@ -34,14 +34,14 @@ releases:
     commit: b1c012c509019f467c7223d485c229ffe9c80071
     cve: release_artifacts/6.0.3.1/acc-provision-operator-6.0.3.1-cve.txt
     docker:
-    - sha: sha256:16441ba4cb93cce2a4e8d6b2146bf967475301f01254eb2457bc4ed74fc4f2bb
+    - sha: sha256:44d1805312e044eb61b0b6ae15e9259a84ac75b39c937abe7989bac056f83c69
       tag: 6.0.3.1.test-cicd.81c2369
     name: acc-provision-operator
     quay:
-    - sha: sha256:16441ba4cb93cce2a4e8d6b2146bf967475301f01254eb2457bc4ed74fc4f2bb
+    - sha: sha256:44d1805312e044eb61b0b6ae15e9259a84ac75b39c937abe7989bac056f83c69
       tag: 6.0.3.1.test-cicd.81c2369
     sbom: release_artifacts/6.0.3.1/acc-provision-operator-6.0.3.1-sbom.txt
-  last_updated: ''
+  last_updated: 2023-07-28 21:56:19.839031
   release_name: 6.0.3.1
 - images:
   - build-logs: release_artifacts/x.y.z/x.y.z-buildLogs.log
