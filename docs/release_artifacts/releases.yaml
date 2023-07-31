@@ -52,7 +52,18 @@ releases:
     - sha: sha256:6f82887b2916ec54e4affefdb851067e7cdc5f9cd950e2fd998aa4505d6375ec
       tag: 6.0.3.1.test-cicd.81c2369
     sbom: release_artifacts/6.0.3.1/aci-containers-host/6.0.3.1-sbom.txt
-  last_updated: 2023-07-31 19:21:35.422933
+  - build-logs: release_artifacts/6.0.3.1/aci-containers-controller/6.0.3.1-buildlog.txt
+    commit: a55e04229ab676845ae8620b0f34c4652735dcf1
+    cve: release_artifacts/6.0.3.1/aci-containers-controller/6.0.3.1-cve.txt
+    docker:
+    - sha: sha256:5c0f27fe0beb30c6102e3f01f07e4ab7b99aec05da8ec664b832595f480cd923
+      tag: 6.0.3.1.test-cicd.81c2369
+    name: aci-containers-controller
+    quay:
+    - sha: sha256:5c0f27fe0beb30c6102e3f01f07e4ab7b99aec05da8ec664b832595f480cd923
+      tag: 6.0.3.1.test-cicd.81c2369
+    sbom: release_artifacts/6.0.3.1/aci-containers-controller/6.0.3.1-sbom.txt
+  last_updated: 2023-07-31 19:21:37.514809
   release_name: 6.0.3.1
 - images:
   - build-logs: release_artifacts/x.y.z/x.y.z-buildLogs.log
