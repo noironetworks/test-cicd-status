@@ -56,11 +56,11 @@ releases:
     commit: a55e04229ab676845ae8620b0f34c4652735dcf1
     cve: release_artifacts/6.0.3.1/aci-containers-controller/6.0.3.1-cve.txt
     docker:
-    - sha: sha256:5c0f27fe0beb30c6102e3f01f07e4ab7b99aec05da8ec664b832595f480cd923
+    - sha: sha256:35ee35bf633e654d6e1a0bed94c6b6f68705954917c5ae57b69f2a67683d84fd
       tag: 6.0.3.1.test-cicd.81c2369
     name: aci-containers-controller
     quay:
-    - sha: sha256:5c0f27fe0beb30c6102e3f01f07e4ab7b99aec05da8ec664b832595f480cd923
+    - sha: sha256:35ee35bf633e654d6e1a0bed94c6b6f68705954917c5ae57b69f2a67683d84fd
       tag: 6.0.3.1.test-cicd.81c2369
     sbom: release_artifacts/6.0.3.1/aci-containers-controller/6.0.3.1-sbom.txt
   - build-logs: release_artifacts/6.0.3.1/cnideploy/6.0.3.1-buildlog.txt
@@ -96,7 +96,7 @@ releases:
     - sha: sha256:c9dab57d35cc17c7dbca64aae8ac0b937ce8802a12b6d7b862ec2252925ffb7c
       tag: 6.0.3.1.test-cicd.81c2369
     sbom: release_artifacts/6.0.3.1/openvswitch/6.0.3.1-sbom.txt
-  last_updated: 2023-07-31 20:01:31.958823
+  last_updated: 2023-07-31 20:02:01.173642
   release_name: 6.0.3.1
 - images:
   - build-logs: release_artifacts/x.y.z/x.y.z-buildLogs.log
