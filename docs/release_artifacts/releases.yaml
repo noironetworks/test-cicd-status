@@ -89,14 +89,14 @@ releases:
     commit: a55e04229ab676845ae8620b0f34c4652735dcf1
     cve: release_artifacts/6.0.3.1/openvswitch/6.0.3.1-cve.txt
     docker:
-    - sha: sha256:c9dab57d35cc17c7dbca64aae8ac0b937ce8802a12b6d7b862ec2252925ffb7c
+    - sha: sha256:d1de28176a3b971f28da3eb0e6d3cd5f392da9aace7b22fa595f061c008d0422
       tag: 6.0.3.1.test-cicd.81c2369
     name: openvswitch
     quay:
-    - sha: sha256:c9dab57d35cc17c7dbca64aae8ac0b937ce8802a12b6d7b862ec2252925ffb7c
+    - sha: sha256:d1de28176a3b971f28da3eb0e6d3cd5f392da9aace7b22fa595f061c008d0422
       tag: 6.0.3.1.test-cicd.81c2369
     sbom: release_artifacts/6.0.3.1/openvswitch/6.0.3.1-sbom.txt
-  last_updated: 2023-07-31 20:02:54.887232
+  last_updated: 2023-07-31 20:03:32.913722
   release_name: 6.0.3.1
 - images:
   - build-logs: release_artifacts/x.y.z/x.y.z-buildLogs.log
