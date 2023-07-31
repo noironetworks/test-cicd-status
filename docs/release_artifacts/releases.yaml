@@ -67,11 +67,11 @@ releases:
     commit: a55e04229ab676845ae8620b0f34c4652735dcf1
     cve: release_artifacts/6.0.3.1/cnideploy/6.0.3.1-cve.txt
     docker:
-    - sha: sha256:7e62facae34b82498bd0da551755723347cddec2ded2dc82d46141132a39da04
+    - sha: sha256:04df832736e36331f6241261b58dbd3c823333b32563bda7005bb9e1ef114b5b
       tag: 6.0.3.1.test-cicd.81c2369
     name: cnideploy
     quay:
-    - sha: sha256:7e62facae34b82498bd0da551755723347cddec2ded2dc82d46141132a39da04
+    - sha: sha256:04df832736e36331f6241261b58dbd3c823333b32563bda7005bb9e1ef114b5b
       tag: 6.0.3.1.test-cicd.81c2369
     sbom: release_artifacts/6.0.3.1/cnideploy/6.0.3.1-sbom.txt
   - build-logs: release_artifacts/6.0.3.1/aci-containers-operator/6.0.3.1-buildlog.txt
@@ -96,7 +96,7 @@ releases:
     - sha: sha256:c9dab57d35cc17c7dbca64aae8ac0b937ce8802a12b6d7b862ec2252925ffb7c
       tag: 6.0.3.1.test-cicd.81c2369
     sbom: release_artifacts/6.0.3.1/openvswitch/6.0.3.1-sbom.txt
-  last_updated: 2023-07-31 20:02:01.173642
+  last_updated: 2023-07-31 20:02:24.931923
   release_name: 6.0.3.1
 - images:
   - build-logs: release_artifacts/x.y.z/x.y.z-buildLogs.log
