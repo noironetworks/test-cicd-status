@@ -21,15 +21,23 @@ fetch('release_artifacts/releases.yaml')
           imageNameCell.textContent = image.name;
           releaseRow.appendChild(imageNameCell);
 
+          // create a link to commit
           const commitCell = document.createElement('td');
-          commitCell.textContent = image.commit;
+          const commitLink = document.createElement('a');
+          commitLink.href = image.commit.link;
+          commitLink.textContent = image.commit.sha;
+          commitCell.appendChild(commitLink);
           releaseRow.appendChild(commitCell);
 
+          // create a link for quay tags
           const quayTagsCell = document.createElement('td');
           const quayTagsList = document.createElement('ul');
           for (const quayTag of image.quay) {
             const quayTagItem = document.createElement('li');
-            quayTagItem.textContent = quayTag.tag;
+            const quayTagLink = document.createElement('a');
+            quayTagLink.href = quayTag.link;
+            quayTagLink.textContent = quayTag.tag;
+            quayTagItem.appendChild(quayTagLink);
             quayTagsList.appendChild(quayTagItem);
           }
           quayTagsCell.appendChild(quayTagsList);
@@ -45,11 +53,15 @@ fetch('release_artifacts/releases.yaml')
           quaySHACell.appendChild(quaySHAsList);
           releaseRow.appendChild(quaySHACell);
 
+          // create a link for docker tags
           const dockerTagsCell = document.createElement('td');
           const dockerTagsList = document.createElement('ul');
           for (const dockerTag of image.docker) {
             const dockerTagItem = document.createElement('li');
-            dockerTagItem.textContent = dockerTag.tag;
+            const dockerTagLink = document.createElement('a');
+            dockerTagLink.href = dockerTag.link;
+            dockerTagLink.textContent = dockerTag.tag;
+            dockerTagItem.appendChild(dockerTagLink);
             dockerTagsList.appendChild(dockerTagItem);
           }
           dockerTagsCell.appendChild(dockerTagsList);
