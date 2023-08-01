@@ -4,15 +4,17 @@ fetch('release_artifacts/releases.yaml')
     const parsedData = jsyaml.load(data);
     console.log("Parsed YAML file 'release_artifacts/releases.yaml':", parsedData);
 
-    const releaseTable = document.querySelector('#release-table');
+    const releaseTable = document.querySelector('#container-release-table');
+    const accProvisionTable = document.querySelector('#acc-provision-table');
     const tableBody = releaseTable.querySelector('tbody');
+    const accProvisionTableBody = accProvisionTable.querySelector('tbody');
 
     const urlParams = new URLSearchParams(window.location.search);
     const releaseName = urlParams.get('release');
 
     for (const releaseData of parsedData.releases) {
       if (releaseData.release_name === releaseName) {
-        for (const image of releaseData.images) {
+        for (const image of releaseData.container_images) {
           const releaseRow = document.createElement('tr');
 
           const imageNameCell = document.createElement('td');
@@ -86,6 +88,34 @@ fetch('release_artifacts/releases.yaml')
 
           tableBody.appendChild(releaseRow);
         }
+   // Populate the acc-provision-table
+   if (releaseData.acc_provision && releaseData.acc_provision.length > 0) {
+    for (const accProvisionEntry of releaseData.acc_provision) {
+      const accProvisionRow = document.createElement('tr');
+      const accProvisionTagCell = document.createElement('td');
+      const accProvisionLinkCell = document.createElement('td');
+
+      accProvisionTagCell.textContent = accProvisionEntry.tag;
+
+      const accProvisionLink = document.createElement('a');
+      accProvisionLink.href = accProvisionEntry.link;
+      accProvisionLink.textContent = accProvisionEntry.link;
+      accProvisionLinkCell.appendChild(accProvisionLink);
+
+      accProvisionRow.appendChild(accProvisionTagCell);
+      accProvisionRow.appendChild(accProvisionLinkCell);
+      accProvisionTableBody.appendChild(accProvisionRow);
+    }
+  } else {
+    // If there are no acc_provision entries, display a message in a single row
+    const noAccProvisionRow = document.createElement('tr');
+    const noAccProvisionCell = document.createElement('td');
+    noAccProvisionCell.textContent = 'No ACC-PROVISION data available';
+    noAccProvisionCell.colSpan = 2;
+    noAccProvisionRow.appendChild(noAccProvisionCell);
+    accProvisionTableBody.appendChild(noAccProvisionRow);
+  }
+
         // Exit the loop once the specific release is found
         break;
       }

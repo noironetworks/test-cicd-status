@@ -1,5 +1,10 @@
 releases:
-- images:
+- last_updated: 2023-07-31 20:03:32.913722
+  release_name: 6.0.3.1
+  acc_provision:
+  - tag: 6.0.3.1
+    link: https://test.pypi.org/project/acc-provision/#history
+  container_images:
   - build-logs: release_artifacts/6.0.3.1/acc-provision-operator/6.0.3.1-buildlog.txt
     commit: b1c012c509019f467c7223d485c229ffe9c80071
     cve: release_artifacts/6.0.3.1/acc-provision-operator/6.0.3.1-cve.txt
@@ -66,5 +71,3 @@ releases:
     - sha: sha256:d1de28176a3b971f28da3eb0e6d3cd5f392da9aace7b22fa595f061c008d0422
       tag: 6.0.3.1.test-cicd.81c2369
     sbom: release_artifacts/6.0.3.1/openvswitch/6.0.3.1-sbom.txt
-  last_updated: 2023-07-31 20:03:32.913722
-  release_name: 6.0.3.1
