@@ -1,82 +1,103 @@
 releases:
-- last_updated: 2023-07-31 20:03:32.913722
-  release_name: 6.0.3.1
-  acc_provision:
-  - tag: 6.0.3.1
-    link: https://test.pypi.org/project/acc-provision/#history
+- acc_provision:
+  - link: https://test.pypi.org/project/acc-provision/#history
+    tag: 6.0.3.1
   container_images:
   - build-logs: release_artifacts/6.0.3.1/aci-containers-host/6.0.3.1-buildlog.txt
-    commit: 
+    commit:
       link: example.com
       sha: a55e04229ab676845ae8620b0f34c4652735dcf1
     cve: release_artifacts/6.0.3.1/aci-containers-host/6.0.3.1-cve.txt
     docker:
-    - sha: sha256:467d2c8db09d8089989ac0828e6d3aac58cb21796fde31d06e122c1c43cd3532
+    - link: https://quay.io/noirolabs/aci-containers-host:6.0.3.1.test-cicd.81c2369
+      sha: sha256:467d2c8db09d8089989ac0828e6d3aac58cb21796fde31d06e122c1c43cd3532
       tag: 6.0.3.1.test-cicd.81c2369
-      link: https://quay.io/noirolabs/aci-containers-host:6.0.3.1.test-cicd.81c2369
     name: aci-containers-host
     quay:
-    - sha: sha256:467d2c8db09d8089989ac0828e6d3aac58cb21796fde31d06e122c1c43cd3532
+    - link: https://quay.io/noirolabs/aci-containers-host:6.0.3.1.test-cicd.81c2369
+      sha: sha256:467d2c8db09d8089989ac0828e6d3aac58cb21796fde31d06e122c1c43cd3532
       tag: 6.0.3.1.test-cicd.81c2369
-      link: https://quay.io/noirolabs/aci-containers-host:6.0.3.1.test-cicd.81c2369
     sbom: release_artifacts/6.0.3.1/aci-containers-host/6.0.3.1-sbom.txt
   - build-logs: release_artifacts/6.0.3.1/aci-containers-controller/6.0.3.1-buildlog.txt
-    commit: 
+    commit:
       link: example.com
       sha: a55e04229ab676845ae8620b0f34c4652735dcf1
     cve: release_artifacts/6.0.3.1/aci-containers-controller/6.0.3.1-cve.txt
     docker:
-    - sha: sha256:35ee35bf633e654d6e1a0bed94c6b6f68705954917c5ae57b69f2a67683d84fd
+    - link: https://quay.io/noirolabs/aci-containers-controller:6.0.3.1.test-cicd.81c2369
+      sha: sha256:35ee35bf633e654d6e1a0bed94c6b6f68705954917c5ae57b69f2a67683d84fd
       tag: 6.0.3.1.test-cicd.81c2369
-      link: https://quay.io/noirolabs/aci-containers-controller:6.0.3.1.test-cicd.81c2369
     name: aci-containers-controller
     quay:
-    - sha: sha256:35ee35bf633e654d6e1a0bed94c6b6f68705954917c5ae57b69f2a67683d84fd
+    - link: https://quay.io/noirolabs/aci-containers-controller:6.0.3.1.test-cicd.81c2369
+      sha: sha256:35ee35bf633e654d6e1a0bed94c6b6f68705954917c5ae57b69f2a67683d84fd
       tag: 6.0.3.1.test-cicd.81c2369
-      link: https://quay.io/noirolabs/aci-containers-controller:6.0.3.1.test-cicd.81c2369
     sbom: release_artifacts/6.0.3.1/aci-containers-controller/6.0.3.1-sbom.txt
   - build-logs: release_artifacts/6.0.3.1/cnideploy/6.0.3.1-buildlog.txt
-    commit: 
+    commit:
       link: example.com
       sha: a55e04229ab676845ae8620b0f34c4652735dcf1
     cve: release_artifacts/6.0.3.1/cnideploy/6.0.3.1-cve.txt
     docker:
-    - sha: sha256:04df832736e36331f6241261b58dbd3c823333b32563bda7005bb9e1ef114b5b
+    - link: https://quay.io/noirolabs/cnideploy:6.0.3.1.test-cicd.81c2369
+      sha: sha256:04df832736e36331f6241261b58dbd3c823333b32563bda7005bb9e1ef114b5b
       tag: 6.0.3.1.test-cicd.81c2369
-      link: https://quay.io/noirolabs/cnideploy:6.0.3.1.test-cicd.81c2369
     name: cnideploy
     quay:
-    - sha: sha256:04df832736e36331f6241261b58dbd3c823333b32563bda7005bb9e1ef114b5b
+    - link: https://quay.io/noirolabs/cnideploy:6.0.3.1.test-cicd.81c2369
+      sha: sha256:04df832736e36331f6241261b58dbd3c823333b32563bda7005bb9e1ef114b5b
       tag: 6.0.3.1.test-cicd.81c2369
-      link: https://quay.io/noirolabs/cnideploy:6.0.3.1.test-cicd.81c2369
     sbom: release_artifacts/6.0.3.1/cnideploy/6.0.3.1-sbom.txt
   - build-logs: release_artifacts/6.0.3.1/aci-containers-operator/6.0.3.1-buildlog.txt
-    commit: 
+    commit:
       link: example.com
       sha: a55e04229ab676845ae8620b0f34c4652735dcf1
     cve: release_artifacts/6.0.3.1/aci-containers-operator/6.0.3.1-cve.txt
     docker:
-    - sha: sha256:be5f292545d767e250d0bbb8f5b348f6d0ffefb8622019ac811e90f170bb776d
+    - link: https://quay.io/noirolabs/aci-containers-operator:6.0.3.1.test-cicd.81c2369
+      sha: sha256:be5f292545d767e250d0bbb8f5b348f6d0ffefb8622019ac811e90f170bb776d
       tag: 6.0.3.1.test-cicd.81c2369
-      link: https://quay.io/noirolabs/aci-containers-operator:6.0.3.1.test-cicd.81c2369
     name: aci-containers-operator
     quay:
-    - sha: sha256:be5f292545d767e250d0bbb8f5b348f6d0ffefb8622019ac811e90f170bb776d
+    - link: https://quay.io/noirolabs/aci-containers-operator:6.0.3.1.test-cicd.81c2369
+      sha: sha256:be5f292545d767e250d0bbb8f5b348f6d0ffefb8622019ac811e90f170bb776d
       tag: 6.0.3.1.test-cicd.81c2369
-      link: https://quay.io/noirolabs/aci-containers-operator:6.0.3.1.test-cicd.81c2369
     sbom: release_artifacts/6.0.3.1/aci-containers-operator/6.0.3.1-sbom.txt
   - build-logs: release_artifacts/6.0.3.1/openvswitch/6.0.3.1-buildlog.txt
-    commit: 
+    commit:
       link: example.com
       sha: a55e04229ab676845ae8620b0f34c4652735dcf1
     cve: release_artifacts/6.0.3.1/openvswitch/6.0.3.1-cve.txt
     docker:
-    - sha: sha256:d1de28176a3b971f28da3eb0e6d3cd5f392da9aace7b22fa595f061c008d0422
+    - link: https://quay.io/noirolabs/openvswitch:6.0.3.1.test-cicd.81c2369
+      sha: sha256:d1de28176a3b971f28da3eb0e6d3cd5f392da9aace7b22fa595f061c008d0422
       tag: 6.0.3.1.test-cicd.81c2369
-      link: https://quay.io/noirolabs/openvswitch:6.0.3.1.test-cicd.81c2369
     name: openvswitch
     quay:
-    - sha: sha256:d1de28176a3b971f28da3eb0e6d3cd5f392da9aace7b22fa595f061c008d0422
+    - link: https://quay.io/noirolabs/openvswitch:6.0.3.1.test-cicd.81c2369
+      sha: sha256:d1de28176a3b971f28da3eb0e6d3cd5f392da9aace7b22fa595f061c008d0422
       tag: 6.0.3.1.test-cicd.81c2369
-      link: https://quay.io/noirolabs/openvswitch:6.0.3.1.test-cicd.81c2369
     sbom: release_artifacts/6.0.3.1/openvswitch/6.0.3.1-sbom.txt
+  - build-logs: release_artifacts/6.0.3.1/acc-provision-operator/6.0.3.1-buildlog.txt
+    commit:
+      link: https://github.com/noironetworks/acc-provision-operator/commit/611352c0b5f79dbb30990b13dbd1f85e85445eda
+      sha: 611352c0b5f79dbb30990b13dbd1f85e85445eda
+    cve: release_artifacts/6.0.3.1/acc-provision-operator/6.0.3.1-cve.txt
+    docker:
+    - link: https://hub.docker.com/layers/noiro/acc-provision-operator/6.0.3.1.test-cicd.81c2369.z/sha256:25d4e78e1aa9234ec14faa5430b68579f406ac49063c1df9a25156bd1e893951?context=explore
+      sha: sha256:25d4e78e1aa9234ec14faa5430b68579f406ac49063c1df9a25156bd1e893951
+      tag: 6.0.3.1.test-cicd.81c2369.z
+    - link: https://hub.docker.com/layers/noiro/acc-provision-operator/6.0.3.1.test-cicd.81c2369.080123.466/sha256:25d4e78e1aa9234ec14faa5430b68579f406ac49063c1df9a25156bd1e893951?context=explore
+      sha: sha256:25d4e78e1aa9234ec14faa5430b68579f406ac49063c1df9a25156bd1e893951
+      tag: 6.0.3.1.test-cicd.81c2369.080123.466
+    name: acc-provision-operator
+    quay:
+    - link: https://quay.io/noirolabs/acc-provision-operator:6.0.3.1.test-cicd.81c2369.z
+      sha: sha256:25d4e78e1aa9234ec14faa5430b68579f406ac49063c1df9a25156bd1e893951
+      tag: 6.0.3.1.test-cicd.81c2369.z
+    - link: https://quay.io/noirolabs/acc-provision-operator:6.0.3.1.test-cicd.81c2369.z
+      sha: sha256:25d4e78e1aa9234ec14faa5430b68579f406ac49063c1df9a25156bd1e893951
+      tag: 6.0.3.1.test-cicd.81c2369.080123.466
+    sbom: release_artifacts/6.0.3.1/acc-provision-operator/6.0.3.1-sbom.txt
+  last_updated: '2023-08-01 23:39:58'
+  release_name: 6.0.3.1
