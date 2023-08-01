@@ -2,20 +2,18 @@
 <html>
 <head>
   <title>Release Details</title>
-  <style>
-    table {
-      border-collapse: collapse;
-    }
-    th, td {
-      border: 1px solid black;
-      padding: 8px;
-    }
-  </style>
+  <link rel="stylesheet" type="text/css" href="release-styles.css">
 </head>
 <body>
-  <h1>Release Details </h1>
-  <h2> Containers</h2>
-
+  <div class="menu-container">
+    <h4>Menu</h4>
+    <ul id="release-list">
+      <!-- List of tags will be dynamically populated here from listReleases.js -->
+    </ul>
+  </div>
+  <div class="content">
+  <h2>Release Details </h2>
+  <h3> Containers</h3>
   <table id="container-release-table">
     <thead>
       <tr>
@@ -42,7 +40,7 @@
     <tbody>
     </tbody>
   </table>
-  <h2>Acc-Provision</h2>
+  <h3>Acc-Provision</h3>
   <table id="acc-provision-table">
     <thead>
       <tr>
@@ -53,8 +51,10 @@
     <tbody>
     </tbody>
   </table>
+  </div>
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/js-yaml/3.14.1/js-yaml.min.js"></script>
   <script src="release.js"></script>
+  <script src="menu.js"></script>
 </body>
 </html>

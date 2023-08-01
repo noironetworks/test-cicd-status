@@ -1,0 +1,88 @@
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif; /* Change font to Segoe UI or any other preferred font */
+  margin: 20px;
+}
+
+h1 {
+  color: #0033A0;
+}
+
+h2 {
+  color: #0075be;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-top: 20px;
+}
+
+th, td {
+  border: 1px solid #000000;
+  padding: 8px;
+}
+
+th {
+  background-color: #3eaef3;
+  color: rgb(0, 0, 0);
+  text-align: center;
+}
+
+td {
+  text-align: center;
+}
+
+
+/* Set the column widths for the acc-provision-table */
+#acc-provision-table th:nth-child(1), #acc-provision-table td:nth-child(1) {
+  width: 15%;
+}
+
+#acc-provision-table th:nth-child(2), #acc-provision-table td:nth-child(2) {
+  width: 85%;
+}
+
+/* menu */
+
+.menu-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 10%;
+  height: 100%;
+  background-color: #f2f2f2; /* Light gray background */
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.menu-container h2 {
+  font-family: Arial, sans-serif;
+  color: #0075be; /* Cisco blue color */
+  padding: 8px 0;
+  margin: 0;
+}
+
+.menu-container ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.menu-container li {
+  margin: 5px 0;
+}
+
+.menu-container a {
+  font-family: Arial, sans-serif;
+  color: #0075be;
+  text-decoration: none;
+}
+
+.menu-container a:hover {
+  text-decoration: underline;
+}
+
+.content {
+  margin-left: 10%; /* Width of the menu */
+  padding: 20px;
+}

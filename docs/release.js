@@ -25,7 +25,7 @@ fetch('release_artifacts/releases.yaml')
           const commitCell = document.createElement('td');
           const commitLink = document.createElement('a');
           commitLink.href = image.commit.link;
-          commitLink.textContent = image.commit.sha;
+          commitLink.textContent = image.commit.sha.substring(0, 7);
           commitCell.appendChild(commitLink);
           releaseRow.appendChild(commitCell);
 
