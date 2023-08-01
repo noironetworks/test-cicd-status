@@ -5,21 +5,6 @@ releases:
   - tag: 6.0.3.1
     link: https://test.pypi.org/project/acc-provision/#history
   container_images:
-  - build-logs: release_artifacts/6.0.3.1/acc-provision-operator/6.0.3.1-buildlog.txt
-    commit: 
-      link: https://github.com/noironetworks/acc-provision-operator/commit/b1c012c509019f467c7223d485c229ffe9c80071
-      sha: b1c012c509019f467c7223d485c229ffe9c80071
-    cve: release_artifacts/6.0.3.1/acc-provision-operator/6.0.3.1-cve.txt
-    docker:
-    - sha: sha256:1b1226ebba4360dce9edb54fd7fbe0ca4e22a5128624d3017561ef20258aa88c
-      tag: 6.0.3.1.test-cicd.81c2369
-      link: https://quay.io/noirolabs/acc-provision-operator:6.0.3.1.test-cicd.81c2369
-    name: acc-provision-operator
-    quay:
-    - sha: sha256:1b1226ebba4360dce9edb54fd7fbe0ca4e22a5128624d3017561ef20258aa88c
-      tag: 6.0.3.1.test-cicd.81c2369
-      link: https://quay.io/noirolabs/acc-provision-operator:6.0.3.1.test-cicd.81c2369
-    sbom: release_artifacts/6.0.3.1/acc-provision-operator/6.0.3.1-sbom.txt
   - build-logs: release_artifacts/6.0.3.1/aci-containers-host/6.0.3.1-buildlog.txt
     commit: 
       link: example.com
