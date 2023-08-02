@@ -79,7 +79,7 @@ releases:
       tag: 6.0.3.1.test-cicd.81c2369
     sbom: release_artifacts/6.0.3.1/openvswitch/6.0.3.1-sbom.txt
   - build-logs: release_artifacts/6.0.3.1/acc-provision-operator/6.0.3.1-buildlog.txt
-    commit: !!python/tuple
+    commit:
     - link: https://github.com/noironetworks/acc-provision-operator/commit/611352c0b5f79dbb30990b13dbd1f85e85445eda
       sha: 611352c0b5f79dbb30990b13dbd1f85e85445eda
     cve: release_artifacts/6.0.3.1/acc-provision-operator/6.0.3.1-cve.txt
