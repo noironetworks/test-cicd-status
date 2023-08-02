@@ -4,25 +4,25 @@ releases:
     tag: 6.0.3.1
   container_images:
   - build-logs: release_artifacts/6.0.3.1/acc-provision-operator/6.0.3.1-buildlog.txt
-    commit:
-    - link: https://github.com/noironetworks/acc-provision-operator/commit/611352c0b5f79dbb30990b13dbd1f85e85445eda
-      sha: 611352c0b5f79dbb30990b13dbd1f85e85445eda
+    commit: !!python/tuple
+    - - link: https://github.com/noironetworks/acc-provision-operator/commit/611352c0b5f79dbb30990b13dbd1f85e85445eda
+        sha: 611352c0b5f79dbb30990b13dbd1f85e85445eda
     cve: release_artifacts/6.0.3.1/acc-provision-operator/6.0.3.1-cve.txt
     docker:
-    - link: https://hub.docker.com/layers/noiro/acc-provision-operator/6.0.3.1.test-cicd.81c2369.080223.466/images/sha256-31338ba026e62e65c097ae36f141ef7126d8251b6fedd80318d4e18786405ef0?context=explore
-      sha: sha256:1b7ce845ac034585ade2fe81dbc2b7d77eb5c7dbebc3f2ff79ed9567ee30936f
+    - link: https://hub.docker.com/layers/noiro/acc-provision-operator/6.0.3.1.test-cicd.81c2369.080223.466/images/sha256-e5818d2fb1edd4fb852e7bf7afb6f6a89e6c21d167adec037788ad73cc3141a0?context=explore
+      sha: sha256:0f2129011275f75c393010a5c4e42bac51438ad5c57b200e854468d2a891cc8a
       tag: 6.0.3.1.test-cicd.81c2369.z
-    - link: https://hub.docker.com/layers/noiro/acc-provision-operator/6.0.3.1.test-cicd.81c2369.080223.466/images/sha256-31338ba026e62e65c097ae36f141ef7126d8251b6fedd80318d4e18786405ef0?context=explore
-      sha: sha256:1b7ce845ac034585ade2fe81dbc2b7d77eb5c7dbebc3f2ff79ed9567ee30936f
+    - link: https://hub.docker.com/layers/noiro/acc-provision-operator/6.0.3.1.test-cicd.81c2369.080223.466/images/sha256-e5818d2fb1edd4fb852e7bf7afb6f6a89e6c21d167adec037788ad73cc3141a0?context=explore
+      sha: sha256:0f2129011275f75c393010a5c4e42bac51438ad5c57b200e854468d2a891cc8a
       tag: 6.0.3.1.test-cicd.81c2369.080223.466
     name: acc-provision-operator
     quay:
     - link: https://quay.io/noirolabs/acc-provision-operator:6.0.3.1.test-cicd.81c2369.z
-      sha: sha256:1b7ce845ac034585ade2fe81dbc2b7d77eb5c7dbebc3f2ff79ed9567ee30936f
+      sha: sha256:0f2129011275f75c393010a5c4e42bac51438ad5c57b200e854468d2a891cc8a
       tag: 6.0.3.1.test-cicd.81c2369.z
     - link: https://quay.io/noirolabs/acc-provision-operator:6.0.3.1.test-cicd.81c2369.080223.466
-      sha: sha256:1b7ce845ac034585ade2fe81dbc2b7d77eb5c7dbebc3f2ff79ed9567ee30936f
+      sha: sha256:0f2129011275f75c393010a5c4e42bac51438ad5c57b200e854468d2a891cc8a
       tag: 6.0.3.1.test-cicd.81c2369.080223.466
     sbom: release_artifacts/6.0.3.1/acc-provision-operator/6.0.3.1-sbom.txt
-  last_updated: '2023-08-02 02:43:11'
+  last_updated: '2023-08-02 02:59:08'
   release_name: 6.0.3.1
