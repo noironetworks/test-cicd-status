@@ -1,9 +1,9 @@
 travis_fold:start:worker_info[0K[33;1mWorker information[0m
-hostname: 976090ba-5618-4050-bff1-c7655cf0c4f7@1.worker-com-56bcc5cbcf-sdsb6.gce-production-2
+hostname: 1244d525-65cc-4cd6-8b42-90e6f4eacd6d@1.worker-com-56bcc5cbcf-zqn2j.gce-production-2
 version: v6.2.24 https://github.com/travis-ci/worker/tree/ee57d650a7692c1ac03f74ac073d0fd150c9f030
-instance: travis-job-ecddb008-0a96-486d-9f59-ef4c3e39fd73 travis-ci-sardonyx-xenial-1684402799-0876f6f0 (via amqp)
-startup: 6.445683304s
-travis_fold:end:worker_info[0Ktravis_time:start:0c105270[0Ktravis_time:end:0c105270:start=1690938959396917572,finish=1690938959538058737,duration=141141165,event=no_world_writable_dirs[0Ktravis_time:start:17f22100[0Ktravis_time:end:17f22100:start=1690938959540767518,finish=1690938959546946775,duration=6179257,event=setup_filter[0Ktravis_time:start:14917545[0Ktravis_time:end:14917545:start=1690938959549888306,finish=1690938959556827044,duration=6938738,event=agent[0Ktravis_time:start:29b46dd5[0Ktravis_time:end:29b46dd5:start=1690938959559197693,finish=1690938959561032359,duration=1834666,event=check_unsupported[0Ktravis_time:start:1edb4560[0Ktravis_fold:start:system_info[0K[33;1mBuild system information[0m
+instance: travis-job-ea89508d-6a65-4d42-9607-e1198f4391b0 travis-ci-sardonyx-xenial-1684402799-0876f6f0 (via amqp)
+startup: 6.614152669s
+travis_fold:end:worker_info[0Ktravis_time:start:01ddef95[0Ktravis_time:end:01ddef95:start=1690940510373822049,finish=1690940510523377358,duration=149555309,event=no_world_writable_dirs[0Ktravis_time:start:097b1106[0Ktravis_time:end:097b1106:start=1690940510526167291,finish=1690940510529204824,duration=3037533,event=setup_filter[0Ktravis_time:start:23d37a7d[0Ktravis_time:end:23d37a7d:start=1690940510533292964,finish=1690940510540080381,duration=6787417,event=agent[0Ktravis_time:start:2ed76721[0Ktravis_time:end:2ed76721:start=1690940510542600956,finish=1690940510544434064,duration=1833108,event=check_unsupported[0Ktravis_time:start:1e762555[0Ktravis_fold:start:system_info[0K[33;1mBuild system information[0m
 Build language: python
 Build dist: xenial
 Build id: 264939303
@@ -168,13 +168,13 @@ ruby-2.7.6
 ruby-3.0.4
 ruby-3.1.2
 travis_fold:end:system_info[0K
-travis_time:end:1edb4560:start=1690938959563545382,finish=1690938959573127423,duration=9582041,event=show_system_info[0Ktravis_time:start:01c6a650[0Ktravis_time:end:01c6a650:start=1690938959575594483,finish=1690938959620637286,duration=45042803,event=rm_riak_source[0Ktravis_time:start:1a1e0490[0Ktravis_time:end:1a1e0490:start=1690938959634541288,finish=1690938959641209488,duration=6668200,event=fix_rwky_redis[0Ktravis_time:start:1420d7a0[0Ktravis_time:end:1420d7a0:start=1690938959645378162,finish=1690938960231937042,duration=586558880,event=wait_for_network[0Ktravis_time:start:0463ecf5[0Ktravis_time:end:0463ecf5:start=1690938960237796597,finish=1690938960477630899,duration=239834302,event=update_apt_keys[0Ktravis_time:start:002332f8[0Ktravis_time:end:002332f8:start=1690938960483324506,finish=1690938960534261548,duration=50937042,event=fix_hhvm_source[0Ktravis_time:start:0700b475[0Ktravis_time:end:0700b475:start=1690938960541891865,finish=1690938960545431503,duration=3539638,event=update_mongo_arch[0Ktravis_time:start:01954aa3[0Ktravis_time:end:01954aa3:start=1690938960552951776,finish=1690938960592547154,duration=39595378,event=fix_sudo_enabled_trusty[0Ktravis_time:start:0a07dd88[0Ktravis_time:end:0a07dd88:start=1690938960599007256,finish=1690938960601232056,duration=2224800,event=update_glibc[0Ktravis_time:start:0c2c4bf4[0Ktravis_time:end:0c2c4bf4:start=1690938960607294569,finish=1690938960639461538,duration=32166969,event=clean_up_path[0Ktravis_time:start:1139414c[0Ktravis_time:end:1139414c:start=1690938960645645090,finish=1690938960653881247,duration=8236157,event=fix_etc_hosts[0Ktravis_time:start:20cdd06e[0Ktravis_time:end:20cdd06e:start=1690938960657921459,finish=1690938960667204578,duration=9283119,event=fix_mvn_settings_xml[0Ktravis_time:start:22f3db4f[0Ktravis_time:end:22f3db4f:start=1690938960674945657,finish=1690938960684283107,duration=9337450,event=no_ipv6_localhost[0Ktravis_time:start:06d8a5e0[0Ktravis_time:end:06d8a5e0:start=1690938960689141985,finish=1690938960691606604,duration=2464619,event=fix_etc_mavenrc[0Ktravis_time:start:145de3f2[0Ktravis_time:end:145de3f2:start=1690938960696600291,finish=1690938960699888311,duration=3288020,event=fix_wwdr_certificate[0Ktravis_time:start:03731bae[0Ktravis_time:end:03731bae:start=1690938960704841829,finish=1690938960726387044,duration=21545215,event=put_localhost_first[0Ktravis_time:start:0bcc904c[0Ktravis_time:end:0bcc904c:start=1690938960733631912,finish=1690938960736899670,duration=3267758,event=home_paths[0Ktravis_time:start:209e1158[0Ktravis_time:end:209e1158:start=1690938960742497771,finish=1690938960753130945,duration=10633174,event=disable_initramfs[0Ktravis_time:start:021e5e18[0Ktravis_time:end:021e5e18:start=1690938960758834829,finish=1690938961003686093,duration=244851264,event=disable_ssh_roaming[0Ktravis_time:start:1af4ce04[0Ktravis_time:end:1af4ce04:start=1690938961008811984,finish=1690938961011664643,duration=2852659,event=debug_tools[0Ktravis_time:start:095d5397[0Ktravis_time:end:095d5397:start=1690938961015151740,finish=1690938961018324725,duration=3172985,event=uninstall_oclint[0Ktravis_time:start:00a5261e[0Ktravis_time:end:00a5261e:start=1690938961021759324,finish=1690938961024867723,duration=3108399,event=rvm_use[0Ktravis_time:start:03739910[0Ktravis_time:end:03739910:start=1690938961031603636,finish=1690938961039788848,duration=8185212,event=rm_etc_boto_cfg[0Ktravis_time:start:0abd2b78[0Ktravis_time:end:0abd2b78:start=1690938961044677571,finish=1690938961047427222,duration=2749651,event=rm_oraclejdk8_symlink[0Ktravis_time:start:036443bc[0Ktravis_time:end:036443bc:start=1690938961055708359,finish=1690938961136974020,duration=81265661,event=enable_i386[0Ktravis_time:start:00058cd8[0Ktravis_time:end:00058cd8:start=1690938961141298547,finish=1690938961145240181,duration=3941634,event=update_rubygems[0Ktravis_time:start:01198cd0[0Ktravis_time:end:01198cd0:start=1690938961153030335,finish=1690938962068858803,duration=915828468,event=ensure_path_components[0Ktravis_time:start:0526f584[0Ktravis_time:end:0526f584:start=1690938962074112238,finish=1690938962076313090,duration=2200852,event=redefine_curl[0Ktravis_time:start:1ce15750[0Ktravis_time:end:1ce15750:start=1690938962080867028,finish=1690938962190962254,duration=110095226,event=nonblock_pipe[0Ktravis_time:start:033e13e0[0Ktravis_time:end:033e13e0:start=1690938962195791218,finish=1690938968227253354,duration=6031462136,event=apt_get_update[0Ktravis_time:start:0101956c[0Ktravis_time:end:0101956c:start=1690938968233144657,finish=1690938968235339941,duration=2195284,event=deprecate_xcode_64[0Ktravis_time:start:301a7cf2[0Ktravis_time:end:301a7cf2:start=1690938968239779923,finish=1690938971864388333,duration=3624608410,event=update_heroku[0Ktravis_time:start:055c9ed5[0Ktravis_time:end:055c9ed5:start=1690938971873567196,finish=1690938971876555245,duration=2988049,event=shell_session_update[0Ktravis_time:start:037e8b5c[0Ktravis_fold:start:docker_mtu_and_registry_mirrors[0Ktravis_fold:end:docker_mtu_and_registry_mirrors[0Ktravis_time:end:037e8b5c:start=1690938971881569754,finish=1690938974352285534,duration=2470715780,event=set_docker_mtu_and_registry_mirrors[0Ktravis_time:start:00f1ac1c[0Ktravis_fold:start:resolvconf[0Ktravis_fold:end:resolvconf[0Ktravis_time:end:00f1ac1c:start=1690938974365566032,finish=1690938974427249583,duration=61683551,event=resolvconf[0Ktravis_time:start:0b232780[0Ktravis_time:end:0b232780:start=1690938974433932669,finish=1690938974555496387,duration=121563718,event=maven_central_mirror[0Ktravis_time:start:1a9108a9[0Ktravis_time:end:1a9108a9:start=1690938974560371050,finish=1690938974643881935,duration=83510885,event=maven_https[0K[33;1m3.6 is not installed; attempting download[0m
+travis_time:end:1e762555:start=1690940510547347462,finish=1690940510557767164,duration=10419702,event=show_system_info[0Ktravis_time:start:003273d2[0Ktravis_time:end:003273d2:start=1690940510562094097,finish=1690940510599342500,duration=37248403,event=rm_riak_source[0Ktravis_time:start:067a5d32[0Ktravis_time:end:067a5d32:start=1690940510614782207,finish=1690940510632076547,duration=17294340,event=fix_rwky_redis[0Ktravis_time:start:012aa963[0Ktravis_time:end:012aa963:start=1690940510635158853,finish=1690940511131542525,duration=496383672,event=wait_for_network[0Ktravis_time:start:1d22e652[0Ktravis_time:end:1d22e652:start=1690940511136664452,finish=1690940511378149882,duration=241485430,event=update_apt_keys[0Ktravis_time:start:0083796c[0Ktravis_time:end:0083796c:start=1690940511386419393,finish=1690940511438169778,duration=51750385,event=fix_hhvm_source[0Ktravis_time:start:11195111[0Ktravis_time:end:11195111:start=1690940511443242735,finish=1690940511447110632,duration=3867897,event=update_mongo_arch[0Ktravis_time:start:1708d704[0Ktravis_time:end:1708d704:start=1690940511452726699,finish=1690940511492537485,duration=39810786,event=fix_sudo_enabled_trusty[0Ktravis_time:start:07934d58[0Ktravis_time:end:07934d58:start=1690940511499821231,finish=1690940511504791016,duration=4969785,event=update_glibc[0Ktravis_time:start:056fb2d2[0Ktravis_time:end:056fb2d2:start=1690940511514477015,finish=1690940511544299406,duration=29822391,event=clean_up_path[0Ktravis_time:start:16e025e0[0Ktravis_time:end:16e025e0:start=1690940511549640367,finish=1690940511558875907,duration=9235540,event=fix_etc_hosts[0Ktravis_time:start:098a0cc4[0Ktravis_time:end:098a0cc4:start=1690940511562208788,finish=1690940511571017308,duration=8808520,event=fix_mvn_settings_xml[0Ktravis_time:start:04373a12[0Ktravis_time:end:04373a12:start=1690940511576914507,finish=1690940511586020544,duration=9106037,event=no_ipv6_localhost[0Ktravis_time:start:12cd5cdc[0Ktravis_time:end:12cd5cdc:start=1690940511590915251,finish=1690940511594117543,duration=3202292,event=fix_etc_mavenrc[0Ktravis_time:start:0937ec0c[0Ktravis_time:end:0937ec0c:start=1690940511599668907,finish=1690940511603521272,duration=3852365,event=fix_wwdr_certificate[0Ktravis_time:start:14220cf0[0Ktravis_time:end:14220cf0:start=1690940511609623150,finish=1690940511634251801,duration=24628651,event=put_localhost_first[0Ktravis_time:start:1849362a[0Ktravis_time:end:1849362a:start=1690940511639922655,finish=1690940511643149078,duration=3226423,event=home_paths[0Ktravis_time:start:0f5bddce[0Ktravis_time:end:0f5bddce:start=1690940511647999505,finish=1690940511659324295,duration=11324790,event=disable_initramfs[0Ktravis_time:start:0131c607[0Ktravis_time:end:0131c607:start=1690940511662734367,finish=1690940511918067036,duration=255332669,event=disable_ssh_roaming[0Ktravis_time:start:003e4444[0Ktravis_time:end:003e4444:start=1690940511922352622,finish=1690940511924600750,duration=2248128,event=debug_tools[0Ktravis_time:start:142f0036[0Ktravis_time:end:142f0036:start=1690940511931746704,finish=1690940511935581739,duration=3835035,event=uninstall_oclint[0Ktravis_time:start:0d1786de[0Ktravis_time:end:0d1786de:start=1690940511943817686,finish=1690940511947599746,duration=3782060,event=rvm_use[0Ktravis_time:start:088831d9[0Ktravis_time:end:088831d9:start=1690940511954898268,finish=1690940511963137180,duration=8238912,event=rm_etc_boto_cfg[0Ktravis_time:start:007714f4[0Ktravis_time:end:007714f4:start=1690940511970328963,finish=1690940511973509694,duration=3180731,event=rm_oraclejdk8_symlink[0Ktravis_time:start:0109d68e[0Ktravis_time:end:0109d68e:start=1690940511977148024,finish=1690940512061308251,duration=84160227,event=enable_i386[0Ktravis_time:start:03acf3ce[0Ktravis_time:end:03acf3ce:start=1690940512066355575,finish=1690940512070352509,duration=3996934,event=update_rubygems[0Ktravis_time:start:16b49c37[0Ktravis_time:end:16b49c37:start=1690940512077797687,finish=1690940512923355623,duration=845557936,event=ensure_path_components[0Ktravis_time:start:0b23790e[0Ktravis_time:end:0b23790e:start=1690940512928340324,finish=1690940512930936864,duration=2596540,event=redefine_curl[0Ktravis_time:start:174e3580[0Ktravis_time:end:174e3580:start=1690940512935284574,finish=1690940513045270760,duration=109986186,event=nonblock_pipe[0Ktravis_time:start:0fba2bb0[0Ktravis_time:end:0fba2bb0:start=1690940513051104004,finish=1690940519083166106,duration=6032062102,event=apt_get_update[0Ktravis_time:start:06360e0e[0Ktravis_time:end:06360e0e:start=1690940519088183423,finish=1690940519091777926,duration=3594503,event=deprecate_xcode_64[0Ktravis_time:start:050f269e[0Ktravis_time:end:050f269e:start=1690940519095259154,finish=1690940522738330822,duration=3643071668,event=update_heroku[0Ktravis_time:start:0ee45d3c[0Ktravis_time:end:0ee45d3c:start=1690940522747153215,finish=1690940522751524437,duration=4371222,event=shell_session_update[0Ktravis_time:start:073e5493[0Ktravis_fold:start:docker_mtu_and_registry_mirrors[0Ktravis_fold:end:docker_mtu_and_registry_mirrors[0Ktravis_time:end:073e5493:start=1690940522758809209,finish=1690940525091227094,duration=2332417885,event=set_docker_mtu_and_registry_mirrors[0Ktravis_time:start:04c8358e[0Ktravis_fold:start:resolvconf[0Ktravis_fold:end:resolvconf[0Ktravis_time:end:04c8358e:start=1690940525100614945,finish=1690940525166331542,duration=65716597,event=resolvconf[0Ktravis_time:start:02376000[0Ktravis_time:end:02376000:start=1690940525180238507,finish=1690940525302884415,duration=122645908,event=maven_central_mirror[0Ktravis_time:start:0aa84d63[0Ktravis_time:end:0aa84d63:start=1690940525310313911,finish=1690940525398845875,duration=88531964,event=maven_https[0K[33;1m3.6 is not installed; attempting download[0m
 [33;1mDownloading archive: https://storage.googleapis.com/travis-ci-language-archives/python/binaries/ubuntu/16.04/x86_64/python-3.6.tar.bz2[0m
-travis_time:start:14d9279c[0K$ curl -sSf --retry 5 -o python-3.6.tar.bz2 ${archive_url}
-travis_time:end:14d9279c:start=1690938974727393916,finish=1690938975250151158,duration=522757242,event=configure[0Ktravis_time:start:0205ffec[0K$ sudo tar xjf python-3.6.tar.bz2 --directory /
-travis_time:end:0205ffec:start=1690938975254459561,finish=1690938984786787085,duration=9532327524,event=configure[0Ktravis_time:start:13cebddd[0Ktravis_fold:start:services[0Ktravis_time:start:278ec0d6[0K$ sudo systemctl start docker
-travis_time:end:278ec0d6:start=1690938984810263209,finish=1690938984820659273,duration=10396064,event=prepare[0Ktravis_fold:end:services[0Ktravis_time:end:278ec0d6:start=1690938984810263209,finish=1690938987827428860,duration=3017165651,event=services[0Ktravis_time:start:1abbea80[0Ktravis_time:end:1abbea80:start=1690938987832486362,finish=1690938987834760234,duration=2273872,event=fix_ps4[0Ktravis_time:start:01154f36[0K
-travis_fold:start:git.checkout[0Ktravis_time:start:078133ef[0Ktravis_time:end:078133ef:start=1690938987843456417,finish=1690938987848069885,duration=4613468,event=checkout[0Ktravis_time:start:178e35a0[0K$ git clone --depth=50 --branch=6.0.3.1.test-cicd https://github.com/noironetworks/acc-provision-operator.git noironetworks/acc-provision-operator
+travis_time:start:0285b378[0K$ curl -sSf --retry 5 -o python-3.6.tar.bz2 ${archive_url}
+travis_time:end:0285b378:start=1690940525480818217,finish=1690940526158435805,duration=677617588,event=configure[0Ktravis_time:start:028a550f[0K$ sudo tar xjf python-3.6.tar.bz2 --directory /
+travis_time:end:028a550f:start=1690940526165114621,finish=1690940535861365980,duration=9696251359,event=configure[0Ktravis_time:start:00f53e62[0Ktravis_fold:start:services[0Ktravis_time:start:04934e96[0K$ sudo systemctl start docker
+travis_time:end:04934e96:start=1690940535885698868,finish=1690940535898834364,duration=13135496,event=prepare[0Ktravis_fold:end:services[0Ktravis_time:end:04934e96:start=1690940535885698868,finish=1690940538904461843,duration=3018762975,event=services[0Ktravis_time:start:1eaa7ef4[0Ktravis_time:end:1eaa7ef4:start=1690940538911582337,finish=1690940538913777697,duration=2195360,event=fix_ps4[0Ktravis_time:start:08119ddc[0K
+travis_fold:start:git.checkout[0Ktravis_time:start:0ba0129c[0Ktravis_time:end:0ba0129c:start=1690940538922823135,finish=1690940538927793259,duration=4970124,event=checkout[0Ktravis_time:start:2c0006ae[0K$ git clone --depth=50 --branch=6.0.3.1.test-cicd https://github.com/noironetworks/acc-provision-operator.git noironetworks/acc-provision-operator
 Cloning into 'noironetworks/acc-provision-operator'...
 Note: switching to '611352c0b5f79dbb30990b13dbd1f85e85445eda'.
 
@@ -193,10 +193,10 @@ Or undo this operation with:
 
 Turn off this advice by setting config variable advice.detachedHead to false
 
-travis_time:end:178e35a0:start=1690938987855814317,finish=1690938988978565867,duration=1122751550,event=checkout[0K$ cd noironetworks/acc-provision-operator
+travis_time:end:2c0006ae:start=1690940538936295122,finish=1690940540064109379,duration=1127814257,event=checkout[0K$ cd noironetworks/acc-provision-operator
 $ git checkout -qf 6.0.3.1.test-cicd
 travis_fold:end:git.checkout[0K
-travis_time:end:178e35a0:start=1690938987855814317,finish=1690938989211077168,duration=1355262851,event=checkout[0Ktravis_time:start:0c666b32[0K
+travis_time:end:2c0006ae:start=1690940538936295122,finish=1690940540298720193,duration=1362425071,event=checkout[0Ktravis_time:start:05c37236[0K
 [33;1mSetting environment variables from repository settings[0m
 $ export TRAVIS_TAGGER=[secure]
 $ export QUAY_TRAVIS_NOIRO_ROBO_USER=[secure]
@@ -209,12 +209,12 @@ $ export GIT_USER=[secure]
 $ export GIT_TOKEN=[secure]
 $ export GIT_EMAIL=[secure]
 
-travis_time:end:0c666b32:start=1690938989220096374,finish=1690938989248188719,duration=28092345,event=env[0Ktravis_time:start:0eb458a0[0K$ source ~/virtualenv/python3.6/bin/activate
-travis_time:end:0eb458a0:start=1690938989252438528,finish=1690938989271574206,duration=19135678,event=[0K$ python --version
+travis_time:end:05c37236:start=1690940540306619410,finish=1690940540334527827,duration=27908417,event=env[0Ktravis_time:start:03b1f5be[0K$ source ~/virtualenv/python3.6/bin/activate
+travis_time:end:03b1f5be:start=1690940540343371191,finish=1690940540351226964,duration=7855773,event=[0K$ python --version
 Python 3.6.9
 $ pip --version
 pip 21.3.1 from /home/travis/virtualenv/python3.6.9/lib/python3.6/site-packages/pip (python 3.6)
-travis_fold:start:install[0Ktravis_time:start:0c1ccbb8[0K$ pip3 install docker molecule openshift jmespath pyyaml
+travis_fold:start:install[0Ktravis_time:start:06c41124[0K$ pip3 install docker molecule openshift jmespath pyyaml
 Collecting docker
   Downloading docker-5.0.3-py2.py3-none-any.whl (146 kB)
 Collecting molecule
@@ -229,70 +229,70 @@ Collecting requests!=2.18.0,>=2.14.2
   Downloading requests-2.27.1-py2.py3-none-any.whl (63 kB)
 Collecting websocket-client>=0.32.0
   Downloading websocket_client-1.3.1-py3-none-any.whl (54 kB)
+Collecting enrich>=1.2.7
+  Downloading enrich-1.2.7-py3-none-any.whl (8.7 kB)
+Collecting rich>=9.5.1
+  Downloading rich-12.6.0-py3-none-any.whl (237 kB)
+Collecting cookiecutter>=1.7.3
+  Downloading cookiecutter-1.7.3-py2.py3-none-any.whl (34 kB)
 Collecting cerberus!=1.3.3,!=1.3.4,>=1.3.1
   Downloading Cerberus-1.3.2.tar.gz (52 kB)
   Preparing metadata (setup.py): started
   Preparing metadata (setup.py): finished with status 'done'
-Requirement already satisfied: pluggy<2.0,>=0.7.1 in /home/travis/virtualenv/python3.6.9/lib/python3.6/site-packages (from molecule) (1.0.0)
-Collecting click-help-colors>=0.9
-  Downloading click_help_colors-0.9.1-py3-none-any.whl (5.5 kB)
-Collecting click<9,>=8.0
-  Downloading click-8.0.4-py3-none-any.whl (97 kB)
-Collecting Jinja2>=2.11.3
-  Downloading Jinja2-3.0.3-py3-none-any.whl (133 kB)
-Requirement already satisfied: importlib-metadata in /home/travis/virtualenv/python3.6.9/lib/python3.6/site-packages (from molecule) (4.8.3)
-Collecting ansible-compat>=1.0.0
-  Downloading ansible_compat-1.0.0-py3-none-any.whl (16 kB)
-Requirement already satisfied: dataclasses in /home/travis/virtualenv/python3.6.9/lib/python3.6/site-packages (from molecule) (0.8)
-Collecting rich>=9.5.1
-  Downloading rich-12.6.0-py3-none-any.whl (237 kB)
 Collecting paramiko<3,>=2.5.0
   Downloading paramiko-2.12.0-py2.py3-none-any.whl (213 kB)
-Collecting cookiecutter>=1.7.3
-  Downloading cookiecutter-1.7.3-py2.py3-none-any.whl (34 kB)
+Requirement already satisfied: pluggy<2.0,>=0.7.1 in /home/travis/virtualenv/python3.6.9/lib/python3.6/site-packages (from molecule) (1.0.0)
 Requirement already satisfied: packaging in /home/travis/virtualenv/python3.6.9/lib/python3.6/site-packages (from molecule) (21.3)
-Collecting enrich>=1.2.7
-  Downloading enrich-1.2.7-py3-none-any.whl (8.7 kB)
-Collecting six
-  Downloading six-1.16.0-py2.py3-none-any.whl (11 kB)
+Collecting click<9,>=8.0
+  Downloading click-8.0.4-py3-none-any.whl (97 kB)
+Collecting click-help-colors>=0.9
+  Downloading click_help_colors-0.9.1-py3-none-any.whl (5.5 kB)
+Collecting Jinja2>=2.11.3
+  Downloading Jinja2-3.0.3-py3-none-any.whl (133 kB)
+Collecting ansible-compat>=1.0.0
+  Downloading ansible_compat-1.0.0-py3-none-any.whl (16 kB)
+Requirement already satisfied: importlib-metadata in /home/travis/virtualenv/python3.6.9/lib/python3.6/site-packages (from molecule) (4.8.3)
+Requirement already satisfied: dataclasses in /home/travis/virtualenv/python3.6.9/lib/python3.6/site-packages (from molecule) (0.8)
 Collecting python-string-utils
   Downloading python_string_utils-1.0.0-py3-none-any.whl (26 kB)
+Collecting six
+  Downloading six-1.16.0-py2.py3-none-any.whl (11 kB)
 Collecting kubernetes>=12.0
   Downloading kubernetes-27.2.0-py2.py3-none-any.whl (1.5 MB)
-Collecting cached-property~=1.5
-  Downloading cached_property-1.5.2-py2.py3-none-any.whl (7.6 kB)
 Collecting subprocess-tee>=0.3.5
   Downloading subprocess_tee-0.3.5-py3-none-any.whl (8.0 kB)
+Collecting cached-property~=1.5
+  Downloading cached_property-1.5.2-py2.py3-none-any.whl (7.6 kB)
 Requirement already satisfied: setuptools in /home/travis/virtualenv/python3.6.9/lib/python3.6/site-packages (from cerberus!=1.3.3,!=1.3.4,>=1.3.1->molecule) (59.6.0)
-Collecting binaryornot>=0.4.4
-  Downloading binaryornot-0.4.4-py2.py3-none-any.whl (9.0 kB)
-Collecting python-slugify>=4.0.0
-  Downloading python_slugify-6.1.2-py2.py3-none-any.whl (9.4 kB)
 Collecting poyo>=0.5.0
   Downloading poyo-0.5.0-py2.py3-none-any.whl (10 kB)
+Collecting python-slugify>=4.0.0
+  Downloading python_slugify-6.1.2-py2.py3-none-any.whl (9.4 kB)
+Collecting binaryornot>=0.4.4
+  Downloading binaryornot-0.4.4-py2.py3-none-any.whl (9.0 kB)
 Collecting jinja2-time>=0.2.0
   Downloading jinja2_time-0.2.0-py2.py3-none-any.whl (6.4 kB)
 Collecting MarkupSafe>=2.0
   Downloading MarkupSafe-2.0.1-cp36-cp36m-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_12_x86_64.manylinux2010_x86_64.whl (30 kB)
-Collecting python-dateutil>=2.5.3
-  Downloading python_dateutil-2.8.2-py2.py3-none-any.whl (247 kB)
-Collecting urllib3>=1.24.2
-  Downloading urllib3-1.26.16-py2.py3-none-any.whl (143 kB)
-Collecting google-auth>=1.0.1
-  Downloading google_auth-2.22.0-py2.py3-none-any.whl (181 kB)
-Requirement already satisfied: certifi>=14.05.14 in /home/travis/virtualenv/python3.6.9/lib/python3.6/site-packages (from kubernetes>=12.0->openshift) (2022.6.15)
-Collecting requests-oauthlib
-  Downloading requests_oauthlib-1.3.1-py2.py3-none-any.whl (23 kB)
 Collecting oauthlib>=3.2.2
   Downloading oauthlib-3.2.2-py3-none-any.whl (151 kB)
-Collecting bcrypt>=3.1.3
-  Downloading bcrypt-4.0.1-cp36-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (593 kB)
-Collecting pynacl>=1.0.1
-  Downloading PyNaCl-1.5.0-cp36-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (1.1 MB)
+Collecting python-dateutil>=2.5.3
+  Downloading python_dateutil-2.8.2-py2.py3-none-any.whl (247 kB)
+Collecting requests-oauthlib
+  Downloading requests_oauthlib-1.3.1-py2.py3-none-any.whl (23 kB)
+Collecting google-auth>=1.0.1
+  Downloading google_auth-2.22.0-py2.py3-none-any.whl (181 kB)
+Collecting urllib3>=1.24.2
+  Downloading urllib3-1.26.16-py2.py3-none-any.whl (143 kB)
+Requirement already satisfied: certifi>=14.05.14 in /home/travis/virtualenv/python3.6.9/lib/python3.6/site-packages (from kubernetes>=12.0->openshift) (2022.6.15)
 Collecting cryptography>=2.5
   Downloading cryptography-40.0.2-cp36-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (3.7 MB)
-Requirement already satisfied: zipp>=0.5 in /home/travis/virtualenv/python3.6.9/lib/python3.6/site-packages (from importlib-metadata->molecule) (3.6.0)
+Collecting pynacl>=1.0.1
+  Downloading PyNaCl-1.5.0-cp36-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (1.1 MB)
+Collecting bcrypt>=3.1.3
+  Downloading bcrypt-4.0.1-cp36-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (593 kB)
 Requirement already satisfied: typing-extensions>=3.6.4 in /home/travis/virtualenv/python3.6.9/lib/python3.6/site-packages (from importlib-metadata->molecule) (4.1.1)
+Requirement already satisfied: zipp>=0.5 in /home/travis/virtualenv/python3.6.9/lib/python3.6/site-packages (from importlib-metadata->molecule) (3.6.0)
 Collecting idna<4,>=2.5
   Downloading idna-3.4-py3-none-any.whl (61 kB)
 Collecting charset-normalizer~=2.0.0
@@ -308,10 +308,10 @@ Collecting cffi>=1.12
   Downloading cffi-1.15.1-cp36-cp36m-manylinux_2_5_x86_64.manylinux1_x86_64.whl (402 kB)
 Collecting cachetools<6.0,>=2.0.0
   Downloading cachetools-4.2.4-py3-none-any.whl (10 kB)
-Collecting pyasn1-modules>=0.2.1
-  Downloading pyasn1_modules-0.3.0-py2.py3-none-any.whl (181 kB)
 Collecting rsa<5,>=3.1.4
   Downloading rsa-4.9-py3-none-any.whl (34 kB)
+Collecting pyasn1-modules>=0.2.1
+  Downloading pyasn1_modules-0.3.0-py2.py3-none-any.whl (181 kB)
 Collecting arrow
   Downloading arrow-1.2.3-py3-none-any.whl (66 kB)
 Collecting text-unidecode>=1.3
@@ -323,23 +323,23 @@ Collecting pyasn1<0.6.0,>=0.4.6
 Building wheels for collected packages: cerberus
   Building wheel for cerberus (setup.py): started
   Building wheel for cerberus (setup.py): finished with status 'done'
-  Created wheel for cerberus: filename=Cerberus-1.3.2-py3-none-any.whl size=54356 sha256=ccc6806fa485763a077a23aa4396a6c7f4ee2cd32581205986eb0b1e751ff543
+  Created wheel for cerberus: filename=Cerberus-1.3.2-py3-none-any.whl size=54356 sha256=95b8c00adc03ad6db9785e41955f8d823b1a79d859802f1a95c48537c0acb67d
   Stored in directory: /home/travis/.cache/pip/wheels/57/73/88/653dda2eaa03ee38e7ab10f48ddaadd192fadda426bb5c0bdf
 Successfully built cerberus
 Installing collected packages: six, urllib3, python-dateutil, pycparser, pyasn1, MarkupSafe, idna, charset-normalizer, text-unidecode, rsa, requests, pygments, pyasn1-modules, oauthlib, Jinja2, commonmark, chardet, cffi, cachetools, arrow, websocket-client, subprocess-tee, rich, requests-oauthlib, pyyaml, python-slugify, pynacl, poyo, jinja2-time, google-auth, cryptography, click, cached-property, binaryornot, bcrypt, python-string-utils, paramiko, kubernetes, enrich, cookiecutter, click-help-colors, cerberus, ansible-compat, openshift, molecule, jmespath, docker
 Successfully installed Jinja2-3.0.3 MarkupSafe-2.0.1 ansible-compat-1.0.0 arrow-1.2.3 bcrypt-4.0.1 binaryornot-0.4.4 cached-property-1.5.2 cachetools-4.2.4 cerberus-1.3.2 cffi-1.15.1 chardet-5.0.0 charset-normalizer-2.0.12 click-8.0.4 click-help-colors-0.9.1 commonmark-0.9.1 cookiecutter-1.7.3 cryptography-40.0.2 docker-5.0.3 enrich-1.2.7 google-auth-2.22.0 idna-3.4 jinja2-time-0.2.0 jmespath-0.10.0 kubernetes-27.2.0 molecule-3.6.1 oauthlib-3.2.2 openshift-0.13.2 paramiko-2.12.0 poyo-0.5.0 pyasn1-0.5.0 pyasn1-modules-0.3.0 pycparser-2.21 pygments-2.14.0 pynacl-1.5.0 python-dateutil-2.8.2 python-slugify-6.1.2 python-string-utils-1.0.0 pyyaml-6.0.1 requests-2.27.1 requests-oauthlib-1.3.1 rich-12.6.0 rsa-4.9 six-1.16.0 subprocess-tee-0.3.5 text-unidecode-1.3 urllib3-1.26.16 websocket-client-1.3.1
-travis_time:end:0c1ccbb8:start=1690938989585540731,finish=1690939001539973525,duration=11954432794,event=install[0Ktravis_fold:end:install[0Ktravis_fold:start:before_script.1[0Ktravis_time:start:17654b08[0K$ export DOCKER_BUILDKIT=1
-travis_time:end:17654b08:start=1690939001548837287,finish=1690939001552218452,duration=3381165,event=before_script[0Ktravis_fold:end:before_script.1[0Ktravis_fold:start:before_script.2[0Ktravis_time:start:2ee44007[0K$ export RELEASE_TAG=6.0.3.1
-travis_time:end:2ee44007:start=1690939001561287015,finish=1690939001566178287,duration=4891272,event=before_script[0Ktravis_fold:end:before_script.2[0Ktravis_fold:start:before_script.3[0Ktravis_time:start:08603998[0K$ export UPSTREAM_ID=81c2369
-travis_time:end:08603998:start=1690939001574146459,finish=1690939001577303879,duration=3157420,event=before_script[0Ktravis_fold:end:before_script.3[0Ktravis_fold:start:before_script.4[0Ktravis_time:start:16f26690[0K$ export EXPECTED_TAG_PREFIX=${RELEASE_TAG}
-travis_time:end:16f26690:start=1690939001581013101,finish=1690939001584362190,duration=3349089,event=before_script[0Ktravis_fold:end:before_script.4[0Ktravis_time:start:0704f700[0K$ echo "Skip running UTs"
+travis_time:end:06c41124:start=1690940540660026184,finish=1690940552812835003,duration=12152808819,event=install[0Ktravis_fold:end:install[0Ktravis_fold:start:before_script.1[0Ktravis_time:start:1e1d673e[0K$ export DOCKER_BUILDKIT=1
+travis_time:end:1e1d673e:start=1690940552817571619,finish=1690940552820514722,duration=2943103,event=before_script[0Ktravis_fold:end:before_script.1[0Ktravis_fold:start:before_script.2[0Ktravis_time:start:007ed6fc[0K$ export RELEASE_TAG=6.0.3.1
+travis_time:end:007ed6fc:start=1690940552825022544,finish=1690940552827867632,duration=2845088,event=before_script[0Ktravis_fold:end:before_script.2[0Ktravis_fold:start:before_script.3[0Ktravis_time:start:0885a8ef[0K$ export UPSTREAM_ID=81c2369
+travis_time:end:0885a8ef:start=1690940552832274223,finish=1690940552835131546,duration=2857323,event=before_script[0Ktravis_fold:end:before_script.3[0Ktravis_fold:start:before_script.4[0Ktravis_time:start:04701794[0K$ export EXPECTED_TAG_PREFIX=${RELEASE_TAG}
+travis_time:end:04701794:start=1690940552839545348,finish=1690940552842416657,duration=2871309,event=before_script[0Ktravis_fold:end:before_script.4[0Ktravis_time:start:1db6504f[0K$ echo "Skip running UTs"
 Skip running UTs
-travis_time:end:0704f700:start=1690939001589968123,finish=1690939001592912638,duration=2944515,event=script[0K[32;1mThe command "echo "Skip running UTs"" exited with 0.[0m
-travis_time:start:1326b1db[0K$ git clone http://www.github.com/noironetworks/cicd -b test-cicd /tmp/cicd
+travis_time:end:1db6504f:start=1690940552846880782,finish=1690940552849749289,duration=2868507,event=script[0K[32;1mThe command "echo "Skip running UTs"" exited with 0.[0m
+travis_time:start:06020170[0K$ git clone http://www.github.com/noironetworks/cicd -b test-cicd /tmp/cicd
 Cloning into '/tmp/cicd'...
 warning: redirecting to https://github.com/noironetworks/cicd.git/
-travis_time:end:1326b1db:start=1690939001597644310,finish=1690939002155271068,duration=557626758,event=script[0K[32;1mThe command "git clone http://www.github.com/noironetworks/cicd -b test-cicd /tmp/cicd" exited with 0.[0m
-travis_time:start:17651928[0K$ /tmp/cicd/travis/build-push-acc-provision-operator-image.sh || travis_terminate 1
+travis_time:end:06020170:start=1690940552857155575,finish=1690940553439192494,duration=582036919,event=script[0K[32;1mThe command "git clone http://www.github.com/noironetworks/cicd -b test-cicd /tmp/cicd" exited with 0.[0m
+travis_time:start:050605f4[0K$ /tmp/cicd/travis/build-push-acc-provision-operator-image.sh || travis_terminate 1
 ++dirname /tmp/cicd/travis/build-push-acc-provision-operator-image.sh
 +SCRIPTS_DIR=/tmp/cicd/travis
 +source /tmp/cicd/travis/globals.sh
@@ -370,12 +370,12 @@ Date:   Tue Jul 25 17:16:36 2023 -0700
 +OTHER_IMAGE_TAGS=6.0.3.1.test-cicd.81c2369,6.0.3.1.test-cicd.81c2369.080223.466
 +docker build -t quay.io/noirolabs/acc-provision-operator:6.0.3.1.test-cicd.81c2369 --file=Dockerfile .
 #1 [internal] load build definition from Dockerfile
-#1 sha256:599368170f5be64a5e79d5eb0a91815a23dc0d7b37a346e14a3630c4d216bd7f
+#1 sha256:a365f698abeda7fadc131530a4f466dc0c4c92569a4ebd49a8bc43c4ab1e95ea
 #1 transferring dockerfile: 1.12kB done
 #1 DONE 0.0s
 
 #2 [internal] load .dockerignore
-#2 sha256:bede245e6ab325d3dd0fc1fba36389abc70287fae081c28fa78072825afc100a
+#2 sha256:419af124e92d8fc3415b4ad17083dc59370cb292e14a240eecb90a35bc1c2582
 #2 transferring context: 2B done
 #2 DONE 0.0s
 
@@ -384,54 +384,53 @@ Date:   Tue Jul 25 17:16:36 2023 -0700
 #3 DONE 0.5s
 
 #5 [internal] load build context
-#5 sha256:fd3b1cb2d267e72521b783fb927cdca42bffb9c8f1ef65081d225c423eb98c91
+#5 sha256:ed6c8ca3a3a78bef8e453877403d3594005b1bb8afbf2810e1a38486de8bf427
 #5 transferring context: 7.42kB done
 #5 DONE 0.0s
 
 #4 [ 1/11] FROM quay.io/operator-framework/ansible-operator:latest@sha256:0fb346fdc395bcf5be4154628a7b3fe8e193a0c2fcee51824e44f11551331f8a
 #4 sha256:376202c314e50a58547e7982cf00a4a8fbd5a8635f76130dee79547eaf4c9a04
 #4 resolve quay.io/operator-framework/ansible-operator:latest@sha256:0fb346fdc395bcf5be4154628a7b3fe8e193a0c2fcee51824e44f11551331f8a done
-#4 sha256:72ca3ec4400f027d616983e8a29f7b622b81b0a27da3fa0c9bc8a15abf591286 0B / 258B 0.1s
-#4 sha256:6c53be4efe39270422e3e2f7ee1c15887955e3d5e378ea6577c622f358f87691 0B / 79.29MB 0.1s
 #4 sha256:ee229233a41330fd04955edf3ba628d81a44446edd5bcc3205d777ac9686cec3 0B / 44.09MB 0.1s
-#4 sha256:0fb346fdc395bcf5be4154628a7b3fe8e193a0c2fcee51824e44f11551331f8a 1.25kB / 1.25kB done
-#4 sha256:6c53be4efe39270422e3e2f7ee1c15887955e3d5e378ea6577c622f358f87691 5.24MB / 79.29MB 0.2s
 #4 sha256:d0cfa04b4f6f3cb9e3f70beb3e9a9c7555bd3ee1e6f6f28811861f0d3216f245 2.27kB / 2.27kB done
 #4 sha256:4b81dfebff446335c7920b9e02ab56b791c5aca88a4476a5dc86ced37a42e837 11.60kB / 11.60kB done
-#4 sha256:6c53be4efe39270422e3e2f7ee1c15887955e3d5e378ea6577c622f358f87691 15.73MB / 79.29MB 0.3s
-#4 sha256:72ca3ec4400f027d616983e8a29f7b622b81b0a27da3fa0c9bc8a15abf591286 258B / 258B 0.5s done
-#4 sha256:6c53be4efe39270422e3e2f7ee1c15887955e3d5e378ea6577c622f358f87691 46.33MB / 79.29MB 0.5s
-#4 sha256:82f04b121ea21206a69ac160f78095cc3d9aeda79331bdcc90743fcd5dd20baf 0B / 6.12MB 0.5s
-#4 sha256:6c53be4efe39270422e3e2f7ee1c15887955e3d5e378ea6577c622f358f87691 66.06MB / 79.29MB 0.6s
-#4 sha256:ee229233a41330fd04955edf3ba628d81a44446edd5bcc3205d777ac9686cec3 5.24MB / 44.09MB 0.6s
-#4 sha256:6c53be4efe39270422e3e2f7ee1c15887955e3d5e378ea6577c622f358f87691 79.29MB / 79.29MB 0.8s
-#4 sha256:ee229233a41330fd04955edf3ba628d81a44446edd5bcc3205d777ac9686cec3 36.70MB / 44.09MB 0.8s
-#4 sha256:82f04b121ea21206a69ac160f78095cc3d9aeda79331bdcc90743fcd5dd20baf 6.12MB / 6.12MB 0.7s done
-#4 sha256:ef6ed2ebdfc2767161373a225e61be7c234a4269bad2466649b0472e4928f9bc 0B / 23.20MB 0.8s
-#4 sha256:ee229233a41330fd04955edf3ba628d81a44446edd5bcc3205d777ac9686cec3 44.09MB / 44.09MB 0.9s
-#4 sha256:6c53be4efe39270422e3e2f7ee1c15887955e3d5e378ea6577c622f358f87691 79.29MB / 79.29MB 1.0s done
-#4 sha256:ef6ed2ebdfc2767161373a225e61be7c234a4269bad2466649b0472e4928f9bc 6.29MB / 23.20MB 1.0s
+#4 sha256:6c53be4efe39270422e3e2f7ee1c15887955e3d5e378ea6577c622f358f87691 0B / 79.29MB 0.1s
+#4 sha256:72ca3ec4400f027d616983e8a29f7b622b81b0a27da3fa0c9bc8a15abf591286 0B / 258B 0.1s
+#4 sha256:6c53be4efe39270422e3e2f7ee1c15887955e3d5e378ea6577c622f358f87691 5.24MB / 79.29MB 0.2s
+#4 sha256:0fb346fdc395bcf5be4154628a7b3fe8e193a0c2fcee51824e44f11551331f8a 1.25kB / 1.25kB done
+#4 sha256:6c53be4efe39270422e3e2f7ee1c15887955e3d5e378ea6577c622f358f87691 19.92MB / 79.29MB 0.3s
+#4 sha256:72ca3ec4400f027d616983e8a29f7b622b81b0a27da3fa0c9bc8a15abf591286 258B / 258B 0.3s done
+#4 sha256:82f04b121ea21206a69ac160f78095cc3d9aeda79331bdcc90743fcd5dd20baf 0B / 6.12MB 0.3s
+#4 sha256:ee229233a41330fd04955edf3ba628d81a44446edd5bcc3205d777ac9686cec3 22.02MB / 44.09MB 0.5s
+#4 sha256:6c53be4efe39270422e3e2f7ee1c15887955e3d5e378ea6577c622f358f87691 39.78MB / 79.29MB 0.5s
+#4 sha256:82f04b121ea21206a69ac160f78095cc3d9aeda79331bdcc90743fcd5dd20baf 6.12MB / 6.12MB 0.5s
+#4 sha256:ee229233a41330fd04955edf3ba628d81a44446edd5bcc3205d777ac9686cec3 39.85MB / 44.09MB 0.6s
+#4 sha256:82f04b121ea21206a69ac160f78095cc3d9aeda79331bdcc90743fcd5dd20baf 6.12MB / 6.12MB 0.5s done
+#4 sha256:ef6ed2ebdfc2767161373a225e61be7c234a4269bad2466649b0472e4928f9bc 0B / 23.20MB 0.6s
+#4 sha256:ee229233a41330fd04955edf3ba628d81a44446edd5bcc3205d777ac9686cec3 44.09MB / 44.09MB 0.7s done
+#4 sha256:6c53be4efe39270422e3e2f7ee1c15887955e3d5e378ea6577c622f358f87691 53.48MB / 79.29MB 0.8s
+#4 sha256:ef6ed2ebdfc2767161373a225e61be7c234a4269bad2466649b0472e4928f9bc 23.20MB / 23.20MB 0.8s
+#4 sha256:4416c4cd6b88ec88992c058f710f63929e244aa5fb7b1ddc02c24b15364aba09 0B / 6.22kB 0.8s
+#4 sha256:6c53be4efe39270422e3e2f7ee1c15887955e3d5e378ea6577c622f358f87691 61.87MB / 79.29MB 0.9s
+#4 sha256:ef6ed2ebdfc2767161373a225e61be7c234a4269bad2466649b0472e4928f9bc 23.20MB / 23.20MB 0.8s done
+#4 sha256:4416c4cd6b88ec88992c058f710f63929e244aa5fb7b1ddc02c24b15364aba09 6.22kB / 6.22kB 0.8s done
+#4 sha256:dcca45adbdafd7a4b891640640f1dab0746e5dd038469d5bcb45654dc40ffe79 0B / 574B 0.9s
+#4 sha256:7020ac1190ec47d8a2068da7ee8d3c790146c4d6de8be43bf8cccfabddb8b3b5 0B / 9.46kB 0.9s
+#4 sha256:6c53be4efe39270422e3e2f7ee1c15887955e3d5e378ea6577c622f358f87691 79.29MB / 79.29MB 1.1s
+#4 sha256:7020ac1190ec47d8a2068da7ee8d3c790146c4d6de8be43bf8cccfabddb8b3b5 9.46kB / 9.46kB 0.9s done
+#4 sha256:4f4fb700ef54461cfa02571ae0db9a0dc1e0cdb5577484a6d75e68dc38e8acc1 32B / 32B 1.0s done
+#4 sha256:ed6f90162942ba59092f5706c63f6b859acb8604c683fb3d03aff79e9774c130 0B / 25.63MB 1.1s
+#4 sha256:ed6f90162942ba59092f5706c63f6b859acb8604c683fb3d03aff79e9774c130 14.68MB / 25.63MB 1.2s
+#4 sha256:6c53be4efe39270422e3e2f7ee1c15887955e3d5e378ea6577c622f358f87691 79.29MB / 79.29MB 1.3s done
+#4 sha256:ed6f90162942ba59092f5706c63f6b859acb8604c683fb3d03aff79e9774c130 25.63MB / 25.63MB 1.3s
+#4 sha256:dcca45adbdafd7a4b891640640f1dab0746e5dd038469d5bcb45654dc40ffe79 574B / 574B 1.4s
 #4 extracting sha256:6c53be4efe39270422e3e2f7ee1c15887955e3d5e378ea6577c622f358f87691
-#4 sha256:ee229233a41330fd04955edf3ba628d81a44446edd5bcc3205d777ac9686cec3 44.09MB / 44.09MB 1.1s done
-#4 sha256:ef6ed2ebdfc2767161373a225e61be7c234a4269bad2466649b0472e4928f9bc 23.20MB / 23.20MB 1.2s
-#4 sha256:4416c4cd6b88ec88992c058f710f63929e244aa5fb7b1ddc02c24b15364aba09 0B / 6.22kB 1.2s
-#4 sha256:7020ac1190ec47d8a2068da7ee8d3c790146c4d6de8be43bf8cccfabddb8b3b5 0B / 9.46kB 1.2s
-#4 sha256:ef6ed2ebdfc2767161373a225e61be7c234a4269bad2466649b0472e4928f9bc 23.20MB / 23.20MB 1.2s done
-#4 sha256:4416c4cd6b88ec88992c058f710f63929e244aa5fb7b1ddc02c24b15364aba09 6.22kB / 6.22kB 1.2s done
-#4 sha256:7020ac1190ec47d8a2068da7ee8d3c790146c4d6de8be43bf8cccfabddb8b3b5 9.46kB / 9.46kB 1.3s done
-#4 sha256:4f4fb700ef54461cfa02571ae0db9a0dc1e0cdb5577484a6d75e68dc38e8acc1 0B / 32B 1.3s
-#4 sha256:dcca45adbdafd7a4b891640640f1dab0746e5dd038469d5bcb45654dc40ffe79 0B / 574B 1.3s
-#4 sha256:ed6f90162942ba59092f5706c63f6b859acb8604c683fb3d03aff79e9774c130 0B / 25.63MB 1.3s
-#4 sha256:4f4fb700ef54461cfa02571ae0db9a0dc1e0cdb5577484a6d75e68dc38e8acc1 32B / 32B 1.3s done
-#4 sha256:dcca45adbdafd7a4b891640640f1dab0746e5dd038469d5bcb45654dc40ffe79 574B / 574B 1.3s done
-#4 sha256:ed6f90162942ba59092f5706c63f6b859acb8604c683fb3d03aff79e9774c130 6.29MB / 25.63MB 2.8s
-#4 sha256:ed6f90162942ba59092f5706c63f6b859acb8604c683fb3d03aff79e9774c130 8.39MB / 25.63MB 2.9s
-#4 sha256:ed6f90162942ba59092f5706c63f6b859acb8604c683fb3d03aff79e9774c130 15.73MB / 25.63MB 3.1s
-#4 sha256:ed6f90162942ba59092f5706c63f6b859acb8604c683fb3d03aff79e9774c130 25.63MB / 25.63MB 3.3s done
-#4 extracting sha256:6c53be4efe39270422e3e2f7ee1c15887955e3d5e378ea6577c622f358f87691 4.2s done
+#4 sha256:dcca45adbdafd7a4b891640640f1dab0746e5dd038469d5bcb45654dc40ffe79 574B / 574B 1.4s done
+#4 sha256:ed6f90162942ba59092f5706c63f6b859acb8604c683fb3d03aff79e9774c130 25.63MB / 25.63MB 1.4s done
+#4 extracting sha256:6c53be4efe39270422e3e2f7ee1c15887955e3d5e378ea6577c622f358f87691 4.1s done
 #4 extracting sha256:72ca3ec4400f027d616983e8a29f7b622b81b0a27da3fa0c9bc8a15abf591286
 #4 extracting sha256:72ca3ec4400f027d616983e8a29f7b622b81b0a27da3fa0c9bc8a15abf591286 done
-#4 extracting sha256:ee229233a41330fd04955edf3ba628d81a44446edd5bcc3205d777ac9686cec3
+#4 extracting sha256:ee229233a41330fd04955edf3ba628d81a44446edd5bcc3205d777ac9686cec3 0.1s
 #4 extracting sha256:ee229233a41330fd04955edf3ba628d81a44446edd5bcc3205d777ac9686cec3 2.4s done
 #4 extracting sha256:82f04b121ea21206a69ac160f78095cc3d9aeda79331bdcc90743fcd5dd20baf
 #4 extracting sha256:82f04b121ea21206a69ac160f78095cc3d9aeda79331bdcc90743fcd5dd20baf 0.4s done
@@ -440,704 +439,705 @@ Date:   Tue Jul 25 17:16:36 2023 -0700
 #4 extracting sha256:4416c4cd6b88ec88992c058f710f63929e244aa5fb7b1ddc02c24b15364aba09
 #4 extracting sha256:4416c4cd6b88ec88992c058f710f63929e244aa5fb7b1ddc02c24b15364aba09 0.1s done
 #4 extracting sha256:7020ac1190ec47d8a2068da7ee8d3c790146c4d6de8be43bf8cccfabddb8b3b5 done
-#4 extracting sha256:dcca45adbdafd7a4b891640640f1dab0746e5dd038469d5bcb45654dc40ffe79 done
+#4 extracting sha256:dcca45adbdafd7a4b891640640f1dab0746e5dd038469d5bcb45654dc40ffe79
+#4 extracting sha256:dcca45adbdafd7a4b891640640f1dab0746e5dd038469d5bcb45654dc40ffe79 0.0s done
 #4 extracting sha256:4f4fb700ef54461cfa02571ae0db9a0dc1e0cdb5577484a6d75e68dc38e8acc1
 #4 extracting sha256:4f4fb700ef54461cfa02571ae0db9a0dc1e0cdb5577484a6d75e68dc38e8acc1 done
 #4 extracting sha256:ed6f90162942ba59092f5706c63f6b859acb8604c683fb3d03aff79e9774c130 0.1s
 #4 extracting sha256:ed6f90162942ba59092f5706c63f6b859acb8604c683fb3d03aff79e9774c130 0.8s done
-#4 DONE 12.1s
+#4 DONE 12.5s
 
 #6 [ 2/11] COPY docker/licenses /licenses
-#6 sha256:0556d6d450661e2e40fd0561f9006cdb877e30b52563988bd86a5219b8698cd9
-#6 DONE 3.0s
+#6 sha256:e9b3b02c0309b9928903ac061d33a5a71484a76f39f062cedecb1f734b2bd2dc
+#6 DONE 2.7s
 
 #7 [ 3/11] COPY requirements.yml /opt/ansible/requirements.yml
-#7 sha256:852863421428ed9b0c28ef13fc0bf60bb84441475354eb35c82bf24ed81a6dca
+#7 sha256:e4255000a973a543b494999050990d877fc0a2d517d16ea72df48306fafb6f9d
 #7 DONE 0.1s
 
 #8 [ 4/11] RUN update-crypto-policies --set LEGACY && pip3 install pyopenssl
-#8 sha256:7e97ddc2ce26f7e709ec82a00881753f7278ebedbd04836cddcf59de69c26710
-#8 0.443 Setting system policy to LEGACY
-#8 0.443 Note: System-wide crypto policies are applied on application start-up.
-#8 0.443 It is recommended to restart the system for the change of policies
-#8 0.443 to fully take place.
-#8 0.744 WARNING: The directory '/opt/ansible/.cache/pip' or its parent directory is not owned or is not writable by the current user. The cache has been disabled. Check the permissions and owner of that directory. If executing pip with sudo, you should use sudo's -H flag.
-#8 0.870 Collecting pyopenssl
-#8 0.922   Downloading pyOpenSSL-23.2.0-py3-none-any.whl (59 kB)
-#8 0.939      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 59.0/59.0 kB 3.5 MB/s eta 0:00:00
-#8 0.949 Requirement already satisfied: cryptography!=40.0.0,!=40.0.1,<42,>=38.0.0 in /usr/local/lib64/python3.9/site-packages (from pyopenssl) (41.0.2)
-#8 0.977 Requirement already satisfied: cffi>=1.12 in /usr/local/lib64/python3.9/site-packages (from cryptography!=40.0.0,!=40.0.1,<42,>=38.0.0->pyopenssl) (1.15.1)
-#8 0.978 Requirement already satisfied: pycparser in /usr/local/lib/python3.9/site-packages (from cffi>=1.12->cryptography!=40.0.0,!=40.0.1,<42,>=38.0.0->pyopenssl) (2.21)
-#8 1.228 Installing collected packages: pyopenssl
-#8 1.268 Successfully installed pyopenssl-23.2.0
-#8 1.268 WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
-#8 1.378 
-#8 1.378 [notice] A new release of pip is available: 23.1.2 -> 23.2.1
-#8 1.378 [notice] To update, run: python3.9 -m pip install --upgrade pip
-#8 DONE 1.5s
+#8 sha256:d2f5a7f9119a02b32183c7db12a1f277ac663c8e53d2b06f8577c7b6d153c921
+#8 0.444 Setting system policy to LEGACY
+#8 0.444 Note: System-wide crypto policies are applied on application start-up.
+#8 0.444 It is recommended to restart the system for the change of policies
+#8 0.444 to fully take place.
+#8 0.771 WARNING: The directory '/opt/ansible/.cache/pip' or its parent directory is not owned or is not writable by the current user. The cache has been disabled. Check the permissions and owner of that directory. If executing pip with sudo, you should use sudo's -H flag.
+#8 0.919 Collecting pyopenssl
+#8 0.972   Downloading pyOpenSSL-23.2.0-py3-none-any.whl (59 kB)
+#8 0.992      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 59.0/59.0 kB 3.5 MB/s eta 0:00:00
+#8 1.002 Requirement already satisfied: cryptography!=40.0.0,!=40.0.1,<42,>=38.0.0 in /usr/local/lib64/python3.9/site-packages (from pyopenssl) (41.0.2)
+#8 1.021 Requirement already satisfied: cffi>=1.12 in /usr/local/lib64/python3.9/site-packages (from cryptography!=40.0.0,!=40.0.1,<42,>=38.0.0->pyopenssl) (1.15.1)
+#8 1.023 Requirement already satisfied: pycparser in /usr/local/lib/python3.9/site-packages (from cffi>=1.12->cryptography!=40.0.0,!=40.0.1,<42,>=38.0.0->pyopenssl) (2.21)
+#8 1.271 Installing collected packages: pyopenssl
+#8 1.314 Successfully installed pyopenssl-23.2.0
+#8 1.314 WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
+#8 1.434 
+#8 1.434 [notice] A new release of pip is available: 23.1.2 -> 23.2.1
+#8 1.434 [notice] To update, run: python3.9 -m pip install --upgrade pip
+#8 DONE 1.6s
 
 #9 [ 5/11] RUN ansible-galaxy collection install -r /opt/ansible/requirements.yml  && chmod -R ug+rwx /opt/ansible/.ansible
-#9 sha256:ecfbab218214f719bccaa6bb9e4e2a5ed2c88bbc30e299bf34bb324f6760ad5e
-#9 2.670 Starting galaxy collection install process
-#9 2.670 Process install dependency map
-#9 2.670 Starting collection install process
-#9 2.670 Downloading https://galaxy.ansible.com/download/community-kubernetes-1.2.1.tar.gz to /opt/ansible/.ansible/tmp/ansible-local-75o2_8l2w/tmprs_2tnlb/community-kubernetes-1.2.1-9u4l4pt8
-#9 2.670 Installing 'community.kubernetes:1.2.1' to '/opt/ansible/.ansible/collections/ansible_collections/community/kubernetes'
-#9 2.670 community.kubernetes:1.2.1 was installed successfully
-#9 2.670 Downloading https://galaxy.ansible.com/download/operator_sdk-util-0.2.0.tar.gz to /opt/ansible/.ansible/tmp/ansible-local-75o2_8l2w/tmprs_2tnlb/operator_sdk-util-0.2.0-it3q1ykl
-#9 2.670 Installing 'operator_sdk.util:0.2.0' to '/opt/ansible/.ansible/collections/ansible_collections/operator_sdk/util'
-#9 2.670 operator_sdk.util:0.2.0 was installed successfully
-#9 DONE 2.8s
+#9 sha256:3b8b93f448a65c01819080d24732941d336c7d9c32767b41fbfa927455a5dbbe
+#9 2.799 Starting galaxy collection install process
+#9 2.799 Process install dependency map
+#9 2.799 Starting collection install process
+#9 2.799 Downloading https://galaxy.ansible.com/download/community-kubernetes-1.2.1.tar.gz to /opt/ansible/.ansible/tmp/ansible-local-7qecnkzii/tmpdpvhhy5v/community-kubernetes-1.2.1-5vwvuaws
+#9 2.799 Installing 'community.kubernetes:1.2.1' to '/opt/ansible/.ansible/collections/ansible_collections/community/kubernetes'
+#9 2.799 community.kubernetes:1.2.1 was installed successfully
+#9 2.799 Downloading https://galaxy.ansible.com/download/operator_sdk-util-0.2.0.tar.gz to /opt/ansible/.ansible/tmp/ansible-local-7qecnkzii/tmpdpvhhy5v/operator_sdk-util-0.2.0-190yvy2l
+#9 2.799 Installing 'operator_sdk.util:0.2.0' to '/opt/ansible/.ansible/collections/ansible_collections/operator_sdk/util'
+#9 2.799 operator_sdk.util:0.2.0 was installed successfully
+#9 DONE 3.0s
 
 #10 [ 6/11] RUN yum install git -y
-#10 sha256:eab36b36e053179171a96189c0d0a07bdcecfa0664774f79889b9984da8da778
-#10 0.863 Updating Subscription Management repositories.
-#10 0.864 Unable to read consumer identity
-#10 0.864 Subscription Manager is operating in container mode.
-#10 0.868 
-#10 0.868 This system is not registered with an entitlement server. You can use subscription-manager to register.
-#10 0.868 
-#10 1.261 Red Hat Universal Base Image 8 (RPMs) - BaseOS  2.4 MB/s | 844 kB     00:00    
-#10 1.808 Red Hat Universal Base Image 8 (RPMs) - AppStre 8.3 MB/s | 3.4 MB     00:00    
-#10 2.612 Red Hat Universal Base Image 8 (RPMs) - CodeRea 463 kB/s | 107 kB     00:00    
-#10 2.917 Dependencies resolved.
-#10 2.929 =====================================================================================================
-#10 2.929  Package                  Arch    Version                                 Repository             Size
-#10 2.929 =====================================================================================================
-#10 2.929 Installing:
-#10 2.929  git                      x86_64  2.39.3-1.el8_8                          ubi-8-appstream-rpms  104 k
-#10 2.929 Installing dependencies:
-#10 2.929  emacs-filesystem         noarch  1:26.1-10.el8_8.2                       ubi-8-baseos-rpms      70 k
-#10 2.929  git-core                 x86_64  2.39.3-1.el8_8                          ubi-8-appstream-rpms   11 M
-#10 2.929  git-core-doc             noarch  2.39.3-1.el8_8                          ubi-8-appstream-rpms  3.0 M
-#10 2.929  groff-base               x86_64  1.22.3-18.el8                           ubi-8-baseos-rpms     1.0 M
-#10 2.929  less                     x86_64  530-1.el8                               ubi-8-baseos-rpms     164 k
-#10 2.929  libedit                  x86_64  3.1-23.20170329cvs.el8                  ubi-8-baseos-rpms     102 k
-#10 2.929  ncurses                  x86_64  6.1-9.20180224.el8                      ubi-8-baseos-rpms     387 k
-#10 2.929  openssh                  x86_64  8.0p1-19.el8_8                          ubi-8-baseos-rpms     524 k
-#10 2.929  openssh-clients          x86_64  8.0p1-19.el8_8                          ubi-8-baseos-rpms     669 k
-#10 2.929  openssl                  x86_64  1:1.1.1k-9.el8_7                        ubi-8-baseos-rpms     710 k
-#10 2.929  perl-Carp                noarch  1.42-396.el8                            ubi-8-baseos-rpms      30 k
-#10 2.929  perl-Data-Dumper         x86_64  2.167-399.el8                           ubi-8-baseos-rpms      58 k
-#10 2.929  perl-Digest              noarch  1.17-395.el8                            ubi-8-appstream-rpms   27 k
-#10 2.929  perl-Digest-MD5          x86_64  2.55-396.el8                            ubi-8-appstream-rpms   37 k
-#10 2.929  perl-Encode              x86_64  4:2.97-3.el8                            ubi-8-baseos-rpms     1.5 M
-#10 2.929  perl-Errno               x86_64  1.28-422.el8                            ubi-8-baseos-rpms      77 k
-#10 2.929  perl-Error               noarch  1:0.17025-2.el8                         ubi-8-appstream-rpms   46 k
-#10 2.929  perl-Exporter            noarch  5.72-396.el8                            ubi-8-baseos-rpms      34 k
-#10 2.929  perl-File-Path           noarch  2.15-2.el8                              ubi-8-baseos-rpms      38 k
-#10 2.929  perl-File-Temp           noarch  0.230.600-1.el8                         ubi-8-baseos-rpms      63 k
-#10 2.929  perl-Getopt-Long         noarch  1:2.50-4.el8                            ubi-8-baseos-rpms      63 k
-#10 2.929  perl-Git                 noarch  2.39.3-1.el8_8                          ubi-8-appstream-rpms   79 k
-#10 2.929  perl-HTTP-Tiny           noarch  0.074-1.el8                             ubi-8-baseos-rpms      58 k
-#10 2.929  perl-IO                  x86_64  1.38-422.el8                            ubi-8-baseos-rpms     142 k
-#10 2.929  perl-MIME-Base64         x86_64  3.15-396.el8                            ubi-8-baseos-rpms      31 k
-#10 2.929  perl-Net-SSLeay          x86_64  1.88-2.module+el8.6.0+13392+f0897f98    ubi-8-appstream-rpms  379 k
-#10 2.929  perl-PathTools           x86_64  3.74-1.el8                              ubi-8-baseos-rpms      90 k
-#10 2.929  perl-Pod-Escapes         noarch  1:1.07-395.el8                          ubi-8-baseos-rpms      20 k
-#10 2.929  perl-Pod-Perldoc         noarch  3.28-396.el8                            ubi-8-baseos-rpms      88 k
-#10 2.929  perl-Pod-Simple          noarch  1:3.35-395.el8                          ubi-8-baseos-rpms     213 k
-#10 2.929  perl-Pod-Usage           noarch  4:1.69-395.el8                          ubi-8-baseos-rpms      34 k
-#10 2.929  perl-Scalar-List-Utils   x86_64  3:1.49-2.el8                            ubi-8-baseos-rpms      68 k
-#10 2.929  perl-Socket              x86_64  4:2.027-3.el8                           ubi-8-baseos-rpms      59 k
-#10 2.929  perl-Storable            x86_64  1:3.11-3.el8                            ubi-8-baseos-rpms      98 k
-#10 2.929  perl-Term-ANSIColor      noarch  4.06-396.el8                            ubi-8-baseos-rpms      46 k
-#10 2.929  perl-Term-Cap            noarch  1.17-395.el8                            ubi-8-baseos-rpms      23 k
-#10 2.929  perl-TermReadKey         x86_64  2.37-7.el8                              ubi-8-appstream-rpms   40 k
-#10 2.929  perl-Text-ParseWords     noarch  3.30-395.el8                            ubi-8-baseos-rpms      18 k
-#10 2.929  perl-Text-Tabs+Wrap      noarch  2013.0523-395.el8                       ubi-8-baseos-rpms      24 k
-#10 2.929  perl-Time-Local          noarch  1:1.280-1.el8                           ubi-8-baseos-rpms      34 k
-#10 2.929  perl-URI                 noarch  1.73-3.el8                              ubi-8-appstream-rpms  116 k
-#10 2.929  perl-Unicode-Normalize   x86_64  1.25-396.el8                            ubi-8-baseos-rpms      82 k
-#10 2.929  perl-constant            noarch  1.33-396.el8                            ubi-8-baseos-rpms      25 k
-#10 2.929  perl-interpreter         x86_64  4:5.26.3-422.el8                        ubi-8-baseos-rpms     6.3 M
-#10 2.929  perl-libnet              noarch  3.11-3.el8                              ubi-8-appstream-rpms  121 k
-#10 2.929  perl-libs                x86_64  4:5.26.3-422.el8                        ubi-8-baseos-rpms     1.6 M
-#10 2.929  perl-macros              x86_64  4:5.26.3-422.el8                        ubi-8-baseos-rpms      73 k
-#10 2.929  perl-parent              noarch  1:0.237-1.el8                           ubi-8-baseos-rpms      20 k
-#10 2.929  perl-podlators           noarch  4.11-1.el8                              ubi-8-baseos-rpms     118 k
-#10 2.929  perl-threads             x86_64  1:2.21-2.el8                            ubi-8-baseos-rpms      61 k
-#10 2.929  perl-threads-shared      x86_64  1.58-2.el8                              ubi-8-baseos-rpms      48 k
-#10 2.929 Installing weak dependencies:
-#10 2.929  perl-IO-Socket-IP        noarch  0.39-5.el8                              ubi-8-appstream-rpms   47 k
-#10 2.929  perl-IO-Socket-SSL       noarch  2.066-4.module+el8.3.0+6446+594cad75    ubi-8-appstream-rpms  298 k
-#10 2.929  perl-Mozilla-CA          noarch  20160104-7.module+el8.3.0+6498+9eecfe51 ubi-8-appstream-rpms   15 k
-#10 2.929 Enabling module streams:
-#10 2.929  perl                             5.26                                                               
-#10 2.929  perl-IO-Socket-SSL               2.066                                                              
-#10 2.929  perl-libwww-perl                 6.34                                                               
-#10 2.929 
-#10 2.929 Transaction Summary
-#10 2.929 =====================================================================================================
-#10 2.929 Install  55 Packages
-#10 2.929 
-#10 2.932 Total download size: 30 M
-#10 2.932 Installed size: 90 M
-#10 2.933 Downloading Packages:
-#10 3.079 (1/55): perl-Scalar-List-Utils-1.49-2.el8.x86_6 483 kB/s |  68 kB     00:00    
-#10 3.124 (2/55): perl-PathTools-3.74-1.el8.x86_64.rpm    2.1 MB/s |  90 kB     00:00    
-#10 3.126 (3/55): less-530-1.el8.x86_64.rpm               876 kB/s | 164 kB     00:00    
-#10 3.147 (4/55): openssh-8.0p1-19.el8_8.x86_64.rpm       2.5 MB/s | 524 kB     00:00    
-#10 3.169 (5/55): perl-threads-2.21-2.el8.x86_64.rpm      1.3 MB/s |  61 kB     00:00    
-#10 3.186 (6/55): perl-Pod-Simple-3.35-395.el8.noarch.rpm 3.5 MB/s | 213 kB     00:00    
-#10 3.188 (7/55): perl-Term-ANSIColor-4.06-396.el8.noarch 1.1 MB/s |  46 kB     00:00    
-#10 3.212 (8/55): perl-Data-Dumper-2.167-399.el8.x86_64.r 1.3 MB/s |  58 kB     00:00    
-#10 3.221 (9/55): libedit-3.1-23.20170329cvs.el8.x86_64.r 2.9 MB/s | 102 kB     00:00    
-#10 3.224 (10/55): perl-IO-1.38-422.el8.x86_64.rpm        3.9 MB/s | 142 kB     00:00    
-#10 3.248 (11/55): perl-threads-shared-1.58-2.el8.x86_64. 1.3 MB/s |  48 kB     00:00    
-#10 3.252 (12/55): perl-HTTP-Tiny-0.074-1.el8.noarch.rpm  1.8 MB/s |  58 kB     00:00    
-#10 3.254 (13/55): perl-Pod-Escapes-1.07-395.el8.noarch.r 694 kB/s |  20 kB     00:00    
-#10 3.285 (14/55): perl-Socket-2.027-3.el8.x86_64.rpm     1.9 MB/s |  59 kB     00:00    
-#10 3.291 (15/55): perl-Pod-Perldoc-3.28-396.el8.noarch.r 2.1 MB/s |  88 kB     00:00    
-#10 3.313 (16/55): perl-File-Path-2.15-2.el8.noarch.rpm   1.3 MB/s |  38 kB     00:00    
-#10 3.316 (17/55): perl-parent-0.237-1.el8.noarch.rpm     723 kB/s |  20 kB     00:00    
-#10 3.364 (18/55): perl-Encode-2.97-3.el8.x86_64.rpm       13 MB/s | 1.5 MB     00:00    
-#10 3.394 (19/55): perl-Text-Tabs+Wrap-2013.0523-395.el8. 828 kB/s |  24 kB     00:00    
-#10 3.442 (20/55): groff-base-1.22.3-18.el8.x86_64.rpm     22 MB/s | 1.0 MB     00:00    
-#10 3.452 (21/55): perl-libs-5.26.3-422.el8.x86_64.rpm     11 MB/s | 1.6 MB     00:00    
-#10 3.484 (22/55): perl-interpreter-5.26.3-422.el8.x86_64  37 MB/s | 6.3 MB     00:00    
-#10 3.487 (23/55): perl-Getopt-Long-2.50-4.el8.noarch.rpm 1.8 MB/s |  63 kB     00:00    
-#10 3.489 (24/55): emacs-filesystem-26.1-10.el8_8.2.noarc 1.4 MB/s |  70 kB     00:00    
-#10 3.513 (25/55): perl-macros-5.26.3-422.el8.x86_64.rpm  2.5 MB/s |  73 kB     00:00    
-#10 3.527 (26/55): perl-Time-Local-1.280-1.el8.noarch.rpm 939 kB/s |  34 kB     00:00    
-#10 3.531 (27/55): perl-podlators-4.11-1.el8.noarch.rpm   2.7 MB/s | 118 kB     00:00    
-#10 3.544 (28/55): perl-Carp-1.42-396.el8.noarch.rpm      1.0 MB/s |  30 kB     00:00    
-#10 3.556 (29/55): perl-Exporter-5.72-396.el8.noarch.rpm  1.1 MB/s |  34 kB     00:00    
-#10 3.559 (30/55): perl-Storable-3.11-3.el8.x86_64.rpm    3.3 MB/s |  98 kB     00:00    
-#10 3.572 (31/55): perl-Text-ParseWords-3.30-395.el8.noar 641 kB/s |  18 kB     00:00    
-#10 3.590 (32/55): perl-Unicode-Normalize-1.25-396.el8.x8 2.4 MB/s |  82 kB     00:00    
-#10 3.594 (33/55): ncurses-6.1-9.20180224.el8.x86_64.rpm   11 MB/s | 387 kB     00:00    
-#10 3.610 (34/55): openssl-1.1.1k-9.el8_7.x86_64.rpm       19 MB/s | 710 kB     00:00    
-#10 3.619 (35/55): perl-Errno-1.28-422.el8.x86_64.rpm     2.5 MB/s |  77 kB     00:00    
-#10 3.646 (36/55): perl-File-Temp-0.230.600-1.el8.noarch. 1.8 MB/s |  63 kB     00:00    
-#10 3.654 (37/55): perl-constant-1.33-396.el8.noarch.rpm  799 kB/s |  25 kB     00:00    
-#10 3.670 (38/55): openssh-clients-8.0p1-19.el8_8.x86_64. 8.7 MB/s | 669 kB     00:00    
-#10 3.675 (39/55): perl-Term-Cap-1.17-395.el8.noarch.rpm  798 kB/s |  23 kB     00:00    
-#10 3.683 (40/55): perl-MIME-Base64-3.15-396.el8.x86_64.r 1.0 MB/s |  31 kB     00:00    
-#10 3.706 (41/55): perl-Pod-Usage-1.69-395.el8.noarch.rpm 953 kB/s |  34 kB     00:00    
-#10 3.709 (42/55): perl-Error-0.17025-2.el8.noarch.rpm    1.4 MB/s |  46 kB     00:00    
-#10 3.713 (43/55): perl-Digest-1.17-395.el8.noarch.rpm    931 kB/s |  27 kB     00:00    
-#10 3.734 (44/55): perl-TermReadKey-2.37-7.el8.x86_64.rpm 1.5 MB/s |  40 kB     00:00    
-#10 3.743 (45/55): perl-Mozilla-CA-20160104-7.module+el8. 519 kB/s |  15 kB     00:00    
-#10 3.752 (46/55): perl-IO-Socket-SSL-2.066-4.module+el8. 6.9 MB/s | 298 kB     00:00    
-#10 3.761 (47/55): perl-IO-Socket-IP-0.39-5.el8.noarch.rp 1.7 MB/s |  47 kB     00:00    
-#10 3.773 (48/55): perl-Digest-MD5-2.55-396.el8.x86_64.rp 1.2 MB/s |  37 kB     00:00    
-#10 3.783 (49/55): perl-URI-1.73-3.el8.noarch.rpm         3.8 MB/s | 116 kB     00:00    
-#10 3.795 (50/55): perl-Net-SSLeay-1.88-2.module+el8.6.0+  11 MB/s | 379 kB     00:00    
-#10 3.803 (51/55): perl-libnet-3.11-3.el8.noarch.rpm      3.9 MB/s | 121 kB     00:00    
-#10 3.825 (52/55): perl-Git-2.39.3-1.el8_8.noarch.rpm     2.6 MB/s |  79 kB     00:00    
-#10 3.834 (53/55): git-2.39.3-1.el8_8.x86_64.rpm          3.4 MB/s | 104 kB     00:00    
-#10 3.866 (54/55): git-core-doc-2.39.3-1.el8_8.noarch.rpm  36 MB/s | 3.0 MB     00:00    
-#10 4.020 (55/55): git-core-2.39.3-1.el8_8.x86_64.rpm      55 MB/s |  11 MB     00:00    
-#10 4.023 --------------------------------------------------------------------------------
-#10 4.024 Total                                            27 MB/s |  30 MB     00:01     
-#10 4.601 Running transaction check
-#10 4.639 Transaction check succeeded.
-#10 4.639 Running transaction test
-#10 4.917 Transaction test succeeded.
-#10 4.920 Running transaction
-#10 5.402   Preparing        :                                                        1/1 
-#10 5.499   Installing       : openssl-1:1.1.1k-9.el8_7.x86_64                       1/55 
-#10 5.535   Installing       : ncurses-6.1-9.20180224.el8.x86_64                     2/55 
-#10 5.546   Installing       : emacs-filesystem-1:26.1-10.el8_8.2.noarch             3/55 
-#10 5.683   Installing       : groff-base-1.22.3-18.el8.x86_64                       4/55 
-#10 5.699   Installing       : perl-Digest-1.17-395.el8.noarch                       5/55 
-#10 5.709   Installing       : perl-Digest-MD5-2.55-396.el8.x86_64                   6/55 
-#10 5.721   Installing       : perl-Data-Dumper-2.167-399.el8.x86_64                 7/55 
-#10 5.742   Installing       : perl-libnet-3.11-3.el8.noarch                         8/55 
-#10 5.792   Installing       : perl-Net-SSLeay-1.88-2.module+el8.6.0+13392+f0897f    9/55 
-#10 5.814   Installing       : perl-URI-1.73-3.el8.noarch                           10/55 
-#10 5.826   Installing       : perl-Pod-Escapes-1:1.07-395.el8.noarch               11/55 
-#10 5.835   Installing       : perl-Time-Local-1:1.280-1.el8.noarch                 12/55 
-#10 5.843   Installing       : perl-Mozilla-CA-20160104-7.module+el8.3.0+6498+9ee   13/55 
-#10 5.863   Installing       : perl-IO-Socket-IP-0.39-5.el8.noarch                  14/55 
-#10 5.894   Installing       : perl-IO-Socket-SSL-2.066-4.module+el8.3.0+6446+594   15/55 
-#10 5.906   Installing       : perl-Term-ANSIColor-4.06-396.el8.noarch              16/55 
-#10 5.934   Installing       : perl-Pod-Simple-1:3.35-395.el8.noarch                17/55 
-#10 5.949   Installing       : perl-File-Temp-0.230.600-1.el8.noarch                18/55 
-#10 5.966   Installing       : perl-Term-Cap-1.17-395.el8.noarch                    19/55 
-#10 5.978   Installing       : perl-HTTP-Tiny-0.074-1.el8.noarch                    20/55 
-#10 5.996   Installing       : perl-podlators-4.11-1.el8.noarch                     21/55 
-#10 6.014   Installing       : perl-Pod-Perldoc-3.28-396.el8.noarch                 22/55 
-#10 6.023   Installing       : perl-Text-ParseWords-3.30-395.el8.noarch             23/55 
-#10 6.032   Installing       : perl-Pod-Usage-4:1.69-395.el8.noarch                 24/55 
-#10 6.047   Installing       : perl-Storable-1:3.11-3.el8.x86_64                    25/55 
-#10 6.057   Installing       : perl-MIME-Base64-3.15-396.el8.x86_64                 26/55 
-#10 6.080   Installing       : perl-Getopt-Long-1:2.50-4.el8.noarch                 27/55 
-#10 6.091   Installing       : perl-Socket-4:2.027-3.el8.x86_64                     28/55 
-#10 6.100   Installing       : perl-Errno-1.28-422.el8.x86_64                       29/55 
-#10 6.315   Installing       : perl-Encode-4:2.97-3.el8.x86_64                      30/55 
-#10 6.326   Installing       : perl-parent-1:0.237-1.el8.noarch                     31/55 
-#10 6.334   Installing       : perl-macros-4:5.26.3-422.el8.x86_64                  32/55 
-#10 6.343   Installing       : perl-Carp-1.42-396.el8.noarch                        33/55 
-#10 6.353   Installing       : perl-Exporter-5.72-396.el8.noarch                    34/55 
-#10 6.552   Installing       : perl-libs-4:5.26.3-422.el8.x86_64                    35/55 
-#10 6.571   Installing       : perl-Scalar-List-Utils-3:1.49-2.el8.x86_64           36/55 
-#10 6.586   Installing       : perl-threads-shared-1.58-2.el8.x86_64                37/55 
-#10 6.599   Installing       : perl-threads-1:2.21-2.el8.x86_64                     38/55 
-#10 6.610   Installing       : perl-Text-Tabs+Wrap-2013.0523-395.el8.noarch         39/55 
-#10 6.629   Installing       : perl-Unicode-Normalize-1.25-396.el8.x86_64           40/55 
-#10 6.640   Installing       : perl-File-Path-2.15-2.el8.noarch                     41/55 
-#10 6.656   Installing       : perl-PathTools-3.74-1.el8.x86_64                     42/55 
-#10 6.673   Installing       : perl-IO-1.38-422.el8.x86_64                          43/55 
-#10 6.687   Installing       : perl-constant-1.33-396.el8.noarch                    44/55 
-#10 7.206   Installing       : perl-interpreter-4:5.26.3-422.el8.x86_64             45/55 
-#10 7.230   Installing       : perl-Error-1:0.17025-2.el8.noarch                    46/55 
-#10 7.244   Installing       : perl-TermReadKey-2.37-7.el8.x86_64                   47/55 
-#10 7.263   Installing       : libedit-3.1-23.20170329cvs.el8.x86_64                48/55 
-#10 7.270   Running scriptlet: openssh-8.0p1-19.el8_8.x86_64                        49/55 
-#10 7.335   Installing       : openssh-8.0p1-19.el8_8.x86_64                        49/55 
-#10 7.413   Installing       : openssh-clients-8.0p1-19.el8_8.x86_64                50/55 
-#10 7.436   Installing       : less-530-1.el8.x86_64                                51/55 
-#10 8.403   Installing       : git-core-2.39.3-1.el8_8.x86_64                       52/55 
-#10 8.805   Installing       : git-core-doc-2.39.3-1.el8_8.noarch                   53/55 
-#10 8.827   Installing       : perl-Git-2.39.3-1.el8_8.noarch                       54/55 
-#10 8.841   Installing       : git-2.39.3-1.el8_8.x86_64                            55/55 
-#10 8.854   Running scriptlet: git-2.39.3-1.el8_8.x86_64                            55/55 
-#10 8.920   Verifying        : perl-Scalar-List-Utils-3:1.49-2.el8.x86_64            1/55 
-#10 8.926   Verifying        : less-530-1.el8.x86_64                                 2/55 
-#10 8.926   Verifying        : openssh-8.0p1-19.el8_8.x86_64                         3/55 
-#10 8.926   Verifying        : perl-PathTools-3.74-1.el8.x86_64                      4/55 
-#10 8.926   Verifying        : perl-threads-1:2.21-2.el8.x86_64                      5/55 
-#10 8.926   Verifying        : perl-Pod-Simple-1:3.35-395.el8.noarch                 6/55 
-#10 8.926   Verifying        : perl-Term-ANSIColor-4.06-396.el8.noarch               7/55 
-#10 8.926   Verifying        : perl-Data-Dumper-2.167-399.el8.x86_64                 8/55 
-#10 8.926   Verifying        : libedit-3.1-23.20170329cvs.el8.x86_64                 9/55 
-#10 8.926   Verifying        : perl-IO-1.38-422.el8.x86_64                          10/55 
-#10 8.926   Verifying        : perl-threads-shared-1.58-2.el8.x86_64                11/55 
-#10 8.926   Verifying        : perl-HTTP-Tiny-0.074-1.el8.noarch                    12/55 
-#10 8.926   Verifying        : perl-Pod-Escapes-1:1.07-395.el8.noarch               13/55 
-#10 8.926   Verifying        : perl-Pod-Perldoc-3.28-396.el8.noarch                 14/55 
-#10 8.926   Verifying        : perl-Encode-4:2.97-3.el8.x86_64                      15/55 
-#10 8.926   Verifying        : perl-Socket-4:2.027-3.el8.x86_64                     16/55 
-#10 8.926   Verifying        : perl-File-Path-2.15-2.el8.noarch                     17/55 
-#10 8.926   Verifying        : perl-parent-1:0.237-1.el8.noarch                     18/55 
-#10 8.926   Verifying        : perl-interpreter-4:5.26.3-422.el8.x86_64             19/55 
-#10 8.926   Verifying        : perl-libs-4:5.26.3-422.el8.x86_64                    20/55 
-#10 8.926   Verifying        : perl-Text-Tabs+Wrap-2013.0523-395.el8.noarch         21/55 
-#10 8.926   Verifying        : groff-base-1.22.3-18.el8.x86_64                      22/55 
-#10 8.926   Verifying        : emacs-filesystem-1:26.1-10.el8_8.2.noarch            23/55 
-#10 8.926   Verifying        : perl-Getopt-Long-1:2.50-4.el8.noarch                 24/55 
-#10 8.926   Verifying        : perl-macros-4:5.26.3-422.el8.x86_64                  25/55 
-#10 8.926   Verifying        : perl-podlators-4.11-1.el8.noarch                     26/55 
-#10 8.926   Verifying        : perl-Time-Local-1:1.280-1.el8.noarch                 27/55 
-#10 8.926   Verifying        : perl-Carp-1.42-396.el8.noarch                        28/55 
-#10 8.926   Verifying        : perl-Exporter-5.72-396.el8.noarch                    29/55 
-#10 8.926   Verifying        : perl-Storable-1:3.11-3.el8.x86_64                    30/55 
-#10 8.926   Verifying        : perl-Text-ParseWords-3.30-395.el8.noarch             31/55 
-#10 8.926   Verifying        : perl-Unicode-Normalize-1.25-396.el8.x86_64           32/55 
-#10 8.926   Verifying        : ncurses-6.1-9.20180224.el8.x86_64                    33/55 
-#10 8.926   Verifying        : openssl-1:1.1.1k-9.el8_7.x86_64                      34/55 
-#10 8.926   Verifying        : perl-Errno-1.28-422.el8.x86_64                       35/55 
-#10 8.926   Verifying        : openssh-clients-8.0p1-19.el8_8.x86_64                36/55 
-#10 8.926   Verifying        : perl-File-Temp-0.230.600-1.el8.noarch                37/55 
-#10 8.926   Verifying        : perl-constant-1.33-396.el8.noarch                    38/55 
-#10 8.926   Verifying        : perl-Term-Cap-1.17-395.el8.noarch                    39/55 
-#10 8.926   Verifying        : perl-MIME-Base64-3.15-396.el8.x86_64                 40/55 
-#10 8.926   Verifying        : perl-Pod-Usage-4:1.69-395.el8.noarch                 41/55 
-#10 8.926   Verifying        : perl-Error-1:0.17025-2.el8.noarch                    42/55 
-#10 8.926   Verifying        : perl-Digest-1.17-395.el8.noarch                      43/55 
-#10 8.926   Verifying        : perl-TermReadKey-2.37-7.el8.x86_64                   44/55 
-#10 8.926   Verifying        : perl-IO-Socket-SSL-2.066-4.module+el8.3.0+6446+594   45/55 
-#10 8.926   Verifying        : perl-Mozilla-CA-20160104-7.module+el8.3.0+6498+9ee   46/55 
-#10 8.926   Verifying        : perl-IO-Socket-IP-0.39-5.el8.noarch                  47/55 
-#10 8.926   Verifying        : perl-Digest-MD5-2.55-396.el8.x86_64                  48/55 
-#10 8.926   Verifying        : perl-URI-1.73-3.el8.noarch                           49/55 
-#10 8.926   Verifying        : perl-Net-SSLeay-1.88-2.module+el8.6.0+13392+f0897f   50/55 
-#10 8.926   Verifying        : perl-libnet-3.11-3.el8.noarch                        51/55 
-#10 8.926   Verifying        : git-core-doc-2.39.3-1.el8_8.noarch                   52/55 
-#10 8.926   Verifying        : perl-Git-2.39.3-1.el8_8.noarch                       53/55 
-#10 8.926   Verifying        : git-2.39.3-1.el8_8.x86_64                            54/55 
-#10 8.927   Verifying        : git-core-2.39.3-1.el8_8.x86_64                       55/55 
-#10 9.034 Installed products updated.
-#10 9.148 
-#10 9.148 Installed:
-#10 9.148   emacs-filesystem-1:26.1-10.el8_8.2.noarch                                     
-#10 9.148   git-2.39.3-1.el8_8.x86_64                                                     
-#10 9.148   git-core-2.39.3-1.el8_8.x86_64                                                
-#10 9.148   git-core-doc-2.39.3-1.el8_8.noarch                                            
-#10 9.148   groff-base-1.22.3-18.el8.x86_64                                               
-#10 9.148   less-530-1.el8.x86_64                                                         
-#10 9.148   libedit-3.1-23.20170329cvs.el8.x86_64                                         
-#10 9.148   ncurses-6.1-9.20180224.el8.x86_64                                             
-#10 9.148   openssh-8.0p1-19.el8_8.x86_64                                                 
-#10 9.148   openssh-clients-8.0p1-19.el8_8.x86_64                                         
-#10 9.148   openssl-1:1.1.1k-9.el8_7.x86_64                                               
-#10 9.148   perl-Carp-1.42-396.el8.noarch                                                 
-#10 9.148   perl-Data-Dumper-2.167-399.el8.x86_64                                         
-#10 9.148   perl-Digest-1.17-395.el8.noarch                                               
-#10 9.148   perl-Digest-MD5-2.55-396.el8.x86_64                                           
-#10 9.148   perl-Encode-4:2.97-3.el8.x86_64                                               
-#10 9.148   perl-Errno-1.28-422.el8.x86_64                                                
-#10 9.148   perl-Error-1:0.17025-2.el8.noarch                                             
-#10 9.148   perl-Exporter-5.72-396.el8.noarch                                             
-#10 9.148   perl-File-Path-2.15-2.el8.noarch                                              
-#10 9.148   perl-File-Temp-0.230.600-1.el8.noarch                                         
-#10 9.148   perl-Getopt-Long-1:2.50-4.el8.noarch                                          
-#10 9.148   perl-Git-2.39.3-1.el8_8.noarch                                                
-#10 9.148   perl-HTTP-Tiny-0.074-1.el8.noarch                                             
-#10 9.148   perl-IO-1.38-422.el8.x86_64                                                   
-#10 9.148   perl-IO-Socket-IP-0.39-5.el8.noarch                                           
-#10 9.148   perl-IO-Socket-SSL-2.066-4.module+el8.3.0+6446+594cad75.noarch                
-#10 9.148   perl-MIME-Base64-3.15-396.el8.x86_64                                          
-#10 9.148   perl-Mozilla-CA-20160104-7.module+el8.3.0+6498+9eecfe51.noarch                
-#10 9.148   perl-Net-SSLeay-1.88-2.module+el8.6.0+13392+f0897f98.x86_64                   
-#10 9.148   perl-PathTools-3.74-1.el8.x86_64                                              
-#10 9.148   perl-Pod-Escapes-1:1.07-395.el8.noarch                                        
-#10 9.148   perl-Pod-Perldoc-3.28-396.el8.noarch                                          
-#10 9.148   perl-Pod-Simple-1:3.35-395.el8.noarch                                         
-#10 9.148   perl-Pod-Usage-4:1.69-395.el8.noarch                                          
-#10 9.148   perl-Scalar-List-Utils-3:1.49-2.el8.x86_64                                    
-#10 9.148   perl-Socket-4:2.027-3.el8.x86_64                                              
-#10 9.148   perl-Storable-1:3.11-3.el8.x86_64                                             
-#10 9.148   perl-Term-ANSIColor-4.06-396.el8.noarch                                       
-#10 9.148   perl-Term-Cap-1.17-395.el8.noarch                                             
-#10 9.148   perl-TermReadKey-2.37-7.el8.x86_64                                            
-#10 9.148   perl-Text-ParseWords-3.30-395.el8.noarch                                      
-#10 9.148   perl-Text-Tabs+Wrap-2013.0523-395.el8.noarch                                  
-#10 9.148   perl-Time-Local-1:1.280-1.el8.noarch                                          
-#10 9.148   perl-URI-1.73-3.el8.noarch                                                    
-#10 9.148   perl-Unicode-Normalize-1.25-396.el8.x86_64                                    
-#10 9.148   perl-constant-1.33-396.el8.noarch                                             
-#10 9.148   perl-interpreter-4:5.26.3-422.el8.x86_64                                      
-#10 9.148   perl-libnet-3.11-3.el8.noarch                                                 
-#10 9.148   perl-libs-4:5.26.3-422.el8.x86_64                                             
-#10 9.148   perl-macros-4:5.26.3-422.el8.x86_64                                           
-#10 9.148   perl-parent-1:0.237-1.el8.noarch                                              
-#10 9.148   perl-podlators-4.11-1.el8.noarch                                              
-#10 9.148   perl-threads-1:2.21-2.el8.x86_64                                              
-#10 9.148   perl-threads-shared-1.58-2.el8.x86_64                                         
-#10 9.148 
-#10 9.148 Complete!
-#10 DONE 9.7s
+#10 sha256:2dd853743061f9672fde702b12f13d3b930e2bad57a0e24e879e82203fb4d830
+#10 0.811 Updating Subscription Management repositories.
+#10 0.811 Unable to read consumer identity
+#10 0.811 Subscription Manager is operating in container mode.
+#10 0.815 
+#10 0.815 This system is not registered with an entitlement server. You can use subscription-manager to register.
+#10 0.815 
+#10 1.223 Red Hat Universal Base Image 8 (RPMs) - BaseOS  2.3 MB/s | 844 kB     00:00    
+#10 1.778 Red Hat Universal Base Image 8 (RPMs) - AppStre 8.2 MB/s | 3.4 MB     00:00    
+#10 2.587 Red Hat Universal Base Image 8 (RPMs) - CodeRea 456 kB/s | 107 kB     00:00    
+#10 2.903 Dependencies resolved.
+#10 2.911 =====================================================================================================
+#10 2.911  Package                  Arch    Version                                 Repository             Size
+#10 2.911 =====================================================================================================
+#10 2.911 Installing:
+#10 2.911  git                      x86_64  2.39.3-1.el8_8                          ubi-8-appstream-rpms  104 k
+#10 2.911 Installing dependencies:
+#10 2.911  emacs-filesystem         noarch  1:26.1-10.el8_8.2                       ubi-8-baseos-rpms      70 k
+#10 2.911  git-core                 x86_64  2.39.3-1.el8_8                          ubi-8-appstream-rpms   11 M
+#10 2.911  git-core-doc             noarch  2.39.3-1.el8_8                          ubi-8-appstream-rpms  3.0 M
+#10 2.911  groff-base               x86_64  1.22.3-18.el8                           ubi-8-baseos-rpms     1.0 M
+#10 2.911  less                     x86_64  530-1.el8                               ubi-8-baseos-rpms     164 k
+#10 2.911  libedit                  x86_64  3.1-23.20170329cvs.el8                  ubi-8-baseos-rpms     102 k
+#10 2.911  ncurses                  x86_64  6.1-9.20180224.el8                      ubi-8-baseos-rpms     387 k
+#10 2.911  openssh                  x86_64  8.0p1-19.el8_8                          ubi-8-baseos-rpms     524 k
+#10 2.911  openssh-clients          x86_64  8.0p1-19.el8_8                          ubi-8-baseos-rpms     669 k
+#10 2.911  openssl                  x86_64  1:1.1.1k-9.el8_7                        ubi-8-baseos-rpms     710 k
+#10 2.911  perl-Carp                noarch  1.42-396.el8                            ubi-8-baseos-rpms      30 k
+#10 2.911  perl-Data-Dumper         x86_64  2.167-399.el8                           ubi-8-baseos-rpms      58 k
+#10 2.911  perl-Digest              noarch  1.17-395.el8                            ubi-8-appstream-rpms   27 k
+#10 2.911  perl-Digest-MD5          x86_64  2.55-396.el8                            ubi-8-appstream-rpms   37 k
+#10 2.911  perl-Encode              x86_64  4:2.97-3.el8                            ubi-8-baseos-rpms     1.5 M
+#10 2.911  perl-Errno               x86_64  1.28-422.el8                            ubi-8-baseos-rpms      77 k
+#10 2.911  perl-Error               noarch  1:0.17025-2.el8                         ubi-8-appstream-rpms   46 k
+#10 2.911  perl-Exporter            noarch  5.72-396.el8                            ubi-8-baseos-rpms      34 k
+#10 2.911  perl-File-Path           noarch  2.15-2.el8                              ubi-8-baseos-rpms      38 k
+#10 2.911  perl-File-Temp           noarch  0.230.600-1.el8                         ubi-8-baseos-rpms      63 k
+#10 2.911  perl-Getopt-Long         noarch  1:2.50-4.el8                            ubi-8-baseos-rpms      63 k
+#10 2.911  perl-Git                 noarch  2.39.3-1.el8_8                          ubi-8-appstream-rpms   79 k
+#10 2.911  perl-HTTP-Tiny           noarch  0.074-1.el8                             ubi-8-baseos-rpms      58 k
+#10 2.911  perl-IO                  x86_64  1.38-422.el8                            ubi-8-baseos-rpms     142 k
+#10 2.911  perl-MIME-Base64         x86_64  3.15-396.el8                            ubi-8-baseos-rpms      31 k
+#10 2.911  perl-Net-SSLeay          x86_64  1.88-2.module+el8.6.0+13392+f0897f98    ubi-8-appstream-rpms  379 k
+#10 2.911  perl-PathTools           x86_64  3.74-1.el8                              ubi-8-baseos-rpms      90 k
+#10 2.911  perl-Pod-Escapes         noarch  1:1.07-395.el8                          ubi-8-baseos-rpms      20 k
+#10 2.911  perl-Pod-Perldoc         noarch  3.28-396.el8                            ubi-8-baseos-rpms      88 k
+#10 2.911  perl-Pod-Simple          noarch  1:3.35-395.el8                          ubi-8-baseos-rpms     213 k
+#10 2.911  perl-Pod-Usage           noarch  4:1.69-395.el8                          ubi-8-baseos-rpms      34 k
+#10 2.911  perl-Scalar-List-Utils   x86_64  3:1.49-2.el8                            ubi-8-baseos-rpms      68 k
+#10 2.911  perl-Socket              x86_64  4:2.027-3.el8                           ubi-8-baseos-rpms      59 k
+#10 2.911  perl-Storable            x86_64  1:3.11-3.el8                            ubi-8-baseos-rpms      98 k
+#10 2.911  perl-Term-ANSIColor      noarch  4.06-396.el8                            ubi-8-baseos-rpms      46 k
+#10 2.911  perl-Term-Cap            noarch  1.17-395.el8                            ubi-8-baseos-rpms      23 k
+#10 2.911  perl-TermReadKey         x86_64  2.37-7.el8                              ubi-8-appstream-rpms   40 k
+#10 2.911  perl-Text-ParseWords     noarch  3.30-395.el8                            ubi-8-baseos-rpms      18 k
+#10 2.911  perl-Text-Tabs+Wrap      noarch  2013.0523-395.el8                       ubi-8-baseos-rpms      24 k
+#10 2.911  perl-Time-Local          noarch  1:1.280-1.el8                           ubi-8-baseos-rpms      34 k
+#10 2.911  perl-URI                 noarch  1.73-3.el8                              ubi-8-appstream-rpms  116 k
+#10 2.911  perl-Unicode-Normalize   x86_64  1.25-396.el8                            ubi-8-baseos-rpms      82 k
+#10 2.911  perl-constant            noarch  1.33-396.el8                            ubi-8-baseos-rpms      25 k
+#10 2.911  perl-interpreter         x86_64  4:5.26.3-422.el8                        ubi-8-baseos-rpms     6.3 M
+#10 2.911  perl-libnet              noarch  3.11-3.el8                              ubi-8-appstream-rpms  121 k
+#10 2.911  perl-libs                x86_64  4:5.26.3-422.el8                        ubi-8-baseos-rpms     1.6 M
+#10 2.911  perl-macros              x86_64  4:5.26.3-422.el8                        ubi-8-baseos-rpms      73 k
+#10 2.911  perl-parent              noarch  1:0.237-1.el8                           ubi-8-baseos-rpms      20 k
+#10 2.911  perl-podlators           noarch  4.11-1.el8                              ubi-8-baseos-rpms     118 k
+#10 2.911  perl-threads             x86_64  1:2.21-2.el8                            ubi-8-baseos-rpms      61 k
+#10 2.911  perl-threads-shared      x86_64  1.58-2.el8                              ubi-8-baseos-rpms      48 k
+#10 2.911 Installing weak dependencies:
+#10 2.911  perl-IO-Socket-IP        noarch  0.39-5.el8                              ubi-8-appstream-rpms   47 k
+#10 2.911  perl-IO-Socket-SSL       noarch  2.066-4.module+el8.3.0+6446+594cad75    ubi-8-appstream-rpms  298 k
+#10 2.911  perl-Mozilla-CA          noarch  20160104-7.module+el8.3.0+6498+9eecfe51 ubi-8-appstream-rpms   15 k
+#10 2.911 Enabling module streams:
+#10 2.911  perl                             5.26                                                               
+#10 2.911  perl-IO-Socket-SSL               2.066                                                              
+#10 2.911  perl-libwww-perl                 6.34                                                               
+#10 2.911 
+#10 2.911 Transaction Summary
+#10 2.911 =====================================================================================================
+#10 2.911 Install  55 Packages
+#10 2.911 
+#10 2.914 Total download size: 30 M
+#10 2.914 Installed size: 90 M
+#10 2.915 Downloading Packages:
+#10 3.072 (1/55): perl-Scalar-List-Utils-1.49-2.el8.x86_6 448 kB/s |  68 kB     00:00    
+#10 3.104 (2/55): less-530-1.el8.x86_64.rpm               897 kB/s | 164 kB     00:00    
+#10 3.123 (3/55): openssh-8.0p1-19.el8_8.x86_64.rpm       2.5 MB/s | 524 kB     00:00    
+#10 3.142 (4/55): perl-threads-2.21-2.el8.x86_64.rpm      1.6 MB/s |  61 kB     00:00    
+#10 3.156 (5/55): perl-PathTools-3.74-1.el8.x86_64.rpm    1.1 MB/s |  90 kB     00:00    
+#10 3.161 (6/55): perl-Pod-Simple-3.35-395.el8.noarch.rpm 5.6 MB/s | 213 kB     00:00    
+#10 3.177 (7/55): perl-Term-ANSIColor-4.06-396.el8.noarch 1.3 MB/s |  46 kB     00:00    
+#10 3.192 (8/55): libedit-3.1-23.20170329cvs.el8.x86_64.r 3.3 MB/s | 102 kB     00:00    
+#10 3.194 (9/55): perl-Data-Dumper-2.167-399.el8.x86_64.r 1.5 MB/s |  58 kB     00:00    
+#10 3.221 (10/55): perl-IO-1.38-422.el8.x86_64.rpm        3.1 MB/s | 142 kB     00:00    
+#10 3.300 (11/55): perl-HTTP-Tiny-0.074-1.el8.noarch.rpm  553 kB/s |  58 kB     00:00    
+#10 3.303 (12/55): perl-threads-shared-1.58-2.el8.x86_64. 430 kB/s |  48 kB     00:00    
+#10 3.308 (13/55): perl-Pod-Escapes-1.07-395.el8.noarch.r 237 kB/s |  20 kB     00:00    
+#10 3.341 (14/55): perl-Pod-Perldoc-3.28-396.el8.noarch.r 2.2 MB/s |  88 kB     00:00    
+#10 3.350 (15/55): perl-Socket-2.027-3.el8.x86_64.rpm     1.5 MB/s |  59 kB     00:00    
+#10 3.374 (16/55): perl-File-Path-2.15-2.el8.noarch.rpm   1.1 MB/s |  38 kB     00:00    
+#10 3.377 (17/55): perl-parent-0.237-1.el8.noarch.rpm     664 kB/s |  20 kB     00:00    
+#10 3.387 (18/55): perl-Encode-2.97-3.el8.x86_64.rpm       17 MB/s | 1.5 MB     00:00    
+#10 3.416 (19/55): perl-Text-Tabs+Wrap-2013.0523-395.el8. 869 kB/s |  24 kB     00:00    
+#10 3.464 (20/55): groff-base-1.22.3-18.el8.x86_64.rpm     21 MB/s | 1.0 MB     00:00    
+#10 3.509 (21/55): emacs-filesystem-26.1-10.el8_8.2.noarc 2.1 MB/s |  70 kB     00:00    
+#10 3.521 (22/55): perl-libs-5.26.3-422.el8.x86_64.rpm     11 MB/s | 1.6 MB     00:00    
+#10 3.552 (23/55): perl-macros-5.26.3-422.el8.x86_64.rpm  2.3 MB/s |  73 kB     00:00    
+#10 3.555 (24/55): perl-Getopt-Long-2.50-4.el8.noarch.rpm 1.3 MB/s |  63 kB     00:00    
+#10 3.601 (25/55): perl-interpreter-5.26.3-422.el8.x86_64  28 MB/s | 6.3 MB     00:00    
+#10 3.610 (26/55): perl-Time-Local-1.280-1.el8.noarch.rpm 618 kB/s |  34 kB     00:00    
+#10 3.613 (27/55): perl-podlators-4.11-1.el8.noarch.rpm   1.9 MB/s | 118 kB     00:00    
+#10 3.631 (28/55): perl-Carp-1.42-396.el8.noarch.rpm      1.0 MB/s |  30 kB     00:00    
+#10 3.637 (29/55): perl-Exporter-5.72-396.el8.noarch.rpm  1.2 MB/s |  34 kB     00:00    
+#10 3.646 (30/55): perl-Storable-3.11-3.el8.x86_64.rpm    3.0 MB/s |  98 kB     00:00    
+#10 3.660 (31/55): perl-Text-ParseWords-3.30-395.el8.noar 623 kB/s |  18 kB     00:00    
+#10 3.666 (32/55): perl-Unicode-Normalize-1.25-396.el8.x8 2.8 MB/s |  82 kB     00:00    
+#10 3.683 (33/55): ncurses-6.1-9.20180224.el8.x86_64.rpm   10 MB/s | 387 kB     00:00    
+#10 3.698 (34/55): openssl-1.1.1k-9.el8_7.x86_64.rpm       19 MB/s | 710 kB     00:00    
+#10 3.707 (35/55): perl-Errno-1.28-422.el8.x86_64.rpm     1.8 MB/s |  77 kB     00:00    
+#10 3.730 (36/55): openssh-clients-8.0p1-19.el8_8.x86_64.  14 MB/s | 669 kB     00:00    
+#10 3.733 (37/55): perl-File-Temp-0.230.600-1.el8.noarch. 1.8 MB/s |  63 kB     00:00    
+#10 3.735 (38/55): perl-constant-1.33-396.el8.noarch.rpm  927 kB/s |  25 kB     00:00    
+#10 3.759 (39/55): perl-Term-Cap-1.17-395.el8.noarch.rpm  779 kB/s |  23 kB     00:00    
+#10 3.762 (40/55): perl-MIME-Base64-3.15-396.el8.x86_64.r 1.0 MB/s |  31 kB     00:00    
+#10 3.765 (41/55): perl-Pod-Usage-1.69-395.el8.noarch.rpm 1.1 MB/s |  34 kB     00:00    
+#10 3.789 (42/55): perl-Error-0.17025-2.el8.noarch.rpm    1.5 MB/s |  46 kB     00:00    
+#10 3.792 (43/55): perl-Digest-1.17-395.el8.noarch.rpm    925 kB/s |  27 kB     00:00    
+#10 3.794 (44/55): perl-TermReadKey-2.37-7.el8.x86_64.rpm 1.3 MB/s |  40 kB     00:00    
+#10 3.826 (45/55): perl-IO-Socket-SSL-2.066-4.module+el8. 8.0 MB/s | 298 kB     00:00    
+#10 3.838 (46/55): perl-Mozilla-CA-20160104-7.module+el8. 351 kB/s |  15 kB     00:00    
+#10 3.840 (47/55): perl-IO-Socket-IP-0.39-5.el8.noarch.rp 1.0 MB/s |  47 kB     00:00    
+#10 3.858 (48/55): perl-Digest-MD5-2.55-396.el8.x86_64.rp 1.2 MB/s |  37 kB     00:00    
+#10 3.873 (49/55): perl-URI-1.73-3.el8.noarch.rpm         3.1 MB/s | 116 kB     00:00    
+#10 3.880 (50/55): perl-Net-SSLeay-1.88-2.module+el8.6.0+ 9.2 MB/s | 379 kB     00:00    
+#10 3.894 (51/55): perl-libnet-3.11-3.el8.noarch.rpm      3.3 MB/s | 121 kB     00:00    
+#10 3.918 (52/55): perl-Git-2.39.3-1.el8_8.noarch.rpm     2.0 MB/s |  79 kB     00:00    
+#10 3.925 (53/55): git-2.39.3-1.el8_8.x86_64.rpm          3.3 MB/s | 104 kB     00:00    
+#10 3.942 (54/55): git-core-doc-2.39.3-1.el8_8.noarch.rpm  44 MB/s | 3.0 MB     00:00    
+#10 4.120 (55/55): git-core-2.39.3-1.el8_8.x86_64.rpm      53 MB/s |  11 MB     00:00    
+#10 4.123 --------------------------------------------------------------------------------
+#10 4.124 Total                                            25 MB/s |  30 MB     00:01     
+#10 4.714 Running transaction check
+#10 4.749 Transaction check succeeded.
+#10 4.750 Running transaction test
+#10 5.028 Transaction test succeeded.
+#10 5.031 Running transaction
+#10 5.560   Preparing        :                                                        1/1 
+#10 5.654   Installing       : openssl-1:1.1.1k-9.el8_7.x86_64                       1/55 
+#10 5.691   Installing       : ncurses-6.1-9.20180224.el8.x86_64                     2/55 
+#10 5.705   Installing       : emacs-filesystem-1:26.1-10.el8_8.2.noarch             3/55 
+#10 5.830   Installing       : groff-base-1.22.3-18.el8.x86_64                       4/55 
+#10 5.850   Installing       : perl-Digest-1.17-395.el8.noarch                       5/55 
+#10 5.862   Installing       : perl-Digest-MD5-2.55-396.el8.x86_64                   6/55 
+#10 5.877   Installing       : perl-Data-Dumper-2.167-399.el8.x86_64                 7/55 
+#10 5.900   Installing       : perl-libnet-3.11-3.el8.noarch                         8/55 
+#10 5.950   Installing       : perl-Net-SSLeay-1.88-2.module+el8.6.0+13392+f0897f    9/55 
+#10 5.983   Installing       : perl-URI-1.73-3.el8.noarch                           10/55 
+#10 5.998   Installing       : perl-Pod-Escapes-1:1.07-395.el8.noarch               11/55 
+#10 6.009   Installing       : perl-Time-Local-1:1.280-1.el8.noarch                 12/55 
+#10 6.018   Installing       : perl-Mozilla-CA-20160104-7.module+el8.3.0+6498+9ee   13/55 
+#10 6.030   Installing       : perl-IO-Socket-IP-0.39-5.el8.noarch                  14/55 
+#10 6.063   Installing       : perl-IO-Socket-SSL-2.066-4.module+el8.3.0+6446+594   15/55 
+#10 6.079   Installing       : perl-Term-ANSIColor-4.06-396.el8.noarch              16/55 
+#10 6.111   Installing       : perl-Pod-Simple-1:3.35-395.el8.noarch                17/55 
+#10 6.130   Installing       : perl-File-Temp-0.230.600-1.el8.noarch                18/55 
+#10 6.141   Installing       : perl-Term-Cap-1.17-395.el8.noarch                    19/55 
+#10 6.155   Installing       : perl-HTTP-Tiny-0.074-1.el8.noarch                    20/55 
+#10 6.177   Installing       : perl-podlators-4.11-1.el8.noarch                     21/55 
+#10 6.201   Installing       : perl-Pod-Perldoc-3.28-396.el8.noarch                 22/55 
+#10 6.212   Installing       : perl-Text-ParseWords-3.30-395.el8.noarch             23/55 
+#10 6.223   Installing       : perl-Pod-Usage-4:1.69-395.el8.noarch                 24/55 
+#10 6.240   Installing       : perl-Storable-1:3.11-3.el8.x86_64                    25/55 
+#10 6.252   Installing       : perl-MIME-Base64-3.15-396.el8.x86_64                 26/55 
+#10 6.266   Installing       : perl-Getopt-Long-1:2.50-4.el8.noarch                 27/55 
+#10 6.279   Installing       : perl-Socket-4:2.027-3.el8.x86_64                     28/55 
+#10 6.290   Installing       : perl-Errno-1.28-422.el8.x86_64                       29/55 
+#10 6.503   Installing       : perl-Encode-4:2.97-3.el8.x86_64                      30/55 
+#10 6.516   Installing       : perl-parent-1:0.237-1.el8.noarch                     31/55 
+#10 6.524   Installing       : perl-macros-4:5.26.3-422.el8.x86_64                  32/55 
+#10 6.533   Installing       : perl-Carp-1.42-396.el8.noarch                        33/55 
+#10 6.546   Installing       : perl-Exporter-5.72-396.el8.noarch                    34/55 
+#10 6.736   Installing       : perl-libs-4:5.26.3-422.el8.x86_64                    35/55 
+#10 6.757   Installing       : perl-Scalar-List-Utils-3:1.49-2.el8.x86_64           36/55 
+#10 6.771   Installing       : perl-threads-shared-1.58-2.el8.x86_64                37/55 
+#10 6.785   Installing       : perl-threads-1:2.21-2.el8.x86_64                     38/55 
+#10 6.800   Installing       : perl-Text-Tabs+Wrap-2013.0523-395.el8.noarch         39/55 
+#10 6.820   Installing       : perl-Unicode-Normalize-1.25-396.el8.x86_64           40/55 
+#10 6.831   Installing       : perl-File-Path-2.15-2.el8.noarch                     41/55 
+#10 6.848   Installing       : perl-PathTools-3.74-1.el8.x86_64                     42/55 
+#10 6.866   Installing       : perl-IO-1.38-422.el8.x86_64                          43/55 
+#10 6.878   Installing       : perl-constant-1.33-396.el8.noarch                    44/55 
+#10 7.418   Installing       : perl-interpreter-4:5.26.3-422.el8.x86_64             45/55 
+#10 7.443   Installing       : perl-Error-1:0.17025-2.el8.noarch                    46/55 
+#10 7.455   Installing       : perl-TermReadKey-2.37-7.el8.x86_64                   47/55 
+#10 7.473   Installing       : libedit-3.1-23.20170329cvs.el8.x86_64                48/55 
+#10 7.482   Running scriptlet: openssh-8.0p1-19.el8_8.x86_64                        49/55 
+#10 7.557   Installing       : openssh-8.0p1-19.el8_8.x86_64                        49/55 
+#10 7.632   Installing       : openssh-clients-8.0p1-19.el8_8.x86_64                50/55 
+#10 7.657   Installing       : less-530-1.el8.x86_64                                51/55 
+#10 8.631   Installing       : git-core-2.39.3-1.el8_8.x86_64                       52/55 
+#10 9.025   Installing       : git-core-doc-2.39.3-1.el8_8.noarch                   53/55 
+#10 9.048   Installing       : perl-Git-2.39.3-1.el8_8.noarch                       54/55 
+#10 9.064   Installing       : git-2.39.3-1.el8_8.x86_64                            55/55 
+#10 9.077   Running scriptlet: git-2.39.3-1.el8_8.x86_64                            55/55 
+#10 9.147   Verifying        : perl-Scalar-List-Utils-3:1.49-2.el8.x86_64            1/55 
+#10 9.147   Verifying        : less-530-1.el8.x86_64                                 2/55 
+#10 9.147   Verifying        : openssh-8.0p1-19.el8_8.x86_64                         3/55 
+#10 9.147   Verifying        : perl-PathTools-3.74-1.el8.x86_64                      4/55 
+#10 9.153   Verifying        : perl-threads-1:2.21-2.el8.x86_64                      5/55 
+#10 9.153   Verifying        : perl-Pod-Simple-1:3.35-395.el8.noarch                 6/55 
+#10 9.153   Verifying        : perl-Term-ANSIColor-4.06-396.el8.noarch               7/55 
+#10 9.153   Verifying        : perl-Data-Dumper-2.167-399.el8.x86_64                 8/55 
+#10 9.153   Verifying        : libedit-3.1-23.20170329cvs.el8.x86_64                 9/55 
+#10 9.153   Verifying        : perl-IO-1.38-422.el8.x86_64                          10/55 
+#10 9.153   Verifying        : perl-threads-shared-1.58-2.el8.x86_64                11/55 
+#10 9.153   Verifying        : perl-HTTP-Tiny-0.074-1.el8.noarch                    12/55 
+#10 9.153   Verifying        : perl-Pod-Escapes-1:1.07-395.el8.noarch               13/55 
+#10 9.153   Verifying        : perl-Pod-Perldoc-3.28-396.el8.noarch                 14/55 
+#10 9.153   Verifying        : perl-Encode-4:2.97-3.el8.x86_64                      15/55 
+#10 9.153   Verifying        : perl-Socket-4:2.027-3.el8.x86_64                     16/55 
+#10 9.153   Verifying        : perl-File-Path-2.15-2.el8.noarch                     17/55 
+#10 9.153   Verifying        : perl-parent-1:0.237-1.el8.noarch                     18/55 
+#10 9.153   Verifying        : perl-interpreter-4:5.26.3-422.el8.x86_64             19/55 
+#10 9.153   Verifying        : perl-libs-4:5.26.3-422.el8.x86_64                    20/55 
+#10 9.153   Verifying        : perl-Text-Tabs+Wrap-2013.0523-395.el8.noarch         21/55 
+#10 9.153   Verifying        : groff-base-1.22.3-18.el8.x86_64                      22/55 
+#10 9.153   Verifying        : emacs-filesystem-1:26.1-10.el8_8.2.noarch            23/55 
+#10 9.153   Verifying        : perl-Getopt-Long-1:2.50-4.el8.noarch                 24/55 
+#10 9.153   Verifying        : perl-macros-4:5.26.3-422.el8.x86_64                  25/55 
+#10 9.153   Verifying        : perl-podlators-4.11-1.el8.noarch                     26/55 
+#10 9.153   Verifying        : perl-Time-Local-1:1.280-1.el8.noarch                 27/55 
+#10 9.153   Verifying        : perl-Carp-1.42-396.el8.noarch                        28/55 
+#10 9.153   Verifying        : perl-Exporter-5.72-396.el8.noarch                    29/55 
+#10 9.153   Verifying        : perl-Storable-1:3.11-3.el8.x86_64                    30/55 
+#10 9.153   Verifying        : perl-Text-ParseWords-3.30-395.el8.noarch             31/55 
+#10 9.153   Verifying        : perl-Unicode-Normalize-1.25-396.el8.x86_64           32/55 
+#10 9.153   Verifying        : ncurses-6.1-9.20180224.el8.x86_64                    33/55 
+#10 9.153   Verifying        : openssl-1:1.1.1k-9.el8_7.x86_64                      34/55 
+#10 9.153   Verifying        : perl-Errno-1.28-422.el8.x86_64                       35/55 
+#10 9.153   Verifying        : openssh-clients-8.0p1-19.el8_8.x86_64                36/55 
+#10 9.153   Verifying        : perl-File-Temp-0.230.600-1.el8.noarch                37/55 
+#10 9.153   Verifying        : perl-constant-1.33-396.el8.noarch                    38/55 
+#10 9.153   Verifying        : perl-Term-Cap-1.17-395.el8.noarch                    39/55 
+#10 9.153   Verifying        : perl-MIME-Base64-3.15-396.el8.x86_64                 40/55 
+#10 9.153   Verifying        : perl-Pod-Usage-4:1.69-395.el8.noarch                 41/55 
+#10 9.153   Verifying        : perl-Error-1:0.17025-2.el8.noarch                    42/55 
+#10 9.153   Verifying        : perl-Digest-1.17-395.el8.noarch                      43/55 
+#10 9.153   Verifying        : perl-TermReadKey-2.37-7.el8.x86_64                   44/55 
+#10 9.153   Verifying        : perl-IO-Socket-SSL-2.066-4.module+el8.3.0+6446+594   45/55 
+#10 9.153   Verifying        : perl-Mozilla-CA-20160104-7.module+el8.3.0+6498+9ee   46/55 
+#10 9.153   Verifying        : perl-IO-Socket-IP-0.39-5.el8.noarch                  47/55 
+#10 9.153   Verifying        : perl-Digest-MD5-2.55-396.el8.x86_64                  48/55 
+#10 9.153   Verifying        : perl-URI-1.73-3.el8.noarch                           49/55 
+#10 9.153   Verifying        : perl-Net-SSLeay-1.88-2.module+el8.6.0+13392+f0897f   50/55 
+#10 9.153   Verifying        : perl-libnet-3.11-3.el8.noarch                        51/55 
+#10 9.153   Verifying        : git-core-doc-2.39.3-1.el8_8.noarch                   52/55 
+#10 9.153   Verifying        : perl-Git-2.39.3-1.el8_8.noarch                       53/55 
+#10 9.153   Verifying        : git-2.39.3-1.el8_8.x86_64                            54/55 
+#10 9.153   Verifying        : git-core-2.39.3-1.el8_8.x86_64                       55/55 
+#10 9.272 Installed products updated.
+#10 9.414 
+#10 9.414 Installed:
+#10 9.414   emacs-filesystem-1:26.1-10.el8_8.2.noarch                                     
+#10 9.414   git-2.39.3-1.el8_8.x86_64                                                     
+#10 9.414   git-core-2.39.3-1.el8_8.x86_64                                                
+#10 9.414   git-core-doc-2.39.3-1.el8_8.noarch                                            
+#10 9.414   groff-base-1.22.3-18.el8.x86_64                                               
+#10 9.414   less-530-1.el8.x86_64                                                         
+#10 9.414   libedit-3.1-23.20170329cvs.el8.x86_64                                         
+#10 9.414   ncurses-6.1-9.20180224.el8.x86_64                                             
+#10 9.414   openssh-8.0p1-19.el8_8.x86_64                                                 
+#10 9.414   openssh-clients-8.0p1-19.el8_8.x86_64                                         
+#10 9.414   openssl-1:1.1.1k-9.el8_7.x86_64                                               
+#10 9.414   perl-Carp-1.42-396.el8.noarch                                                 
+#10 9.414   perl-Data-Dumper-2.167-399.el8.x86_64                                         
+#10 9.414   perl-Digest-1.17-395.el8.noarch                                               
+#10 9.414   perl-Digest-MD5-2.55-396.el8.x86_64                                           
+#10 9.414   perl-Encode-4:2.97-3.el8.x86_64                                               
+#10 9.414   perl-Errno-1.28-422.el8.x86_64                                                
+#10 9.414   perl-Error-1:0.17025-2.el8.noarch                                             
+#10 9.414   perl-Exporter-5.72-396.el8.noarch                                             
+#10 9.414   perl-File-Path-2.15-2.el8.noarch                                              
+#10 9.414   perl-File-Temp-0.230.600-1.el8.noarch                                         
+#10 9.414   perl-Getopt-Long-1:2.50-4.el8.noarch                                          
+#10 9.414   perl-Git-2.39.3-1.el8_8.noarch                                                
+#10 9.414   perl-HTTP-Tiny-0.074-1.el8.noarch                                             
+#10 9.414   perl-IO-1.38-422.el8.x86_64                                                   
+#10 9.414   perl-IO-Socket-IP-0.39-5.el8.noarch                                           
+#10 9.414   perl-IO-Socket-SSL-2.066-4.module+el8.3.0+6446+594cad75.noarch                
+#10 9.414   perl-MIME-Base64-3.15-396.el8.x86_64                                          
+#10 9.414   perl-Mozilla-CA-20160104-7.module+el8.3.0+6498+9eecfe51.noarch                
+#10 9.414   perl-Net-SSLeay-1.88-2.module+el8.6.0+13392+f0897f98.x86_64                   
+#10 9.414   perl-PathTools-3.74-1.el8.x86_64                                              
+#10 9.414   perl-Pod-Escapes-1:1.07-395.el8.noarch                                        
+#10 9.414   perl-Pod-Perldoc-3.28-396.el8.noarch                                          
+#10 9.414   perl-Pod-Simple-1:3.35-395.el8.noarch                                         
+#10 9.414   perl-Pod-Usage-4:1.69-395.el8.noarch                                          
+#10 9.414   perl-Scalar-List-Utils-3:1.49-2.el8.x86_64                                    
+#10 9.414   perl-Socket-4:2.027-3.el8.x86_64                                              
+#10 9.414   perl-Storable-1:3.11-3.el8.x86_64                                             
+#10 9.414   perl-Term-ANSIColor-4.06-396.el8.noarch                                       
+#10 9.414   perl-Term-Cap-1.17-395.el8.noarch                                             
+#10 9.414   perl-TermReadKey-2.37-7.el8.x86_64                                            
+#10 9.414   perl-Text-ParseWords-3.30-395.el8.noarch                                      
+#10 9.414   perl-Text-Tabs+Wrap-2013.0523-395.el8.noarch                                  
+#10 9.414   perl-Time-Local-1:1.280-1.el8.noarch                                          
+#10 9.414   perl-URI-1.73-3.el8.noarch                                                    
+#10 9.414   perl-Unicode-Normalize-1.25-396.el8.x86_64                                    
+#10 9.414   perl-constant-1.33-396.el8.noarch                                             
+#10 9.414   perl-interpreter-4:5.26.3-422.el8.x86_64                                      
+#10 9.414   perl-libnet-3.11-3.el8.noarch                                                 
+#10 9.414   perl-libs-4:5.26.3-422.el8.x86_64                                             
+#10 9.414   perl-macros-4:5.26.3-422.el8.x86_64                                           
+#10 9.414   perl-parent-1:0.237-1.el8.noarch                                              
+#10 9.414   perl-podlators-4.11-1.el8.noarch                                              
+#10 9.414   perl-threads-1:2.21-2.el8.x86_64                                              
+#10 9.414   perl-threads-shared-1.58-2.el8.x86_64                                         
+#10 9.414 
+#10 9.414 Complete!
+#10 DONE 10.0s
 
 #11 [ 7/11] RUN git clone --single-branch --branch master https://github.com/noironetworks/acc-provision.git
-#11 sha256:9c5b035f7069b11a6cf3e3157630e40e2060af63bf1ed6f456bbe8dd505d8e5c
-#11 0.496 Cloning into 'acc-provision'...
-#11 DONE 6.2s
+#11 sha256:c90f3e32f0ea5a7bcc21ff8dbe8109f2a8d5a824daf279dbb6ddb18b84452a9a
+#11 0.509 Cloning into 'acc-provision'...
+#11 DONE 5.8s
 
 #12 [ 8/11] RUN cd acc-provision/provision && python3 setup.py install
-#12 sha256:de47aa2a1e8c01f855f3384c19808ca8952335b737e0585d47bc7640f5a8cfcb
-#12 0.567 running install
-#12 0.567 /usr/local/lib/python3.9/site-packages/setuptools/_distutils/cmd.py:66: SetuptoolsDeprecationWarning: setup.py install is deprecated.
-#12 0.567 !!
-#12 0.567 
-#12 0.567         ********************************************************************************
-#12 0.567         Please avoid running ``setup.py`` directly.
-#12 0.567         Instead, use pypa/build, pypa/installer or other
-#12 0.567         standards-based tools.
-#12 0.567 
-#12 0.567         See https://blog.ganssle.io/articles/2021/10/setup-py-deprecated.html for details.
-#12 0.567         ********************************************************************************
-#12 0.567 
-#12 0.567 !!
-#12 0.567   self.initialize_options()
-#12 0.637 /usr/local/lib/python3.9/site-packages/setuptools/_distutils/cmd.py:66: EasyInstallDeprecationWarning: easy_install command is deprecated.
-#12 0.637 !!
-#12 0.637 
-#12 0.637         ********************************************************************************
-#12 0.637         Please avoid running ``setup.py`` and ``easy_install``.
-#12 0.637         Instead, use pypa/build, pypa/installer or other
-#12 0.637         standards-based tools.
-#12 0.637 
-#12 0.637         See https://github.com/pypa/setuptools/issues/917 for details.
-#12 0.637         ********************************************************************************
-#12 0.637 
-#12 0.637 !!
-#12 0.637   self.initialize_options()
-#12 0.661 running bdist_egg
-#12 0.670 running egg_info
-#12 0.682 creating acc_provision.egg-info
-#12 0.687 writing acc_provision.egg-info/PKG-INFO
-#12 0.687 writing dependency_links to acc_provision.egg-info/dependency_links.txt
-#12 0.687 writing entry points to acc_provision.egg-info/entry_points.txt
-#12 0.687 writing requirements to acc_provision.egg-info/requires.txt
-#12 0.687 writing top-level names to acc_provision.egg-info/top_level.txt
-#12 0.687 writing manifest file 'acc_provision.egg-info/SOURCES.txt'
-#12 0.701 reading manifest file 'acc_provision.egg-info/SOURCES.txt'
-#12 0.702 reading manifest template 'MANIFEST.in'
-#12 0.705 writing manifest file 'acc_provision.egg-info/SOURCES.txt'
-#12 0.705 installing library code to build/bdist.linux-x86_64/egg
-#12 0.705 running install_lib
-#12 0.705 running build_py
-#12 0.706 creating build
-#12 0.706 creating build/lib
-#12 0.706 creating build/lib/acc_provision
-#12 0.706 copying acc_provision/cloud_provision.py -> build/lib/acc_provision
-#12 0.707 copying acc_provision/acc_provision.py -> build/lib/acc_provision
-#12 0.708 copying acc_provision/kafka_cert.py -> build/lib/acc_provision
-#12 0.708 copying acc_provision/fake_apic.py -> build/lib/acc_provision
-#12 0.708 copying acc_provision/apic_provision.py -> build/lib/acc_provision
-#12 0.709 copying acc_provision/acc_retrieve_cert.py -> build/lib/acc_provision
-#12 0.709 copying acc_provision/test_main.py -> build/lib/acc_provision
-#12 0.710 copying acc_provision/__init__.py -> build/lib/acc_provision
-#12 0.710 creating build/lib/gitversion
-#12 0.710 copying gitversion/gitversion.py -> build/lib/gitversion
-#12 0.711 copying gitversion/__init__.py -> build/lib/gitversion
-#12 0.711 creating build/lib/acc_provision/templates
-#12 0.711 copying acc_provision/templates/__init__.py -> build/lib/acc_provision/templates
-#12 0.713 copying acc_provision/RELEASE-VERSION -> build/lib/acc_provision
-#12 0.713 copying acc_provision/flavors.yaml -> build/lib/acc_provision
-#12 0.714 copying acc_provision/versions.yaml -> build/lib/acc_provision
-#12 0.714 copying acc_provision/templates/99-master-kubelet-node-ip.yaml -> build/lib/acc_provision/templates
-#12 0.714 copying acc_provision/templates/99-worker-kubelet-node-ip.yaml -> build/lib/acc_provision/templates
-#12 0.714 copying acc_provision/templates/99-worker-kubelet-node-port.yaml -> build/lib/acc_provision/templates
-#12 0.715 copying acc_provision/templates/acc-provision-configmap.yaml -> build/lib/acc_provision/templates
-#12 0.715 copying acc_provision/templates/acc-provision-crd.yaml -> build/lib/acc_provision/templates
-#12 0.715 copying acc_provision/templates/aci-containers.yaml -> build/lib/acc_provision/templates
-#12 0.715 copying acc_provision/templates/aci-network-provider-cluster-1-3-13.yaml -> build/lib/acc_provision/templates
-#12 0.716 copying acc_provision/templates/aci-network-provider-cluster-1-3-17.yaml -> build/lib/acc_provision/templates
-#12 0.716 copying acc_provision/templates/aci-network-provider-cluster-1-3-18.yaml -> build/lib/acc_provision/templates
-#12 0.716 copying acc_provision/templates/aci-network-provider-cluster-1-3-20.yaml -> build/lib/acc_provision/templates
-#12 0.716 copying acc_provision/templates/aci-network-provider-cluster-1-3-21.yaml -> build/lib/acc_provision/templates
-#12 0.716 copying acc_provision/templates/aci-network-provider-cluster-1-4-6.yaml -> build/lib/acc_provision/templates
-#12 0.718 copying acc_provision/templates/aci-network-provider-cluster.yaml -> build/lib/acc_provision/templates
-#12 0.718 copying acc_provision/templates/aci-operators-configmap.yaml -> build/lib/acc_provision/templates
-#12 0.718 copying acc_provision/templates/aci-operators-cr.yaml -> build/lib/acc_provision/templates
-#12 0.718 copying acc_provision/templates/aci-operators-crd.yaml -> build/lib/acc_provision/templates
-#12 0.718 copying acc_provision/templates/aci-operators.yaml -> build/lib/acc_provision/templates
-#12 0.718 copying acc_provision/templates/aks-provision-config.yaml -> build/lib/acc_provision/templates
-#12 0.719 copying acc_provision/templates/apic.json -> build/lib/acc_provision/templates
-#12 0.719 copying acc_provision/templates/calico-bgp-config.yaml -> build/lib/acc_provision/templates
-#12 0.719 copying acc_provision/templates/calico-bgp-peer.yaml -> build/lib/acc_provision/templates
-#12 0.719 copying acc_provision/templates/calico-node.yaml -> build/lib/acc_provision/templates
-#12 0.719 copying acc_provision/templates/calico-provision-config.yaml -> build/lib/acc_provision/templates
-#12 0.719 copying acc_provision/templates/calicoctl.yaml -> build/lib/acc_provision/templates
-#12 0.720 copying acc_provision/templates/cluster-network-03-config.yaml -> build/lib/acc_provision/templates
-#12 0.720 copying acc_provision/templates/custom-resources-aci-calico.yaml -> build/lib/acc_provision/templates
-#12 0.720 copying acc_provision/templates/dpu-containers.yaml -> build/lib/acc_provision/templates
-#12 0.720 copying acc_provision/templates/overlay-provision-config.yaml -> build/lib/acc_provision/templates
-#12 0.720 copying acc_provision/templates/provision-config.yaml -> build/lib/acc_provision/templates
-#12 0.721 copying acc_provision/templates/tigera-operator.yaml -> build/lib/acc_provision/templates
-#12 0.722 creating build/bdist.linux-x86_64
-#12 0.722 creating build/bdist.linux-x86_64/egg
-#12 0.722 creating build/bdist.linux-x86_64/egg/acc_provision
-#12 0.722 copying build/lib/acc_provision/RELEASE-VERSION -> build/bdist.linux-x86_64/egg/acc_provision
-#12 0.723 copying build/lib/acc_provision/cloud_provision.py -> build/bdist.linux-x86_64/egg/acc_provision
-#12 0.723 copying build/lib/acc_provision/acc_provision.py -> build/bdist.linux-x86_64/egg/acc_provision
-#12 0.723 copying build/lib/acc_provision/kafka_cert.py -> build/bdist.linux-x86_64/egg/acc_provision
-#12 0.724 copying build/lib/acc_provision/versions.yaml -> build/bdist.linux-x86_64/egg/acc_provision
-#12 0.724 copying build/lib/acc_provision/fake_apic.py -> build/bdist.linux-x86_64/egg/acc_provision
-#12 0.724 copying build/lib/acc_provision/flavors.yaml -> build/bdist.linux-x86_64/egg/acc_provision
-#12 0.725 copying build/lib/acc_provision/apic_provision.py -> build/bdist.linux-x86_64/egg/acc_provision
-#12 0.726 copying build/lib/acc_provision/acc_retrieve_cert.py -> build/bdist.linux-x86_64/egg/acc_provision
-#12 0.726 creating build/bdist.linux-x86_64/egg/acc_provision/templates
-#12 0.726 copying build/lib/acc_provision/templates/overlay-provision-config.yaml -> build/bdist.linux-x86_64/egg/acc_provision/templates
-#12 0.726 copying build/lib/acc_provision/templates/provision-config.yaml -> build/bdist.linux-x86_64/egg/acc_provision/templates
-#12 0.726 copying build/lib/acc_provision/templates/aci-network-provider-cluster.yaml -> build/bdist.linux-x86_64/egg/acc_provision/templates
-#12 0.726 copying build/lib/acc_provision/templates/cluster-network-03-config.yaml -> build/bdist.linux-x86_64/egg/acc_provision/templates
-#12 0.726 copying build/lib/acc_provision/templates/aci-operators-crd.yaml -> build/bdist.linux-x86_64/egg/acc_provision/templates
-#12 0.726 copying build/lib/acc_provision/templates/aci-containers.yaml -> build/bdist.linux-x86_64/egg/acc_provision/templates
-#12 0.727 copying build/lib/acc_provision/templates/aci-operators-cr.yaml -> build/bdist.linux-x86_64/egg/acc_provision/templates
-#12 0.727 copying build/lib/acc_provision/templates/acc-provision-crd.yaml -> build/bdist.linux-x86_64/egg/acc_provision/templates
-#12 0.727 copying build/lib/acc_provision/templates/apic.json -> build/bdist.linux-x86_64/egg/acc_provision/templates
-#12 0.727 copying build/lib/acc_provision/templates/aci-network-provider-cluster-1-3-17.yaml -> build/bdist.linux-x86_64/egg/acc_provision/templates
-#12 0.728 copying build/lib/acc_provision/templates/dpu-containers.yaml -> build/bdist.linux-x86_64/egg/acc_provision/templates
-#12 0.728 copying build/lib/acc_provision/templates/99-worker-kubelet-node-ip.yaml -> build/bdist.linux-x86_64/egg/acc_provision/templates
-#12 0.728 copying build/lib/acc_provision/templates/aci-network-provider-cluster-1-3-18.yaml -> build/bdist.linux-x86_64/egg/acc_provision/templates
-#12 0.728 copying build/lib/acc_provision/templates/aks-provision-config.yaml -> build/bdist.linux-x86_64/egg/acc_provision/templates
-#12 0.728 copying build/lib/acc_provision/templates/99-worker-kubelet-node-port.yaml -> build/bdist.linux-x86_64/egg/acc_provision/templates
-#12 0.729 copying build/lib/acc_provision/templates/aci-operators-configmap.yaml -> build/bdist.linux-x86_64/egg/acc_provision/templates
-#12 0.729 copying build/lib/acc_provision/templates/tigera-operator.yaml -> build/bdist.linux-x86_64/egg/acc_provision/templates
-#12 0.729 copying build/lib/acc_provision/templates/aci-operators.yaml -> build/bdist.linux-x86_64/egg/acc_provision/templates
-#12 0.730 copying build/lib/acc_provision/templates/custom-resources-aci-calico.yaml -> build/bdist.linux-x86_64/egg/acc_provision/templates
-#12 0.730 copying build/lib/acc_provision/templates/99-master-kubelet-node-ip.yaml -> build/bdist.linux-x86_64/egg/acc_provision/templates
-#12 0.730 copying build/lib/acc_provision/templates/calico-node.yaml -> build/bdist.linux-x86_64/egg/acc_provision/templates
-#12 0.730 copying build/lib/acc_provision/templates/aci-network-provider-cluster-1-3-20.yaml -> build/bdist.linux-x86_64/egg/acc_provision/templates
-#12 0.730 copying build/lib/acc_provision/templates/aci-network-provider-cluster-1-3-21.yaml -> build/bdist.linux-x86_64/egg/acc_provision/templates
-#12 0.731 copying build/lib/acc_provision/templates/aci-network-provider-cluster-1-3-13.yaml -> build/bdist.linux-x86_64/egg/acc_provision/templates
-#12 0.731 copying build/lib/acc_provision/templates/calicoctl.yaml -> build/bdist.linux-x86_64/egg/acc_provision/templates
-#12 0.731 copying build/lib/acc_provision/templates/aci-network-provider-cluster-1-4-6.yaml -> build/bdist.linux-x86_64/egg/acc_provision/templates
-#12 0.731 copying build/lib/acc_provision/templates/calico-provision-config.yaml -> build/bdist.linux-x86_64/egg/acc_provision/templates
-#12 0.731 copying build/lib/acc_provision/templates/calico-bgp-peer.yaml -> build/bdist.linux-x86_64/egg/acc_provision/templates
-#12 0.732 copying build/lib/acc_provision/templates/__init__.py -> build/bdist.linux-x86_64/egg/acc_provision/templates
-#12 0.732 copying build/lib/acc_provision/templates/calico-bgp-config.yaml -> build/bdist.linux-x86_64/egg/acc_provision/templates
-#12 0.732 copying build/lib/acc_provision/templates/acc-provision-configmap.yaml -> build/bdist.linux-x86_64/egg/acc_provision/templates
-#12 0.732 copying build/lib/acc_provision/test_main.py -> build/bdist.linux-x86_64/egg/acc_provision
-#12 0.733 copying build/lib/acc_provision/__init__.py -> build/bdist.linux-x86_64/egg/acc_provision
-#12 0.733 creating build/bdist.linux-x86_64/egg/gitversion
-#12 0.733 copying build/lib/gitversion/gitversion.py -> build/bdist.linux-x86_64/egg/gitversion
-#12 0.733 copying build/lib/gitversion/__init__.py -> build/bdist.linux-x86_64/egg/gitversion
-#12 0.734 byte-compiling build/bdist.linux-x86_64/egg/acc_provision/cloud_provision.py to cloud_provision.cpython-39.pyc
-#12 0.743 byte-compiling build/bdist.linux-x86_64/egg/acc_provision/acc_provision.py to acc_provision.cpython-39.pyc
-#12 0.762 byte-compiling build/bdist.linux-x86_64/egg/acc_provision/kafka_cert.py to kafka_cert.cpython-39.pyc
-#12 0.764 byte-compiling build/bdist.linux-x86_64/egg/acc_provision/fake_apic.py to fake_apic.cpython-39.pyc
-#12 0.765 byte-compiling build/bdist.linux-x86_64/egg/acc_provision/apic_provision.py to apic_provision.cpython-39.pyc
-#12 0.797 byte-compiling build/bdist.linux-x86_64/egg/acc_provision/acc_retrieve_cert.py to acc_retrieve_cert.cpython-39.pyc
-#12 0.799 byte-compiling build/bdist.linux-x86_64/egg/acc_provision/templates/__init__.py to __init__.cpython-39.pyc
-#12 0.799 byte-compiling build/bdist.linux-x86_64/egg/acc_provision/test_main.py to test_main.cpython-39.pyc
-#12 0.807 byte-compiling build/bdist.linux-x86_64/egg/acc_provision/__init__.py to __init__.cpython-39.pyc
-#12 0.807 byte-compiling build/bdist.linux-x86_64/egg/gitversion/gitversion.py to gitversion.cpython-39.pyc
-#12 0.808 byte-compiling build/bdist.linux-x86_64/egg/gitversion/__init__.py to __init__.cpython-39.pyc
-#12 0.810 creating build/bdist.linux-x86_64/egg/EGG-INFO
-#12 0.810 installing scripts to build/bdist.linux-x86_64/egg/EGG-INFO/scripts
-#12 0.810 running install_scripts
-#12 0.810 running build_scripts
-#12 0.810 creating build/scripts-3.9
-#12 0.810 copying bin/acikubectl -> build/scripts-3.9
-#12 0.810 creating build/bdist.linux-x86_64/egg/EGG-INFO/scripts
-#12 0.810 copying build/scripts-3.9/acikubectl -> build/bdist.linux-x86_64/egg/EGG-INFO/scripts
-#12 0.810 changing mode of build/bdist.linux-x86_64/egg/EGG-INFO/scripts/acikubectl to 755
-#12 0.810 copying acc_provision.egg-info/PKG-INFO -> build/bdist.linux-x86_64/egg/EGG-INFO
-#12 0.810 copying acc_provision.egg-info/SOURCES.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
-#12 0.810 copying acc_provision.egg-info/dependency_links.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
-#12 0.811 copying acc_provision.egg-info/entry_points.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
-#12 0.813 copying acc_provision.egg-info/not-zip-safe -> build/bdist.linux-x86_64/egg/EGG-INFO
-#12 0.813 copying acc_provision.egg-info/requires.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
-#12 0.813 copying acc_provision.egg-info/top_level.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
-#12 0.813 creating dist
-#12 0.813 creating 'dist/acc_provision-6.0.3.1-py3.9.egg' and adding 'build/bdist.linux-x86_64/egg' to it
-#12 0.876 removing 'build/bdist.linux-x86_64/egg' (and everything under it)
-#12 0.880 Processing acc_provision-6.0.3.1-py3.9.egg
-#12 0.883 creating /usr/lib/python3.9/site-packages/acc_provision-6.0.3.1-py3.9.egg
-#12 0.883 Extracting acc_provision-6.0.3.1-py3.9.egg to /usr/lib/python3.9/site-packages
-#12 1.001 Adding acc-provision 6.0.3.1 to easy-install.pth file
-#12 1.003 Installing acikubectl script to /usr/bin
-#12 1.004 Installing acc-provision script to /usr/bin
-#12 1.004 Installing acc-retrieve-cert script to /usr/bin
-#12 1.005 
-#12 1.005 Installed /usr/lib/python3.9/site-packages/acc_provision-6.0.3.1-py3.9.egg
-#12 1.005 Processing dependencies for acc-provision==6.0.3.1
-#12 1.007 Searching for boto3
-#12 1.007 Reading https://pypi.org/simple/boto3/
-#12 14.52 Downloading https://files.pythonhosted.org/packages/46/a7/487512e3328f2566d72aed3b7059fd8dff18c95d9bcbbe16c5ecc13e6fc5/boto3-1.28.17-py3-none-any.whl#sha256=bca0526f819e0f19c0f1e6eba3e2d1d6b6a92a45129f98c0d716e5aab6d9444b
-#12 14.62 Best match: boto3 1.28.17
-#12 14.62 Processing boto3-1.28.17-py3-none-any.whl
-#12 14.62 Installing boto3-1.28.17-py3-none-any.whl to /usr/lib/python3.9/site-packages
-#12 14.64 Adding boto3 1.28.17 to easy-install.pth file
-#12 14.64 detected new path './acc_provision-6.0.3.1-py3.9.egg'
-#12 14.66 
-#12 14.66 Installed /usr/lib/python3.9/site-packages/boto3-1.28.17-py3.9.egg
-#12 14.66 Searching for s3transfer<0.7.0,>=0.6.0
-#12 14.66 Reading https://pypi.org/simple/s3transfer/
-#12 14.74 Downloading https://files.pythonhosted.org/packages/ec/fa/9416461ee05efabe477d588288bdd88acb69a51ee4b31a9b73d3b5b716fc/s3transfer-0.6.1-py3-none-any.whl#sha256=3c0da2d074bf35d6870ef157158641178a4204a6e689e82546083e31e0311346
-#12 14.81 Best match: s3transfer 0.6.1
-#12 14.81 Processing s3transfer-0.6.1-py3-none-any.whl
-#12 14.81 Installing s3transfer-0.6.1-py3-none-any.whl to /usr/lib/python3.9/site-packages
-#12 14.83 Adding s3transfer 0.6.1 to easy-install.pth file
-#12 14.83 detected new path './boto3-1.28.17-py3.9.egg'
-#12 14.83 
-#12 14.83 Installed /usr/lib/python3.9/site-packages/s3transfer-0.6.1-py3.9.egg
-#12 14.84 Searching for jmespath<2.0.0,>=0.7.1
-#12 14.84 Reading https://pypi.org/simple/jmespath/
-#12 14.90 Downloading https://files.pythonhosted.org/packages/31/b4/b9b800c45527aadd64d5b442f9b932b00648617eb5d63d2c7a6587b7cafc/jmespath-1.0.1-py3-none-any.whl#sha256=02e2e4cc71b5bcab88332eebf907519190dd9e6e82107fa7f83b1003a6252980
-#12 14.95 Best match: jmespath 1.0.1
-#12 14.95 Processing jmespath-1.0.1-py3-none-any.whl
-#12 14.96 Installing jmespath-1.0.1-py3-none-any.whl to /usr/lib/python3.9/site-packages
-#12 14.98 Adding jmespath 1.0.1 to easy-install.pth file
-#12 14.98 detected new path './s3transfer-0.6.1-py3.9.egg'
-#12 14.98 Installing jp.py script to /usr/bin
-#12 14.98 
-#12 14.98 Installed /usr/lib/python3.9/site-packages/jmespath-1.0.1-py3.9.egg
-#12 14.98 Searching for botocore<1.32.0,>=1.31.17
-#12 14.98 Reading https://pypi.org/simple/botocore/
-#12 36.38 Downloading https://files.pythonhosted.org/packages/3d/e5/32a88f5a95e3d43c2e3ed86fc1ffdb715547a04f95a51d00e1185af63b0c/botocore-1.31.17-py3-none-any.whl#sha256=6ac34a1d34aa3750e78b77b8596617e2bab938964694d651939dba2cbde2c12b
-#12 36.56 Best match: botocore 1.31.17
-#12 36.56 Processing botocore-1.31.17-py3-none-any.whl
-#12 36.56 Installing botocore-1.31.17-py3-none-any.whl to /usr/lib/python3.9/site-packages
-#12 37.04 Adding botocore 1.31.17 to easy-install.pth file
-#12 37.04 detected new path './jmespath-1.0.1-py3.9.egg'
-#12 37.06 
-#12 37.06 Installed /usr/lib/python3.9/site-packages/botocore-1.31.17-py3.9.egg
-#12 37.08 Searching for MarkupSafe==2.1.3
-#12 37.08 Best match: MarkupSafe 2.1.3
-#12 37.08 Adding MarkupSafe 2.1.3 to easy-install.pth file
-#12 37.08 detected new path './botocore-1.31.17-py3.9.egg'
-#12 37.08 
-#12 37.08 Using /usr/local/lib64/python3.9/site-packages
-#12 37.08 Searching for pyOpenSSL==23.2.0
-#12 37.08 Best match: pyOpenSSL 23.2.0
-#12 37.08 Adding pyOpenSSL 23.2.0 to easy-install.pth file
-#12 37.08 
-#12 37.08 Using /usr/local/lib/python3.9/site-packages
-#12 37.08 Searching for Jinja2==3.1.2
-#12 37.08 Best match: Jinja2 3.1.2
-#12 37.08 Adding Jinja2 3.1.2 to easy-install.pth file
-#12 37.08 
-#12 37.08 Using /usr/local/lib/python3.9/site-packages
-#12 37.08 Searching for PyYAML==6.0.1
-#12 37.08 Best match: PyYAML 6.0.1
-#12 37.08 Adding PyYAML 6.0.1 to easy-install.pth file
-#12 37.08 
-#12 37.08 Using /usr/local/lib64/python3.9/site-packages
-#12 37.09 Searching for requests==2.31.0
-#12 37.09 Best match: requests 2.31.0
-#12 37.09 Adding requests 2.31.0 to easy-install.pth file
-#12 37.10 
-#12 37.10 Using /usr/local/lib/python3.9/site-packages
-#12 37.10 Searching for cryptography==41.0.2
-#12 37.10 Best match: cryptography 41.0.2
-#12 37.10 Adding cryptography 41.0.2 to easy-install.pth file
-#12 37.11 
-#12 37.11 Using /usr/local/lib64/python3.9/site-packages
-#12 37.11 Searching for certifi==2023.7.22
-#12 37.11 Best match: certifi 2023.7.22
-#12 37.11 Adding certifi 2023.7.22 to easy-install.pth file
-#12 37.11 
-#12 37.11 Using /usr/local/lib/python3.9/site-packages
-#12 37.11 Searching for urllib3==1.26.16
-#12 37.11 Best match: urllib3 1.26.16
-#12 37.11 Adding urllib3 1.26.16 to easy-install.pth file
-#12 37.11 
-#12 37.11 Using /usr/local/lib/python3.9/site-packages
-#12 37.11 Searching for idna==3.4
-#12 37.12 Best match: idna 3.4
-#12 37.12 Adding idna 3.4 to easy-install.pth file
-#12 37.12 
-#12 37.12 Using /usr/local/lib/python3.9/site-packages
-#12 37.12 Searching for charset-normalizer==3.2.0
-#12 37.12 Best match: charset-normalizer 3.2.0
-#12 37.12 Adding charset-normalizer 3.2.0 to easy-install.pth file
-#12 37.12 Installing normalizer script to /usr/bin
-#12 37.12 
-#12 37.12 Using /usr/local/lib64/python3.9/site-packages
-#12 37.12 Searching for python-dateutil==2.8.2
-#12 37.12 Best match: python-dateutil 2.8.2
-#12 37.12 Adding python-dateutil 2.8.2 to easy-install.pth file
-#12 37.13 
-#12 37.13 Using /usr/local/lib/python3.9/site-packages
-#12 37.13 Searching for cffi==1.15.1
-#12 37.13 Best match: cffi 1.15.1
-#12 37.13 Adding cffi 1.15.1 to easy-install.pth file
-#12 37.13 
-#12 37.13 Using /usr/local/lib64/python3.9/site-packages
-#12 37.13 Searching for six==1.16.0
-#12 37.13 Best match: six 1.16.0
-#12 37.13 Adding six 1.16.0 to easy-install.pth file
-#12 37.13 
-#12 37.13 Using /usr/local/lib/python3.9/site-packages
-#12 37.13 Searching for pycparser==2.21
-#12 37.13 Best match: pycparser 2.21
-#12 37.13 Adding pycparser 2.21 to easy-install.pth file
-#12 37.14 
-#12 37.14 Using /usr/local/lib/python3.9/site-packages
-#12 37.14 Finished processing dependencies for acc-provision==6.0.3.1
-#12 DONE 37.6s
+#12 sha256:ef93f84094e2f0bb7a72329d0de3e51ab52c77480d274871e7ad779c7f94d01a
+#12 0.673 running install
+#12 0.674 /usr/local/lib/python3.9/site-packages/setuptools/_distutils/cmd.py:66: SetuptoolsDeprecationWarning: setup.py install is deprecated.
+#12 0.674 !!
+#12 0.674 
+#12 0.674         ********************************************************************************
+#12 0.674         Please avoid running ``setup.py`` directly.
+#12 0.674         Instead, use pypa/build, pypa/installer or other
+#12 0.674         standards-based tools.
+#12 0.674 
+#12 0.674         See https://blog.ganssle.io/articles/2021/10/setup-py-deprecated.html for details.
+#12 0.674         ********************************************************************************
+#12 0.674 
+#12 0.674 !!
+#12 0.674   self.initialize_options()
+#12 0.752 /usr/local/lib/python3.9/site-packages/setuptools/_distutils/cmd.py:66: EasyInstallDeprecationWarning: easy_install command is deprecated.
+#12 0.752 !!
+#12 0.752 
+#12 0.752         ********************************************************************************
+#12 0.752         Please avoid running ``setup.py`` and ``easy_install``.
+#12 0.752         Instead, use pypa/build, pypa/installer or other
+#12 0.752         standards-based tools.
+#12 0.752 
+#12 0.752         See https://github.com/pypa/setuptools/issues/917 for details.
+#12 0.752         ********************************************************************************
+#12 0.752 
+#12 0.752 !!
+#12 0.752   self.initialize_options()
+#12 0.811 running bdist_egg
+#12 0.820 running egg_info
+#12 0.821 creating acc_provision.egg-info
+#12 0.824 writing acc_provision.egg-info/PKG-INFO
+#12 0.824 writing dependency_links to acc_provision.egg-info/dependency_links.txt
+#12 0.825 writing entry points to acc_provision.egg-info/entry_points.txt
+#12 0.825 writing requirements to acc_provision.egg-info/requires.txt
+#12 0.825 writing top-level names to acc_provision.egg-info/top_level.txt
+#12 0.825 writing manifest file 'acc_provision.egg-info/SOURCES.txt'
+#12 0.836 reading manifest file 'acc_provision.egg-info/SOURCES.txt'
+#12 0.837 reading manifest template 'MANIFEST.in'
+#12 0.839 writing manifest file 'acc_provision.egg-info/SOURCES.txt'
+#12 0.839 installing library code to build/bdist.linux-x86_64/egg
+#12 0.839 running install_lib
+#12 0.839 running build_py
+#12 0.840 creating build
+#12 0.840 creating build/lib
+#12 0.840 creating build/lib/acc_provision
+#12 0.840 copying acc_provision/cloud_provision.py -> build/lib/acc_provision
+#12 0.842 copying acc_provision/acc_provision.py -> build/lib/acc_provision
+#12 0.842 copying acc_provision/kafka_cert.py -> build/lib/acc_provision
+#12 0.842 copying acc_provision/fake_apic.py -> build/lib/acc_provision
+#12 0.842 copying acc_provision/apic_provision.py -> build/lib/acc_provision
+#12 0.843 copying acc_provision/acc_retrieve_cert.py -> build/lib/acc_provision
+#12 0.843 copying acc_provision/test_main.py -> build/lib/acc_provision
+#12 0.843 copying acc_provision/__init__.py -> build/lib/acc_provision
+#12 0.844 creating build/lib/gitversion
+#12 0.844 copying gitversion/gitversion.py -> build/lib/gitversion
+#12 0.844 copying gitversion/__init__.py -> build/lib/gitversion
+#12 0.844 creating build/lib/acc_provision/templates
+#12 0.845 copying acc_provision/templates/__init__.py -> build/lib/acc_provision/templates
+#12 0.846 copying acc_provision/RELEASE-VERSION -> build/lib/acc_provision
+#12 0.847 copying acc_provision/flavors.yaml -> build/lib/acc_provision
+#12 0.847 copying acc_provision/versions.yaml -> build/lib/acc_provision
+#12 0.847 copying acc_provision/templates/99-master-kubelet-node-ip.yaml -> build/lib/acc_provision/templates
+#12 0.848 copying acc_provision/templates/99-worker-kubelet-node-ip.yaml -> build/lib/acc_provision/templates
+#12 0.848 copying acc_provision/templates/99-worker-kubelet-node-port.yaml -> build/lib/acc_provision/templates
+#12 0.848 copying acc_provision/templates/acc-provision-configmap.yaml -> build/lib/acc_provision/templates
+#12 0.849 copying acc_provision/templates/acc-provision-crd.yaml -> build/lib/acc_provision/templates
+#12 0.849 copying acc_provision/templates/aci-containers.yaml -> build/lib/acc_provision/templates
+#12 0.849 copying acc_provision/templates/aci-network-provider-cluster-1-3-13.yaml -> build/lib/acc_provision/templates
+#12 0.850 copying acc_provision/templates/aci-network-provider-cluster-1-3-17.yaml -> build/lib/acc_provision/templates
+#12 0.850 copying acc_provision/templates/aci-network-provider-cluster-1-3-18.yaml -> build/lib/acc_provision/templates
+#12 0.850 copying acc_provision/templates/aci-network-provider-cluster-1-3-20.yaml -> build/lib/acc_provision/templates
+#12 0.851 copying acc_provision/templates/aci-network-provider-cluster-1-3-21.yaml -> build/lib/acc_provision/templates
+#12 0.851 copying acc_provision/templates/aci-network-provider-cluster-1-4-6.yaml -> build/lib/acc_provision/templates
+#12 0.851 copying acc_provision/templates/aci-network-provider-cluster.yaml -> build/lib/acc_provision/templates
+#12 0.851 copying acc_provision/templates/aci-operators-configmap.yaml -> build/lib/acc_provision/templates
+#12 0.852 copying acc_provision/templates/aci-operators-cr.yaml -> build/lib/acc_provision/templates
+#12 0.852 copying acc_provision/templates/aci-operators-crd.yaml -> build/lib/acc_provision/templates
+#12 0.853 copying acc_provision/templates/aci-operators.yaml -> build/lib/acc_provision/templates
+#12 0.853 copying acc_provision/templates/aks-provision-config.yaml -> build/lib/acc_provision/templates
+#12 0.853 copying acc_provision/templates/apic.json -> build/lib/acc_provision/templates
+#12 0.854 copying acc_provision/templates/calico-bgp-config.yaml -> build/lib/acc_provision/templates
+#12 0.854 copying acc_provision/templates/calico-bgp-peer.yaml -> build/lib/acc_provision/templates
+#12 0.854 copying acc_provision/templates/calico-node.yaml -> build/lib/acc_provision/templates
+#12 0.855 copying acc_provision/templates/calico-provision-config.yaml -> build/lib/acc_provision/templates
+#12 0.855 copying acc_provision/templates/calicoctl.yaml -> build/lib/acc_provision/templates
+#12 0.855 copying acc_provision/templates/cluster-network-03-config.yaml -> build/lib/acc_provision/templates
+#12 0.856 copying acc_provision/templates/custom-resources-aci-calico.yaml -> build/lib/acc_provision/templates
+#12 0.856 copying acc_provision/templates/dpu-containers.yaml -> build/lib/acc_provision/templates
+#12 0.857 copying acc_provision/templates/overlay-provision-config.yaml -> build/lib/acc_provision/templates
+#12 0.857 copying acc_provision/templates/provision-config.yaml -> build/lib/acc_provision/templates
+#12 0.857 copying acc_provision/templates/tigera-operator.yaml -> build/lib/acc_provision/templates
+#12 0.860 creating build/bdist.linux-x86_64
+#12 0.860 creating build/bdist.linux-x86_64/egg
+#12 0.860 creating build/bdist.linux-x86_64/egg/acc_provision
+#12 0.860 copying build/lib/acc_provision/RELEASE-VERSION -> build/bdist.linux-x86_64/egg/acc_provision
+#12 0.861 copying build/lib/acc_provision/cloud_provision.py -> build/bdist.linux-x86_64/egg/acc_provision
+#12 0.861 copying build/lib/acc_provision/acc_provision.py -> build/bdist.linux-x86_64/egg/acc_provision
+#12 0.862 copying build/lib/acc_provision/kafka_cert.py -> build/bdist.linux-x86_64/egg/acc_provision
+#12 0.862 copying build/lib/acc_provision/versions.yaml -> build/bdist.linux-x86_64/egg/acc_provision
+#12 0.862 copying build/lib/acc_provision/fake_apic.py -> build/bdist.linux-x86_64/egg/acc_provision
+#12 0.863 copying build/lib/acc_provision/flavors.yaml -> build/bdist.linux-x86_64/egg/acc_provision
+#12 0.863 copying build/lib/acc_provision/apic_provision.py -> build/bdist.linux-x86_64/egg/acc_provision
+#12 0.865 copying build/lib/acc_provision/acc_retrieve_cert.py -> build/bdist.linux-x86_64/egg/acc_provision
+#12 0.865 creating build/bdist.linux-x86_64/egg/acc_provision/templates
+#12 0.865 copying build/lib/acc_provision/templates/overlay-provision-config.yaml -> build/bdist.linux-x86_64/egg/acc_provision/templates
+#12 0.866 copying build/lib/acc_provision/templates/provision-config.yaml -> build/bdist.linux-x86_64/egg/acc_provision/templates
+#12 0.866 copying build/lib/acc_provision/templates/aci-network-provider-cluster.yaml -> build/bdist.linux-x86_64/egg/acc_provision/templates
+#12 0.866 copying build/lib/acc_provision/templates/cluster-network-03-config.yaml -> build/bdist.linux-x86_64/egg/acc_provision/templates
+#12 0.867 copying build/lib/acc_provision/templates/aci-operators-crd.yaml -> build/bdist.linux-x86_64/egg/acc_provision/templates
+#12 0.867 copying build/lib/acc_provision/templates/aci-containers.yaml -> build/bdist.linux-x86_64/egg/acc_provision/templates
+#12 0.867 copying build/lib/acc_provision/templates/aci-operators-cr.yaml -> build/bdist.linux-x86_64/egg/acc_provision/templates
+#12 0.868 copying build/lib/acc_provision/templates/acc-provision-crd.yaml -> build/bdist.linux-x86_64/egg/acc_provision/templates
+#12 0.868 copying build/lib/acc_provision/templates/apic.json -> build/bdist.linux-x86_64/egg/acc_provision/templates
+#12 0.868 copying build/lib/acc_provision/templates/aci-network-provider-cluster-1-3-17.yaml -> build/bdist.linux-x86_64/egg/acc_provision/templates
+#12 0.869 copying build/lib/acc_provision/templates/dpu-containers.yaml -> build/bdist.linux-x86_64/egg/acc_provision/templates
+#12 0.869 copying build/lib/acc_provision/templates/99-worker-kubelet-node-ip.yaml -> build/bdist.linux-x86_64/egg/acc_provision/templates
+#12 0.869 copying build/lib/acc_provision/templates/aci-network-provider-cluster-1-3-18.yaml -> build/bdist.linux-x86_64/egg/acc_provision/templates
+#12 0.869 copying build/lib/acc_provision/templates/aks-provision-config.yaml -> build/bdist.linux-x86_64/egg/acc_provision/templates
+#12 0.870 copying build/lib/acc_provision/templates/99-worker-kubelet-node-port.yaml -> build/bdist.linux-x86_64/egg/acc_provision/templates
+#12 0.870 copying build/lib/acc_provision/templates/aci-operators-configmap.yaml -> build/bdist.linux-x86_64/egg/acc_provision/templates
+#12 0.870 copying build/lib/acc_provision/templates/tigera-operator.yaml -> build/bdist.linux-x86_64/egg/acc_provision/templates
+#12 0.871 copying build/lib/acc_provision/templates/aci-operators.yaml -> build/bdist.linux-x86_64/egg/acc_provision/templates
+#12 0.871 copying build/lib/acc_provision/templates/custom-resources-aci-calico.yaml -> build/bdist.linux-x86_64/egg/acc_provision/templates
+#12 0.872 copying build/lib/acc_provision/templates/99-master-kubelet-node-ip.yaml -> build/bdist.linux-x86_64/egg/acc_provision/templates
+#12 0.872 copying build/lib/acc_provision/templates/calico-node.yaml -> build/bdist.linux-x86_64/egg/acc_provision/templates
+#12 0.872 copying build/lib/acc_provision/templates/aci-network-provider-cluster-1-3-20.yaml -> build/bdist.linux-x86_64/egg/acc_provision/templates
+#12 0.873 copying build/lib/acc_provision/templates/aci-network-provider-cluster-1-3-21.yaml -> build/bdist.linux-x86_64/egg/acc_provision/templates
+#12 0.873 copying build/lib/acc_provision/templates/aci-network-provider-cluster-1-3-13.yaml -> build/bdist.linux-x86_64/egg/acc_provision/templates
+#12 0.873 copying build/lib/acc_provision/templates/calicoctl.yaml -> build/bdist.linux-x86_64/egg/acc_provision/templates
+#12 0.873 copying build/lib/acc_provision/templates/aci-network-provider-cluster-1-4-6.yaml -> build/bdist.linux-x86_64/egg/acc_provision/templates
+#12 0.874 copying build/lib/acc_provision/templates/calico-provision-config.yaml -> build/bdist.linux-x86_64/egg/acc_provision/templates
+#12 0.874 copying build/lib/acc_provision/templates/calico-bgp-peer.yaml -> build/bdist.linux-x86_64/egg/acc_provision/templates
+#12 0.874 copying build/lib/acc_provision/templates/__init__.py -> build/bdist.linux-x86_64/egg/acc_provision/templates
+#12 0.875 copying build/lib/acc_provision/templates/calico-bgp-config.yaml -> build/bdist.linux-x86_64/egg/acc_provision/templates
+#12 0.875 copying build/lib/acc_provision/templates/acc-provision-configmap.yaml -> build/bdist.linux-x86_64/egg/acc_provision/templates
+#12 0.875 copying build/lib/acc_provision/test_main.py -> build/bdist.linux-x86_64/egg/acc_provision
+#12 0.876 copying build/lib/acc_provision/__init__.py -> build/bdist.linux-x86_64/egg/acc_provision
+#12 0.876 creating build/bdist.linux-x86_64/egg/gitversion
+#12 0.876 copying build/lib/gitversion/gitversion.py -> build/bdist.linux-x86_64/egg/gitversion
+#12 0.877 copying build/lib/gitversion/__init__.py -> build/bdist.linux-x86_64/egg/gitversion
+#12 0.878 byte-compiling build/bdist.linux-x86_64/egg/acc_provision/cloud_provision.py to cloud_provision.cpython-39.pyc
+#12 0.894 byte-compiling build/bdist.linux-x86_64/egg/acc_provision/acc_provision.py to acc_provision.cpython-39.pyc
+#12 0.939 byte-compiling build/bdist.linux-x86_64/egg/acc_provision/kafka_cert.py to kafka_cert.cpython-39.pyc
+#12 0.944 byte-compiling build/bdist.linux-x86_64/egg/acc_provision/fake_apic.py to fake_apic.cpython-39.pyc
+#12 0.945 byte-compiling build/bdist.linux-x86_64/egg/acc_provision/apic_provision.py to apic_provision.cpython-39.pyc
+#12 1.034 byte-compiling build/bdist.linux-x86_64/egg/acc_provision/acc_retrieve_cert.py to acc_retrieve_cert.cpython-39.pyc
+#12 1.037 byte-compiling build/bdist.linux-x86_64/egg/acc_provision/templates/__init__.py to __init__.cpython-39.pyc
+#12 1.038 byte-compiling build/bdist.linux-x86_64/egg/acc_provision/test_main.py to test_main.cpython-39.pyc
+#12 1.051 byte-compiling build/bdist.linux-x86_64/egg/acc_provision/__init__.py to __init__.cpython-39.pyc
+#12 1.052 byte-compiling build/bdist.linux-x86_64/egg/gitversion/gitversion.py to gitversion.cpython-39.pyc
+#12 1.054 byte-compiling build/bdist.linux-x86_64/egg/gitversion/__init__.py to __init__.cpython-39.pyc
+#12 1.055 creating build/bdist.linux-x86_64/egg/EGG-INFO
+#12 1.055 installing scripts to build/bdist.linux-x86_64/egg/EGG-INFO/scripts
+#12 1.056 running install_scripts
+#12 1.056 running build_scripts
+#12 1.056 creating build/scripts-3.9
+#12 1.057 copying bin/acikubectl -> build/scripts-3.9
+#12 1.058 creating build/bdist.linux-x86_64/egg/EGG-INFO/scripts
+#12 1.058 copying build/scripts-3.9/acikubectl -> build/bdist.linux-x86_64/egg/EGG-INFO/scripts
+#12 1.058 changing mode of build/bdist.linux-x86_64/egg/EGG-INFO/scripts/acikubectl to 755
+#12 1.059 copying acc_provision.egg-info/PKG-INFO -> build/bdist.linux-x86_64/egg/EGG-INFO
+#12 1.059 copying acc_provision.egg-info/SOURCES.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+#12 1.060 copying acc_provision.egg-info/dependency_links.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+#12 1.061 copying acc_provision.egg-info/entry_points.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+#12 1.061 copying acc_provision.egg-info/not-zip-safe -> build/bdist.linux-x86_64/egg/EGG-INFO
+#12 1.062 copying acc_provision.egg-info/requires.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+#12 1.062 copying acc_provision.egg-info/top_level.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+#12 1.063 creating dist
+#12 1.063 creating 'dist/acc_provision-6.0.3.1-py3.9.egg' and adding 'build/bdist.linux-x86_64/egg' to it
+#12 1.169 removing 'build/bdist.linux-x86_64/egg' (and everything under it)
+#12 1.176 Processing acc_provision-6.0.3.1-py3.9.egg
+#12 1.180 creating /usr/lib/python3.9/site-packages/acc_provision-6.0.3.1-py3.9.egg
+#12 1.182 Extracting acc_provision-6.0.3.1-py3.9.egg to /usr/lib/python3.9/site-packages
+#12 1.348 Adding acc-provision 6.0.3.1 to easy-install.pth file
+#12 1.349 Installing acikubectl script to /usr/bin
+#12 1.350 Installing acc-provision script to /usr/bin
+#12 1.350 Installing acc-retrieve-cert script to /usr/bin
+#12 1.351 
+#12 1.351 Installed /usr/lib/python3.9/site-packages/acc_provision-6.0.3.1-py3.9.egg
+#12 1.351 Processing dependencies for acc-provision==6.0.3.1
+#12 1.352 Searching for boto3
+#12 1.352 Reading https://pypi.org/simple/boto3/
+#12 14.69 Downloading https://files.pythonhosted.org/packages/46/a7/487512e3328f2566d72aed3b7059fd8dff18c95d9bcbbe16c5ecc13e6fc5/boto3-1.28.17-py3-none-any.whl#sha256=bca0526f819e0f19c0f1e6eba3e2d1d6b6a92a45129f98c0d716e5aab6d9444b
+#12 14.77 Best match: boto3 1.28.17
+#12 14.77 Processing boto3-1.28.17-py3-none-any.whl
+#12 14.77 Installing boto3-1.28.17-py3-none-any.whl to /usr/lib/python3.9/site-packages
+#12 14.80 Adding boto3 1.28.17 to easy-install.pth file
+#12 14.80 detected new path './acc_provision-6.0.3.1-py3.9.egg'
+#12 14.81 
+#12 14.81 Installed /usr/lib/python3.9/site-packages/boto3-1.28.17-py3.9.egg
+#12 14.82 Searching for s3transfer<0.7.0,>=0.6.0
+#12 14.82 Reading https://pypi.org/simple/s3transfer/
+#12 14.91 Downloading https://files.pythonhosted.org/packages/ec/fa/9416461ee05efabe477d588288bdd88acb69a51ee4b31a9b73d3b5b716fc/s3transfer-0.6.1-py3-none-any.whl#sha256=3c0da2d074bf35d6870ef157158641178a4204a6e689e82546083e31e0311346
+#12 14.99 Best match: s3transfer 0.6.1
+#12 14.99 Processing s3transfer-0.6.1-py3-none-any.whl
+#12 14.99 Installing s3transfer-0.6.1-py3-none-any.whl to /usr/lib/python3.9/site-packages
+#12 15.01 Adding s3transfer 0.6.1 to easy-install.pth file
+#12 15.01 detected new path './boto3-1.28.17-py3.9.egg'
+#12 15.01 
+#12 15.01 Installed /usr/lib/python3.9/site-packages/s3transfer-0.6.1-py3.9.egg
+#12 15.01 Searching for jmespath<2.0.0,>=0.7.1
+#12 15.01 Reading https://pypi.org/simple/jmespath/
+#12 15.21 Downloading https://files.pythonhosted.org/packages/31/b4/b9b800c45527aadd64d5b442f9b932b00648617eb5d63d2c7a6587b7cafc/jmespath-1.0.1-py3-none-any.whl#sha256=02e2e4cc71b5bcab88332eebf907519190dd9e6e82107fa7f83b1003a6252980
+#12 15.26 Best match: jmespath 1.0.1
+#12 15.27 Processing jmespath-1.0.1-py3-none-any.whl
+#12 15.27 Installing jmespath-1.0.1-py3-none-any.whl to /usr/lib/python3.9/site-packages
+#12 15.29 Adding jmespath 1.0.1 to easy-install.pth file
+#12 15.29 detected new path './s3transfer-0.6.1-py3.9.egg'
+#12 15.29 Installing jp.py script to /usr/bin
+#12 15.29 
+#12 15.29 Installed /usr/lib/python3.9/site-packages/jmespath-1.0.1-py3.9.egg
+#12 15.29 Searching for botocore<1.32.0,>=1.31.17
+#12 15.29 Reading https://pypi.org/simple/botocore/
+#12 36.67 Downloading https://files.pythonhosted.org/packages/3d/e5/32a88f5a95e3d43c2e3ed86fc1ffdb715547a04f95a51d00e1185af63b0c/botocore-1.31.17-py3-none-any.whl#sha256=6ac34a1d34aa3750e78b77b8596617e2bab938964694d651939dba2cbde2c12b
+#12 36.85 Best match: botocore 1.31.17
+#12 36.85 Processing botocore-1.31.17-py3-none-any.whl
+#12 36.85 Installing botocore-1.31.17-py3-none-any.whl to /usr/lib/python3.9/site-packages
+#12 37.33 Adding botocore 1.31.17 to easy-install.pth file
+#12 37.33 detected new path './jmespath-1.0.1-py3.9.egg'
+#12 37.34 
+#12 37.34 Installed /usr/lib/python3.9/site-packages/botocore-1.31.17-py3.9.egg
+#12 37.36 Searching for MarkupSafe==2.1.3
+#12 37.36 Best match: MarkupSafe 2.1.3
+#12 37.36 Adding MarkupSafe 2.1.3 to easy-install.pth file
+#12 37.36 detected new path './botocore-1.31.17-py3.9.egg'
+#12 37.36 
+#12 37.36 Using /usr/local/lib64/python3.9/site-packages
+#12 37.36 Searching for pyOpenSSL==23.2.0
+#12 37.36 Best match: pyOpenSSL 23.2.0
+#12 37.36 Adding pyOpenSSL 23.2.0 to easy-install.pth file
+#12 37.36 
+#12 37.36 Using /usr/local/lib/python3.9/site-packages
+#12 37.36 Searching for Jinja2==3.1.2
+#12 37.36 Best match: Jinja2 3.1.2
+#12 37.36 Adding Jinja2 3.1.2 to easy-install.pth file
+#12 37.36 
+#12 37.36 Using /usr/local/lib/python3.9/site-packages
+#12 37.37 Searching for PyYAML==6.0.1
+#12 37.37 Best match: PyYAML 6.0.1
+#12 37.37 Adding PyYAML 6.0.1 to easy-install.pth file
+#12 37.37 
+#12 37.37 Using /usr/local/lib64/python3.9/site-packages
+#12 37.37 Searching for requests==2.31.0
+#12 37.37 Best match: requests 2.31.0
+#12 37.37 Adding requests 2.31.0 to easy-install.pth file
+#12 37.37 
+#12 37.37 Using /usr/local/lib/python3.9/site-packages
+#12 37.37 Searching for cryptography==41.0.2
+#12 37.37 Best match: cryptography 41.0.2
+#12 37.37 Adding cryptography 41.0.2 to easy-install.pth file
+#12 37.37 
+#12 37.37 Using /usr/local/lib64/python3.9/site-packages
+#12 37.37 Searching for certifi==2023.7.22
+#12 37.37 Best match: certifi 2023.7.22
+#12 37.37 Adding certifi 2023.7.22 to easy-install.pth file
+#12 37.37 
+#12 37.37 Using /usr/local/lib/python3.9/site-packages
+#12 37.37 Searching for urllib3==1.26.16
+#12 37.37 Best match: urllib3 1.26.16
+#12 37.37 Adding urllib3 1.26.16 to easy-install.pth file
+#12 37.37 
+#12 37.37 Using /usr/local/lib/python3.9/site-packages
+#12 37.38 Searching for idna==3.4
+#12 37.38 Best match: idna 3.4
+#12 37.38 Adding idna 3.4 to easy-install.pth file
+#12 37.38 
+#12 37.38 Using /usr/local/lib/python3.9/site-packages
+#12 37.38 Searching for charset-normalizer==3.2.0
+#12 37.38 Best match: charset-normalizer 3.2.0
+#12 37.38 Adding charset-normalizer 3.2.0 to easy-install.pth file
+#12 37.38 Installing normalizer script to /usr/bin
+#12 37.38 
+#12 37.38 Using /usr/local/lib64/python3.9/site-packages
+#12 37.38 Searching for python-dateutil==2.8.2
+#12 37.38 Best match: python-dateutil 2.8.2
+#12 37.38 Adding python-dateutil 2.8.2 to easy-install.pth file
+#12 37.38 
+#12 37.38 Using /usr/local/lib/python3.9/site-packages
+#12 37.38 Searching for cffi==1.15.1
+#12 37.38 Best match: cffi 1.15.1
+#12 37.38 Adding cffi 1.15.1 to easy-install.pth file
+#12 37.38 
+#12 37.38 Using /usr/local/lib64/python3.9/site-packages
+#12 37.38 Searching for six==1.16.0
+#12 37.38 Best match: six 1.16.0
+#12 37.38 Adding six 1.16.0 to easy-install.pth file
+#12 37.39 
+#12 37.39 Using /usr/local/lib/python3.9/site-packages
+#12 37.39 Searching for pycparser==2.21
+#12 37.39 Best match: pycparser 2.21
+#12 37.39 Adding pycparser 2.21 to easy-install.pth file
+#12 37.39 
+#12 37.39 Using /usr/local/lib/python3.9/site-packages
+#12 37.39 Finished processing dependencies for acc-provision==6.0.3.1
+#12 DONE 37.8s
 
 #13 [ 9/11] COPY watches.yaml /opt/ansible/watches.yaml
-#13 sha256:29214ef078d70254f2bda6762489a0651d8ab74e4c7351e6a93de173c7148b34
-#13 DONE 0.0s
+#13 sha256:dd8d48fbdcf8f4232442e904756d6eb2f5a45b2a695379d67cf83fc1568f81e1
+#13 DONE 0.1s
 
 #14 [10/11] COPY roles/ /opt/ansible/roles/
-#14 sha256:f563703d5fe7f6ef4746055195e658fc79572e9f4c76e0f2f01f512080518f84
+#14 sha256:5dc99121da6e0b18e664bb7827af85ca0986f96da882ce5efb87b380824b070c
 #14 DONE 0.1s
 
 #15 [11/11] COPY playbooks/ /opt/ansible/playbooks/
-#15 sha256:f31e6422108b43538855f1e3b95412a59f5774520a2b716b443af40e193cfd8b
-#15 DONE 0.0s
+#15 sha256:a7f5497d844a22adf46f334564909c86ee397d93ac435c5823ac1cdebd55d5e0
+#15 DONE 0.1s
 
 #16 exporting to image
 #16 sha256:e8c613e07b0b7ff33893b694f7759a10d42e180f2b4dc349fb57dc6b71dcab00
 #16 exporting layers
 #16 exporting layers 1.6s done
-#16 writing image sha256:949a6a0eabbcbb5183d3efb51c6b9e62424bc9b6eabe9454004f94c137f46d74 done
+#16 writing image sha256:aca5c214085743a1bd60ef1ce9c4e8f2cac9a2c935ac9015500e7081577ec516 done
 #16 naming to quay.io/noirolabs/acc-provision-operator:6.0.3.1.test-cicd.81c2369 done
-#16 DONE 1.6s
+#16 DONE 1.7s
 +docker images
-REPOSITORY                                 TAG                         IMAGE ID       CREATED        SIZE
-quay.io/noirolabs/acc-provision-operator   6.0.3.1.test-cicd.81c2369   949a6a0eabbc   1 second ago   729MB
+REPOSITORY                                 TAG                         IMAGE ID       CREATED         SIZE
+quay.io/noirolabs/acc-provision-operator   6.0.3.1.test-cicd.81c2369   aca5c2140857   2 seconds ago   729MB
 ++docker image inspect '--format={{.Id}}' quay.io/noirolabs/acc-provision-operator:6.0.3.1.test-cicd.81c2369
-+IMAGE_SHA=sha256:949a6a0eabbcbb5183d3efb51c6b9e62424bc9b6eabe9454004f94c137f46d74
++IMAGE_SHA=sha256:aca5c214085743a1bd60ef1ce9c4e8f2cac9a2c935ac9015500e7081577ec516
 +/tmp/cicd/travis/push-images.sh quay.io/noirolabs acc-provision-operator 6.0.3.1.test-cicd.81c2369 6.0.3.1.test-cicd.81c2369,6.0.3.1.test-cicd.81c2369.080223.466
 ++dirname /tmp/cicd/travis/push-images.sh
 +SCRIPTS_DIR=/tmp/cicd/travis
@@ -1832,16 +1832,16 @@ https://docs.docker.com/engine/reference/commandline/login/#credentials-store
 Login Succeeded
 +docker push quay.io/noirolabs/acc-provision-operator:6.0.3.1.test-cicd.81c2369
 The push refers to repository [quay.io/noirolabs/acc-provision-operator]
-745df08baf31: Preparing
-92dc7d59747e: Preparing
-883ac178e3c6: Preparing
-a98ed939692d: Preparing
-db000a001619: Preparing
-a6acc741cf67: Preparing
-f3dd6d18dff6: Preparing
-b7c9085b1781: Preparing
-7a0173bd973d: Preparing
-97d64ccfca26: Preparing
+4b7e5c888893: Preparing
+1d348c908484: Preparing
+facb45d42668: Preparing
+8ae1c30fa527: Preparing
+0e92a6d50ff0: Preparing
+53eefe8bc185: Preparing
+2dca57905357: Preparing
+2ce10330d6d9: Preparing
+6e287cc90e0f: Preparing
+26dc736f2ce8: Preparing
 37656b777db7: Preparing
 5f70bf18a086: Preparing
 1fcbf51a61ed: Preparing
@@ -1852,56 +1852,56 @@ cbd0690c2ed7: Preparing
 cf2a89ec0b8e: Preparing
 d7f2c248a718: Preparing
 b51194abfc91: Preparing
-a6acc741cf67: Waiting
-f3dd6d18dff6: Waiting
-b7c9085b1781: Waiting
-7a0173bd973d: Waiting
-97d64ccfca26: Waiting
-37656b777db7: Waiting
-5f70bf18a086: Waiting
+53eefe8bc185: Waiting
 1fcbf51a61ed: Waiting
 5255f8a642ad: Waiting
 1c1ba21eb22a: Waiting
 d6495411ea84: Waiting
 cbd0690c2ed7: Waiting
+2dca57905357: Waiting
 cf2a89ec0b8e: Waiting
 d7f2c248a718: Waiting
+2ce10330d6d9: Waiting
 b51194abfc91: Waiting
-883ac178e3c6: Pushed
-745df08baf31: Pushed
-92dc7d59747e: Pushed
-b7c9085b1781: Pushed
-f3dd6d18dff6: Pushed
-7a0173bd973d: Pushed
+6e287cc90e0f: Waiting
+26dc736f2ce8: Waiting
+5f70bf18a086: Waiting
+37656b777db7: Waiting
+facb45d42668: Pushed
+1d348c908484: Pushed
+4b7e5c888893: Pushed
+2ce10330d6d9: Pushed
+2dca57905357: Pushed
+6e287cc90e0f: Pushed
+8ae1c30fa527: Pushed
 37656b777db7: Layer already exists
-97d64ccfca26: Pushed
-5f70bf18a086: Layer already exists
-a98ed939692d: Pushed
 1fcbf51a61ed: Layer already exists
+5f70bf18a086: Layer already exists
 5255f8a642ad: Layer already exists
 1c1ba21eb22a: Layer already exists
-d6495411ea84: Layer already exists
 cbd0690c2ed7: Layer already exists
-db000a001619: Pushed
-cf2a89ec0b8e: Layer already exists
+d6495411ea84: Layer already exists
 d7f2c248a718: Layer already exists
+cf2a89ec0b8e: Layer already exists
+26dc736f2ce8: Pushed
 b51194abfc91: Layer already exists
-a6acc741cf67: Pushed
-6.0.3.1.test-cicd.81c2369: digest: sha256:5451c4dfaedf4869858ba783af2c50e516d47e22907fee3d93e20e9d8acd43a2 size: 4505
+0e92a6d50ff0: Pushed
+53eefe8bc185: Pushed
+6.0.3.1.test-cicd.81c2369: digest: sha256:57d61922fb649715585d2f1f1aa0d7a2491533fb3a1b046fcd2a8894735dc389 size: 4505
 +for OTHER_TAG in '${OTHER_IMAGE_TAGS}'
 +docker tag quay.io/noirolabs/acc-provision-operator:6.0.3.1.test-cicd.81c2369 quay.io/noirolabs/acc-provision-operator:6.0.3.1.test-cicd.81c2369
 +docker push quay.io/noirolabs/acc-provision-operator:6.0.3.1.test-cicd.81c2369
 The push refers to repository [quay.io/noirolabs/acc-provision-operator]
-745df08baf31: Preparing
-92dc7d59747e: Preparing
-883ac178e3c6: Preparing
-a98ed939692d: Preparing
-db000a001619: Preparing
-a6acc741cf67: Preparing
-f3dd6d18dff6: Preparing
-b7c9085b1781: Preparing
-7a0173bd973d: Preparing
-97d64ccfca26: Preparing
+4b7e5c888893: Preparing
+1d348c908484: Preparing
+facb45d42668: Preparing
+8ae1c30fa527: Preparing
+0e92a6d50ff0: Preparing
+53eefe8bc185: Preparing
+2dca57905357: Preparing
+2ce10330d6d9: Preparing
+6e287cc90e0f: Preparing
+26dc736f2ce8: Preparing
 37656b777db7: Preparing
 5f70bf18a086: Preparing
 1fcbf51a61ed: Preparing
@@ -1912,11 +1912,11 @@ cbd0690c2ed7: Preparing
 cf2a89ec0b8e: Preparing
 d7f2c248a718: Preparing
 b51194abfc91: Preparing
-a6acc741cf67: Waiting
-f3dd6d18dff6: Waiting
-b7c9085b1781: Waiting
-7a0173bd973d: Waiting
-97d64ccfca26: Waiting
+53eefe8bc185: Waiting
+2dca57905357: Waiting
+2ce10330d6d9: Waiting
+6e287cc90e0f: Waiting
+26dc736f2ce8: Waiting
 37656b777db7: Waiting
 5f70bf18a086: Waiting
 1fcbf51a61ed: Waiting
@@ -1927,41 +1927,41 @@ cbd0690c2ed7: Waiting
 cf2a89ec0b8e: Waiting
 d7f2c248a718: Waiting
 b51194abfc91: Waiting
-92dc7d59747e: Layer already exists
-745df08baf31: Layer already exists
-a98ed939692d: Layer already exists
-db000a001619: Layer already exists
-883ac178e3c6: Layer already exists
-a6acc741cf67: Layer already exists
-f3dd6d18dff6: Layer already exists
-b7c9085b1781: Layer already exists
-97d64ccfca26: Layer already exists
-7a0173bd973d: Layer already exists
-5f70bf18a086: Layer already exists
+8ae1c30fa527: Layer already exists
+4b7e5c888893: Layer already exists
+0e92a6d50ff0: Layer already exists
+facb45d42668: Layer already exists
+1d348c908484: Layer already exists
+53eefe8bc185: Layer already exists
+2dca57905357: Layer already exists
+2ce10330d6d9: Layer already exists
+6e287cc90e0f: Layer already exists
+26dc736f2ce8: Layer already exists
 37656b777db7: Layer already exists
+5f70bf18a086: Layer already exists
 1fcbf51a61ed: Layer already exists
 5255f8a642ad: Layer already exists
 1c1ba21eb22a: Layer already exists
-cf2a89ec0b8e: Layer already exists
 d6495411ea84: Layer already exists
 cbd0690c2ed7: Layer already exists
 d7f2c248a718: Layer already exists
+cf2a89ec0b8e: Layer already exists
 b51194abfc91: Layer already exists
-6.0.3.1.test-cicd.81c2369: digest: sha256:5451c4dfaedf4869858ba783af2c50e516d47e22907fee3d93e20e9d8acd43a2 size: 4505
+6.0.3.1.test-cicd.81c2369: digest: sha256:57d61922fb649715585d2f1f1aa0d7a2491533fb3a1b046fcd2a8894735dc389 size: 4505
 +for OTHER_TAG in '${OTHER_IMAGE_TAGS}'
 +docker tag quay.io/noirolabs/acc-provision-operator:6.0.3.1.test-cicd.81c2369 quay.io/noirolabs/acc-provision-operator:6.0.3.1.test-cicd.81c2369.080223.466
 +docker push quay.io/noirolabs/acc-provision-operator:6.0.3.1.test-cicd.81c2369.080223.466
 The push refers to repository [quay.io/noirolabs/acc-provision-operator]
-745df08baf31: Preparing
-92dc7d59747e: Preparing
-883ac178e3c6: Preparing
-a98ed939692d: Preparing
-db000a001619: Preparing
-a6acc741cf67: Preparing
-f3dd6d18dff6: Preparing
-b7c9085b1781: Preparing
-7a0173bd973d: Preparing
-97d64ccfca26: Preparing
+4b7e5c888893: Preparing
+1d348c908484: Preparing
+facb45d42668: Preparing
+8ae1c30fa527: Preparing
+0e92a6d50ff0: Preparing
+53eefe8bc185: Preparing
+2dca57905357: Preparing
+2ce10330d6d9: Preparing
+6e287cc90e0f: Preparing
+26dc736f2ce8: Preparing
 37656b777db7: Preparing
 5f70bf18a086: Preparing
 1fcbf51a61ed: Preparing
@@ -1972,56 +1972,56 @@ cbd0690c2ed7: Preparing
 cf2a89ec0b8e: Preparing
 d7f2c248a718: Preparing
 b51194abfc91: Preparing
+53eefe8bc185: Waiting
+2dca57905357: Waiting
+2ce10330d6d9: Waiting
+6e287cc90e0f: Waiting
+26dc736f2ce8: Waiting
+37656b777db7: Waiting
 5f70bf18a086: Waiting
 1fcbf51a61ed: Waiting
 5255f8a642ad: Waiting
 1c1ba21eb22a: Waiting
-a6acc741cf67: Waiting
-f3dd6d18dff6: Waiting
 d6495411ea84: Waiting
 cbd0690c2ed7: Waiting
-b7c9085b1781: Waiting
 cf2a89ec0b8e: Waiting
-7a0173bd973d: Waiting
-97d64ccfca26: Waiting
 d7f2c248a718: Waiting
-37656b777db7: Waiting
 b51194abfc91: Waiting
-92dc7d59747e: Layer already exists
-883ac178e3c6: Layer already exists
-745df08baf31: Layer already exists
-a98ed939692d: Layer already exists
-db000a001619: Layer already exists
-b7c9085b1781: Layer already exists
-97d64ccfca26: Layer already exists
-7a0173bd973d: Layer already exists
-a6acc741cf67: Layer already exists
-f3dd6d18dff6: Layer already exists
+4b7e5c888893: Layer already exists
+1d348c908484: Layer already exists
+facb45d42668: Layer already exists
+8ae1c30fa527: Layer already exists
+0e92a6d50ff0: Layer already exists
+2ce10330d6d9: Layer already exists
+6e287cc90e0f: Layer already exists
+2dca57905357: Layer already exists
+53eefe8bc185: Layer already exists
+26dc736f2ce8: Layer already exists
 37656b777db7: Layer already exists
-1fcbf51a61ed: Layer already exists
 5f70bf18a086: Layer already exists
-5255f8a642ad: Layer already exists
+1fcbf51a61ed: Layer already exists
 1c1ba21eb22a: Layer already exists
+5255f8a642ad: Layer already exists
 d6495411ea84: Layer already exists
 cf2a89ec0b8e: Layer already exists
+cbd0690c2ed7: Layer already exists
 d7f2c248a718: Layer already exists
 b51194abfc91: Layer already exists
-cbd0690c2ed7: Layer already exists
-6.0.3.1.test-cicd.81c2369.080223.466: digest: sha256:5451c4dfaedf4869858ba783af2c50e516d47e22907fee3d93e20e9d8acd43a2 size: 4505
+6.0.3.1.test-cicd.81c2369.080223.466: digest: sha256:57d61922fb649715585d2f1f1aa0d7a2491533fb3a1b046fcd2a8894735dc389 size: 4505
 +for OTHER_TAG in '${OTHER_IMAGE_TAGS}'
 +docker tag quay.io/noirolabs/acc-provision-operator:6.0.3.1.test-cicd.81c2369 quay.io/noirolabs/acc-provision-operator:6.0.3.1.test-cicd.81c2369.z
 +docker push quay.io/noirolabs/acc-provision-operator:6.0.3.1.test-cicd.81c2369.z
 The push refers to repository [quay.io/noirolabs/acc-provision-operator]
-745df08baf31: Preparing
-92dc7d59747e: Preparing
-883ac178e3c6: Preparing
-a98ed939692d: Preparing
-db000a001619: Preparing
-a6acc741cf67: Preparing
-f3dd6d18dff6: Preparing
-b7c9085b1781: Preparing
-7a0173bd973d: Preparing
-97d64ccfca26: Preparing
+4b7e5c888893: Preparing
+1d348c908484: Preparing
+facb45d42668: Preparing
+8ae1c30fa527: Preparing
+0e92a6d50ff0: Preparing
+53eefe8bc185: Preparing
+2dca57905357: Preparing
+2ce10330d6d9: Preparing
+6e287cc90e0f: Preparing
+26dc736f2ce8: Preparing
 37656b777db7: Preparing
 5f70bf18a086: Preparing
 1fcbf51a61ed: Preparing
@@ -2032,56 +2032,56 @@ cbd0690c2ed7: Preparing
 cf2a89ec0b8e: Preparing
 d7f2c248a718: Preparing
 b51194abfc91: Preparing
+53eefe8bc185: Waiting
+2dca57905357: Waiting
+2ce10330d6d9: Waiting
+6e287cc90e0f: Waiting
+26dc736f2ce8: Waiting
+37656b777db7: Waiting
 5f70bf18a086: Waiting
 1fcbf51a61ed: Waiting
 5255f8a642ad: Waiting
 1c1ba21eb22a: Waiting
 d6495411ea84: Waiting
 cbd0690c2ed7: Waiting
-a6acc741cf67: Waiting
-f3dd6d18dff6: Waiting
 cf2a89ec0b8e: Waiting
 d7f2c248a718: Waiting
-b7c9085b1781: Waiting
-7a0173bd973d: Waiting
 b51194abfc91: Waiting
-97d64ccfca26: Waiting
-37656b777db7: Waiting
-a98ed939692d: Layer already exists
-883ac178e3c6: Layer already exists
-745df08baf31: Layer already exists
-db000a001619: Layer already exists
-92dc7d59747e: Layer already exists
-a6acc741cf67: Layer already exists
-f3dd6d18dff6: Layer already exists
-b7c9085b1781: Layer already exists
-7a0173bd973d: Layer already exists
-97d64ccfca26: Layer already exists
+0e92a6d50ff0: Layer already exists
+8ae1c30fa527: Layer already exists
+1d348c908484: Layer already exists
+4b7e5c888893: Layer already exists
+facb45d42668: Layer already exists
+2dca57905357: Layer already exists
+53eefe8bc185: Layer already exists
+2ce10330d6d9: Layer already exists
+26dc736f2ce8: Layer already exists
+6e287cc90e0f: Layer already exists
 37656b777db7: Layer already exists
 5f70bf18a086: Layer already exists
 1fcbf51a61ed: Layer already exists
 5255f8a642ad: Layer already exists
 1c1ba21eb22a: Layer already exists
+cbd0690c2ed7: Layer already exists
+cf2a89ec0b8e: Layer already exists
 d6495411ea84: Layer already exists
 d7f2c248a718: Layer already exists
-cf2a89ec0b8e: Layer already exists
-cbd0690c2ed7: Layer already exists
 b51194abfc91: Layer already exists
-6.0.3.1.test-cicd.81c2369.z: digest: sha256:5451c4dfaedf4869858ba783af2c50e516d47e22907fee3d93e20e9d8acd43a2 size: 4505
+6.0.3.1.test-cicd.81c2369.z: digest: sha256:57d61922fb649715585d2f1f1aa0d7a2491533fb3a1b046fcd2a8894735dc389 size: 4505
 +for OTHER_TAG in '${OTHER_IMAGE_TAGS}'
 +docker tag quay.io/noirolabs/acc-provision-operator:6.0.3.1.test-cicd.81c2369 quay.io/noirolabs/acc-provision-operator:kmr2-5.2.7-test
 +docker push quay.io/noirolabs/acc-provision-operator:kmr2-5.2.7-test
 The push refers to repository [quay.io/noirolabs/acc-provision-operator]
-745df08baf31: Preparing
-92dc7d59747e: Preparing
-883ac178e3c6: Preparing
-a98ed939692d: Preparing
-db000a001619: Preparing
-a6acc741cf67: Preparing
-f3dd6d18dff6: Preparing
-b7c9085b1781: Preparing
-7a0173bd973d: Preparing
-97d64ccfca26: Preparing
+4b7e5c888893: Preparing
+1d348c908484: Preparing
+facb45d42668: Preparing
+8ae1c30fa527: Preparing
+0e92a6d50ff0: Preparing
+53eefe8bc185: Preparing
+2dca57905357: Preparing
+2ce10330d6d9: Preparing
+6e287cc90e0f: Preparing
+26dc736f2ce8: Preparing
 37656b777db7: Preparing
 5f70bf18a086: Preparing
 1fcbf51a61ed: Preparing
@@ -2092,42 +2092,42 @@ cbd0690c2ed7: Preparing
 cf2a89ec0b8e: Preparing
 d7f2c248a718: Preparing
 b51194abfc91: Preparing
+53eefe8bc185: Waiting
+2dca57905357: Waiting
+2ce10330d6d9: Waiting
+6e287cc90e0f: Waiting
+26dc736f2ce8: Waiting
+37656b777db7: Waiting
 5f70bf18a086: Waiting
 1fcbf51a61ed: Waiting
 5255f8a642ad: Waiting
 1c1ba21eb22a: Waiting
 d6495411ea84: Waiting
-a6acc741cf67: Waiting
 cbd0690c2ed7: Waiting
 cf2a89ec0b8e: Waiting
-f3dd6d18dff6: Waiting
-b7c9085b1781: Waiting
 d7f2c248a718: Waiting
 b51194abfc91: Waiting
-7a0173bd973d: Waiting
-97d64ccfca26: Waiting
-37656b777db7: Waiting
-92dc7d59747e: Layer already exists
-db000a001619: Layer already exists
-883ac178e3c6: Layer already exists
-a98ed939692d: Layer already exists
-745df08baf31: Layer already exists
-a6acc741cf67: Layer already exists
-b7c9085b1781: Layer already exists
-7a0173bd973d: Layer already exists
-f3dd6d18dff6: Layer already exists
-97d64ccfca26: Layer already exists
+facb45d42668: Layer already exists
+4b7e5c888893: Layer already exists
+1d348c908484: Layer already exists
+8ae1c30fa527: Layer already exists
+0e92a6d50ff0: Layer already exists
+53eefe8bc185: Layer already exists
+2ce10330d6d9: Layer already exists
+2dca57905357: Layer already exists
+6e287cc90e0f: Layer already exists
+26dc736f2ce8: Layer already exists
 37656b777db7: Layer already exists
-5f70bf18a086: Layer already exists
-5255f8a642ad: Layer already exists
 1fcbf51a61ed: Layer already exists
+5255f8a642ad: Layer already exists
 1c1ba21eb22a: Layer already exists
+5f70bf18a086: Layer already exists
 d6495411ea84: Layer already exists
 cbd0690c2ed7: Layer already exists
-cf2a89ec0b8e: Layer already exists
 d7f2c248a718: Layer already exists
+cf2a89ec0b8e: Layer already exists
 b51194abfc91: Layer already exists
-kmr2-5.2.7-test: digest: sha256:5451c4dfaedf4869858ba783af2c50e516d47e22907fee3d93e20e9d8acd43a2 size: 4505
+kmr2-5.2.7-test: digest: sha256:57d61922fb649715585d2f1f1aa0d7a2491533fb3a1b046fcd2a8894735dc389 size: 4505
 +docker login -u=[secure] -p=[secure] quay.io
 WARNING! Using --password via the CLI is insecure. Use --password-stdin.
 WARNING! Your password will be stored unencrypted in /home/travis/.docker/config.json.
@@ -2138,16 +2138,16 @@ Login Succeeded
 +docker tag quay.io/noirolabs/acc-provision-operator:6.0.3.1.test-cicd.81c2369 quay.io/noiro/acc-provision-operator:6.0.3.1.test-cicd.81c2369.080223.466
 +docker push quay.io/noiro/acc-provision-operator:6.0.3.1.test-cicd.81c2369.080223.466
 The push refers to repository [quay.io/noiro/acc-provision-operator]
-745df08baf31: Preparing
-92dc7d59747e: Preparing
-883ac178e3c6: Preparing
-a98ed939692d: Preparing
-db000a001619: Preparing
-a6acc741cf67: Preparing
-f3dd6d18dff6: Preparing
-b7c9085b1781: Preparing
-7a0173bd973d: Preparing
-97d64ccfca26: Preparing
+4b7e5c888893: Preparing
+1d348c908484: Preparing
+facb45d42668: Preparing
+8ae1c30fa527: Preparing
+0e92a6d50ff0: Preparing
+53eefe8bc185: Preparing
+2dca57905357: Preparing
+2ce10330d6d9: Preparing
+6e287cc90e0f: Preparing
+26dc736f2ce8: Preparing
 37656b777db7: Preparing
 5f70bf18a086: Preparing
 1fcbf51a61ed: Preparing
@@ -2158,11 +2158,11 @@ cbd0690c2ed7: Preparing
 cf2a89ec0b8e: Preparing
 d7f2c248a718: Preparing
 b51194abfc91: Preparing
-a6acc741cf67: Waiting
-f3dd6d18dff6: Waiting
-b7c9085b1781: Waiting
-7a0173bd973d: Waiting
-97d64ccfca26: Waiting
+53eefe8bc185: Waiting
+2dca57905357: Waiting
+2ce10330d6d9: Waiting
+6e287cc90e0f: Waiting
+26dc736f2ce8: Waiting
 37656b777db7: Waiting
 5f70bf18a086: Waiting
 1fcbf51a61ed: Waiting
@@ -2173,40 +2173,40 @@ cbd0690c2ed7: Waiting
 cf2a89ec0b8e: Waiting
 d7f2c248a718: Waiting
 b51194abfc91: Waiting
-745df08baf31: Mounted from noirolabs/acc-provision-operator
-92dc7d59747e: Mounted from noirolabs/acc-provision-operator
-a98ed939692d: Mounted from noirolabs/acc-provision-operator
-883ac178e3c6: Mounted from noirolabs/acc-provision-operator
-db000a001619: Mounted from noirolabs/acc-provision-operator
-a6acc741cf67: Mounted from noirolabs/acc-provision-operator
-f3dd6d18dff6: Mounted from noirolabs/acc-provision-operator
-7a0173bd973d: Mounted from noirolabs/acc-provision-operator
-b7c9085b1781: Mounted from noirolabs/acc-provision-operator
-1fcbf51a61ed: Layer already exists
+1d348c908484: Mounted from noirolabs/acc-provision-operator
+0e92a6d50ff0: Mounted from noirolabs/acc-provision-operator
+facb45d42668: Mounted from noirolabs/acc-provision-operator
+4b7e5c888893: Mounted from noirolabs/acc-provision-operator
+8ae1c30fa527: Mounted from noirolabs/acc-provision-operator
+2ce10330d6d9: Mounted from noirolabs/acc-provision-operator
+53eefe8bc185: Mounted from noirolabs/acc-provision-operator
+6e287cc90e0f: Mounted from noirolabs/acc-provision-operator
+2dca57905357: Mounted from noirolabs/acc-provision-operator
 37656b777db7: Layer already exists
 5f70bf18a086: Layer already exists
-97d64ccfca26: Mounted from noirolabs/acc-provision-operator
+26dc736f2ce8: Mounted from noirolabs/acc-provision-operator
 5255f8a642ad: Layer already exists
+1fcbf51a61ed: Layer already exists
 1c1ba21eb22a: Layer already exists
 d6495411ea84: Layer already exists
+cf2a89ec0b8e: Layer already exists
 cbd0690c2ed7: Layer already exists
 d7f2c248a718: Layer already exists
-cf2a89ec0b8e: Layer already exists
 b51194abfc91: Layer already exists
-6.0.3.1.test-cicd.81c2369.080223.466: digest: sha256:5451c4dfaedf4869858ba783af2c50e516d47e22907fee3d93e20e9d8acd43a2 size: 4505
+6.0.3.1.test-cicd.81c2369.080223.466: digest: sha256:57d61922fb649715585d2f1f1aa0d7a2491533fb3a1b046fcd2a8894735dc389 size: 4505
 +docker tag quay.io/noirolabs/acc-provision-operator:6.0.3.1.test-cicd.81c2369 quay.io/noiro/acc-provision-operator:6.0.3.1.test-cicd.81c2369.z
 +docker push quay.io/noiro/acc-provision-operator:6.0.3.1.test-cicd.81c2369.z
 The push refers to repository [quay.io/noiro/acc-provision-operator]
-745df08baf31: Preparing
-92dc7d59747e: Preparing
-883ac178e3c6: Preparing
-a98ed939692d: Preparing
-db000a001619: Preparing
-a6acc741cf67: Preparing
-f3dd6d18dff6: Preparing
-b7c9085b1781: Preparing
-7a0173bd973d: Preparing
-97d64ccfca26: Preparing
+4b7e5c888893: Preparing
+1d348c908484: Preparing
+facb45d42668: Preparing
+8ae1c30fa527: Preparing
+0e92a6d50ff0: Preparing
+53eefe8bc185: Preparing
+2dca57905357: Preparing
+2ce10330d6d9: Preparing
+6e287cc90e0f: Preparing
+26dc736f2ce8: Preparing
 37656b777db7: Preparing
 5f70bf18a086: Preparing
 1fcbf51a61ed: Preparing
@@ -2217,42 +2217,42 @@ cbd0690c2ed7: Preparing
 cf2a89ec0b8e: Preparing
 d7f2c248a718: Preparing
 b51194abfc91: Preparing
-a6acc741cf67: Waiting
-5255f8a642ad: Waiting
-1c1ba21eb22a: Waiting
-f3dd6d18dff6: Waiting
-b7c9085b1781: Waiting
-d6495411ea84: Waiting
-7a0173bd973d: Waiting
-cbd0690c2ed7: Waiting
-97d64ccfca26: Waiting
-cf2a89ec0b8e: Waiting
+53eefe8bc185: Waiting
+2dca57905357: Waiting
+2ce10330d6d9: Waiting
+6e287cc90e0f: Waiting
+26dc736f2ce8: Waiting
 37656b777db7: Waiting
 5f70bf18a086: Waiting
-d7f2c248a718: Waiting
 1fcbf51a61ed: Waiting
+5255f8a642ad: Waiting
+1c1ba21eb22a: Waiting
+d6495411ea84: Waiting
+cbd0690c2ed7: Waiting
+cf2a89ec0b8e: Waiting
+d7f2c248a718: Waiting
 b51194abfc91: Waiting
-92dc7d59747e: Layer already exists
-745df08baf31: Layer already exists
-a98ed939692d: Layer already exists
-883ac178e3c6: Layer already exists
-db000a001619: Layer already exists
-f3dd6d18dff6: Layer already exists
-b7c9085b1781: Layer already exists
-a6acc741cf67: Layer already exists
-7a0173bd973d: Layer already exists
-97d64ccfca26: Layer already exists
-5f70bf18a086: Layer already exists
+1d348c908484: Layer already exists
+8ae1c30fa527: Layer already exists
+facb45d42668: Layer already exists
+4b7e5c888893: Layer already exists
+0e92a6d50ff0: Layer already exists
+2dca57905357: Layer already exists
+26dc736f2ce8: Layer already exists
+2ce10330d6d9: Layer already exists
+6e287cc90e0f: Layer already exists
+53eefe8bc185: Layer already exists
 37656b777db7: Layer already exists
+1c1ba21eb22a: Layer already exists
 1fcbf51a61ed: Layer already exists
 5255f8a642ad: Layer already exists
-1c1ba21eb22a: Layer already exists
-d6495411ea84: Layer already exists
+5f70bf18a086: Layer already exists
 cbd0690c2ed7: Layer already exists
 cf2a89ec0b8e: Layer already exists
+d6495411ea84: Layer already exists
 b51194abfc91: Layer already exists
 d7f2c248a718: Layer already exists
-6.0.3.1.test-cicd.81c2369.z: digest: sha256:5451c4dfaedf4869858ba783af2c50e516d47e22907fee3d93e20e9d8acd43a2 size: 4505
+6.0.3.1.test-cicd.81c2369.z: digest: sha256:57d61922fb649715585d2f1f1aa0d7a2491533fb3a1b046fcd2a8894735dc389 size: 4505
 +docker login -u=[secure] '-p=[secure]' docker.io
 WARNING! Using --password via the CLI is insecure. Use --password-stdin.
 WARNING! Your password will be stored unencrypted in /home/travis/.docker/config.json.
@@ -2263,16 +2263,16 @@ Login Succeeded
 +docker tag quay.io/noirolabs/acc-provision-operator:6.0.3.1.test-cicd.81c2369 docker.io/noiro/acc-provision-operator:6.0.3.1.test-cicd.81c2369.080223.466
 +docker push docker.io/noiro/acc-provision-operator:6.0.3.1.test-cicd.81c2369.080223.466
 The push refers to repository [docker.io/noiro/acc-provision-operator]
-745df08baf31: Preparing
-92dc7d59747e: Preparing
-883ac178e3c6: Preparing
-a98ed939692d: Preparing
-db000a001619: Preparing
-a6acc741cf67: Preparing
-f3dd6d18dff6: Preparing
-b7c9085b1781: Preparing
-7a0173bd973d: Preparing
-97d64ccfca26: Preparing
+4b7e5c888893: Preparing
+1d348c908484: Preparing
+facb45d42668: Preparing
+8ae1c30fa527: Preparing
+0e92a6d50ff0: Preparing
+53eefe8bc185: Preparing
+2dca57905357: Preparing
+2ce10330d6d9: Preparing
+6e287cc90e0f: Preparing
+26dc736f2ce8: Preparing
 37656b777db7: Preparing
 5f70bf18a086: Preparing
 1fcbf51a61ed: Preparing
@@ -2283,11 +2283,6 @@ cbd0690c2ed7: Preparing
 cf2a89ec0b8e: Preparing
 d7f2c248a718: Preparing
 b51194abfc91: Preparing
-a6acc741cf67: Waiting
-f3dd6d18dff6: Waiting
-b7c9085b1781: Waiting
-7a0173bd973d: Waiting
-97d64ccfca26: Waiting
 37656b777db7: Waiting
 5f70bf18a086: Waiting
 1fcbf51a61ed: Waiting
@@ -2298,82 +2293,79 @@ cbd0690c2ed7: Waiting
 cf2a89ec0b8e: Waiting
 d7f2c248a718: Waiting
 b51194abfc91: Waiting
-883ac178e3c6: Pushed
-92dc7d59747e: Pushed
-745df08baf31: Pushed
-b7c9085b1781: Pushed
-f3dd6d18dff6: Pushed
-a98ed939692d: Pushed
-db000a001619: Pushed
+53eefe8bc185: Waiting
+2dca57905357: Waiting
+2ce10330d6d9: Waiting
+6e287cc90e0f: Waiting
+26dc736f2ce8: Waiting
+facb45d42668: Pushed
+1d348c908484: Pushed
+4b7e5c888893: Pushed
+2ce10330d6d9: Pushed
+2dca57905357: Pushed
+0e92a6d50ff0: Pushed
 37656b777db7: Layer already exists
 5f70bf18a086: Layer already exists
 1fcbf51a61ed: Layer already exists
+8ae1c30fa527: Pushed
 5255f8a642ad: Layer already exists
+26dc736f2ce8: Pushed
+6e287cc90e0f: Pushed
+d6495411ea84: Layer already exists
 1c1ba21eb22a: Layer already exists
 cbd0690c2ed7: Layer already exists
-d6495411ea84: Layer already exists
-7a0173bd973d: Pushed
-d7f2c248a718: Layer already exists
 cf2a89ec0b8e: Layer already exists
-97d64ccfca26: Pushed
-a6acc741cf67: Pushed
+d7f2c248a718: Layer already exists
+53eefe8bc185: Pushed
 b51194abfc91: Pushed
-6.0.3.1.test-cicd.81c2369.080223.466: digest: sha256:2422fb905f6de6b1276d2775b652b54eb7400975601eef4931fcd61ce000a63e size: 4505
-+docker tag quay.io/noirolabs/acc-provision-operator:6.0.3.1.test-cicd.81c2369 docker.io/noiro/acc-provision-operator:6.0.3.1.test-cicd.81c2369.z
-+docker push docker.io/noiro/acc-provision-operator:6.0.3.1.test-cicd.81c2369.z
-The push refers to repository [docker.io/noiro/acc-provision-operator]
-745df08baf31: Preparing
-92dc7d59747e: Preparing
-883ac178e3c6: Preparing
-a98ed939692d: Preparing
-db000a001619: Preparing
-a6acc741cf67: Preparing
-f3dd6d18dff6: Preparing
-b7c9085b1781: Preparing
-7a0173bd973d: Preparing
-97d64ccfca26: Preparing
-37656b777db7: Preparing
-5f70bf18a086: Preparing
-1fcbf51a61ed: Preparing
-5255f8a642ad: Preparing
-a6acc741cf67: Waiting
-f3dd6d18dff6: Waiting
-b7c9085b1781: Waiting
-7a0173bd973d: Waiting
-97d64ccfca26: Waiting
-37656b777db7: Waiting
-5f70bf18a086: Waiting
-1fcbf51a61ed: Waiting
-1c1ba21eb22a: Preparing
-d6495411ea84: Preparing
-cbd0690c2ed7: Preparing
-cf2a89ec0b8e: Preparing
-d7f2c248a718: Preparing
-b51194abfc91: Preparing
-5255f8a642ad: Waiting
-1c1ba21eb22a: Waiting
-d6495411ea84: Waiting
-d7f2c248a718: Waiting
-b51194abfc91: Waiting
-cbd0690c2ed7: Waiting
-cf2a89ec0b8e: Waiting
-745df08baf31: Layer already exists
-db000a001619: Layer already exists
-883ac178e3c6: Layer already exists
-a98ed939692d: Layer already exists
-f3dd6d18dff6: Layer already exists
-92dc7d59747e: Layer already exists
-a6acc741cf67: Layer already exists
-97d64ccfca26: Layer already exists
-37656b777db7: Layer already exists
+6e287cc90e0f: Layer already exists
 5f70bf18a086: Layer already exists
-b7c9085b1781: Layer already exists
-7a0173bd973d: Layer already exists
 1fcbf51a61ed: Layer already exists
-5255f8a642ad: Layer already exists
 1c1ba21eb22a: Layer already exists
-cbd0690c2ed7: Layer already exists
+5255f8a642ad: Layer already exists
 d6495411ea84: Layer already exists
 cf2a89ec0b8e: Layer already exists
-d7f2c248a718: Layer already exists
+cbd0690c2ed7: Layer already exists
 b51194abfc91: Layer already exists
+d7f2c248a718: Layer already exists
+6.0.3.1.test-cicd.81c2369.z: digest: sha256:9b015b8191db84f47d5b189bdc671972f5f853c32a226a6d7ac44a4c08784244 size: 4505
++/tmp/cicd/travis/push-to-cicd-status.sh quay.io/noirolabs acc-provision-operator 6.0.3.1.test-cicd.81c2369 6.0.3.1.test-cicd.81c2369,6.0.3.1.test-cicd.81c2369.080223.466 sha256:aca5c214085743a1bd60ef1ce9c4e8f2cac9a2c935ac9015500e7081577ec516
+++dirname /tmp/cicd/travis/push-to-cicd-status.sh
++SCRIPTS_DIR=/tmp/cicd/travis
++source /tmp/cicd/travis/globals.sh
+++set -x
++++date +%m%d%y
+++DATE_TAG=080223
+++TRAVIS_TAG_WITH_UPSTREAM_ID=6.0.3.1.test-cicd.81c2369
+++TRAVIS_TAG_WITH_UPSTREAM_ID_DATE_TRAVIS_BUILD_NUMBER=6.0.3.1.test-cicd.81c2369.080223.466
+++IMAGE_TAG=6.0.3.1.test-cicd.81c2369
+++UPSTREAM_IMAGE_TAG=6.0.3.1.81c2369
+++UPSTREAM_IMAGE_Z_TAG=6.0.3.1.81c2369.z
+++IMAGE_Z_TAG=6.0.3.1.test-cicd.81c2369.z
+++RC_PREFIX=6.0.3.1rc
+++RC_REGEX='6.0.3.1rc[0-9]+'
+++QUAY_REGISTRY=quay.io/noirolabs
+++QUAY_NOIRO_REGISTRY=quay.io/noiro
+++DOCKER_REGISTRY=docker.io/noiro
+++git rev-parse --abbrev-ref HEAD
++current_branch=HEAD
++IMAGE_BUILD_REGISTRY=quay.io/noirolabs
++IMAGE=acc-provision-operator
++IMAGE_BUILD_TAG=6.0.3.1.test-cicd.81c2369
++OTHER_IMAGE_TAGS=6.0.3.1.test-cicd.81c2369,6.0.3.1.test-cicd.81c2369.080223.466
++IMAGE_SHA=sha256:aca5c214085743a1bd60ef1ce9c4e8f2cac9a2c935ac9015500e7081577ec516
++GIT_REPO=https://github.com/noironetworks/test-cicd-status.git
++GIT_LOCAL_DIR=test-cicd-status
++GIT_BRANCH=main
++GIT_EMAIL=[secure]
++GIT_TOKEN=[secure]
++GIT_USER=travis-tagger
++gitclonerepo
++cd /tmp/
++git clone https://travis-tagger:[secure]@github.com/noironetworks/test-cicd-status.git test-cicd-status
+Cloning into 'test-cicd-status'...
++cd /tmp/test-cicd-status
++git remote set-url origin https://travis-tagger:[secure]@github.com/noironetworks/test-cicd-status.git
++addartifacts
++cd /tmp/test-cicd-status
++git pull --rebase origin main
