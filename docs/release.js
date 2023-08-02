@@ -24,8 +24,8 @@ fetch('release_artifacts/releases.yaml')
           // create a link to commit
           const commitCell = document.createElement('td');
           const commitLink = document.createElement('a');
-          commitLink.href = image.commit.link;
-          commitLink.textContent = image.commit.sha.substring(0, 7);
+          commitLink.href = image.commit[0].link;
+          commitLink.textContent = image.commit[0].sha.substring(0, 7);
           commitCell.appendChild(commitLink);
           releaseRow.appendChild(commitCell);
 
@@ -47,7 +47,7 @@ fetch('release_artifacts/releases.yaml')
           const quaySHAsList = document.createElement('ul');
           for (const quayTag of image.quay) {
             const quaySHATagItem = document.createElement('li');
-            quaySHATagItem.textContent = quayTag.sha;
+            quaySHATagItem.textContent = quayTag.sha.replace('sha256:', 'sha256: ');
             quaySHAsList.appendChild(quaySHATagItem);
           }
           quaySHACell.appendChild(quaySHAsList);
@@ -72,6 +72,7 @@ fetch('release_artifacts/releases.yaml')
           for (const dockerTag of image.docker) {
             const dockerSHATagItem = document.createElement('li');
             dockerSHATagItem.textContent = dockerTag.sha;
+            dockerSHATagItem.textContent = dockerSHATagItem.textContent.replace('sha256:', 'sha256: ');
             dockerSHAsList.appendChild(dockerSHATagItem);
           }
           dockerSHACell.appendChild(dockerSHAsList);
