@@ -1,3 +1,16 @@
+// Function to copy the code in the code box to the clipboard
+function copyCodeToClipboard() {
+    const codeBox = document.getElementById('code-box');
+    const textToCopy = codeBox.textContent;
+  
+    const tempTextArea = document.createElement('textarea');
+    tempTextArea.value = textToCopy;
+    document.body.appendChild(tempTextArea);
+    tempTextArea.select();
+    document.execCommand('copy');
+    document.body.removeChild(tempTextArea);
+  }
+
 // Fetch the YAML file and load the data
 fetch('release_artifacts/releases.yaml')
   .then(response => response.text())
@@ -10,6 +23,15 @@ fetch('release_artifacts/releases.yaml')
     const releaseName = urlParams.get('release');
     const imageRegistry = urlParams.get('dq'); // Should be either "quay" or "docker"
 
+    // Define the registry domain based on the imageRegistry value
+    let registryDomain = '';
+    if (imageRegistry === 'docker') {
+      registryDomain = 'docker.io';
+    } else if (imageRegistry === 'quay') {
+      registryDomain = 'quay.io';
+    }
+ 
+
     // Find the specific release data
     const releaseData = parsedData.releases.find(release => release.release_name === releaseName);
     if (!releaseData) {
@@ -21,31 +43,28 @@ fetch('release_artifacts/releases.yaml')
     const imagePrefixElement = document.getElementById('image-prefix');
     imagePrefixElement.textContent = imageRegistry;
 
-    // Populate the SHA256 manifest table
-    const manifestTableBody = document.getElementById('manifest-sha-table-body');
-    for (const image of releaseData.container_images) {
-      if (imageRegistry === 'docker' && image.docker.length > 0) {
-        const sha256 = image.docker[0].sha.replace('sha256:', '');
-        const manifestRow = document.createElement('tr');
-        const manifestShaCell = document.createElement('td');
-        const manifestShaLink = document.createElement('a');
-        manifestShaLink.href = image.docker[0].link;
-        manifestShaLink.textContent = `${image.name}@sha256:${sha256}`;
-        manifestShaCell.appendChild(manifestShaLink);
-        manifestRow.appendChild(manifestShaCell);
-        manifestTableBody.appendChild(manifestRow);
-      } else if (imageRegistry === 'quay' && image.quay.length > 0) {
-        const sha256 = image.quay[0].sha.replace('sha256:', '');
-        const manifestRow = document.createElement('tr');
-        const manifestShaCell = document.createElement('td');
-        const manifestShaLink = document.createElement('a');
-        manifestShaLink.href = image.quay[0].link;
-        manifestShaLink.textContent = `${image.name}@sha256:${sha256}`;
-        manifestShaCell.appendChild(manifestShaLink);
-        manifestRow.appendChild(manifestShaCell);
-        manifestTableBody.appendChild(manifestRow);
-      }
-    }
+     // Generate the code for the code box
+     let codeContent = `registry:\n`;
+     codeContent += `  use_digest: true\n`;
+     codeContent += `  image_prefix: ${registryDomain}/noiro \n`;
+ 
+     let imageIndex = 1;
+     for (const image of releaseData.container_images) {
+       let sha = '';
+       if (imageRegistry === 'docker' && image.docker.length > 0) {
+         sha = image.docker[0].sha.replace('sha256:', '');
+       } else if (imageRegistry === 'quay' && image.quay.length > 0) {
+         sha = image.quay[0].sha.replace('sha256:', '');
+       }
+ 
+       const imageNameVersion = `${image.name}_version: ${sha}\n`;
+       codeContent += `  ${imageNameVersion}`;
+       imageIndex++;
+     }
+ 
+     // Set the generated code to the code box
+     const codeBox = document.getElementById('code-box');
+     codeBox.textContent = codeContent;
   })
   .catch(error => {
     console.error("Error loading YAML file 'release_artifacts/releases.yaml':", error);

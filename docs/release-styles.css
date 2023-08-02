@@ -86,3 +86,47 @@ td {
   margin-left: 10%; /* Width of the menu */
   padding: 20px;
 }
+
+
+/* Add styles for the code box container */
+.code-box-container {
+  border: 1px solid #b0c3d9;
+  background-color: #f2f2f2;
+  padding: 10px;
+  border-radius: 4px;
+  display: inline-block;
+  margin-top: 10px;
+}
+
+/* Style the pre tag within the code box container */
+.code-box-container pre {
+  white-space: pre-wrap;
+  font-family: "Courier New", monospace;
+  font-size: 14px;
+  line-height: 1.5;
+  margin: 0;
+}
+
+/* Style the copy button */
+.code-box-container button {
+  background-color: #3c97f1;
+  color: #ffffff;
+  border: none;
+  padding: 8px 12px;
+  font-size: 14px;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+/* On hover, darken the copy button */
+.code-box-container button:hover {
+  background-color: #306bb8;
+}
+
+/* Make the copy button responsive to fit the code-box width */
+@media screen and (max-width: 500px) {
+  .code-box-container button {
+    width: 100%;
+  }
+}
