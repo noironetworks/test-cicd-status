@@ -79,13 +79,13 @@ releases:
       tag: 6.0.3.1.test-cicd.81c2369
     sbom: release_artifacts/6.0.3.1/openvswitch/6.0.3.1-sbom.txt
   - build-logs: release_artifacts/6.0.3.1/acc-provision-operator/6.0.3.1-buildlog.txt
-    commit:
-      link: https://github.com/noironetworks/acc-provision-operator/commit/611352c0b5f79dbb30990b13dbd1f85e85445eda
+    commit: !!python/tuple
+    - link: https://github.com/noironetworks/acc-provision-operator/commit/611352c0b5f79dbb30990b13dbd1f85e85445eda
       sha: 611352c0b5f79dbb30990b13dbd1f85e85445eda
     cve: release_artifacts/6.0.3.1/acc-provision-operator/6.0.3.1-cve.txt
     docker:
-    - link: "abc"
-      sha: sha256:8116e1e08d77de633a80bc771505de98d7001739e53466871033a40be7268a83
+    - link: https://hub.docker.com/layers/noiro/acc-provision-operator/6.0.3.1.test-cicd.81c2369.080223.466/sha-7179721433feb95d377204e10173227cc80ef6d45f99a1a094056d935e5a3d26?context=explore
+      sha: sha256:a826f9e7c47cd8a2e1e811e054f892e1e2ccb8407515cc96e5e387d4439259fc
       tag: 6.0.3.1.test-cicd.81c2369.z
     - link: https://hub.docker.com/layers/noiro/acc-provision-operator/6.0.3.1.test-cicd.81c2369.080123.466/sha256:25d4e78e1aa9234ec14faa5430b68579f406ac49063c1df9a25156bd1e893951?context=explore
       sha: sha256:25d4e78e1aa9234ec14faa5430b68579f406ac49063c1df9a25156bd1e893951
@@ -93,11 +93,11 @@ releases:
     name: acc-provision-operator
     quay:
     - link: https://quay.io/noirolabs/acc-provision-operator:6.0.3.1.test-cicd.81c2369.z
-      sha: sha256:8116e1e08d77de633a80bc771505de98d7001739e53466871033a40be7268a83
+      sha: sha256:a826f9e7c47cd8a2e1e811e054f892e1e2ccb8407515cc96e5e387d4439259fc
       tag: 6.0.3.1.test-cicd.81c2369.z
     - link: https://quay.io/noirolabs/acc-provision-operator:6.0.3.1.test-cicd.81c2369.z
       sha: sha256:25d4e78e1aa9234ec14faa5430b68579f406ac49063c1df9a25156bd1e893951
       tag: 6.0.3.1.test-cicd.81c2369.080123.466
     sbom: release_artifacts/6.0.3.1/acc-provision-operator/6.0.3.1-sbom.txt
-  last_updated: '2023-08-02 01:00:26'
+  last_updated: '2023-08-02 02:01:35'
   release_name: 6.0.3.1
