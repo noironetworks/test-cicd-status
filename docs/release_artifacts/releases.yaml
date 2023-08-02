@@ -66,5 +66,26 @@ releases:
       sha: sha256:932f03ca70b562afd1b86b27cb76af38bd5d5fddb5c1bca1d744fa0c9591ad11
       tag: 6.0.3.1.test-cicd.81c2369.080223.7755
     sbom: release_artifacts/6.0.3.1/aci-containers-controller/6.0.3.1-sbom.txt
-  last_updated: '2023-08-02 19:13:50'
+  - build-logs: release_artifacts/6.0.3.1/cnideploy/6.0.3.1-buildlog.txt
+    commit:
+    - link: https://github.com/noironetworks/cnideploy/commit/a55e04229ab676845ae8620b0f34c4652735dcf1
+      sha: a55e04229ab676845ae8620b0f34c4652735dcf1
+    cve: release_artifacts/6.0.3.1/cnideploy/6.0.3.1-cve.txt
+    docker:
+    - link: https://hub.docker.com/layers/noiro/cnideploy/6.0.3.1.test-cicd.81c2369.z/sha256:3b008ff4c5e1c987d8da302af6917a6e41fcf18487d787d11b59fad54efbe328?context=explore
+      sha: sha256:3b008ff4c5e1c987d8da302af6917a6e41fcf18487d787d11b59fad54efbe328
+      tag: 6.0.3.1.test-cicd.81c2369.z
+    - link: https://hub.docker.com/layers/noiro/cnideploy/6.0.3.1.test-cicd.81c2369.080223.7755/sha256:3b008ff4c5e1c987d8da302af6917a6e41fcf18487d787d11b59fad54efbe328?context=explore
+      sha: sha256:3b008ff4c5e1c987d8da302af6917a6e41fcf18487d787d11b59fad54efbe328
+      tag: 6.0.3.1.test-cicd.81c2369.080223.7755
+    name: cnideploy
+    quay:
+    - link: https://quay.io/noirolabs/cnideploy:6.0.3.1.test-cicd.81c2369.z
+      sha: sha256:3b008ff4c5e1c987d8da302af6917a6e41fcf18487d787d11b59fad54efbe328
+      tag: 6.0.3.1.test-cicd.81c2369.z
+    - link: https://quay.io/noirolabs/cnideploy:6.0.3.1.test-cicd.81c2369.080223.7755
+      sha: sha256:3b008ff4c5e1c987d8da302af6917a6e41fcf18487d787d11b59fad54efbe328
+      tag: 6.0.3.1.test-cicd.81c2369.080223.7755
+    sbom: release_artifacts/6.0.3.1/cnideploy/6.0.3.1-sbom.txt
+  last_updated: '2023-08-02 19:14:44'
   release_name: 6.0.3.1
