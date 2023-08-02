@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Release Details</title>
+  <link rel="stylesheet" type="text/css" href="release-styles.css">
+</head>
+<body>
+  <div class="menu-container">
+    <h4>Menu</h4>
+    <ul id="release-list">
+      <!-- List of tags will be dynamically populated here from listReleases.js -->
+    </ul>
+  </div>
+  <div class="content">
+  <h3>SHA256 Manifest</h3>
+  <body>
+    <h4>Image Prefix: <span id="image-prefix"></span></h4>
+  
+    <table>
+      <thead>
+        <tr>
+          <th>Image Manifest SHA256</th>
+        </tr>
+      </thead>
+      <tbody id="manifest-sha-table-body">
+      </tbody>
+    </table>
+  </body>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/js-yaml/3.14.1/js-yaml.min.js"></script>
+  <script src="manifest-sha.js"></script>
+  <script src="menu.js"></script>
+</body>
+</html>

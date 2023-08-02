@@ -11,7 +11,6 @@ fetch('release_artifacts/releases.yaml')
 
     const urlParams = new URLSearchParams(window.location.search);
     const releaseName = urlParams.get('release');
-
     for (const releaseData of parsedData.releases) {
       if (releaseData.release_name === releaseName) {
         for (const image of releaseData.container_images) {
@@ -45,7 +44,8 @@ fetch('release_artifacts/releases.yaml')
 
           const quaySHACell = document.createElement('td');
           const quaySHALink = document.createElement('a');
-          // quaySHAlink.href = image.quay[0].link;
+          const quay = "quay";
+          quaySHALink.href = `manifest-sha.html?release=${encodeURIComponent(releaseData.release_name)}&dq=${encodeURIComponent(quay)}`
           quaySHALink.textContent = image.quay[0].sha.replace('sha256:', '').substring(0, 12);
           quaySHACell.appendChild(quaySHALink);
           releaseRow.appendChild(quaySHACell);
@@ -66,7 +66,8 @@ fetch('release_artifacts/releases.yaml')
 
           const dockerSHACell = document.createElement('td');
           const dockerSHALink = document.createElement('a');
-          // dockerSHALink.href = image.quay[0].link;
+          const docker = "docker";
+          dockerSHALink.href = `manifest-sha.html?release=${encodeURIComponent(releaseData.release_name)}&dq=${encodeURIComponent(docker)}`
           dockerSHALink.textContent = image.docker[0].sha.replace('sha256:', '').substring(0, 12);
           dockerSHACell.appendChild(dockerSHALink);
           releaseRow.appendChild(dockerSHACell);
