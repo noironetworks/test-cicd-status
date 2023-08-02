@@ -1,8 +1,10 @@
 NAME                    INSTALLED                                 FIXED-IN     TYPE    VULNERABILITY        SEVERITY 
 bzip2-libs              1.0.6-26.el8                              (won't fix)  rpm     CVE-2019-12900       Low       
 certifi                 2023.7.22                                 2023.07.22   python  GHSA-xqr8-7jwr-rhp7  Low       
+cryptography            41.0.2                                    41.0.3       python  GHSA-jm77-qphf-c4w8  Low       
 curl                    7.61.1-30.el8_8.2                                      rpm     CVE-2023-28321       Medium    
 curl                    7.61.1-30.el8_8.2                                      rpm     CVE-2023-27536       Medium    
+curl                    7.61.1-30.el8_8.2                                      rpm     CVE-2023-28322       Low       
 curl                    7.61.1-30.el8_8.2                                      rpm     CVE-2023-28320       Low       
 curl                    7.61.1-30.el8_8.2                         (won't fix)  rpm     CVE-2023-27534       Low       
 dbus                    1:1.12.8-24.el8                                        rpm     CVE-2023-34969       Medium    
@@ -59,6 +61,7 @@ libcap                  2.48-4.el8                                             r
 libcap                  2.48-4.el8                                             rpm     CVE-2023-2602        Low       
 libcurl                 7.61.1-30.el8_8.2                                      rpm     CVE-2023-28321       Medium    
 libcurl                 7.61.1-30.el8_8.2                                      rpm     CVE-2023-27536       Medium    
+libcurl                 7.61.1-30.el8_8.2                                      rpm     CVE-2023-28322       Low       
 libcurl                 7.61.1-30.el8_8.2                                      rpm     CVE-2023-28320       Low       
 libcurl                 7.61.1-30.el8_8.2                         (won't fix)  rpm     CVE-2023-27534       Low       
 libgcc                  8.5.0-18.el8                              (won't fix)  rpm     CVE-2021-42694       Medium    
@@ -89,22 +92,22 @@ ncurses-libs            6.1-9.20180224.el8                        (won't fix)  r
 ncurses-libs            6.1-9.20180224.el8                        (won't fix)  rpm     CVE-2018-19217       Low       
 ncurses-libs            6.1-9.20180224.el8                        (won't fix)  rpm     CVE-2018-19211       Low       
 openldap                2.4.46-18.el8                                          rpm     CVE-2023-2953        Low       
-openssh                 8.0p1-19.el8_8                                         rpm     CVE-2023-38408       High      
 openssh                 8.0p1-19.el8_8                            (won't fix)  rpm     CVE-2020-15778       Medium    
 openssh                 8.0p1-19.el8_8                            (won't fix)  rpm     CVE-2019-6110        Low       
 openssh                 8.0p1-19.el8_8                            (won't fix)  rpm     CVE-2018-15919       Low       
 openssh                 8.0p1-19.el8_8                            (won't fix)  rpm     CVE-2016-20012       Low       
-openssh-clients         8.0p1-19.el8_8                                         rpm     CVE-2023-38408       High      
 openssh-clients         8.0p1-19.el8_8                            (won't fix)  rpm     CVE-2020-15778       Medium    
 openssh-clients         8.0p1-19.el8_8                            (won't fix)  rpm     CVE-2019-6110        Low       
 openssh-clients         8.0p1-19.el8_8                            (won't fix)  rpm     CVE-2018-15919       Low       
 openssh-clients         8.0p1-19.el8_8                            (won't fix)  rpm     CVE-2016-20012       Low       
 openssl                 1:1.1.1k-9.el8_7                          (won't fix)  rpm     CVE-2023-2650        Medium    
+openssl                 1:1.1.1k-9.el8_7                                       rpm     CVE-2023-3817        Low       
 openssl                 1:1.1.1k-9.el8_7                                       rpm     CVE-2023-3446        Low       
 openssl                 1:1.1.1k-9.el8_7                          (won't fix)  rpm     CVE-2023-0466        Low       
 openssl                 1:1.1.1k-9.el8_7                          (won't fix)  rpm     CVE-2023-0465        Low       
 openssl                 1:1.1.1k-9.el8_7                          (won't fix)  rpm     CVE-2023-0464        Low       
 openssl-libs            1:1.1.1k-9.el8_7                          (won't fix)  rpm     CVE-2023-2650        Medium    
+openssl-libs            1:1.1.1k-9.el8_7                                       rpm     CVE-2023-3817        Low       
 openssl-libs            1:1.1.1k-9.el8_7                                       rpm     CVE-2023-3446        Low       
 openssl-libs            1:1.1.1k-9.el8_7                          (won't fix)  rpm     CVE-2023-0466        Low       
 openssl-libs            1:1.1.1k-9.el8_7                          (won't fix)  rpm     CVE-2023-0465        Low       
