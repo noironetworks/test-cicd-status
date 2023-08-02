@@ -89,23 +89,23 @@ releases:
     sbom: release_artifacts/6.0.3.1/cnideploy/6.0.3.1-sbom.txt
   - build-logs: release_artifacts/6.0.3.1/aci-containers-operator/6.0.3.1-buildlog.txt
     commit:
-    - link: https://github.com/noironetworks/aci-containers-operator/commit/a55e04229ab676845ae8620b0f34c4652735dcf1
+    - link: https://github.com/noironetworks/aci-containers/commit/a55e04229ab676845ae8620b0f34c4652735dcf1
       sha: a55e04229ab676845ae8620b0f34c4652735dcf1
     cve: release_artifacts/6.0.3.1/aci-containers-operator/6.0.3.1-cve.txt
     docker:
-    - link: https://hub.docker.com/layers/noiro/aci-containers-operator/6.0.3.1.test-cicd.81c2369.z/sha256:fbdb7d7fdb39c3d0ede86f8b6d7d13433161af0e6a398147f5fce1f392be0bcf?context=explore
-      sha: sha256:fbdb7d7fdb39c3d0ede86f8b6d7d13433161af0e6a398147f5fce1f392be0bcf
+    - link: https://hub.docker.com/layers/noiro/aci-containers-operator/6.0.3.1.test-cicd.81c2369.080223.7755/images/sha256-1b1b0230fa6b8a696d402a3452c96c4bac59b6d06f0356067ec51e8bc987a939?context=explore
+      sha: sha256:95dfe458c2426ffc66254b1d97a382d926a415e3ec2a867f565b5f3dbebde982
       tag: 6.0.3.1.test-cicd.81c2369.z
-    - link: https://hub.docker.com/layers/noiro/aci-containers-operator/6.0.3.1.test-cicd.81c2369.080223.7755/sha256:fbdb7d7fdb39c3d0ede86f8b6d7d13433161af0e6a398147f5fce1f392be0bcf?context=explore
-      sha: sha256:fbdb7d7fdb39c3d0ede86f8b6d7d13433161af0e6a398147f5fce1f392be0bcf
+    - link: https://hub.docker.com/layers/noiro/aci-containers-operator/6.0.3.1.test-cicd.81c2369.080223.7755/images/sha256-1b1b0230fa6b8a696d402a3452c96c4bac59b6d06f0356067ec51e8bc987a939?context=explore
+      sha: sha256:95dfe458c2426ffc66254b1d97a382d926a415e3ec2a867f565b5f3dbebde982
       tag: 6.0.3.1.test-cicd.81c2369.080223.7755
     name: aci-containers-operator
     quay:
     - link: https://quay.io/noirolabs/aci-containers-operator:6.0.3.1.test-cicd.81c2369.z
-      sha: sha256:fbdb7d7fdb39c3d0ede86f8b6d7d13433161af0e6a398147f5fce1f392be0bcf
+      sha: sha256:95dfe458c2426ffc66254b1d97a382d926a415e3ec2a867f565b5f3dbebde982
       tag: 6.0.3.1.test-cicd.81c2369.z
     - link: https://quay.io/noirolabs/aci-containers-operator:6.0.3.1.test-cicd.81c2369.080223.7755
-      sha: sha256:fbdb7d7fdb39c3d0ede86f8b6d7d13433161af0e6a398147f5fce1f392be0bcf
+      sha: sha256:95dfe458c2426ffc66254b1d97a382d926a415e3ec2a867f565b5f3dbebde982
       tag: 6.0.3.1.test-cicd.81c2369.080223.7755
     sbom: release_artifacts/6.0.3.1/aci-containers-operator/6.0.3.1-sbom.txt
   - build-logs: release_artifacts/6.0.3.1/openvswitch/6.0.3.1-buildlog.txt
@@ -129,5 +129,5 @@ releases:
       sha: sha256:32f9185fd92ef12335faa67f21a179d2ac6f9772b2fd4d2345c0e07019bda1f7
       tag: 6.0.3.1.test-cicd.81c2369.080223.7755
     sbom: release_artifacts/6.0.3.1/openvswitch/6.0.3.1-sbom.txt
-  last_updated: '2023-08-02 20:02:18'
+  last_updated: '2023-08-02 20:03:16'
   release_name: 6.0.3.1
