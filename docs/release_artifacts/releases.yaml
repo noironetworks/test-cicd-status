@@ -4,9 +4,9 @@ releases:
     tag: 6.0.3.1
   container_images:
   - build-logs: release_artifacts/6.0.3.1/acc-provision-operator/6.0.3.1-buildlog.txt
-    commit: !!python/tuple
-    - - link: https://github.com/noironetworks/acc-provision-operator/commit/611352c0b5f79dbb30990b13dbd1f85e85445eda
-        sha: 611352c0b5f79dbb30990b13dbd1f85e85445eda
+    commit:
+    - link: https://github.com/noironetworks/acc-provision-operator/commit/611352c0b5f79dbb30990b13dbd1f85e85445eda
+      sha: 611352c0b5f79dbb30990b13dbd1f85e85445eda
     cve: release_artifacts/6.0.3.1/acc-provision-operator/6.0.3.1-cve.txt
     docker:
     - link: https://hub.docker.com/layers/noiro/acc-provision-operator/6.0.3.1.test-cicd.81c2369.080223.466/images/sha256-e5818d2fb1edd4fb852e7bf7afb6f6a89e6c21d167adec037788ad73cc3141a0?context=explore
