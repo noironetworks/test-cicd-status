@@ -59,6 +59,7 @@ k8s.io/kubernetes                    fa3d7990104d7c1f16943a67f11b154b71f6a132  1
 k8s.io/kubernetes                    fa3d7990104d7c1f16943a67f11b154b71f6a132                                     go-module  GHSA-74j8-88mm-7496  Medium    
 k8s.io/kubernetes                    fa3d7990104d7c1f16943a67f11b154b71f6a132                                     go-module  GHSA-vw47-mr44-3jf9  Low       
 k8s.io/kubernetes                    fa3d7990104d7c1f16943a67f11b154b71f6a132  1.18.19                            go-module  GHSA-qh36-44jv-c8xj  Low       
+k8s.io/kubernetes                    fa3d7990104d7c1f16943a67f11b154b71f6a132  1.2.0-alpha.6                      go-module  GHSA-2h9c-34v6-3qmr  Low       
 k8s.io/kubernetes                    v1.27.0                                   1.27.2                             go-module  GHSA-xc8m-28vv-4pjc  Medium    
 k8s.io/kubernetes                    v1.27.0                                   1.27.3                             go-module  GHSA-qc2g-gmh6-95p4  Medium    
 k8s.io/kubernetes                    v1.27.0                                                                      go-module  GHSA-f4w6-3rh6-6q4q  Medium    
