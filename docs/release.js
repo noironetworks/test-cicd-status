@@ -44,13 +44,10 @@ fetch('release_artifacts/releases.yaml')
           releaseRow.appendChild(quayTagsCell);
 
           const quaySHACell = document.createElement('td');
-          const quaySHAsList = document.createElement('ul');
-          for (const quayTag of image.quay) {
-            const quaySHATagItem = document.createElement('li');
-            quaySHATagItem.textContent = quayTag.sha.replace('sha256:', 'sha256: ');
-            quaySHAsList.appendChild(quaySHATagItem);
-          }
-          quaySHACell.appendChild(quaySHAsList);
+          const quaySHALink = document.createElement('a');
+          // quaySHAlink.href = image.quay[0].link;
+          quaySHALink.textContent = image.quay[0].sha.replace('sha256:', '').substring(0, 12);
+          quaySHACell.appendChild(quaySHALink);
           releaseRow.appendChild(quaySHACell);
 
           // create a link for docker tags
@@ -68,14 +65,10 @@ fetch('release_artifacts/releases.yaml')
           releaseRow.appendChild(dockerTagsCell);
 
           const dockerSHACell = document.createElement('td');
-          const dockerSHAsList = document.createElement('ul');
-          for (const dockerTag of image.docker) {
-            const dockerSHATagItem = document.createElement('li');
-            dockerSHATagItem.textContent = dockerTag.sha;
-            dockerSHATagItem.textContent = dockerSHATagItem.textContent.replace('sha256:', 'sha256: ');
-            dockerSHAsList.appendChild(dockerSHATagItem);
-          }
-          dockerSHACell.appendChild(dockerSHAsList);
+          const dockerSHALink = document.createElement('a');
+          // dockerSHALink.href = image.quay[0].link;
+          dockerSHALink.textContent = image.docker[0].sha.replace('sha256:', '').substring(0, 12);
+          dockerSHACell.appendChild(dockerSHALink);
           releaseRow.appendChild(dockerSHACell);
 
           const sbomCell = document.createElement('td');
