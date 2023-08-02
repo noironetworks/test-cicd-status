@@ -9,20 +9,20 @@ releases:
       sha: 611352c0b5f79dbb30990b13dbd1f85e85445eda
     cve: release_artifacts/6.0.3.1/acc-provision-operator/6.0.3.1-cve.txt
     docker:
-    - link: https://hub.docker.com/layers/noiro/acc-provision-operator/6.0.3.1.test-cicd.81c2369.080223.466/images/sha256-e5818d2fb1edd4fb852e7bf7afb6f6a89e6c21d167adec037788ad73cc3141a0?context=explore
-      sha: sha256:0f2129011275f75c393010a5c4e42bac51438ad5c57b200e854468d2a891cc8a
+    - link: https://hub.docker.com/layers/noiro/acc-provision-operator/6.0.3.1.test-cicd.81c2369.080223.466/images/sha256-b39508ef5d8cf30081d9300cc311815583574bb7718a352f1ae22b0e544af6b2?context=explore
+      sha: sha256:268a727f7e7413e808126c277806d4a2d60ef68f4c433f9b45e46c4fe9656eda
       tag: 6.0.3.1.test-cicd.81c2369.z
-    - link: https://hub.docker.com/layers/noiro/acc-provision-operator/6.0.3.1.test-cicd.81c2369.080223.466/images/sha256-e5818d2fb1edd4fb852e7bf7afb6f6a89e6c21d167adec037788ad73cc3141a0?context=explore
-      sha: sha256:0f2129011275f75c393010a5c4e42bac51438ad5c57b200e854468d2a891cc8a
+    - link: https://hub.docker.com/layers/noiro/acc-provision-operator/6.0.3.1.test-cicd.81c2369.080223.466/images/sha256-b39508ef5d8cf30081d9300cc311815583574bb7718a352f1ae22b0e544af6b2?context=explore
+      sha: sha256:268a727f7e7413e808126c277806d4a2d60ef68f4c433f9b45e46c4fe9656eda
       tag: 6.0.3.1.test-cicd.81c2369.080223.466
     name: acc-provision-operator
     quay:
     - link: https://quay.io/noirolabs/acc-provision-operator:6.0.3.1.test-cicd.81c2369.z
-      sha: sha256:0f2129011275f75c393010a5c4e42bac51438ad5c57b200e854468d2a891cc8a
+      sha: sha256:268a727f7e7413e808126c277806d4a2d60ef68f4c433f9b45e46c4fe9656eda
       tag: 6.0.3.1.test-cicd.81c2369.z
     - link: https://quay.io/noirolabs/acc-provision-operator:6.0.3.1.test-cicd.81c2369.080223.466
-      sha: sha256:0f2129011275f75c393010a5c4e42bac51438ad5c57b200e854468d2a891cc8a
+      sha: sha256:268a727f7e7413e808126c277806d4a2d60ef68f4c433f9b45e46c4fe9656eda
       tag: 6.0.3.1.test-cicd.81c2369.080223.466
     sbom: release_artifacts/6.0.3.1/acc-provision-operator/6.0.3.1-sbom.txt
-  last_updated: '2023-08-02 02:59:08'
+  last_updated: '2023-08-02 03:11:25'
   release_name: 6.0.3.1
