@@ -89,7 +89,11 @@ fetch('release_artifacts/releases.yaml')
           const buildLogsCell = document.createElement('td');
           const buildLogsLink = document.createElement('a');
           buildLogsLink.href =  image['build-logs'];
-          buildLogsLink.textContent = 'Build Logs';
+          if (image['build-time'] !== undefined) {
+          buildLogsLink.textContent = image['build-time'];
+          } else {
+            buildLogsLink.textContent = 'Build Logs';
+          }
           buildLogsCell.appendChild(buildLogsLink);
           releaseRow.appendChild(buildLogsCell);
 
