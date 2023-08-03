@@ -1,7 +1,7 @@
 releases:
 - acc_provision:
-  - link: https://test.pypi.org/acc_provision-6.0.3.1.test-cicd-dev-7920/#files
-    tag: acc_provision-6.0.3.1.test-cicd-dev-7920
+  - link: https://test.pypi.org/acc_provision-6.0.3.1.testcicddev7929/#files
+    tag: acc_provision-6.0.3.1.testcicddev7929
   container_images:
   - build-logs: release_artifacts/6.0.3.1/acc-provision-operator/6.0.3.1-buildlog.txt
     commit:
@@ -129,5 +129,5 @@ releases:
       sha: sha256:3db00ea4ce1a3f3000a452de984c09c430c97b5363e22cf7f0f160bb513a3c06
       tag: 6.0.3.1.test-cicd.81c2369.080223.7755
     sbom: release_artifacts/6.0.3.1/openvswitch/6.0.3.1-sbom.txt
-  last_updated: '2023-08-03 00:46:16'
+  last_updated: '2023-08-03 05:55:20'
   release_name: 6.0.3.1
