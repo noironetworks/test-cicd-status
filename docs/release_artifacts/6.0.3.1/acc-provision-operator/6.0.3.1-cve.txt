@@ -1,6 +1,6 @@
 NAME                    INSTALLED                                 FIXED-IN     TYPE    VULNERABILITY        SEVERITY 
 bzip2-libs              1.0.6-26.el8                              (won't fix)  rpm     CVE-2019-12900       Low       
-certifi                 2023.7.22                                 2023.07.22   python  GHSA-xqr8-7jwr-rhp7  Low       
+certifi                 2023.7.22                                 2023.07.22   python  GHSA-xqr8-7jwr-rhp7  High      
 cryptography            41.0.2                                    41.0.3       python  GHSA-jm77-qphf-c4w8  Low       
 curl                    7.61.1-30.el8_8.2                                      rpm     CVE-2023-28321       Medium    
 curl                    7.61.1-30.el8_8.2                                      rpm     CVE-2023-27536       Medium    
@@ -199,6 +199,7 @@ urllib3                 1.24.2                                    1.25.9       p
 urllib3                 1.24.2                                    1.24.3       python  GHSA-r64q-w8jr-g9qp  Medium    
 urllib3                 1.24.2                                                 python  CVE-2020-26137       Medium    
 urllib3                 1.24.2                                                 python  CVE-2019-11236       Medium    
+vim-minimal             2:8.0.1763-19.el8_6.4                     (won't fix)  rpm     CVE-2020-20703       Medium    
 vim-minimal             2:8.0.1763-19.el8_6.4                     (won't fix)  rpm     CVE-2023-2610        Low       
 vim-minimal             2:8.0.1763-19.el8_6.4                     (won't fix)  rpm     CVE-2023-2609        Low       
 vim-minimal             2:8.0.1763-19.el8_6.4                     (won't fix)  rpm     CVE-2023-1264        Low       
