@@ -10,7 +10,7 @@ releases:
       sha: 895ed1527b86628adb1672e38246cfbe2a10b920
     cve: release_artifacts/6.0.3.1/aci-containers-host/6.0.3.1-cve.txt
     docker:
-    - link: https://hub.docker.com/layers/noiro/aci-containers-host/6.0.3.1.test-cicd.81c2369.080323.7781/images/sha256-9ffa9ae6aeb3911a24b87c1dd83299302f418b6ac76cc2af4dd7ee3a528922b8?context=explore
+    - link: https://hub.docker.com/layers/noiro/aci-containers-host/6.0.3.1.test-cicd.81c2369.z/images/sha256-9ffa9ae6aeb3911a24b87c1dd83299302f418b6ac76cc2af4dd7ee3a528922b8?context=explore
       sha: sha256:a08f053a2da8ce20e1bcf9e81133d9aa669512138a90d319644b2df153c070e4
       tag: 6.0.3.1.test-cicd.81c2369.z
     - link: https://hub.docker.com/layers/noiro/aci-containers-host/6.0.3.1.test-cicd.81c2369.080223.7755/images/sha256-483a218d3a115afb6db50f15883b649e73433f1aea43d3c93d9af12f7106d0a3?context=explore
@@ -38,7 +38,7 @@ releases:
       sha: 895ed1527b86628adb1672e38246cfbe2a10b920
     cve: release_artifacts/6.0.3.1/aci-containers-controller/6.0.3.1-cve.txt
     docker:
-    - link: https://hub.docker.com/layers/noiro/aci-containers-controller/6.0.3.1.test-cicd.81c2369.080323.7781/images/sha256-776b57760d9d568a2a0c9f5b87c48232f018fb8226d52baa838bebe3e2497048?context=explore
+    - link: https://hub.docker.com/layers/noiro/aci-containers-controller/6.0.3.1.test-cicd.81c2369.z/images/sha256-776b57760d9d568a2a0c9f5b87c48232f018fb8226d52baa838bebe3e2497048?context=explore
       sha: sha256:2e27b60c4e984dae29136bd813c3fcbaa599b1769b442b66b1732ed8fb175e9a
       tag: 6.0.3.1.test-cicd.81c2369.z
     - link: https://hub.docker.com/layers/noiro/aci-containers-controller/6.0.3.1.test-cicd.81c2369.080223.7755/images/sha256-0d91ee0a61516a26c883889bc49808edb45678816ddc6906ecc46eba667e1582?context=explore
@@ -66,7 +66,7 @@ releases:
       sha: 895ed1527b86628adb1672e38246cfbe2a10b920
     cve: release_artifacts/6.0.3.1/cnideploy/6.0.3.1-cve.txt
     docker:
-    - link: https://hub.docker.com/layers/noiro/cnideploy/6.0.3.1.test-cicd.81c2369.080323.7781/images/sha256-6f22d757af680dbdd92112eb9b915d40cfc8d2450b1af18a9a670c1ac98481de?context=explore
+    - link: https://hub.docker.com/layers/noiro/cnideploy/6.0.3.1.test-cicd.81c2369.z/images/sha256-6f22d757af680dbdd92112eb9b915d40cfc8d2450b1af18a9a670c1ac98481de?context=explore
       sha: sha256:1ef4d26bf4a85e85e57fb4f43ead9b02e47ba0a23d48af50fcfc00e39c22e6dc
       tag: 6.0.3.1.test-cicd.81c2369.z
     - link: https://hub.docker.com/layers/noiro/cnideploy/6.0.3.1.test-cicd.81c2369.080223.7755/images/sha256-4b2ad4e1bba847844b37b5ee229f825fc4187061170532fe62f26d52f1dd3e2e?context=explore
@@ -94,7 +94,7 @@ releases:
       sha: 895ed1527b86628adb1672e38246cfbe2a10b920
     cve: release_artifacts/6.0.3.1/aci-containers-operator/6.0.3.1-cve.txt
     docker:
-    - link: https://hub.docker.com/layers/noiro/aci-containers-operator/6.0.3.1.test-cicd.81c2369.080323.7781/images/sha256-d270c1b37b6b11953bae6d04ca47c1d1126f84447c78e6f6702042bca560de17?context=explore
+    - link: https://hub.docker.com/layers/noiro/aci-containers-operator/6.0.3.1.test-cicd.81c2369.z/images/sha256-d270c1b37b6b11953bae6d04ca47c1d1126f84447c78e6f6702042bca560de17?context=explore
       sha: sha256:1a7bec20512a9c2795fc92364cc2fb9006b7c79d3a17a9c28b6a42cf6247961c
       tag: 6.0.3.1.test-cicd.81c2369.z
     - link: https://hub.docker.com/layers/noiro/aci-containers-operator/6.0.3.1.test-cicd.81c2369.080223.7755/images/sha256-1b1b0230fa6b8a696d402a3452c96c4bac59b6d06f0356067ec51e8bc987a939?context=explore
@@ -122,7 +122,7 @@ releases:
       sha: 895ed1527b86628adb1672e38246cfbe2a10b920
     cve: release_artifacts/6.0.3.1/openvswitch/6.0.3.1-cve.txt
     docker:
-    - link: https://hub.docker.com/layers/noiro/openvswitch/6.0.3.1.test-cicd.81c2369.080323.7781/images/sha256-d0582cbed33c8d0d1a21b841cd4e78f3f8af2eb5b5b806b069c29fb7a4c35427?context=explore
+    - link: https://hub.docker.com/layers/noiro/openvswitch/6.0.3.1.test-cicd.81c2369.z/images/sha256-d0582cbed33c8d0d1a21b841cd4e78f3f8af2eb5b5b806b069c29fb7a4c35427?context=explore
       sha: sha256:b12b16d2d590b6f13b72ea4aa229efc38c2a5147404c3bbb8e35881c2082d898
       tag: 6.0.3.1.test-cicd.81c2369.z
     - link: https://hub.docker.com/layers/noiro/openvswitch/6.0.3.1.test-cicd.81c2369.080223.7755/images/sha256-5bff97edb338dbee0804eea705dd22a3bcc4af14a178818583330df4c19d62df?context=explore
@@ -143,72 +143,6 @@ releases:
       sha: sha256:b12b16d2d590b6f13b72ea4aa229efc38c2a5147404c3bbb8e35881c2082d898
       tag: 6.0.3.1.test-cicd.81c2369.080323.7781
     sbom: release_artifacts/6.0.3.1/openvswitch/6.0.3.1-sbom.txt
-  - build-logs: release_artifacts/6.0.3.1/opflex-build-base/6.0.3.1-buildlog.txt
-    build-time: '2023-08-04 12:56:20'
-    commit:
-    - link: https://github.com/noironetworks/opflex/commit/db6f12977d983013eab0255945b7fb882f59a7dd
-      sha: db6f12977d983013eab0255945b7fb882f59a7dd
-    cve: release_artifacts/6.0.3.1/opflex-build-base/6.0.3.1-cve.txt
-    docker:
-    - link: https://hub.docker.com/layers/noiro/opflex-build-base/6.0.3.1.test-cicd.81c2369.z/sha256:eb0d1ebd28d8276d9851cf651ff293b72e11265ace51ed4a27c287da21b96c9c?context=explore
-      sha: sha256:eb0d1ebd28d8276d9851cf651ff293b72e11265ace51ed4a27c287da21b96c9c
-      tag: 6.0.3.1.test-cicd.81c2369.z
-    - link: https://hub.docker.com/layers/noiro/opflex-build-base/6.0.3.1.test-cicd.81c2369.080423.2969/sha256:eb0d1ebd28d8276d9851cf651ff293b72e11265ace51ed4a27c287da21b96c9c?context=explore
-      sha: sha256:eb0d1ebd28d8276d9851cf651ff293b72e11265ace51ed4a27c287da21b96c9c
-      tag: 6.0.3.1.test-cicd.81c2369.080423.2969
-    name: opflex-build-base
-    quay:
-    - link: https://quay.io/noirolabs/opflex-build-base:6.0.3.1.test-cicd.81c2369.z
-      sha: sha256:eb0d1ebd28d8276d9851cf651ff293b72e11265ace51ed4a27c287da21b96c9c
-      tag: 6.0.3.1.test-cicd.81c2369.z
-    - link: https://quay.io/noirolabs/opflex-build-base:6.0.3.1.test-cicd.81c2369.080423.2969
-      sha: sha256:eb0d1ebd28d8276d9851cf651ff293b72e11265ace51ed4a27c287da21b96c9c
-      tag: 6.0.3.1.test-cicd.81c2369.080423.2969
-    sbom: release_artifacts/6.0.3.1/opflex-build-base/6.0.3.1-sbom.txt
-  - build-logs: release_artifacts/6.0.3.1/opflex-build/6.0.3.1-buildlog.txt
-    build-time: '2023-08-04 12:58:30'
-    commit:
-    - link: https://github.com/noironetworks/opflex/commit/db6f12977d983013eab0255945b7fb882f59a7dd
-      sha: db6f12977d983013eab0255945b7fb882f59a7dd
-    cve: release_artifacts/6.0.3.1/opflex-build/6.0.3.1-cve.txt
-    docker:
-    - link: https://hub.docker.com/layers/noiro/opflex-build/6.0.3.1.test-cicd.81c2369.z/sha256:146e0bf397a43d8fd00b7352e1548d9a9a2e6c9811106b1a83f638de29c1120c?context=explore
-      sha: sha256:146e0bf397a43d8fd00b7352e1548d9a9a2e6c9811106b1a83f638de29c1120c
-      tag: 6.0.3.1.test-cicd.81c2369.z
-    - link: https://hub.docker.com/layers/noiro/opflex-build/6.0.3.1.test-cicd.81c2369.080423.2969/sha256:146e0bf397a43d8fd00b7352e1548d9a9a2e6c9811106b1a83f638de29c1120c?context=explore
-      sha: sha256:146e0bf397a43d8fd00b7352e1548d9a9a2e6c9811106b1a83f638de29c1120c
-      tag: 6.0.3.1.test-cicd.81c2369.080423.2969
-    name: opflex-build
-    quay:
-    - link: https://quay.io/noirolabs/opflex-build:6.0.3.1.test-cicd.81c2369.z
-      sha: sha256:146e0bf397a43d8fd00b7352e1548d9a9a2e6c9811106b1a83f638de29c1120c
-      tag: 6.0.3.1.test-cicd.81c2369.z
-    - link: https://quay.io/noirolabs/opflex-build:6.0.3.1.test-cicd.81c2369.080423.2969
-      sha: sha256:146e0bf397a43d8fd00b7352e1548d9a9a2e6c9811106b1a83f638de29c1120c
-      tag: 6.0.3.1.test-cicd.81c2369.080423.2969
-    sbom: release_artifacts/6.0.3.1/opflex-build/6.0.3.1-sbom.txt
-  - build-logs: release_artifacts/6.0.3.1/opflex/6.0.3.1-buildlog.txt
-    build-time: '2023-08-04 12:59:54'
-    commit:
-    - link: https://github.com/noironetworks/opflex/commit/db6f12977d983013eab0255945b7fb882f59a7dd
-      sha: db6f12977d983013eab0255945b7fb882f59a7dd
-    cve: release_artifacts/6.0.3.1/opflex/6.0.3.1-cve.txt
-    docker:
-    - link: https://hub.docker.com/layers/noiro/opflex/6.0.3.1.test-cicd.81c2369.z/sha256:41a145c9fac0912f3b8b3779fba4b1111cf199e62d9871890cd26b62549f1232?context=explore
-      sha: sha256:41a145c9fac0912f3b8b3779fba4b1111cf199e62d9871890cd26b62549f1232
-      tag: 6.0.3.1.test-cicd.81c2369.z
-    - link: https://hub.docker.com/layers/noiro/opflex/6.0.3.1.test-cicd.81c2369.080423.2969/sha256:41a145c9fac0912f3b8b3779fba4b1111cf199e62d9871890cd26b62549f1232?context=explore
-      sha: sha256:41a145c9fac0912f3b8b3779fba4b1111cf199e62d9871890cd26b62549f1232
-      tag: 6.0.3.1.test-cicd.81c2369.080423.2969
-    name: opflex
-    quay:
-    - link: https://quay.io/noirolabs/opflex:6.0.3.1.test-cicd.81c2369.z
-      sha: sha256:41a145c9fac0912f3b8b3779fba4b1111cf199e62d9871890cd26b62549f1232
-      tag: 6.0.3.1.test-cicd.81c2369.z
-    - link: https://quay.io/noirolabs/opflex:6.0.3.1.test-cicd.81c2369.080423.2969
-      sha: sha256:41a145c9fac0912f3b8b3779fba4b1111cf199e62d9871890cd26b62549f1232
-      tag: 6.0.3.1.test-cicd.81c2369.080423.2969
-    sbom: release_artifacts/6.0.3.1/opflex/6.0.3.1-sbom.txt
   - build-logs: release_artifacts/6.0.3.1/acc-provision-operator/6.0.3.1-buildlog.txt
     build-time: '2023-08-04 13:39:15'
     commit:
