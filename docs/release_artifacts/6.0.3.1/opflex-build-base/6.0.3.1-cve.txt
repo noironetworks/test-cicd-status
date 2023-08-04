@@ -1,0 +1,10 @@
+NAME        INSTALLED  FIXED-IN  TYPE    VULNERABILITY        SEVERITY 
+numpy       1.20.1     1.22      python  GHSA-fpfv-jqm9-f5jm  Medium    
+numpy       1.20.1     1.21      python  GHSA-6p56-wp2h-9hxr  Medium    
+numpy       1.20.1               python  CVE-2021-34141       Medium    
+rpm         4.16.1.3             python  CVE-2021-35939       Medium    
+rpm         4.16.1.3             python  CVE-2021-35938       Medium    
+rpm         4.16.1.3             python  CVE-2021-35937       Medium    
+rpm         4.16.1.3             python  CVE-2021-3521        Medium    
+setuptools  53.0.0     65.5.1    python  GHSA-r9hx-vwmv-q579  High      
+setuptools  53.0.0               python  CVE-2022-40897       Medium
