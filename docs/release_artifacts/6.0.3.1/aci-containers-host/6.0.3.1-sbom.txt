@@ -140,6 +140,6 @@ sigs.k8s.io/json                                                             v0.
 sigs.k8s.io/structured-merge-diff/v4                                         v4.2.3                                    go-module  
 sigs.k8s.io/yaml                                                             v1.1.0                                    go-module  
 six                                                                          1.15.0                                    python     
-subscription-manager                                                         1.29.35                                   python     
+subscription-manager                                                         1.29.36                                   python     
 systemd-python                                                               234                                       python     
 urllib3                                                                      1.26.5                                    python     

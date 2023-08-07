@@ -4,43 +4,32 @@ releases:
     tag: acc_provision-6.0.3.1.3.dev7956
   container_images:
   - build-logs: release_artifacts/6.0.3.1/aci-containers-host/6.0.3.1-buildlog.txt
-    build-time: '2023-08-04 14:40:17'
+    build-time: 2023-08-07 14:40:35 PST
     commit:
     - link: https://github.com/noironetworks/aci-containers/commit/895ed1527b86628adb1672e38246cfbe2a10b920
       sha: 895ed1527b86628adb1672e38246cfbe2a10b920
     cve: release_artifacts/6.0.3.1/aci-containers-host/6.0.3.1-cve.txt
     docker:
-    - link: https://hub.docker.com/layers/noiro/aci-containers-host/6.0.3.1.test-cicd.81c2369.z/images/sha256-d788c8ed1ee0908a4a8803b163aeef1035310636f774a1ee474bf51d5ac99b94?context=explore
-      sha: sha256:ef7a99ea6657708552a41300e874ef888b85d744bfe74428da9b26b11721fa6f
+    - link: https://hub.docker.com/layers/noiro/aci-containers-host/6.0.3.1.test-cicd.81c2369.z/images/sha256-91f8fd475fc73d6b6e2b0cf8c1f2c88b8f250902d866c83101275ecee188f374?context=explore
+      sha: sha256:692df7cb4440edf680aa3fcf1b51c2cb22036767e151fe3dbd527300755aa1dd
       tag: 6.0.3.1.test-cicd.81c2369.z
-    - link: https://hub.docker.com/layers/noiro/aci-containers-host/6.0.3.1.test-cicd.81c2369.080223.7755/images/sha256-483a218d3a115afb6db50f15883b649e73433f1aea43d3c93d9af12f7106d0a3?context=explore
-      sha: sha256:313c4aa2e7628b44a879d4d1efac1161f5e525aa676b25ca5deefdc9d88c375f
-      tag: 6.0.3.1.test-cicd.81c2369.080223.7755
-    - link: https://hub.docker.com/layers/noiro/aci-containers-host/6.0.3.1.test-cicd.81c2369.080323.7781/images/sha256-9ffa9ae6aeb3911a24b87c1dd83299302f418b6ac76cc2af4dd7ee3a528922b8?context=explore
-      sha: sha256:a08f053a2da8ce20e1bcf9e81133d9aa669512138a90d319644b2df153c070e4
-      tag: 6.0.3.1.test-cicd.81c2369.080323.7781
-    - link: https://hub.docker.com/layers/noiro/aci-containers-host/6.0.3.1.test-cicd.81c2369.080423.7781/images/sha256-d788c8ed1ee0908a4a8803b163aeef1035310636f774a1ee474bf51d5ac99b94?context=explore
-      sha: sha256:ef7a99ea6657708552a41300e874ef888b85d744bfe74428da9b26b11721fa6f
-      tag: 6.0.3.1.test-cicd.81c2369.080423.7781
+    - link: https://hub.docker.com/layers/noiro/aci-containers-host/6.0.3.1.test-cicd.81c2369.080723.7781/images/sha256-91f8fd475fc73d6b6e2b0cf8c1f2c88b8f250902d866c83101275ecee188f374?context=explore
+      sha: sha256:692df7cb4440edf680aa3fcf1b51c2cb22036767e151fe3dbd527300755aa1dd
+      tag: 6.0.3.1.test-cicd.81c2369.080723.7781
     name: aci-containers-host
     quay:
     - link: https://quay.io/noirolabs/aci-containers-host:6.0.3.1.test-cicd.81c2369.z
-      sha: sha256:ef7a99ea6657708552a41300e874ef888b85d744bfe74428da9b26b11721fa6f
+      sha: sha256:692df7cb4440edf680aa3fcf1b51c2cb22036767e151fe3dbd527300755aa1dd
       tag: 6.0.3.1.test-cicd.81c2369.z
-    - link: https://quay.io/noirolabs/aci-containers-host:6.0.3.1.test-cicd.81c2369.080223.7755
-      sha: sha256:313c4aa2e7628b44a879d4d1efac1161f5e525aa676b25ca5deefdc9d88c375f
-      tag: 6.0.3.1.test-cicd.81c2369.080223.7755
-    - link: https://quay.io/noirolabs/aci-containers-host:6.0.3.1.test-cicd.81c2369.080323.7781
-      sha: sha256:a08f053a2da8ce20e1bcf9e81133d9aa669512138a90d319644b2df153c070e4
-      tag: 6.0.3.1.test-cicd.81c2369.080323.7781
-    - link: https://quay.io/noirolabs/aci-containers-host:6.0.3.1.test-cicd.81c2369.080423.7781
-      sha: sha256:ef7a99ea6657708552a41300e874ef888b85d744bfe74428da9b26b11721fa6f
-      tag: 6.0.3.1.test-cicd.81c2369.080423.7781
+    - link: https://quay.io/noirolabs/aci-containers-host:6.0.3.1.test-cicd.81c2369.080723.7781
+      sha: sha256:692df7cb4440edf680aa3fcf1b51c2cb22036767e151fe3dbd527300755aa1dd
+      tag: 6.0.3.1.test-cicd.81c2369.080723.7781
     sbom: release_artifacts/6.0.3.1/aci-containers-host/6.0.3.1-sbom.txt
     severity:
     - C: 0
-      H: 0
+      H: 1
       L: 0
+      M: 11
       U: 0
   - build-logs: release_artifacts/6.0.3.1/aci-containers-controller/6.0.3.1-buildlog.txt
     build-time: '2023-08-04 14:41:23'
@@ -253,5 +242,5 @@ releases:
       H: 0
       L: 0
       U: 0
-  last_updated: '2023-08-07 14:13:28'
+  last_updated: '2023-08-07 14:40:35'
   release_name: 6.0.3.1
