@@ -116,43 +116,32 @@ releases:
       M: 9
       U: 0
   - build-logs: release_artifacts/6.0.3.1/openvswitch/6.0.3.1-buildlog.txt
-    build-time: '2023-08-04 14:44:53'
+    build-time: 2023-08-07 14:44:56 PST
     commit:
     - link: https://github.com/noironetworks/aci-containers/commit/895ed1527b86628adb1672e38246cfbe2a10b920
       sha: 895ed1527b86628adb1672e38246cfbe2a10b920
     cve: release_artifacts/6.0.3.1/openvswitch/6.0.3.1-cve.txt
     docker:
-    - link: https://hub.docker.com/layers/noiro/openvswitch/6.0.3.1.test-cicd.81c2369.z/images/sha256-60656299406e1cc776797477dfcf9336340c456f02904153b6ceb1639c812051?context=explore
-      sha: sha256:507a08bbba4ba66f7a16869edf699069ef5ba97384ce1d97c76f3df6bda6f366
+    - link: https://hub.docker.com/layers/noiro/openvswitch/6.0.3.1.test-cicd.81c2369.z/images/sha256-08bfda5422f074b43a1912847804662f5c74c0a314ed371adcabee818628f159?context=explore
+      sha: sha256:17d4d471f7856f39c616c777393762b8b240682e2ea9eb39b815ae4509c15880
       tag: 6.0.3.1.test-cicd.81c2369.z
-    - link: https://hub.docker.com/layers/noiro/openvswitch/6.0.3.1.test-cicd.81c2369.080223.7755/images/sha256-5bff97edb338dbee0804eea705dd22a3bcc4af14a178818583330df4c19d62df?context=explore
-      sha: sha256:3db00ea4ce1a3f3000a452de984c09c430c97b5363e22cf7f0f160bb513a3c06
-      tag: 6.0.3.1.test-cicd.81c2369.080223.7755
-    - link: https://hub.docker.com/layers/noiro/openvswitch/6.0.3.1.test-cicd.81c2369.080323.7781/images/sha256-d0582cbed33c8d0d1a21b841cd4e78f3f8af2eb5b5b806b069c29fb7a4c35427?context=explore
-      sha: sha256:b12b16d2d590b6f13b72ea4aa229efc38c2a5147404c3bbb8e35881c2082d898
-      tag: 6.0.3.1.test-cicd.81c2369.080323.7781
-    - link: https://hub.docker.com/layers/noiro/openvswitch/6.0.3.1.test-cicd.81c2369.080423.7781/images/sha256-60656299406e1cc776797477dfcf9336340c456f02904153b6ceb1639c812051?context=explore
-      sha: sha256:507a08bbba4ba66f7a16869edf699069ef5ba97384ce1d97c76f3df6bda6f366
-      tag: 6.0.3.1.test-cicd.81c2369.080423.7781
+    - link: https://hub.docker.com/layers/noiro/openvswitch/6.0.3.1.test-cicd.81c2369.080723.7781/images/sha256-08bfda5422f074b43a1912847804662f5c74c0a314ed371adcabee818628f159?context=explore
+      sha: sha256:17d4d471f7856f39c616c777393762b8b240682e2ea9eb39b815ae4509c15880
+      tag: 6.0.3.1.test-cicd.81c2369.080723.7781
     name: openvswitch
     quay:
     - link: https://quay.io/noirolabs/openvswitch:6.0.3.1.test-cicd.81c2369.z
-      sha: sha256:507a08bbba4ba66f7a16869edf699069ef5ba97384ce1d97c76f3df6bda6f366
+      sha: sha256:17d4d471f7856f39c616c777393762b8b240682e2ea9eb39b815ae4509c15880
       tag: 6.0.3.1.test-cicd.81c2369.z
-    - link: https://quay.io/noirolabs/openvswitch:6.0.3.1.test-cicd.81c2369.080223.7755
-      sha: sha256:3db00ea4ce1a3f3000a452de984c09c430c97b5363e22cf7f0f160bb513a3c06
-      tag: 6.0.3.1.test-cicd.81c2369.080223.7755
-    - link: https://quay.io/noirolabs/openvswitch:6.0.3.1.test-cicd.81c2369.080323.7781
-      sha: sha256:b12b16d2d590b6f13b72ea4aa229efc38c2a5147404c3bbb8e35881c2082d898
-      tag: 6.0.3.1.test-cicd.81c2369.080323.7781
-    - link: https://quay.io/noirolabs/openvswitch:6.0.3.1.test-cicd.81c2369.080423.7781
-      sha: sha256:507a08bbba4ba66f7a16869edf699069ef5ba97384ce1d97c76f3df6bda6f366
-      tag: 6.0.3.1.test-cicd.81c2369.080423.7781
+    - link: https://quay.io/noirolabs/openvswitch:6.0.3.1.test-cicd.81c2369.080723.7781
+      sha: sha256:17d4d471f7856f39c616c777393762b8b240682e2ea9eb39b815ae4509c15880
+      tag: 6.0.3.1.test-cicd.81c2369.080723.7781
     sbom: release_artifacts/6.0.3.1/openvswitch/6.0.3.1-sbom.txt
     severity:
     - C: 0
       H: 0
       L: 0
+      M: 4
       U: 0
   - build-logs: release_artifacts/6.0.3.1/acc-provision-operator/6.0.3.1-buildlog.txt
     build-time: 2023-08-07 14:13:28 PST
@@ -209,5 +198,5 @@ releases:
       H: 0
       L: 0
       U: 0
-  last_updated: '2023-08-07 14:43:26'
+  last_updated: '2023-08-07 14:44:56'
   release_name: 6.0.3.1
