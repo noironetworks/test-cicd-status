@@ -32,43 +32,32 @@ releases:
       M: 11
       U: 0
   - build-logs: release_artifacts/6.0.3.1/aci-containers-controller/6.0.3.1-buildlog.txt
-    build-time: '2023-08-04 14:41:23'
+    build-time: 2023-08-07 14:41:38 PST
     commit:
     - link: https://github.com/noironetworks/aci-containers/commit/895ed1527b86628adb1672e38246cfbe2a10b920
       sha: 895ed1527b86628adb1672e38246cfbe2a10b920
     cve: release_artifacts/6.0.3.1/aci-containers-controller/6.0.3.1-cve.txt
     docker:
-    - link: https://hub.docker.com/layers/noiro/aci-containers-controller/6.0.3.1.test-cicd.81c2369.z/images/sha256-33d302ec3752768230237eb7d07d8e0d5af520da51d37f75b69b9b3bb25ca08b?context=explore
-      sha: sha256:679f73834c1bba438b6d23ada5303d8afba07f96e02f978f773b934fa8fd3e8a
+    - link: https://hub.docker.com/layers/noiro/aci-containers-controller/6.0.3.1.test-cicd.81c2369.z/images/sha256-8e14535d6f9a1f7ae7f3b188cac151f2305be0ca0bb198045956e83c2bd4c488?context=explore
+      sha: sha256:62c7a69c10c0f8d180f0b4a1bae131b823690e232c2c0508f81aacba99f6ec24
       tag: 6.0.3.1.test-cicd.81c2369.z
-    - link: https://hub.docker.com/layers/noiro/aci-containers-controller/6.0.3.1.test-cicd.81c2369.080223.7755/images/sha256-0d91ee0a61516a26c883889bc49808edb45678816ddc6906ecc46eba667e1582?context=explore
-      sha: sha256:efc912553e3a855c8fac9c942bb281617d635799ddb708c4c57f50029c691d0a
-      tag: 6.0.3.1.test-cicd.81c2369.080223.7755
-    - link: https://hub.docker.com/layers/noiro/aci-containers-controller/6.0.3.1.test-cicd.81c2369.080323.7781/images/sha256-776b57760d9d568a2a0c9f5b87c48232f018fb8226d52baa838bebe3e2497048?context=explore
-      sha: sha256:2e27b60c4e984dae29136bd813c3fcbaa599b1769b442b66b1732ed8fb175e9a
-      tag: 6.0.3.1.test-cicd.81c2369.080323.7781
-    - link: https://hub.docker.com/layers/noiro/aci-containers-controller/6.0.3.1.test-cicd.81c2369.080423.7781/images/sha256-33d302ec3752768230237eb7d07d8e0d5af520da51d37f75b69b9b3bb25ca08b?context=explore
-      sha: sha256:679f73834c1bba438b6d23ada5303d8afba07f96e02f978f773b934fa8fd3e8a
-      tag: 6.0.3.1.test-cicd.81c2369.080423.7781
+    - link: https://hub.docker.com/layers/noiro/aci-containers-controller/6.0.3.1.test-cicd.81c2369.080723.7781/images/sha256-8e14535d6f9a1f7ae7f3b188cac151f2305be0ca0bb198045956e83c2bd4c488?context=explore
+      sha: sha256:62c7a69c10c0f8d180f0b4a1bae131b823690e232c2c0508f81aacba99f6ec24
+      tag: 6.0.3.1.test-cicd.81c2369.080723.7781
     name: aci-containers-controller
     quay:
     - link: https://quay.io/noirolabs/aci-containers-controller:6.0.3.1.test-cicd.81c2369.z
-      sha: sha256:679f73834c1bba438b6d23ada5303d8afba07f96e02f978f773b934fa8fd3e8a
+      sha: sha256:62c7a69c10c0f8d180f0b4a1bae131b823690e232c2c0508f81aacba99f6ec24
       tag: 6.0.3.1.test-cicd.81c2369.z
-    - link: https://quay.io/noirolabs/aci-containers-controller:6.0.3.1.test-cicd.81c2369.080223.7755
-      sha: sha256:efc912553e3a855c8fac9c942bb281617d635799ddb708c4c57f50029c691d0a
-      tag: 6.0.3.1.test-cicd.81c2369.080223.7755
-    - link: https://quay.io/noirolabs/aci-containers-controller:6.0.3.1.test-cicd.81c2369.080323.7781
-      sha: sha256:2e27b60c4e984dae29136bd813c3fcbaa599b1769b442b66b1732ed8fb175e9a
-      tag: 6.0.3.1.test-cicd.81c2369.080323.7781
-    - link: https://quay.io/noirolabs/aci-containers-controller:6.0.3.1.test-cicd.81c2369.080423.7781
-      sha: sha256:679f73834c1bba438b6d23ada5303d8afba07f96e02f978f773b934fa8fd3e8a
-      tag: 6.0.3.1.test-cicd.81c2369.080423.7781
+    - link: https://quay.io/noirolabs/aci-containers-controller:6.0.3.1.test-cicd.81c2369.080723.7781
+      sha: sha256:62c7a69c10c0f8d180f0b4a1bae131b823690e232c2c0508f81aacba99f6ec24
+      tag: 6.0.3.1.test-cicd.81c2369.080723.7781
     sbom: release_artifacts/6.0.3.1/aci-containers-controller/6.0.3.1-sbom.txt
     severity:
-    - C: 0
-      H: 0
-      L: 0
+    - C: 2
+      H: 26
+      L: 9
+      M: 36
       U: 0
   - build-logs: release_artifacts/6.0.3.1/cnideploy/6.0.3.1-buildlog.txt
     build-time: '2023-08-04 14:42:18'
@@ -242,5 +231,5 @@ releases:
       H: 0
       L: 0
       U: 0
-  last_updated: '2023-08-07 14:40:35'
+  last_updated: '2023-08-07 14:41:38'
   release_name: 6.0.3.1
