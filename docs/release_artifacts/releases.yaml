@@ -37,6 +37,11 @@ releases:
       sha: sha256:ef7a99ea6657708552a41300e874ef888b85d744bfe74428da9b26b11721fa6f
       tag: 6.0.3.1.test-cicd.81c2369.080423.7781
     sbom: release_artifacts/6.0.3.1/aci-containers-host/6.0.3.1-sbom.txt
+    severity:
+    - C: 0
+      H: 0
+      L: 0
+      U: 0
   - build-logs: release_artifacts/6.0.3.1/aci-containers-controller/6.0.3.1-buildlog.txt
     build-time: '2023-08-04 14:41:23'
     commit:
@@ -71,6 +76,11 @@ releases:
       sha: sha256:679f73834c1bba438b6d23ada5303d8afba07f96e02f978f773b934fa8fd3e8a
       tag: 6.0.3.1.test-cicd.81c2369.080423.7781
     sbom: release_artifacts/6.0.3.1/aci-containers-controller/6.0.3.1-sbom.txt
+    severity:
+    - C: 0
+      H: 0
+      L: 0
+      U: 0
   - build-logs: release_artifacts/6.0.3.1/cnideploy/6.0.3.1-buildlog.txt
     build-time: '2023-08-04 14:42:18'
     commit:
@@ -105,6 +115,11 @@ releases:
       sha: sha256:24e6a92219fb6d66ff6f2a4c40e0286e904aaa177de2f21c52e9cee2bd94e43b
       tag: 6.0.3.1.test-cicd.81c2369.080423.7781
     sbom: release_artifacts/6.0.3.1/cnideploy/6.0.3.1-sbom.txt
+    severity:
+    - C: 0
+      H: 0
+      L: 0
+      U: 0
   - build-logs: release_artifacts/6.0.3.1/aci-containers-operator/6.0.3.1-buildlog.txt
     build-time: '2023-08-04 14:43:20'
     commit:
@@ -139,6 +154,11 @@ releases:
       sha: sha256:93f6457931654772ca7132a80b8808f836bf0ccd93af98695bb37c7e54044b68
       tag: 6.0.3.1.test-cicd.81c2369.080423.7781
     sbom: release_artifacts/6.0.3.1/aci-containers-operator/6.0.3.1-sbom.txt
+    severity:
+    - C: 0
+      H: 0
+      L: 0
+      U: 0
   - build-logs: release_artifacts/6.0.3.1/openvswitch/6.0.3.1-buildlog.txt
     build-time: '2023-08-04 14:44:53'
     commit:
@@ -173,6 +193,11 @@ releases:
       sha: sha256:507a08bbba4ba66f7a16869edf699069ef5ba97384ce1d97c76f3df6bda6f366
       tag: 6.0.3.1.test-cicd.81c2369.080423.7781
     sbom: release_artifacts/6.0.3.1/openvswitch/6.0.3.1-sbom.txt
+    severity:
+    - C: 0
+      H: 0
+      L: 0
+      U: 0
   - build-logs: release_artifacts/6.0.3.1/acc-provision-operator/6.0.3.1-buildlog.txt
     build-time: '2023-08-04 13:39:15'
     commit:
@@ -195,6 +220,11 @@ releases:
       sha: sha256:d31f9ee9863ad770d7b76ee5be85c4ebc638f76586882a716fa93e01cc2eb169
       tag: 6.0.3.1.test-cicd.81c2369.080423.472
     sbom: release_artifacts/6.0.3.1/acc-provision-operator/6.0.3.1-sbom.txt
+    severity:
+    - C: 0
+      H: 0
+      L: 0
+      U: 0
   - build-logs: release_artifacts/6.0.3.1/opflex/6.0.3.1-buildlog.txt
     build-time: '2023-08-04 15:57:51'
     commit:
@@ -217,5 +247,10 @@ releases:
       sha: sha256:644ec0274a23d448c171751e105c04fd56c3473ae5881daf83a3431d0393db93
       tag: 6.0.3.1.test-cicd.81c2369.080423.2969
     sbom: release_artifacts/6.0.3.1/opflex/6.0.3.1-sbom.txt
+    severity:
+    - C: 0
+      H: 0
+      L: 0
+      U: 0
   last_updated: '2023-08-04 15:57:51'
   release_name: 6.0.3.1
