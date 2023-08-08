@@ -82,7 +82,17 @@ fetch('release_artifacts/releases.yaml')
           const cveCell = document.createElement('td');
           const cveLink = document.createElement('a');
           cveLink.href = image.cve;
-          cveLink.textContent = 'CVE';
+          const C = image.severity[0].C.toString();
+          const H = image.severity[0].H.toString();
+          const M = image.severity[0].M.toString();
+          const L = image.severity[0].L.toString();
+          const U = image.severity[0].U.toString();
+          const cveText = `<span class="cve-letter cve-c">C:${C}</span><br>
+                <span class="cve-letter cve-h">H:${H}</span><br>
+                <span class="cve-letter cve-m">M:${M}</span><br>
+                <span class="cve-letter cve-l">L:${L}</span><br>
+                <span class="cve-letter cve-u">U:${U}</span>`;
+          cveLink.innerHTML = cveText;
           cveCell.appendChild(cveLink);
           releaseRow.appendChild(cveCell);
 

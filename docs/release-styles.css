@@ -58,7 +58,7 @@ td {
 .menu-container h2 {
   font-family: Arial, sans-serif;
   color: #0075be; /* Cisco blue color */
-  padding: 8px 0;
+  padding: 6px 0;
   margin: 0;
 }
 
@@ -129,4 +129,25 @@ td {
   .code-box-container button {
     width: 100%;
   }
+}
+
+.cve-c {
+  color: rgb(255, 0, 0);
+}
+
+.cve-h {
+  color: rgb(187, 24, 48);
+}
+
+.cve-m {
+  color: rgb(186, 87, 91);
+}
+
+
+.cve-l {
+  color: rgb(245, 143, 34);
+}
+
+.cve-u {
+  color: rgb(132, 131, 132);
 }
