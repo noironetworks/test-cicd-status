@@ -33,6 +33,30 @@ fetch('release_artifacts/releases.yaml')
         tagMenu.appendChild(listItem);
       }
     }
+
+    if (window.location.pathname.includes('release.html')) {
+      // Extract username and repository name from GitHub Pages URL
+      const ghPagesUrl = window.location.origin + window.location.pathname;
+      const match = ghPagesUrl.match(/https:\/\/([\w-]+)\.github\.io\/([\w-]+)\//);
+      if (match) {
+        const username = match[1];
+        const repository = match[2];  
+        // Add link to commit history called "Previous Releases"
+        const previousReleasesLink = document.createElement('a');
+        previousReleasesLink.href = `https://github.com/${username}/${repository}/commits/main`;
+        previousReleasesLink.textContent = 'Previous Releases';
+        const previousReleasesListItem = document.createElement('li');
+        previousReleasesListItem.appendChild(previousReleasesLink);
+        tagMenu.appendChild(previousReleasesListItem);
+      } else {
+        console.log("The provided URL does not match the expected GitHub Pages format.");
+      // Add a link to the GitHub commit history URL
+        const testCommitHistoryLink = document.createElement('a');
+        testCommitHistoryLink.href = 'https://github.com/noironetworks/test-cicd-status/commits/main';
+        testCommitHistoryLink.textContent = 'Test Commit History URL';
+        tagMenu.appendChild(testCommitHistoryLink);
+      }
+    }
   })
   .catch(error => {
     console.error('Error loading YAML file:', error);
