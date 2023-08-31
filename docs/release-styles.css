@@ -39,9 +39,16 @@ td {
 }
 
 #acc-provision-table th:nth-child(2), #acc-provision-table td:nth-child(2) {
-  width: 85%;
+  width: 15%;
 }
 
+#acc-provision-table th:nth-child(3), #acc-provision-table td:nth-child(3) {
+  width: 55%;
+}
+
+#acc-provision-table th:nth-child(4), #acc-provision-table td:nth-child(4) {
+  width: 15%;
+}
 /* menu */
 
 .menu-container {
