@@ -307,5 +307,32 @@ releases:
       tag: 7.0.0.0.81c2369.090123.7922
     sbom: release_artifacts/7.0.0.0.z/aci-containers-host/7.0.0.0.z-sbom.txt
     severity: []
-  last_updated: 2023-09-01 16:24:18 PDT
+  - base-image:
+    - cve: release_artifacts/7.0.0.0.z/aci-containers-controller/7.0.0.0.z-cve-base.txt
+      severity: []
+      sha: 572155f3053e0267874da447743adec560458824c12d3f8acd429f781656cf33
+    build-logs: release_artifacts/7.0.0.0.z/aci-containers-controller/7.0.0.0.z-buildlog.txt
+    build-time: 2023-09-01 16:25:39 PDT
+    commit:
+    - link: https://github.com/noironetworks/aci-containers/commit/e00268f4c144232b146b5252999551829edea85b
+      sha: e00268f4c144232b146b5252999551829edea85b
+    cve: release_artifacts/7.0.0.0.z/aci-containers-controller/7.0.0.0.z-cve.txt
+    docker:
+    - link: https://hub.docker.com/layers/noiro/aci-containers-controller/7.0.0.0.81c2369.z/images/sha256-aad0be8b15caa3664dd553c933910dd6761572f6d36ddf21f68243577b8b8e08?context=explore
+      sha: sha256:e7e6e45f5dc06f78f5873421009075fdf5fbabca2e1a8223a992ca969417b2fd
+      tag: 7.0.0.0.81c2369.z
+    - link: https://hub.docker.com/layers/noiro/aci-containers-controller/7.0.0.0.81c2369.090123.7922/images/sha256-aad0be8b15caa3664dd553c933910dd6761572f6d36ddf21f68243577b8b8e08?context=explore
+      sha: sha256:e7e6e45f5dc06f78f5873421009075fdf5fbabca2e1a8223a992ca969417b2fd
+      tag: 7.0.0.0.81c2369.090123.7922
+    name: aci-containers-controller
+    quay:
+    - link: https://quay.io/noiro/aci-containers-controller:7.0.0.0.81c2369.z
+      sha: sha256:e7e6e45f5dc06f78f5873421009075fdf5fbabca2e1a8223a992ca969417b2fd
+      tag: 7.0.0.0.81c2369.z
+    - link: https://quay.io/noiro/aci-containers-controller:7.0.0.0.81c2369.090123.7922
+      sha: sha256:e7e6e45f5dc06f78f5873421009075fdf5fbabca2e1a8223a992ca969417b2fd
+      tag: 7.0.0.0.81c2369.090123.7922
+    sbom: release_artifacts/7.0.0.0.z/aci-containers-controller/7.0.0.0.z-sbom.txt
+    severity: []
+  last_updated: 2023-09-01 16:25:39 PDT
   release_name: 7.0.0.0.z
