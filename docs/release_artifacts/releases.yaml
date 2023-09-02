@@ -430,30 +430,40 @@ releases:
       U: 0
   - base-image:
     - cve: release_artifacts/7.0.0.0.z/openvswitch/7.0.0.0.z-cve-base.txt
-      severity: []
-      sha: 572155f3053e0267874da447743adec560458824c12d3f8acd429f781656cf33
+      severity:
+      - C: 0
+        H: 0
+        L: 0
+        M: 0
+        U: 0
+      sha: 35c99977ee5baa359bdc80f9ccc360644d2dbccb7462ca0fd97a23170a00cfd1
     build-logs: release_artifacts/7.0.0.0.z/openvswitch/7.0.0.0.z-buildlog.txt
-    build-time: 2023-09-01 16:29:37 PDT
+    build-time: 2023-09-01 18:02:48 PDT
     commit:
     - link: https://github.com/noironetworks/aci-containers/commit/e00268f4c144232b146b5252999551829edea85b
       sha: e00268f4c144232b146b5252999551829edea85b
     cve: release_artifacts/7.0.0.0.z/openvswitch/7.0.0.0.z-cve.txt
     docker:
-    - link: https://hub.docker.com/layers/noiro/openvswitch/7.0.0.0.81c2369.z/images/sha256-475b708952c158e203c33182382645357792cbf2801ee0c029bad08641b28f91?context=explore
-      sha: sha256:405b6e3e98065a4fb274182038c591a2ff5ce53b04b5025ae6d51414483cb871
+    - link: https://hub.docker.com/layers/noiro/openvswitch/7.0.0.0.81c2369.z/images/sha256-3dc6265c191faf9a84f663746a84dd96728d0d6c639fff35509fbf70e93f4c3a?context=explore
+      sha: sha256:c72e15ff3b51d42743544a3730217af9fe0bff0a141466be163aada3cbb64e53
       tag: 7.0.0.0.81c2369.z
-    - link: https://hub.docker.com/layers/noiro/openvswitch/7.0.0.0.81c2369.090123.7922/images/sha256-475b708952c158e203c33182382645357792cbf2801ee0c029bad08641b28f91?context=explore
-      sha: sha256:405b6e3e98065a4fb274182038c591a2ff5ce53b04b5025ae6d51414483cb871
-      tag: 7.0.0.0.81c2369.090123.7922
+    - link: https://hub.docker.com/layers/noiro/openvswitch/7.0.0.0.81c2369.090223.7923/images/sha256-3dc6265c191faf9a84f663746a84dd96728d0d6c639fff35509fbf70e93f4c3a?context=explore
+      sha: sha256:c72e15ff3b51d42743544a3730217af9fe0bff0a141466be163aada3cbb64e53
+      tag: 7.0.0.0.81c2369.090223.7923
     name: openvswitch
     quay:
     - link: https://quay.io/noiro/openvswitch:7.0.0.0.81c2369.z
-      sha: sha256:405b6e3e98065a4fb274182038c591a2ff5ce53b04b5025ae6d51414483cb871
+      sha: sha256:c72e15ff3b51d42743544a3730217af9fe0bff0a141466be163aada3cbb64e53
       tag: 7.0.0.0.81c2369.z
-    - link: https://quay.io/noiro/openvswitch:7.0.0.0.81c2369.090123.7922
-      sha: sha256:405b6e3e98065a4fb274182038c591a2ff5ce53b04b5025ae6d51414483cb871
-      tag: 7.0.0.0.81c2369.090123.7922
+    - link: https://quay.io/noiro/openvswitch:7.0.0.0.81c2369.090223.7923
+      sha: sha256:c72e15ff3b51d42743544a3730217af9fe0bff0a141466be163aada3cbb64e53
+      tag: 7.0.0.0.81c2369.090223.7923
     sbom: release_artifacts/7.0.0.0.z/openvswitch/7.0.0.0.z-sbom.txt
-    severity: []
-  last_updated: 2023-09-01 18:01:06 PDT
+    severity:
+    - C: 0
+      H: 0
+      L: 0
+      M: 4
+      U: 0
+  last_updated: 2023-09-01 18:02:48 PDT
   release_name: 7.0.0.0.z
