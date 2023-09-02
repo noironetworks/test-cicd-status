@@ -8,7 +8,7 @@ fetch('release_artifacts/releases.yaml')
     const tableBody = releaseTable.querySelector('tbody');
     const urlParams = new URLSearchParams(window.location.search);
     const releaseName = urlParams.get('release');
-    
+
     for (const releaseData of parsedData.releases) {
       if (releaseData.release_name === releaseName) {
         for (const image of releaseData.container_images) {
@@ -97,20 +97,26 @@ fetch('release_artifacts/releases.yaml')
             baseImageCVECell.textContent = '';
           } else {
             baseImageCVELink.href = image['base-image'][0].cve;
-            const baseImageC = image['base-image'][0].severity[0].C.toString();
-            const baseImageH = image['base-image'][0].severity[0].H.toString();
-            const baseImageM = image['base-image'][0].severity[0].M.toString();
-            const baseImageL = image['base-image'][0].severity[0].L.toString();
-            const baseImageU = image['base-image'][0].severity[0].U.toString();
+           
+            if (image['base-image'][0].severity.length === 5) {
+              const baseImageC = image['base-image'][0].severity[0].C.toString();
+              const baseImageH = image['base-image'][0].severity[0].H.toString();
+              const baseImageM = image['base-image'][0].severity[0].M.toString();
+              const baseImageL = image['base-image'][0].severity[0].L.toString();
+              const baseImageU = image['base-image'][0].severity[0].U.toString();
 
-            const baseImageCVEText = `<span class="cve-letter cve-c">C:${baseImageC}</span><br>
-            <span class="cve-letter cve-h">H:${baseImageH}</span><br>
-            <span class="cve-letter cve-m">M:${baseImageM}</span><br>
-            <span class="cve-letter cve-l">L:${baseImageL}</span><br>
-            <span class="cve-letter cve-u">U:${baseImageU}</span>`;
-            
-            baseImageCVELink.innerHTML = baseImageCVEText;
-            baseImageCVECell.appendChild(baseImageCVELink);
+              const baseImageCVEText = `<span class="cve-letter cve-c">C:${baseImageC}</span><br>
+              <span class="cve-letter cve-h">H:${baseImageH}</span><br>
+              <span class="cve-letter cve-m">M:${baseImageM}</span><br>
+              <span class="cve-letter cve-l">L:${baseImageL}</span><br>
+              <span class="cve-letter cve-u">U:${baseImageU}</span>`;
+              
+              baseImageCVELink.innerHTML = baseImageCVEText;
+              baseImageCVECell.appendChild(baseImageCVELink);
+            } else {
+              baseImageCVELink.textContent = 'N/A';
+              baseImageCVECell.appendChild(baseImageCVELink);
+            }
           }
           releaseRow.appendChild(baseImageCVECell);
 
@@ -134,18 +140,23 @@ fetch('release_artifacts/releases.yaml')
           const cveCell = document.createElement('td');
           const cveLink = document.createElement('a');
           cveLink.href = image.cve;
-          const C = image.severity[0].C.toString();
-          const H = image.severity[0].H.toString();
-          const M = image.severity[0].M.toString();
-          const L = image.severity[0].L.toString();
-          const U = image.severity[0].U.toString();
-          const cveText = `<span class="cve-letter cve-c">C:${C}</span><br>
-                <span class="cve-letter cve-h">H:${H}</span><br>
-                <span class="cve-letter cve-m">M:${M}</span><br>
-                <span class="cve-letter cve-l">L:${L}</span><br>
-                <span class="cve-letter cve-u">U:${U}</span>`;
-          cveLink.innerHTML = cveText;
-          cveCell.appendChild(cveLink);
+          if (image.severity.length === 5) {
+            const C = image.severity[0].C.toString();
+            const H = image.severity[0].H.toString();
+            const M = image.severity[0].M.toString();
+            const L = image.severity[0].L.toString();
+            const U = image.severity[0].U.toString();
+            const cveText = `<span class="cve-letter cve-c">C:${C}</span><br>
+                  <span class="cve-letter cve-h">H:${H}</span><br>
+                  <span class="cve-letter cve-m">M:${M}</span><br>
+                  <span class="cve-letter cve-l">L:${L}</span><br>
+                  <span class="cve-letter cve-u">U:${U}</span>`;
+            cveLink.innerHTML = cveText;
+            cveCell.appendChild(cveLink);
+          } else {
+            cveLink.textContent = 'N/A';
+            cveCell.appendChild(cveLink);
+          }
           releaseRow.appendChild(cveCell);
 
           const buildLogsCell = document.createElement('td');

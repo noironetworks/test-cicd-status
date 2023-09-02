@@ -14,54 +14,55 @@ fetch('release_artifacts/releases.yaml')
       if (releaseData.release_name === releaseName) {
           // Populate the acc-provision-table
           if (releaseData.acc_provision && releaseData.acc_provision.length > 0) {
-    for (const accProvisionEntry of releaseData.acc_provision) {
-      const accProvisionRow = document.createElement('tr');
-      const accProvisionTagCell = document.createElement('td');
-      const accProvisionLinkCell = document.createElement('td');
+            for (const accProvisionEntry of releaseData.acc_provision) {
+                const accProvisionRow = document.createElement('tr');
+                const accProvisionTagCell = document.createElement('td');
+                const accProvisionLinkCell = document.createElement('td');
 
-      accProvisionTagCell.textContent = accProvisionEntry.tag;
-      accProvisionRow.appendChild(accProvisionTagCell);
+                accProvisionTagCell.textContent = accProvisionEntry.tag;
+                accProvisionRow.appendChild(accProvisionTagCell);
 
 
-     
-      // if commit is available, add a link to the commit
-      if (accProvisionEntry.commit) {
-        // create a link to commit
-        const commitCell = document.createElement('td');
-        const commitLink = document.createElement('a');
-        commitLink.href = accProvisionEntry.commit[0].link;
-        commitLink.textContent = accProvisionEntry.commit[0].sha.substring(0, 7);
-        commitCell.appendChild(commitLink);
-        accProvisionRow.appendChild(commitCell);
-    }
+                
+                // if commit is available, add a link to the commit
+                if (accProvisionEntry.commit) {
+                    // create a link to commit
+                    const commitCell = document.createElement('td');
+                    const commitLink = document.createElement('a');
+                    commitLink.href = accProvisionEntry.commit[0].link;
+                    commitLink.textContent = accProvisionEntry.commit[0].sha.substring(0, 7);
+                    commitCell.appendChild(commitLink);
+                    accProvisionRow.appendChild(commitCell);
+                }
 
-    const accProvisionLink = document.createElement('a');
-    accProvisionLink.href = accProvisionEntry.link;
-    accProvisionLink.textContent = accProvisionEntry.link;
-    accProvisionLinkCell.appendChild(accProvisionLink);
-    accProvisionRow.appendChild(accProvisionLinkCell);
+                const accProvisionLink = document.createElement('a');
+                accProvisionLink.href = accProvisionEntry.link;
+                accProvisionLink.textContent = accProvisionEntry.link;
+                accProvisionLinkCell.appendChild(accProvisionLink);
+                accProvisionRow.appendChild(accProvisionLinkCell);
 
-    // if build logs are available, add a link to the build logs
-    if (accProvisionEntry['build-logs']) {
-        // create a link to build logs
-        const buildLogsCell = document.createElement('td');
-        const buildLogsLink = document.createElement('a');
-        buildLogsLink.href = accProvisionEntry['build-logs'];
-        if (accProvisionEntry['build-time'] !== undefined) {
-          buildLogsLink.textContent = accProvisionEntry['build-time'];
-          } else {
-            buildLogsLink.textContent = 'Build Logs';
-          }
-        buildLogsCell.appendChild(buildLogsLink);
-        accProvisionRow.appendChild(buildLogsCell);
-    }
-    accProvisionTableBody.appendChild(accProvisionRow);
-    }
+                // if build logs are available, add a link to the build logs
+                if (accProvisionEntry['build-logs']) {
+                    // create a link to build logs
+                    const buildLogsCell = document.createElement('td');
+                    const buildLogsLink = document.createElement('a');
+                    buildLogsLink.href = accProvisionEntry['build-logs'];
+                    if (accProvisionEntry['build-time'] !== undefined) {
+                    buildLogsLink.textContent = accProvisionEntry['build-time'];
+                    } else {
+                        buildLogsLink.textContent = 'Build Logs';
+                    }
+                    buildLogsCell.appendChild(buildLogsLink);
+                    accProvisionRow.appendChild(buildLogsCell);
+                }
+                accProvisionTableBody.appendChild(accProvisionRow);
+            }
           } else {
             // If there are no acc_provision entries, display a message in a single row
+            const noAccProvisionRow = document.createElement('tr');
             const noAccProvisionCell = document.createElement('td');
             noAccProvisionCell.textContent = 'No ACC-PROVISION data available';
-            noAccProvisionCell.colSpan = 2;
+            noAccProvisionCell.colSpan = 4;
             noAccProvisionRow.appendChild(noAccProvisionCell);
             accProvisionTableBody.appendChild(noAccProvisionRow);
         }
