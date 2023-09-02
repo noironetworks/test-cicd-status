@@ -393,31 +393,41 @@ releases:
       U: 0
   - base-image:
     - cve: release_artifacts/7.0.0.0.z/aci-containers-operator/7.0.0.0.z-cve-base.txt
-      severity: []
+      severity:
+      - C: 0
+        H: 1
+        L: 0
+        M: 7
+        U: 0
       sha: 572155f3053e0267874da447743adec560458824c12d3f8acd429f781656cf33
     build-logs: release_artifacts/7.0.0.0.z/aci-containers-operator/7.0.0.0.z-buildlog.txt
-    build-time: 2023-09-01 16:27:49 PDT
+    build-time: 2023-09-01 18:01:06 PDT
     commit:
     - link: https://github.com/noironetworks/aci-containers/commit/e00268f4c144232b146b5252999551829edea85b
       sha: e00268f4c144232b146b5252999551829edea85b
     cve: release_artifacts/7.0.0.0.z/aci-containers-operator/7.0.0.0.z-cve.txt
     docker:
-    - link: https://hub.docker.com/layers/noiro/aci-containers-operator/7.0.0.0.81c2369.z/images/sha256-9a0825b5dbb2733f87439c65638cd1cb924d61f46788e010399cc9ccbb883960?context=explore
-      sha: sha256:8efc439e33883aaf7c7f632e91966cb3ebe61534457460108b21f2ac8fb24bde
+    - link: https://hub.docker.com/layers/noiro/aci-containers-operator/7.0.0.0.81c2369.z/images/sha256-b0fc735afb474dca4dd0c5a5eefbd990af62abe2ac33b4e9b0c16e135bd4988c?context=explore
+      sha: sha256:607a6e880e71d7d941f92f34863c8f6267f1dbbeb2ac1e7ee43a807918a0e01a
       tag: 7.0.0.0.81c2369.z
-    - link: https://hub.docker.com/layers/noiro/aci-containers-operator/7.0.0.0.81c2369.090123.7922/images/sha256-9a0825b5dbb2733f87439c65638cd1cb924d61f46788e010399cc9ccbb883960?context=explore
-      sha: sha256:8efc439e33883aaf7c7f632e91966cb3ebe61534457460108b21f2ac8fb24bde
-      tag: 7.0.0.0.81c2369.090123.7922
+    - link: https://hub.docker.com/layers/noiro/aci-containers-operator/7.0.0.0.81c2369.090223.7923/images/sha256-b0fc735afb474dca4dd0c5a5eefbd990af62abe2ac33b4e9b0c16e135bd4988c?context=explore
+      sha: sha256:607a6e880e71d7d941f92f34863c8f6267f1dbbeb2ac1e7ee43a807918a0e01a
+      tag: 7.0.0.0.81c2369.090223.7923
     name: aci-containers-operator
     quay:
     - link: https://quay.io/noiro/aci-containers-operator:7.0.0.0.81c2369.z
-      sha: sha256:8efc439e33883aaf7c7f632e91966cb3ebe61534457460108b21f2ac8fb24bde
+      sha: sha256:607a6e880e71d7d941f92f34863c8f6267f1dbbeb2ac1e7ee43a807918a0e01a
       tag: 7.0.0.0.81c2369.z
-    - link: https://quay.io/noiro/aci-containers-operator:7.0.0.0.81c2369.090123.7922
-      sha: sha256:8efc439e33883aaf7c7f632e91966cb3ebe61534457460108b21f2ac8fb24bde
-      tag: 7.0.0.0.81c2369.090123.7922
+    - link: https://quay.io/noiro/aci-containers-operator:7.0.0.0.81c2369.090223.7923
+      sha: sha256:607a6e880e71d7d941f92f34863c8f6267f1dbbeb2ac1e7ee43a807918a0e01a
+      tag: 7.0.0.0.81c2369.090223.7923
     sbom: release_artifacts/7.0.0.0.z/aci-containers-operator/7.0.0.0.z-sbom.txt
-    severity: []
+    severity:
+    - C: 0
+      H: 5
+      L: 0
+      M: 11
+      U: 0
   - base-image:
     - cve: release_artifacts/7.0.0.0.z/openvswitch/7.0.0.0.z-cve-base.txt
       severity: []
@@ -445,5 +455,5 @@ releases:
       tag: 7.0.0.0.81c2369.090123.7922
     sbom: release_artifacts/7.0.0.0.z/openvswitch/7.0.0.0.z-sbom.txt
     severity: []
-  last_updated: 2023-09-01 17:59:55 PDT
+  last_updated: 2023-09-01 18:01:06 PDT
   release_name: 7.0.0.0.z
