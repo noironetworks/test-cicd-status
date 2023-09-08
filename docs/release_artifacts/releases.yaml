@@ -30,31 +30,31 @@ releases:
       sbom: release_artifacts/4.3.2.1.z/aci-containers-host/4.3.2.1.z-sbom.txt
       severity: []
     - base-image:
-      - cve: release_artifacts/4.3.2.1/aci-containers-controller/4.3.2.1-cve-base.txt
+      - cve: release_artifacts/4.3.2.1.z/aci-containers-controller/4.3.2.1.z-cve-base.txt
         severity: []
         sha: 572155f3053e0267874da447743adec560458824c12d3f8acd429f781656cf33
-      build-logs: release_artifacts/4.3.2.1/aci-containers-controller/4.3.2.1-buildlog.txt
-      build-time: 2023-09-07 23:24:27 PDT
+      build-logs: release_artifacts/4.3.2.1.z/aci-containers-controller/4.3.2.1.z-buildlog.txt
+      build-time: 2023-09-08 09:55:17 PDT
       commit:
       - link: https://github.com/noironetworks/aci-containers/commit/c7daeded7134190a1ccd767c399eb07fd524fe4c
         sha: c7daeded7134190a1ccd767c399eb07fd524fe4c
-      cve: release_artifacts/4.3.2.1/aci-containers-controller/4.3.2.1-cve.txt
+      cve: release_artifacts/4.3.2.1.z/aci-containers-controller/4.3.2.1.z-cve.txt
       docker:
-      - link: https://hub.docker.com/layers/noiro/aci-containers-controller/4.3.2.1.81c2369.z/images/sha256-ea7f6e15c6c8c253211e2306a29f036d51c15e1a4416b7b632b69d344a8548ae?context=explore
-        sha: sha256:d41b6731c44128b4f965c9184cfb25be3477f3e9bf21bf6e4c3bfbd73394b030
+      - link: https://hub.docker.com/layers/noiro/aci-containers-controller/4.3.2.1.81c2369.z/images/sha256-0039f688bd5ea59dda319219980ee144ac60af67978a1d143311434309b7b115?context=explore
+        sha: sha256:c2e0d360ce4142fa845ee29ddec44c701fe75cda719dc8695c1d1e1598f74751
         tag: 4.3.2.1.81c2369.z
-      - link: https://hub.docker.com/layers/noiro/aci-containers-controller/4.3.2.1.81c2369.090823.7947/images/sha256-ea7f6e15c6c8c253211e2306a29f036d51c15e1a4416b7b632b69d344a8548ae?context=explore
-        sha: sha256:d41b6731c44128b4f965c9184cfb25be3477f3e9bf21bf6e4c3bfbd73394b030
+      - link: https://hub.docker.com/layers/noiro/aci-containers-controller/4.3.2.1.81c2369.090823.7947/images/sha256-0039f688bd5ea59dda319219980ee144ac60af67978a1d143311434309b7b115?context=explore
+        sha: sha256:c2e0d360ce4142fa845ee29ddec44c701fe75cda719dc8695c1d1e1598f74751
         tag: 4.3.2.1.81c2369.090823.7947
       name: aci-containers-controller
       quay:
       - link: https://quay.io/noiro/aci-containers-controller:4.3.2.1.81c2369.z
-        sha: sha256:d41b6731c44128b4f965c9184cfb25be3477f3e9bf21bf6e4c3bfbd73394b030
+        sha: sha256:c2e0d360ce4142fa845ee29ddec44c701fe75cda719dc8695c1d1e1598f74751
         tag: 4.3.2.1.81c2369.z
       - link: https://quay.io/noiro/aci-containers-controller:4.3.2.1.81c2369.090823.7947
-        sha: sha256:d41b6731c44128b4f965c9184cfb25be3477f3e9bf21bf6e4c3bfbd73394b030
+        sha: sha256:c2e0d360ce4142fa845ee29ddec44c701fe75cda719dc8695c1d1e1598f74751
         tag: 4.3.2.1.81c2369.090823.7947
-      sbom: release_artifacts/4.3.2.1/aci-containers-controller/4.3.2.1-sbom.txt
+      sbom: release_artifacts/4.3.2.1.z/aci-containers-controller/4.3.2.1.z-sbom.txt
       severity: []
     - base-image:
       - cve: release_artifacts/4.3.2.1/cnideploy/4.3.2.1-cve-base.txt
@@ -137,7 +137,7 @@ releases:
         tag: 4.3.2.1.81c2369.090823.7947
       sbom: release_artifacts/4.3.2.1/openvswitch/4.3.2.1-sbom.txt
       severity: []
-    last_updated: 2023-09-08 09:53:58 PDT
+    last_updated: 2023-09-08 09:55:17 PDT
     release_name: 4.3.2.1.z
   - acc_provision: []
     container_images: []
