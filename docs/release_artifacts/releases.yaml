@@ -61,26 +61,26 @@ releases:
         severity: []
         sha: 572155f3053e0267874da447743adec560458824c12d3f8acd429f781656cf33
       build-logs: release_artifacts/4.3.2.1.z/cnideploy/4.3.2.1.z-buildlog.txt
-      build-time: 2023-09-08 09:56:17 PDT
+      build-time: 2023-09-08 10:36:44 PDT
       commit:
       - link: https://github.com/noironetworks/aci-containers/commit/c7daeded7134190a1ccd767c399eb07fd524fe4c
         sha: c7daeded7134190a1ccd767c399eb07fd524fe4c
       cve: release_artifacts/4.3.2.1.z/cnideploy/4.3.2.1.z-cve.txt
       docker:
-      - link: https://hub.docker.com/layers/noiro/cnideploy/4.3.2.1.81c2369.z/images/sha256-cf3832c0cc60c433103c0946c1112491cb509fcf6127c6847656d1eb7883a65f?context=explore
-        sha: sha256:8e206a4ee355006eccb52a7904b9e70cebba03148bdd23bd271873919ca61cf1
+      - link: https://hub.docker.com/layers/noiro/cnideploy/4.3.2.1.81c2369.z/images/sha256-a1cc4ca6576eaef032f6da9315a2ab99666a8b0e47c3b694737aaab63b435282?context=explore
+        sha: sha256:080ed077cadcd196f069a732635611900a193cb334d3037a8afe64bf0cafd80a
         tag: 4.3.2.1.81c2369.z
-      - link: https://hub.docker.com/layers/noiro/cnideploy/4.3.2.1.81c2369.090823.7947/images/sha256-cf3832c0cc60c433103c0946c1112491cb509fcf6127c6847656d1eb7883a65f?context=explore
-        sha: sha256:8e206a4ee355006eccb52a7904b9e70cebba03148bdd23bd271873919ca61cf1
-        tag: 4.3.2.1.81c2369.090823.7947
+      - link: https://hub.docker.com/layers/noiro/cnideploy/4.3.2.1.81c2369.090823.7948/images/sha256-a1cc4ca6576eaef032f6da9315a2ab99666a8b0e47c3b694737aaab63b435282?context=explore
+        sha: sha256:080ed077cadcd196f069a732635611900a193cb334d3037a8afe64bf0cafd80a
+        tag: 4.3.2.1.81c2369.090823.7948
       name: cnideploy
       quay:
       - link: https://quay.io/noiro/cnideploy:4.3.2.1.81c2369.z
-        sha: sha256:8e206a4ee355006eccb52a7904b9e70cebba03148bdd23bd271873919ca61cf1
+        sha: sha256:080ed077cadcd196f069a732635611900a193cb334d3037a8afe64bf0cafd80a
         tag: 4.3.2.1.81c2369.z
-      - link: https://quay.io/noiro/cnideploy:4.3.2.1.81c2369.090823.7947
-        sha: sha256:8e206a4ee355006eccb52a7904b9e70cebba03148bdd23bd271873919ca61cf1
-        tag: 4.3.2.1.81c2369.090823.7947
+      - link: https://quay.io/noiro/cnideploy:4.3.2.1.81c2369.090823.7948
+        sha: sha256:080ed077cadcd196f069a732635611900a193cb334d3037a8afe64bf0cafd80a
+        tag: 4.3.2.1.81c2369.090823.7948
       sbom: release_artifacts/4.3.2.1.z/cnideploy/4.3.2.1.z-sbom.txt
       severity: []
     - base-image:
@@ -137,7 +137,7 @@ releases:
         tag: 4.3.2.1.81c2369.090823.7947
       sbom: release_artifacts/4.3.2.1.z/openvswitch/4.3.2.1.z-sbom.txt
       severity: []
-    last_updated: 2023-09-08 10:35:44 PDT
+    last_updated: 2023-09-08 10:36:44 PDT
     release_name: 4.3.2.1.z
   - acc_provision: []
     container_images: []
