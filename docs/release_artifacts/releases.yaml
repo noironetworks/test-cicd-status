@@ -1,6 +1,13 @@
 releases:
 - release_streams:
-  - acc_provision: []
+  - acc_provision:
+    - build-logs: release_artifacts/4.3.2.1.z/acc-provision/4.3.2.1.z-buildlog.txt
+      build-time: 2023-09-08 11:27:42 PDT
+      commit:
+      - link: https://github.com/noironetworks/acc-provision/commit/29a79e7a41d889e15fc150b7bbefa0bc849ef48e
+        sha: 29a79e7a41d889e15fc150b7bbefa0bc849ef48e
+      link: https://test.pypi.org/project/acc-provision/4.3.2.1/#files
+      tag: acc_provision-4.3.2.1
     container_images: &id001
     - base-image:
       - cve: release_artifacts/4.3.2.1.z/aci-containers-host/4.3.2.1.z-cve-base.txt
@@ -137,7 +144,7 @@ releases:
         tag: 4.3.2.1.81c2369.090823.7948
       sbom: release_artifacts/4.3.2.1.z/openvswitch/4.3.2.1.z-sbom.txt
       severity: []
-    last_updated: 2023-09-08 10:39:37 PDT
+    last_updated: 2023-09-08 11:27:42 PDT
     release_name: 4.3.2.1.z
   - acc_provision:
     - build-logs: release_artifacts/4.3.2.1/acc-provision/4.3.2.1-buildlog.txt
