@@ -8,7 +8,8 @@ fetch('release_artifacts/releases.yaml')
     const tableBody = releaseTable.querySelector('tbody');
     const urlParams = new URLSearchParams(window.location.search);
     const releaseName = urlParams.get('release');
-
+    var accProvOpRow = document.createElement('tr');
+    
     for (const releaseData of parsedData.releases) {
       if (releaseData.release_name === releaseName) {
         for (const image of releaseData.container_images) {
@@ -169,9 +170,13 @@ fetch('release_artifacts/releases.yaml')
           }
           buildLogsCell.appendChild(buildLogsLink);
           releaseRow.appendChild(buildLogsCell);
-
-          tableBody.appendChild(releaseRow);
+          if (image.name === 'acc-provision-operator') {
+            accProvOpRow = releaseRow;
+          } else {
+            tableBody.appendChild(releaseRow);
+          }
         }
+        tableBody.appendChild(accProvOpRow);
         // Exit the loop once the specific release is found
         break;
       }
