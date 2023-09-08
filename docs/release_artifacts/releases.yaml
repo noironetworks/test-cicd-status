@@ -83,7 +83,34 @@ releases:
         tag: 4.3.2.1.81c2369.090823.7947
       sbom: release_artifacts/4.3.2.1/cnideploy/4.3.2.1-sbom.txt
       severity: []
-    last_updated: 2023-09-07 23:25:31 PDT
+    - base-image:
+      - cve: release_artifacts/4.3.2.1/aci-containers-operator/4.3.2.1-cve-base.txt
+        severity: []
+        sha: 572155f3053e0267874da447743adec560458824c12d3f8acd429f781656cf33
+      build-logs: release_artifacts/4.3.2.1/aci-containers-operator/4.3.2.1-buildlog.txt
+      build-time: 2023-09-07 23:26:44 PDT
+      commit:
+      - link: https://github.com/noironetworks/aci-containers/commit/c7daeded7134190a1ccd767c399eb07fd524fe4c
+        sha: c7daeded7134190a1ccd767c399eb07fd524fe4c
+      cve: release_artifacts/4.3.2.1/aci-containers-operator/4.3.2.1-cve.txt
+      docker:
+      - link: https://hub.docker.com/layers/noiro/aci-containers-operator/4.3.2.1.81c2369.z/images/sha256-dcbcac225fb0cb4813900659d0288a1a0ebb36092c010d704bf45f149fb1bd56?context=explore
+        sha: sha256:0a0afb29f09ca299b951f65b08bd9d93cf7014911a078a9b2d2dbaedb51fcbe5
+        tag: 4.3.2.1.81c2369.z
+      - link: https://hub.docker.com/layers/noiro/aci-containers-operator/4.3.2.1.81c2369.090823.7947/images/sha256-dcbcac225fb0cb4813900659d0288a1a0ebb36092c010d704bf45f149fb1bd56?context=explore
+        sha: sha256:0a0afb29f09ca299b951f65b08bd9d93cf7014911a078a9b2d2dbaedb51fcbe5
+        tag: 4.3.2.1.81c2369.090823.7947
+      name: aci-containers-operator
+      quay:
+      - link: https://quay.io/noiro/aci-containers-operator:4.3.2.1.81c2369.z
+        sha: sha256:0a0afb29f09ca299b951f65b08bd9d93cf7014911a078a9b2d2dbaedb51fcbe5
+        tag: 4.3.2.1.81c2369.z
+      - link: https://quay.io/noiro/aci-containers-operator:4.3.2.1.81c2369.090823.7947
+        sha: sha256:0a0afb29f09ca299b951f65b08bd9d93cf7014911a078a9b2d2dbaedb51fcbe5
+        tag: 4.3.2.1.81c2369.090823.7947
+      sbom: release_artifacts/4.3.2.1/aci-containers-operator/4.3.2.1-sbom.txt
+      severity: []
+    last_updated: 2023-09-07 23:26:44 PDT
     release_name: 4.3.2.1.z
   - acc_provision: []
     container_images: []
