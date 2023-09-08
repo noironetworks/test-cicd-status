@@ -110,7 +110,34 @@ releases:
         tag: 4.3.2.1.81c2369.090823.7947
       sbom: release_artifacts/4.3.2.1/aci-containers-operator/4.3.2.1-sbom.txt
       severity: []
-    last_updated: 2023-09-07 23:26:44 PDT
+    - base-image:
+      - cve: release_artifacts/4.3.2.1/openvswitch/4.3.2.1-cve-base.txt
+        severity: []
+        sha: 35c99977ee5baa359bdc80f9ccc360644d2dbccb7462ca0fd97a23170a00cfd1
+      build-logs: release_artifacts/4.3.2.1/openvswitch/4.3.2.1-buildlog.txt
+      build-time: 2023-09-07 23:28:33 PDT
+      commit:
+      - link: https://github.com/noironetworks/aci-containers/commit/c7daeded7134190a1ccd767c399eb07fd524fe4c
+        sha: c7daeded7134190a1ccd767c399eb07fd524fe4c
+      cve: release_artifacts/4.3.2.1/openvswitch/4.3.2.1-cve.txt
+      docker:
+      - link: https://hub.docker.com/layers/noiro/openvswitch/4.3.2.1.81c2369.z/images/sha256-7a13070b416cc51a055ece82a7f80b478d220481901526dd17816c0ad342b625?context=explore
+        sha: sha256:5684a1e627483b344e7e1a9851556ce66c870fcd4c4629712c9a1fe853d76f5f
+        tag: 4.3.2.1.81c2369.z
+      - link: https://hub.docker.com/layers/noiro/openvswitch/4.3.2.1.81c2369.090823.7947/images/sha256-7a13070b416cc51a055ece82a7f80b478d220481901526dd17816c0ad342b625?context=explore
+        sha: sha256:5684a1e627483b344e7e1a9851556ce66c870fcd4c4629712c9a1fe853d76f5f
+        tag: 4.3.2.1.81c2369.090823.7947
+      name: openvswitch
+      quay:
+      - link: https://quay.io/noiro/openvswitch:4.3.2.1.81c2369.z
+        sha: sha256:5684a1e627483b344e7e1a9851556ce66c870fcd4c4629712c9a1fe853d76f5f
+        tag: 4.3.2.1.81c2369.z
+      - link: https://quay.io/noiro/openvswitch:4.3.2.1.81c2369.090823.7947
+        sha: sha256:5684a1e627483b344e7e1a9851556ce66c870fcd4c4629712c9a1fe853d76f5f
+        tag: 4.3.2.1.81c2369.090823.7947
+      sbom: release_artifacts/4.3.2.1/openvswitch/4.3.2.1-sbom.txt
+      severity: []
+    last_updated: 2023-09-07 23:28:33 PDT
     release_name: 4.3.2.1.z
   - acc_provision: []
     container_images: []
