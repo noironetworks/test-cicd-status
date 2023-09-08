@@ -29,7 +29,34 @@ releases:
         tag: 4.3.2.1.81c2369.090823.7947
       sbom: release_artifacts/4.3.2.1/aci-containers-host/4.3.2.1-sbom.txt
       severity: []
-    last_updated: 2023-09-07 23:23:02 PDT
+    - base-image:
+      - cve: release_artifacts/4.3.2.1/aci-containers-controller/4.3.2.1-cve-base.txt
+        severity: []
+        sha: 572155f3053e0267874da447743adec560458824c12d3f8acd429f781656cf33
+      build-logs: release_artifacts/4.3.2.1/aci-containers-controller/4.3.2.1-buildlog.txt
+      build-time: 2023-09-07 23:24:27 PDT
+      commit:
+      - link: https://github.com/noironetworks/aci-containers/commit/c7daeded7134190a1ccd767c399eb07fd524fe4c
+        sha: c7daeded7134190a1ccd767c399eb07fd524fe4c
+      cve: release_artifacts/4.3.2.1/aci-containers-controller/4.3.2.1-cve.txt
+      docker:
+      - link: https://hub.docker.com/layers/noiro/aci-containers-controller/4.3.2.1.81c2369.z/images/sha256-ea7f6e15c6c8c253211e2306a29f036d51c15e1a4416b7b632b69d344a8548ae?context=explore
+        sha: sha256:d41b6731c44128b4f965c9184cfb25be3477f3e9bf21bf6e4c3bfbd73394b030
+        tag: 4.3.2.1.81c2369.z
+      - link: https://hub.docker.com/layers/noiro/aci-containers-controller/4.3.2.1.81c2369.090823.7947/images/sha256-ea7f6e15c6c8c253211e2306a29f036d51c15e1a4416b7b632b69d344a8548ae?context=explore
+        sha: sha256:d41b6731c44128b4f965c9184cfb25be3477f3e9bf21bf6e4c3bfbd73394b030
+        tag: 4.3.2.1.81c2369.090823.7947
+      name: aci-containers-controller
+      quay:
+      - link: https://quay.io/noiro/aci-containers-controller:4.3.2.1.81c2369.z
+        sha: sha256:d41b6731c44128b4f965c9184cfb25be3477f3e9bf21bf6e4c3bfbd73394b030
+        tag: 4.3.2.1.81c2369.z
+      - link: https://quay.io/noiro/aci-containers-controller:4.3.2.1.81c2369.090823.7947
+        sha: sha256:d41b6731c44128b4f965c9184cfb25be3477f3e9bf21bf6e4c3bfbd73394b030
+        tag: 4.3.2.1.81c2369.090823.7947
+      sbom: release_artifacts/4.3.2.1/aci-containers-controller/4.3.2.1-sbom.txt
+      severity: []
+    last_updated: 2023-09-07 23:24:27 PDT
     release_name: 4.3.2.1.z
   - acc_provision: []
     container_images: []
