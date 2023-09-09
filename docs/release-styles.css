@@ -75,18 +75,41 @@ td {
   margin: 0;
 }
 
+.menu-container a:hover {
+  text-decoration: underline;
+}
+
+
+.menu-container ul ul {
+  margin-left: 20px;
+}
+
 .menu-container li {
   margin: 5px 0;
+  position: relative;
 }
 
 .menu-container a {
   font-family: Arial, sans-serif;
   color: #0075be;
   text-decoration: none;
+  padding-left: 5px; /* added padding to make room for bullets/icons */
 }
 
 .menu-container a:hover {
   text-decoration: underline;
+}
+
+/* File tree styling */
+.menu-container li::before {
+  content: "•"; /* bullet symbol for items */
+  position: absolute;
+  left: 0;
+  transform: translateX(-100%); /* push bullet to the left of the content */
+}
+
+.menu-container ul ul li::before {
+  content: "–"; /* dash symbol for subitems; replace with other symbols or icons as needed */
 }
 
 .content {

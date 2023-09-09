@@ -21,6 +21,7 @@ fetch('release_artifacts/releases.yaml')
     // Get the URL parameters
     const urlParams = new URLSearchParams(window.location.search);
     const releaseName = urlParams.get('release');
+    const releaseTag = releaseName.replace(/(\.z|rc[0-9]+)$/, '');
     const imageRegistry = urlParams.get('dq'); // Should be either "quay" or "docker"
 
     // Define the registry domain based on the imageRegistry value
@@ -31,9 +32,13 @@ fetch('release_artifacts/releases.yaml')
       registryDomain = 'quay.io';
     }
  
-
     // Find the specific release data
-    const releaseData = parsedData.releases.find(release => release.release_name === releaseName);
+    const releaseTagData = parsedData.releases.find(release => release.release_tag === releaseTag);
+    if (!releaseTagData) {
+      console.error(`Release with tag "${releaseTag}" not found.`);
+      return;
+    }
+    const releaseData = releaseTagData.release_streams.find(release => release.release_name === releaseName);
     if (!releaseData) {
       console.error(`Release with name "${releaseName}" not found.`);
       return;
