@@ -122,38 +122,48 @@ releases:
         U: 0
     - base-image:
       - cve: release_artifacts/4.3.2.1/z/aci-containers-operator/4.3.2.1-cve-base.txt
-        severity: []
+        severity:
+        - C: 0
+          H: 1
+          L: 0
+          M: 7
+          U: 0
         sha: 572155f3053e0267874da447743adec560458824c12d3f8acd429f781656cf33
       build-logs: release_artifacts/4.3.2.1/z/aci-containers-operator/4.3.2.1-buildlog.txt
-      build-time: 2023-09-08 16:38:24 PDT
-      commit: &id001
+      build-time: 2023-09-08 17:16:11 PDT
+      commit:
       - link: https://github.com/noironetworks/aci-containers/commit/c7daeded7134190a1ccd767c399eb07fd524fe4c
         sha: c7daeded7134190a1ccd767c399eb07fd524fe4c
       cve: release_artifacts/4.3.2.1/z/aci-containers-operator/4.3.2.1-cve.txt
       docker:
-      - link: https://hub.docker.com/layers/noiro/aci-containers-operator/4.3.2.1.81c2369.z/images/sha256-837c1176f92e9c039266d9038ccbdbf4dcae9f6b49e3cf56ac90547eecfa3b63?context=explore
-        sha: sha256:8e2aef80b75738bc24e75f45ae15df3131603ab788cc7c52ebfd9172f9000058
+      - link: https://hub.docker.com/layers/noiro/aci-containers-operator/4.3.2.1.81c2369.z/images/sha256-cf47ca6e713d4554b159b326a4e55c4817a2d9c1bdfc86cba25e7fba1efd14af?context=explore
+        sha: sha256:5a12e842c078ea29a29772c78234f4988353db2e6a7bd53b291c4b433db0144f
         tag: 4.3.2.1.81c2369.z
-      - link: https://hub.docker.com/layers/noiro/aci-containers-operator/4.3.2.1.81c2369.090823.7948/images/sha256-837c1176f92e9c039266d9038ccbdbf4dcae9f6b49e3cf56ac90547eecfa3b63?context=explore
-        sha: sha256:8e2aef80b75738bc24e75f45ae15df3131603ab788cc7c52ebfd9172f9000058
-        tag: 4.3.2.1.81c2369.090823.7948
+      - link: https://hub.docker.com/layers/noiro/aci-containers-operator/4.3.2.1.81c2369.090923.7948/images/sha256-cf47ca6e713d4554b159b326a4e55c4817a2d9c1bdfc86cba25e7fba1efd14af?context=explore
+        sha: sha256:5a12e842c078ea29a29772c78234f4988353db2e6a7bd53b291c4b433db0144f
+        tag: 4.3.2.1.81c2369.090923.7948
       name: aci-containers-operator
       quay:
       - link: https://quay.io/noiro/aci-containers-operator:4.3.2.1.81c2369.z
-        sha: sha256:8e2aef80b75738bc24e75f45ae15df3131603ab788cc7c52ebfd9172f9000058
+        sha: sha256:5a12e842c078ea29a29772c78234f4988353db2e6a7bd53b291c4b433db0144f
         tag: 4.3.2.1.81c2369.z
-      - link: https://quay.io/noiro/aci-containers-operator:4.3.2.1.81c2369.090823.7948
-        sha: sha256:8e2aef80b75738bc24e75f45ae15df3131603ab788cc7c52ebfd9172f9000058
-        tag: 4.3.2.1.81c2369.090823.7948
+      - link: https://quay.io/noiro/aci-containers-operator:4.3.2.1.81c2369.090923.7948
+        sha: sha256:5a12e842c078ea29a29772c78234f4988353db2e6a7bd53b291c4b433db0144f
+        tag: 4.3.2.1.81c2369.090923.7948
       sbom: release_artifacts/4.3.2.1/z/aci-containers-operator/4.3.2.1-sbom.txt
-      severity: []
+      severity:
+      - C: 0
+        H: 5
+        L: 0
+        M: 11
+        U: 0
     - base-image:
       - cve: release_artifacts/4.3.2.1/z/openvswitch/4.3.2.1-cve-base.txt
         severity: []
         sha: 35c99977ee5baa359bdc80f9ccc360644d2dbccb7462ca0fd97a23170a00cfd1
       build-logs: release_artifacts/4.3.2.1/z/openvswitch/4.3.2.1-buildlog.txt
       build-time: 2023-09-08 16:40:04 PDT
-      commit: &id002
+      commit: &id001
       - link: https://github.com/noironetworks/aci-containers/commit/c7daeded7134190a1ccd767c399eb07fd524fe4c
         sha: c7daeded7134190a1ccd767c399eb07fd524fe4c
       cve: release_artifacts/4.3.2.1/z/openvswitch/4.3.2.1-cve.txt
@@ -174,7 +184,7 @@ releases:
         tag: 4.3.2.1.81c2369.090823.7948
       sbom: release_artifacts/4.3.2.1/z/openvswitch/4.3.2.1-sbom.txt
       severity: []
-    last_updated: 2023-09-08 17:14:57 PDT
+    last_updated: 2023-09-08 17:16:11 PDT
     release_name: 4.3.2.1.z
   - acc_provision:
     - build-logs: release_artifacts/4.3.2.1/r/acc-provision/4.3.2.1-buildlog.txt
@@ -289,7 +299,9 @@ releases:
         sha: 572155f3053e0267874da447743adec560458824c12d3f8acd429f781656cf33
       build-logs: release_artifacts/4.3.2.1/r/aci-containers-operator/4.3.2.1-buildlog.txt
       build-time: 2023-09-08 16:54:07 PDT
-      commit: *id001
+      commit:
+      - link: https://github.com/noironetworks/aci-containers/commit/c7daeded7134190a1ccd767c399eb07fd524fe4c
+        sha: c7daeded7134190a1ccd767c399eb07fd524fe4c
       cve: release_artifacts/4.3.2.1/r/aci-containers-operator/4.3.2.1-cve.txt
       docker:
       - link: https://hub.docker.com/layers/noiro/aci-containers-operator/4.3.2.1.81c2369/images/sha256-?context=explore
@@ -318,7 +330,7 @@ releases:
         sha: 35c99977ee5baa359bdc80f9ccc360644d2dbccb7462ca0fd97a23170a00cfd1
       build-logs: release_artifacts/4.3.2.1/r/openvswitch/4.3.2.1-buildlog.txt
       build-time: 2023-09-08 16:54:07 PDT
-      commit: *id002
+      commit: *id001
       cve: release_artifacts/4.3.2.1/r/openvswitch/4.3.2.1-cve.txt
       docker:
       - link: https://hub.docker.com/layers/noiro/openvswitch/4.3.2.1.81c2369/images/sha256-?context=explore
