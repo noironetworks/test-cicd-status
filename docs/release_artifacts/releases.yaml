@@ -511,14 +511,7 @@ releases:
       severity: []
     last_updated: 2023-09-08 11:39:23 PDT
     release_name: 3.3.3.1.z
-  - acc_provision:
-    - build-logs: release_artifacts/3.3.3.1/acc-provision/3.3.3.1-buildlog.txt
-      build-time: 2023-09-08 11:15:14 PDT
-      commit:
-      - link: https://github.com/noironetworks/acc-provision/commit/29a79e7a41d889e15fc150b7bbefa0bc849ef48e
-        sha: 29a79e7a41d889e15fc150b7bbefa0bc849ef48e
-      link: https://test.pypi.org/project/acc-provision/3.3.3.1/#files
-      tag: acc_provision-3.3.3.1
+  - acc_provision: []
     container_images: *id001
     last_updated: 2023-09-08 11:15:14 PDT
     release_name: 3.3.3.1
