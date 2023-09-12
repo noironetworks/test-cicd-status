@@ -71,7 +71,7 @@ Total: 189 (UNKNOWN: 0, LOW: 121, MEDIUM: 65, HIGH: 3, CRITICAL: 0)
 │                            │ CVE-2022-3606  │          │                     │                     │               │ NULL pointer dereference in find_prog_by_sec_insn            │
 │                            │                │          │                     │                     │               │ https://avd.aquasec.com/nvd/cve-2022-3606                    │
 ├────────────────────────────┼────────────────┤          ├─────────────────────┼─────────────────────┼───────────────┼──────────────────────────────────────────────────────────────┤
-│ libcap                     │ CVE-2023-2603  │          │ affected            │ 2.48-9.el9          │               │ Integer Overflow in _libcap_strdup()                         │
+│ libcap                     │ CVE-2023-2603  │          │ affected            │ 2.48-9.el9_2        │               │ Integer Overflow in _libcap_strdup()                         │
 │                            │                │          │                     │                     │               │ https://avd.aquasec.com/nvd/cve-2023-2603                    │
 │                            ├────────────────┼──────────┤                     │                     ├───────────────┼──────────────────────────────────────────────────────────────┤
 │                            │ CVE-2023-2602  │ LOW      │                     │                     │               │ Memory Leak on pthread_create() Error                        │
