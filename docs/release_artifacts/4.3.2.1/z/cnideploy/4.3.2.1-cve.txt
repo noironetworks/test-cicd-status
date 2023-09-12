@@ -29,7 +29,7 @@ Total: 202 (UNKNOWN: 0, LOW: 140, MEDIUM: 60, HIGH: 2, CRITICAL: 0)
 │                    │ CVE-2023-27538 │          │                     │                     │               │ SSH connection too eager reuse still                         │
 │                    │                │          │                     │                     │               │ https://avd.aquasec.com/nvd/cve-2023-27538                   │
 ├────────────────────┼────────────────┼──────────┤                     ├─────────────────────┼───────────────┼──────────────────────────────────────────────────────────────┤
-│ dmidecode          │ CVE-2023-30630 │ MEDIUM   │                     │ 1:3.3-7.el9         │               │ dump-bin to overwrite a local file                           │
+│ dmidecode          │ CVE-2023-30630 │ MEDIUM   │                     │ 1:3.3-7.el9_2.1     │               │ dump-bin to overwrite a local file                           │
 │                    │                │          │                     │                     │               │ https://avd.aquasec.com/nvd/cve-2023-30630                   │
 ├────────────────────┼────────────────┼──────────┤                     ├─────────────────────┼───────────────┼──────────────────────────────────────────────────────────────┤
 │ file-libs          │ CVE-2022-48554 │ LOW      │                     │ 5.39-12.1.el9_2     │               │ stack-based buffer over-read in file_copystr in funcs.c      │
@@ -157,7 +157,7 @@ Total: 202 (UNKNOWN: 0, LOW: 140, MEDIUM: 60, HIGH: 2, CRITICAL: 0)
 │                    │                │          │                     │                     │               │ archive_write_disk_header() on posix based systems           │
 │                    │                │          │                     │                     │               │ https://avd.aquasec.com/nvd/cve-2023-30571                   │
 ├────────────────────┼────────────────┤          ├─────────────────────┼─────────────────────┼───────────────┼──────────────────────────────────────────────────────────────┤
-│ libcap             │ CVE-2023-2603  │          │ affected            │ 2.48-8.el9          │               │ Integer Overflow in _libcap_strdup()                         │
+│ libcap             │ CVE-2023-2603  │          │ affected            │ 2.48-9.el9_2        │               │ Integer Overflow in _libcap_strdup()                         │
 │                    │                │          │                     │                     │               │ https://avd.aquasec.com/nvd/cve-2023-2603                    │
 │                    ├────────────────┼──────────┤                     │                     ├───────────────┼──────────────────────────────────────────────────────────────┤
 │                    │ CVE-2023-2602  │ LOW      │                     │                     │               │ Memory Leak on pthread_create() Error                        │
