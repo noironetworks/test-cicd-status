@@ -54,28 +54,28 @@ releases:
           L: 0
           M: 7
           U: 0
-        sha: 572155f3053e0267874da447743adec560458824c12d3f8acd429f781656cf33
+        sha: 351ed8b24d440c348486efd99587046e88bb966890a9207a5851d3a34a4dd346
       build-logs: release_artifacts/4.3.2.1/z/aci-containers-controller/4.3.2.1-buildlog.txt
-      build-time: 2023-09-08 17:13:41 PDT
+      build-time: 2023-09-12 15:09:09 PDT
       commit:
       - link: https://github.com/noironetworks/aci-containers/commit/c7daeded7134190a1ccd767c399eb07fd524fe4c
         sha: c7daeded7134190a1ccd767c399eb07fd524fe4c
       cve: release_artifacts/4.3.2.1/z/aci-containers-controller/4.3.2.1-cve.txt
       docker:
-      - link: https://hub.docker.com/layers/noiro/aci-containers-controller/4.3.2.1.81c2369.z/images/sha256-712ccddfba149b55615eef48e8b50b88b7a1e6836f40045961bd558a625c20d9?context=explore
-        sha: sha256:bed4d61b3a343bc1f1e8177a8a145fac68608bb72eee53c6de349aa3775e50cb
+      - link: https://hub.docker.com/layers/noiro/aci-containers-controller/4.3.2.1.81c2369.z/images/sha256-53e46e6d58e2d2627e6390872188f4dd198e4bac9197b76d6b6c511ab0da5ef0?context=explore
+        sha: sha256:c68f859e7446a99fe12eb076208bda57589bffa0366246fa165e03f8b512a273
         tag: 4.3.2.1.81c2369.z
-      - link: https://hub.docker.com/layers/noiro/aci-containers-controller/4.3.2.1.81c2369.090923.7948/images/sha256-712ccddfba149b55615eef48e8b50b88b7a1e6836f40045961bd558a625c20d9?context=explore
-        sha: sha256:bed4d61b3a343bc1f1e8177a8a145fac68608bb72eee53c6de349aa3775e50cb
-        tag: 4.3.2.1.81c2369.090923.7948
+      - link: https://hub.docker.com/layers/noiro/aci-containers-controller/4.3.2.1.81c2369.091223.7948/images/sha256-53e46e6d58e2d2627e6390872188f4dd198e4bac9197b76d6b6c511ab0da5ef0?context=explore
+        sha: sha256:c68f859e7446a99fe12eb076208bda57589bffa0366246fa165e03f8b512a273
+        tag: 4.3.2.1.81c2369.091223.7948
       name: aci-containers-controller
       quay:
       - link: https://quay.io/noiro/aci-containers-controller:4.3.2.1.81c2369.z
-        sha: sha256:bed4d61b3a343bc1f1e8177a8a145fac68608bb72eee53c6de349aa3775e50cb
+        sha: sha256:c68f859e7446a99fe12eb076208bda57589bffa0366246fa165e03f8b512a273
         tag: 4.3.2.1.81c2369.z
-      - link: https://quay.io/noiro/aci-containers-controller:4.3.2.1.81c2369.090923.7948
-        sha: sha256:bed4d61b3a343bc1f1e8177a8a145fac68608bb72eee53c6de349aa3775e50cb
-        tag: 4.3.2.1.81c2369.090923.7948
+      - link: https://quay.io/noiro/aci-containers-controller:4.3.2.1.81c2369.091223.7948
+        sha: sha256:c68f859e7446a99fe12eb076208bda57589bffa0366246fa165e03f8b512a273
+        tag: 4.3.2.1.81c2369.091223.7948
       sbom: release_artifacts/4.3.2.1/z/aci-containers-controller/4.3.2.1-sbom.txt
       severity:
       - C: 0
@@ -194,7 +194,7 @@ releases:
         L: 0
         M: 4
         U: 0
-    last_updated: 2023-09-12 15:07:27 PDT
+    last_updated: 2023-09-12 15:09:09 PDT
     release_name: 4.3.2.1.z
   - acc_provision:
     - build-logs: release_artifacts/4.3.2.1/r/acc-provision/4.3.2.1-buildlog.txt
