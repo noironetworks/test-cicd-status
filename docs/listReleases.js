@@ -34,6 +34,12 @@ fetch('release_artifacts/releases.yaml')
             tagCell.appendChild(releaseLink);
             releaseRow.appendChild(tagCell);
             releaseTable.appendChild(releaseRow);
+
+            const lastUpdatedCell = document.createElement('td');
+            lastUpdatedCell.textContent = releaseStream.last_updated || 'N/A';
+            releaseRow.appendChild(lastUpdatedCell);
+
+            releaseTable.appendChild(releaseRow);
             break;
           }
         }
