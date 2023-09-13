@@ -198,7 +198,7 @@ releases:
     release_name: 4.3.2.1.z
   - acc_provision:
     - build-logs: release_artifacts/4.3.2.1/r/acc-provision/4.3.2.1-buildlog.txt
-      build-time: 2023-09-12 17:14:00 PDT
+      build-time: 2023-09-12 17:28:17 PDT
       commit:
       - link: https://github.com/noironetworks/acc-provision/commit/38338449405a48974d98ac139447d4d0ce21c039
         sha: 38338449405a48974d98ac139447d4d0ce21c039
@@ -215,7 +215,7 @@ releases:
           U: 0
         sha: 351ed8b24d440c348486efd99587046e88bb966890a9207a5851d3a34a4dd346
       build-logs: release_artifacts/4.3.2.1/r/aci-containers-host/4.3.2.1-buildlog.txt
-      build-time: 2023-09-12 17:14:14 PDT
+      build-time: 2023-09-12 17:28:31 PDT
       commit: *id001
       cve: release_artifacts/4.3.2.1/r/aci-containers-host/4.3.2.1-cve.txt
       docker:
@@ -228,7 +228,12 @@ releases:
         sha: c85c5cad26bea33e3fc5e50f68a1c61cceb52a86a6f5f28c5ea2695e832c32bb
         tag: 4.3.2.1.81c2369
       sbom: release_artifacts/4.3.2.1/r/aci-containers-host/4.3.2.1-sbom.txt
-      severity: []
+      severity:
+      - C: 0
+        H: 1
+        L: 0
+        M: 10
+        U: 0
     - base-image:
       - cve: release_artifacts/4.3.2.1/r/aci-containers-controller/4.3.2.1-cve-base.txt
         severity:
@@ -239,7 +244,7 @@ releases:
           U: 0
         sha: 351ed8b24d440c348486efd99587046e88bb966890a9207a5851d3a34a4dd346
       build-logs: release_artifacts/4.3.2.1/r/aci-containers-controller/4.3.2.1-buildlog.txt
-      build-time: 2023-09-12 17:14:20 PDT
+      build-time: 2023-09-12 17:28:36 PDT
       commit: *id002
       cve: release_artifacts/4.3.2.1/r/aci-containers-controller/4.3.2.1-cve.txt
       docker:
@@ -252,7 +257,12 @@ releases:
         sha: 53e46e6d58e2d2627e6390872188f4dd198e4bac9197b76d6b6c511ab0da5ef0
         tag: 4.3.2.1.81c2369
       sbom: release_artifacts/4.3.2.1/r/aci-containers-controller/4.3.2.1-sbom.txt
-      severity: []
+      severity:
+      - C: 0
+        H: 5
+        L: 0
+        M: 13
+        U: 0
     - base-image:
       - cve: release_artifacts/4.3.2.1/r/cnideploy/4.3.2.1-cve-base.txt
         severity:
@@ -263,7 +273,7 @@ releases:
           U: 0
         sha: 351ed8b24d440c348486efd99587046e88bb966890a9207a5851d3a34a4dd346
       build-logs: release_artifacts/4.3.2.1/r/cnideploy/4.3.2.1-buildlog.txt
-      build-time: 2023-09-12 17:14:24 PDT
+      build-time: 2023-09-12 17:28:41 PDT
       commit: *id003
       cve: release_artifacts/4.3.2.1/r/cnideploy/4.3.2.1-cve.txt
       docker:
@@ -276,7 +286,12 @@ releases:
         sha: dc4de6512c0c1902dcaaf7cd4bbe1ebe0a5409343fcd9cd036b94273689d2607
         tag: 4.3.2.1.81c2369
       sbom: release_artifacts/4.3.2.1/r/cnideploy/4.3.2.1-sbom.txt
-      severity: []
+      severity:
+      - C: 0
+        H: 1
+        L: 0
+        M: 9
+        U: 0
     - base-image:
       - cve: release_artifacts/4.3.2.1/r/aci-containers-operator/4.3.2.1-cve-base.txt
         severity:
@@ -287,7 +302,7 @@ releases:
           U: 0
         sha: 351ed8b24d440c348486efd99587046e88bb966890a9207a5851d3a34a4dd346
       build-logs: release_artifacts/4.3.2.1/r/aci-containers-operator/4.3.2.1-buildlog.txt
-      build-time: 2023-09-12 17:14:30 PDT
+      build-time: 2023-09-12 17:28:47 PDT
       commit: *id004
       cve: release_artifacts/4.3.2.1/r/aci-containers-operator/4.3.2.1-cve.txt
       docker:
@@ -300,13 +315,18 @@ releases:
         sha: 70b9fe21513e6d5d1b152a56dff0cb1471ffd10c2be1550fae592f10990bc6ce
         tag: 4.3.2.1.81c2369
       sbom: release_artifacts/4.3.2.1/r/aci-containers-operator/4.3.2.1-sbom.txt
-      severity: []
+      severity:
+      - C: 0
+        H: 5
+        L: 0
+        M: 11
+        U: 0
     - base-image:
       - cve: release_artifacts/4.3.2.1/r/openvswitch/4.3.2.1-cve-base.txt
         severity: []
         sha: 0dfa71a7ec2caf445e7ac6b7422ae67f3518960bd6dbf62a7b77fa7a6cfc02b1
       build-logs: release_artifacts/4.3.2.1/r/openvswitch/4.3.2.1-buildlog.txt
-      build-time: 2023-09-12 17:14:43 PDT
+      build-time: 2023-09-12 17:29:01 PDT
       commit: *id005
       cve: release_artifacts/4.3.2.1/r/openvswitch/4.3.2.1-cve.txt
       docker:
@@ -319,8 +339,13 @@ releases:
         sha: 827d1a91aebbaa85f3b2ee97cf0390c1c6214c653dbaef7405affcdb2de6c0ae
         tag: 4.3.2.1.81c2369
       sbom: release_artifacts/4.3.2.1/r/openvswitch/4.3.2.1-sbom.txt
-      severity: []
-    last_updated: 2023-09-12 17:14:00 PDT
+      severity:
+      - C: 0
+        H: 0
+        L: 0
+        M: 4
+        U: 0
+    last_updated: 2023-09-12 17:28:17 PDT
     release_name: 4.3.2.1
     released: true
   - acc_provision:
