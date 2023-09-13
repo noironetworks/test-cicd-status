@@ -21,12 +21,30 @@ fetch('release_artifacts/releases.yaml')
         return 0;
       });
 
+      for (const releaseStream of sortedReleaseStreams) {
+        if (releaseStream && releaseStream.release_name) {
+          const releaseName = releaseStream.release_name;
+          if (releaseStream.released === true) {
+            // Add the release information to the table
+            const releaseRow = document.createElement('tr');
+            const tagCell = document.createElement('td');
+            const releaseLink = document.createElement('a');
+            releaseLink.href = `release.html?release=${encodeURIComponent(releaseName)}`;
+            releaseLink.textContent = releaseName;
+            tagCell.appendChild(releaseLink);
+            releaseRow.appendChild(tagCell);
+            releaseTable.appendChild(releaseRow);
+            break;
+          }
+        }
+      }
+
       // Loop through the sorted release_streams
       for (const releaseStream of sortedReleaseStreams) {
         if (releaseStream && releaseStream.release_name) {
           const releaseName = releaseStream.release_name;
           // Check releaseName
-          if (releaseName.endsWith('.z') || releaseName.match(/rc[0-9]+$/) || releaseStream.released === true) {
+          if (releaseName.endsWith('.z') || releaseName.match(/rc[0-9]+$/)) {
             // Add the release information to the table
             const releaseRow = document.createElement('tr');
 
@@ -38,7 +56,6 @@ fetch('release_artifacts/releases.yaml')
             releaseRow.appendChild(tagCell);
 
             const lastUpdatedCell = document.createElement('td');
-            // Assuming you have a property named "last_updated" in your release.yaml for each release_stream
             lastUpdatedCell.textContent = releaseStream.last_updated || 'N/A';
             releaseRow.appendChild(lastUpdatedCell);
 
