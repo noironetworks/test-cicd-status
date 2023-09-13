@@ -350,7 +350,7 @@ releases:
     released: true
   - acc_provision:
     - build-logs: release_artifacts/4.3.2.1/rc1/acc-provision/4.3.2.1-buildlog.txt
-      build-time: 2023-09-12 18:06:38 PDT
+      build-time: 2023-09-12 18:30:53 PDT
       commit:
       - link: https://github.com/noironetworks/acc-provision/commit/38338449405a48974d98ac139447d4d0ce21c039
         sha: 38338449405a48974d98ac139447d4d0ce21c039
@@ -367,18 +367,18 @@ releases:
           U: 0
         sha: 351ed8b24d440c348486efd99587046e88bb966890a9207a5851d3a34a4dd346
       build-logs: release_artifacts/4.3.2.1/rc1/aci-containers-host/4.3.2.1-buildlog.txt
-      build-time: 2023-09-12 18:06:39 PDT
+      build-time: 2023-09-12 18:31:08 PDT
       commit: *id001
       cve: release_artifacts/4.3.2.1/rc1/aci-containers-host/4.3.2.1-cve.txt
       docker:
-      - link: https://hub.docker.com/layers/noiro/aci-containers-host/4.3.2.1rc1.81c2369.rc1/images/sha256-error?context=explore
-        sha: error
-        tag: 4.3.2.1rc1.81c2369.rc1
+      - link: https://hub.docker.com/layers/noiro/aci-containers-host/4.3.2.1.81c2369.rc1/images/sha256-7d08cef975baf3a303d6cc3033c26874fd7881f7bac4c8d24590ff471b68aee8?context=explore
+        sha: 7d08cef975baf3a303d6cc3033c26874fd7881f7bac4c8d24590ff471b68aee8
+        tag: 4.3.2.1.81c2369.rc1
       name: aci-containers-host
       quay:
-      - link: https://quay.io/noirolabs/aci-containers-host:4.3.2.1rc1.81c2369.rc1
+      - link: https://quay.io/noirolabs/aci-containers-host:4.3.2.1.81c2369.rc1
         sha: error
-        tag: 4.3.2.1rc1.81c2369.rc1
+        tag: 4.3.2.1.81c2369.rc1
       sbom: release_artifacts/4.3.2.1/rc1/aci-containers-host/4.3.2.1-sbom.txt
       severity:
       - C: 0
@@ -396,18 +396,18 @@ releases:
           U: 0
         sha: 351ed8b24d440c348486efd99587046e88bb966890a9207a5851d3a34a4dd346
       build-logs: release_artifacts/4.3.2.1/rc1/aci-containers-controller/4.3.2.1-buildlog.txt
-      build-time: 2023-09-12 18:06:41 PDT
+      build-time: 2023-09-12 18:31:13 PDT
       commit: *id002
       cve: release_artifacts/4.3.2.1/rc1/aci-containers-controller/4.3.2.1-cve.txt
       docker:
-      - link: https://hub.docker.com/layers/noiro/aci-containers-controller/4.3.2.1rc1.81c2369.rc1/images/sha256-error?context=explore
-        sha: error
-        tag: 4.3.2.1rc1.81c2369.rc1
+      - link: https://hub.docker.com/layers/noiro/aci-containers-controller/4.3.2.1.81c2369.rc1/images/sha256-da4ab560e8e2855c6616edb4ffd4b2e9838094a2562bf66b7ac185d1cf446622?context=explore
+        sha: da4ab560e8e2855c6616edb4ffd4b2e9838094a2562bf66b7ac185d1cf446622
+        tag: 4.3.2.1.81c2369.rc1
       name: aci-containers-controller
       quay:
-      - link: https://quay.io/noirolabs/aci-containers-controller:4.3.2.1rc1.81c2369.rc1
+      - link: https://quay.io/noirolabs/aci-containers-controller:4.3.2.1.81c2369.rc1
         sha: error
-        tag: 4.3.2.1rc1.81c2369.rc1
+        tag: 4.3.2.1.81c2369.rc1
       sbom: release_artifacts/4.3.2.1/rc1/aci-containers-controller/4.3.2.1-sbom.txt
       severity:
       - C: 0
@@ -425,18 +425,18 @@ releases:
           U: 0
         sha: 351ed8b24d440c348486efd99587046e88bb966890a9207a5851d3a34a4dd346
       build-logs: release_artifacts/4.3.2.1/rc1/cnideploy/4.3.2.1-buildlog.txt
-      build-time: 2023-09-12 18:06:42 PDT
+      build-time: 2023-09-12 18:31:19 PDT
       commit: *id003
       cve: release_artifacts/4.3.2.1/rc1/cnideploy/4.3.2.1-cve.txt
       docker:
-      - link: https://hub.docker.com/layers/noiro/cnideploy/4.3.2.1rc1.81c2369.rc1/images/sha256-error?context=explore
-        sha: error
-        tag: 4.3.2.1rc1.81c2369.rc1
+      - link: https://hub.docker.com/layers/noiro/cnideploy/4.3.2.1.81c2369.rc1/images/sha256-a5c715a5a001153002a256471db77d4b374b6caaffdf8e7d07db7b456e4b5914?context=explore
+        sha: a5c715a5a001153002a256471db77d4b374b6caaffdf8e7d07db7b456e4b5914
+        tag: 4.3.2.1.81c2369.rc1
       name: cnideploy
       quay:
-      - link: https://quay.io/noirolabs/cnideploy:4.3.2.1rc1.81c2369.rc1
+      - link: https://quay.io/noirolabs/cnideploy:4.3.2.1.81c2369.rc1
         sha: error
-        tag: 4.3.2.1rc1.81c2369.rc1
+        tag: 4.3.2.1.81c2369.rc1
       sbom: release_artifacts/4.3.2.1/rc1/cnideploy/4.3.2.1-sbom.txt
       severity:
       - C: 0
@@ -454,18 +454,18 @@ releases:
           U: 0
         sha: 351ed8b24d440c348486efd99587046e88bb966890a9207a5851d3a34a4dd346
       build-logs: release_artifacts/4.3.2.1/rc1/aci-containers-operator/4.3.2.1-buildlog.txt
-      build-time: 2023-09-12 18:06:43 PDT
+      build-time: 2023-09-12 18:31:24 PDT
       commit: *id004
       cve: release_artifacts/4.3.2.1/rc1/aci-containers-operator/4.3.2.1-cve.txt
       docker:
-      - link: https://hub.docker.com/layers/noiro/aci-containers-operator/4.3.2.1rc1.81c2369.rc1/images/sha256-error?context=explore
-        sha: error
-        tag: 4.3.2.1rc1.81c2369.rc1
+      - link: https://hub.docker.com/layers/noiro/aci-containers-operator/4.3.2.1.81c2369.rc1/images/sha256-6d89a04ac367590c25abfdf878ddc362286029e040943ce19ff08334c21184b5?context=explore
+        sha: 6d89a04ac367590c25abfdf878ddc362286029e040943ce19ff08334c21184b5
+        tag: 4.3.2.1.81c2369.rc1
       name: aci-containers-operator
       quay:
-      - link: https://quay.io/noirolabs/aci-containers-operator:4.3.2.1rc1.81c2369.rc1
+      - link: https://quay.io/noirolabs/aci-containers-operator:4.3.2.1.81c2369.rc1
         sha: error
-        tag: 4.3.2.1rc1.81c2369.rc1
+        tag: 4.3.2.1.81c2369.rc1
       sbom: release_artifacts/4.3.2.1/rc1/aci-containers-operator/4.3.2.1-sbom.txt
       severity:
       - C: 0
@@ -478,18 +478,18 @@ releases:
         severity: []
         sha: 0dfa71a7ec2caf445e7ac6b7422ae67f3518960bd6dbf62a7b77fa7a6cfc02b1
       build-logs: release_artifacts/4.3.2.1/rc1/openvswitch/4.3.2.1-buildlog.txt
-      build-time: 2023-09-12 18:06:44 PDT
+      build-time: 2023-09-12 18:31:38 PDT
       commit: *id005
       cve: release_artifacts/4.3.2.1/rc1/openvswitch/4.3.2.1-cve.txt
       docker:
-      - link: https://hub.docker.com/layers/noiro/openvswitch/4.3.2.1rc1.81c2369.rc1/images/sha256-error?context=explore
-        sha: error
-        tag: 4.3.2.1rc1.81c2369.rc1
+      - link: https://hub.docker.com/layers/noiro/openvswitch/4.3.2.1.81c2369.rc1/images/sha256-d58e78dd296027ed7b43593bf55a8412fdd9c1154a952c7202e984254f2f7913?context=explore
+        sha: d58e78dd296027ed7b43593bf55a8412fdd9c1154a952c7202e984254f2f7913
+        tag: 4.3.2.1.81c2369.rc1
       name: openvswitch
       quay:
-      - link: https://quay.io/noirolabs/openvswitch:4.3.2.1rc1.81c2369.rc1
+      - link: https://quay.io/noirolabs/openvswitch:4.3.2.1.81c2369.rc1
         sha: error
-        tag: 4.3.2.1rc1.81c2369.rc1
+        tag: 4.3.2.1.81c2369.rc1
       sbom: release_artifacts/4.3.2.1/rc1/openvswitch/4.3.2.1-sbom.txt
       severity:
       - C: 0
@@ -497,7 +497,7 @@ releases:
         L: 0
         M: 4
         U: 0
-    last_updated: 2023-09-12 18:06:38 PDT
+    last_updated: 2023-09-12 18:30:53 PDT
     release_name: 4.3.2.1.rc1
     released: false
   release_tag: 4.3.2.1
