@@ -350,7 +350,7 @@ releases:
     released: true
   - acc_provision:
     - build-logs: release_artifacts/4.3.2.1/rc1/acc-provision/4.3.2.1-buildlog.txt
-      build-time: 2023-09-12 17:27:41 PDT
+      build-time: 2023-09-12 18:06:38 PDT
       commit:
       - link: https://github.com/noironetworks/acc-provision/commit/38338449405a48974d98ac139447d4d0ce21c039
         sha: 38338449405a48974d98ac139447d4d0ce21c039
@@ -367,7 +367,7 @@ releases:
           U: 0
         sha: 351ed8b24d440c348486efd99587046e88bb966890a9207a5851d3a34a4dd346
       build-logs: release_artifacts/4.3.2.1/rc1/aci-containers-host/4.3.2.1-buildlog.txt
-      build-time: 2023-09-12 17:27:43 PDT
+      build-time: 2023-09-12 18:06:39 PDT
       commit: *id001
       cve: release_artifacts/4.3.2.1/rc1/aci-containers-host/4.3.2.1-cve.txt
       docker:
@@ -396,7 +396,7 @@ releases:
           U: 0
         sha: 351ed8b24d440c348486efd99587046e88bb966890a9207a5851d3a34a4dd346
       build-logs: release_artifacts/4.3.2.1/rc1/aci-containers-controller/4.3.2.1-buildlog.txt
-      build-time: 2023-09-12 17:27:44 PDT
+      build-time: 2023-09-12 18:06:41 PDT
       commit: *id002
       cve: release_artifacts/4.3.2.1/rc1/aci-containers-controller/4.3.2.1-cve.txt
       docker:
@@ -425,7 +425,7 @@ releases:
           U: 0
         sha: 351ed8b24d440c348486efd99587046e88bb966890a9207a5851d3a34a4dd346
       build-logs: release_artifacts/4.3.2.1/rc1/cnideploy/4.3.2.1-buildlog.txt
-      build-time: 2023-09-12 17:27:45 PDT
+      build-time: 2023-09-12 18:06:42 PDT
       commit: *id003
       cve: release_artifacts/4.3.2.1/rc1/cnideploy/4.3.2.1-cve.txt
       docker:
@@ -454,7 +454,7 @@ releases:
           U: 0
         sha: 351ed8b24d440c348486efd99587046e88bb966890a9207a5851d3a34a4dd346
       build-logs: release_artifacts/4.3.2.1/rc1/aci-containers-operator/4.3.2.1-buildlog.txt
-      build-time: 2023-09-12 17:27:47 PDT
+      build-time: 2023-09-12 18:06:43 PDT
       commit: *id004
       cve: release_artifacts/4.3.2.1/rc1/aci-containers-operator/4.3.2.1-cve.txt
       docker:
@@ -478,7 +478,7 @@ releases:
         severity: []
         sha: 0dfa71a7ec2caf445e7ac6b7422ae67f3518960bd6dbf62a7b77fa7a6cfc02b1
       build-logs: release_artifacts/4.3.2.1/rc1/openvswitch/4.3.2.1-buildlog.txt
-      build-time: 2023-09-12 17:27:48 PDT
+      build-time: 2023-09-12 18:06:44 PDT
       commit: *id005
       cve: release_artifacts/4.3.2.1/rc1/openvswitch/4.3.2.1-cve.txt
       docker:
@@ -497,7 +497,7 @@ releases:
         L: 0
         M: 4
         U: 0
-    last_updated: 2023-09-12 17:27:41 PDT
+    last_updated: 2023-09-12 18:06:38 PDT
     release_name: 4.3.2.1.rc1
     released: false
   release_tag: 4.3.2.1
