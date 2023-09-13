@@ -29,8 +29,8 @@ fetch('release_artifacts/releases.yaml')
         // Create a sub-menu for release streams
         const subMenu = document.createElement('ul');
         for (const releaseStream of (release.release_streams || []).sort((a, b) => {
-            if (a.release_name < b.release_name) return -1;
-            if (a.release_name > b.release_name) return 1;
+            if (a.release_name > b.release_name) return -1;
+            if (a.release_name < b.release_name) return 1;
             return 0;
         })) {
             const releaseName = releaseStream.release_name;

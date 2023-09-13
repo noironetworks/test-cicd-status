@@ -81,7 +81,7 @@ td {
 
 
 .menu-container ul ul {
-  margin-left: 20px;
+  margin-left: 10px;
 }
 
 .menu-container li {
@@ -110,6 +110,7 @@ td {
 
 .menu-container ul ul li::before {
   content: "–"; /* dash symbol for subitems; replace with other symbols or icons as needed */
+  left: 0;
 }
 
 .content {

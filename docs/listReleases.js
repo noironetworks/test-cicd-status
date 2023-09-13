@@ -16,8 +16,8 @@ fetch('release_artifacts/releases.yaml')
     for (const release of sortedReleases) {
       // Sort release_streams lexicographically by release_name
       const sortedReleaseStreams = release.release_streams.sort((a, b) => {
-        if (a.release_name < b.release_name) return -1;
-        if (a.release_name > b.release_name) return 1;
+        if (a.release_name > b.release_name) return -1;
+        if (a.release_name < b.release_name) return 1;
         return 0;
       });
 
