@@ -10,7 +10,7 @@ fetch('release_artifacts/releases.yaml')
 
     const urlParams = new URLSearchParams(window.location.search);
     const releaseName = urlParams.get('release');
-    const releaseTag = releaseName.replace(/(\.z|rc[0-9]+)$/, '');
+    const releaseTag = releaseName.replace(/(\.z|.rc[0-9]+)$/, '');
 
     for (const releaseData of parsedData.releases) {
       if (releaseData.release_tag === releaseTag) {

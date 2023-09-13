@@ -8,12 +8,15 @@ fetch('release_artifacts/releases.yaml')
     const tableBody = releaseTable.querySelector('tbody');
     const urlParams = new URLSearchParams(window.location.search);
     const releaseName = urlParams.get('release');
-    const releaseTag = releaseName.replace(/(\.z|rc[0-9]+)$/, '');
+    const releaseTag = releaseName.replace(/(\.z|.rc[0-9]+)$/, '');
 
+    console.log("releaseTag", releaseTag);
     for (const releaseData of parsedData.releases) {
       if (releaseData.release_tag === releaseTag) {
+        console.log("log", releaseData.release_tag);
         for (const releaseStream of releaseData.release_streams) {
           if (releaseStream.release_name === releaseName) {
+            console.log("log", releaseStream);
             if (releaseName === releaseTag) {
               if (releaseStream.released === false) {
                 const releaseRow = document.createElement('tr');
