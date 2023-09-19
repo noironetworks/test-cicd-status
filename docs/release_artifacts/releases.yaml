@@ -194,7 +194,44 @@ releases:
         L: 0
         M: 4
         U: 0
-    last_updated: 2023-09-12 15:13:34 PDT
+    - base-image:
+      - cve: release_artifacts/4.3.2.1/z/acc-provision-operator/4.3.2.1-cve-base.txt
+        severity:
+        - C: 4
+          H: 12
+          L: 138
+          M: 103
+          U: 3
+        sha: 0fb346fdc395bcf5be4154628a7b3fe8e193a0c2fcee51824e44f11551331f8a
+      build-logs: release_artifacts/4.3.2.1/z/acc-provision-operator/4.3.2.1-buildlog.txt
+      build-time: 2023-09-19 16:22:03 PDT
+      commit:
+      - link: https://github.com/noironetworks/acc-provision-operator/commit/57cde54c3f85bdaab8f922a25b8fdd27da95db1b
+        sha: 57cde54c3f85bdaab8f922a25b8fdd27da95db1b
+      cve: release_artifacts/4.3.2.1/z/acc-provision-operator/4.3.2.1-cve.txt
+      docker:
+      - link: https://hub.docker.com/layers/noirolabs/acc-provision-operator/4.3.2.1.81c2369.z/images/sha256-951b46789c6ca21935fa591aa4118237817af97906888a1c3b3054437c0849e7?context=explore
+        sha: 951b46789c6ca21935fa591aa4118237817af97906888a1c3b3054437c0849e7
+        tag: 4.3.2.1.81c2369.z
+      - link: https://hub.docker.com/layers/noirolabs/acc-provision-operator/4.3.2.1.81c2369.091923.578/images/sha256-951b46789c6ca21935fa591aa4118237817af97906888a1c3b3054437c0849e7?context=explore
+        sha: 951b46789c6ca21935fa591aa4118237817af97906888a1c3b3054437c0849e7
+        tag: 4.3.2.1.81c2369.091923.578
+      name: acc-provision-operator
+      quay:
+      - link: https://quay.io/noirolabs/acc-provision-operator:4.3.2.1.81c2369.z
+        sha: 951b46789c6ca21935fa591aa4118237817af97906888a1c3b3054437c0849e7
+        tag: 4.3.2.1.81c2369.z
+      - link: https://quay.io/noirolabs/acc-provision-operator:4.3.2.1.81c2369.091923.578
+        sha: 951b46789c6ca21935fa591aa4118237817af97906888a1c3b3054437c0849e7
+        tag: 4.3.2.1.81c2369.091923.578
+      sbom: release_artifacts/4.3.2.1/z/acc-provision-operator/4.3.2.1-sbom.txt
+      severity:
+      - C: 6
+        H: 22
+        L: 270
+        M: 348
+        U: 6
+    last_updated: 2023-09-19 16:22:03 PDT
     release_name: 4.3.2.1.z
   - acc_provision:
     - build-logs: release_artifacts/4.3.2.1/r/acc-provision/4.3.2.1-buildlog.txt
