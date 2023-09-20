@@ -231,7 +231,44 @@ releases:
         L: 270
         M: 348
         U: 6
-    last_updated: 2023-09-19 17:35:18 PDT
+    - base-image:
+      - cve: release_artifacts/4.3.2.1/z/opflex/4.3.2.1-cve-base.txt
+        severity:
+        - C: 0
+          H: 0
+          L: 0
+          M: 0
+          U: 0
+        sha: 0dfa71a7ec2caf445e7ac6b7422ae67f3518960bd6dbf62a7b77fa7a6cfc02b1
+      build-logs: release_artifacts/4.3.2.1/z/opflex/4.3.2.1-buildlog.txt
+      build-time: 2023-09-19 18:34:18 PDT
+      commit:
+      - link: https://github.com/noironetworks/opflex/commit/a9d5d230678eb7e12dbdc8e79d71e99073516a98
+        sha: a9d5d230678eb7e12dbdc8e79d71e99073516a98
+      cve: release_artifacts/4.3.2.1/z/opflex/4.3.2.1-cve.txt
+      docker:
+      - link: https://hub.docker.com/layers/noiro/opflex/4.3.2.1.81c2369.z/images/sha256-b35b6c407f3e9c7bc05bd99d24cbb49e2391d9dd3452b1caea3293cfc2d412d4?context=explore
+        sha: b35b6c407f3e9c7bc05bd99d24cbb49e2391d9dd3452b1caea3293cfc2d412d4
+        tag: 4.3.2.1.81c2369.z
+      - link: https://hub.docker.com/layers/noiro/opflex/4.3.2.1.81c2369.092023.3057/images/sha256-b35b6c407f3e9c7bc05bd99d24cbb49e2391d9dd3452b1caea3293cfc2d412d4?context=explore
+        sha: b35b6c407f3e9c7bc05bd99d24cbb49e2391d9dd3452b1caea3293cfc2d412d4
+        tag: 4.3.2.1.81c2369.092023.3057
+      name: opflex
+      quay:
+      - link: https://quay.io/noiro/opflex:4.3.2.1.81c2369.z
+        sha: b35b6c407f3e9c7bc05bd99d24cbb49e2391d9dd3452b1caea3293cfc2d412d4
+        tag: 4.3.2.1.81c2369.z
+      - link: https://quay.io/noiro/opflex:4.3.2.1.81c2369.092023.3057
+        sha: b35b6c407f3e9c7bc05bd99d24cbb49e2391d9dd3452b1caea3293cfc2d412d4
+        tag: 4.3.2.1.81c2369.092023.3057
+      sbom: release_artifacts/4.3.2.1/z/opflex/4.3.2.1-sbom.txt
+      severity:
+      - C: 0
+        H: 0
+        L: 0
+        M: 4
+        U: 0
+    last_updated: 2023-09-19 18:34:18 PDT
     release_name: 4.3.2.1.z
   - acc_provision:
     - build-logs: release_artifacts/4.3.2.1/r/acc-provision/4.3.2.1-buildlog.txt
