@@ -89,7 +89,7 @@ dbus-libs                               1:1.12.8-24.el8                         
 dbus-libs                               1:1.12.8-24.el8                           (won't fix)          rpm     CVE-2020-35512       Low       
 dbus-tools                              1:1.12.8-24.el8                           1:1.12.8-24.el8_8.1  rpm     CVE-2023-34969       Medium    
 dbus-tools                              1:1.12.8-24.el8                           (won't fix)          rpm     CVE-2020-35512       Low       
-dmidecode                               1:3.3-4.el8                                                    rpm     CVE-2023-30630       Medium    
+dmidecode                               1:3.3-4.el8                               1:3.3-4.el8_8.1      rpm     CVE-2023-30630       Medium    
 dnf-plugin-subscription-manager         1.28.36-2.el8                             0:1.28.36-3.el8_8    rpm     CVE-2023-3899        High      
 dnf-plugin-subscription-manager         1.28.36-2.el8                             (won't fix)          rpm     CVE-2022-0235        Medium    
 elfutils-default-yama-scope             0.188-3.el8                               (won't fix)          rpm     CVE-2021-33294       Low       
@@ -101,7 +101,7 @@ emacs-filesystem                        1:26.1-10.el8_8.2                       
 expat                                   2.2.5-11.el8                              (won't fix)          rpm     CVE-2022-23990       Medium    
 file-libs                               5.33-24.el8                               (won't fix)          rpm     CVE-2019-8906        Low       
 file-libs                               5.33-24.el8                               (won't fix)          rpm     CVE-2019-8905        Low       
-gawk                                    4.2.1-4.el8                                                    rpm     CVE-2023-4156        Low       
+gawk                                    4.2.1-4.el8                               (won't fix)          rpm     CVE-2023-4156        Low       
 gcc                                     8.5.0-18.el8                                                   rpm     CVE-2023-4039        Medium    
 gcc                                     8.5.0-18.el8                              (won't fix)          rpm     CVE-2021-42694       Medium    
 gcc                                     8.5.0-18.el8                              (won't fix)          rpm     CVE-2022-27943       Low       
@@ -167,13 +167,9 @@ gmp                                     1:6.1.2-10.el8                          
 gnupg2                                  2.2.20-3.el8_6                            (won't fix)          rpm     CVE-2022-3219        Low       
 gnutls                                  3.6.16-6.el8_7                            (won't fix)          rpm     CVE-2021-4209        Low       
 kernel-headers                          4.18.0-477.27.1.el8_8                                          rpm     CVE-2023-4128        High      
-kernel-headers                          4.18.0-477.27.1.el8_8                                          rpm     CVE-2023-4004        High      
 kernel-headers                          4.18.0-477.27.1.el8_8                                          rpm     CVE-2023-3812        High      
-kernel-headers                          4.18.0-477.27.1.el8_8                                          rpm     CVE-2023-3776        High      
 kernel-headers                          4.18.0-477.27.1.el8_8                                          rpm     CVE-2023-3611        High      
 kernel-headers                          4.18.0-477.27.1.el8_8                                          rpm     CVE-2023-3609        High      
-kernel-headers                          4.18.0-477.27.1.el8_8                                          rpm     CVE-2023-35001       High      
-kernel-headers                          4.18.0-477.27.1.el8_8                                          rpm     CVE-2023-3090        High      
 kernel-headers                          4.18.0-477.27.1.el8_8                                          rpm     CVE-2022-4744        High      
 kernel-headers                          4.18.0-477.27.1.el8_8                                          rpm     CVE-2022-0886        High      
 kernel-headers                          4.18.0-477.27.1.el8_8                                          rpm     CVE-2023-4881        Medium    
@@ -443,7 +439,6 @@ llvm-libs                               15.0.7-1.module+el8.8.0+17939+b58878af  
 llvm-libs                               15.0.7-1.module+el8.8.0+17939+b58878af                         rpm     CVE-2023-29934       Medium    
 llvm-libs                               15.0.7-1.module+el8.8.0+17939+b58878af                         rpm     CVE-2023-29933       Medium    
 lz4-libs                                1.8.3-3.el8_4                             (won't fix)          rpm     CVE-2019-17543       Medium    
-ncurses                                 6.1-9.20180224.el8_8.1                                         rpm     CVE-2023-29491       Medium    
 ncurses                                 6.1-9.20180224.el8_8.1                    (won't fix)          rpm     CVE-2021-39537       Medium    
 ncurses                                 6.1-9.20180224.el8_8.1                                         rpm     CVE-2020-19190       Medium    
 ncurses                                 6.1-9.20180224.el8_8.1                                         rpm     CVE-2020-19189       Medium    
@@ -453,7 +448,6 @@ ncurses                                 6.1-9.20180224.el8_8.1                  
 ncurses                                 6.1-9.20180224.el8_8.1                                         rpm     CVE-2020-19185       Medium    
 ncurses                                 6.1-9.20180224.el8_8.1                    (won't fix)          rpm     CVE-2018-19217       Low       
 ncurses                                 6.1-9.20180224.el8_8.1                    (won't fix)          rpm     CVE-2018-19211       Low       
-ncurses-base                            6.1-9.20180224.el8_8.1                                         rpm     CVE-2023-29491       Medium    
 ncurses-base                            6.1-9.20180224.el8_8.1                    (won't fix)          rpm     CVE-2021-39537       Medium    
 ncurses-base                            6.1-9.20180224.el8_8.1                                         rpm     CVE-2020-19190       Medium    
 ncurses-base                            6.1-9.20180224.el8_8.1                                         rpm     CVE-2020-19189       Medium    
@@ -463,7 +457,6 @@ ncurses-base                            6.1-9.20180224.el8_8.1                  
 ncurses-base                            6.1-9.20180224.el8_8.1                                         rpm     CVE-2020-19185       Medium    
 ncurses-base                            6.1-9.20180224.el8_8.1                    (won't fix)          rpm     CVE-2018-19217       Low       
 ncurses-base                            6.1-9.20180224.el8_8.1                    (won't fix)          rpm     CVE-2018-19211       Low       
-ncurses-libs                            6.1-9.20180224.el8_8.1                                         rpm     CVE-2023-29491       Medium    
 ncurses-libs                            6.1-9.20180224.el8_8.1                    (won't fix)          rpm     CVE-2021-39537       Medium    
 ncurses-libs                            6.1-9.20180224.el8_8.1                                         rpm     CVE-2020-19190       Medium    
 ncurses-libs                            6.1-9.20180224.el8_8.1                                         rpm     CVE-2020-19189       Medium    
@@ -501,7 +494,7 @@ perl-Errno                              0:1.28-422.el8                          
 perl-Git                                2.39.3-1.el8_8                            (won't fix)          rpm     CVE-2021-40330       Medium    
 perl-Git                                2.39.3-1.el8_8                            (won't fix)          rpm     CVE-2021-21300       Medium    
 perl-Git                                2.39.3-1.el8_8                            (won't fix)          rpm     CVE-2018-1000021     Medium    
-perl-HTTP-Tiny                          0.074-1.el8                                                    rpm     CVE-2023-31486       Medium    
+perl-HTTP-Tiny                          0.074-1.el8                               (won't fix)          rpm     CVE-2023-31486       Medium    
 perl-IO                                 0:1.38-422.el8                                                 rpm     CVE-2023-31484       Medium    
 perl-IO                                 0:1.38-422.el8                            (won't fix)          rpm     CVE-2020-12723       Medium    
 perl-IO                                 0:1.38-422.el8                            (won't fix)          rpm     CVE-2020-10878       Medium    
@@ -649,12 +642,11 @@ vim-minimal                             2:8.0.1763-19.el8_6.4                   
 vim-minimal                             2:8.0.1763-19.el8_6.4                     (won't fix)          rpm     CVE-2021-3927        Low       
 vim-minimal                             2:8.0.1763-19.el8_6.4                     (won't fix)          rpm     CVE-2021-3236        Low       
 vim-minimal                             2:8.0.1763-19.el8_6.4                     (won't fix)          rpm     CVE-2018-20786       Low       
-vim-minimal                             2:8.0.1763-19.el8_6.4                     (won't fix)          rpm     CVE-2021-46059       Unknown   
-xz-libs                                 5.2.4-4.el8_6                                                  rpm     CVE-2020-22916       Low
+vim-minimal                             2:8.0.1763-19.el8_6.4                     (won't fix)          rpm     CVE-2021-46059       Unknown
 
 quay.io/noiro/acc-provision-operator:4.3.2.1.81c2369.z (redhat 8.8)
 ===================================================================
-Total: 587 (UNKNOWN: 0, LOW: 268, MEDIUM: 299, HIGH: 20, CRITICAL: 0)
+Total: 579 (UNKNOWN: 0, LOW: 263, MEDIUM: 300, HIGH: 16, CRITICAL: 0)
 
 ┌────────────────────────────────────────┬──────────────────┬──────────┬─────────────────────┬──────────────────────────────────────────┬─────────────────────┬──────────────────────────────────────────────────────────────┐
 │                Library                 │  Vulnerability   │ Severity │       Status        │            Installed Version             │    Fixed Version    │                            Title                             │
@@ -681,8 +673,15 @@ Total: 587 (UNKNOWN: 0, LOW: 268, MEDIUM: 299, HIGH: 20, CRITICAL: 0)
 │                                        │ CVE-2019-9077    │          │                     │                                          │                     │ binutils: heap-based buffer overflow in function             │
 │                                        │                  │          │                     │                                          │                     │ process_mips_specific in readelf.c                           │
 │                                        │                  │          │                     │                                          │                     │ https://avd.aquasec.com/nvd/cve-2019-9077                    │
+│                                        ├──────────────────┤          ├─────────────────────┤                                          ├─────────────────────┼──────────────────────────────────────────────────────────────┤
+│                                        │ CVE-2020-19726   │          │ affected            │                                          │                     │ heap-based buffer overflow in bfd_getl32() in bfd/libbfd.c   │
+│                                        │                  │          │                     │                                          │                     │ https://avd.aquasec.com/nvd/cve-2020-19726                   │
 │                                        ├──────────────────┤          │                     │                                          ├─────────────────────┼──────────────────────────────────────────────────────────────┤
-│                                        │ CVE-2021-32256   │          │                     │                                          │                     │ stack-overflow issue in demangle_type in rust-demangle.c.    │
+│                                        │ CVE-2020-35342   │          │                     │                                          │                     │ uninitialized heap memory in tic4x_print_cond() in           │
+│                                        │                  │          │                     │                                          │                     │ opcodes/tic4x-dis.c                                          │
+│                                        │                  │          │                     │                                          │                     │ https://avd.aquasec.com/nvd/cve-2020-35342                   │
+│                                        ├──────────────────┤          ├─────────────────────┤                                          ├─────────────────────┼──────────────────────────────────────────────────────────────┤
+│                                        │ CVE-2021-32256   │          │ will_not_fix        │                                          │                     │ stack-overflow issue in demangle_type in rust-demangle.c.    │
 │                                        │                  │          │                     │                                          │                     │ https://avd.aquasec.com/nvd/cve-2021-32256                   │
 │                                        ├──────────────────┤          │                     │                                          ├─────────────────────┼──────────────────────────────────────────────────────────────┤
 │                                        │ CVE-2021-45078   │          │                     │                                          │                     │ out-of-bounds write in stab_xcoff_builtin_type() in stabs.c  │
@@ -801,15 +800,8 @@ Total: 587 (UNKNOWN: 0, LOW: 268, MEDIUM: 299, HIGH: 20, CRITICAL: 0)
 │                                        │ CVE-2020-19724   │          │ affected            │                                          │                     │ memory leak in get_data() in nm.c                            │
 │                                        │                  │          │                     │                                          │                     │ https://avd.aquasec.com/nvd/cve-2020-19724                   │
 │                                        ├──────────────────┤          │                     │                                          ├─────────────────────┼──────────────────────────────────────────────────────────────┤
-│                                        │ CVE-2020-19726   │          │                     │                                          │                     │ heap-based buffer overflow in bfd_getl32() in bfd/libbfd.c   │
-│                                        │                  │          │                     │                                          │                     │ https://avd.aquasec.com/nvd/cve-2020-19726                   │
-│                                        ├──────────────────┤          │                     │                                          ├─────────────────────┼──────────────────────────────────────────────────────────────┤
 │                                        │ CVE-2020-21490   │          │                     │                                          │                     │ memory leak in get_field() in microblaze-dis.c               │
 │                                        │                  │          │                     │                                          │                     │ https://avd.aquasec.com/nvd/cve-2020-21490                   │
-│                                        ├──────────────────┤          │                     │                                          ├─────────────────────┼──────────────────────────────────────────────────────────────┤
-│                                        │ CVE-2020-35342   │          │                     │                                          │                     │ uninitialized heap memory in tic4x_print_cond() in           │
-│                                        │                  │          │                     │                                          │                     │ opcodes/tic4x-dis.c                                          │
-│                                        │                  │          │                     │                                          │                     │ https://avd.aquasec.com/nvd/cve-2020-35342                   │
 │                                        ├──────────────────┤          ├─────────────────────┤                                          ├─────────────────────┼──────────────────────────────────────────────────────────────┤
 │                                        │ CVE-2020-35493   │          │ will_not_fix        │                                          │                     │ heap-based buffer overflow in bfd_pef_parse_function_stubs   │
 │                                        │                  │          │                     │                                          │                     │ function in bfd/pef.c via crafted PEF file...                │
@@ -985,10 +977,10 @@ Total: 587 (UNKNOWN: 0, LOW: 268, MEDIUM: 299, HIGH: 20, CRITICAL: 0)
 │                                        │                  │          │                     │                                          │                     │ use-after-free and...                                        │
 │                                        │                  │          │                     │                                          │                     │ https://avd.aquasec.com/nvd/cve-2020-35512                   │
 ├────────────────────────────────────────┼──────────────────┼──────────┼─────────────────────┼──────────────────────────────────────────┼─────────────────────┼──────────────────────────────────────────────────────────────┤
-│ dmidecode                              │ CVE-2023-30630   │ MEDIUM   │ affected            │ 1:3.3-4.el8                              │                     │ dump-bin to overwrite a local file                           │
+│ dmidecode                              │ CVE-2023-30630   │ MEDIUM   │ fixed               │ 1:3.3-4.el8                              │ 1:3.3-4.el8_8.1     │ dump-bin to overwrite a local file                           │
 │                                        │                  │          │                     │                                          │                     │ https://avd.aquasec.com/nvd/cve-2023-30630                   │
-├────────────────────────────────────────┼──────────────────┼──────────┼─────────────────────┼──────────────────────────────────────────┼─────────────────────┼──────────────────────────────────────────────────────────────┤
-│ dnf-plugin-subscription-manager        │ CVE-2023-3899    │ HIGH     │ fixed               │ 1.28.36-2.el8                            │ 1.28.36-3.el8_8     │ inadequate authorization of com.redhat.RHSM1 D-Bus interface │
+├────────────────────────────────────────┼──────────────────┼──────────┤                     ├──────────────────────────────────────────┼─────────────────────┼──────────────────────────────────────────────────────────────┤
+│ dnf-plugin-subscription-manager        │ CVE-2023-3899    │ HIGH     │                     │ 1.28.36-2.el8                            │ 1.28.36-3.el8_8     │ inadequate authorization of com.redhat.RHSM1 D-Bus interface │
 │                                        │                  │          │                     │                                          │                     │ allows local users to modify configuration...                │
 │                                        │                  │          │                     │                                          │                     │ https://avd.aquasec.com/nvd/cve-2023-3899                    │
 ├────────────────────────────────────────┼──────────────────┼──────────┼─────────────────────┼──────────────────────────────────────────┼─────────────────────┼──────────────────────────────────────────────────────────────┤
@@ -1045,8 +1037,15 @@ Total: 587 (UNKNOWN: 0, LOW: 268, MEDIUM: 299, HIGH: 20, CRITICAL: 0)
 │                                        │ CVE-2022-27943   │          │                     │                                          │                     │ libiberty/rust-demangle.c in GNU GCC 11.2 allows stack       │
 │                                        │                  │          │                     │                                          │                     │ exhaustion in demangle_const                                 │
 │                                        │                  │          │                     │                                          │                     │ https://avd.aquasec.com/nvd/cve-2022-27943                   │
-├────────────────────────────────────────┼──────────────────┼──────────┤                     ├──────────────────────────────────────────┼─────────────────────┼──────────────────────────────────────────────────────────────┤
-│ gdb-gdbserver                          │ CVE-2021-32256   │ MEDIUM   │                     │ 8.2-19.el8                               │                     │ stack-overflow issue in demangle_type in rust-demangle.c.    │
+├────────────────────────────────────────┼──────────────────┼──────────┼─────────────────────┼──────────────────────────────────────────┼─────────────────────┼──────────────────────────────────────────────────────────────┤
+│ gdb-gdbserver                          │ CVE-2020-19726   │ MEDIUM   │ affected            │ 8.2-19.el8                               │                     │ heap-based buffer overflow in bfd_getl32() in bfd/libbfd.c   │
+│                                        │                  │          │                     │                                          │                     │ https://avd.aquasec.com/nvd/cve-2020-19726                   │
+│                                        ├──────────────────┤          │                     │                                          ├─────────────────────┼──────────────────────────────────────────────────────────────┤
+│                                        │ CVE-2020-35342   │          │                     │                                          │                     │ uninitialized heap memory in tic4x_print_cond() in           │
+│                                        │                  │          │                     │                                          │                     │ opcodes/tic4x-dis.c                                          │
+│                                        │                  │          │                     │                                          │                     │ https://avd.aquasec.com/nvd/cve-2020-35342                   │
+│                                        ├──────────────────┤          ├─────────────────────┤                                          ├─────────────────────┼──────────────────────────────────────────────────────────────┤
+│                                        │ CVE-2021-32256   │          │ will_not_fix        │                                          │                     │ stack-overflow issue in demangle_type in rust-demangle.c.    │
 │                                        │                  │          │                     │                                          │                     │ https://avd.aquasec.com/nvd/cve-2021-32256                   │
 │                                        ├──────────────────┤          │                     │                                          ├─────────────────────┼──────────────────────────────────────────────────────────────┤
 │                                        │ CVE-2023-2222    │          │                     │                                          │                     │ 2060                                                         │
@@ -1058,15 +1057,8 @@ Total: 587 (UNKNOWN: 0, LOW: 268, MEDIUM: 299, HIGH: 20, CRITICAL: 0)
 │                                        │ CVE-2020-19724   │ LOW      │ affected            │                                          │                     │ memory leak in get_data() in nm.c                            │
 │                                        │                  │          │                     │                                          │                     │ https://avd.aquasec.com/nvd/cve-2020-19724                   │
 │                                        ├──────────────────┤          │                     │                                          ├─────────────────────┼──────────────────────────────────────────────────────────────┤
-│                                        │ CVE-2020-19726   │          │                     │                                          │                     │ heap-based buffer overflow in bfd_getl32() in bfd/libbfd.c   │
-│                                        │                  │          │                     │                                          │                     │ https://avd.aquasec.com/nvd/cve-2020-19726                   │
-│                                        ├──────────────────┤          │                     │                                          ├─────────────────────┼──────────────────────────────────────────────────────────────┤
 │                                        │ CVE-2020-21490   │          │                     │                                          │                     │ memory leak in get_field() in microblaze-dis.c               │
 │                                        │                  │          │                     │                                          │                     │ https://avd.aquasec.com/nvd/cve-2020-21490                   │
-│                                        ├──────────────────┤          │                     │                                          ├─────────────────────┼──────────────────────────────────────────────────────────────┤
-│                                        │ CVE-2020-35342   │          │                     │                                          │                     │ uninitialized heap memory in tic4x_print_cond() in           │
-│                                        │                  │          │                     │                                          │                     │ opcodes/tic4x-dis.c                                          │
-│                                        │                  │          │                     │                                          │                     │ https://avd.aquasec.com/nvd/cve-2020-35342                   │
 │                                        ├──────────────────┤          ├─────────────────────┤                                          ├─────────────────────┼──────────────────────────────────────────────────────────────┤
 │                                        │ CVE-2021-46174   │          │ will_not_fix        │                                          │                     │ heap-based buffer overflow in bfd_getl32() in libbfd.c via   │
 │                                        │                  │          │                     │                                          │                     │ objdump                                                      │
@@ -1229,13 +1221,7 @@ Total: 587 (UNKNOWN: 0, LOW: 268, MEDIUM: 299, HIGH: 20, CRITICAL: 0)
 │ gnutls                                 │ CVE-2021-4209    │          │                     │ 3.6.16-6.el8_7                           │                     │ Null pointer dereference in MD_UPDATE                        │
 │                                        │                  │          │                     │                                          │                     │ https://avd.aquasec.com/nvd/cve-2021-4209                    │
 ├────────────────────────────────────────┼──────────────────┼──────────┼─────────────────────┼──────────────────────────────────────────┼─────────────────────┼──────────────────────────────────────────────────────────────┤
-│ kernel-headers                         │ CVE-2023-3090    │ HIGH     │ affected            │ 4.18.0-477.27.1.el8_8                    │                     │ out-of-bounds write caused by unclear skb->cb                │
-│                                        │                  │          │                     │                                          │                     │ https://avd.aquasec.com/nvd/cve-2023-3090                    │
-│                                        ├──────────────────┤          │                     │                                          ├─────────────────────┼──────────────────────────────────────────────────────────────┤
-│                                        │ CVE-2023-35001   │          │                     │                                          │                     │ stack-out-of-bounds-read in nft_byteorder_eval()             │
-│                                        │                  │          │                     │                                          │                     │ https://avd.aquasec.com/nvd/cve-2023-35001                   │
-│                                        ├──────────────────┤          │                     │                                          ├─────────────────────┼──────────────────────────────────────────────────────────────┤
-│                                        │ CVE-2023-3609    │          │                     │                                          │                     │ cls_u32 component reference counter leak if                  │
+│ kernel-headers                         │ CVE-2023-3609    │ HIGH     │ affected            │ 4.18.0-477.27.1.el8_8                    │                     │ cls_u32 component reference counter leak if                  │
 │                                        │                  │          │                     │                                          │                     │ tcf_change_indev() fails                                     │
 │                                        │                  │          │                     │                                          │                     │ https://avd.aquasec.com/nvd/cve-2023-3609                    │
 │                                        ├──────────────────┤          │                     │                                          ├─────────────────────┼──────────────────────────────────────────────────────────────┤
@@ -1243,17 +1229,9 @@ Total: 587 (UNKNOWN: 0, LOW: 268, MEDIUM: 299, HIGH: 20, CRITICAL: 0)
 │                                        │                  │          │                     │                                          │                     │ function happens qfq_enqueue overhead...                     │
 │                                        │                  │          │                     │                                          │                     │ https://avd.aquasec.com/nvd/cve-2023-3611                    │
 │                                        ├──────────────────┤          │                     │                                          ├─────────────────────┼──────────────────────────────────────────────────────────────┤
-│                                        │ CVE-2023-3776    │          │                     │                                          │                     │ cls_fw component can be exploited as result of failure in    │
-│                                        │                  │          │                     │                                          │                     │ tcf_change_indev function...                                 │
-│                                        │                  │          │                     │                                          │                     │ https://avd.aquasec.com/nvd/cve-2023-3776                    │
-│                                        ├──────────────────┤          │                     │                                          ├─────────────────────┼──────────────────────────────────────────────────────────────┤
 │                                        │ CVE-2023-3812    │          │                     │                                          │                     │ bugs for oversize packet when napi frags enabled in          │
 │                                        │                  │          │                     │                                          │                     │ tun_napi_alloc_frags                                         │
 │                                        │                  │          │                     │                                          │                     │ https://avd.aquasec.com/nvd/cve-2023-3812                    │
-│                                        ├──────────────────┤          │                     │                                          ├─────────────────────┼──────────────────────────────────────────────────────────────┤
-│                                        │ CVE-2023-4004    │          │                     │                                          │                     │ use-after-free due to improper element removal in            │
-│                                        │                  │          │                     │                                          │                     │ nft_pipapo_remove()                                          │
-│                                        │                  │          │                     │                                          │                     │ https://avd.aquasec.com/nvd/cve-2023-4004                    │
 │                                        ├──────────────────┤          │                     │                                          ├─────────────────────┼──────────────────────────────────────────────────────────────┤
 │                                        │ CVE-2023-4128    │          │                     │                                          │                     │ cls_fw, cls_u32 and cls_route                                │
 │                                        │                  │          │                     │                                          │                     │ https://avd.aquasec.com/nvd/cve-2023-4128                    │
@@ -1307,12 +1285,12 @@ Total: 587 (UNKNOWN: 0, LOW: 268, MEDIUM: 299, HIGH: 20, CRITICAL: 0)
 │                                        ├──────────────────┤          │                     │                                          ├─────────────────────┼──────────────────────────────────────────────────────────────┤
 │                                        │ CVE-2019-2054    │          │                     │                                          │                     │ kernel: seccompass mechanism bypass                          │
 │                                        │                  │          │                     │                                          │                     │ https://avd.aquasec.com/nvd/cve-2019-2054                    │
-│                                        ├──────────────────┤          │                     │                                          ├─────────────────────┼──────────────────────────────────────────────────────────────┤
-│                                        │ CVE-2019-20794   │          │                     │                                          │                     │ task processes not being properly ended could lead to        │
+│                                        ├──────────────────┤          ├─────────────────────┤                                          ├─────────────────────┼──────────────────────────────────────────────────────────────┤
+│                                        │ CVE-2019-20794   │          │ affected            │                                          │                     │ task processes not being properly ended could lead to        │
 │                                        │                  │          │                     │                                          │                     │ resource exhaustion                                          │
 │                                        │                  │          │                     │                                          │                     │ https://avd.aquasec.com/nvd/cve-2019-20794                   │
-│                                        ├──────────────────┤          ├─────────────────────┤                                          ├─────────────────────┼──────────────────────────────────────────────────────────────┤
-│                                        │ CVE-2020-10135   │          │ affected            │                                          │                     │ BR/EDR Bluetooth Impersonation Attacks (BIAS)                │
+│                                        ├──────────────────┤          │                     │                                          ├─────────────────────┼──────────────────────────────────────────────────────────────┤
+│                                        │ CVE-2020-10135   │          │                     │                                          │                     │ BR/EDR Bluetooth Impersonation Attacks (BIAS)                │
 │                                        │                  │          │                     │                                          │                     │ https://avd.aquasec.com/nvd/cve-2020-10135                   │
 │                                        ├──────────────────┤          ├─────────────────────┤                                          ├─────────────────────┼──────────────────────────────────────────────────────────────┤
 │                                        │ CVE-2020-13844   │          │ will_not_fix        │                                          │                     │ ARM straight-line speculation vulnerability                  │
@@ -1362,11 +1340,11 @@ Total: 587 (UNKNOWN: 0, LOW: 268, MEDIUM: 299, HIGH: 20, CRITICAL: 0)
 │                                        │ CVE-2020-8694    │          │ will_not_fix        │                                          │                     │ Insufficient access control vulnerability in PowerCap        │
 │                                        │                  │          │                     │                                          │                     │ Framework                                                    │
 │                                        │                  │          │                     │                                          │                     │ https://avd.aquasec.com/nvd/cve-2020-8694                    │
-│                                        ├──────────────────┤          │                     │                                          ├─────────────────────┼──────────────────────────────────────────────────────────────┤
-│                                        │ CVE-2021-20320   │          │                     │                                          │                     │ s390 eBPF JIT miscompilation issues fixes                    │
+│                                        ├──────────────────┤          ├─────────────────────┤                                          ├─────────────────────┼──────────────────────────────────────────────────────────────┤
+│                                        │ CVE-2021-20320   │          │ affected            │                                          │                     │ s390 eBPF JIT miscompilation issues fixes                    │
 │                                        │                  │          │                     │                                          │                     │ https://avd.aquasec.com/nvd/cve-2021-20320                   │
-│                                        ├──────────────────┤          │                     │                                          ├─────────────────────┼──────────────────────────────────────────────────────────────┤
-│                                        │ CVE-2021-28711   │          │                     │                                          │                     │ rogue backends can cause DoS of guests via high frequency    │
+│                                        ├──────────────────┤          ├─────────────────────┤                                          ├─────────────────────┼──────────────────────────────────────────────────────────────┤
+│                                        │ CVE-2021-28711   │          │ will_not_fix        │                                          │                     │ rogue backends can cause DoS of guests via high frequency    │
 │                                        │                  │          │                     │                                          │                     │ events                                                       │
 │                                        │                  │          │                     │                                          │                     │ https://avd.aquasec.com/nvd/cve-2021-28711                   │
 │                                        ├──────────────────┤          │                     │                                          ├─────────────────────┼──────────────────────────────────────────────────────────────┤
@@ -1431,12 +1409,12 @@ Total: 587 (UNKNOWN: 0, LOW: 268, MEDIUM: 299, HIGH: 20, CRITICAL: 0)
 │                                        │ CVE-2021-38206   │          │                     │                                          │                     │ NULL pointer dereference in the radiotap parser by injecting │
 │                                        │                  │          │                     │                                          │                     │ a frame with...                                              │
 │                                        │                  │          │                     │                                          │                     │ https://avd.aquasec.com/nvd/cve-2021-38206                   │
-│                                        ├──────────────────┤          ├─────────────────────┤                                          ├─────────────────────┼──────────────────────────────────────────────────────────────┤
-│                                        │ CVE-2021-40490   │          │ will_not_fix        │                                          │                     │ race condition was discovered in ext4_write_inline_data_end  │
+│                                        ├──────────────────┤          │                     │                                          ├─────────────────────┼──────────────────────────────────────────────────────────────┤
+│                                        │ CVE-2021-40490   │          │                     │                                          │                     │ race condition was discovered in ext4_write_inline_data_end  │
 │                                        │                  │          │                     │                                          │                     │ in fs/ext4/inline.c in the ext4 subsystem...                 │
 │                                        │                  │          │                     │                                          │                     │ https://avd.aquasec.com/nvd/cve-2021-40490                   │
-│                                        ├──────────────────┤          ├─────────────────────┤                                          ├─────────────────────┼──────────────────────────────────────────────────────────────┤
-│                                        │ CVE-2021-4135    │          │ affected            │                                          │                     │ Heap information leak in map_lookup_elem function            │
+│                                        ├──────────────────┤          │                     │                                          ├─────────────────────┼──────────────────────────────────────────────────────────────┤
+│                                        │ CVE-2021-4135    │          │                     │                                          │                     │ Heap information leak in map_lookup_elem function            │
 │                                        │                  │          │                     │                                          │                     │ https://avd.aquasec.com/nvd/cve-2021-4135                    │
 │                                        ├──────────────────┤          │                     │                                          ├─────────────────────┼──────────────────────────────────────────────────────────────┤
 │                                        │ CVE-2021-4159    │          │                     │                                          │                     │ another kernel ptr leak vulnerability via BPF in             │
@@ -1449,25 +1427,25 @@ Total: 587 (UNKNOWN: 0, LOW: 268, MEDIUM: 299, HIGH: 20, CRITICAL: 0)
 │                                        │ CVE-2021-43975   │          │                     │                                          │                     │ out-of-bounds write in hw_atl_utils_fw_rpc_wait() in         │
 │                                        │                  │          │                     │                                          │                     │ drivers/net/ethernet/aquantia/atlantic/hw_atl/hw_atl_utils.c │
 │                                        │                  │          │                     │                                          │                     │ https://avd.aquasec.com/nvd/cve-2021-43975                   │
-│                                        ├──────────────────┤          ├─────────────────────┤                                          ├─────────────────────┼──────────────────────────────────────────────────────────────┤
-│                                        │ CVE-2021-45402   │          │ will_not_fix        │                                          │                     │ pointer leak in check_alu_op() of kernel/bpf/verifier.c      │
+│                                        ├──────────────────┤          │                     │                                          ├─────────────────────┼──────────────────────────────────────────────────────────────┤
+│                                        │ CVE-2021-45402   │          │                     │                                          │                     │ pointer leak in check_alu_op() of kernel/bpf/verifier.c      │
 │                                        │                  │          │                     │                                          │                     │ https://avd.aquasec.com/nvd/cve-2021-45402                   │
-│                                        ├──────────────────┤          ├─────────────────────┤                                          ├─────────────────────┼──────────────────────────────────────────────────────────────┤
-│                                        │ CVE-2021-46778   │          │ affected            │                                          │                     │ Execution Unit Scheduler Contention Side-Channel             │
+│                                        ├──────────────────┤          │                     │                                          ├─────────────────────┼──────────────────────────────────────────────────────────────┤
+│                                        │ CVE-2021-46778   │          │                     │                                          │                     │ Execution Unit Scheduler Contention Side-Channel             │
 │                                        │                  │          │                     │                                          │                     │ vulnerability                                                │
 │                                        │                  │          │                     │                                          │                     │ https://avd.aquasec.com/nvd/cve-2021-46778                   │
 │                                        ├──────────────────┤          │                     │                                          ├─────────────────────┼──────────────────────────────────────────────────────────────┤
 │                                        │ CVE-2022-0171    │          │                     │                                          │                     │ cache incoherence issue in SEV API may lead to kernel crash  │
 │                                        │                  │          │                     │                                          │                     │ https://avd.aquasec.com/nvd/cve-2022-0171                    │
-│                                        ├──────────────────┤          ├─────────────────────┤                                          ├─────────────────────┼──────────────────────────────────────────────────────────────┤
-│                                        │ CVE-2022-0264    │          │ will_not_fix        │                                          │                     │ address leakage in BPF atomic fetch                          │
+│                                        ├──────────────────┤          │                     │                                          ├─────────────────────┼──────────────────────────────────────────────────────────────┤
+│                                        │ CVE-2022-0264    │          │                     │                                          │                     │ address leakage in BPF atomic fetch                          │
 │                                        │                  │          │                     │                                          │                     │ https://avd.aquasec.com/nvd/cve-2022-0264                    │
 │                                        ├──────────────────┤          │                     │                                          ├─────────────────────┼──────────────────────────────────────────────────────────────┤
 │                                        │ CVE-2022-0500    │          │                     │                                          │                     │ Linux ebpf logic vulnerability leads to critical memory read │
 │                                        │                  │          │                     │                                          │                     │ and write gaining...                                         │
 │                                        │                  │          │                     │                                          │                     │ https://avd.aquasec.com/nvd/cve-2022-0500                    │
-│                                        ├──────────────────┤          ├─────────────────────┤                                          ├─────────────────────┼──────────────────────────────────────────────────────────────┤
-│                                        │ CVE-2022-1665    │          │ affected            │                                          │                     │ Signed build of Red Hat Enterprise Linux for IBM Power can   │
+│                                        ├──────────────────┤          │                     │                                          ├─────────────────────┼──────────────────────────────────────────────────────────────┤
+│                                        │ CVE-2022-1665    │          │                     │                                          │                     │ Signed build of Red Hat Enterprise Linux for IBM Power can   │
 │                                        │                  │          │                     │                                          │                     │ boot...                                                      │
 │                                        │                  │          │                     │                                          │                     │ https://avd.aquasec.com/nvd/cve-2022-1665                    │
 │                                        ├──────────────────┤          │                     │                                          ├─────────────────────┼──────────────────────────────────────────────────────────────┤
@@ -1481,11 +1459,11 @@ Total: 587 (UNKNOWN: 0, LOW: 268, MEDIUM: 299, HIGH: 20, CRITICAL: 0)
 │                                        │ CVE-2022-20566   │          │ affected            │                                          │                     │ possible use after free due to improper locking in           │
 │                                        │                  │          │                     │                                          │                     │ l2cap_chan_put of l2cap_core...                              │
 │                                        │                  │          │                     │                                          │                     │ https://avd.aquasec.com/nvd/cve-2022-20566                   │
-│                                        ├──────────────────┤          ├─────────────────────┤                                          ├─────────────────────┼──────────────────────────────────────────────────────────────┤
-│                                        │ CVE-2022-23222   │          │ will_not_fix        │                                          │                     │ local privileges escalation in kernel/bpf/verifier.c         │
+│                                        ├──────────────────┤          │                     │                                          ├─────────────────────┼──────────────────────────────────────────────────────────────┤
+│                                        │ CVE-2022-23222   │          │                     │                                          │                     │ local privileges escalation in kernel/bpf/verifier.c         │
 │                                        │                  │          │                     │                                          │                     │ https://avd.aquasec.com/nvd/cve-2022-23222                   │
-│                                        ├──────────────────┤          ├─────────────────────┤                                          ├─────────────────────┼──────────────────────────────────────────────────────────────┤
-│                                        │ CVE-2022-2503    │          │ affected            │                                          │                     │ LoadPin bypass via dm-verity table reload                    │
+│                                        ├──────────────────┤          │                     │                                          ├─────────────────────┼──────────────────────────────────────────────────────────────┤
+│                                        │ CVE-2022-2503    │          │                     │                                          │                     │ LoadPin bypass via dm-verity table reload                    │
 │                                        │                  │          │                     │                                          │                     │ https://avd.aquasec.com/nvd/cve-2022-2503                    │
 │                                        ├──────────────────┤          ├─────────────────────┤                                          ├─────────────────────┼──────────────────────────────────────────────────────────────┤
 │                                        │ CVE-2022-2785    │          │ will_not_fix        │                                          │                     │ out-of-bounds read due to improper check of bpf_sys_bpf()    │
@@ -1495,11 +1473,11 @@ Total: 587 (UNKNOWN: 0, LOW: 268, MEDIUM: 299, HIGH: 20, CRITICAL: 0)
 │                                        │ CVE-2022-28388   │          │ affected            │                                          │                     │ double free in usb_8dev_start_xmit in                        │
 │                                        │                  │          │                     │                                          │                     │ drivers/net/can/usb/usb_8dev.c                               │
 │                                        │                  │          │                     │                                          │                     │ https://avd.aquasec.com/nvd/cve-2022-28388                   │
-│                                        ├──────────────────┤          ├─────────────────────┤                                          ├─────────────────────┼──────────────────────────────────────────────────────────────┤
-│                                        │ CVE-2022-2905    │          │ will_not_fix        │                                          │                     │ slab-out-of-bound read in bpf                                │
+│                                        ├──────────────────┤          │                     │                                          ├─────────────────────┼──────────────────────────────────────────────────────────────┤
+│                                        │ CVE-2022-2905    │          │                     │                                          │                     │ slab-out-of-bound read in bpf                                │
 │                                        │                  │          │                     │                                          │                     │ https://avd.aquasec.com/nvd/cve-2022-2905                    │
-│                                        ├──────────────────┤          ├─────────────────────┤                                          ├─────────────────────┼──────────────────────────────────────────────────────────────┤
-│                                        │ CVE-2022-3424    │          │ affected            │                                          │                     │ Use after Free in gru_set_context_option leading to kernel   │
+│                                        ├──────────────────┤          │                     │                                          ├─────────────────────┼──────────────────────────────────────────────────────────────┤
+│                                        │ CVE-2022-3424    │          │                     │                                          │                     │ Use after Free in gru_set_context_option leading to kernel   │
 │                                        │                  │          │                     │                                          │                     │ panic                                                        │
 │                                        │                  │          │                     │                                          │                     │ https://avd.aquasec.com/nvd/cve-2022-3424                    │
 │                                        ├──────────────────┤          ├─────────────────────┤                                          ├─────────────────────┼──────────────────────────────────────────────────────────────┤
@@ -2163,12 +2141,8 @@ Total: 587 (UNKNOWN: 0, LOW: 268, MEDIUM: 299, HIGH: 20, CRITICAL: 0)
 │                                        ├──────────────────┤          ├─────────────────────┤                                          ├─────────────────────┼──────────────────────────────────────────────────────────────┤
 │                                        │ CVE-2021-39537   │          │ will_not_fix        │                                          │                     │ heap-based buffer overflow in _nc_captoinfo() in captoinfo.c │
 │                                        │                  │          │                     │                                          │                     │ https://avd.aquasec.com/nvd/cve-2021-39537                   │
-│                                        ├──────────────────┤          ├─────────────────────┤                                          ├─────────────────────┼──────────────────────────────────────────────────────────────┤
-│                                        │ CVE-2023-29491   │          │ affected            │                                          │                     │ Local users can trigger security-relevant memory corruption  │
-│                                        │                  │          │                     │                                          │                     │ via malformed data                                           │
-│                                        │                  │          │                     │                                          │                     │ https://avd.aquasec.com/nvd/cve-2023-29491                   │
-│                                        ├──────────────────┼──────────┼─────────────────────┤                                          ├─────────────────────┼──────────────────────────────────────────────────────────────┤
-│                                        │ CVE-2018-19211   │ LOW      │ will_not_fix        │                                          │                     │ ncurses: Null pointer dereference at function                │
+│                                        ├──────────────────┼──────────┤                     │                                          ├─────────────────────┼──────────────────────────────────────────────────────────────┤
+│                                        │ CVE-2018-19211   │ LOW      │                     │                                          │                     │ ncurses: Null pointer dereference at function                │
 │                                        │                  │          │                     │                                          │                     │ _nc_parse_entry in parse_entry.c                             │
 │                                        │                  │          │                     │                                          │                     │ https://avd.aquasec.com/nvd/cve-2018-19211                   │
 │                                        ├──────────────────┤          │                     │                                          ├─────────────────────┼──────────────────────────────────────────────────────────────┤
@@ -2195,12 +2169,8 @@ Total: 587 (UNKNOWN: 0, LOW: 268, MEDIUM: 299, HIGH: 20, CRITICAL: 0)
 │                                        ├──────────────────┤          ├─────────────────────┤                                          ├─────────────────────┼──────────────────────────────────────────────────────────────┤
 │                                        │ CVE-2021-39537   │          │ will_not_fix        │                                          │                     │ heap-based buffer overflow in _nc_captoinfo() in captoinfo.c │
 │                                        │                  │          │                     │                                          │                     │ https://avd.aquasec.com/nvd/cve-2021-39537                   │
-│                                        ├──────────────────┤          ├─────────────────────┤                                          ├─────────────────────┼──────────────────────────────────────────────────────────────┤
-│                                        │ CVE-2023-29491   │          │ affected            │                                          │                     │ Local users can trigger security-relevant memory corruption  │
-│                                        │                  │          │                     │                                          │                     │ via malformed data                                           │
-│                                        │                  │          │                     │                                          │                     │ https://avd.aquasec.com/nvd/cve-2023-29491                   │
-│                                        ├──────────────────┼──────────┼─────────────────────┤                                          ├─────────────────────┼──────────────────────────────────────────────────────────────┤
-│                                        │ CVE-2018-19211   │ LOW      │ will_not_fix        │                                          │                     │ ncurses: Null pointer dereference at function                │
+│                                        ├──────────────────┼──────────┤                     │                                          ├─────────────────────┼──────────────────────────────────────────────────────────────┤
+│                                        │ CVE-2018-19211   │ LOW      │                     │                                          │                     │ ncurses: Null pointer dereference at function                │
 │                                        │                  │          │                     │                                          │                     │ _nc_parse_entry in parse_entry.c                             │
 │                                        │                  │          │                     │                                          │                     │ https://avd.aquasec.com/nvd/cve-2018-19211                   │
 │                                        ├──────────────────┤          │                     │                                          ├─────────────────────┼──────────────────────────────────────────────────────────────┤
@@ -2227,12 +2197,8 @@ Total: 587 (UNKNOWN: 0, LOW: 268, MEDIUM: 299, HIGH: 20, CRITICAL: 0)
 │                                        ├──────────────────┤          ├─────────────────────┤                                          ├─────────────────────┼──────────────────────────────────────────────────────────────┤
 │                                        │ CVE-2021-39537   │          │ will_not_fix        │                                          │                     │ heap-based buffer overflow in _nc_captoinfo() in captoinfo.c │
 │                                        │                  │          │                     │                                          │                     │ https://avd.aquasec.com/nvd/cve-2021-39537                   │
-│                                        ├──────────────────┤          ├─────────────────────┤                                          ├─────────────────────┼──────────────────────────────────────────────────────────────┤
-│                                        │ CVE-2023-29491   │          │ affected            │                                          │                     │ Local users can trigger security-relevant memory corruption  │
-│                                        │                  │          │                     │                                          │                     │ via malformed data                                           │
-│                                        │                  │          │                     │                                          │                     │ https://avd.aquasec.com/nvd/cve-2023-29491                   │
-│                                        ├──────────────────┼──────────┼─────────────────────┤                                          ├─────────────────────┼──────────────────────────────────────────────────────────────┤
-│                                        │ CVE-2018-19211   │ LOW      │ will_not_fix        │                                          │                     │ ncurses: Null pointer dereference at function                │
+│                                        ├──────────────────┼──────────┤                     │                                          ├─────────────────────┼──────────────────────────────────────────────────────────────┤
+│                                        │ CVE-2018-19211   │ LOW      │                     │                                          │                     │ ncurses: Null pointer dereference at function                │
 │                                        │                  │          │                     │                                          │                     │ _nc_parse_entry in parse_entry.c                             │
 │                                        │                  │          │                     │                                          │                     │ https://avd.aquasec.com/nvd/cve-2018-19211                   │
 │                                        ├──────────────────┤          │                     │                                          ├─────────────────────┼──────────────────────────────────────────────────────────────┤
@@ -2737,9 +2703,6 @@ Total: 587 (UNKNOWN: 0, LOW: 268, MEDIUM: 299, HIGH: 20, CRITICAL: 0)
 │                                        ├──────────────────┤          │                     │                                          ├─────────────────────┼──────────────────────────────────────────────────────────────┤
 │                                        │ CVE-2023-4781    │          │                     │                                          │                     │ heap-buffer-overflow in function vim_regsub_both in vim/vim  │
 │                                        │                  │          │                     │                                          │                     │ https://avd.aquasec.com/nvd/cve-2023-4781                    │
-├────────────────────────────────────────┼──────────────────┤          │                     ├──────────────────────────────────────────┼─────────────────────┼──────────────────────────────────────────────────────────────┤
-│ xz-libs                                │ CVE-2020-22916   │          │                     │ 5.2.4-4.el8_6                            │                     │ Denial of service via decompression of crafted file          │
-│                                        │                  │          │                     │                                          │                     │ https://avd.aquasec.com/nvd/cve-2020-22916                   │
 └────────────────────────────────────────┴──────────────────┴──────────┴─────────────────────┴──────────────────────────────────────────┴─────────────────────┴──────────────────────────────────────────────────────────────┘
 
 Python (python-pkg)
