@@ -1,22 +1,21 @@
-NAME              INSTALLED                           FIXED-IN  TYPE       VULNERABILITY        SEVERITY 
-istio.io/istio    v0.0.0-20230607011503-697f4ff0fe6e  1.1.13    go-module  GHSA-qcvw-82hh-gq38  High      
-istio.io/istio    v0.0.0-20230607011503-697f4ff0fe6e  1.9.8     go-module  GHSA-hqxw-mm44-gc4r  High      
-istio.io/istio    v0.0.0-20230607011503-697f4ff0fe6e  1.11.7    go-module  GHSA-856q-xv3c-7f2f  High      
-istio.io/istio    v0.0.0-20230607011503-697f4ff0fe6e  1.9.8     go-module  GHSA-7774-7vr3-cc8j  High      
-istio.io/istio    v0.0.0-20230607011503-697f4ff0fe6e  1.12.18   go-module  GHSA-xwx5-5c9g-x68x  Medium    
-k8s.io/apiserver  v0.27.0                             1.15.10   go-module  GHSA-82hx-w2r5-c2wq  Medium    
-requests          2.25.1                              2.31.0    python     GHSA-j8r2-6x86-q33q  Medium    
-requests          2.25.1                                        python     CVE-2023-32681       Medium    
-rpm               4.16.1.3                                      python     CVE-2021-35939       Medium    
-rpm               4.16.1.3                                      python     CVE-2021-35938       Medium    
-rpm               4.16.1.3                                      python     CVE-2021-35937       Medium    
-rpm               4.16.1.3                                      python     CVE-2021-3521        Medium    
-setuptools        53.0.0                              65.5.1    python     GHSA-r9hx-vwmv-q579  High      
-setuptools        53.0.0                                        python     CVE-2022-40897       Medium
+NAME            INSTALLED                           FIXED-IN  TYPE       VULNERABILITY        SEVERITY 
+istio.io/istio  v0.0.0-20230607011503-697f4ff0fe6e  1.1.13    go-module  GHSA-qcvw-82hh-gq38  High      
+istio.io/istio  v0.0.0-20230607011503-697f4ff0fe6e  1.9.8     go-module  GHSA-hqxw-mm44-gc4r  High      
+istio.io/istio  v0.0.0-20230607011503-697f4ff0fe6e  1.11.7    go-module  GHSA-856q-xv3c-7f2f  High      
+istio.io/istio  v0.0.0-20230607011503-697f4ff0fe6e  1.9.8     go-module  GHSA-7774-7vr3-cc8j  High      
+istio.io/istio  v0.0.0-20230607011503-697f4ff0fe6e  1.12.18   go-module  GHSA-xwx5-5c9g-x68x  Medium    
+requests        2.25.1                              2.31.0    python     GHSA-j8r2-6x86-q33q  Medium    
+requests        2.25.1                                        python     CVE-2023-32681       Medium    
+rpm             4.16.1.3                                      python     CVE-2021-35939       Medium    
+rpm             4.16.1.3                                      python     CVE-2021-35938       Medium    
+rpm             4.16.1.3                                      python     CVE-2021-35937       Medium    
+rpm             4.16.1.3                                      python     CVE-2021-3521        Medium    
+setuptools      53.0.0                              65.5.1    python     GHSA-r9hx-vwmv-q579  High      
+setuptools      53.0.0                                        python     CVE-2022-40897       Medium
 
 quay.io/noiro/aci-containers-operator:4.3.2.1.81c2369.z (redhat 9.2)
 ====================================================================
-Total: 250 (UNKNOWN: 0, LOW: 139, MEDIUM: 109, HIGH: 2, CRITICAL: 0)
+Total: 230 (UNKNOWN: 0, LOW: 139, MEDIUM: 89, HIGH: 2, CRITICAL: 0)
 
 ┌────────────────────────┬──────────────────┬──────────┬──────────────┬─────────────────────┬───────────────┬──────────────────────────────────────────────────────────────┐
 │        Library         │  Vulnerability   │ Severity │    Status    │  Installed Version  │ Fixed Version │                            Title                             │
@@ -224,75 +223,21 @@ Total: 250 (UNKNOWN: 0, LOW: 139, MEDIUM: 109, HIGH: 2, CRITICAL: 0)
 │ libzstd                │ CVE-2022-4899    │ LOW      │ will_not_fix │ 1.5.1-2.el9         │               │ buffer overrun in util.c                                     │
 │                        │                  │          │              │                     │               │ https://avd.aquasec.com/nvd/cve-2022-4899                    │
 ├────────────────────────┼──────────────────┼──────────┼──────────────┼─────────────────────┼───────────────┼──────────────────────────────────────────────────────────────┤
-│ ncurses                │ CVE-2020-19185   │ MEDIUM   │ affected     │ 6.2-8.20210508.el9  │               │ 1373                                                         │
-│                        │                  │          │              │                     │               │ https://avd.aquasec.com/nvd/cve-2020-19185                   │
-│                        ├──────────────────┤          │              │                     ├───────────────┼──────────────────────────────────────────────────────────────┤
-│                        │ CVE-2020-19186   │          │              │                     │               │ 66                                                           │
-│                        │                  │          │              │                     │               │ https://avd.aquasec.com/nvd/cve-2020-19186                   │
-│                        ├──────────────────┤          │              │                     ├───────────────┼──────────────────────────────────────────────────────────────┤
-│                        │ CVE-2020-19187   │          │              │                     │               │ 1100                                                         │
-│                        │                  │          │              │                     │               │ https://avd.aquasec.com/nvd/cve-2020-19187                   │
-│                        ├──────────────────┤          │              │                     ├───────────────┼──────────────────────────────────────────────────────────────┤
-│                        │ CVE-2020-19188   │          │              │                     │               │ 1116                                                         │
-│                        │                  │          │              │                     │               │ https://avd.aquasec.com/nvd/cve-2020-19188                   │
-│                        ├──────────────────┤          │              │                     ├───────────────┼──────────────────────────────────────────────────────────────┤
-│                        │ CVE-2020-19189   │          │              │                     │               │ 997                                                          │
-│                        │                  │          │              │                     │               │ https://avd.aquasec.com/nvd/cve-2020-19189                   │
-│                        ├──────────────────┤          │              │                     ├───────────────┼──────────────────────────────────────────────────────────────┤
-│                        │ CVE-2020-19190   │          │              │                     │               │ 70                                                           │
-│                        │                  │          │              │                     │               │ https://avd.aquasec.com/nvd/cve-2020-19190                   │
-│                        ├──────────────────┤          │              │                     ├───────────────┼──────────────────────────────────────────────────────────────┤
-│                        │ CVE-2023-29491   │          │              │                     │               │ Local users can trigger security-relevant memory corruption  │
+│ ncurses                │ CVE-2023-29491   │ MEDIUM   │ affected     │ 6.2-8.20210508.el9  │               │ Local users can trigger security-relevant memory corruption  │
 │                        │                  │          │              │                     │               │ via malformed data                                           │
 │                        │                  │          │              │                     │               │ https://avd.aquasec.com/nvd/cve-2023-29491                   │
 │                        ├──────────────────┼──────────┼──────────────┤                     ├───────────────┼──────────────────────────────────────────────────────────────┤
 │                        │ CVE-2022-29458   │ LOW      │ will_not_fix │                     │               │ segfaulting OOB read                                         │
 │                        │                  │          │              │                     │               │ https://avd.aquasec.com/nvd/cve-2022-29458                   │
 ├────────────────────────┼──────────────────┼──────────┼──────────────┤                     ├───────────────┼──────────────────────────────────────────────────────────────┤
-│ ncurses-base           │ CVE-2020-19185   │ MEDIUM   │ affected     │                     │               │ 1373                                                         │
-│                        │                  │          │              │                     │               │ https://avd.aquasec.com/nvd/cve-2020-19185                   │
-│                        ├──────────────────┤          │              │                     ├───────────────┼──────────────────────────────────────────────────────────────┤
-│                        │ CVE-2020-19186   │          │              │                     │               │ 66                                                           │
-│                        │                  │          │              │                     │               │ https://avd.aquasec.com/nvd/cve-2020-19186                   │
-│                        ├──────────────────┤          │              │                     ├───────────────┼──────────────────────────────────────────────────────────────┤
-│                        │ CVE-2020-19187   │          │              │                     │               │ 1100                                                         │
-│                        │                  │          │              │                     │               │ https://avd.aquasec.com/nvd/cve-2020-19187                   │
-│                        ├──────────────────┤          │              │                     ├───────────────┼──────────────────────────────────────────────────────────────┤
-│                        │ CVE-2020-19188   │          │              │                     │               │ 1116                                                         │
-│                        │                  │          │              │                     │               │ https://avd.aquasec.com/nvd/cve-2020-19188                   │
-│                        ├──────────────────┤          │              │                     ├───────────────┼──────────────────────────────────────────────────────────────┤
-│                        │ CVE-2020-19189   │          │              │                     │               │ 997                                                          │
-│                        │                  │          │              │                     │               │ https://avd.aquasec.com/nvd/cve-2020-19189                   │
-│                        ├──────────────────┤          │              │                     ├───────────────┼──────────────────────────────────────────────────────────────┤
-│                        │ CVE-2020-19190   │          │              │                     │               │ 70                                                           │
-│                        │                  │          │              │                     │               │ https://avd.aquasec.com/nvd/cve-2020-19190                   │
-│                        ├──────────────────┤          │              │                     ├───────────────┼──────────────────────────────────────────────────────────────┤
-│                        │ CVE-2023-29491   │          │              │                     │               │ Local users can trigger security-relevant memory corruption  │
+│ ncurses-base           │ CVE-2023-29491   │ MEDIUM   │ affected     │                     │               │ Local users can trigger security-relevant memory corruption  │
 │                        │                  │          │              │                     │               │ via malformed data                                           │
 │                        │                  │          │              │                     │               │ https://avd.aquasec.com/nvd/cve-2023-29491                   │
 │                        ├──────────────────┼──────────┼──────────────┤                     ├───────────────┼──────────────────────────────────────────────────────────────┤
 │                        │ CVE-2022-29458   │ LOW      │ will_not_fix │                     │               │ segfaulting OOB read                                         │
 │                        │                  │          │              │                     │               │ https://avd.aquasec.com/nvd/cve-2022-29458                   │
 ├────────────────────────┼──────────────────┼──────────┼──────────────┤                     ├───────────────┼──────────────────────────────────────────────────────────────┤
-│ ncurses-libs           │ CVE-2020-19185   │ MEDIUM   │ affected     │                     │               │ 1373                                                         │
-│                        │                  │          │              │                     │               │ https://avd.aquasec.com/nvd/cve-2020-19185                   │
-│                        ├──────────────────┤          │              │                     ├───────────────┼──────────────────────────────────────────────────────────────┤
-│                        │ CVE-2020-19186   │          │              │                     │               │ 66                                                           │
-│                        │                  │          │              │                     │               │ https://avd.aquasec.com/nvd/cve-2020-19186                   │
-│                        ├──────────────────┤          │              │                     ├───────────────┼──────────────────────────────────────────────────────────────┤
-│                        │ CVE-2020-19187   │          │              │                     │               │ 1100                                                         │
-│                        │                  │          │              │                     │               │ https://avd.aquasec.com/nvd/cve-2020-19187                   │
-│                        ├──────────────────┤          │              │                     ├───────────────┼──────────────────────────────────────────────────────────────┤
-│                        │ CVE-2020-19188   │          │              │                     │               │ 1116                                                         │
-│                        │                  │          │              │                     │               │ https://avd.aquasec.com/nvd/cve-2020-19188                   │
-│                        ├──────────────────┤          │              │                     ├───────────────┼──────────────────────────────────────────────────────────────┤
-│                        │ CVE-2020-19189   │          │              │                     │               │ 997                                                          │
-│                        │                  │          │              │                     │               │ https://avd.aquasec.com/nvd/cve-2020-19189                   │
-│                        ├──────────────────┤          │              │                     ├───────────────┼──────────────────────────────────────────────────────────────┤
-│                        │ CVE-2020-19190   │          │              │                     │               │ 70                                                           │
-│                        │                  │          │              │                     │               │ https://avd.aquasec.com/nvd/cve-2020-19190                   │
-│                        ├──────────────────┤          │              │                     ├───────────────┼──────────────────────────────────────────────────────────────┤
-│                        │ CVE-2023-29491   │          │              │                     │               │ Local users can trigger security-relevant memory corruption  │
+│ ncurses-libs           │ CVE-2023-29491   │ MEDIUM   │ affected     │                     │               │ Local users can trigger security-relevant memory corruption  │
 │                        │                  │          │              │                     │               │ via malformed data                                           │
 │                        │                  │          │              │                     │               │ https://avd.aquasec.com/nvd/cve-2023-29491                   │
 │                        ├──────────────────┼──────────┼──────────────┤                     ├───────────────┼──────────────────────────────────────────────────────────────┤
@@ -460,17 +405,13 @@ Total: 250 (UNKNOWN: 0, LOW: 139, MEDIUM: 109, HIGH: 2, CRITICAL: 0)
 │                        │ CVE-2007-4559    │ MEDIUM   │              │                     │               │ tarfile module directory traversal                           │
 │                        │                  │          │              │                     │               │ https://avd.aquasec.com/nvd/cve-2007-4559                    │
 │                        ├──────────────────┤          │              │                     ├───────────────┼──────────────────────────────────────────────────────────────┤
-│                        │ CVE-2021-23336   │          │              │                     │               │ python: Web cache poisoning via urllib.parse.parse_qsl and   │
-│                        │                  │          │              │                     │               │ urllib.parse.parse_qs by using a semicolon...                │
+│                        │ CVE-2021-23336   │          │              │                     │               │ Web cache poisoning via urllib.parse.parse_qsl and           │
+│                        │                  │          │              │                     │               │ urllib.parse.parse_qs by using a semicolon in...             │
 │                        │                  │          │              │                     │               │ https://avd.aquasec.com/nvd/cve-2021-23336                   │
 │                        ├──────────────────┤          │              │                     ├───────────────┼──────────────────────────────────────────────────────────────┤
 │                        │ CVE-2022-0391    │          │              │                     │               │ urllib.parse does not sanitize URLs containing ASCII newline │
 │                        │                  │          │              │                     │               │ and tabs                                                     │
 │                        │                  │          │              │                     │               │ https://avd.aquasec.com/nvd/cve-2022-0391                    │
-│                        ├──────────────────┤          │              │                     ├───────────────┼──────────────────────────────────────────────────────────────┤
-│                        │ CVE-2022-48566   │          │              │                     │               │ constant-time-defeating optimisations issue in the           │
-│                        │                  │          │              │                     │               │ compare_digest function in Lib/hmac.p                        │
-│                        │                  │          │              │                     │               │ https://avd.aquasec.com/nvd/cve-2022-48566                   │
 │                        ├──────────────────┤          ├──────────────┤                     ├───────────────┼──────────────────────────────────────────────────────────────┤
 │                        │ CVE-2023-27043   │          │ will_not_fix │                     │               │ Parsing errors in email/_parseaddr.py lead to incorrect      │
 │                        │                  │          │              │                     │               │ value in email address part...                               │
@@ -486,17 +427,13 @@ Total: 250 (UNKNOWN: 0, LOW: 139, MEDIUM: 109, HIGH: 2, CRITICAL: 0)
 │                        │ CVE-2007-4559    │ MEDIUM   │              │                     │               │ tarfile module directory traversal                           │
 │                        │                  │          │              │                     │               │ https://avd.aquasec.com/nvd/cve-2007-4559                    │
 │                        ├──────────────────┤          │              │                     ├───────────────┼──────────────────────────────────────────────────────────────┤
-│                        │ CVE-2021-23336   │          │              │                     │               │ python: Web cache poisoning via urllib.parse.parse_qsl and   │
-│                        │                  │          │              │                     │               │ urllib.parse.parse_qs by using a semicolon...                │
+│                        │ CVE-2021-23336   │          │              │                     │               │ Web cache poisoning via urllib.parse.parse_qsl and           │
+│                        │                  │          │              │                     │               │ urllib.parse.parse_qs by using a semicolon in...             │
 │                        │                  │          │              │                     │               │ https://avd.aquasec.com/nvd/cve-2021-23336                   │
 │                        ├──────────────────┤          │              │                     ├───────────────┼──────────────────────────────────────────────────────────────┤
 │                        │ CVE-2022-0391    │          │              │                     │               │ urllib.parse does not sanitize URLs containing ASCII newline │
 │                        │                  │          │              │                     │               │ and tabs                                                     │
 │                        │                  │          │              │                     │               │ https://avd.aquasec.com/nvd/cve-2022-0391                    │
-│                        ├──────────────────┤          │              │                     ├───────────────┼──────────────────────────────────────────────────────────────┤
-│                        │ CVE-2022-48566   │          │              │                     │               │ constant-time-defeating optimisations issue in the           │
-│                        │                  │          │              │                     │               │ compare_digest function in Lib/hmac.p                        │
-│                        │                  │          │              │                     │               │ https://avd.aquasec.com/nvd/cve-2022-48566                   │
 │                        ├──────────────────┤          ├──────────────┤                     ├───────────────┼──────────────────────────────────────────────────────────────┤
 │                        │ CVE-2023-27043   │          │ will_not_fix │                     │               │ Parsing errors in email/_parseaddr.py lead to incorrect      │
 │                        │                  │          │              │                     │               │ value in email address part...                               │
@@ -867,30 +804,26 @@ Total: 250 (UNKNOWN: 0, LOW: 139, MEDIUM: 109, HIGH: 2, CRITICAL: 0)
 
 usr/local/bin/aci-containers-operator (gobinary)
 ================================================
-Total: 6 (UNKNOWN: 0, LOW: 0, MEDIUM: 2, HIGH: 4, CRITICAL: 0)
+Total: 5 (UNKNOWN: 0, LOW: 0, MEDIUM: 1, HIGH: 4, CRITICAL: 0)
 
-┌──────────────────┬────────────────┬──────────┬────────┬────────────────────────────────────┬─────────────────────────┬──────────────────────────────────────────────────────────────┐
-│     Library      │ Vulnerability  │ Severity │ Status │         Installed Version          │      Fixed Version      │                            Title                             │
-├──────────────────┼────────────────┼──────────┼────────┼────────────────────────────────────┼─────────────────────────┼──────────────────────────────────────────────────────────────┤
-│ istio.io/istio   │ CVE-2019-14993 │ HIGH     │ fixed  │ v0.0.0-20230607011503-697f4ff0fe6e │ 1.1.13, 1.2.4           │ istio/envoy: mishandling regular expressions for long URIs   │
-│                  │                │          │        │                                    │                         │ leading to DoS                                               │
-│                  │                │          │        │                                    │                         │ https://avd.aquasec.com/nvd/cve-2019-14993                   │
-│                  ├────────────────┤          │        │                                    ├─────────────────────────┼──────────────────────────────────────────────────────────────┤
-│                  │ CVE-2021-39155 │          │        │                                    │ 1.9.8, 1.10.4, 1.11.1   │ HTTP request can bypass authorization mechanisms due to case │
-│                  │                │          │        │                                    │                         │ insensitive host comparison...                               │
-│                  │                │          │        │                                    │                         │ https://avd.aquasec.com/nvd/cve-2021-39155                   │
-│                  ├────────────────┤          │        │                                    │                         ├──────────────────────────────────────────────────────────────┤
-│                  │ CVE-2021-39156 │          │        │                                    │                         │ HTTP request with fragment in URI can bypass authorization   │
-│                  │                │          │        │                                    │                         │ mechanisms                                                   │
-│                  │                │          │        │                                    │                         │ https://avd.aquasec.com/nvd/cve-2021-39156                   │
-│                  ├────────────────┤          │        │                                    ├─────────────────────────┼──────────────────────────────────────────────────────────────┤
-│                  │ CVE-2022-23635 │          │        │                                    │ 1.13.1, 1.12.4, 1.11.7  │ unauthenticated control plane denial of service attack       │
-│                  │                │          │        │                                    │                         │ https://avd.aquasec.com/nvd/cve-2022-23635                   │
-│                  ├────────────────┼──────────┤        │                                    ├─────────────────────────┼──────────────────────────────────────────────────────────────┤
-│                  │ CVE-2022-31045 │ MEDIUM   │        │                                    │ 1.12.18, 1.13.5, 1.14.1 │ Unsafe memory access in metadata exchange.                   │
-│                  │                │          │        │                                    │                         │ https://avd.aquasec.com/nvd/cve-2022-31045                   │
-├──────────────────┼────────────────┤          │        ├────────────────────────────────────┼─────────────────────────┼──────────────────────────────────────────────────────────────┤
-│ k8s.io/apiserver │ CVE-2020-8552  │          │        │ v0.27.0                            │ 1.15.10, 1.16.7, 1.17.3 │ kubernetes: Use of unbounded 'client' label in               │
-│                  │                │          │        │                                    │                         │ apiserver_request_total allows for memory exhaustion...      │
-│                  │                │          │        │                                    │                         │ https://avd.aquasec.com/nvd/cve-2020-8552                    │
-└──────────────────┴────────────────┴──────────┴────────┴────────────────────────────────────┴─────────────────────────┴──────────────────────────────────────────────────────────────┘
+┌────────────────┬────────────────┬──────────┬────────┬────────────────────────────────────┬─────────────────────────┬──────────────────────────────────────────────────────────────┐
+│    Library     │ Vulnerability  │ Severity │ Status │         Installed Version          │      Fixed Version      │                            Title                             │
+├────────────────┼────────────────┼──────────┼────────┼────────────────────────────────────┼─────────────────────────┼──────────────────────────────────────────────────────────────┤
+│ istio.io/istio │ CVE-2019-14993 │ HIGH     │ fixed  │ v0.0.0-20230607011503-697f4ff0fe6e │ 1.1.13, 1.2.4           │ istio/envoy: mishandling regular expressions for long URIs   │
+│                │                │          │        │                                    │                         │ leading to DoS                                               │
+│                │                │          │        │                                    │                         │ https://avd.aquasec.com/nvd/cve-2019-14993                   │
+│                ├────────────────┤          │        │                                    ├─────────────────────────┼──────────────────────────────────────────────────────────────┤
+│                │ CVE-2021-39155 │          │        │                                    │ 1.9.8, 1.10.4, 1.11.1   │ HTTP request can bypass authorization mechanisms due to case │
+│                │                │          │        │                                    │                         │ insensitive host comparison...                               │
+│                │                │          │        │                                    │                         │ https://avd.aquasec.com/nvd/cve-2021-39155                   │
+│                ├────────────────┤          │        │                                    │                         ├──────────────────────────────────────────────────────────────┤
+│                │ CVE-2021-39156 │          │        │                                    │                         │ HTTP request with fragment in URI can bypass authorization   │
+│                │                │          │        │                                    │                         │ mechanisms                                                   │
+│                │                │          │        │                                    │                         │ https://avd.aquasec.com/nvd/cve-2021-39156                   │
+│                ├────────────────┤          │        │                                    ├─────────────────────────┼──────────────────────────────────────────────────────────────┤
+│                │ CVE-2022-23635 │          │        │                                    │ 1.13.1, 1.12.4, 1.11.7  │ unauthenticated control plane denial of service attack       │
+│                │                │          │        │                                    │                         │ https://avd.aquasec.com/nvd/cve-2022-23635                   │
+│                ├────────────────┼──────────┤        │                                    ├─────────────────────────┼──────────────────────────────────────────────────────────────┤
+│                │ CVE-2022-31045 │ MEDIUM   │        │                                    │ 1.12.18, 1.13.5, 1.14.1 │ Unsafe memory access in metadata exchange.                   │
+│                │                │          │        │                                    │                         │ https://avd.aquasec.com/nvd/cve-2022-31045                   │
+└────────────────┴────────────────┴──────────┴────────┴────────────────────────────────────┴─────────────────────────┴──────────────────────────────────────────────────────────────┘
