@@ -272,7 +272,7 @@ releases:
     release_name: 4.3.2.1.z
   - acc_provision:
     - build-logs: release_artifacts/4.3.2.1/r/acc-provision/4.3.2.1-buildlog.txt
-      build-time: 2023-09-21 19:46:35 PDT
+      build-time: 2023-09-21 19:56:14 PDT
       commit:
       - link: https://github.com/noironetworks/acc-provision/commit/1fcd5228ae93de3fe80763a23c71b909237e4f82
         sha: 1fcd5228ae93de3fe80763a23c71b909237e4f82
@@ -289,12 +289,12 @@ releases:
           U: 0
         sha: 351ed8b24d440c348486efd99587046e88bb966890a9207a5851d3a34a4dd346
       build-logs: release_artifacts/4.3.2.1/r/aci-containers-host/4.3.2.1-buildlog.txt
-      build-time: 2023-09-21 19:47:41 PDT
+      build-time: 2023-09-21 19:57:20 PDT
       commit: *id001
       cve: release_artifacts/4.3.2.1/r/aci-containers-host/4.3.2.1-cve.txt
       docker:
-      - link: https://hub.docker.com/layers/noiro/aci-containers-host/4.3.2.1.81c2369/images/sha256-error?context=explore
-        sha: error
+      - link: https://hub.docker.com/layers/noiro/aci-containers-host/4.3.2.1.81c2369/images/sha256-68b96bf66c15081a4a7ae2e6423714ed0cc5766483c4993642ea8d6f1203a344?context=explore
+        sha: 68b96bf66c15081a4a7ae2e6423714ed0cc5766483c4993642ea8d6f1203a344
         tag: 4.3.2.1.81c2369
       name: aci-containers-host
       quay:
@@ -318,12 +318,12 @@ releases:
           U: 0
         sha: 351ed8b24d440c348486efd99587046e88bb966890a9207a5851d3a34a4dd346
       build-logs: release_artifacts/4.3.2.1/r/aci-containers-controller/4.3.2.1-buildlog.txt
-      build-time: 2023-09-21 19:47:43 PDT
+      build-time: 2023-09-21 19:57:22 PDT
       commit: *id002
       cve: release_artifacts/4.3.2.1/r/aci-containers-controller/4.3.2.1-cve.txt
       docker:
-      - link: https://hub.docker.com/layers/noiro/aci-containers-controller/4.3.2.1.81c2369/images/sha256-error?context=explore
-        sha: error
+      - link: https://hub.docker.com/layers/noiro/aci-containers-controller/4.3.2.1.81c2369/images/sha256-81369f97434deea3260168685aa482e68384ca857dcb10a765d75fdf9a9d3fe3?context=explore
+        sha: 81369f97434deea3260168685aa482e68384ca857dcb10a765d75fdf9a9d3fe3
         tag: 4.3.2.1.81c2369
       name: aci-containers-controller
       quay:
@@ -347,12 +347,12 @@ releases:
           U: 0
         sha: 351ed8b24d440c348486efd99587046e88bb966890a9207a5851d3a34a4dd346
       build-logs: release_artifacts/4.3.2.1/r/cnideploy/4.3.2.1-buildlog.txt
-      build-time: 2023-09-21 19:47:44 PDT
+      build-time: 2023-09-21 19:57:24 PDT
       commit: *id003
       cve: release_artifacts/4.3.2.1/r/cnideploy/4.3.2.1-cve.txt
       docker:
-      - link: https://hub.docker.com/layers/noiro/cnideploy/4.3.2.1.81c2369/images/sha256-error?context=explore
-        sha: error
+      - link: https://hub.docker.com/layers/noiro/cnideploy/4.3.2.1.81c2369/images/sha256-0ac3fc6ef6cdc3fc1022623c66bab7c3ec82ec56014541a18869b9612aa3fad6?context=explore
+        sha: 0ac3fc6ef6cdc3fc1022623c66bab7c3ec82ec56014541a18869b9612aa3fad6
         tag: 4.3.2.1.81c2369
       name: cnideploy
       quay:
@@ -376,12 +376,12 @@ releases:
           U: 0
         sha: 351ed8b24d440c348486efd99587046e88bb966890a9207a5851d3a34a4dd346
       build-logs: release_artifacts/4.3.2.1/r/aci-containers-operator/4.3.2.1-buildlog.txt
-      build-time: 2023-09-21 19:47:47 PDT
+      build-time: 2023-09-21 19:57:25 PDT
       commit: *id004
       cve: release_artifacts/4.3.2.1/r/aci-containers-operator/4.3.2.1-cve.txt
       docker:
-      - link: https://hub.docker.com/layers/noiro/aci-containers-operator/4.3.2.1.81c2369/images/sha256-error?context=explore
-        sha: error
+      - link: https://hub.docker.com/layers/noiro/aci-containers-operator/4.3.2.1.81c2369/images/sha256-3fd92a145ada18123834300cd04d41cf2cb71b3938c62ec2129d1bc20ab7cc30?context=explore
+        sha: 3fd92a145ada18123834300cd04d41cf2cb71b3938c62ec2129d1bc20ab7cc30
         tag: 4.3.2.1.81c2369
       name: aci-containers-operator
       quay:
@@ -405,12 +405,12 @@ releases:
           U: 0
         sha: 0dfa71a7ec2caf445e7ac6b7422ae67f3518960bd6dbf62a7b77fa7a6cfc02b1
       build-logs: release_artifacts/4.3.2.1/r/openvswitch/4.3.2.1-buildlog.txt
-      build-time: 2023-09-21 19:47:49 PDT
+      build-time: 2023-09-21 19:57:27 PDT
       commit: *id005
       cve: release_artifacts/4.3.2.1/r/openvswitch/4.3.2.1-cve.txt
       docker:
-      - link: https://hub.docker.com/layers/noiro/openvswitch/4.3.2.1.81c2369/images/sha256-error?context=explore
-        sha: error
+      - link: https://hub.docker.com/layers/noiro/openvswitch/4.3.2.1.81c2369/images/sha256-b2e0312892b63f88af3bd3ee8b67fbddf59790ae4757c06381e33bf8668509c8?context=explore
+        sha: b2e0312892b63f88af3bd3ee8b67fbddf59790ae4757c06381e33bf8668509c8
         tag: 4.3.2.1.81c2369
       name: openvswitch
       quay:
@@ -434,12 +434,12 @@ releases:
           U: 3
         sha: 0fb346fdc395bcf5be4154628a7b3fe8e193a0c2fcee51824e44f11551331f8a
       build-logs: release_artifacts/4.3.2.1/r/acc-provision-operator/4.3.2.1-buildlog.txt
-      build-time: 2023-09-21 19:47:50 PDT
+      build-time: 2023-09-21 19:57:29 PDT
       commit: *id006
       cve: release_artifacts/4.3.2.1/r/acc-provision-operator/4.3.2.1-cve.txt
       docker:
-      - link: https://hub.docker.com/layers/noiro/acc-provision-operator/4.3.2.1.81c2369/images/sha256-error?context=explore
-        sha: error
+      - link: https://hub.docker.com/layers/noiro/acc-provision-operator/4.3.2.1.81c2369/images/sha256-e1cba816d1b83d774fdc745a45412ce27e31387a2f3338fd015eb6b076428f32?context=explore
+        sha: e1cba816d1b83d774fdc745a45412ce27e31387a2f3338fd015eb6b076428f32
         tag: 4.3.2.1.81c2369
       name: acc-provision-operator
       quay:
@@ -463,12 +463,12 @@ releases:
           U: 0
         sha: 0dfa71a7ec2caf445e7ac6b7422ae67f3518960bd6dbf62a7b77fa7a6cfc02b1
       build-logs: release_artifacts/4.3.2.1/r/opflex/4.3.2.1-buildlog.txt
-      build-time: 2023-09-21 19:48:01 PDT
+      build-time: 2023-09-21 19:57:40 PDT
       commit: *id007
       cve: release_artifacts/4.3.2.1/r/opflex/4.3.2.1-cve.txt
       docker:
-      - link: https://hub.docker.com/layers/noiro/opflex/4.3.2.1.81c2369/images/sha256-error?context=explore
-        sha: error
+      - link: https://hub.docker.com/layers/noiro/opflex/4.3.2.1.81c2369/images/sha256-a585d1e6675af9a90a6d9418d5894fcd44e074f85202521e2c29db9e0907e163?context=explore
+        sha: a585d1e6675af9a90a6d9418d5894fcd44e074f85202521e2c29db9e0907e163
         tag: 4.3.2.1.81c2369
       name: opflex
       quay:
@@ -482,7 +482,7 @@ releases:
         L: 0
         M: 4
         U: 0
-    last_updated: 2023-09-21 19:46:35 PDT
+    last_updated: 2023-09-21 19:56:14 PDT
     release_name: 4.3.2.1
     released: true
   - acc_provision:
