@@ -529,8 +529,8 @@ python3-libxml2                         2.9.7-16.el8                            
 python3-libxml2                         2.9.7-16.el8                              0:2.9.7-16.el8_8.1   rpm     CVE-2023-29469       Medium    
 python3-libxml2                         2.9.7-16.el8                              0:2.9.7-16.el8_8.1   rpm     CVE-2023-28484       Medium    
 python3-pip-wheel                       9.0.3-22.el8                              (won't fix)          rpm     CVE-2018-20225       Low       
-python3-requests                        2.20.0-2.1.el8_1                          0:2.20.0-3.el8_8     rpm     CVE-2023-32681       Medium    
 python3-requests                        2.20.0-2.1.el8_1                                               rpm     CVE-2023-32681       Medium    
+python3-requests                        2.20.0-2.1.el8_1                          0:2.20.0-3.el8_8     rpm     CVE-2023-32681       Medium    
 python3-rpm                             4.14.3-26.el8                             (won't fix)          rpm     CVE-2021-35939       Medium    
 python3-rpm                             4.14.3-26.el8                             (won't fix)          rpm     CVE-2021-35938       Medium    
 python3-rpm                             4.14.3-26.el8                             (won't fix)          rpm     CVE-2021-35937       Medium    
