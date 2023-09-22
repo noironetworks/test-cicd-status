@@ -74,6 +74,7 @@ cpp                                     8.5.0-18.el8                            
 cpp                                     8.5.0-18.el8                              (won't fix)          rpm     CVE-2022-27943       Low       
 cpp                                     8.5.0-18.el8                              (won't fix)          rpm     CVE-2019-14250       Low       
 cpp                                     8.5.0-18.el8                              (won't fix)          rpm     CVE-2018-20657       Low       
+cryptography                            41.0.2                                    41.0.4               python  GHSA-v8gr-m533-ghj9  Low       
 cryptography                            41.0.2                                    41.0.3               python  GHSA-jm77-qphf-c4w8  Low       
 curl                                    7.61.1-30.el8_8.2                         0:7.61.1-30.el8_8.3  rpm     CVE-2023-28321       Medium    
 curl                                    7.61.1-30.el8_8.2                         0:7.61.1-30.el8_8.3  rpm     CVE-2023-27536       Medium    
@@ -516,6 +517,7 @@ pkgconf-pkg-config                      1.4.2-1.el8                             
 platform-python                         3.6.8-51.el8_8.1                                               rpm     CVE-2023-40217       High      
 platform-python                         3.6.8-51.el8_8.1                          (won't fix)          rpm     CVE-2023-36632       Medium    
 platform-python                         3.6.8-51.el8_8.1                                               rpm     CVE-2023-27043       Medium    
+platform-python                         3.6.8-51.el8_8.1                                               rpm     CVE-2022-48565       Medium    
 platform-python                         3.6.8-51.el8_8.1                                               rpm     CVE-2007-4559        Medium    
 platform-python                         3.6.8-51.el8_8.1                          (won't fix)          rpm     CVE-2019-9674        Low       
 python3-cloud-what                      1.28.36-2.el8                             0:1.28.36-3.el8_8    rpm     CVE-2023-3899        High      
@@ -523,14 +525,15 @@ python3-cloud-what                      1.28.36-2.el8                           
 python3-libs                            3.6.8-51.el8_8.1                                               rpm     CVE-2023-40217       High      
 python3-libs                            3.6.8-51.el8_8.1                          (won't fix)          rpm     CVE-2023-36632       Medium    
 python3-libs                            3.6.8-51.el8_8.1                                               rpm     CVE-2023-27043       Medium    
+python3-libs                            3.6.8-51.el8_8.1                                               rpm     CVE-2022-48565       Medium    
 python3-libs                            3.6.8-51.el8_8.1                                               rpm     CVE-2007-4559        Medium    
 python3-libs                            3.6.8-51.el8_8.1                          (won't fix)          rpm     CVE-2019-9674        Low       
 python3-libxml2                         2.9.7-16.el8                                                   rpm     CVE-2023-39615       Medium    
 python3-libxml2                         2.9.7-16.el8                              0:2.9.7-16.el8_8.1   rpm     CVE-2023-29469       Medium    
 python3-libxml2                         2.9.7-16.el8                              0:2.9.7-16.el8_8.1   rpm     CVE-2023-28484       Medium    
 python3-pip-wheel                       9.0.3-22.el8                              (won't fix)          rpm     CVE-2018-20225       Low       
-python3-requests                        2.20.0-2.1.el8_1                                               rpm     CVE-2023-32681       Medium    
 python3-requests                        2.20.0-2.1.el8_1                          0:2.20.0-3.el8_8     rpm     CVE-2023-32681       Medium    
+python3-requests                        2.20.0-2.1.el8_1                                               rpm     CVE-2023-32681       Medium    
 python3-rpm                             4.14.3-26.el8                             (won't fix)          rpm     CVE-2021-35939       Medium    
 python3-rpm                             4.14.3-26.el8                             (won't fix)          rpm     CVE-2021-35938       Medium    
 python3-rpm                             4.14.3-26.el8                             (won't fix)          rpm     CVE-2021-35937       Medium    
@@ -542,6 +545,7 @@ python39                                3.9.16-1.module+el8.8.0+18968+3d7b19f0.1
 python39                                3.9.16-1.module+el8.8.0+18968+3d7b19f0.1  (won't fix)          rpm     CVE-2023-36632       Medium    
 python39                                3.9.16-1.module+el8.8.0+18968+3d7b19f0.1                       rpm     CVE-2023-27043       Medium    
 python39                                3.9.16-1.module+el8.8.0+18968+3d7b19f0.1                       rpm     CVE-2022-48566       Medium    
+python39                                3.9.16-1.module+el8.8.0+18968+3d7b19f0.1                       rpm     CVE-2022-48565       Medium    
 python39                                3.9.16-1.module+el8.8.0+18968+3d7b19f0.1                       rpm     CVE-2022-0391        Medium    
 python39                                3.9.16-1.module+el8.8.0+18968+3d7b19f0.1                       rpm     CVE-2020-10735       Medium    
 python39                                3.9.16-1.module+el8.8.0+18968+3d7b19f0.1                       rpm     CVE-2007-4559        Medium    
@@ -549,6 +553,7 @@ python39-libs                           3.9.16-1.module+el8.8.0+18968+3d7b19f0.1
 python39-libs                           3.9.16-1.module+el8.8.0+18968+3d7b19f0.1  (won't fix)          rpm     CVE-2023-36632       Medium    
 python39-libs                           3.9.16-1.module+el8.8.0+18968+3d7b19f0.1                       rpm     CVE-2023-27043       Medium    
 python39-libs                           3.9.16-1.module+el8.8.0+18968+3d7b19f0.1                       rpm     CVE-2022-48566       Medium    
+python39-libs                           3.9.16-1.module+el8.8.0+18968+3d7b19f0.1                       rpm     CVE-2022-48565       Medium    
 python39-libs                           3.9.16-1.module+el8.8.0+18968+3d7b19f0.1                       rpm     CVE-2022-0391        Medium    
 python39-libs                           3.9.16-1.module+el8.8.0+18968+3d7b19f0.1                       rpm     CVE-2020-10735       Medium    
 python39-libs                           3.9.16-1.module+el8.8.0+18968+3d7b19f0.1                       rpm     CVE-2007-4559        Medium    

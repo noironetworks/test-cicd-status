@@ -199,37 +199,37 @@ releases:
         severity:
         - C: 4
           H: 12
-          L: 135
-          M: 105
+          L: 136
+          M: 109
           U: 3
         sha: 0fb346fdc395bcf5be4154628a7b3fe8e193a0c2fcee51824e44f11551331f8a
       build-logs: release_artifacts/4.3.2.1/z/acc-provision-operator/4.3.2.1-buildlog.txt
-      build-time: 2023-09-21 21:10:01 PDT
+      build-time: 2023-09-22 10:58:02 PDT
       commit:
       - link: https://github.com/noironetworks/acc-provision-operator/commit/57cde54c3f85bdaab8f922a25b8fdd27da95db1b
         sha: 57cde54c3f85bdaab8f922a25b8fdd27da95db1b
       cve: release_artifacts/4.3.2.1/z/acc-provision-operator/4.3.2.1-cve.txt
       docker:
-      - link: https://hub.docker.com/layers/noiro/acc-provision-operator/4.3.2.1.81c2369.z/images/sha256-0384bd485140000bafd9b9840c36328387f46395c9288e26db9f85a8b05c6e03?context=explore
-        sha: 0384bd485140000bafd9b9840c36328387f46395c9288e26db9f85a8b05c6e03
+      - link: https://hub.docker.com/layers/noiro/acc-provision-operator/4.3.2.1.81c2369.z/images/sha256-error?context=explore
+        sha: error
         tag: 4.3.2.1.81c2369.z
-      - link: https://hub.docker.com/layers/noiro/acc-provision-operator/4.3.2.1.81c2369.092223.578/images/sha256-0384bd485140000bafd9b9840c36328387f46395c9288e26db9f85a8b05c6e03?context=explore
-        sha: 0384bd485140000bafd9b9840c36328387f46395c9288e26db9f85a8b05c6e03
+      - link: https://hub.docker.com/layers/noiro/acc-provision-operator/4.3.2.1.81c2369.092223.578/images/sha256-error?context=explore
+        sha: error
         tag: 4.3.2.1.81c2369.092223.578
       name: acc-provision-operator
       quay:
       - link: https://quay.io/noiro/acc-provision-operator:4.3.2.1.81c2369.z
-        sha: 0384bd485140000bafd9b9840c36328387f46395c9288e26db9f85a8b05c6e03
+        sha: error
         tag: 4.3.2.1.81c2369.z
       - link: https://quay.io/noiro/acc-provision-operator:4.3.2.1.81c2369.092223.578
-        sha: 0384bd485140000bafd9b9840c36328387f46395c9288e26db9f85a8b05c6e03
+        sha: error
         tag: 4.3.2.1.81c2369.092223.578
       sbom: release_artifacts/4.3.2.1/z/acc-provision-operator/4.3.2.1-sbom.txt
       severity:
       - C: 6
         H: 18
-        L: 265
-        M: 348
+        L: 266
+        M: 352
         U: 6
     - base-image:
       - cve: release_artifacts/4.3.2.1/z/opflex/4.3.2.1-cve-base.txt
@@ -268,7 +268,7 @@ releases:
         L: 0
         M: 4
         U: 0
-    last_updated: 2023-09-21 21:10:01 PDT
+    last_updated: 2023-09-22 10:58:02 PDT
     release_name: 4.3.2.1.z
   - acc_provision:
     - build-logs: release_artifacts/4.3.2.1/r/acc-provision/4.3.2.1-buildlog.txt
