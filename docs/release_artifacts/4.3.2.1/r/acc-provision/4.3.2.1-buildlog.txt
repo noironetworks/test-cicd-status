@@ -1,9 +1,9 @@
 travis_fold:start:worker_info[0K[33;1mWorker information[0m
-hostname: b165e001-f95f-4013-af04-6e3f987385a2@1.worker-com-d8db8fdf9-4mlnj.gce-production-2
+hostname: 63f70549-8e7b-4491-89da-48cc1f13f52f@1.worker-com-65f46c97fb-2dvl6.gce-production-1
 version: v6.2.24 https://github.com/travis-ci/worker/tree/ee57d650a7692c1ac03f74ac073d0fd150c9f030
-instance: travis-job-2a7f9296-7cc0-4d8c-a080-607b6f96c72c travis-ci-ubuntu-2204-1685534165-8ec5e018 (via amqp)
-startup: 6.440481854s
-travis_fold:end:worker_info[0Ktravis_time:start:02733580[0Ktravis_time:end:02733580:start=1695411518252434816,finish=1695411518673178614,duration=420743798,event=no_world_writable_dirs[0Ktravis_time:start:1126fcd6[0Ktravis_time:end:1126fcd6:start=1695411518676272998,finish=1695411518679811493,duration=3538495,event=setup_filter[0Ktravis_time:start:0f6b0c0d[0Ktravis_time:end:0f6b0c0d:start=1695411518683831537,finish=1695411518692600877,duration=8769340,event=agent[0Ktravis_time:start:1981ff9f[0Ktravis_time:end:1981ff9f:start=1695411518695227940,finish=1695411518697209082,duration=1981142,event=check_unsupported[0Ktravis_time:start:12ff85b0[0Ktravis_fold:start:system_info[0K[33;1mBuild system information[0m
+instance: travis-job-021b8304-db6d-4cb1-9691-8bd5edc1bcee travis-ci-ubuntu-2204-1685534165-8ec5e018 (via amqp)
+startup: 6.857197453s
+travis_fold:end:worker_info[0Ktravis_time:start:04387d60[0Ktravis_time:end:04387d60:start=1695413611766282780,finish=1695413612153919818,duration=387637038,event=no_world_writable_dirs[0Ktravis_time:start:1a85f062[0Ktravis_time:end:1a85f062:start=1695413612157048127,finish=1695413612160916199,duration=3868072,event=setup_filter[0Ktravis_time:start:10d35dbe[0Ktravis_time:end:10d35dbe:start=1695413612164960741,finish=1695413612173569547,duration=8608806,event=agent[0Ktravis_time:start:1c4874e9[0Ktravis_time:end:1c4874e9:start=1695413612176090887,finish=1695413612177935238,duration=1844351,event=check_unsupported[0Ktravis_time:start:020eb15c[0Ktravis_fold:start:system_info[0K[33;1mBuild system information[0m
 Build language: python
 Build dist: jammy
 Build id: 266051347
@@ -159,13 +159,13 @@ Composer version 2.3.7 2022-06-06 16:43:28
 ruby-3.0.4
 ruby-3.1.2
 travis_fold:end:system_info[0K
-travis_time:end:12ff85b0:start=1695411518700095718,finish=1695411518710955631,duration=10859913,event=show_system_info[0Ktravis_time:start:14344269[0Ktravis_time:end:14344269:start=1695411518713488745,finish=1695411518734332905,duration=20844160,event=rm_riak_source[0Ktravis_time:start:1db9a1ee[0Ktravis_time:end:1db9a1ee:start=1695411518737614092,finish=1695411518743271766,duration=5657674,event=fix_rwky_redis[0Ktravis_time:start:02ed7d14[0Ktravis_time:end:02ed7d14:start=1695411518746629799,finish=1695411519459586706,duration=712956907,event=wait_for_network[0Ktravis_time:start:035618f6[0Ktravis_time:end:035618f6:start=1695411519466303124,finish=1695411524099841374,duration=4633538250,event=update_apt_keys[0Ktravis_time:start:16458e8c[0Ktravis_time:end:16458e8c:start=1695411524104870746,finish=1695411524167064226,duration=62193480,event=fix_hhvm_source[0Ktravis_time:start:0643b082[0Ktravis_time:end:0643b082:start=1695411524172972279,finish=1695411524177278915,duration=4306636,event=update_mongo_arch[0Ktravis_time:start:2043354c[0Ktravis_time:end:2043354c:start=1695411524180729386,finish=1695411524216759749,duration=36030363,event=fix_sudo_enabled_trusty[0Ktravis_time:start:2b76f4e0[0Ktravis_time:end:2b76f4e0:start=1695411524222766565,finish=1695411524225882193,duration=3115628,event=update_glibc[0Ktravis_time:start:1438cb60[0Ktravis_time:end:1438cb60:start=1695411524229924056,finish=1695411524238477824,duration=8553768,event=clean_up_path[0Ktravis_time:start:0434624a[0Ktravis_time:end:0434624a:start=1695411524242980080,finish=1695411524258535521,duration=15555441,event=fix_resolv_conf[0Ktravis_time:start:27a6754c[0Ktravis_time:end:27a6754c:start=1695411524264314663,finish=1695411524320235192,duration=55920529,event=fix_etc_hosts[0Ktravis_time:start:00d9e978[0Ktravis_time:end:00d9e978:start=1695411524324042706,finish=1695411524332708009,duration=8665303,event=fix_mvn_settings_xml[0Ktravis_time:start:03c9114a[0Ktravis_time:end:03c9114a:start=1695411524338406940,finish=1695411524351177767,duration=12770827,event=no_ipv6_localhost[0Ktravis_time:start:07c7bd60[0Ktravis_time:end:07c7bd60:start=1695411524356164255,finish=1695411524358410496,duration=2246241,event=fix_etc_mavenrc[0Ktravis_time:start:0689edf8[0KOK
-travis_time:end:0689edf8:start=1695411524363670548,finish=1695411524712110606,duration=348440058,event=fix_perforce_key[0Ktravis_time:start:03ed7398[0Ktravis_time:end:03ed7398:start=1695411524717321028,finish=1695411524720966319,duration=3645291,event=fix_wwdr_certificate[0Ktravis_time:start:281372c9[0Ktravis_time:end:281372c9:start=1695411524725815789,finish=1695411524836000135,duration=110184346,event=put_localhost_first[0Ktravis_time:start:027e4bce[0Ktravis_time:end:027e4bce:start=1695411524839849441,finish=1695411524843496282,duration=3646841,event=home_paths[0Ktravis_time:start:000c97e0[0Ktravis_time:end:000c97e0:start=1695411524852845922,finish=1695411524870364507,duration=17518585,event=disable_initramfs[0Ktravis_time:start:25616b96[0Ktravis_time:end:25616b96:start=1695411524876070256,finish=1695411525021500460,duration=145430204,event=disable_ssh_roaming[0Ktravis_time:start:034648db[0Ktravis_time:end:034648db:start=1695411525026024447,finish=1695411525028342734,duration=2318287,event=debug_tools[0Ktravis_time:start:19c6994a[0Ktravis_time:end:19c6994a:start=1695411525033901673,finish=1695411525038948286,duration=5046613,event=uninstall_oclint[0Ktravis_time:start:130d202c[0Ktravis_time:end:130d202c:start=1695411525044793580,finish=1695411525047653913,duration=2860333,event=rvm_use[0Ktravis_time:start:1d656b76[0Ktravis_time:end:1d656b76:start=1695411525051714713,finish=1695411525061714802,duration=10000089,event=rm_etc_boto_cfg[0Ktravis_time:start:283141f5[0Ktravis_time:end:283141f5:start=1695411525067648561,finish=1695411525070184774,duration=2536213,event=rm_oraclejdk8_symlink[0Ktravis_time:start:30e68bd2[0Ktravis_time:end:30e68bd2:start=1695411525076509317,finish=1695411525167373488,duration=90864171,event=enable_i386[0Ktravis_time:start:04420480[0Ktravis_time:end:04420480:start=1695411525173605800,finish=1695411525177346637,duration=3740837,event=update_rubygems[0Ktravis_time:start:1a899f7b[0Ktravis_time:end:1a899f7b:start=1695411525181890444,finish=1695411526051724911,duration=869834467,event=ensure_path_components[0Ktravis_time:start:0325e37e[0Ktravis_time:end:0325e37e:start=1695411526056944247,finish=1695411526059384798,duration=2440551,event=redefine_curl[0Ktravis_time:start:1b3c8664[0Ktravis_time:end:1b3c8664:start=1695411526064195352,finish=1695411526130778361,duration=66583009,event=nonblock_pipe[0Ktravis_time:start:1560c439[0Ktravis_time:end:1560c439:start=1695411526135270752,finish=1695411532177687014,duration=6042416262,event=apt_get_update[0Ktravis_time:start:0cb23ea8[0Ktravis_time:end:0cb23ea8:start=1695411532181922378,finish=1695411532184848851,duration=2926473,event=deprecate_xcode_64[0Ktravis_time:start:04b34cc0[0Ktravis_time:end:04b34cc0:start=1695411532188756493,finish=1695411535779695922,duration=3590939429,event=update_heroku[0Ktravis_time:start:10e4210c[0Ktravis_time:end:10e4210c:start=1695411535786096448,finish=1695411535788828915,duration=2732467,event=shell_session_update[0Ktravis_time:start:02f322f0[0Ktravis_fold:start:docker_mtu_and_registry_mirrors[0Ktravis_fold:end:docker_mtu_and_registry_mirrors[0Ktravis_time:end:02f322f0:start=1695411535795338417,finish=1695411537953468151,duration=2158129734,event=set_docker_mtu_and_registry_mirrors[0Ktravis_time:start:34fb3f9a[0Ktravis_fold:start:resolvconf[0Ktravis_fold:end:resolvconf[0Ktravis_time:end:34fb3f9a:start=1695411537964027872,finish=1695411538041462047,duration=77434175,event=resolvconf[0Ktravis_time:start:1b1bd6bc[0Ktravis_time:end:1b1bd6bc:start=1695411538047404048,finish=1695411538253745912,duration=206341864,event=maven_central_mirror[0Ktravis_time:start:0d92f600[0Ktravis_time:end:0d92f600:start=1695411538261250844,finish=1695411538367720698,duration=106469854,event=maven_https[0K[33;1m3.9 is not installed; attempting download[0m
+travis_time:end:020eb15c:start=1695413612180667838,finish=1695413612189518672,duration=8850834,event=show_system_info[0Ktravis_time:start:128fcdf0[0Ktravis_time:end:128fcdf0:start=1695413612192134161,finish=1695413612214018028,duration=21883867,event=rm_riak_source[0Ktravis_time:start:3a947750[0Ktravis_time:end:3a947750:start=1695413612217496879,finish=1695413612223460294,duration=5963415,event=fix_rwky_redis[0Ktravis_time:start:0b3b8ec6[0Ktravis_time:end:0b3b8ec6:start=1695413612226734654,finish=1695413612900399606,duration=673664952,event=wait_for_network[0Ktravis_time:start:098e4338[0Ktravis_time:end:098e4338:start=1695413612904445274,finish=1695413617021573364,duration=4117128090,event=update_apt_keys[0Ktravis_time:start:025bf084[0Ktravis_time:end:025bf084:start=1695413617025903531,finish=1695413617087785330,duration=61881799,event=fix_hhvm_source[0Ktravis_time:start:2f1c9012[0Ktravis_time:end:2f1c9012:start=1695413617094750877,finish=1695413617099361876,duration=4610999,event=update_mongo_arch[0Ktravis_time:start:003da842[0Ktravis_time:end:003da842:start=1695413617103558185,finish=1695413617138714026,duration=35155841,event=fix_sudo_enabled_trusty[0Ktravis_time:start:244ba60e[0Ktravis_time:end:244ba60e:start=1695413617142649323,finish=1695413617145271705,duration=2622382,event=update_glibc[0Ktravis_time:start:213b9960[0Ktravis_time:end:213b9960:start=1695413617148846750,finish=1695413617160683368,duration=11836618,event=clean_up_path[0Ktravis_time:start:0b481854[0Ktravis_time:end:0b481854:start=1695413617164778092,finish=1695413617181668665,duration=16890573,event=fix_resolv_conf[0Ktravis_time:start:14439522[0Ktravis_time:end:14439522:start=1695413617185703684,finish=1695413617248261181,duration=62557497,event=fix_etc_hosts[0Ktravis_time:start:10e64a05[0Ktravis_time:end:10e64a05:start=1695413617252523843,finish=1695413617264294593,duration=11770750,event=fix_mvn_settings_xml[0Ktravis_time:start:0c559380[0Ktravis_time:end:0c559380:start=1695413617269646250,finish=1695413617283700003,duration=14053753,event=no_ipv6_localhost[0Ktravis_time:start:082a934c[0Ktravis_time:end:082a934c:start=1695413617287356358,finish=1695413617290280020,duration=2923662,event=fix_etc_mavenrc[0Ktravis_time:start:2d565b72[0KOK
+travis_time:end:2d565b72:start=1695413617295148386,finish=1695413617642957902,duration=347809516,event=fix_perforce_key[0Ktravis_time:start:0a6b8d48[0Ktravis_time:end:0a6b8d48:start=1695413617647002485,finish=1695413617650294228,duration=3291743,event=fix_wwdr_certificate[0Ktravis_time:start:13bba998[0Ktravis_time:end:13bba998:start=1695413617654924150,finish=1695413617780324265,duration=125400115,event=put_localhost_first[0Ktravis_time:start:33c16d04[0Ktravis_time:end:33c16d04:start=1695413617785343060,finish=1695413617789085481,duration=3742421,event=home_paths[0Ktravis_time:start:0c886706[0Ktravis_time:end:0c886706:start=1695413617793514473,finish=1695413617811322774,duration=17808301,event=disable_initramfs[0Ktravis_time:start:04712b3b[0Ktravis_time:end:04712b3b:start=1695413617815314633,finish=1695413617953741373,duration=138426740,event=disable_ssh_roaming[0Ktravis_time:start:02610460[0Ktravis_time:end:02610460:start=1695413617958467715,finish=1695413617961798528,duration=3330813,event=debug_tools[0Ktravis_time:start:0c049dc0[0Ktravis_time:end:0c049dc0:start=1695413617966681540,finish=1695413617971681937,duration=5000397,event=uninstall_oclint[0Ktravis_time:start:28bc2af0[0Ktravis_time:end:28bc2af0:start=1695413617976294261,finish=1695413617979292194,duration=2997933,event=rvm_use[0Ktravis_time:start:0b0e56b5[0Ktravis_time:end:0b0e56b5:start=1695413617983538115,finish=1695413617994654952,duration=11116837,event=rm_etc_boto_cfg[0Ktravis_time:start:20b208e8[0Ktravis_time:end:20b208e8:start=1695413617999147128,finish=1695413618002137042,duration=2989914,event=rm_oraclejdk8_symlink[0Ktravis_time:start:1bae6035[0Ktravis_time:end:1bae6035:start=1695413618006807691,finish=1695413618104931978,duration=98124287,event=enable_i386[0Ktravis_time:start:1a3913cc[0Ktravis_time:end:1a3913cc:start=1695413618110047483,finish=1695413618114152722,duration=4105239,event=update_rubygems[0Ktravis_time:start:17776fe0[0Ktravis_time:end:17776fe0:start=1695413618118119247,finish=1695413618970411677,duration=852292430,event=ensure_path_components[0Ktravis_time:start:13768c74[0Ktravis_time:end:13768c74:start=1695413618975315925,finish=1695413618977602106,duration=2286181,event=redefine_curl[0Ktravis_time:start:06b7a6fc[0Ktravis_time:end:06b7a6fc:start=1695413618981632712,finish=1695413619044778274,duration=63145562,event=nonblock_pipe[0Ktravis_time:start:05d8f29f[0Ktravis_time:end:05d8f29f:start=1695413619048513287,finish=1695413625089725383,duration=6041212096,event=apt_get_update[0Ktravis_time:start:070dd416[0Ktravis_time:end:070dd416:start=1695413625093836433,finish=1695413625096540288,duration=2703855,event=deprecate_xcode_64[0Ktravis_time:start:0146bb6c[0Ktravis_time:end:0146bb6c:start=1695413625100239839,finish=1695413628711711581,duration=3611471742,event=update_heroku[0Ktravis_time:start:155f638c[0Ktravis_time:end:155f638c:start=1695413628715700059,finish=1695413628718391077,duration=2691018,event=shell_session_update[0Ktravis_time:start:00010d10[0Ktravis_fold:start:docker_mtu_and_registry_mirrors[0Ktravis_fold:end:docker_mtu_and_registry_mirrors[0Ktravis_time:end:00010d10:start=1695413628722510312,finish=1695413630742700267,duration=2020189955,event=set_docker_mtu_and_registry_mirrors[0Ktravis_time:start:0074f610[0Ktravis_fold:start:resolvconf[0Ktravis_fold:end:resolvconf[0Ktravis_time:end:0074f610:start=1695413630750263599,finish=1695413630824945588,duration=74681989,event=resolvconf[0Ktravis_time:start:207b937c[0Ktravis_time:end:207b937c:start=1695413630828824822,finish=1695413631016425156,duration=187600334,event=maven_central_mirror[0Ktravis_time:start:2cd14820[0Ktravis_time:end:2cd14820:start=1695413631020613550,finish=1695413631125665431,duration=105051881,event=maven_https[0K[33;1m3.9 is not installed; attempting download[0m
 [33;1mDownloading archive: https://storage.googleapis.com/travis-ci-language-archives/python/binaries/ubuntu/22.04/x86_64/python-3.9.tar.bz2[0m
-travis_time:start:04fc904c[0K$ curl -sSf --retry 5 -o python-3.9.tar.bz2 ${archive_url}
-travis_time:end:04fc904c:start=1695411538444429849,finish=1695411539588216187,duration=1143786338,event=configure[0Ktravis_time:start:15d86708[0K$ sudo tar xjf python-3.9.tar.bz2 --directory /
-travis_time:end:15d86708:start=1695411539595223935,finish=1695411551080052485,duration=11484828550,event=configure[0Ktravis_time:start:06f87cb0[0Ktravis_time:end:06f87cb0:start=1695411551106949088,finish=1695411551110483885,duration=3534797,event=fix_ps4[0Ktravis_time:start:2852cd90[0K
-travis_fold:start:git.checkout[0Ktravis_time:start:03aa3ec8[0Ktravis_time:end:03aa3ec8:start=1695411551119471442,finish=1695411551126883591,duration=7412149,event=checkout[0Ktravis_time:start:0029baee[0K$ git clone --depth=50 --branch=4.3.2.1 https://github.com/noironetworks/acc-provision.git noironetworks/acc-provision
+travis_time:start:004086cc[0K$ curl -sSf --retry 5 -o python-3.9.tar.bz2 ${archive_url}
+travis_time:end:004086cc:start=1695413631201708327,finish=1695413631687497502,duration=485789175,event=configure[0Ktravis_time:start:16b495c2[0K$ sudo tar xjf python-3.9.tar.bz2 --directory /
+travis_time:end:16b495c2:start=1695413631693949781,finish=1695413643665143223,duration=11971193442,event=configure[0Ktravis_time:start:10efdb02[0Ktravis_time:end:10efdb02:start=1695413643690207101,finish=1695413643693259924,duration=3052823,event=fix_ps4[0Ktravis_time:start:026e214a[0K
+travis_fold:start:git.checkout[0Ktravis_time:start:102ba4d0[0Ktravis_time:end:102ba4d0:start=1695413643701708386,finish=1695413643709538067,duration=7829681,event=checkout[0Ktravis_time:start:01af43f0[0K$ git clone --depth=50 --branch=4.3.2.1 https://github.com/noironetworks/acc-provision.git noironetworks/acc-provision
 Cloning into 'noironetworks/acc-provision'...
 Note: switching to '1fcd5228ae93de3fe80763a23c71b909237e4f82'.
 
@@ -184,10 +184,10 @@ Or undo this operation with:
 
 Turn off this advice by setting config variable advice.detachedHead to false
 
-travis_time:end:0029baee:start=1695411551131036456,finish=1695411553893272098,duration=2762235642,event=checkout[0K$ cd noironetworks/acc-provision
+travis_time:end:01af43f0:start=1695413643714061969,finish=1695413646575996347,duration=2861934378,event=checkout[0K$ cd noironetworks/acc-provision
 $ git checkout -qf 4.3.2.1
 travis_fold:end:git.checkout[0K
-travis_time:end:0029baee:start=1695411551131036456,finish=1695411554145561575,duration=3014525119,event=checkout[0Ktravis_time:start:001322a4[0K
+travis_time:end:01af43f0:start=1695413643714061969,finish=1695413646823793856,duration=3109731887,event=checkout[0Ktravis_time:start:0ab0b5f0[0K
 [33;1mSetting environment variables from repository settings[0m
 $ export TRAVIS_TAGGER=[secure]
 $ export TEST_PYPI_USER=[secure]
@@ -199,30 +199,30 @@ $ export PYPI_USER=[secure]
 $ export DEFAULT_BRANCH=master
 $ export GOPROXY=https://proxy.golang.org,https://goproxy.io,direct
 
-travis_time:end:001322a4:start=1695411554152902271,finish=1695411554164194759,duration=11292488,event=env[0Ktravis_time:start:00d56a98[0K$ source ~/virtualenv/python3.9/bin/activate
-travis_time:end:00d56a98:start=1695411554170005319,finish=1695411554181525709,duration=11520390,event=[0K$ python --version
+travis_time:end:0ab0b5f0:start=1695413646828904085,finish=1695413646839951679,duration=11047594,event=env[0Ktravis_time:start:098334ab[0K$ source ~/virtualenv/python3.9/bin/activate
+travis_time:end:098334ab:start=1695413646846082960,finish=1695413646855698538,duration=9615578,event=[0K$ python --version
 Python 3.9.18
 $ pip --version
 pip 23.2.1 from /home/travis/virtualenv/python3.9.18/lib/python3.9/site-packages/pip (python 3.9)
 Could not locate requirements.txt. Override the install: key in your .travis.yml to install dependencies.
-travis_fold:start:before_script.1[0Ktravis_time:start:2e7b6884[0K$ export RELEASE_TAG=4.3.2.1
-travis_time:end:2e7b6884:start=1695411554857759643,finish=1695411554860934444,duration=3174801,event=before_script[0Ktravis_fold:end:before_script.1[0Ktravis_fold:start:before_script.2[0Ktravis_time:start:03127116[0K$ export UPSTREAM_ID=81c2369
-travis_time:end:03127116:start=1695411554866523591,finish=1695411554869884884,duration=3361293,event=before_script[0Ktravis_fold:end:before_script.2[0Ktravis_fold:start:before_script.3[0Ktravis_time:start:053ac460[0K$ export EXPECTED_TAG_PREFIX=${RELEASE_TAG}
-travis_time:end:053ac460:start=1695411554874534418,finish=1695411554879591946,duration=5057528,event=before_script[0Ktravis_fold:end:before_script.3[0Ktravis_fold:start:before_script.4[0Ktravis_time:start:25fd3b44[0K$ eval "$(GIMME_GO_VERSION=1.20.4 gimme)"
+travis_fold:start:before_script.1[0Ktravis_time:start:0f150cf0[0K$ export RELEASE_TAG=4.3.2.1
+travis_time:end:0f150cf0:start=1695413647519290803,finish=1695413647522226167,duration=2935364,event=before_script[0Ktravis_fold:end:before_script.1[0Ktravis_fold:start:before_script.2[0Ktravis_time:start:26c8d4f0[0K$ export UPSTREAM_ID=81c2369
+travis_time:end:26c8d4f0:start=1695413647526543486,finish=1695413647529478238,duration=2934752,event=before_script[0Ktravis_fold:end:before_script.2[0Ktravis_fold:start:before_script.3[0Ktravis_time:start:003ee77b[0K$ export EXPECTED_TAG_PREFIX=${RELEASE_TAG}
+travis_time:end:003ee77b:start=1695413647533847586,finish=1695413647536766137,duration=2918551,event=before_script[0Ktravis_fold:end:before_script.3[0Ktravis_fold:start:before_script.4[0Ktravis_time:start:01d60000[0K$ eval "$(GIMME_GO_VERSION=1.20.4 gimme)"
 go version go1.20.4 linux/amd64
-travis_time:end:25fd3b44:start=1695411554886999065,finish=1695411559032729468,duration=4145730403,event=before_script[0Ktravis_fold:end:before_script.4[0Ktravis_fold:start:before_script.5[0Ktravis_time:start:00a26310[0K$ export TRAVIS_GO_VERSION=1.20.4
-travis_time:end:00a26310:start=1695411559039627898,finish=1695411559042874430,duration=3246532,event=before_script[0Ktravis_fold:end:before_script.5[0Ktravis_fold:start:before_script.6[0Ktravis_time:start:0d82ad18[0K$ export TRAVIS_GO_IMPORT_PATH=github.com/noironetworks/aci-containers
-travis_time:end:0d82ad18:start=1695411559047495694,finish=1695411559050386223,duration=2890529,event=before_script[0Ktravis_fold:end:before_script.6[0Ktravis_fold:start:before_script.7[0Ktravis_time:start:0463bfd5[0K$ export TRAVIS_BUILD_USER="$(curl -s "https://api.travis-ci.com/v3/build/$TRAVIS_BUILD_ID" | jq -r .created_by.login)"
-travis_time:end:0463bfd5:start=1695411559054829281,finish=1695411559420493753,duration=365664472,event=before_script[0Ktravis_fold:end:before_script.7[0Ktravis_fold:start:before_script.8[0Ktravis_time:start:095e96e8[0K$ go version
+travis_time:end:01d60000:start=1695413647541204758,finish=1695413651921909237,duration=4380704479,event=before_script[0Ktravis_fold:end:before_script.4[0Ktravis_fold:start:before_script.5[0Ktravis_time:start:111d7290[0K$ export TRAVIS_GO_VERSION=1.20.4
+travis_time:end:111d7290:start=1695413651928565162,finish=1695413651931601850,duration=3036688,event=before_script[0Ktravis_fold:end:before_script.5[0Ktravis_fold:start:before_script.6[0Ktravis_time:start:259b614c[0K$ export TRAVIS_GO_IMPORT_PATH=github.com/noironetworks/aci-containers
+travis_time:end:259b614c:start=1695413651938137948,finish=1695413651944244741,duration=6106793,event=before_script[0Ktravis_fold:end:before_script.6[0Ktravis_fold:start:before_script.7[0Ktravis_time:start:0be55182[0K$ export TRAVIS_BUILD_USER="$(curl -s "https://api.travis-ci.com/v3/build/$TRAVIS_BUILD_ID" | jq -r .created_by.login)"
+travis_time:end:0be55182:start=1695413651949361106,finish=1695413652215680572,duration=266319466,event=before_script[0Ktravis_fold:end:before_script.7[0Ktravis_fold:start:before_script.8[0Ktravis_time:start:100f3c3e[0K$ go version
 go version go1.20.4 linux/amd64
-travis_time:end:095e96e8:start=1695411559425342399,finish=1695411559433661911,duration=8319512,event=before_script[0Ktravis_fold:end:before_script.8[0Ktravis_time:start:1653fc48[0K$ echo "Skip running UTs"
+travis_time:end:100f3c3e:start=1695413652221706745,finish=1695413652229998852,duration=8292107,event=before_script[0Ktravis_fold:end:before_script.8[0Ktravis_time:start:04d53474[0K$ echo "Skip running UTs"
 Skip running UTs
-travis_time:end:1653fc48:start=1695411559438287298,finish=1695411559441206767,duration=2919469,event=script[0K[32;1mThe command "echo "Skip running UTs"" exited with 0.[0m
-travis_time:start:268f60b8[0K$ git clone http://www.github.com/noironetworks/cicd -b abhi-add-rollback-test /tmp/cicd
+travis_time:end:04d53474:start=1695413652234861081,finish=1695413652237921210,duration=3060129,event=script[0K[32;1mThe command "echo "Skip running UTs"" exited with 0.[0m
+travis_time:start:04fb5832[0K$ git clone http://www.github.com/noironetworks/cicd -b abhi-add-rollback-test /tmp/cicd
 Cloning into '/tmp/cicd'...
 warning: redirecting to https://github.com/noironetworks/cicd.git/
-travis_time:end:268f60b8:start=1695411559445559964,finish=1695411560070402164,duration=624842200,event=script[0K[32;1mThe command "git clone http://www.github.com/noironetworks/cicd -b abhi-add-rollback-test /tmp/cicd" exited with 0.[0m
-travis_time:start:08bb4f31[0K$ pip install jq pyyaml pytz || travis_terminate 1
+travis_time:end:04fb5832:start=1695413652242366712,finish=1695413652901732134,duration=659365422,event=script[0K[32;1mThe command "git clone http://www.github.com/noironetworks/cicd -b abhi-add-rollback-test /tmp/cicd" exited with 0.[0m
+travis_time:start:19c6b2b2[0K$ pip install jq pyyaml pytz || travis_terminate 1
 Collecting jq
   Obtaining dependency information for jq from https://files.pythonhosted.org/packages/29/1f/2aecc08931ac01486d54b399c2ec9c2bf0de48a76f520ef67a041a09c3b0/jq-1.6.0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata
   Downloading jq-1.6.0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (6.8 kB)
@@ -237,8 +237,8 @@ Downloading PyYAML-6.0.1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.wh
 Downloading pytz-2023.3.post1-py2.py3-none-any.whl (502 kB)
 Installing collected packages: pytz, pyyaml, jq
 Successfully installed jq-1.6.0 pytz-2023.3.post1 pyyaml-6.0.1
-travis_time:end:08bb4f31:start=1695411560075690803,finish=1695411561845008024,duration=1769317221,event=script[0K[32;1mThe command "pip install jq pyyaml pytz || travis_terminate 1" exited with 0.[0m
-travis_time:start:0ebf6160[0K$ /tmp/cicd/travis/show-image-tags.sh || travis_terminate 1
+travis_time:end:19c6b2b2:start=1695413652910502158,finish=1695413654681582386,duration=1771080228,event=script[0K[32;1mThe command "pip install jq pyyaml pytz || travis_terminate 1" exited with 0.[0m
+travis_time:start:3d99507a[0K$ /tmp/cicd/travis/show-image-tags.sh || travis_terminate 1
 +++date +%m%d%y
 ++DATE_TAG=092223
 ++TRAVIS_TAG_WITH_UPSTREAM_ID=4.3.2.1.81c2369
@@ -257,9 +257,10 @@ travis_time:start:0ebf6160[0K$ /tmp/cicd/travis/show-image-tags.sh || travis_t
 +echo 'The tag 4.3.2.1.81c2369 will be replaced by the following tags:'
 The tag 4.3.2.1.81c2369 will be replaced by the following tags:
 +export UPSTREAM_IMAGE_Z_TAG
-++curl -L -s https://quay.io/api/v1/repository/noiro/acc-provision-operator/tag/
 ++jq -r ' . as $parent | ( .tags[] | select(.name==$ENV.UPSTREAM_IMAGE_Z_TAG) | .manifest_digest as $digest | ($parent.tags[] | select((.manifest_digest==$digest) and .name!=$ENV.UPSTREAM_IMAGE_Z_TAG) | .name ) )'
-+OTHER_TAG_FOR_Z_TAG='4.3.2.1.81c2369.092223.578
+++curl -L -s https://quay.io/api/v1/repository/noiro/acc-provision-operator/tag/
++OTHER_TAG_FOR_Z_TAG='4.3.2.1.81c2369.092223.583
+4.3.2.1.81c2369.092223.578
 4.3.2.1.81c2369.092223.578
 4.3.2.1.81c2369.092223.578
 4.3.2.1.81c2369.092223.578
@@ -272,8 +273,8 @@ The tag 4.3.2.1.81c2369 will be replaced by the following tags:
 4.3.2.1.81c2369.091423.568
 4.3.2.1.81c2369.091423.568
 4.3.2.1.81c2369.091423.568'
-+echo 'acc-provision-operator: 4.3.2.1.81c2369.092223.578' 4.3.2.1.81c2369.092223.578 4.3.2.1.81c2369.092223.578 4.3.2.1.81c2369.092223.578 4.3.2.1.81c2369.092223.578 4.3.2.1.81c2369.092223.578 4.3.2.1.81c2369.092123.578 4.3.2.1.81c2369.092123.578 4.3.2.1.81c2369.092023.578 4.3.2.1.81c2369.092023.578 4.3.2.1.81c2369.091423.568 4.3.2.1.81c2369.091423.568 4.3.2.1.81c2369.091423.568
-acc-provision-operator: 4.3.2.1.81c2369.092223.578 4.3.2.1.81c2369.092223.578 4.3.2.1.81c2369.092223.578 4.3.2.1.81c2369.092223.578 4.3.2.1.81c2369.092223.578 4.3.2.1.81c2369.092223.578 4.3.2.1.81c2369.092123.578 4.3.2.1.81c2369.092123.578 4.3.2.1.81c2369.092023.578 4.3.2.1.81c2369.092023.578 4.3.2.1.81c2369.091423.568 4.3.2.1.81c2369.091423.568 4.3.2.1.81c2369.091423.568
++echo 'acc-provision-operator: 4.3.2.1.81c2369.092223.583' 4.3.2.1.81c2369.092223.578 4.3.2.1.81c2369.092223.578 4.3.2.1.81c2369.092223.578 4.3.2.1.81c2369.092223.578 4.3.2.1.81c2369.092223.578 4.3.2.1.81c2369.092223.578 4.3.2.1.81c2369.092123.578 4.3.2.1.81c2369.092123.578 4.3.2.1.81c2369.092023.578 4.3.2.1.81c2369.092023.578 4.3.2.1.81c2369.091423.568 4.3.2.1.81c2369.091423.568 4.3.2.1.81c2369.091423.568
+acc-provision-operator: 4.3.2.1.81c2369.092223.583 4.3.2.1.81c2369.092223.578 4.3.2.1.81c2369.092223.578 4.3.2.1.81c2369.092223.578 4.3.2.1.81c2369.092223.578 4.3.2.1.81c2369.092223.578 4.3.2.1.81c2369.092223.578 4.3.2.1.81c2369.092123.578 4.3.2.1.81c2369.092123.578 4.3.2.1.81c2369.092023.578 4.3.2.1.81c2369.092023.578 4.3.2.1.81c2369.091423.568 4.3.2.1.81c2369.091423.568 4.3.2.1.81c2369.091423.568
 ++jq -r ' . as $parent | ( .tags[] | select(.name==$ENV.UPSTREAM_IMAGE_Z_TAG) | .manifest_digest as $digest | ($parent.tags[] | select((.manifest_digest==$digest) and .name!=$ENV.UPSTREAM_IMAGE_Z_TAG) | .name ) )'
 ++curl -L -s https://quay.io/api/v1/repository/noiro/aci-containers-controller/tag/
 +OTHER_TAG_FOR_Z_TAG='4.3.2.1.81c2369.092123.8012
@@ -284,8 +285,8 @@ acc-provision-operator: 4.3.2.1.81c2369.092223.578 4.3.2.1.81c2369.092223.578 4.
 4.3.2.1.81c2369.091223.7948'
 +echo 'aci-containers-controller: 4.3.2.1.81c2369.092123.8012' 4.3.2.1.81c2369.092023.8012 4.3.2.1.81c2369.092023.8012 4.3.2.1.81c2369.091423.7984 4.3.2.1.81c2369.091223.7948 4.3.2.1.81c2369.091223.7948
 aci-containers-controller: 4.3.2.1.81c2369.092123.8012 4.3.2.1.81c2369.092023.8012 4.3.2.1.81c2369.092023.8012 4.3.2.1.81c2369.091423.7984 4.3.2.1.81c2369.091223.7948 4.3.2.1.81c2369.091223.7948
-++curl -L -s https://quay.io/api/v1/repository/noiro/aci-containers-host/tag/
 ++jq -r ' . as $parent | ( .tags[] | select(.name==$ENV.UPSTREAM_IMAGE_Z_TAG) | .manifest_digest as $digest | ($parent.tags[] | select((.manifest_digest==$digest) and .name!=$ENV.UPSTREAM_IMAGE_Z_TAG) | .name ) )'
+++curl -L -s https://quay.io/api/v1/repository/noiro/aci-containers-host/tag/
 +OTHER_TAG_FOR_Z_TAG='4.3.2.1.81c2369.092123.8012
 4.3.2.1.81c2369.092023.8012
 4.3.2.1.81c2369.092023.8012
@@ -304,8 +305,8 @@ aci-containers-host: 4.3.2.1.81c2369.092123.8012 4.3.2.1.81c2369.092023.8012 4.3
 4.3.2.1.81c2369.091223.7948'
 +echo 'aci-containers-operator: 4.3.2.1.81c2369.092123.8012' 4.3.2.1.81c2369.092023.8012 4.3.2.1.81c2369.092023.8012 4.3.2.1.81c2369.091423.7984 4.3.2.1.81c2369.091223.7948 4.3.2.1.81c2369.091223.7948
 aci-containers-operator: 4.3.2.1.81c2369.092123.8012 4.3.2.1.81c2369.092023.8012 4.3.2.1.81c2369.092023.8012 4.3.2.1.81c2369.091423.7984 4.3.2.1.81c2369.091223.7948 4.3.2.1.81c2369.091223.7948
-++curl -L -s https://quay.io/api/v1/repository/noiro/cnideploy/tag/
 ++jq -r ' . as $parent | ( .tags[] | select(.name==$ENV.UPSTREAM_IMAGE_Z_TAG) | .manifest_digest as $digest | ($parent.tags[] | select((.manifest_digest==$digest) and .name!=$ENV.UPSTREAM_IMAGE_Z_TAG) | .name ) )'
+++curl -L -s https://quay.io/api/v1/repository/noiro/cnideploy/tag/
 +OTHER_TAG_FOR_Z_TAG='4.3.2.1.81c2369.092123.8012
 4.3.2.1.81c2369.092023.8012
 4.3.2.1.81c2369.092023.8012
@@ -331,8 +332,8 @@ openvswitch: 4.3.2.1.81c2369.092123.8012 4.3.2.1.81c2369.092023.8012 4.3.2.1.81c
 4.3.2.1.81c2369.092023.3057'
 +echo 'opflex: 4.3.2.1.81c2369.092123.3057' 4.3.2.1.81c2369.092023.3057 4.3.2.1.81c2369.092023.3057
 opflex: 4.3.2.1.81c2369.092123.3057 4.3.2.1.81c2369.092023.3057 4.3.2.1.81c2369.092023.3057
-travis_time:end:0ebf6160:start=1695411561854541252,finish=1695411564267262278,duration=2412721026,event=script[0K[32;1mThe command "/tmp/cicd/travis/show-image-tags.sh || travis_terminate 1" exited with 0.[0m
-travis_time:start:0b62c40a[0K$ /tmp/cicd/travis/check-git-tag.sh; RETURN_CODE=$? ; if [ $RETURN_CODE -eq 140 ]; then travis_terminate 0; elif [ $RETURN_CODE -ne 0 ]; then travis_terminate $RETURN_CODE; fi
+travis_time:end:3d99507a:start=1695413654686488311,finish=1695413657053788266,duration=2367299955,event=script[0K[32;1mThe command "/tmp/cicd/travis/show-image-tags.sh || travis_terminate 1" exited with 0.[0m
+travis_time:start:263129e8[0K$ /tmp/cicd/travis/check-git-tag.sh; RETURN_CODE=$? ; if [ $RETURN_CODE -eq 140 ]; then travis_terminate 0; elif [ $RETURN_CODE -ne 0 ]; then travis_terminate $RETURN_CODE; fi
 +git show --summary
 commit 1fcd5228ae93de3fe80763a23c71b909237e4f82
 Author: Abhishek Sharma <abhisheksharmay2k@gmail.com>
@@ -345,8 +346,8 @@ Date:   Tue Sep 19 19:53:01 2023 -0700
 ++git show -s --format=%B 4.3.2.1
 +tag_message=
 +[[ ! -z '' ]]
-travis_time:end:0b62c40a:start=1695411564273353679,finish=1695411564287414759,duration=14061080,event=script[0K[32;1mThe command "/tmp/cicd/travis/check-git-tag.sh; RETURN_CODE=$? ; if [ $RETURN_CODE -eq 140 ]; then travis_terminate 0; elif [ $RETURN_CODE -ne 0 ]; then travis_terminate $RETURN_CODE; fi" exited with 0.[0m
-travis_time:start:041db6be[0K$ pip install boto3 || travis_terminate 1
+travis_time:end:263129e8:start=1695413657060057575,finish=1695413657076933275,duration=16875700,event=script[0K[32;1mThe command "/tmp/cicd/travis/check-git-tag.sh; RETURN_CODE=$? ; if [ $RETURN_CODE -eq 140 ]; then travis_terminate 0; elif [ $RETURN_CODE -ne 0 ]; then travis_terminate $RETURN_CODE; fi" exited with 0.[0m
+travis_time:start:1184626c[0K$ pip install boto3 || travis_terminate 1
 Collecting boto3
   Obtaining dependency information for boto3 from https://files.pythonhosted.org/packages/fe/15/fa88dc3bf239fe047fcd9f7c1c38b655f533d453d4d6c3f72ab5b145d44d/boto3-1.28.53-py3-none-any.whl.metadata
   Downloading boto3-1.28.53-py3-none-any.whl.metadata (6.7 kB)
@@ -371,8 +372,8 @@ Downloading s3transfer-0.6.2-py3-none-any.whl (79 kB)
 Downloading urllib3-1.26.16-py2.py3-none-any.whl (143 kB)
 Installing collected packages: urllib3, six, jmespath, python-dateutil, botocore, s3transfer, boto3
 Successfully installed boto3-1.28.53 botocore-1.31.53 jmespath-1.0.1 python-dateutil-2.8.2 s3transfer-0.6.2 six-1.16.0 urllib3-1.26.16
-travis_time:end:041db6be:start=1695411564292265741,finish=1695411570106466832,duration=5814201091,event=script[0K[32;1mThe command "pip install boto3 || travis_terminate 1" exited with 0.[0m
-travis_time:start:07f31950[0K$ python provision/setup.py install || travis_terminate 1
+travis_time:end:1184626c:start=1695413657083013445,finish=1695413662972769520,duration=5889756075,event=script[0K[32;1mThe command "pip install boto3 || travis_terminate 1" exited with 0.[0m
+travis_time:start:22677633[0K$ python provision/setup.py install || travis_terminate 1
 running install
 /home/travis/virtualenv/python3.9.18/lib/python3.9/site-packages/setuptools/_distutils/cmd.py:66: SetuptoolsDeprecationWarning: setup.py install is deprecated.
 !!
@@ -691,8 +692,8 @@ Adding six 1.16.0 to easy-install.pth file
 
 Using /home/travis/virtualenv/python3.9.18/lib/python3.9/site-packages
 Finished processing dependencies for acc-provision==6.0.3.1
-travis_time:end:07f31950:start=1695411570111823567,finish=1695411573727910786,duration=3616087219,event=script[0K[32;1mThe command "python provision/setup.py install || travis_terminate 1" exited with 0.[0m
-travis_time:start:25d9f4de[0K$ git clone --depth=50 --branch=${RELEASE_TAG} https://github.com/noironetworks/aci-containers.git /tmp/noironetworks/aci-containers
+travis_time:end:22677633:start=1695413662978376584,finish=1695413666513453055,duration=3535076471,event=script[0K[32;1mThe command "python provision/setup.py install || travis_terminate 1" exited with 0.[0m
+travis_time:start:00ecca57[0K$ git clone --depth=50 --branch=${RELEASE_TAG} https://github.com/noironetworks/aci-containers.git /tmp/noironetworks/aci-containers
 Cloning into '/tmp/noironetworks/aci-containers'...
 Note: switching to 'e7ef9e42875d4861dc39606bd3c5677a7826020b'.
 
@@ -711,13 +712,13 @@ Or undo this operation with:
 
 Turn off this advice by setting config variable advice.detachedHead to false
 
-travis_time:end:25d9f4de:start=1695411573733272093,finish=1695411578064820221,duration=4331548128,event=script[0K[32;1mThe command "git clone --depth=50 --branch=${RELEASE_TAG} https://github.com/noironetworks/aci-containers.git /tmp/noironetworks/aci-containers" exited with 0.[0m
-travis_time:start:12149fe9[0K$ pushd /tmp/noironetworks/aci-containers
+travis_time:end:00ecca57:start=1695413666520072792,finish=1695413670626495321,duration=4106422529,event=script[0K[32;1mThe command "git clone --depth=50 --branch=${RELEASE_TAG} https://github.com/noironetworks/aci-containers.git /tmp/noironetworks/aci-containers" exited with 0.[0m
+travis_time:start:13eac140[0K$ pushd /tmp/noironetworks/aci-containers
 /tmp/noironetworks/aci-containers ~/build/noironetworks/acc-provision
-travis_time:end:12149fe9:start=1695411578069699951,finish=1695411578072475250,duration=2775299,event=script[0K[32;1mThe command "pushd /tmp/noironetworks/aci-containers" exited with 0.[0m
-travis_time:start:08453c42[0K$ git checkout -qf ${TRAVIS_TAG}
-travis_time:end:08453c42:start=1695411578076532230,finish=1695411578166076533,duration=89544303,event=script[0K[32;1mThe command "git checkout -qf ${TRAVIS_TAG}" exited with 0.[0m
-travis_time:start:11514b90[0K$ /tmp/cicd/travis/show-git-repo-status.sh
+travis_time:end:13eac140:start=1695413670633312521,finish=1695413670637373970,duration=4061449,event=script[0K[32;1mThe command "pushd /tmp/noironetworks/aci-containers" exited with 0.[0m
+travis_time:start:00510766[0K$ git checkout -qf ${TRAVIS_TAG}
+travis_time:end:00510766:start=1695413670642686310,finish=1695413671357576545,duration=714890235,event=script[0K[32;1mThe command "git checkout -qf ${TRAVIS_TAG}" exited with 0.[0m
+travis_time:start:016f2d9e[0K$ /tmp/cicd/travis/show-git-repo-status.sh
 +git show --summary
 commit e7ef9e42875d4861dc39606bd3c5677a7826020b
 Author: Abhishek Sharma <abhisheksharmay2k@gmail.com>
@@ -732,25 +733,25 @@ nothing to commit, working tree clean
 * (no branch)
 +git tag --points-at HEAD
 4.3.2.1
-travis_time:end:11514b90:start=1695411578171968380,finish=1695411578267097486,duration=95129106,event=script[0K[32;1mThe command "/tmp/cicd/travis/show-git-repo-status.sh" exited with 0.[0m
-travis_time:start:0a3ae5a2[0K$ make -C . dist-static/acikubectl || travis_terminate 1
+travis_time:end:016f2d9e:start=1695413671363153327,finish=1695413671428787776,duration=65634449,event=script[0K[32;1mThe command "/tmp/cicd/travis/show-git-repo-status.sh" exited with 0.[0m
+travis_time:start:0cfff341[0K$ make -C . dist-static/acikubectl || travis_terminate 1
 make: Entering directory '/tmp/noironetworks/aci-containers'
-CGO_ENABLED=0 GOOS=linux go build -v -trimpath -ldflags=" -X github.com/noironetworks/aci-containers/pkg/controller.buildTime=09-22-2023.19:39:38.UTC -X github.com/noironetworks/aci-containers/pkg/controller.gitCommit=e7ef9e42875d4861dc39606bd3c5677a7826020b -X github.com/noironetworks/aci-containers/pkg/gbpserver.buildTime=09-22-2023.19:39:38.UTC -X github.com/noironetworks/aci-containers/pkg/gbpserver.gitCommit=e7ef9e42875d4861dc39606bd3c5677a7826020b -X github.com/noironetworks/aci-containers/pkg/hostagent.buildTime=09-22-2023.19:39:38.UTC -X github.com/noironetworks/aci-containers/pkg/hostagent.gitCommit=e7ef9e42875d4861dc39606bd3c5677a7826020b -X github.com/noironetworks/aci-containers/pkg/acicontainersoperator.buildTime=09-22-2023.19:39:38.UTC -X github.com/noironetworks/aci-containers/pkg/acicontainersoperator.gitCommit=e7ef9e42875d4861dc39606bd3c5677a7826020b -s -w" -a -installsuffix cgo -o dist-static/acikubectl github.com/noironetworks/aci-containers/cmd/acikubectl
-internal/unsafeheader
+CGO_ENABLED=0 GOOS=linux go build -v -trimpath -ldflags=" -X github.com/noironetworks/aci-containers/pkg/controller.buildTime=09-22-2023.20:14:31.UTC -X github.com/noironetworks/aci-containers/pkg/controller.gitCommit=e7ef9e42875d4861dc39606bd3c5677a7826020b -X github.com/noironetworks/aci-containers/pkg/gbpserver.buildTime=09-22-2023.20:14:31.UTC -X github.com/noironetworks/aci-containers/pkg/gbpserver.gitCommit=e7ef9e42875d4861dc39606bd3c5677a7826020b -X github.com/noironetworks/aci-containers/pkg/hostagent.buildTime=09-22-2023.20:14:31.UTC -X github.com/noironetworks/aci-containers/pkg/hostagent.gitCommit=e7ef9e42875d4861dc39606bd3c5677a7826020b -X github.com/noironetworks/aci-containers/pkg/acicontainersoperator.buildTime=09-22-2023.20:14:31.UTC -X github.com/noironetworks/aci-containers/pkg/acicontainersoperator.gitCommit=e7ef9e42875d4861dc39606bd3c5677a7826020b -s -w" -a -installsuffix cgo -o dist-static/acikubectl github.com/noironetworks/aci-containers/cmd/acikubectl
 internal/goarch
-internal/abi
+internal/unsafeheader
 internal/cpu
+internal/abi
 internal/coverage/rtcov
 internal/goexperiment
-internal/bytealg
 internal/goos
+internal/bytealg
 runtime/internal/atomic
 runtime/internal/math
 runtime/internal/sys
 runtime/internal/syscall
 internal/race
-sync/atomic
 runtime
+sync/atomic
 unicode
 unicode/utf8
 internal/itoa
@@ -780,8 +781,6 @@ internal/godebug
 math/rand
 internal/singleflight
 internal/intern
-github.com/spf13/viper/internal/encoding
-k8s.io/klog/v2/internal/dbg
 errors
 sort
 io
@@ -793,12 +792,12 @@ reflect
 internal/syscall/unix
 time
 internal/poll
-internal/fmtsort
 internal/safefilepath
 internal/syscall/execenv
 path
-strings
+internal/fmtsort
 io/fs
+strings
 os
 bufio
 encoding/binary
@@ -806,37 +805,37 @@ fmt
 path/filepath
 hash
 hash/crc32
+os/user
+compress/flate
+archive/tar
+compress/gzip
 context
 encoding/base64
-vendor/golang.org/x/net/dns/dnsmessage
-os/user
-archive/tar
-compress/flate
-encoding/json
-compress/gzip
 math/big
+encoding/json
+vendor/golang.org/x/net/dns/dnsmessage
 net/netip
-net
 encoding/csv
 encoding/hex
 flag
+net
 net/url
 text/template/parse
 text/template
+golang.org/x/sys/unix
 github.com/noironetworks/aci-containers/pkg/ipam
 github.com/noironetworks/aci-containers/pkg/metadata
 github.com/spf13/pflag
-golang.org/x/sys/unix
 github.com/spf13/cobra
+github.com/fsnotify/fsnotify
 github.com/mitchellh/mapstructure
 github.com/spf13/afero/internal/common
-github.com/fsnotify/fsnotify
 github.com/spf13/afero/mem
 golang.org/x/text/transform
 log
-crypto
 golang.org/x/text/runes
 golang.org/x/text/unicode/norm
+crypto
 crypto/cipher
 crypto/internal/boring
 crypto/internal/randutil
@@ -854,10 +853,10 @@ vendor/golang.org/x/crypto/cryptobyte
 crypto/internal/nistec
 crypto/internal/edwards25519
 crypto/ed25519
-crypto/ecdh
-crypto/elliptic
 crypto/hmac
 crypto/md5
+crypto/ecdh
+crypto/elliptic
 crypto/rc4
 crypto/rsa
 crypto/ecdsa
@@ -875,9 +874,9 @@ vendor/golang.org/x/crypto/chacha20poly1305
 vendor/golang.org/x/crypto/hkdf
 vendor/golang.org/x/text/transform
 vendor/golang.org/x/text/unicode/bidi
-crypto/tls
 vendor/golang.org/x/text/secure/bidirule
 vendor/golang.org/x/text/unicode/norm
+crypto/tls
 vendor/golang.org/x/net/idna
 net/textproto
 vendor/golang.org/x/net/http/httpguts
@@ -885,17 +884,18 @@ vendor/golang.org/x/net/http/httpproxy
 vendor/golang.org/x/net/http2/hpack
 mime
 mime/quotedprintable
-net/http/httptrace
+mime/multipart
 net/http/internal
 net/http/internal/ascii
-mime/multipart
 regexp/syntax
+net/http/httptrace
 net/http
 regexp
 html
 html/template
 github.com/spf13/cast
 github.com/spf13/jwalterweatherman
+github.com/spf13/viper/internal/encoding
 github.com/subosito/gotenv
 github.com/spf13/viper/internal/encoding/dotenv
 github.com/hashicorp/hcl/hcl/strconv
@@ -932,29 +932,30 @@ github.com/google/gofuzz
 k8s.io/apimachinery/third_party/forked/golang/reflect
 k8s.io/apimachinery/pkg/conversion
 k8s.io/apimachinery/pkg/fields
-k8s.io/apimachinery/pkg/util/sets
 k8s.io/apimachinery/pkg/api/resource
+k8s.io/apimachinery/pkg/util/sets
 k8s.io/utils/internal/third_party/forked/golang/net
 k8s.io/utils/net
 github.com/go-logr/logr
-k8s.io/apimachinery/pkg/util/errors
 k8s.io/klog/v2/internal/severity
 k8s.io/klog/v2/internal/buffer
 k8s.io/klog/v2/internal/clock
-k8s.io/apimachinery/pkg/util/validation/field
+k8s.io/klog/v2/internal/dbg
 k8s.io/klog/v2/internal/serialize
 k8s.io/klog/v2
-k8s.io/apimachinery/pkg/util/validation
+k8s.io/apimachinery/pkg/util/errors
+k8s.io/apimachinery/pkg/util/validation/field
 go/token
+k8s.io/apimachinery/pkg/util/validation
 go/scanner
 k8s.io/apimachinery/pkg/labels
 go/ast
 go/doc/comment
 internal/lazyregexp
-go/internal/typeparams
-go/doc
-go/parser
 k8s.io/apimachinery/pkg/conversion/queryparams
+go/doc
+go/internal/typeparams
+go/parser
 k8s.io/apimachinery/pkg/runtime/schema
 sigs.k8s.io/json/internal/golang/encoding/json
 runtime/debug
@@ -970,21 +971,21 @@ k8s.io/apimachinery/pkg/util/intstr
 golang.org/x/text/unicode/bidi
 golang.org/x/text/secure/bidirule
 golang.org/x/net/idna
+sigs.k8s.io/structured-merge-diff/v4/value
 golang.org/x/net/http/httpguts
 golang.org/x/net/http2/hpack
 golang.org/x/net/http2
-sigs.k8s.io/structured-merge-diff/v4/value
 k8s.io/apimachinery/pkg/runtime
 hash/fnv
-k8s.io/apimachinery/pkg/util/net
 google.golang.org/protobuf/internal/detrand
 google.golang.org/protobuf/internal/errors
 google.golang.org/protobuf/encoding/protowire
 google.golang.org/protobuf/internal/pragma
 google.golang.org/protobuf/reflect/protoreflect
+k8s.io/apimachinery/pkg/util/net
 k8s.io/apimachinery/pkg/watch
-k8s.io/apimachinery/pkg/apis/meta/v1
 google.golang.org/protobuf/internal/encoding/messageset
+k8s.io/apimachinery/pkg/apis/meta/v1
 google.golang.org/protobuf/internal/strs
 google.golang.org/protobuf/internal/encoding/text
 google.golang.org/protobuf/internal/genid
@@ -1103,8 +1104,8 @@ k8s.io/client-go/util/keyutil
 k8s.io/client-go/util/workqueue
 k8s.io/client-go/util/cert
 k8s.io/utils/clock/testing
-k8s.io/client-go/util/flowcontrol
 k8s.io/client-go/transport
+k8s.io/client-go/util/flowcontrol
 github.com/google/gnostic/openapiv3
 k8s.io/client-go/plugin/pkg/client/auth/exec
 k8s.io/client-go/rest
@@ -1128,8 +1129,8 @@ github.com/go-openapi/jsonreference
 github.com/google/go-cmp/cmp/internal/diff
 github.com/google/go-cmp/cmp/internal/function
 github.com/google/go-cmp/cmp/internal/value
-encoding/base32
 github.com/google/go-cmp/cmp
+encoding/base32
 k8s.io/kube-openapi/pkg/internal/third_party/go-json-experiment/json
 k8s.io/apimachinery/pkg/api/meta
 k8s.io/apimachinery/pkg/api/equality
@@ -1143,7 +1144,6 @@ sigs.k8s.io/structured-merge-diff/v4/fieldpath
 sigs.k8s.io/structured-merge-diff/v4/typed
 sigs.k8s.io/structured-merge-diff/v4/merge
 k8s.io/client-go/applyconfigurations/internal
-k8s.io/client-go/kubernetes/typed/authentication/v1
 k8s.io/kube-openapi/pkg/schemamutation
 k8s.io/kube-openapi/pkg/spec3
 k8s.io/kube-openapi/pkg/builder3/util
@@ -1151,17 +1151,18 @@ k8s.io/kube-openapi/pkg/schemaconv
 k8s.io/apimachinery/pkg/util/managedfields/internal
 k8s.io/kube-openapi/pkg/openapiconv
 k8s.io/kube-openapi/pkg/common
-k8s.io/kube-openapi/pkg/handler3
 k8s.io/apimachinery/pkg/util/managedfields
+k8s.io/kube-openapi/pkg/handler3
+k8s.io/client-go/kubernetes/typed/authentication/v1
 k8s.io/client-go/kubernetes/typed/authentication/v1alpha1
 k8s.io/client-go/kubernetes/typed/authentication/v1beta1
 k8s.io/client-go/openapi
 k8s.io/client-go/discovery
 k8s.io/client-go/kubernetes/typed/authorization/v1
 k8s.io/client-go/kubernetes/typed/authorization/v1beta1
+k8s.io/client-go/applyconfigurations/meta/v1
 k8s.io/client-go/tools/reference
 github.com/imdario/mergo
-k8s.io/client-go/applyconfigurations/meta/v1
 k8s.io/client-go/applyconfigurations/admissionregistration/v1
 k8s.io/client-go/applyconfigurations/apiserverinternal/v1alpha1
 k8s.io/client-go/kubernetes/typed/apiserverinternal/v1alpha1
@@ -1183,6 +1184,7 @@ k8s.io/client-go/applyconfigurations/certificates/v1
 k8s.io/client-go/kubernetes/typed/certificates/v1
 k8s.io/client-go/applyconfigurations/certificates/v1alpha1
 k8s.io/client-go/kubernetes/typed/certificates/v1alpha1
+k8s.io/client-go/applyconfigurations/certificates/v1beta1
 k8s.io/client-go/applyconfigurations/apps/v1
 k8s.io/client-go/applyconfigurations/apps/v1beta1
 k8s.io/client-go/kubernetes/typed/apps/v1beta1
@@ -1192,14 +1194,13 @@ k8s.io/client-go/applyconfigurations/batch/v1
 k8s.io/client-go/kubernetes/typed/apps/v1beta2
 k8s.io/client-go/kubernetes/typed/batch/v1
 k8s.io/client-go/applyconfigurations/batch/v1beta1
-k8s.io/client-go/applyconfigurations/certificates/v1beta1
-k8s.io/client-go/kubernetes/typed/batch/v1beta1
 k8s.io/client-go/kubernetes/typed/certificates/v1beta1
+k8s.io/client-go/kubernetes/typed/batch/v1beta1
 k8s.io/client-go/applyconfigurations/coordination/v1
-k8s.io/client-go/applyconfigurations/coordination/v1beta1
 k8s.io/client-go/kubernetes/typed/coordination/v1
-k8s.io/client-go/kubernetes/typed/coordination/v1beta1
+k8s.io/client-go/applyconfigurations/coordination/v1beta1
 k8s.io/client-go/kubernetes/typed/core/v1
+k8s.io/client-go/kubernetes/typed/coordination/v1beta1
 k8s.io/client-go/applyconfigurations/discovery/v1
 k8s.io/client-go/kubernetes/typed/discovery/v1
 k8s.io/client-go/applyconfigurations/discovery/v1beta1
@@ -1207,18 +1208,18 @@ k8s.io/client-go/kubernetes/typed/discovery/v1beta1
 k8s.io/client-go/applyconfigurations/events/v1
 k8s.io/client-go/kubernetes/typed/events/v1
 k8s.io/client-go/applyconfigurations/events/v1beta1
-k8s.io/client-go/applyconfigurations/extensions/v1beta1
 k8s.io/client-go/kubernetes/typed/events/v1beta1
 k8s.io/client-go/applyconfigurations/flowcontrol/v1alpha1
+k8s.io/client-go/applyconfigurations/extensions/v1beta1
 k8s.io/client-go/kubernetes/typed/flowcontrol/v1alpha1
-k8s.io/client-go/kubernetes/typed/extensions/v1beta1
 k8s.io/client-go/applyconfigurations/flowcontrol/v1beta1
+k8s.io/client-go/kubernetes/typed/extensions/v1beta1
 k8s.io/client-go/kubernetes/typed/flowcontrol/v1beta1
 k8s.io/client-go/applyconfigurations/flowcontrol/v1beta2
-k8s.io/client-go/applyconfigurations/flowcontrol/v1beta3
 k8s.io/client-go/kubernetes/typed/flowcontrol/v1beta2
-k8s.io/client-go/kubernetes/typed/flowcontrol/v1beta3
+k8s.io/client-go/applyconfigurations/flowcontrol/v1beta3
 k8s.io/client-go/applyconfigurations/networking/v1
+k8s.io/client-go/kubernetes/typed/flowcontrol/v1beta3
 k8s.io/client-go/applyconfigurations/networking/v1alpha1
 k8s.io/client-go/kubernetes/typed/networking/v1
 k8s.io/client-go/kubernetes/typed/networking/v1alpha1
@@ -1229,8 +1230,8 @@ k8s.io/client-go/kubernetes/typed/networking/v1beta1
 k8s.io/client-go/applyconfigurations/node/v1alpha1
 k8s.io/client-go/applyconfigurations/node/v1beta1
 k8s.io/client-go/kubernetes/typed/node/v1alpha1
-k8s.io/client-go/kubernetes/typed/node/v1beta1
 k8s.io/client-go/applyconfigurations/policy/v1
+k8s.io/client-go/kubernetes/typed/node/v1beta1
 k8s.io/client-go/applyconfigurations/policy/v1beta1
 k8s.io/client-go/kubernetes/typed/policy/v1
 k8s.io/client-go/applyconfigurations/rbac/v1
@@ -1263,13 +1264,13 @@ k8s.io/client-go/kubernetes
 github.com/noironetworks/aci-containers/cmd/acikubectl/cmd
 github.com/noironetworks/aci-containers/cmd/acikubectl
 make: Leaving directory '/tmp/noironetworks/aci-containers'
-travis_time:end:0a3ae5a2:start=1695411578273406238,finish=1695411666212066801,duration=87938660563,event=script[0K[32;1mThe command "make -C . dist-static/acikubectl || travis_terminate 1" exited with 0.[0m
-travis_time:start:017c4a70[0K$ popd
+travis_time:end:0cfff341:start=1695413671434441899,finish=1695413760943793025,duration=89509351126,event=script[0K[32;1mThe command "make -C . dist-static/acikubectl || travis_terminate 1" exited with 0.[0m
+travis_time:start:029a0f78[0K$ popd
 ~/build/noironetworks/acc-provision
-travis_time:end:017c4a70:start=1695411666219873560,finish=1695411666223772312,duration=3898752,event=script[0K[32;1mThe command "popd" exited with 0.[0m
-travis_time:start:08de71a7[0K$ cp /tmp/noironetworks/aci-containers/dist-static/acikubectl provision/bin/acikubectl || travis_terminate 1
-travis_time:end:08de71a7:start=1695411666228482607,finish=1695411666379481912,duration=150999305,event=script[0K[32;1mThe command "cp /tmp/noironetworks/aci-containers/dist-static/acikubectl provision/bin/acikubectl || travis_terminate 1" exited with 0.[0m
-travis_time:start:0e87ee70[0K$ /tmp/cicd/travis/build-acc-provision.sh || travis_terminate 1
+travis_time:end:029a0f78:start=1695413760949127819,finish=1695413760952329843,duration=3202024,event=script[0K[32;1mThe command "popd" exited with 0.[0m
+travis_time:start:055a9ae4[0K$ cp /tmp/noironetworks/aci-containers/dist-static/acikubectl provision/bin/acikubectl || travis_terminate 1
+travis_time:end:055a9ae4:start=1695413760957191837,finish=1695413761112069356,duration=154877519,event=script[0K[32;1mThe command "cp /tmp/noironetworks/aci-containers/dist-static/acikubectl provision/bin/acikubectl || travis_terminate 1" exited with 0.[0m
+travis_time:start:00d5086d[0K$ /tmp/cicd/travis/build-acc-provision.sh || travis_terminate 1
 ++dirname /tmp/cicd/travis/build-acc-provision.sh
 +SCRIPTS_DIR=/tmp/cicd/travis
 +source /tmp/cicd/travis/globals.sh
@@ -1301,14 +1302,14 @@ Travis tag matches release tag 4.3.2.1, preserving image tags in versions.yaml
 +grep 4.3.2.1
 +cat acc_provision/versions.yaml
 +exit 0
-travis_time:end:0e87ee70:start=1695411666384712857,finish=1695411666606906709,duration=222193852,event=script[0K[32;1mThe command "/tmp/cicd/travis/build-acc-provision.sh || travis_terminate 1" exited with 0.[0m
-travis_time:start:037ffa10[0K$ git add --all
-travis_time:end:037ffa10:start=1695411666612379101,finish=1695411667452433741,duration=840054640,event=script[0K[32;1mThe command "git add --all" exited with 0.[0m
-travis_time:start:03bab5e3[0K$ git commit -m "Changes added by travis build"
-[detached HEAD f460114] Changes added by travis build
+travis_time:end:00d5086d:start=1695413761119110735,finish=1695413761335685821,duration=216575086,event=script[0K[32;1mThe command "/tmp/cicd/travis/build-acc-provision.sh || travis_terminate 1" exited with 0.[0m
+travis_time:start:20b7686e[0K$ git add --all
+travis_time:end:20b7686e:start=1695413761341578832,finish=1695413762300499929,duration=958921097,event=script[0K[32;1mThe command "git add --all" exited with 0.[0m
+travis_time:start:033d379a[0K$ git commit -m "Changes added by travis build"
+[detached HEAD b63b538] Changes added by travis build
  2 files changed, 1 insertion(+), 1 deletion(-)
-travis_time:end:03bab5e3:start=1695411667460486305,finish=1695411667475186010,duration=14699705,event=script[0K[32;1mThe command "git commit -m "Changes added by travis build"" exited with 0.[0m
-travis_time:start:27205c8c[0K$ pip install -U twine
+travis_time:end:033d379a:start=1695413762306069333,finish=1695413762324326180,duration=18256847,event=script[0K[32;1mThe command "git commit -m "Changes added by travis build"" exited with 0.[0m
+travis_time:start:2e642dc6[0K$ pip install -U twine
 Collecting twine
   Downloading twine-4.0.2-py3-none-any.whl (36 kB)
 Collecting pkginfo>=1.8.1 (from twine)
@@ -1376,9 +1377,40 @@ Downloading zipp-3.17.0-py3-none-any.whl (7.4 kB)
 Downloading jaraco.classes-3.3.0-py3-none-any.whl (5.9 kB)
 Downloading more_itertools-10.1.0-py3-none-any.whl (55 kB)
 Installing collected packages: nh3, zipp, rfc3986, Pygments, pkginfo, more-itertools, mdurl, jeepney, docutils, requests-toolbelt, readme-renderer, markdown-it-py, jaraco.classes, importlib-metadata, SecretStorage, rich, keyring, twine
-ironetworks/acc-provision
+Successfully installed Pygments-2.16.1 SecretStorage-3.3.3 docutils-0.20.1 importlib-metadata-6.8.0 jaraco.classes-3.3.0 jeepney-0.8.0 keyring-24.2.0 markdown-it-py-3.0.0 mdurl-0.1.2 more-itertools-10.1.0 nh3-0.2.14 pkginfo-1.9.6 readme-renderer-42.0 requests-toolbelt-1.0.0 rfc3986-2.0.0 rich-13.5.3 twine-4.0.2 zipp-3.17.0
+travis_time:end:2e642dc6:start=1695413762329269984,finish=1695413767344649388,duration=5015379404,event=script[0K[32;1mThe command "pip install -U twine" exited with 0.[0m
+travis_time:start:08152396[0K$ /tmp/cicd/travis/push-to-pypi.sh
+++dirname /tmp/cicd/travis/push-to-pypi.sh
++SCRIPTS_DIR=/tmp/cicd/travis
++source /tmp/cicd/travis/globals.sh
+++set -x
++++date +%m%d%y
+++DATE_TAG=092223
+++TRAVIS_TAG_WITH_UPSTREAM_ID=4.3.2.1.81c2369
+++TRAVIS_TAG_WITH_UPSTREAM_ID_DATE_TRAVIS_BUILD_NUMBER=4.3.2.1.81c2369.092223.8172
+++IMAGE_TAG=4.3.2.1.81c2369
+++UPSTREAM_IMAGE_TAG=4.3.2.1.81c2369
+++UPSTREAM_IMAGE_Z_TAG=4.3.2.1.81c2369.z
+++IMAGE_Z_TAG=4.3.2.1.81c2369.z
+++RELEASE_Z_TAG=4.3.2.1.z
+++RC_PREFIX=4.3.2.1rc
+++RC_REGEX='4.3.2.1rc[0-9]+'
+++QUAY_REGISTRY=quay.io/noirolabs
+++QUAY_NOIRO_REGISTRY=quay.io/noiro
+++DOCKER_REGISTRY=docker.io/noiro
+++CICD_STATUS_REPO=https://github.com/noironetworks/test-cicd-status.git
++TEST_PYPI_RELEASE_HINT='release to test.pypi.org'
++PYPI_RELEASE_HINT='release to pypi.org'
+++grep -i 'release to test.pypi.org'
+++git show -s --format=%B 4.3.2.1
++TEST_PYPI_RELEASE=
+++grep -i 'release to pypi.org'
+++git show -s --format=%B 4.3.2.1
++PYPI_RELEASE='Testing release to pypi.org for git history'
++pushd provision
+~/build/noironetworks/acc-provision/provision ~/build/noironetworks/acc-provision
 +python setup.py --description
-Tool to provision ACI for ACI Containers Controller  Build info: Git commit ID: f4601140a814831126c0e9abeb4713080ea96ae2 Build time: 09-22-2023.19:41:12.UTC 
+Tool to provision ACI for ACI Containers Controller  Build info: Git commit ID: b63b538aab45c924ffd92587773e1bb5ef099613 Build time: 09-22-2023.20:16:07.UTC 
 +WHEEL_NAME=acc_provision-4.3.2.1.tar.gz
 +TAG_NAME=acc_provision-4.3.2.1
 +DEV_WHEEL_NAME=acc_provision-4.3.2.1.dev8172.tar.gz
