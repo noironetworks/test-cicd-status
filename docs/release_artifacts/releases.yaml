@@ -204,25 +204,25 @@ releases:
           U: 3
         sha: 0fb346fdc395bcf5be4154628a7b3fe8e193a0c2fcee51824e44f11551331f8a
       build-logs: release_artifacts/4.3.2.1/z/acc-provision-operator/4.3.2.1-buildlog.txt
-      build-time: 2023-09-28 11:46:21 PDT
+      build-time: 2023-09-28 12:00:50 PDT
       commit:
       - link: https://github.com/noironetworks/acc-provision-operator/commit/94a17567c8746f6635be93e7a5bf53045a1eb85a
         sha: 94a17567c8746f6635be93e7a5bf53045a1eb85a
       cve: release_artifacts/4.3.2.1/z/acc-provision-operator/4.3.2.1-cve.txt
       docker:
-      - link: https://hub.docker.com/layers/noiro/acc-provision-operator/4.3.2.1.81c2369.z/images/sha256-f992a5209276ca99b80877fddb1da2e4676fef3e6e29836ac4c470eacb2efde6?context=explore
-        sha: f992a5209276ca99b80877fddb1da2e4676fef3e6e29836ac4c470eacb2efde6
+      - link: https://hub.docker.com/layers/noiro/acc-provision-operator/4.3.2.1.81c2369.z/images/sha256-c2a2ca8795847dc906da4bbe9793f42c7411be2771126a705555aee3f530e8c4?context=explore
+        sha: c2a2ca8795847dc906da4bbe9793f42c7411be2771126a705555aee3f530e8c4
         tag: 4.3.2.1.81c2369.z
-      - link: https://hub.docker.com/layers/noiro/acc-provision-operator/4.3.2.1.81c2369.092823.592/images/sha256-f992a5209276ca99b80877fddb1da2e4676fef3e6e29836ac4c470eacb2efde6?context=explore
-        sha: f992a5209276ca99b80877fddb1da2e4676fef3e6e29836ac4c470eacb2efde6
+      - link: https://hub.docker.com/layers/noiro/acc-provision-operator/4.3.2.1.81c2369.092823.592/images/sha256-c2a2ca8795847dc906da4bbe9793f42c7411be2771126a705555aee3f530e8c4?context=explore
+        sha: c2a2ca8795847dc906da4bbe9793f42c7411be2771126a705555aee3f530e8c4
         tag: 4.3.2.1.81c2369.092823.592
       name: acc-provision-operator
       quay:
       - link: https://quay.io/noiro/acc-provision-operator:4.3.2.1.81c2369.z
-        sha: 373b87120ceabb779319582fe99589a73a4085cf80d80afa9b12676e5f27f74e
+        sha: af911c5f08c4aa571cd19bb246c25d6556a0cf813bfb060ab9140daef5f8d1e6
         tag: 4.3.2.1.81c2369.z
       - link: https://quay.io/noiro/acc-provision-operator:4.3.2.1.81c2369.092823.592
-        sha: 373b87120ceabb779319582fe99589a73a4085cf80d80afa9b12676e5f27f74e
+        sha: af911c5f08c4aa571cd19bb246c25d6556a0cf813bfb060ab9140daef5f8d1e6
         tag: 4.3.2.1.81c2369.092823.592
       sbom: release_artifacts/4.3.2.1/z/acc-provision-operator/4.3.2.1-sbom.txt
       severity:
@@ -268,7 +268,7 @@ releases:
         L: 0
         M: 4
         U: 0
-    last_updated: 2023-09-28 11:46:21 PDT
+    last_updated: 2023-09-28 12:00:50 PDT
     release_name: 4.3.2.1.z
   - acc_provision:
     - build-logs: release_artifacts/4.3.2.1/r/acc-provision/4.3.2.1-buildlog.txt
