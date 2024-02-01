@@ -182,3 +182,13 @@ td {
 .cve-u {
   color: rgb(132, 131, 132);
 }
+
+.severity_type_grype {
+  padding: 5px;
+  background-color: rgb(247, 247, 132);
+}
+
+.severity_type_quay {
+  padding: 5px;
+  background-color: rgb(125, 231, 125);
+}

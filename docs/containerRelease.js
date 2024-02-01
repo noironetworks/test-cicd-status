@@ -2,28 +2,30 @@ fetch('release_artifacts/releases.yaml')
   .then(response => response.text())
   .then(data => {
     const parsedData = jsyaml.load(data);
-    console.log("Parsed YAML file 'release_artifacts/releases.yaml':", parsedData);
 
     const releaseTable = document.querySelector('#container-release-table');
     const tableBody = releaseTable.querySelector('tbody');
     const urlParams = new URLSearchParams(window.location.search);
     const releaseName = urlParams.get('release');
     const releaseTag = releaseName.replace(/(\.z|.rc[0-9]+)$/, '');
+    var accProcOpRow = document.createElement('tr');
 
-    console.log("releaseTag", releaseTag);
     for (const releaseData of parsedData.releases) {
       if (releaseData.release_tag === releaseTag) {
-        console.log("log", releaseData.release_tag);
         for (const releaseStream of releaseData.release_streams) {
           if (releaseStream.release_name === releaseName) {
-            console.log("log", releaseStream);
             if (releaseName === releaseTag) {
               if (releaseStream.released === false) {
                 const releaseRow = document.createElement('tr');
                 const releaseNameCell = document.createElement('td');
                 const releaseLink = document.createElement('a');
                 releaseLink.href = `release.html?release=${encodeURIComponent(releaseName+'.z')}`;
-                releaseLink.textContent = "This release is not yet available, check out the z-streams for the latest release.";
+                releaseLink.textContent = "The final release for this version is not yet available, check out the z-stream for the latest continous release.";
+                if (releaseName.match(/\.z/) || releaseName.match(/rc[0-9]+$/)) {
+                  releaseLink.textContent = "Please check other existing releases.";
+                  releaseLink.href = 'index.html';
+                }
+
                 releaseNameCell.appendChild(releaseLink);
                 releaseNameCell.colSpan = 11;
 
@@ -32,7 +34,14 @@ fetch('release_artifacts/releases.yaml')
                 break;
               }
             }
-            for (const image of releaseStream.container_images) {
+
+            // Sort the images by name
+            const sortedImages = releaseStream.container_images.sort((a, b) => {
+              if (a.name > b.name) return 1;
+              if (a.name < b.name) return -1;
+              return 0;
+            });
+            for (const image of sortedImages) {
               const releaseRow = document.createElement('tr');
 
               const imageNameCell = document.createElement('td');
@@ -70,16 +79,18 @@ fetch('release_artifacts/releases.yaml')
               releaseRow.appendChild(quayTagsCell);
 
               const quaySHACell = document.createElement('td');
-              if (image.quay[0].hasOwnProperty('sha') === false) {
+              if (!image.quay[0].hasOwnProperty('sha')) {
                 releaseRow.appendChild(quaySHACell.textContent = '');
+              } else if (image.quay[0].sha === "error") {
+                  quaySHACell.textContent = 'N/A';
               } else {
-              const quaySHALink = document.createElement('a');
-              const quay = "quay";
-              quaySHALink.href = `manifest-sha.html?release=${encodeURIComponent(releaseName)}&dq=${encodeURIComponent(quay)}`
-              quaySHALink.textContent = image.quay[0].sha.replace('sha256:', '').substring(0, 12);
-              quaySHACell.appendChild(quaySHALink);
-              releaseRow.appendChild(quaySHACell);
+                const quaySHALink = document.createElement('a');
+                const quay = "quay";
+                quaySHALink.href = `manifest-sha.html?release=${encodeURIComponent(releaseName)}&dq=${encodeURIComponent(quay)}`
+                quaySHALink.textContent = image.quay[0].sha.replace('sha256:', '').substring(0, 12);
+                quaySHACell.appendChild(quaySHALink);
               }
+              releaseRow.appendChild(quaySHACell);
 
               // create a link for docker tags
               const dockerTagsCell = document.createElement('td');
@@ -102,12 +113,14 @@ fetch('release_artifacts/releases.yaml')
               const dockerSHACell = document.createElement('td');
               if (!image.docker[0].hasOwnProperty('sha')) {
                 releaseRow.appendChild(dockerSHACell.textContent = '');
+              } else if (image.docker[0].sha === "error") {
+                  dockerSHACell.textContent = 'N/A';
               } else {
-                const dockerSHALink = document.createElement('a');
-                const docker = "docker";
-                dockerSHALink.href = `manifest-sha.html?release=${encodeURIComponent(releaseName)}&dq=${encodeURIComponent(docker)}`
-                dockerSHALink.textContent = image.docker[0].sha.replace('sha256:', '').substring(0, 12);
-                dockerSHACell.appendChild(dockerSHALink);
+                  const dockerSHALink = document.createElement('a');
+                  const docker = "docker";
+                  dockerSHALink.href = `manifest-sha.html?release=${encodeURIComponent(releaseName)}&dq=${encodeURIComponent(docker)}`
+                  dockerSHALink.textContent = image.docker[0].sha.replace('sha256:', '').substring(0, 12);
+                  dockerSHACell.appendChild(dockerSHALink);
               }
               releaseRow.appendChild(dockerSHACell);
 
@@ -167,11 +180,23 @@ fetch('release_artifacts/releases.yaml')
                 const M = image.severity[0].M.toString();
                 const L = image.severity[0].L.toString();
                 const U = image.severity[0].U.toString();
-                const cveText = `<span class="cve-letter cve-c">C:${C}</span><br>
-                      <span class="cve-letter cve-h">H:${H}</span><br>
-                      <span class="cve-letter cve-m">M:${M}</span><br>
-                      <span class="cve-letter cve-l">L:${L}</span><br>
-                      <span class="cve-letter cve-u">U:${U}</span>`;
+                
+                let severityType = 'GRYPE';
+                let severityTypeClass = 'severity_type_grype';
+                if (image.hasOwnProperty('severity_type')) {
+                  severityType = image.severity_type;
+                  if (severityType.toLowerCase() === 'quay') {
+                    severityTypeClass = 'severity_type_quay';
+                  }
+                }
+                severityType = severityType.toUpperCase()
+                const cveText = ` <div class="${severityTypeClass}">${severityType}</div>
+                                  <hr>
+                                  <span class="cve-letter cve-c">C:${C}</span><br>
+                                  <span class="cve-letter cve-h">H:${H}</span><br>
+                                  <span class="cve-letter cve-m">M:${M}</span><br>
+                                  <span class="cve-letter cve-l">L:${L}</span><br>
+                                  <span class="cve-letter cve-u">U:${U}</span>`;
                 cveLink.innerHTML = cveText;
                 cveCell.appendChild(cveLink);
               } else {
@@ -179,6 +204,7 @@ fetch('release_artifacts/releases.yaml')
                 cveCell.appendChild(cveLink);
               }
               releaseRow.appendChild(cveCell);
+              
 
               const buildLogsCell = document.createElement('td');
               const buildLogsLink = document.createElement('a');
@@ -191,8 +217,13 @@ fetch('release_artifacts/releases.yaml')
               buildLogsCell.appendChild(buildLogsLink);
               releaseRow.appendChild(buildLogsCell);
 
-              tableBody.appendChild(releaseRow);
+              if (image.name == "acc-provision-operator") {
+                accProcOpRow = releaseRow;
+              } else {
+                tableBody.appendChild(releaseRow);
+              }
             }
+            tableBody.appendChild(accProcOpRow);
             // Exit the loop once the specific release is found
             break;
           }

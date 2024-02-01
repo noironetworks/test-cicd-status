@@ -21,7 +21,8 @@ fetch('release_artifacts/releases.yaml')
     // Get the URL parameters
     const urlParams = new URLSearchParams(window.location.search);
     const releaseName = urlParams.get('release');
-    const releaseTag = releaseName.replace(/(\.z|rc[0-9]+)$/, '');
+    const releaseTag = releaseName.replace(/(\.z|.rc[0-9]+)$/, '');
+    console.log('releaseTag', releaseTag);
     const imageRegistry = urlParams.get('dq'); // Should be either "quay" or "docker"
 
     // Define the registry domain based on the imageRegistry value

@@ -2,7 +2,6 @@ fetch('release_artifacts/releases.yaml')
   .then(response => response.text())
   .then(data => {
     const parsedData = jsyaml.load(data);
-    console.log("Parsed YAML file 'release_artifacts/releases.yaml':", parsedData);
 
     const accProvisionTable = document.querySelector('#acc-provision-table');
     const accProvisionTableBody = accProvisionTable.querySelector('tbody');
@@ -63,8 +62,15 @@ fetch('release_artifacts/releases.yaml')
                 // If there are no acc_provision entries, display a message in a single row
                 const noAccProvisionRow = document.createElement('tr');
                 const noAccProvisionCell = document.createElement('td');
-                noAccProvisionCell.textContent = 'No ACC-PROVISION data available';
+                const releaseLink = document.createElement('a');
+                releaseLink.href = `release.html?release=${encodeURIComponent(releaseName+'.z')}`;
+                releaseLink.textContent = "The final release for this version is not yet available, check out the z-stream for the latest continous release.";
+                if (releaseName.match(/\.z/) || releaseName.match(/rc[0-9]+$/)) {
+                  releaseLink.textContent = "This version is not yet available. Please check other releases.";
+                  releaseLink.href = 'index.html';
+                }
                 noAccProvisionCell.colSpan = 4;
+                noAccProvisionCell.appendChild(releaseLink);
                 noAccProvisionRow.appendChild(noAccProvisionCell);
                 accProvisionTableBody.appendChild(noAccProvisionRow);
               }
