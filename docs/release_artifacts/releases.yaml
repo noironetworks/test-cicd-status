@@ -2099,3 +2099,52 @@ releases:
     release_name: 6.0.4.1
     released: false
   release_tag: 6.0.4.1
+- release_streams:
+  - acc_provision: []
+    container_images:
+    - base-image:
+      - cve: release_artifacts/6.1.1.2/z/aci-containers-controller/6.1.1.2-cve-base.txt
+        severity:
+        - C: 0
+          H: 3
+          L: 0
+          M: 5
+          U: 0
+        sha: 66233eebd72bb5baa25190d4f55e1dc3fff3a9b77186c1f91a0abdb274452072
+      build-logs: release_artifacts/6.1.1.2/z/aci-containers-controller/6.1.1.2-buildlog.txt
+      build-time: 2024-11-22 15:24:38 PST
+      commit:
+      - link: https://github.com/noironetworks/aci-containers/commit/a566575ac7afd7fcea449b7ce76077aedd1f6fe9
+        sha: a566575ac7afd7fcea449b7ce76077aedd1f6fe9
+      cve: release_artifacts/6.1.1.2/z/aci-containers-controller/6.1.1.2-cve.txt
+      docker:
+      - link: https://hub.docker.com/layers/noiro/aci-containers-controller/6.1.1.x.81c2369.z/images/sha256-9e174e3f1d46e343e289e9692403e1a1a80fd1168a58068d0a6d4eac2e6ae16c?context=explore
+        sha: 9e174e3f1d46e343e289e9692403e1a1a80fd1168a58068d0a6d4eac2e6ae16c
+        tag: 6.1.1.x.81c2369.z
+      - link: https://hub.docker.com/layers/noiro/aci-containers-controller/6.1.1.x.81c2369.112224.10140/images/sha256-9e174e3f1d46e343e289e9692403e1a1a80fd1168a58068d0a6d4eac2e6ae16c?context=explore
+        sha: 9e174e3f1d46e343e289e9692403e1a1a80fd1168a58068d0a6d4eac2e6ae16c
+        tag: 6.1.1.x.81c2369.112224.10140
+      name: aci-containers-controller
+      quay:
+      - link: https://quay.io/noiro/aci-containers-controller:6.1.1.x.81c2369.z
+        sha: 9e174e3f1d46e343e289e9692403e1a1a80fd1168a58068d0a6d4eac2e6ae16c
+        tag: 6.1.1.x.81c2369.z
+      - link: https://quay.io/noiro/aci-containers-controller:6.1.1.x.81c2369.112224.10140
+        sha: 9e174e3f1d46e343e289e9692403e1a1a80fd1168a58068d0a6d4eac2e6ae16c
+        tag: 6.1.1.x.81c2369.112224.10140
+      sbom: release_artifacts/6.1.1.2/z/aci-containers-controller/6.1.1.2-sbom.txt
+      severity:
+      - C: 1
+        H: 7
+        L: 0
+        M: 21
+        U: 0
+      severity_type: grype
+    last_updated: 2024-11-22 15:24:38 PST
+    release_name: 6.1.1.2.z
+  - acc_provision: []
+    container_images: []
+    last_updated: 2024-11-22 15:24:32 PST
+    release_name: 6.1.1.2
+    released: false
+  release_tag: 6.1.1.2
