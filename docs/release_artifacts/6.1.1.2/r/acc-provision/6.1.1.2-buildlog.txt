@@ -1,0 +1,1475 @@
+travis_fold:start:worker_info[0K[33;1mWorker information[0m
+hostname: 5d8ad708-2e8d-4ffd-b901-5cc92db2c8d7@1.worker-com-79cc76c9cc-6sznt.gce-production-2
+version: v6.2.24-6-g098ca78 https://github.com/travis-ci/worker/tree/098ca78612c4c91c488169d6a2c94fbeee1fb89d
+instance: travis-job-aaa40491-3e49-4728-9f00-468ebc3cd7ae travis-ci-ubuntu-2204-1732291639-53689d97 (via amqp)
+startup: 5.90679297s
+travis_fold:end:worker_info[0Ktravis_time:start:0004c978[0Ktravis_time:end:0004c978:start=1734688349183615835,finish=1734688349598304888,duration=414689053,event=no_world_writable_dirs[0Ktravis_time:start:00d2b7cc[0Ktravis_time:end:00d2b7cc:start=1734688349601709762,finish=1734688349605613096,duration=3903334,event=setup_filter[0Ktravis_time:start:038c3bdf[0Ktravis_time:end:038c3bdf:start=1734688349610177548,finish=1734688349620163638,duration=9986090,event=agent[0Ktravis_time:start:1d70f948[0Ktravis_time:end:1d70f948:start=1734688349623098102,finish=1734688349625302597,duration=2204495,event=check_unsupported[0Ktravis_time:start:266f67e7[0Ktravis_fold:start:system_info[0K[33;1mBuild system information[0m
+Build language: python
+Build dist: jammy
+Build id: 273640305
+Job id: 629232122
+Runtime kernel version: 6.8.0-1018-gcp
+VM: default
+travis-build version: 6b157a1c
+[34m[1mBuild image provisioning date and time[0m
+Fri Nov 22 04:28:26 PM UTC 2024
+[34m[1mOperating System Details[0m
+Distributor ID:	Ubuntu
+Description:	Ubuntu 22.04.5 LTS
+Release:	22.04
+Codename:	jammy
+[34m[1mSystemd Version[0m
+systemd 249 (249.11-0ubuntu3.12)
+[34m[1mCookbooks Version[0m
+be2ab50 https://github.com/travis-ci/travis-cookbooks/tree/be2ab50
+[34m[1mgit version[0m
+git version 2.47.0
+[34m[1mbash version[0m
+GNU bash, version 5.1.16(1)-release (x86_64-pc-linux-gnu)
+[34m[1mgcc version[0m
+gcc (Ubuntu 11.4.0-1ubuntu1~22.04) 11.4.0
+[34m[1mdocker version[0m
+Client:
+ Version:           24.0.7
+ API version:       1.43
+ Go version:        go1.21.1
+ Git commit:        24.0.7-0ubuntu2~22.04.1
+ Built:             Wed Mar 13 20:23:54 2024
+ OS/Arch:           linux/amd64
+ Context:           default
+
+Server:
+ Engine:
+  Version:          24.0.7
+  API version:      1.43 (minimum version 1.12)
+  Go version:       go1.21.1
+  Git commit:       24.0.7-0ubuntu2~22.04.1
+  Built:            Wed Mar 13 20:23:54 2024
+  OS/Arch:          linux/amd64
+  Experimental:     false
+ containerd:
+  Version:          1.7.12
+  GitCommit:        
+ runc:
+  Version:          1.1.12-0ubuntu2~22.04.1
+  GitCommit:        
+ docker-init:
+  Version:          0.19.0
+  GitCommit:        
+[34m[1mclang version[0m
+clang version 18.1.8
+[34m[1mjq version[0m
+jq-1.7.1
+[34m[1mbats version[0m
+Bats 1.11.0
+[34m[1mshellcheck version[0m
+0.10.0
+[34m[1mshfmt version[0m
+v3.8.0
+[34m[1mccache version[0m
+4.5.1
+[34m[1mcmake version[0m
+cmake version 3.29.0
+[34m[1mheroku version[0m
+heroku/9.5.0 linux-x64 node-v16.20.2
+[34m[1mimagemagick version[0m
+Version: ImageMagick 6.9.11-60 Q16 x86_64 2021-01-25 https://imagemagick.org
+[34m[1mmd5deep version[0m
+4.4
+[34m[1mmercurial version[0m
+version 6.5.2
+[34m[1mmysql version[0m
+mysql  Ver 8.0.40-0ubuntu0.22.04.1 for Linux on x86_64 ((Ubuntu))
+[34m[1mopenssl version[0m
+OpenSSL 3.0.2 15 Mar 2022 (Library: OpenSSL 3.0.2 15 Mar 2022)
+[34m[1mpacker version[0m
+Packer v1.11.2
+[34m[1mpostgresql client version[0m
+psql (PostgreSQL) 14.13 (Ubuntu 14.13-0ubuntu0.22.04.1)
+[34m[1mragel version[0m
+Ragel State Machine Compiler version 6.10 March 2017
+[34m[1msudo version[0m
+1.9.9
+[34m[1mgzip version[0m
+gzip 1.10
+[34m[1mzip version[0m
+Zip 3.0
+[34m[1mvim version[0m
+VIM - Vi IMproved 8.2 (2019 Dec 12, compiled Oct 16 2024 17:27:14)
+[34m[1miptables version[0m
+iptables v1.8.7 (nf_tables)
+[34m[1mcurl version[0m
+curl 7.81.0 (x86_64-pc-linux-gnu) libcurl/7.81.0 OpenSSL/3.0.2 zlib/1.2.11 brotli/1.0.9 zstd/1.4.8 libidn2/2.3.2 libpsl/0.21.0 (+libidn2/2.3.2) libssh/0.9.6/openssl/zlib nghttp2/1.43.0 librtmp/2.3 OpenLDAP/2.5.18
+[34m[1mwget version[0m
+GNU Wget 1.21.2 built on linux-gnu.
+[34m[1mrsync version[0m
+rsync  version 3.2.7  protocol version 31
+[34m[1mnvm version[0m
+0.40.1
+[34m[1mperlbrew version[0m
+/home/travis/perl5/perlbrew/bin/perlbrew  - App::perlbrew/0.95
+[34m[1mphpenv version[0m
+rbenv 1.3.0
+[34m[1mrvm version[0m
+rvm 1.29.12 (latest) by Michal Papis, Piotr Kuczynski, Wayne E. Seguin [https://rvm.io]
+[34m[1mdefault ruby version[0m
+ruby 3.3.5 (2024-09-03 revision ef084cc8f4) [x86_64-linux]
+[34m[1mdefault python version[0m
+Python 3.10.14
+[34m[1mElasticSearch version[0m
+7.16.3
+[34m[1mInstalled Firefox version[0m
+firefox 99.0
+[34m[1mMongoDB version[0m
+MongoDB 6.0.19
+[34m[1mant version[0m
+Apache Ant(TM) version 1.10.12 compiled on January 17 1970
+[34m[1mmvn version[0m
+Apache Maven 3.9.4 (dfbb324ad4a7c8fb0bf182e6d91b0ae20e3d2dd9)
+[34m[1mgradle version[0m
+Gradle 8.3!
+[34m[1mlein version[0m
+Leiningen 2.11.2 on Java 11.0.21 OpenJDK 64-Bit Server VM
+[34m[1mPre-installed Node.js versions[0m
+v10.24.1
+v12.22.12
+v14.21.3
+v16.15
+v16.20.2
+v18.20.3
+v18.20.5
+v20.18.1
+v22.11.0
+v4.9.1
+v6.17.1
+v8.17.0
+[34m[1mphpenv versions[0m
+  system
+  8.1
+* 8.1.2 (set by /home/travis/.phpenv/version)
+  hhvm-stable
+  hhvm
+[34m[1mcomposer --version[0m
+Composer version 2.3.7 2022-06-06 16:43:28
+[34m[1mPre-installed Ruby versions[0m
+ruby-2.7.8
+ruby-3.3.5
+travis_fold:end:system_info[0K
+travis_time:end:266f67e7:start=1734688349628258663,finish=1734688349634810280,duration=6551617,event=show_system_info[0Ktravis_time:start:1f52c610[0Ktravis_time:end:1f52c610:start=1734688349638836855,finish=1734688349681371864,duration=42535009,event=rm_riak_source[0Ktravis_time:start:1982ec6a[0Ktravis_time:end:1982ec6a:start=1734688349685431237,finish=1734688349692337914,duration=6906677,event=fix_rwky_redis[0Ktravis_time:start:04649b38[0Ktravis_time:end:04649b38:start=1734688349696090279,finish=1734688353143666555,duration=3447576276,event=wait_for_network[0Ktravis_time:start:1d29941f[0Ktravis_time:end:1d29941f:start=1734688353147210311,finish=1734688353437773629,duration=290563318,event=update_apt_keys[0Ktravis_time:start:051722f0[0Ktravis_time:end:051722f0:start=1734688353441289994,finish=1734688353509681235,duration=68391241,event=fix_hhvm_source[0Ktravis_time:start:06c25105[0Ktravis_time:end:06c25105:start=1734688353513475844,finish=1734688353516312618,duration=2836774,event=update_mongo_arch[0Ktravis_time:start:020050cf[0Ktravis_time:end:020050cf:start=1734688353520240776,finish=1734688353558534995,duration=38294219,event=fix_sudo_enabled_trusty[0Ktravis_time:start:0f26347e[0Ktravis_time:end:0f26347e:start=1734688353562468167,finish=1734688353564724504,duration=2256337,event=update_glibc[0Ktravis_time:start:0006df1a[0Ktravis_time:end:0006df1a:start=1734688353568014170,finish=1734688353604814207,duration=36800037,event=clean_up_path[0Ktravis_time:start:1364598f[0Ktravis_time:end:1364598f:start=1734688353608768036,finish=1734688353627650666,duration=18882630,event=fix_resolv_conf[0Ktravis_time:start:222bb8cc[0Ktravis_time:end:222bb8cc:start=1734688353631641502,finish=1734688353688160695,duration=56519193,event=fix_etc_hosts[0Ktravis_time:start:048847f4[0Ktravis_time:end:048847f4:start=1734688353691674573,finish=1734688353700463329,duration=8788756,event=fix_mvn_settings_xml[0Ktravis_time:start:072a1990[0Ktravis_time:end:072a1990:start=1734688353703748577,finish=1734688353718786241,duration=15037664,event=no_ipv6_localhost[0Ktravis_time:start:0ae1c200[0Ktravis_time:end:0ae1c200:start=1734688353722612769,finish=1734688353725058273,duration=2445504,event=fix_etc_mavenrc[0Ktravis_time:start:05658ef7[0KOK
+travis_time:end:05658ef7:start=1734688353729310816,finish=1734688354218695033,duration=489384217,event=fix_perforce_key[0Ktravis_time:start:10997ea6[0Ktravis_time:end:10997ea6:start=1734688354222519006,finish=1734688354225698241,duration=3179235,event=fix_wwdr_certificate[0Ktravis_time:start:3131a5f4[0Ktravis_time:end:3131a5f4:start=1734688354229603372,finish=1734688355344400505,duration=1114797133,event=put_localhost_first[0Ktravis_time:start:377fa161[0Ktravis_time:end:377fa161:start=1734688355348124067,finish=1734688355351067247,duration=2943180,event=home_paths[0Ktravis_time:start:03fcf50a[0Ktravis_time:end:03fcf50a:start=1734688355354246742,finish=1734688355372146072,duration=17899330,event=disable_initramfs[0Ktravis_time:start:01b83440[0Ktravis_time:end:01b83440:start=1734688355376317622,finish=1734688355529154775,duration=152837153,event=disable_ssh_roaming[0Ktravis_time:start:01a061fc[0Ktravis_time:end:01a061fc:start=1734688355532752485,finish=1734688355535027293,duration=2274808,event=debug_tools[0Ktravis_time:start:14507bf2[0Ktravis_time:end:14507bf2:start=1734688355538716321,finish=1734688355542150387,duration=3434066,event=uninstall_oclint[0Ktravis_time:start:01b305b8[0Ktravis_time:end:01b305b8:start=1734688355546048431,finish=1734688355549106996,duration=3058565,event=rvm_use[0Ktravis_time:start:153fc182[0Ktravis_time:end:153fc182:start=1734688355552282599,finish=1734688355564938341,duration=12655742,event=rm_etc_boto_cfg[0Ktravis_time:start:0f780258[0Ktravis_time:end:0f780258:start=1734688355569121559,finish=1734688355572416419,duration=3294860,event=rm_oraclejdk8_symlink[0Ktravis_time:start:0457fa40[0Ktravis_time:end:0457fa40:start=1734688355575929744,finish=1734688355717246247,duration=141316503,event=enable_i386[0Ktravis_time:start:0caf82ac[0Ktravis_time:end:0caf82ac:start=1734688355720812205,finish=1734688355725137566,duration=4325361,event=update_rubygems[0Ktravis_time:start:27343d1c[0Ktravis_time:end:27343d1c:start=1734688355728570565,finish=1734688356822145017,duration=1093574452,event=ensure_path_components[0Ktravis_time:start:0b37dbf9[0Ktravis_time:end:0b37dbf9:start=1734688356825886693,finish=1734688356828376007,duration=2489314,event=redefine_curl[0Ktravis_time:start:05910850[0Ktravis_time:end:05910850:start=1734688356832103827,finish=1734688356970808688,duration=138704861,event=nonblock_pipe[0Ktravis_time:start:0485434a[0Ktravis_time:end:0485434a:start=1734688356974452522,finish=1734688363024131212,duration=6049678690,event=apt_get_update[0Ktravis_time:start:0b399e2f[0Ktravis_time:end:0b399e2f:start=1734688363027754816,finish=1734688363030046503,duration=2291687,event=deprecate_xcode_64[0Ktravis_time:start:003b619b[0Ktravis_time:end:003b619b:start=1734688363033356959,finish=1734688367129953694,duration=4096596735,event=update_heroku[0Ktravis_time:start:0590a6f0[0Ktravis_time:end:0590a6f0:start=1734688367134044095,finish=1734688367136275353,duration=2231258,event=shell_session_update[0Ktravis_time:start:200a555b[0Ktravis_fold:start:docker_mtu_and_registry_mirrors[0Ktravis_fold:end:docker_mtu_and_registry_mirrors[0Ktravis_time:end:200a555b:start=1734688367140115457,finish=1734688369614938934,duration=2474823477,event=set_docker_mtu_and_registry_mirrors[0Ktravis_time:start:0b8bcd8c[0Ktravis_fold:start:Docker[0Ktravis_fold:end:Docker[0Ktravis_time:end:0b8bcd8c:start=1734688369619385339,finish=1734688369622069659,duration=2684320,event=docker_config[0Ktravis_time:start:1bac96ae[0Ktravis_fold:start:resolvconf[0Ktravis_fold:end:resolvconf[0Ktravis_time:end:1bac96ae:start=1734688369625757061,finish=1734688369699520415,duration=73763354,event=resolvconf[0Ktravis_time:start:1b780b53[0Ktravis_time:end:1b780b53:start=1734688369703734009,finish=1734688369914331547,duration=210597538,event=maven_central_mirror[0Ktravis_time:start:0802510e[0Ktravis_time:end:0802510e:start=1734688369918553554,finish=1734688370040470128,duration=121916574,event=maven_https[0K[33;1m3.9 is not installed; attempting download[0m
+[33;1mDownloading archive: https://storage.googleapis.com/travis-ci-language-archives/python/binaries/ubuntu/22.04/x86_64/python-3.9.tar.bz2[0m
+travis_time:start:0b9474a0[0K$ curl -sSf --retry 5 -o python-3.9.tar.bz2 ${archive_url}
+travis_time:end:0b9474a0:start=1734688370117985808,finish=1734688371813619018,duration=1695633210,event=configure[0Ktravis_time:start:093015f0[0K$ sudo tar xjf python-3.9.tar.bz2 --directory /
+travis_time:end:093015f0:start=1734688371817450069,finish=1734688384314262208,duration=12496812139,event=configure[0Ktravis_time:start:038dd5ac[0Ktravis_time:end:038dd5ac:start=1734688384343653408,finish=1734688384346514519,duration=2861111,event=fix_ps4[0Ktravis_time:start:035c5758[0K
+travis_fold:start:git.checkout[0Ktravis_time:start:027d9ae2[0Ktravis_time:end:027d9ae2:start=1734688384354998781,finish=1734688384366999291,duration=12000510,event=checkout[0Ktravis_time:start:090eba40[0K$ git clone --depth=50 --branch=6.1.1.2 https://github.com/noironetworks/acc-provision.git noironetworks/acc-provision
+Cloning into 'noironetworks/acc-provision'...
+Note: switching to '60753b18b4cf578e85f0baf0831dbfbf9067c1e8'.
+
+You are in 'detached HEAD' state. You can look around, make experimental
+changes and commit them, and you can discard any commits you make in this
+state without impacting any branches by switching back to a branch.
+
+If you want to create a new branch to retain commits you create, you may
+do so (now or later) by using -c with the switch command. Example:
+
+  git switch -c <new-branch-name>
+
+Or undo this operation with:
+
+  git switch -
+
+Turn off this advice by setting config variable advice.detachedHead to false
+
+travis_time:end:090eba40:start=1734688384371676262,finish=1734688391796773840,duration=7425097578,event=checkout[0K$ cd noironetworks/acc-provision
+$ git checkout -qf 6.1.1.2
+travis_fold:end:git.checkout[0K
+travis_time:end:090eba40:start=1734688384371676262,finish=1734688392223134561,duration=7851458299,event=checkout[0Ktravis_time:start:018cbbb9[0K
+[33;1mSetting environment variables from repository settings[0m
+$ export TRAVIS_TAGGER=[secure]
+$ export PYPI_PASS=[secure]
+$ export PYPI_USER=[secure]
+$ export TEST_PYPI_USER=[secure]
+$ export TEST_PYPI_PASS=[secure]
+
+[33;1mSetting environment variables from .travis.yml[0m
+$ export DEFAULT_BRANCH=master
+$ export GOPROXY=https://proxy.golang.org,https://goproxy.io,direct
+
+travis_time:end:018cbbb9:start=1734688392228281939,finish=1734688392234559690,duration=6277751,event=env[0Ktravis_time:start:003f6eee[0K$ source ~/virtualenv/python3.9/bin/activate
+travis_time:end:003f6eee:start=1734688392240006198,finish=1734688392246557828,duration=6551630,event=[0K$ python --version
+Python 3.9.18
+$ pip --version
+pip 23.2.1 from /home/travis/virtualenv/python3.9.18/lib/python3.9/site-packages/pip (python 3.9)
+Could not locate requirements.txt. Override the install: key in your .travis.yml to install dependencies.
+travis_fold:start:before_script.1[0Ktravis_time:start:1a513475[0K$ export UPSTREAM_ID=81c2369
+travis_time:end:1a513475:start=1734688392927396618,finish=1734688392930151962,duration=2755344,event=before_script[0Ktravis_fold:end:before_script.1[0Ktravis_fold:start:before_script.2[0Ktravis_time:start:21102d1a[0K$ eval "$(GIMME_GO_VERSION=1.22.5 gimme)"
+gimme: command not found
+travis_time:end:21102d1a:start=1734688392935063430,finish=1734688393038758408,duration=103694978,event=before_script[0Ktravis_fold:end:before_script.2[0Ktravis_fold:start:before_script.3[0Ktravis_time:start:0c18ae60[0K$ export TRAVIS_GO_VERSION=1.22.5
+travis_time:end:0c18ae60:start=1734688393043682988,finish=1734688393046886081,duration=3203093,event=before_script[0Ktravis_fold:end:before_script.3[0Ktravis_fold:start:before_script.4[0Ktravis_time:start:0df42d63[0K$ export TRAVIS_GO_IMPORT_PATH=github.com/noironetworks/aci-containers
+travis_time:end:0df42d63:start=1734688393051353068,finish=1734688393054361807,duration=3008739,event=before_script[0Ktravis_fold:end:before_script.4[0Ktravis_fold:start:before_script.5[0Ktravis_time:start:0443c604[0K$ export TRAVIS_BUILD_USER="$(curl -s "https://api.travis-ci.com/v3/build/$TRAVIS_BUILD_ID" | jq -r .created_by.login)"
+travis_time:end:0443c604:start=1734688393059349331,finish=1734688394302411625,duration=1243062294,event=before_script[0Ktravis_fold:end:before_script.5[0Ktravis_fold:start:before_script.6[0Ktravis_time:start:005c2848[0K$ go version
+go version go1.23.3 linux/amd64
+travis_time:end:005c2848:start=1734688394306852847,finish=1734688394743571853,duration=436719006,event=before_script[0Ktravis_fold:end:before_script.6[0Ktravis_time:start:01aaee20[0K$ echo "Skip running UTs"
+Skip running UTs
+travis_time:end:01aaee20:start=1734688394749842600,finish=1734688394754226985,duration=4384385,event=script[0K[32;1mThe command "echo "Skip running UTs"" exited with 0.[0m
+travis_time:start:178fb3c6[0K$ git clone http://www.github.com/noironetworks/cicd -b mmr-6.1.1 /tmp/cicd
+Cloning into '/tmp/cicd'...
+warning: redirecting to https://github.com/noironetworks/cicd.git/
+travis_time:end:178fb3c6:start=1734688394761083522,finish=1734688396310062491,duration=1548978969,event=script[0K[32;1mThe command "git clone http://www.github.com/noironetworks/cicd -b mmr-6.1.1 /tmp/cicd" exited with 0.[0m
+travis_time:start:074edc77[0K$ pip install jq pyyaml pytz || travis_terminate 1
+Collecting jq
+  Obtaining dependency information for jq from https://files.pythonhosted.org/packages/f2/b8/47a22d6bbb21f6edd683e7146a33d88da677afa0e3e6b7c2a118a75ce386/jq-1.8.0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata
+  Downloading jq-1.8.0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (7.0 kB)
+Collecting pyyaml
+  Obtaining dependency information for pyyaml from https://files.pythonhosted.org/packages/3d/32/e7bd8535d22ea2874cef6a81021ba019474ace0d13a4819c2a4bce79bd6a/PyYAML-6.0.2-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata
+  Downloading PyYAML-6.0.2-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (2.1 kB)
+Collecting pytz
+  Obtaining dependency information for pytz from https://files.pythonhosted.org/packages/11/c3/005fcca25ce078d2cc29fd559379817424e94885510568bc1bc53d7d5846/pytz-2024.2-py2.py3-none-any.whl.metadata
+  Downloading pytz-2024.2-py2.py3-none-any.whl.metadata (22 kB)
+Downloading jq-1.8.0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (738 kB)
+Downloading PyYAML-6.0.2-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (737 kB)
+Downloading pytz-2024.2-py2.py3-none-any.whl (508 kB)
+Installing collected packages: pytz, pyyaml, jq
+Successfully installed jq-1.8.0 pytz-2024.2 pyyaml-6.0.2
+travis_time:end:074edc77:start=1734688396314958667,finish=1734688401427260985,duration=5112302318,event=script[0K[32;1mThe command "pip install jq pyyaml pytz || travis_terminate 1" exited with 0.[0m
+travis_time:start:06667d02[0K$ /tmp/cicd/travis/show-image-tags.sh || travis_terminate 1
+++RELEASE_TAG=6.1.1.2
+++export RELEASE_TAG
++++date +%m%d%y
+++DATE_TAG=122024
+++TRAVIS_TAG_WITH_UPSTREAM_ID=6.1.1.2.81c2369
+++TRAVIS_TAG_WITH_UPSTREAM_ID_DATE_TRAVIS_BUILD_NUMBER=6.1.1.2.81c2369.122024.10358
+++IMAGE_TAG=6.1.1.2.81c2369
+++UPSTREAM_IMAGE_TAG=6.1.1.2.81c2369
+++UPSTREAM_IMAGE_Z_TAG=6.1.1.2.81c2369.z
+++IMAGE_Z_TAG=6.1.1.2.81c2369.z
+++RELEASE_Z_TAG=6.1.1.2.z
+++RC_PREFIX=6.1.1.2rc
+++RC_REGEX='6.1.1.2rc[0-9]+'
+++QUAY_REGISTRY=quay.io/noirolabs
+++QUAY_NOIRO_REGISTRY=quay.io/noiro
+++DOCKER_REGISTRY=docker.io/noiro
+++CICD_STATUS_REPO=https://github.com/noironetworks/cicd-status.git
++echo 'The tag 6.1.1.2.81c2369 will be replaced by the following tags:'
+The tag 6.1.1.2.81c2369 will be replaced by the following tags:
++export UPSTREAM_IMAGE_Z_TAG
+++curl -L -s https://quay.io/api/v1/repository/noiro/acc-provision-operator/tag/
+++jq -r ' . as $parent | ( .tags[] | select(.name==$ENV.UPSTREAM_IMAGE_Z_TAG) | .manifest_digest as $digest | ($parent.tags[] | select((.manifest_digest==$digest) and .name!=$ENV.UPSTREAM_IMAGE_Z_TAG) | .name ) )'
++OTHER_TAG_FOR_Z_TAG='6.1.1.2.81c2369
+6.1.1.2.81c2369.121924.924
+6.1.1.2.81c2369
+6.1.1.2.81c2369.121424.923
+6.1.1.2.81c2369.120924.910
+6.1.1.2.81c2369.120724.908
+6.1.1.2.81c2369.120624.894'
++echo 'acc-provision-operator: 6.1.1.2.81c2369' 6.1.1.2.81c2369.121924.924 6.1.1.2.81c2369 6.1.1.2.81c2369.121424.923 6.1.1.2.81c2369.120924.910 6.1.1.2.81c2369.120724.908 6.1.1.2.81c2369.120624.894
+acc-provision-operator: 6.1.1.2.81c2369 6.1.1.2.81c2369.121924.924 6.1.1.2.81c2369 6.1.1.2.81c2369.121424.923 6.1.1.2.81c2369.120924.910 6.1.1.2.81c2369.120724.908 6.1.1.2.81c2369.120624.894
+++curl -L -s https://quay.io/api/v1/repository/noiro/aci-containers-controller/tag/
+++jq -r ' . as $parent | ( .tags[] | select(.name==$ENV.UPSTREAM_IMAGE_Z_TAG) | .manifest_digest as $digest | ($parent.tags[] | select((.manifest_digest==$digest) and .name!=$ENV.UPSTREAM_IMAGE_Z_TAG) | .name ) )'
++OTHER_TAG_FOR_Z_TAG='6.1.1.2.81c2369
+6.1.1.2.81c2369.121924.10331
+6.1.1.2.81c2369
+6.1.1.2.81c2369.121424.10321
+6.1.1.2.81c2369.120924.10314
+6.1.1.2.81c2369.120724.10301
+6.1.1.2.81c2369.120624.10281'
++echo 'aci-containers-controller: 6.1.1.2.81c2369' 6.1.1.2.81c2369.121924.10331 6.1.1.2.81c2369 6.1.1.2.81c2369.121424.10321 6.1.1.2.81c2369.120924.10314 6.1.1.2.81c2369.120724.10301 6.1.1.2.81c2369.120624.10281
+aci-containers-controller: 6.1.1.2.81c2369 6.1.1.2.81c2369.121924.10331 6.1.1.2.81c2369 6.1.1.2.81c2369.121424.10321 6.1.1.2.81c2369.120924.10314 6.1.1.2.81c2369.120724.10301 6.1.1.2.81c2369.120624.10281
+++curl -L -s https://quay.io/api/v1/repository/noiro/aci-containers-host/tag/
+++jq -r ' . as $parent | ( .tags[] | select(.name==$ENV.UPSTREAM_IMAGE_Z_TAG) | .manifest_digest as $digest | ($parent.tags[] | select((.manifest_digest==$digest) and .name!=$ENV.UPSTREAM_IMAGE_Z_TAG) | .name ) )'
++OTHER_TAG_FOR_Z_TAG='6.1.1.2.81c2369
+6.1.1.2.81c2369.121924.10331
+6.1.1.2.81c2369
+6.1.1.2.81c2369.121424.10321
+6.1.1.2.81c2369.120924.10314
+6.1.1.2.81c2369.120724.10301
+6.1.1.2.81c2369.120624.10281'
++echo 'aci-containers-host: 6.1.1.2.81c2369' 6.1.1.2.81c2369.121924.10331 6.1.1.2.81c2369 6.1.1.2.81c2369.121424.10321 6.1.1.2.81c2369.120924.10314 6.1.1.2.81c2369.120724.10301 6.1.1.2.81c2369.120624.10281
+aci-containers-host: 6.1.1.2.81c2369 6.1.1.2.81c2369.121924.10331 6.1.1.2.81c2369 6.1.1.2.81c2369.121424.10321 6.1.1.2.81c2369.120924.10314 6.1.1.2.81c2369.120724.10301 6.1.1.2.81c2369.120624.10281
+++curl -L -s https://quay.io/api/v1/repository/noiro/aci-containers-operator/tag/
+++jq -r ' . as $parent | ( .tags[] | select(.name==$ENV.UPSTREAM_IMAGE_Z_TAG) | .manifest_digest as $digest | ($parent.tags[] | select((.manifest_digest==$digest) and .name!=$ENV.UPSTREAM_IMAGE_Z_TAG) | .name ) )'
++OTHER_TAG_FOR_Z_TAG='6.1.1.2.81c2369
+6.1.1.2.81c2369.121924.10331
+6.1.1.2.81c2369
+6.1.1.2.81c2369.121424.10321
+6.1.1.2.81c2369.120924.10314
+6.1.1.2.81c2369.120724.10301
+6.1.1.2.81c2369.120624.10281'
++echo 'aci-containers-operator: 6.1.1.2.81c2369' 6.1.1.2.81c2369.121924.10331 6.1.1.2.81c2369 6.1.1.2.81c2369.121424.10321 6.1.1.2.81c2369.120924.10314 6.1.1.2.81c2369.120724.10301 6.1.1.2.81c2369.120624.10281
+aci-containers-operator: 6.1.1.2.81c2369 6.1.1.2.81c2369.121924.10331 6.1.1.2.81c2369 6.1.1.2.81c2369.121424.10321 6.1.1.2.81c2369.120924.10314 6.1.1.2.81c2369.120724.10301 6.1.1.2.81c2369.120624.10281
+++curl -L -s https://quay.io/api/v1/repository/noiro/cnideploy/tag/
+++jq -r ' . as $parent | ( .tags[] | select(.name==$ENV.UPSTREAM_IMAGE_Z_TAG) | .manifest_digest as $digest | ($parent.tags[] | select((.manifest_digest==$digest) and .name!=$ENV.UPSTREAM_IMAGE_Z_TAG) | .name ) )'
++OTHER_TAG_FOR_Z_TAG='6.1.1.2.81c2369
+6.1.1.2.81c2369.121924.10331
+6.1.1.2.81c2369
+6.1.1.2.81c2369.121424.10321
+6.1.1.2.81c2369.120924.10314
+6.1.1.2.81c2369.120724.10301
+6.1.1.2.81c2369.120624.10281'
++echo 'cnideploy: 6.1.1.2.81c2369' 6.1.1.2.81c2369.121924.10331 6.1.1.2.81c2369 6.1.1.2.81c2369.121424.10321 6.1.1.2.81c2369.120924.10314 6.1.1.2.81c2369.120724.10301 6.1.1.2.81c2369.120624.10281
+cnideploy: 6.1.1.2.81c2369 6.1.1.2.81c2369.121924.10331 6.1.1.2.81c2369 6.1.1.2.81c2369.121424.10321 6.1.1.2.81c2369.120924.10314 6.1.1.2.81c2369.120724.10301 6.1.1.2.81c2369.120624.10281
+++curl -L -s https://quay.io/api/v1/repository/noiro/openvswitch/tag/
+++jq -r ' . as $parent | ( .tags[] | select(.name==$ENV.UPSTREAM_IMAGE_Z_TAG) | .manifest_digest as $digest | ($parent.tags[] | select((.manifest_digest==$digest) and .name!=$ENV.UPSTREAM_IMAGE_Z_TAG) | .name ) )'
++OTHER_TAG_FOR_Z_TAG='6.1.1.2.81c2369
+6.1.1.2.81c2369.121924.10331
+6.1.1.2.81c2369
+6.1.1.2.81c2369.121424.10321
+6.1.1.2.81c2369.120924.10314
+6.1.1.2.81c2369.120724.10301
+6.1.1.2.81c2369.120624.10281'
++echo 'openvswitch: 6.1.1.2.81c2369' 6.1.1.2.81c2369.121924.10331 6.1.1.2.81c2369 6.1.1.2.81c2369.121424.10321 6.1.1.2.81c2369.120924.10314 6.1.1.2.81c2369.120724.10301 6.1.1.2.81c2369.120624.10281
+openvswitch: 6.1.1.2.81c2369 6.1.1.2.81c2369.121924.10331 6.1.1.2.81c2369 6.1.1.2.81c2369.121424.10321 6.1.1.2.81c2369.120924.10314 6.1.1.2.81c2369.120724.10301 6.1.1.2.81c2369.120624.10281
+++curl -L -s https://quay.io/api/v1/repository/noiro/opflex/tag/
+++jq -r ' . as $parent | ( .tags[] | select(.name==$ENV.UPSTREAM_IMAGE_Z_TAG) | .manifest_digest as $digest | ($parent.tags[] | select((.manifest_digest==$digest) and .name!=$ENV.UPSTREAM_IMAGE_Z_TAG) | .name ) )'
++OTHER_TAG_FOR_Z_TAG='6.1.1.2.81c2369
+6.1.1.2.81c2369.121924.4199
+6.1.1.2.81c2369.121924.4196
+6.1.1.2.81c2369.121924.4185
+6.1.1.2.81c2369
+6.1.1.2.81c2369.121124.4151
+6.1.1.2.81c2369.121924.4196
+6.1.1.2.81c2369.121924.4185
+6.1.1.2.81c2369
+6.1.1.2.81c2369.121124.4151
+6.1.1.2.81c2369.121924.4196
+6.1.1.2.81c2369.121924.4185
+6.1.1.2.81c2369
+6.1.1.2.81c2369.121124.4151
+6.1.1.2.81c2369.rc1
+6.1.1.2.81c2369.112324.4055'
++echo 'opflex: 6.1.1.2.81c2369' 6.1.1.2.81c2369.121924.4199 6.1.1.2.81c2369.121924.4196 6.1.1.2.81c2369.121924.4185 6.1.1.2.81c2369 6.1.1.2.81c2369.121124.4151 6.1.1.2.81c2369.121924.4196 6.1.1.2.81c2369.121924.4185 6.1.1.2.81c2369 6.1.1.2.81c2369.121124.4151 6.1.1.2.81c2369.121924.4196 6.1.1.2.81c2369.121924.4185 6.1.1.2.81c2369 6.1.1.2.81c2369.121124.4151 6.1.1.2.81c2369.rc1 6.1.1.2.81c2369.112324.4055
+opflex: 6.1.1.2.81c2369 6.1.1.2.81c2369.121924.4199 6.1.1.2.81c2369.121924.4196 6.1.1.2.81c2369.121924.4185 6.1.1.2.81c2369 6.1.1.2.81c2369.121124.4151 6.1.1.2.81c2369.121924.4196 6.1.1.2.81c2369.121924.4185 6.1.1.2.81c2369 6.1.1.2.81c2369.121124.4151 6.1.1.2.81c2369.121924.4196 6.1.1.2.81c2369.121924.4185 6.1.1.2.81c2369 6.1.1.2.81c2369.121124.4151 6.1.1.2.81c2369.rc1 6.1.1.2.81c2369.112324.4055
+travis_time:end:06667d02:start=1734688401432117932,finish=1734688408115254004,duration=6683136072,event=script[0K[32;1mThe command "/tmp/cicd/travis/show-image-tags.sh || travis_terminate 1" exited with 0.[0m
+travis_time:start:19959194[0K$ /tmp/cicd/travis/check-git-tag.sh; RETURN_CODE=$? ; if [ $RETURN_CODE -eq 140 ]; then travis_terminate 0; elif [ $RETURN_CODE -ne 0 ]; then travis_terminate $RETURN_CODE; fi
+++dirname /tmp/cicd/travis/check-git-tag.sh
++SCRIPTS_DIR=/tmp/cicd/travis
++source /tmp/cicd/travis/globals.sh
+++set -x
+++RELEASE_TAG=6.1.1.2
+++export RELEASE_TAG
++++date +%m%d%y
+++DATE_TAG=122024
+++TRAVIS_TAG_WITH_UPSTREAM_ID=6.1.1.2.81c2369
+++TRAVIS_TAG_WITH_UPSTREAM_ID_DATE_TRAVIS_BUILD_NUMBER=6.1.1.2.81c2369.122024.10358
+++IMAGE_TAG=6.1.1.2.81c2369
+++UPSTREAM_IMAGE_TAG=6.1.1.2.81c2369
+++UPSTREAM_IMAGE_Z_TAG=6.1.1.2.81c2369.z
+++IMAGE_Z_TAG=6.1.1.2.81c2369.z
+++RELEASE_Z_TAG=6.1.1.2.z
+++RC_PREFIX=6.1.1.2rc
+++RC_REGEX='6.1.1.2rc[0-9]+'
+++QUAY_REGISTRY=quay.io/noirolabs
+++QUAY_NOIRO_REGISTRY=quay.io/noiro
+++DOCKER_REGISTRY=docker.io/noiro
+++CICD_STATUS_REPO=https://github.com/noironetworks/cicd-status.git
++git show --summary
+commit 60753b18b4cf578e85f0baf0831dbfbf9067c1e8
+Merge: ac3e079 bd0fba0
+Author: Kiran Shastri <shastrinator@gmail.com>
+Date:   Wed Dec 18 15:01:48 2024 -0800
+
+    Merge pull request #1231 from noironetworks/enable_l3_peering_knob
+    
+    Added knob to enable CNF L3 model, to fix controller stuck issue
+
+ create mode 100644 provision/testdata/override_enable_container_l3_peering_model.apic.txt
+ create mode 100644 provision/testdata/override_enable_container_l3_peering_model.inp.yaml
+ create mode 100644 provision/testdata/override_enable_container_l3_peering_model.kube.yaml
++EXPECTED_TAG_PREFIX=6.1.1.2
++[[ 6.1.1.2 != \6\.\1\.\1\.\2* ]]
+++git show -s --format=%B 6.1.1.2
+++grep 'Created by Travis Job'
++tag_message=
++[[ ! -z '' ]]
+travis_time:end:19959194:start=1734688408120391419,finish=1734688408147870607,duration=27479188,event=script[0K[32;1mThe command "/tmp/cicd/travis/check-git-tag.sh; RETURN_CODE=$? ; if [ $RETURN_CODE -eq 140 ]; then travis_terminate 0; elif [ $RETURN_CODE -ne 0 ]; then travis_terminate $RETURN_CODE; fi" exited with 0.[0m
+travis_time:start:18d916be[0K$ pip install ./provision || travis_terminate 1
+Processing ./provision
+  Preparing metadata (setup.py): started
+  Preparing metadata (setup.py): finished with status 'done'
+Collecting requests (from acc-provision==6.1.1.2)
+  Obtaining dependency information for requests from https://files.pythonhosted.org/packages/f9/9b/335f9764261e915ed497fcdeb11df5dfd6f7bf257d4a6a2a686d80da4d54/requests-2.32.3-py3-none-any.whl.metadata
+  Downloading requests-2.32.3-py3-none-any.whl.metadata (4.6 kB)
+Requirement already satisfied: pyyaml in /home/travis/virtualenv/python3.9.18/lib/python3.9/site-packages (from acc-provision==6.1.1.2) (6.0.2)
+Collecting jinja2 (from acc-provision==6.1.1.2)
+  Obtaining dependency information for jinja2 from https://files.pythonhosted.org/packages/31/80/3a54838c3fb461f6fec263ebf3a3a41771bd05190238de3486aae8540c36/jinja2-3.1.4-py3-none-any.whl.metadata
+  Downloading jinja2-3.1.4-py3-none-any.whl.metadata (2.6 kB)
+Collecting pyopenssl (from acc-provision==6.1.1.2)
+  Obtaining dependency information for pyopenssl from https://files.pythonhosted.org/packages/42/22/40f9162e943f86f0fc927ebc648078be87def360d9d8db346619fb97df2b/pyOpenSSL-24.3.0-py3-none-any.whl.metadata
+  Downloading pyOpenSSL-24.3.0-py3-none-any.whl.metadata (15 kB)
+Collecting MarkupSafe (from acc-provision==6.1.1.2)
+  Obtaining dependency information for MarkupSafe from https://files.pythonhosted.org/packages/53/8f/f339c98a178f3c1e545622206b40986a4c3307fe39f70ccd3d9df9a9e425/MarkupSafe-3.0.2-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata
+  Downloading MarkupSafe-3.0.2-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (4.0 kB)
+Collecting ruamel.yaml (from acc-provision==6.1.1.2)
+  Obtaining dependency information for ruamel.yaml from https://files.pythonhosted.org/packages/73/67/8ece580cc363331d9a53055130f86b096bf16e38156e33b1d3014fffda6b/ruamel.yaml-0.18.6-py3-none-any.whl.metadata
+  Downloading ruamel.yaml-0.18.6-py3-none-any.whl.metadata (23 kB)
+Collecting cryptography<45,>=41.0.5 (from pyopenssl->acc-provision==6.1.1.2)
+  Obtaining dependency information for cryptography<45,>=41.0.5 from https://files.pythonhosted.org/packages/ef/82/72403624f197af0db6bac4e58153bc9ac0e6020e57234115db9596eee85d/cryptography-44.0.0-cp39-abi3-manylinux_2_28_x86_64.whl.metadata
+  Downloading cryptography-44.0.0-cp39-abi3-manylinux_2_28_x86_64.whl.metadata (5.7 kB)
+Collecting charset-normalizer<4,>=2 (from requests->acc-provision==6.1.1.2)
+  Obtaining dependency information for charset-normalizer<4,>=2 from https://files.pythonhosted.org/packages/28/89/60f51ad71f63aaaa7e51a2a2ad37919985a341a1d267070f212cdf6c2d22/charset_normalizer-3.4.0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata
+  Downloading charset_normalizer-3.4.0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (34 kB)
+Collecting idna<4,>=2.5 (from requests->acc-provision==6.1.1.2)
+  Obtaining dependency information for idna<4,>=2.5 from https://files.pythonhosted.org/packages/76/c6/c88e154df9c4e1a2a66ccf0005a88dfb2650c1dffb6f5ce603dfbd452ce3/idna-3.10-py3-none-any.whl.metadata
+  Downloading idna-3.10-py3-none-any.whl.metadata (10 kB)
+Collecting urllib3<3,>=1.21.1 (from requests->acc-provision==6.1.1.2)
+  Obtaining dependency information for urllib3<3,>=1.21.1 from https://files.pythonhosted.org/packages/ce/d9/5f4c13cecde62396b0d3fe530a50ccea91e7dfc1ccf0e09c228841bb5ba8/urllib3-2.2.3-py3-none-any.whl.metadata
+  Downloading urllib3-2.2.3-py3-none-any.whl.metadata (6.5 kB)
+Requirement already satisfied: certifi>=2017.4.17 in /home/travis/virtualenv/python3.9.18/lib/python3.9/site-packages (from requests->acc-provision==6.1.1.2) (2023.7.22)
+Collecting ruamel.yaml.clib>=0.2.7 (from ruamel.yaml->acc-provision==6.1.1.2)
+  Obtaining dependency information for ruamel.yaml.clib>=0.2.7 from https://files.pythonhosted.org/packages/a2/2a/5b27602e7a4344c1334e26bf4739746206b7a60a8acdba33a61473468b73/ruamel.yaml.clib-0.2.12-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata
+  Downloading ruamel.yaml.clib-0.2.12-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (2.7 kB)
+Collecting cffi>=1.12 (from cryptography<45,>=41.0.5->pyopenssl->acc-provision==6.1.1.2)
+  Obtaining dependency information for cffi>=1.12 from https://files.pythonhosted.org/packages/bd/62/a1f468e5708a70b1d86ead5bab5520861d9c7eacce4a885ded9faa7729c3/cffi-1.17.1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata
+  Downloading cffi-1.17.1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (1.5 kB)
+Collecting pycparser (from cffi>=1.12->cryptography<45,>=41.0.5->pyopenssl->acc-provision==6.1.1.2)
+  Obtaining dependency information for pycparser from https://files.pythonhosted.org/packages/13/a3/a812df4e2dd5696d1f351d58b8fe16a405b234ad2886a0dab9183fb78109/pycparser-2.22-py3-none-any.whl.metadata
+  Downloading pycparser-2.22-py3-none-any.whl.metadata (943 bytes)
+Downloading jinja2-3.1.4-py3-none-any.whl (133 kB)
+Downloading MarkupSafe-3.0.2-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (20 kB)
+Downloading pyOpenSSL-24.3.0-py3-none-any.whl (56 kB)
+Downloading requests-2.32.3-py3-none-any.whl (64 kB)
+Downloading ruamel.yaml-0.18.6-py3-none-any.whl (117 kB)
+Downloading charset_normalizer-3.4.0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (144 kB)
+Downloading cryptography-44.0.0-cp39-abi3-manylinux_2_28_x86_64.whl (4.2 MB)
+Downloading idna-3.10-py3-none-any.whl (70 kB)
+Downloading ruamel.yaml.clib-0.2.12-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (724 kB)
+Downloading urllib3-2.2.3-py3-none-any.whl (126 kB)
+Downloading cffi-1.17.1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (445 kB)
+Downloading pycparser-2.22-py3-none-any.whl (117 kB)
+Building wheels for collected packages: acc-provision
+  Building wheel for acc-provision (setup.py): started
+  Building wheel for acc-provision (setup.py): finished with status 'done'
+  Created wheel for acc-provision: filename=acc_provision-6.1.1.2-py3-none-any.whl size=305429 sha256=05f21badb486cc299903c3d2ad5089c1a69f3717659f057640ff402a3731e776
+  Stored in directory: /tmp/pip-ephem-wheel-cache-j7rjsw1d/wheels/56/dd/c6/8a2a959cadadff5dabaf44502f5c6e9183eb87e36452913ad0
+Successfully built acc-provision
+Installing collected packages: urllib3, ruamel.yaml.clib, pycparser, MarkupSafe, idna, charset-normalizer, ruamel.yaml, requests, jinja2, cffi, cryptography, pyopenssl, acc-provision
+Successfully installed MarkupSafe-3.0.2 acc-provision-6.1.1.2 cffi-1.17.1 charset-normalizer-3.4.0 cryptography-44.0.0 idna-3.10 jinja2-3.1.4 pycparser-2.22 pyopenssl-24.3.0 requests-2.32.3 ruamel.yaml-0.18.6 ruamel.yaml.clib-0.2.12 urllib3-2.2.3
+travis_time:end:18d916be:start=1734688408153112743,finish=1734688429814114415,duration=21661001672,event=script[0K[32;1mThe command "pip install ./provision || travis_terminate 1" exited with 0.[0m
+travis_time:start:24f637da[0K$ /tmp/cicd/travis/clone-aci-containers-repo.sh || travis_terminate 1
+++dirname /tmp/cicd/travis/clone-aci-containers-repo.sh
++SCRIPTS_DIR=/tmp/cicd/travis
++source /tmp/cicd/travis/globals.sh
+++set -x
+++RELEASE_TAG=6.1.1.2
+++export RELEASE_TAG
++++date +%m%d%y
+++DATE_TAG=122024
+++TRAVIS_TAG_WITH_UPSTREAM_ID=6.1.1.2.81c2369
+++TRAVIS_TAG_WITH_UPSTREAM_ID_DATE_TRAVIS_BUILD_NUMBER=6.1.1.2.81c2369.122024.10358
+++IMAGE_TAG=6.1.1.2.81c2369
+++UPSTREAM_IMAGE_TAG=6.1.1.2.81c2369
+++UPSTREAM_IMAGE_Z_TAG=6.1.1.2.81c2369.z
+++IMAGE_Z_TAG=6.1.1.2.81c2369.z
+++RELEASE_Z_TAG=6.1.1.2.z
+++RC_PREFIX=6.1.1.2rc
+++RC_REGEX='6.1.1.2rc[0-9]+'
+++QUAY_REGISTRY=quay.io/noirolabs
+++QUAY_NOIRO_REGISTRY=quay.io/noiro
+++DOCKER_REGISTRY=docker.io/noiro
+++CICD_STATUS_REPO=https://github.com/noironetworks/cicd-status.git
++git clone --depth=50 --branch=6.1.1.2 https://github.com/noironetworks/aci-containers.git /tmp/noironetworks/aci-containers
+Cloning into '/tmp/noironetworks/aci-containers'...
+Note: switching to 'be8800711c8e22f57fc569e9de54283da6d0abe0'.
+
+You are in 'detached HEAD' state. You can look around, make experimental
+changes and commit them, and you can discard any commits you make in this
+state without impacting any branches by switching back to a branch.
+
+If you want to create a new branch to retain commits you create, you may
+do so (now or later) by using -c with the switch command. Example:
+
+  git switch -c <new-branch-name>
+
+Or undo this operation with:
+
+  git switch -
+
+Turn off this advice by setting config variable advice.detachedHead to false
+
+travis_time:end:24f637da:start=1734688429818375509,finish=1734688435350156379,duration=5531780870,event=script[0K[32;1mThe command "/tmp/cicd/travis/clone-aci-containers-repo.sh || travis_terminate 1" exited with 0.[0m
+travis_time:start:066f37e6[0K$ pushd /tmp/noironetworks/aci-containers
+/tmp/noironetworks/aci-containers ~/build/noironetworks/acc-provision
+travis_time:end:066f37e6:start=1734688435354634669,finish=1734688435358185404,duration=3550735,event=script[0K[32;1mThe command "pushd /tmp/noironetworks/aci-containers" exited with 0.[0m
+travis_time:start:194909a9[0K$ git checkout -qf ${TRAVIS_TAG}
+travis_time:end:194909a9:start=1734688435363630937,finish=1734688435839029852,duration=475398915,event=script[0K[32;1mThe command "git checkout -qf ${TRAVIS_TAG}" exited with 0.[0m
+travis_time:start:02b79b22[0K$ /tmp/cicd/travis/show-git-repo-status.sh
++git show --summary
+commit be8800711c8e22f57fc569e9de54283da6d0abe0
+Merge: 39b925f ec50822
+Author: Sumit Naiksatam <sumitnaiksatam@gmail.com>
+Date:   Thu Dec 19 10:47:07 2024 -0800
+
+    Merge pull request #1472 from noironetworks/mmr-bkport-address-critical-cves
+    
+    Adding changes to address critical/high CVEs
+
+ rename vendor/golang.org/x/crypto/internal/poly1305/{sum_ppc64le.go => sum_ppc64x.go} (95%)
+ rename vendor/golang.org/x/crypto/internal/poly1305/{sum_ppc64le.s => sum_ppc64x.s} (89%)
+ create mode 100644 vendor/golang.org/x/net/http2/config.go
+ create mode 100644 vendor/golang.org/x/net/http2/config_go124.go
+ create mode 100644 vendor/golang.org/x/net/http2/config_pre_go124.go
+ delete mode 100644 vendor/golang.org/x/net/http2/testsync.go
+ create mode 100644 vendor/golang.org/x/net/http2/timer.go
+ create mode 100644 vendor/golang.org/x/net/http2/unencrypted.go
+ create mode 100644 vendor/golang.org/x/sync/errgroup/errgroup.go
+ create mode 100644 vendor/golang.org/x/sync/errgroup/go120.go
+ create mode 100644 vendor/golang.org/x/sync/errgroup/pre_go120.go
+ create mode 100644 vendor/golang.org/x/sys/cpu/asm_darwin_x86_gc.s
+ create mode 100644 vendor/golang.org/x/sys/cpu/cpu_darwin_x86.go
+ rename vendor/golang.org/x/sys/cpu/{cpu_x86.s => cpu_gc_x86.s} (94%)
+ create mode 100644 vendor/golang.org/x/sys/cpu/cpu_linux_riscv64.go
+ create mode 100644 vendor/golang.org/x/sys/cpu/cpu_other_x86.go
+ create mode 100644 vendor/golang.org/x/sys/cpu/syscall_darwin_x86_gc.go
+ create mode 100644 vendor/golang.org/x/sys/unix/vgetrandom_linux.go
+ create mode 100644 vendor/golang.org/x/sys/unix/vgetrandom_unsupported.go
+ create mode 100644 vendor/golang.org/x/tools/internal/aliases/aliases.go
+ create mode 100644 vendor/golang.org/x/tools/internal/aliases/aliases_go121.go
+ create mode 100644 vendor/golang.org/x/tools/internal/aliases/aliases_go122.go
+ delete mode 100644 vendor/golang.org/x/tools/internal/event/tag/tag.go
+ delete mode 100644 vendor/golang.org/x/tools/internal/gcimporter/support_go117.go
+ delete mode 100644 vendor/golang.org/x/tools/internal/gcimporter/ureader_no.go
+ delete mode 100644 vendor/golang.org/x/tools/internal/imports/zstdlib.go
+ create mode 100644 vendor/golang.org/x/tools/internal/stdlib/manifest.go
+ create mode 100644 vendor/golang.org/x/tools/internal/stdlib/stdlib.go
+ delete mode 100644 vendor/golang.org/x/tools/internal/typeparams/common.go
+ delete mode 100644 vendor/golang.org/x/tools/internal/typeparams/coretype.go
+ delete mode 100644 vendor/golang.org/x/tools/internal/typeparams/normalize.go
+ delete mode 100644 vendor/golang.org/x/tools/internal/typeparams/termlist.go
+ delete mode 100644 vendor/golang.org/x/tools/internal/typeparams/typeterm.go
+ create mode 100644 vendor/golang.org/x/tools/internal/typesinternal/recv.go
+ create mode 100644 vendor/golang.org/x/tools/internal/typesinternal/toonew.go
+ delete mode 100644 vendor/golang.org/x/tools/internal/typesinternal/types_118.go
+ create mode 100644 vendor/golang.org/x/tools/internal/versions/features.go
+ create mode 100644 vendor/golang.org/x/tools/internal/versions/toolchain.go
+ create mode 100644 vendor/golang.org/x/tools/internal/versions/toolchain_go119.go
+ create mode 100644 vendor/golang.org/x/tools/internal/versions/toolchain_go120.go
+ create mode 100644 vendor/golang.org/x/tools/internal/versions/toolchain_go121.go
++git status
+Not currently on any branch.
+nothing to commit, working tree clean
++git branch
+* (no branch)
++git tag --points-at HEAD
+6.1.1.2
+travis_time:end:02b79b22:start=1734688435843534869,finish=1734688436163638221,duration=320103352,event=script[0K[32;1mThe command "/tmp/cicd/travis/show-git-repo-status.sh" exited with 0.[0m
+travis_time:start:05d5b110[0K$ make -C . dist-static/acikubectl || travis_terminate 1
+make: Entering directory '/tmp/noironetworks/aci-containers'
+CGO_ENABLED=0 GOOS=linux go build -v -trimpath -ldflags=" -X github.com/noironetworks/aci-containers/pkg/controller.buildTime=12-20-2024.09:53:56.UTC -X github.com/noironetworks/aci-containers/pkg/controller.gitCommit=be8800711c8e22f57fc569e9de54283da6d0abe0 -X github.com/noironetworks/aci-containers/pkg/gbpserver.buildTime=12-20-2024.09:53:56.UTC -X github.com/noironetworks/aci-containers/pkg/gbpserver.gitCommit=be8800711c8e22f57fc569e9de54283da6d0abe0 -X github.com/noironetworks/aci-containers/pkg/hostagent.buildTime=12-20-2024.09:53:56.UTC -X github.com/noironetworks/aci-containers/pkg/hostagent.gitCommit=be8800711c8e22f57fc569e9de54283da6d0abe0 -X github.com/noironetworks/aci-containers/pkg/acicontainersoperator.buildTime=12-20-2024.09:53:56.UTC -X github.com/noironetworks/aci-containers/pkg/acicontainersoperator.gitCommit=be8800711c8e22f57fc569e9de54283da6d0abe0 -s -w" -a -installsuffix cgo -o dist-static/acikubectl github.com/noironetworks/aci-containers/cmd/acikubectl
+internal/unsafeheader
+internal/goarch
+internal/cpu
+internal/abi
+internal/bytealg
+internal/byteorder
+internal/chacha8rand
+internal/coverage/rtcov
+internal/godebugs
+internal/goexperiment
+internal/goos
+internal/profilerecord
+internal/runtime/atomic
+internal/runtime/syscall
+internal/stringslite
+runtime/internal/math
+internal/runtime/exithook
+runtime/internal/sys
+internal/race
+sync/atomic
+runtime
+unicode
+unicode/utf8
+cmp
+internal/itoa
+math/bits
+math
+internal/asan
+internal/msan
+encoding
+unicode/utf16
+internal/nettrace
+log/internal
+log/slog/internal
+container/list
+crypto/internal/alias
+crypto/subtle
+crypto/internal/boring/sig
+vendor/golang.org/x/crypto/cryptobyte/asn1
+vendor/golang.org/x/crypto/internal/alias
+golang.org/x/text/encoding/internal/identifier
+golang.org/x/text/internal/utf8internal
+github.com/pelletier/go-toml/v2/internal/characters
+github.com/spf13/viper/internal/features
+k8s.io/apimachinery/pkg/selection
+k8s.io/utils/strings/slices
+k8s.io/apimachinery/pkg/types
+google.golang.org/protobuf/internal/flags
+google.golang.org/protobuf/internal/set
+internal/reflectlite
+sync
+iter
+slices
+internal/bisect
+errors
+io
+strconv
+bytes
+internal/oserror
+path
+reflect
+internal/godebug
+syscall
+time
+io/fs
+internal/fmtsort
+internal/filepathlite
+internal/syscall/unix
+internal/syscall/execenv
+internal/poll
+internal/testlog
+strings
+bufio
+os
+sort
+encoding/binary
+fmt
+path/filepath
+hash
+hash/crc32
+context
+encoding/base64
+math/rand
+os/user
+compress/flate
+archive/tar
+compress/gzip
+encoding/json
+math/big
+vendor/golang.org/x/net/dns/dnsmessage
+internal/singleflight
+math/rand/v2
+internal/weak
+encoding/csv
+encoding/hex
+internal/concurrent
+unique
+flag
+net/netip
+regexp/syntax
+regexp
+net
+net/url
+text/template/parse
+text/template
+golang.org/x/sys/unix
+github.com/noironetworks/aci-containers/pkg/ipam
+github.com/noironetworks/aci-containers/pkg/metadata
+github.com/spf13/pflag
+github.com/spf13/cobra
+github.com/fsnotify/fsnotify
+github.com/mitchellh/mapstructure
+log
+log/slog/internal/buffer
+github.com/spf13/afero/internal/common
+github.com/spf13/afero/mem
+log/slog
+golang.org/x/text/transform
+golang.org/x/text/runes
+golang.org/x/text/unicode/norm
+github.com/sagikazarmark/slog-shim
+crypto
+crypto/cipher
+crypto/internal/boring
+crypto/internal/randutil
+crypto/aes
+crypto/rand
+crypto/des
+crypto/internal/edwards25519/field
+crypto/internal/nistec/fiat
+embed
+crypto/internal/bigmod
+crypto/internal/boring/bbig
+crypto/sha512
+encoding/asn1
+crypto/internal/nistec
+vendor/golang.org/x/crypto/cryptobyte
+crypto/internal/edwards25519
+crypto/ecdh
+crypto/elliptic
+crypto/ed25519
+crypto/hmac
+vendor/golang.org/x/crypto/chacha20
+crypto/ecdsa
+vendor/golang.org/x/crypto/internal/poly1305
+vendor/golang.org/x/sys/cpu
+vendor/golang.org/x/crypto/chacha20poly1305
+vendor/golang.org/x/crypto/hkdf
+vendor/golang.org/x/crypto/sha3
+crypto/internal/hpke
+crypto/md5
+crypto/internal/mlkem768
+crypto/rc4
+crypto/rsa
+crypto/sha1
+crypto/sha256
+crypto/dsa
+crypto/x509/pkix
+encoding/pem
+vendor/golang.org/x/text/transform
+crypto/x509
+vendor/golang.org/x/text/unicode/bidi
+vendor/golang.org/x/text/secure/bidirule
+vendor/golang.org/x/text/unicode/norm
+vendor/golang.org/x/net/idna
+crypto/tls
+net/textproto
+vendor/golang.org/x/net/http/httpguts
+vendor/golang.org/x/net/http/httpproxy
+vendor/golang.org/x/net/http2/hpack
+maps
+mime
+mime/quotedprintable
+mime/multipart
+net/http/internal
+net/http/internal/ascii
+html
+html/template
+github.com/spf13/cast
+net/http/httptrace
+github.com/spf13/viper/internal/encoding
+golang.org/x/text/encoding
+net/http
+golang.org/x/text/encoding/internal
+golang.org/x/text/encoding/unicode
+github.com/subosito/gotenv
+github.com/spf13/viper/internal/encoding/dotenv
+github.com/hashicorp/hcl/hcl/strconv
+github.com/hashicorp/hcl/hcl/token
+github.com/hashicorp/hcl/hcl/ast
+github.com/hashicorp/hcl/hcl/scanner
+github.com/hashicorp/hcl/hcl/parser
+github.com/hashicorp/hcl/json/token
+github.com/hashicorp/hcl/json/scanner
+github.com/hashicorp/hcl/json/parser
+github.com/hashicorp/hcl
+text/tabwriter
+github.com/hashicorp/hcl/hcl/printer
+github.com/spf13/viper/internal/encoding/hcl
+io/ioutil
+gopkg.in/ini.v1
+github.com/spf13/viper/internal/encoding/ini
+github.com/spf13/viper/internal/encoding/json
+github.com/pelletier/go-toml/v2/internal/danger
+github.com/pelletier/go-toml/v2/unstable
+github.com/pelletier/go-toml/v2/internal/tracker
+github.com/pelletier/go-toml/v2
+github.com/spf13/viper/internal/encoding/toml
+gopkg.in/yaml.v3
+github.com/spf13/viper/internal/encoding/yaml
+github.com/spf13/afero
+github.com/magiconair/properties
+github.com/spf13/viper/internal/encoding/javaproperties
+github.com/gogo/protobuf/proto
+github.com/spf13/viper
+github.com/gogo/protobuf/sortkeys
+gopkg.in/inf.v0
+github.com/google/gofuzz/bytesource
+github.com/google/gofuzz
+k8s.io/apimachinery/third_party/forked/golang/reflect
+k8s.io/apimachinery/pkg/conversion
+k8s.io/apimachinery/pkg/fields
+k8s.io/apimachinery/pkg/util/sets
+k8s.io/apimachinery/pkg/util/errors
+k8s.io/apimachinery/pkg/util/validation/field
+k8s.io/utils/internal/third_party/forked/golang/net
+k8s.io/utils/net
+k8s.io/apimachinery/pkg/util/validation
+github.com/go-logr/logr
+k8s.io/klog/v2/internal/severity
+k8s.io/klog/v2/internal/buffer
+k8s.io/klog/v2/internal/clock
+k8s.io/klog/v2/internal/dbg
+k8s.io/klog/v2/internal/serialize
+k8s.io/klog/v2/internal/sloghandler
+k8s.io/klog/v2
+k8s.io/apimachinery/pkg/api/resource
+go/token
+k8s.io/apimachinery/pkg/labels
+go/scanner
+go/ast
+go/doc/comment
+internal/lazyregexp
+go/build/constraint
+k8s.io/apimachinery/pkg/conversion/queryparams
+k8s.io/apimachinery/pkg/runtime/schema
+sigs.k8s.io/json/internal/golang/encoding/json
+go/doc
+go/internal/typeparams
+go/parser
+sigs.k8s.io/json
+k8s.io/apimachinery/pkg/util/json
+runtime/debug
+k8s.io/apimachinery/pkg/util/naming
+k8s.io/apimachinery/pkg/util/runtime
+github.com/modern-go/concurrent
+github.com/modern-go/reflect2
+gopkg.in/yaml.v2
+github.com/json-iterator/go
+k8s.io/apimachinery/pkg/util/intstr
+golang.org/x/text/unicode/bidi
+golang.org/x/text/secure/bidirule
+golang.org/x/net/idna
+golang.org/x/net/http/httpguts
+golang.org/x/net/http2/hpack
+golang.org/x/net/http2
+sigs.k8s.io/structured-merge-diff/v4/value
+k8s.io/apimachinery/pkg/runtime
+k8s.io/apimachinery/pkg/util/net
+hash/fnv
+k8s.io/apimachinery/pkg/watch
+google.golang.org/protobuf/internal/detrand
+google.golang.org/protobuf/internal/errors
+google.golang.org/protobuf/encoding/protowire
+k8s.io/apimachinery/pkg/apis/meta/v1
+google.golang.org/protobuf/internal/pragma
+google.golang.org/protobuf/reflect/protoreflect
+google.golang.org/protobuf/internal/encoding/messageset
+google.golang.org/protobuf/internal/strs
+google.golang.org/protobuf/internal/encoding/text
+google.golang.org/protobuf/internal/genid
+google.golang.org/protobuf/internal/order
+google.golang.org/protobuf/reflect/protoregistry
+google.golang.org/protobuf/runtime/protoiface
+google.golang.org/protobuf/proto
+google.golang.org/protobuf/encoding/prototext
+google.golang.org/protobuf/internal/editiondefaults
+google.golang.org/protobuf/internal/encoding/defval
+google.golang.org/protobuf/internal/descfmt
+google.golang.org/protobuf/internal/descopts
+google.golang.org/protobuf/internal/filedesc
+k8s.io/api/core/v1
+google.golang.org/protobuf/internal/encoding/tag
+google.golang.org/protobuf/internal/impl
+google.golang.org/protobuf/internal/filetype
+google.golang.org/protobuf/internal/version
+google.golang.org/protobuf/runtime/protoimpl
+google.golang.org/protobuf/types/descriptorpb
+google.golang.org/protobuf/types/gofeaturespb
+google.golang.org/protobuf/reflect/protodesc
+github.com/golang/protobuf/proto
+google.golang.org/protobuf/types/known/anypb
+github.com/golang/protobuf/ptypes/any
+google.golang.org/protobuf/types/known/durationpb
+github.com/golang/protobuf/ptypes/duration
+google.golang.org/protobuf/types/known/timestamppb
+github.com/golang/protobuf/ptypes/timestamp
+github.com/golang/protobuf/ptypes
+github.com/google/gnostic-models/extensions
+github.com/google/gnostic-models/jsonschema
+os/exec
+github.com/google/gnostic-models/compiler
+github.com/google/gnostic-models/openapiv2
+k8s.io/api/apidiscovery/v2
+k8s.io/api/apidiscovery/v2beta1
+k8s.io/apimachinery/pkg/api/errors
+k8s.io/apimachinery/pkg/runtime/serializer/recognizer
+k8s.io/apimachinery/pkg/util/framer
+sigs.k8s.io/yaml/goyaml.v2
+k8s.io/apimachinery/pkg/runtime/serializer/protobuf
+k8s.io/apimachinery/pkg/apis/meta/v1/unstructured
+sigs.k8s.io/yaml
+k8s.io/apimachinery/pkg/runtime/serializer/versioning
+k8s.io/apimachinery/pkg/util/yaml
+k8s.io/apimachinery/pkg/version
+k8s.io/api/admissionregistration/v1
+k8s.io/apimachinery/pkg/runtime/serializer/json
+k8s.io/apimachinery/pkg/runtime/serializer
+k8s.io/api/apiserverinternal/v1alpha1
+k8s.io/api/apps/v1
+k8s.io/api/admissionregistration/v1alpha1
+k8s.io/api/admissionregistration/v1beta1
+k8s.io/api/apps/v1beta1
+k8s.io/api/apps/v1beta2
+k8s.io/api/authentication/v1
+k8s.io/api/authentication/v1alpha1
+k8s.io/api/authentication/v1beta1
+k8s.io/api/authorization/v1
+k8s.io/api/authorization/v1beta1
+k8s.io/api/autoscaling/v1
+k8s.io/api/autoscaling/v2
+k8s.io/api/autoscaling/v2beta1
+k8s.io/api/autoscaling/v2beta2
+k8s.io/api/batch/v1
+k8s.io/api/certificates/v1
+k8s.io/api/batch/v1beta1
+k8s.io/api/certificates/v1alpha1
+k8s.io/api/certificates/v1beta1
+k8s.io/api/coordination/v1
+k8s.io/api/coordination/v1beta1
+k8s.io/api/discovery/v1
+k8s.io/api/discovery/v1beta1
+k8s.io/api/events/v1
+k8s.io/api/events/v1beta1
+k8s.io/api/extensions/v1beta1
+k8s.io/api/flowcontrol/v1
+k8s.io/api/flowcontrol/v1beta1
+k8s.io/api/flowcontrol/v1beta2
+k8s.io/api/flowcontrol/v1beta3
+k8s.io/api/networking/v1
+k8s.io/api/networking/v1alpha1
+k8s.io/api/networking/v1beta1
+k8s.io/api/node/v1
+k8s.io/api/node/v1alpha1
+k8s.io/api/node/v1beta1
+k8s.io/api/policy/v1
+k8s.io/api/policy/v1beta1
+k8s.io/api/rbac/v1
+k8s.io/api/rbac/v1alpha1
+k8s.io/api/rbac/v1beta1
+k8s.io/api/resource/v1alpha2
+k8s.io/api/scheduling/v1
+k8s.io/api/scheduling/v1alpha1
+k8s.io/api/scheduling/v1beta1
+k8s.io/api/storage/v1
+k8s.io/api/storage/v1alpha1
+k8s.io/api/storage/v1beta1
+k8s.io/api/storagemigration/v1alpha1
+k8s.io/apimachinery/pkg/api/meta
+k8s.io/client-go/kubernetes/scheme
+k8s.io/apimachinery/pkg/api/equality
+k8s.io/apimachinery/pkg/apis/meta/v1/validation
+github.com/google/gnostic-models/openapiv3
+k8s.io/apimachinery/pkg/api/validation
+github.com/josharian/intern
+github.com/mailru/easyjson/jlexer
+github.com/mailru/easyjson/buffer
+github.com/mailru/easyjson/jwriter
+github.com/go-openapi/swag
+github.com/go-openapi/jsonpointer
+github.com/go-openapi/jsonreference/internal
+github.com/go-openapi/jsonreference
+encoding/base32
+k8s.io/kube-openapi/pkg/internal/third_party/go-json-experiment/json
+k8s.io/kube-openapi/pkg/util/proto
+sigs.k8s.io/structured-merge-diff/v4/schema
+sigs.k8s.io/structured-merge-diff/v4/fieldpath
+k8s.io/kube-openapi/pkg/internal
+k8s.io/kube-openapi/pkg/validation/spec
+sigs.k8s.io/structured-merge-diff/v4/typed
+sigs.k8s.io/structured-merge-diff/v4/merge
+k8s.io/apimachinery/pkg/runtime/serializer/streaming
+k8s.io/client-go/pkg/apis/clientauthentication
+k8s.io/kube-openapi/pkg/schemaconv
+k8s.io/client-go/pkg/version
+golang.org/x/term
+k8s.io/apimachinery/pkg/util/managedfields/internal
+github.com/davecgh/go-spew/spew
+k8s.io/apimachinery/pkg/util/dump
+k8s.io/client-go/pkg/apis/clientauthentication/v1
+k8s.io/apimachinery/pkg/util/managedfields
+k8s.io/client-go/pkg/apis/clientauthentication/v1beta1
+k8s.io/client-go/pkg/apis/clientauthentication/install
+k8s.io/client-go/tools/clientcmd/api
+k8s.io/client-go/tools/metrics
+golang.org/x/oauth2/internal
+k8s.io/utils/clock
+k8s.io/apimachinery/pkg/util/wait
+golang.org/x/oauth2
+k8s.io/client-go/util/connrotation
+container/heap
+golang.org/x/time/rate
+k8s.io/client-go/rest/watch
+k8s.io/client-go/util/keyutil
+k8s.io/client-go/util/workqueue
+k8s.io/client-go/util/cert
+k8s.io/utils/clock/testing
+k8s.io/client-go/util/flowcontrol
+k8s.io/client-go/transport
+database/sql/driver
+github.com/google/uuid
+k8s.io/client-go/plugin/pkg/client/auth/exec
+github.com/munnerz/goautoneg
+k8s.io/kube-openapi/pkg/cached
+hash/adler32
+compress/zlib
+encoding/xml
+k8s.io/client-go/rest
+github.com/emicklei/go-restful/v3/log
+k8s.io/kube-openapi/pkg/spec3
+github.com/emicklei/go-restful/v3
+k8s.io/client-go/applyconfigurations/internal
+k8s.io/kube-openapi/pkg/common
+k8s.io/client-go/kubernetes/typed/authentication/v1
+k8s.io/client-go/kubernetes/typed/authentication/v1alpha1
+k8s.io/kube-openapi/pkg/handler3
+k8s.io/client-go/kubernetes/typed/authentication/v1beta1
+k8s.io/client-go/kubernetes/typed/authorization/v1
+k8s.io/client-go/kubernetes/typed/authorization/v1beta1
+k8s.io/client-go/tools/reference
+k8s.io/client-go/openapi
+github.com/imdario/mergo
+k8s.io/client-go/discovery
+k8s.io/client-go/tools/auth
+k8s.io/client-go/tools/clientcmd/api/v1
+k8s.io/client-go/applyconfigurations/meta/v1
+k8s.io/client-go/tools/clientcmd/api/latest
+k8s.io/client-go/util/homedir
+k8s.io/client-go/tools/clientcmd
+k8s.io/client-go/applyconfigurations/admissionregistration/v1
+k8s.io/client-go/kubernetes/typed/admissionregistration/v1
+k8s.io/client-go/applyconfigurations/admissionregistration/v1alpha1
+k8s.io/client-go/applyconfigurations/admissionregistration/v1beta1
+k8s.io/client-go/kubernetes/typed/admissionregistration/v1alpha1
+k8s.io/client-go/kubernetes/typed/admissionregistration/v1beta1
+k8s.io/client-go/applyconfigurations/apiserverinternal/v1alpha1
+k8s.io/client-go/kubernetes/typed/apiserverinternal/v1alpha1
+k8s.io/client-go/applyconfigurations/core/v1
+k8s.io/client-go/applyconfigurations/autoscaling/v1
+k8s.io/client-go/kubernetes/typed/autoscaling/v1
+k8s.io/client-go/applyconfigurations/autoscaling/v2
+k8s.io/client-go/kubernetes/typed/autoscaling/v2
+k8s.io/client-go/applyconfigurations/autoscaling/v2beta1
+k8s.io/client-go/kubernetes/typed/autoscaling/v2beta1
+k8s.io/client-go/applyconfigurations/autoscaling/v2beta2
+k8s.io/client-go/kubernetes/typed/autoscaling/v2beta2
+k8s.io/client-go/applyconfigurations/certificates/v1
+k8s.io/client-go/kubernetes/typed/certificates/v1
+k8s.io/client-go/applyconfigurations/certificates/v1alpha1
+k8s.io/client-go/kubernetes/typed/certificates/v1alpha1
+k8s.io/client-go/applyconfigurations/certificates/v1beta1
+k8s.io/client-go/applyconfigurations/apps/v1
+k8s.io/client-go/applyconfigurations/apps/v1beta1
+k8s.io/client-go/kubernetes/typed/apps/v1beta1
+k8s.io/client-go/kubernetes/typed/apps/v1
+k8s.io/client-go/applyconfigurations/apps/v1beta2
+k8s.io/client-go/applyconfigurations/batch/v1
+k8s.io/client-go/kubernetes/typed/apps/v1beta2
+k8s.io/client-go/kubernetes/typed/batch/v1
+k8s.io/client-go/applyconfigurations/batch/v1beta1
+k8s.io/client-go/kubernetes/typed/certificates/v1beta1
+k8s.io/client-go/applyconfigurations/coordination/v1
+k8s.io/client-go/kubernetes/typed/batch/v1beta1
+k8s.io/client-go/kubernetes/typed/coordination/v1
+k8s.io/client-go/applyconfigurations/coordination/v1beta1
+k8s.io/client-go/kubernetes/typed/core/v1
+k8s.io/client-go/kubernetes/typed/coordination/v1beta1
+k8s.io/client-go/applyconfigurations/discovery/v1
+k8s.io/client-go/kubernetes/typed/discovery/v1
+k8s.io/client-go/applyconfigurations/discovery/v1beta1
+k8s.io/client-go/kubernetes/typed/discovery/v1beta1
+k8s.io/client-go/applyconfigurations/events/v1
+k8s.io/client-go/kubernetes/typed/events/v1
+k8s.io/client-go/applyconfigurations/events/v1beta1
+k8s.io/client-go/applyconfigurations/extensions/v1beta1
+k8s.io/client-go/kubernetes/typed/events/v1beta1
+k8s.io/client-go/applyconfigurations/flowcontrol/v1
+k8s.io/client-go/kubernetes/typed/flowcontrol/v1
+k8s.io/client-go/kubernetes/typed/extensions/v1beta1
+k8s.io/client-go/applyconfigurations/flowcontrol/v1beta1
+k8s.io/client-go/kubernetes/typed/flowcontrol/v1beta1
+k8s.io/client-go/applyconfigurations/flowcontrol/v1beta2
+k8s.io/client-go/applyconfigurations/flowcontrol/v1beta3
+k8s.io/client-go/kubernetes/typed/flowcontrol/v1beta2
+k8s.io/client-go/kubernetes/typed/flowcontrol/v1beta3
+k8s.io/client-go/applyconfigurations/networking/v1
+k8s.io/client-go/applyconfigurations/networking/v1alpha1
+k8s.io/client-go/kubernetes/typed/networking/v1alpha1
+k8s.io/client-go/kubernetes/typed/networking/v1
+k8s.io/client-go/applyconfigurations/networking/v1beta1
+k8s.io/client-go/applyconfigurations/node/v1
+k8s.io/client-go/kubernetes/typed/networking/v1beta1
+k8s.io/client-go/kubernetes/typed/node/v1
+k8s.io/client-go/applyconfigurations/node/v1alpha1
+k8s.io/client-go/applyconfigurations/node/v1beta1
+k8s.io/client-go/kubernetes/typed/node/v1alpha1
+k8s.io/client-go/kubernetes/typed/node/v1beta1
+k8s.io/client-go/applyconfigurations/policy/v1
+k8s.io/client-go/applyconfigurations/policy/v1beta1
+k8s.io/client-go/kubernetes/typed/policy/v1
+k8s.io/client-go/kubernetes/typed/policy/v1beta1
+k8s.io/client-go/applyconfigurations/rbac/v1
+k8s.io/client-go/applyconfigurations/rbac/v1alpha1
+k8s.io/client-go/kubernetes/typed/rbac/v1
+k8s.io/client-go/kubernetes/typed/rbac/v1alpha1
+k8s.io/client-go/applyconfigurations/rbac/v1beta1
+k8s.io/client-go/applyconfigurations/resource/v1alpha2
+k8s.io/client-go/kubernetes/typed/rbac/v1beta1
+k8s.io/client-go/applyconfigurations/scheduling/v1
+k8s.io/client-go/kubernetes/typed/resource/v1alpha2
+k8s.io/client-go/kubernetes/typed/scheduling/v1
+k8s.io/client-go/applyconfigurations/scheduling/v1alpha1
+k8s.io/client-go/applyconfigurations/scheduling/v1beta1
+k8s.io/client-go/kubernetes/typed/scheduling/v1alpha1
+k8s.io/client-go/applyconfigurations/storage/v1
+k8s.io/client-go/kubernetes/typed/scheduling/v1beta1
+k8s.io/client-go/applyconfigurations/storage/v1alpha1
+k8s.io/client-go/kubernetes/typed/storage/v1
+k8s.io/client-go/kubernetes/typed/storage/v1alpha1
+k8s.io/client-go/applyconfigurations/storage/v1beta1
+k8s.io/client-go/applyconfigurations/storagemigration/v1alpha1
+k8s.io/client-go/kubernetes/typed/storagemigration/v1alpha1
+k8s.io/client-go/kubernetes/typed/storage/v1beta1
+k8s.io/client-go/kubernetes
+github.com/noironetworks/aci-containers/cmd/acikubectl/cmd
+github.com/noironetworks/aci-containers/cmd/acikubectl
+make: Leaving directory '/tmp/noironetworks/aci-containers'
+travis_time:end:05d5b110:start=1734688436168463537,finish=1734688533273278621,duration=97104815084,event=script[0K[32;1mThe command "make -C . dist-static/acikubectl || travis_terminate 1" exited with 0.[0m
+travis_time:start:02a501fc[0K$ popd
+~/build/noironetworks/acc-provision
+travis_time:end:02a501fc:start=1734688533278457176,finish=1734688533281506004,duration=3048828,event=script[0K[32;1mThe command "popd" exited with 0.[0m
+travis_time:start:0b45aece[0K$ cp /tmp/noironetworks/aci-containers/dist-static/acikubectl provision/bin/acikubectl || travis_terminate 1
+travis_time:end:0b45aece:start=1734688533286286455,finish=1734688533410158719,duration=123872264,event=script[0K[32;1mThe command "cp /tmp/noironetworks/aci-containers/dist-static/acikubectl provision/bin/acikubectl || travis_terminate 1" exited with 0.[0m
+travis_time:start:2ccfdf63[0K$ /tmp/cicd/travis/build-acc-provision.sh || travis_terminate 1
+++dirname /tmp/cicd/travis/build-acc-provision.sh
++SCRIPTS_DIR=/tmp/cicd/travis
++source /tmp/cicd/travis/globals.sh
+++set -x
+++RELEASE_TAG=6.1.1.2
+++export RELEASE_TAG
++++date +%m%d%y
+++DATE_TAG=122024
+++TRAVIS_TAG_WITH_UPSTREAM_ID=6.1.1.2.81c2369
+++TRAVIS_TAG_WITH_UPSTREAM_ID_DATE_TRAVIS_BUILD_NUMBER=6.1.1.2.81c2369.122024.10358
+++IMAGE_TAG=6.1.1.2.81c2369
+++UPSTREAM_IMAGE_TAG=6.1.1.2.81c2369
+++UPSTREAM_IMAGE_Z_TAG=6.1.1.2.81c2369.z
+++IMAGE_Z_TAG=6.1.1.2.81c2369.z
+++RELEASE_Z_TAG=6.1.1.2.z
+++RC_PREFIX=6.1.1.2rc
+++RC_REGEX='6.1.1.2rc[0-9]+'
+++QUAY_REGISTRY=quay.io/noirolabs
+++QUAY_NOIRO_REGISTRY=quay.io/noiro
+++DOCKER_REGISTRY=docker.io/noiro
+++CICD_STATUS_REPO=https://github.com/noironetworks/cicd-status.git
++pushd provision
+~/build/noironetworks/acc-provision/provision ~/build/noironetworks/acc-provision
+++python3 setup.py --version
++VERSION=6.1.1.2
++OVERRIDE_VERSION=6.1.1.2
++sed -i s/6.1.1.2/6.1.1.2/ setup.py
++[[ 6.1.1.2 = \6\.\1\.\1\.\2 ]]
++echo 'Travis tag matches release tag 6.1.1.2, preserving image tags in versions.yaml'
+Travis tag matches release tag 6.1.1.2, preserving image tags in versions.yaml
++cat acc_provision/versions.yaml
++grep 6.1.1.2
+    acc_provision_operator_version: 6.1.1.2.81c2369
+    aci_containers_controller_version: 6.1.1.2.81c2369
+    aci_containers_host_version: 6.1.1.2.81c2369
+    aci_containers_operator_version: 6.1.1.2.81c2369
+    cnideploy_version: 6.1.1.2.81c2369
+    openvswitch_version: 6.1.1.2.81c2369
+    opflex_agent_version: 6.1.1.2.81c2369
+    opflex_server_version: 6.1.1.2.81c2369
+    gbp_version: 6.1.1.2.81c2369
+    aci_containers_webhook_version: 6.1.1.2.81c2369
+    aci_containers_certmanager_version: 6.1.1.2.81c2369
+    aci_containers_host_ovscni_version: 6.1.1.2.81c2369
++exit 0
+travis_time:end:2ccfdf63:start=1734688533415187934,finish=1734688533599110674,duration=183922740,event=script[0K[32;1mThe command "/tmp/cicd/travis/build-acc-provision.sh || travis_terminate 1" exited with 0.[0m
+travis_time:start:0294c468[0K$ pip install -U twine
+Collecting twine
+  Obtaining dependency information for twine from https://files.pythonhosted.org/packages/21/df/dda5f85131ecc0d31e10f6dc6be98440ef9f685947917b86f462eed6864b/twine-6.0.1-py3-none-any.whl.metadata
+  Downloading twine-6.0.1-py3-none-any.whl.metadata (3.7 kB)
+Collecting pkginfo>=1.8.1 (from twine)
+  Obtaining dependency information for pkginfo>=1.8.1 from https://files.pythonhosted.org/packages/21/11/4af184fbd8ae13daa13953212b27a212f4e63772ca8a0dd84d08b60ed206/pkginfo-1.12.0-py3-none-any.whl.metadata
+  Downloading pkginfo-1.12.0-py3-none-any.whl.metadata (12 kB)
+Collecting readme-renderer>=35.0 (from twine)
+  Obtaining dependency information for readme-renderer>=35.0 from https://files.pythonhosted.org/packages/e1/67/921ec3024056483db83953ae8e48079ad62b92db7880013ca77632921dd0/readme_renderer-44.0-py3-none-any.whl.metadata
+  Downloading readme_renderer-44.0-py3-none-any.whl.metadata (2.8 kB)
+Requirement already satisfied: requests>=2.20 in /home/travis/virtualenv/python3.9.18/lib/python3.9/site-packages (from twine) (2.32.3)
+Collecting requests-toolbelt!=0.9.0,>=0.8.0 (from twine)
+  Obtaining dependency information for requests-toolbelt!=0.9.0,>=0.8.0 from https://files.pythonhosted.org/packages/3f/51/d4db610ef29373b879047326cbf6fa98b6c1969d6f6dc423279de2b1be2c/requests_toolbelt-1.0.0-py2.py3-none-any.whl.metadata
+  Downloading requests_toolbelt-1.0.0-py2.py3-none-any.whl.metadata (14 kB)
+Requirement already satisfied: urllib3>=1.26.0 in /home/travis/virtualenv/python3.9.18/lib/python3.9/site-packages (from twine) (2.2.3)
+Collecting importlib-metadata>=3.6 (from twine)
+  Obtaining dependency information for importlib-metadata>=3.6 from https://files.pythonhosted.org/packages/a0/d9/a1e041c5e7caa9a05c925f4bdbdfb7f006d1f74996af53467bc394c97be7/importlib_metadata-8.5.0-py3-none-any.whl.metadata
+  Downloading importlib_metadata-8.5.0-py3-none-any.whl.metadata (4.8 kB)
+Collecting keyring>=15.1 (from twine)
+  Obtaining dependency information for keyring>=15.1 from https://files.pythonhosted.org/packages/32/c9/353c156fa2f057e669106e5d6bcdecf85ef8d3536ce68ca96f18dc7b6d6f/keyring-25.5.0-py3-none-any.whl.metadata
+  Downloading keyring-25.5.0-py3-none-any.whl.metadata (20 kB)
+Collecting rfc3986>=1.4.0 (from twine)
+  Obtaining dependency information for rfc3986>=1.4.0 from https://files.pythonhosted.org/packages/ff/9a/9afaade874b2fa6c752c36f1548f718b5b83af81ed9b76628329dab81c1b/rfc3986-2.0.0-py2.py3-none-any.whl.metadata
+  Downloading rfc3986-2.0.0-py2.py3-none-any.whl.metadata (6.6 kB)
+Collecting rich>=12.0.0 (from twine)
+  Obtaining dependency information for rich>=12.0.0 from https://files.pythonhosted.org/packages/19/71/39c7c0d87f8d4e6c020a393182060eaefeeae6c01dab6a84ec346f2567df/rich-13.9.4-py3-none-any.whl.metadata
+  Downloading rich-13.9.4-py3-none-any.whl.metadata (18 kB)
+Requirement already satisfied: packaging in /home/travis/virtualenv/python3.9.18/lib/python3.9/site-packages (from twine) (23.1)
+Collecting zipp>=3.20 (from importlib-metadata>=3.6->twine)
+  Obtaining dependency information for zipp>=3.20 from https://files.pythonhosted.org/packages/b7/1a/7e4798e9339adc931158c9d69ecc34f5e6791489d469f5e50ec15e35f458/zipp-3.21.0-py3-none-any.whl.metadata
+  Downloading zipp-3.21.0-py3-none-any.whl.metadata (3.7 kB)
+Collecting jaraco.classes (from keyring>=15.1->twine)
+  Obtaining dependency information for jaraco.classes from https://files.pythonhosted.org/packages/7f/66/b15ce62552d84bbfcec9a4873ab79d993a1dd4edb922cbfccae192bd5b5f/jaraco.classes-3.4.0-py3-none-any.whl.metadata
+  Downloading jaraco.classes-3.4.0-py3-none-any.whl.metadata (2.6 kB)
+Collecting jaraco.functools (from keyring>=15.1->twine)
+  Obtaining dependency information for jaraco.functools from https://files.pythonhosted.org/packages/9f/4f/24b319316142c44283d7540e76c7b5a6dbd5db623abd86bb7b3491c21018/jaraco.functools-4.1.0-py3-none-any.whl.metadata
+  Downloading jaraco.functools-4.1.0-py3-none-any.whl.metadata (2.9 kB)
+Collecting jaraco.context (from keyring>=15.1->twine)
+  Obtaining dependency information for jaraco.context from https://files.pythonhosted.org/packages/ff/db/0c52c4cf5e4bd9f5d7135ec7669a3a767af21b3a308e1ed3674881e52b62/jaraco.context-6.0.1-py3-none-any.whl.metadata
+  Downloading jaraco.context-6.0.1-py3-none-any.whl.metadata (4.1 kB)
+Collecting SecretStorage>=3.2 (from keyring>=15.1->twine)
+  Obtaining dependency information for SecretStorage>=3.2 from https://files.pythonhosted.org/packages/54/24/b4293291fa1dd830f353d2cb163295742fa87f179fcc8a20a306a81978b7/SecretStorage-3.3.3-py3-none-any.whl.metadata
+  Downloading SecretStorage-3.3.3-py3-none-any.whl.metadata (4.0 kB)
+Collecting jeepney>=0.4.2 (from keyring>=15.1->twine)
+  Obtaining dependency information for jeepney>=0.4.2 from https://files.pythonhosted.org/packages/ae/72/2a1e2290f1ab1e06f71f3d0f1646c9e4634e70e1d37491535e19266e8dc9/jeepney-0.8.0-py3-none-any.whl.metadata
+  Downloading jeepney-0.8.0-py3-none-any.whl.metadata (1.3 kB)
+Collecting nh3>=0.2.14 (from readme-renderer>=35.0->twine)
+  Obtaining dependency information for nh3>=0.2.14 from https://files.pythonhosted.org/packages/e6/0e/c499453c296fb40366e3069cd68fde77a10f0a30a17b9d3b491eb3ebc5bf/nh3-0.2.20-cp38-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata
+  Downloading nh3-0.2.20-cp38-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (2.0 kB)
+Collecting docutils>=0.21.2 (from readme-renderer>=35.0->twine)
+  Obtaining dependency information for docutils>=0.21.2 from https://files.pythonhosted.org/packages/8f/d7/9322c609343d929e75e7e5e6255e614fcc67572cfd083959cdef3b7aad79/docutils-0.21.2-py3-none-any.whl.metadata
+  Downloading docutils-0.21.2-py3-none-any.whl.metadata (2.8 kB)
+Collecting Pygments>=2.5.1 (from readme-renderer>=35.0->twine)
+  Obtaining dependency information for Pygments>=2.5.1 from https://files.pythonhosted.org/packages/f7/3f/01c8b82017c199075f8f788d0d906b9ffbbc5a47dc9918a945e13d5a2bda/pygments-2.18.0-py3-none-any.whl.metadata
+  Downloading pygments-2.18.0-py3-none-any.whl.metadata (2.5 kB)
+Requirement already satisfied: charset-normalizer<4,>=2 in /home/travis/virtualenv/python3.9.18/lib/python3.9/site-packages (from requests>=2.20->twine) (3.4.0)
+Requirement already satisfied: idna<4,>=2.5 in /home/travis/virtualenv/python3.9.18/lib/python3.9/site-packages (from requests>=2.20->twine) (3.10)
+Requirement already satisfied: certifi>=2017.4.17 in /home/travis/virtualenv/python3.9.18/lib/python3.9/site-packages (from requests>=2.20->twine) (2023.7.22)
+Collecting markdown-it-py>=2.2.0 (from rich>=12.0.0->twine)
+  Obtaining dependency information for markdown-it-py>=2.2.0 from https://files.pythonhosted.org/packages/42/d7/1ec15b46af6af88f19b8e5ffea08fa375d433c998b8a7639e76935c14f1f/markdown_it_py-3.0.0-py3-none-any.whl.metadata
+  Downloading markdown_it_py-3.0.0-py3-none-any.whl.metadata (6.9 kB)
+Collecting typing-extensions<5.0,>=4.0.0 (from rich>=12.0.0->twine)
+  Obtaining dependency information for typing-extensions<5.0,>=4.0.0 from https://files.pythonhosted.org/packages/26/9f/ad63fc0248c5379346306f8668cda6e2e2e9c95e01216d2b8ffd9ff037d0/typing_extensions-4.12.2-py3-none-any.whl.metadata
+  Downloading typing_extensions-4.12.2-py3-none-any.whl.metadata (3.0 kB)
+Collecting mdurl~=0.1 (from markdown-it-py>=2.2.0->rich>=12.0.0->twine)
+  Obtaining dependency information for mdurl~=0.1 from https://files.pythonhosted.org/packages/b3/38/89ba8ad64ae25be8de66a6d463314cf1eb366222074cfda9ee839c56a4b4/mdurl-0.1.2-py3-none-any.whl.metadata
+  Downloading mdurl-0.1.2-py3-none-any.whl.metadata (1.6 kB)
+Requirement already satisfied: cryptography>=2.0 in /home/travis/virtualenv/python3.9.18/lib/python3.9/site-packages (from SecretStorage>=3.2->keyring>=15.1->twine) (44.0.0)
+Collecting more-itertools (from jaraco.classes->keyring>=15.1->twine)
+  Obtaining dependency information for more-itertools from https://files.pythonhosted.org/packages/48/7e/3a64597054a70f7c86eb0a7d4fc315b8c1ab932f64883a297bdffeb5f967/more_itertools-10.5.0-py3-none-any.whl.metadata
+  Downloading more_itertools-10.5.0-py3-none-any.whl.metadata (36 kB)
+Collecting backports.tarfile (from jaraco.context->keyring>=15.1->twine)
+  Obtaining dependency information for backports.tarfile from https://files.pythonhosted.org/packages/b9/fa/123043af240e49752f1c4bd24da5053b6bd00cad78c2be53c0d1e8b975bc/backports.tarfile-1.2.0-py3-none-any.whl.metadata
+  Downloading backports.tarfile-1.2.0-py3-none-any.whl.metadata (2.0 kB)
+Requirement already satisfied: cffi>=1.12 in /home/travis/virtualenv/python3.9.18/lib/python3.9/site-packages (from cryptography>=2.0->SecretStorage>=3.2->keyring>=15.1->twine) (1.17.1)
+Requirement already satisfied: pycparser in /home/travis/virtualenv/python3.9.18/lib/python3.9/site-packages (from cffi>=1.12->cryptography>=2.0->SecretStorage>=3.2->keyring>=15.1->twine) (2.22)
+Downloading twine-6.0.1-py3-none-any.whl (39 kB)
+Downloading importlib_metadata-8.5.0-py3-none-any.whl (26 kB)
+Downloading keyring-25.5.0-py3-none-any.whl (39 kB)
+Downloading pkginfo-1.12.0-py3-none-any.whl (32 kB)
+Downloading readme_renderer-44.0-py3-none-any.whl (13 kB)
+Downloading requests_toolbelt-1.0.0-py2.py3-none-any.whl (54 kB)
+Downloading rfc3986-2.0.0-py2.py3-none-any.whl (31 kB)
+Downloading rich-13.9.4-py3-none-any.whl (242 kB)
+Downloading docutils-0.21.2-py3-none-any.whl (587 kB)
+Downloading jeepney-0.8.0-py3-none-any.whl (48 kB)
+Downloading markdown_it_py-3.0.0-py3-none-any.whl (87 kB)
+Downloading nh3-0.2.20-cp38-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (744 kB)
+Downloading pygments-2.18.0-py3-none-any.whl (1.2 MB)
+Downloading SecretStorage-3.3.3-py3-none-any.whl (15 kB)
+Downloading typing_extensions-4.12.2-py3-none-any.whl (37 kB)
+Downloading zipp-3.21.0-py3-none-any.whl (9.6 kB)
+Downloading jaraco.classes-3.4.0-py3-none-any.whl (6.8 kB)
+Downloading jaraco.context-6.0.1-py3-none-any.whl (6.8 kB)
+Downloading jaraco.functools-4.1.0-py3-none-any.whl (10 kB)
+Downloading mdurl-0.1.2-py3-none-any.whl (10.0 kB)
+Downloading backports.tarfile-1.2.0-py3-none-any.whl (30 kB)
+Downloading more_itertools-10.5.0-py3-none-any.whl (60 kB)
+Installing collected packages: zipp, typing-extensions, rfc3986, Pygments, pkginfo, nh3, more-itertools, mdurl, jeepney, docutils, backports.tarfile, requests-toolbelt, readme-renderer, markdown-it-py, jaraco.functools, jaraco.context, jaraco.classes, importlib-metadata, SecretStorage, rich, keyring, twine
+Successfully installed Pygments-2.18.0 SecretStorage-3.3.3 backports.tarfile-1.2.0 docutils-0.21.2 importlib-metadata-8.5.0 jaraco.classes-3.4.0 jaraco.context-6.0.1 jaraco.functools-4.1.0 jeepney-0.8.0 keyring-25.5.0 markdown-it-py-3.0.0 mdurl-0.1.2 more-itertools-10.5.0 nh3-0.2.20 pkginfo-1.12.0 readme-renderer-44.0 requests-toolbelt-1.0.0 rfc3986-2.0.0 rich-13.9.4 twine-6.0.1 typing-extensions-4.12.2 zipp-3.21.0
+travis_time:end:0294c468:start=1734688533604010982,finish=1734688540392750127,duration=6788739145,event=script[0K[32;1mThe command "pip install -U twine" exited with 0.[0m
+travis_time:start:13937160[0K$ /tmp/cicd/travis/push-to-pypi.sh
+++dirname /tmp/cicd/travis/push-to-pypi.sh
++SCRIPTS_DIR=/tmp/cicd/travis
++source /tmp/cicd/travis/globals.sh
+++set -x
+++RELEASE_TAG=6.1.1.2
+++export RELEASE_TAG
++++date +%m%d%y
+++DATE_TAG=122024
+++TRAVIS_TAG_WITH_UPSTREAM_ID=6.1.1.2.81c2369
+++TRAVIS_TAG_WITH_UPSTREAM_ID_DATE_TRAVIS_BUILD_NUMBER=6.1.1.2.81c2369.122024.10358
+++IMAGE_TAG=6.1.1.2.81c2369
+++UPSTREAM_IMAGE_TAG=6.1.1.2.81c2369
+++UPSTREAM_IMAGE_Z_TAG=6.1.1.2.81c2369.z
+++IMAGE_Z_TAG=6.1.1.2.81c2369.z
+++RELEASE_Z_TAG=6.1.1.2.z
+++RC_PREFIX=6.1.1.2rc
+++RC_REGEX='6.1.1.2rc[0-9]+'
+++QUAY_REGISTRY=quay.io/noirolabs
+++QUAY_NOIRO_REGISTRY=quay.io/noiro
+++DOCKER_REGISTRY=docker.io/noiro
+++CICD_STATUS_REPO=https://github.com/noironetworks/cicd-status.git
++TEST_PYPI_RELEASE_HINT='release to test.pypi.org'
++PYPI_RELEASE_HINT='release to pypi.org'
+++git show -s --format=%B 6.1.1.2
+++grep -i 'release to test.pypi.org'
++TEST_PYPI_RELEASE=
+++git show -s --format=%B 6.1.1.2
+++grep -i 'release to pypi.org'
++PYPI_RELEASE='Release 6.1.1.2 release to pypi.org'
++[[ -z '' ]]
++[[ -z Release 6.1.1.2 release to pypi.org ]]
+++git tag -v 6.1.1.2
+++grep -i B6878A5BBF81C515428FA14E4CA0BB04A10CDFE1
++SIGNED_RELEASE='gpg:                using RSA key B6878A5BBF81C515428FA14E4CA0BB04A10CDFE1'
+++git tag -v 6.1.1.2
+++grep -i sumitnaiksatam@gmail.com
++SIGNED_EMAIL='tagger snaiksat <sumitnaiksatam@gmail.com> 1734688240 -0500'
++'[' -n 'Release 6.1.1.2 release to pypi.org' ']'
++'[' -z 'gpg:                using RSA key B6878A5BBF81C515428FA14E4CA0BB04A10CDFE1' ']'
++pushd provision
+~/build/noironetworks/acc-provision/provision ~/build/noironetworks/acc-provision
++python setup.py --description
+Tool to provision ACI for ACI Containers Controller  Build info: Git commit ID: 60753b18b4cf578e85f0baf0831dbfbf9067c1e8 Build time: 12-20-2024.09:55:40.UTC 
++WHEEL_NAME=acc_provision-6.1.1.2.tar.gz
++TAG_NAME=6.1.1.2
++DEV_WHEEL_NAME=acc_provision-6.1.1.2.dev10358.tar.gz
++DEV_TAG_NAME=6.1.1.2.dev10358
++TWINE_UPLOAD=true
++'[' -n 'Release 6.1.1.2 release to pypi.org' ']'
++python setup.py sdist
+running sdist
+running egg_info
+writing acc_provision.egg-info/PKG-INFO
+writing dependency_links to acc_provision.egg-info/dependency_links.txt
+writing entry points to acc_provision.egg-info/entry_points.txt
+writing requirements to acc_provision.egg-info/requires.txt
+writing top-level names to acc_provision.egg-info/top_level.txt
+reading manifest file 'acc_provision.egg-info/SOURCES.txt'
+reading manifest template 'MANIFEST.in'
+writing manifest file 'acc_provision.egg-info/SOURCES.txt'
+running check
+creating acc_provision-6.1.1.2
+creating acc_provision-6.1.1.2/acc_provision
+creating acc_provision-6.1.1.2/acc_provision.egg-info
+creating acc_provision-6.1.1.2/acc_provision/templates
+creating acc_provision-6.1.1.2/bin
+creating acc_provision-6.1.1.2/debian
+creating acc_provision-6.1.1.2/debian/source
+creating acc_provision-6.1.1.2/gitversion
+creating acc_provision-6.1.1.2/rpm
+copying files to acc_provision-6.1.1.2...
+copying MANIFEST.in -> acc_provision-6.1.1.2
+copying README.md -> acc_provision-6.1.1.2
+copying setup.py -> acc_provision-6.1.1.2
+copying acc_provision/RELEASE-VERSION -> acc_provision-6.1.1.2/acc_provision
+copying acc_provision/__init__.py -> acc_provision-6.1.1.2/acc_provision
+copying acc_provision/acc_provision.py -> acc_provision-6.1.1.2/acc_provision
+copying acc_provision/acc_retrieve_cert.py -> acc_provision-6.1.1.2/acc_provision
+copying acc_provision/aci_set_service_bd_routing_disable_yes.py -> acc_provision-6.1.1.2/acc_provision
+copying acc_provision/apic_provision.py -> acc_provision-6.1.1.2/acc_provision
+copying acc_provision/flavors.yaml -> acc_provision-6.1.1.2/acc_provision
+copying acc_provision/test_main.py -> acc_provision-6.1.1.2/acc_provision
+copying acc_provision/versions.yaml -> acc_provision-6.1.1.2/acc_provision
+copying acc_provision.egg-info/PKG-INFO -> acc_provision-6.1.1.2/acc_provision.egg-info
+copying acc_provision.egg-info/SOURCES.txt -> acc_provision-6.1.1.2/acc_provision.egg-info
+copying acc_provision.egg-info/dependency_links.txt -> acc_provision-6.1.1.2/acc_provision.egg-info
+copying acc_provision.egg-info/entry_points.txt -> acc_provision-6.1.1.2/acc_provision.egg-info
+copying acc_provision.egg-info/not-zip-safe -> acc_provision-6.1.1.2/acc_provision.egg-info
+copying acc_provision.egg-info/requires.txt -> acc_provision-6.1.1.2/acc_provision.egg-info
+copying acc_provision.egg-info/top_level.txt -> acc_provision-6.1.1.2/acc_provision.egg-info
+copying acc_provision/templates/99-master-kubelet-node-ip.yaml -> acc_provision-6.1.1.2/acc_provision/templates
+copying acc_provision/templates/99-worker-kubelet-node-ip.yaml -> acc_provision-6.1.1.2/acc_provision/templates
+copying acc_provision/templates/99-worker-kubelet-node-port.yaml -> acc_provision-6.1.1.2/acc_provision/templates
+copying acc_provision/templates/__init__.py -> acc_provision-6.1.1.2/acc_provision/templates
+copying acc_provision/templates/acc-provision-configmap.yaml -> acc_provision-6.1.1.2/acc_provision/templates
+copying acc_provision/templates/acc-provision-crd.yaml -> acc_provision-6.1.1.2/acc_provision/templates
+copying acc_provision/templates/aci-containers.yaml -> acc_provision-6.1.1.2/acc_provision/templates
+copying acc_provision/templates/aci-network-provider-cluster-1-3-13.yaml -> acc_provision-6.1.1.2/acc_provision/templates
+copying acc_provision/templates/aci-network-provider-cluster-1-3-17.yaml -> acc_provision-6.1.1.2/acc_provision/templates
+copying acc_provision/templates/aci-network-provider-cluster-1-3-18.yaml -> acc_provision-6.1.1.2/acc_provision/templates
+copying acc_provision/templates/aci-network-provider-cluster-1-3-20.yaml -> acc_provision-6.1.1.2/acc_provision/templates
+copying acc_provision/templates/aci-network-provider-cluster-1-3-21.yaml -> acc_provision-6.1.1.2/acc_provision/templates
+copying acc_provision/templates/aci-network-provider-cluster-1-3-24.yaml -> acc_provision-6.1.1.2/acc_provision/templates
+copying acc_provision/templates/aci-network-provider-cluster-1-4-13.yaml -> acc_provision-6.1.1.2/acc_provision/templates
+copying acc_provision/templates/aci-network-provider-cluster-1-4-16.yaml -> acc_provision-6.1.1.2/acc_provision/templates
+copying acc_provision/templates/aci-network-provider-cluster-1-4-20.yaml -> acc_provision-6.1.1.2/acc_provision/templates
+copying acc_provision/templates/aci-network-provider-cluster-1-4-6.yaml -> acc_provision-6.1.1.2/acc_provision/templates
+copying acc_provision/templates/aci-network-provider-cluster-1-4-9.yaml -> acc_provision-6.1.1.2/acc_provision/templates
+copying acc_provision/templates/aci-network-provider-cluster-1-5-11.yaml -> acc_provision-6.1.1.2/acc_provision/templates
+copying acc_provision/templates/aci-network-provider-cluster-1-5-13.yaml -> acc_provision-6.1.1.2/acc_provision/templates
+copying acc_provision/templates/aci-network-provider-cluster-1-5-14.yaml -> acc_provision-6.1.1.2/acc_provision/templates
+copying acc_provision/templates/aci-network-provider-cluster-1-5-3.yaml -> acc_provision-6.1.1.2/acc_provision/templates
+copying acc_provision/templates/aci-network-provider-cluster-1-5-6.yaml -> acc_provision-6.1.1.2/acc_provision/templates
+copying acc_provision/templates/aci-network-provider-cluster-1-6-0.yaml -> acc_provision-6.1.1.2/acc_provision/templates
+copying acc_provision/templates/aci-network-provider-cluster-1-6-2.yaml -> acc_provision-6.1.1.2/acc_provision/templates
+copying acc_provision/templates/aci-network-provider-cluster-1-6-3.yaml -> acc_provision-6.1.1.2/acc_provision/templates
+copying acc_provision/templates/aci-network-provider-cluster-1-6-5.yaml -> acc_provision-6.1.1.2/acc_provision/templates
+copying acc_provision/templates/aci-network-provider-cluster-1-6-6.yaml -> acc_provision-6.1.1.2/acc_provision/templates
+copying acc_provision/templates/aci-network-provider-cluster-1-7-1.yaml -> acc_provision-6.1.1.2/acc_provision/templates
+copying acc_provision/templates/aci-network-provider-cluster-1-7-2.yaml -> acc_provision-6.1.1.2/acc_provision/templates
+copying acc_provision/templates/aci-network-provider-cluster.yaml -> acc_provision-6.1.1.2/acc_provision/templates
+copying acc_provision/templates/aci-operators-configmap.yaml -> acc_provision-6.1.1.2/acc_provision/templates
+copying acc_provision/templates/aci-operators-cr.yaml -> acc_provision-6.1.1.2/acc_provision/templates
+copying acc_provision/templates/aci-operators-crd.yaml -> acc_provision-6.1.1.2/acc_provision/templates
+copying acc_provision/templates/aci-operators.yaml -> acc_provision-6.1.1.2/acc_provision/templates
+copying acc_provision/templates/apic.json -> acc_provision-6.1.1.2/acc_provision/templates
+copying acc_provision/templates/calico-bgp-config.yaml -> acc_provision-6.1.1.2/acc_provision/templates
+copying acc_provision/templates/calico-bgp-peer.yaml -> acc_provision-6.1.1.2/acc_provision/templates
+copying acc_provision/templates/calico-node.yaml -> acc_provision-6.1.1.2/acc_provision/templates
+copying acc_provision/templates/calico-provision-config.yaml -> acc_provision-6.1.1.2/acc_provision/templates
+copying acc_provision/templates/calicoctl.yaml -> acc_provision-6.1.1.2/acc_provision/templates
+copying acc_provision/templates/chained-mode-provision-config.yaml -> acc_provision-6.1.1.2/acc_provision/templates
+copying acc_provision/templates/cilium.yaml -> acc_provision-6.1.1.2/acc_provision/templates
+copying acc_provision/templates/cluster-network-03-config.yaml -> acc_provision-6.1.1.2/acc_provision/templates
+copying acc_provision/templates/custom-resources-aci-calico.yaml -> acc_provision-6.1.1.2/acc_provision/templates
+copying acc_provision/templates/dpu-containers.yaml -> acc_provision-6.1.1.2/acc_provision/templates
+copying acc_provision/templates/provision-config.yaml -> acc_provision-6.1.1.2/acc_provision/templates
+copying acc_provision/templates/tigera-operator.yaml -> acc_provision-6.1.1.2/acc_provision/templates
+copying bin/acikubectl -> acc_provision-6.1.1.2/bin
+copying debian/.gitignore -> acc_provision-6.1.1.2/debian
+copying debian/build-deb.sh -> acc_provision-6.1.1.2/debian
+copying debian/changelog.in -> acc_provision-6.1.1.2/debian
+copying debian/compat -> acc_provision-6.1.1.2/debian
+copying debian/control -> acc_provision-6.1.1.2/debian
+copying debian/copyright -> acc_provision-6.1.1.2/debian
+copying debian/dirs -> acc_provision-6.1.1.2/debian
+copying debian/install -> acc_provision-6.1.1.2/debian
+copying debian/rules -> acc_provision-6.1.1.2/debian
+copying debian/source/format -> acc_provision-6.1.1.2/debian/source
+copying gitversion/__init__.py -> acc_provision-6.1.1.2/gitversion
+copying gitversion/gitversion.py -> acc_provision-6.1.1.2/gitversion
+copying rpm/acc-provision.spec.in -> acc_provision-6.1.1.2/rpm
+copying rpm/build-rpm.sh -> acc_provision-6.1.1.2/rpm
+Writing acc_provision-6.1.1.2/setup.cfg
+creating dist
+Creating tar archive
+removing 'acc_provision-6.1.1.2' (and everything under it)
++twine upload -u [secure] -p [secure] dist/acc_provision-6.1.1.2.tar.gz
+Uploading distributions to https://upload.pypi.org/legacy/
+Uploading acc_provision-6.1.1.2.tar.gz
+[?25l[2K[35m  0%[0m [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m0.0/11.8 MB[0m • [36m--:--[0m • [31m?[0m[2K[35m  0%[0m [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m0.0/11.8 MB[0m • [36m--:--[0m • [31m?[0m[2K[35m  1%[0m [91m╸[0m[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m0.2/11.8 MB[0m • [36m00:04[0m • [31m3.6 MB/s[0m[2K[35m  3%[0m [91m━[0m[90m╺[0m[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m0.4/11.8 MB[0m • [36m00:04[0m • [31m3.6 MB/s[0m[2K[35m  5%[0m [91m━━[0m[90m╺[0m[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m0.6/11.8 MB[0m • [36m00:04[0m • [31m3.1 MB/s[0m[2K[35m  8%[0m [91m━━━[0m[90m╺[0m[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m0.9/11.8 MB[0m • [36m00:05[0m • [31m2.4 MB/s[0m[2K[35m  8%[0m [91m━━━[0m[90m╺[0m[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m0.9/11.8 MB[0m • [36m00:05[0m • [31m2.4 MB/s[0m[2K[35m 10%[0m [91m━━━[0m[91m╸[0m[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m1.2/11.8 MB[0m • [36m00:06[0m • [31m2.1 MB/s[0m[2K[35m 10%[0m [91m━━━[0m[91m╸[0m[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m1.2/11.8 MB[0m • [36m00:06[0m • [31m2.1 MB/s[0m[2K[35m 12%[0m [91m━━━━[0m[91m╸[0m[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m1.4/11.8 MB[0m • [36m00:06[0m • [31m1.9 MB/s[0m[2K[35m 12%[0m [91m━━━━[0m[91m╸[0m[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m1.4/11.8 MB[0m • [36m00:06[0m • [31m1.9 MB/s[0m[2K[35m 14%[0m [91m━━━━━[0m[91m╸[0m[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m1.7/11.8 MB[0m • [36m00:06[0m • [31m1.7 MB/s[0m[2K[35m 14%[0m [91m━━━━━[0m[91m╸[0m[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m1.7/11.8 MB[0m • [36m00:06[0m • [31m1.7 MB/s[0m[2K[35m 14%[0m [91m━━━━━[0m[91m╸[0m[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m1.7/11.8 MB[0m • [36m00:06[0m • [31m1.7 MB/s[0m[2K[35m 14%[0m [91m━━━━━[0m[91m╸[0m[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m1.7/11.8 MB[0m • [36m00:06[0m • [31m1.7 MB/s[0m[2K[35m 16%[0m [91m━━━━━━[0m[91m╸[0m[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m1.9/11.8 MB[0m • [36m00:08[0m • [31m1.4 MB/s[0m[2K[35m 16%[0m [91m━━━━━━[0m[91m╸[0m[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m1.9/11.8 MB[0m • [36m00:08[0m • [31m1.4 MB/s[0m[2K[35m 16%[0m [91m━━━━━━[0m[91m╸[0m[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m1.9/11.8 MB[0m • [36m00:08[0m • [31m1.4 MB/s[0m[2K[35m 16%[0m [91m━━━━━━[0m[91m╸[0m[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m1.9/11.8 MB[0m • [36m00:08[0m • [31m1.4 MB/s[0m[2K[35m 16%[0m [91m━━━━━━[0m[91m╸[0m[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m1.9/11.8 MB[0m • [36m00:08[0m • [31m1.4 MB/s[0m[2K[35m 16%[0m [91m━━━━━━[0m[91m╸[0m[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m1.9/11.8 MB[0m • [36m00:08[0m • [31m1.4 MB/s[0m[2K[35m 16%[0m [91m━━━━━━[0m[91m╸[0m[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m1.9/11.8 MB[0m • [36m00:08[0m • [31m1.4 MB/s[0m[2K[35m 16%[0m [91m━━━━━━[0m[91m╸[0m[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m1.9/11.8 MB[0m • [36m00:08[0m • [31m1.4 MB/s[0m[2K[35m 16%[0m [91m━━━━━━[0m[91m╸[0m[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m1.9/11.8 MB[0m • [36m00:08[0m • [31m1.4 MB/s[0m[2K[35m 16%[0m [91m━━━━━━[0m[91m╸[0m[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m1.9/11.8 MB[0m • [36m00:08[0m • [31m1.4 MB/s[0m[2K[35m 16%[0m [91m━━━━━━[0m[91m╸[0m[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m1.9/11.8 MB[0m • [36m00:08[0m • [31m1.4 MB/s[0m[2K[35m 16%[0m [91m━━━━━━[0m[91m╸[0m[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m1.9/11.8 MB[0m • [36m00:08[0m • [31m1.4 MB/s[0m[2K[35m 16%[0m [91m━━━━━━[0m[91m╸[0m[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m1.9/11.8 MB[0m • [36m00:08[0m • [31m1.4 MB/s[0m[2K[35m 18%[0m [91m━━━━━━━[0m[90m╺[0m[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m2.1/11.8 MB[0m • [36m00:13[0m • [31m778.0 kB/s[0m[2K[35m 18%[0m [91m━━━━━━━[0m[90m╺[0m[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m2.1/11.8 MB[0m • [36m00:13[0m • [31m778.0 kB/s[0m[2K[35m 18%[0m [91m━━━━━━━[0m[90m╺[0m[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m2.1/11.8 MB[0m • [36m00:13[0m • [31m778.0 kB/s[0m[2K[35m 18%[0m [91m━━━━━━━[0m[90m╺[0m[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m2.1/11.8 MB[0m • [36m00:13[0m • [31m778.0 kB/s[0m[2K[35m 18%[0m [91m━━━━━━━[0m[90m╺[0m[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m2.1/11.8 MB[0m • [36m00:13[0m • [31m778.0 kB/s[0m[2K[35m 18%[0m [91m━━━━━━━[0m[90m╺[0m[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m2.1/11.8 MB[0m • [36m00:13[0m • [31m778.0 kB/s[0m[2K[35m 20%[0m [91m━━━━━━━[0m[91m╸[0m[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m2.3/11.8 MB[0m • [36m00:14[0m • [31m711.2 kB/s[0m[2K[35m 20%[0m [91m━━━━━━━[0m[91m╸[0m[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m2.3/11.8 MB[0m • [36m00:14[0m • [31m711.2 kB/s[0m[2K[35m 20%[0m [91m━━━━━━━[0m[91m╸[0m[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m2.3/11.8 MB[0m • [36m00:14[0m • [31m711.2 kB/s[0m[2K[35m 20%[0m [91m━━━━━━━[0m[91m╸[0m[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m2.3/11.8 MB[0m • [36m00:14[0m • [31m711.2 kB/s[0m[2K[35m 20%[0m [91m━━━━━━━[0m[91m╸[0m[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m2.3/11.8 MB[0m • [36m00:14[0m • [31m711.2 kB/s[0m[2K[35m 22%[0m [91m━━━━━━━━[0m[91m╸[0m[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m2.6/11.8 MB[0m • [36m00:14[0m • [31m679.7 kB/s[0m[2K[35m 22%[0m [91m━━━━━━━━[0m[91m╸[0m[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m2.6/11.8 MB[0m • [36m00:14[0m • [31m679.7 kB/s[0m[2K[35m 22%[0m [91m━━━━━━━━[0m[91m╸[0m[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m2.6/11.8 MB[0m • [36m00:14[0m • [31m679.7 kB/s[0m[2K[35m 22%[0m [91m━━━━━━━━[0m[91m╸[0m[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m2.6/11.8 MB[0m • [36m00:14[0m • [31m679.7 kB/s[0m[2K[35m 24%[0m [91m━━━━━━━━━[0m[90m╺[0m[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m2.8/11.8 MB[0m • [36m00:14[0m • [31m656.7 kB/s[0m[2K[35m 24%[0m [91m━━━━━━━━━[0m[90m╺[0m[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m2.8/11.8 MB[0m • [36m00:14[0m • [31m656.7 kB/s[0m[2K[35m 24%[0m [91m━━━━━━━━━[0m[90m╺[0m[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m2.8/11.8 MB[0m • [36m00:14[0m • [31m656.7 kB/s[0m[2K[35m 25%[0m [91m━━━━━━━━━━[0m[90m╺[0m[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m3.0/11.8 MB[0m • [36m00:14[0m • [31m650.1 kB/s[0m[2K[35m 25%[0m [91m━━━━━━━━━━[0m[90m╺[0m[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m3.0/11.8 MB[0m • [36m00:14[0m • [31m650.1 kB/s[0m[2K[35m 25%[0m [91m━━━━━━━━━━[0m[90m╺[0m[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m3.0/11.8 MB[0m • [36m00:14[0m • [31m650.1 kB/s[0m[2K[35m 25%[0m [91m━━━━━━━━━━[0m[90m╺[0m[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m3.0/11.8 MB[0m • [36m00:14[0m • [31m650.1 kB/s[0m[2K[35m 27%[0m [91m━━━━━━━━━━[0m[91m╸[0m[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m3.2/11.8 MB[0m • [36m00:14[0m • [31m647.0 kB/s[0m[2K[35m 27%[0m [91m━━━━━━━━━━[0m[91m╸[0m[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m3.2/11.8 MB[0m • [36m00:14[0m • [31m647.0 kB/s[0m[2K[35m 27%[0m [91m━━━━━━━━━━[0m[91m╸[0m[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m3.2/11.8 MB[0m • [36m00:14[0m • [31m647.0 kB/s[0m[2K[35m 27%[0m [91m━━━━━━━━━━[0m[91m╸[0m[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m3.2/11.8 MB[0m • [36m00:14[0m • [31m647.0 kB/s[0m[2K[35m 27%[0m [91m━━━━━━━━━━[0m[91m╸[0m[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m3.2/11.8 MB[0m • [36m00:14[0m • [31m647.0 kB/s[0m[2K[35m 27%[0m [91m━━━━━━━━━━[0m[91m╸[0m[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m3.2/11.8 MB[0m • [36m00:14[0m • [31m647.0 kB/s[0m[2K[35m 27%[0m [91m━━━━━━━━━━[0m[91m╸[0m[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m3.2/11.8 MB[0m • [36m00:14[0m • [31m647.0 kB/s[0m[2K[35m 27%[0m [91m━━━━━━━━━━[0m[91m╸[0m[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m3.2/11.8 MB[0m • [36m00:14[0m • [31m647.0 kB/s[0m[2K[35m 27%[0m [91m━━━━━━━━━━[0m[91m╸[0m[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m3.2/11.8 MB[0m • [36m00:14[0m • [31m647.0 kB/s[0m[2K[35m 30%[0m [91m━━━━━━━━━━━[0m[91m╸[0m[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m3.5/11.8 MB[0m • [36m00:14[0m • [31m597.4 kB/s[0m[2K[35m 30%[0m [91m━━━━━━━━━━━[0m[91m╸[0m[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m3.5/11.8 MB[0m • [36m00:14[0m • [31m597.4 kB/s[0m[2K[35m 30%[0m [91m━━━━━━━━━━━[0m[91m╸[0m[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m3.5/11.8 MB[0m • [36m00:14[0m • [31m597.4 kB/s[0m[2K[35m 30%[0m [91m━━━━━━━━━━━[0m[91m╸[0m[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m3.5/11.8 MB[0m • [36m00:14[0m • [31m597.4 kB/s[0m[2K[35m 30%[0m [91m━━━━━━━━━━━[0m[91m╸[0m[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m3.5/11.8 MB[0m • [36m00:14[0m • [31m597.4 kB/s[0m[2K[35m 30%[0m [91m━━━━━━━━━━━[0m[91m╸[0m[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m3.5/11.8 MB[0m • [36m00:14[0m • [31m597.4 kB/s[0m[2K[35m 30%[0m [91m━━━━━━━━━━━[0m[91m╸[0m[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m3.5/11.8 MB[0m • [36m00:14[0m • [31m597.4 kB/s[0m[2K[35m 31%[0m [91m━━━━━━━━━━━━[0m[90m╺[0m[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m3.7/11.8 MB[0m • [36m00:15[0m • [31m561.7 kB/s[0m[2K[35m 31%[0m [91m━━━━━━━━━━━━[0m[90m╺[0m[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m3.7/11.8 MB[0m • [36m00:15[0m • [31m561.7 kB/s[0m[2K[35m 31%[0m [91m━━━━━━━━━━━━[0m[90m╺[0m[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m3.7/11.8 MB[0m • [36m00:15[0m • [31m561.7 kB/s[0m[2K[35m 31%[0m [91m━━━━━━━━━━━━[0m[90m╺[0m[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m3.7/11.8 MB[0m • [36m00:15[0m • [31m561.7 kB/s[0m[2K[35m 33%[0m [91m━━━━━━━━━━━━━[0m[90m╺[0m[90m━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m3.9/11.8 MB[0m • [36m00:15[0m • [31m552.4 kB/s[0m[2K[35m 33%[0m [91m━━━━━━━━━━━━━[0m[90m╺[0m[90m━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m3.9/11.8 MB[0m • [36m00:15[0m • [31m552.4 kB/s[0m[2K[35m 33%[0m [91m━━━━━━━━━━━━━[0m[90m╺[0m[90m━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m3.9/11.8 MB[0m • [36m00:15[0m • [31m552.4 kB/s[0m[2K[35m 33%[0m [91m━━━━━━━━━━━━━[0m[90m╺[0m[90m━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m3.9/11.8 MB[0m • [36m00:15[0m • [31m552.4 kB/s[0m[2K[35m 34%[0m [91m━━━━━━━━━━━━━[0m[91m╸[0m[90m━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m4.1/11.8 MB[0m • [36m00:15[0m • [31m550.3 kB/s[0m[2K[35m 34%[0m [91m━━━━━━━━━━━━━[0m[91m╸[0m[90m━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m4.1/11.8 MB[0m • [36m00:15[0m • [31m550.3 kB/s[0m[2K[35m 34%[0m [91m━━━━━━━━━━━━━[0m[91m╸[0m[90m━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m4.1/11.8 MB[0m • [36m00:15[0m • [31m550.3 kB/s[0m[2K[35m 34%[0m [91m━━━━━━━━━━━━━[0m[91m╸[0m[90m━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m4.1/11.8 MB[0m • [36m00:15[0m • [31m550.3 kB/s[0m[2K[35m 34%[0m [91m━━━━━━━━━━━━━[0m[91m╸[0m[90m━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m4.1/11.8 MB[0m • [36m00:15[0m • [31m550.3 kB/s[0m[2K[35m 37%[0m [91m━━━━━━━━━━━━━━[0m[91m╸[0m[90m━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m4.3/11.8 MB[0m • [36m00:14[0m • [31m543.5 kB/s[0m[2K[35m 37%[0m [91m━━━━━━━━━━━━━━[0m[91m╸[0m[90m━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m4.3/11.8 MB[0m • [36m00:14[0m • [31m543.5 kB/s[0m[2K[35m 37%[0m [91m━━━━━━━━━━━━━━[0m[91m╸[0m[90m━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m4.3/11.8 MB[0m • [36m00:14[0m • [31m543.5 kB/s[0m[2K[35m 37%[0m [91m━━━━━━━━━━━━━━[0m[91m╸[0m[90m━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m4.3/11.8 MB[0m • [36m00:14[0m • [31m543.5 kB/s[0m[2K[35m 37%[0m [91m━━━━━━━━━━━━━━[0m[91m╸[0m[90m━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m4.3/11.8 MB[0m • [36m00:14[0m • [31m543.5 kB/s[0m[2K[35m 37%[0m [91m━━━━━━━━━━━━━━[0m[91m╸[0m[90m━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m4.3/11.8 MB[0m • [36m00:14[0m • [31m543.5 kB/s[0m[2K[35m 37%[0m [91m━━━━━━━━━━━━━━[0m[91m╸[0m[90m━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m4.3/11.8 MB[0m • [36m00:14[0m • [31m543.5 kB/s[0m[2K[35m 39%[0m [91m━━━━━━━━━━━━━━━[0m[91m╸[0m[90m━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m4.6/11.8 MB[0m • [36m00:14[0m • [31m532.2 kB/s[0m[2K[35m 39%[0m [91m━━━━━━━━━━━━━━━[0m[91m╸[0m[90m━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m4.6/11.8 MB[0m • [36m00:14[0m • [31m532.2 kB/s[0m[2K[35m 39%[0m [91m━━━━━━━━━━━━━━━[0m[91m╸[0m[90m━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m4.6/11.8 MB[0m • [36m00:14[0m • [31m532.2 kB/s[0m[2K[35m 39%[0m [91m━━━━━━━━━━━━━━━[0m[91m╸[0m[90m━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m4.6/11.8 MB[0m • [36m00:14[0m • [31m532.2 kB/s[0m[2K[35m 39%[0m [91m━━━━━━━━━━━━━━━[0m[91m╸[0m[90m━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m4.6/11.8 MB[0m • [36m00:14[0m • [31m532.2 kB/s[0m[2K[35m 39%[0m [91m━━━━━━━━━━━━━━━[0m[91m╸[0m[90m━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m4.6/11.8 MB[0m • [36m00:14[0m • [31m532.2 kB/s[0m[2K[35m 39%[0m [91m━━━━━━━━━━━━━━━[0m[91m╸[0m[90m━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m4.6/11.8 MB[0m • [36m00:14[0m • [31m532.2 kB/s[0m[2K[35m 39%[0m [91m━━━━━━━━━━━━━━━[0m[91m╸[0m[90m━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m4.6/11.8 MB[0m • [36m00:14[0m • [31m532.2 kB/s[0m[2K[35m 39%[0m [91m━━━━━━━━━━━━━━━[0m[91m╸[0m[90m━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m4.6/11.8 MB[0m • [36m00:14[0m • [31m532.2 kB/s[0m[2K[35m 39%[0m [91m━━━━━━━━━━━━━━━[0m[91m╸[0m[90m━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m4.6/11.8 MB[0m • [36m00:14[0m • [31m532.2 kB/s[0m[2K[35m 39%[0m [91m━━━━━━━━━━━━━━━[0m[91m╸[0m[90m━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m4.6/11.8 MB[0m • [36m00:14[0m • [31m532.2 kB/s[0m[2K[35m 39%[0m [91m━━━━━━━━━━━━━━━[0m[91m╸[0m[90m━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m4.6/11.8 MB[0m • [36m00:14[0m • [31m532.2 kB/s[0m[2K[35m 39%[0m [91m━━━━━━━━━━━━━━━[0m[91m╸[0m[90m━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m4.6/11.8 MB[0m • [36m00:14[0m • [31m532.2 kB/s[0m[2K[35m 39%[0m [91m━━━━━━━━━━━━━━━[0m[91m╸[0m[90m━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m4.6/11.8 MB[0m • [36m00:14[0m • [31m532.2 kB/s[0m[2K[35m 41%[0m [91m━━━━━━━━━━━━━━━━[0m[90m╺[0m[90m━━━━━━━━━━━━━━━━━━━━━━━[0m [32m4.8/11.8 MB[0m • [36m00:15[0m • [31m484.1 kB/s[0m[2K[35m 41%[0m [91m━━━━━━━━━━━━━━━━[0m[90m╺[0m[90m━━━━━━━━━━━━━━━━━━━━━━━[0m [32m4.8/11.8 MB[0m • [36m00:15[0m • [31m484.1 kB/s[0m[2K[35m 41%[0m [91m━━━━━━━━━━━━━━━━[0m[90m╺[0m[90m━━━━━━━━━━━━━━━━━━━━━━━[0m [32m4.8/11.8 MB[0m • [36m00:15[0m • [31m484.1 kB/s[0m[2K[35m 41%[0m [91m━━━━━━━━━━━━━━━━[0m[90m╺[0m[90m━━━━━━━━━━━━━━━━━━━━━━━[0m [32m4.8/11.8 MB[0m • [36m00:15[0m • [31m484.1 kB/s[0m[2K[35m 41%[0m [91m━━━━━━━━━━━━━━━━[0m[90m╺[0m[90m━━━━━━━━━━━━━━━━━━━━━━━[0m [32m4.8/11.8 MB[0m • [36m00:15[0m • [31m484.1 kB/s[0m[2K[35m 41%[0m [91m━━━━━━━━━━━━━━━━[0m[90m╺[0m[90m━━━━━━━━━━━━━━━━━━━━━━━[0m [32m4.8/11.8 MB[0m • [36m00:15[0m • [31m484.1 kB/s[0m[2K[35m 41%[0m [91m━━━━━━━━━━━━━━━━[0m[90m╺[0m[90m━━━━━━━━━━━━━━━━━━━━━━━[0m [32m4.9/11.8 MB[0m • [36m00:16[0m • [31m453.6 kB/s[0m[2K[35m 43%[0m [91m━━━━━━━━━━━━━━━━━[0m[90m╺[0m[90m━━━━━━━━━━━━━━━━━━━━━━[0m [32m5.0/11.8 MB[0m • [36m00:15[0m • [31m470.3 kB/s[0m[2K[35m 43%[0m [91m━━━━━━━━━━━━━━━━━[0m[90m╺[0m[90m━━━━━━━━━━━━━━━━━━━━━━[0m [32m5.0/11.8 MB[0m • [36m00:15[0m • [31m470.3 kB/s[0m[2K[35m 43%[0m [91m━━━━━━━━━━━━━━━━━[0m[90m╺[0m[90m━━━━━━━━━━━━━━━━━━━━━━[0m [32m5.0/11.8 MB[0m • [36m00:15[0m • [31m470.3 kB/s[0m[2K[35m 43%[0m [91m━━━━━━━━━━━━━━━━━[0m[90m╺[0m[90m━━━━━━━━━━━━━━━━━━━━━━[0m [32m5.0/11.8 MB[0m • [36m00:15[0m • [31m470.3 kB/s[0m[2K[35m 43%[0m [91m━━━━━━━━━━━━━━━━━[0m[90m╺[0m[90m━━━━━━━━━━━━━━━━━━━━━━[0m [32m5.0/11.8 MB[0m • [36m00:15[0m • [31m470.3 kB/s[0m[2K[35m 43%[0m [91m━━━━━━━━━━━━━━━━━[0m[90m╺[0m[90m━━━━━━━━━━━━━━━━━━━━━━[0m [32m5.0/11.8 MB[0m • [36m00:15[0m • [31m470.3 kB/s[0m[2K[35m 44%[0m [91m━━━━━━━━━━━━━━━━━[0m[91m╸[0m[90m━━━━━━━━━━━━━━━━━━━━━━[0m [32m5.2/11.8 MB[0m • [36m00:15[0m • [31m461.9 kB/s[0m[2K[35m 44%[0m [91m━━━━━━━━━━━━━━━━━[0m[91m╸[0m[90m━━━━━━━━━━━━━━━━━━━━━━[0m [32m5.2/11.8 MB[0m • [36m00:15[0m • [31m461.9 kB/s[0m[2K[35m 44%[0m [91m━━━━━━━━━━━━━━━━━[0m[91m╸[0m[90m━━━━━━━━━━━━━━━━━━━━━━[0m [32m5.2/11.8 MB[0m • [36m00:15[0m • [31m461.9 kB/s[0m[2K[35m 44%[0m [91m━━━━━━━━━━━━━━━━━[0m[91m╸[0m[90m━━━━━━━━━━━━━━━━━━━━━━[0m [32m5.2/11.8 MB[0m • [36m00:15[0m • [31m461.9 kB/s[0m[2K[35m 44%[0m [91m━━━━━━━━━━━━━━━━━[0m[91m╸[0m[90m━━━━━━━━━━━━━━━━━━━━━━[0m [32m5.2/11.8 MB[0m • [36m00:15[0m • [31m461.9 kB/s[0m[2K[35m 44%[0m [91m━━━━━━━━━━━━━━━━━[0m[91m╸[0m[90m━━━━━━━━━━━━━━━━━━━━━━[0m [32m5.2/11.8 MB[0m • [36m00:15[0m • [31m461.9 kB/s[0m[2K[35m 47%[0m [91m━━━━━━━━━━━━━━━━━━[0m[91m╸[0m[90m━━━━━━━━━━━━━━━━━━━━━[0m [32m5.5/11.8 MB[0m • [36m00:14[0m • [31m457.0 kB/s[0m[2K[35m 47%[0m [91m━━━━━━━━━━━━━━━━━━[0m[91m╸[0m[90m━━━━━━━━━━━━━━━━━━━━━[0m [32m5.5/11.8 MB[0m • [36m00:14[0m • [31m457.0 kB/s[0m[2K[35m 47%[0m [91m━━━━━━━━━━━━━━━━━━[0m[91m╸[0m[90m━━━━━━━━━━━━━━━━━━━━━[0m [32m5.5/11.8 MB[0m • [36m00:14[0m • [31m457.0 kB/s[0m[2K[35m 47%[0m [91m━━━━━━━━━━━━━━━━━━[0m[91m╸[0m[90m━━━━━━━━━━━━━━━━━━━━━[0m [32m5.5/11.8 MB[0m • [36m00:14[0m • [31m457.0 kB/s[0m[2K[35m 47%[0m [91m━━━━━━━━━━━━━━━━━━[0m[91m╸[0m[90m━━━━━━━━━━━━━━━━━━━━━[0m [32m5.5/11.8 MB[0m • [36m00:14[0m • [31m457.0 kB/s[0m[2K[35m 47%[0m [91m━━━━━━━━━━━━━━━━━━[0m[91m╸[0m[90m━━━━━━━━━━━━━━━━━━━━━[0m [32m5.5/11.8 MB[0m • [36m00:14[0m • [31m457.0 kB/s[0m[2K[35m 47%[0m [91m━━━━━━━━━━━━━━━━━━[0m[91m╸[0m[90m━━━━━━━━━━━━━━━━━━━━━[0m [32m5.5/11.8 MB[0m • [36m00:14[0m • [31m457.0 kB/s[0m[2K[35m 49%[0m [91m━━━━━━━━━━━━━━━━━━━[0m[90m╺[0m[90m━━━━━━━━━━━━━━━━━━━━[0m [32m5.8/11.8 MB[0m • [36m00:14[0m • [31m451.6 kB/s[0m[2K[35m 49%[0m [91m━━━━━━━━━━━━━━━━━━━[0m[90m╺[0m[90m━━━━━━━━━━━━━━━━━━━━[0m [32m5.8/11.8 MB[0m • [36m00:14[0m • [31m451.6 kB/s[0m[2K[35m 49%[0m [91m━━━━━━━━━━━━━━━━━━━[0m[90m╺[0m[90m━━━━━━━━━━━━━━━━━━━━[0m [32m5.8/11.8 MB[0m • [36m00:14[0m • [31m451.6 kB/s[0m[2K[35m 49%[0m [91m━━━━━━━━━━━━━━━━━━━[0m[90m╺[0m[90m━━━━━━━━━━━━━━━━━━━━[0m [32m5.8/11.8 MB[0m • [36m00:14[0m • [31m451.6 kB/s[0m[2K[35m 49%[0m [91m━━━━━━━━━━━━━━━━━━━[0m[90m╺[0m[90m━━━━━━━━━━━━━━━━━━━━[0m [32m5.8/11.8 MB[0m • [36m00:14[0m • [31m451.6 kB/s[0m[2K[35m 49%[0m [91m━━━━━━━━━━━━━━━━━━━[0m[90m╺[0m[90m━━━━━━━━━━━━━━━━━━━━[0m [32m5.8/11.8 MB[0m • [36m00:14[0m • [31m451.6 kB/s[0m[2K[35m 49%[0m [91m━━━━━━━━━━━━━━━━━━━[0m[90m╺[0m[90m━━━━━━━━━━━━━━━━━━━━[0m [32m5.8/11.8 MB[0m • [36m00:14[0m • [31m451.6 kB/s[0m[2K[35m 49%[0m [91m━━━━━━━━━━━━━━━━━━━[0m[90m╺[0m[90m━━━━━━━━━━━━━━━━━━━━[0m [32m5.8/11.8 MB[0m • [36m00:14[0m • [31m451.6 kB/s[0m[2K[35m 49%[0m [91m━━━━━━━━━━━━━━━━━━━[0m[90m╺[0m[90m━━━━━━━━━━━━━━━━━━━━[0m [32m5.8/11.8 MB[0m • [36m00:14[0m • [31m451.6 kB/s[0m[2K[35m 49%[0m [91m━━━━━━━━━━━━━━━━━━━[0m[90m╺[0m[90m━━━━━━━━━━━━━━━━━━━━[0m [32m5.8/11.8 MB[0m • [36m00:14[0m • [31m451.6 kB/s[0m[2K[35m 49%[0m [91m━━━━━━━━━━━━━━━━━━━[0m[90m╺[0m[90m━━━━━━━━━━━━━━━━━━━━[0m [32m5.8/11.8 MB[0m • [36m00:14[0m • [31m451.6 kB/s[0m[2K[35m 49%[0m [91m━━━━━━━━━━━━━━━━━━━[0m[90m╺[0m[90m━━━━━━━━━━━━━━━━━━━━[0m [32m5.8/11.8 MB[0m • [36m00:14[0m • [31m451.6 kB/s[0m[2K[35m 49%[0m [91m━━━━━━━━━━━━━━━━━━━[0m[90m╺[0m[90m━━━━━━━━━━━━━━━━━━━━[0m [32m5.8/11.8 MB[0m • [36m00:14[0m • [31m451.6 kB/s[0m[2K[35m 49%[0m [91m━━━━━━━━━━━━━━━━━━━[0m[90m╺[0m[90m━━━━━━━━━━━━━━━━━━━━[0m [32m5.8/11.8 MB[0m • [36m00:14[0m • [31m451.6 kB/s[0m[2K[35m 49%[0m [91m━━━━━━━━━━━━━━━━━━━[0m[90m╺[0m[90m━━━━━━━━━━━━━━━━━━━━[0m [32m5.8/11.8 MB[0m • [36m00:14[0m • [31m451.6 kB/s[0m[2K[35m 49%[0m [91m━━━━━━━━━━━━━━━━━━━[0m[90m╺[0m[90m━━━━━━━━━━━━━━━━━━━━[0m [32m5.8/11.8 MB[0m • [36m00:14[0m • [31m451.6 kB/s[0m[2K[35m 49%[0m [91m━━━━━━━━━━━━━━━━━━━[0m[90m╺[0m[90m━━━━━━━━━━━━━━━━━━━━[0m [32m5.8/11.8 MB[0m • [36m00:14[0m • [31m451.6 kB/s[0m[2K[35m 51%[0m [91m━━━━━━━━━━━━━━━━━━━━[0m[90m╺[0m[90m━━━━━━━━━━━━━━━━━━━[0m [32m6.0/11.8 MB[0m • [36m00:14[0m • [31m415.6 kB/s[0m[2K[35m 51%[0m [91m━━━━━━━━━━━━━━━━━━━━[0m[90m╺[0m[90m━━━━━━━━━━━━━━━━━━━[0m [32m6.0/11.8 MB[0m • [36m00:14[0m • [31m415.6 kB/s[0m[2K[35m 51%[0m [91m━━━━━━━━━━━━━━━━━━━━[0m[90m╺[0m[90m━━━━━━━━━━━━━━━━━━━[0m [32m6.0/11.8 MB[0m • [36m00:14[0m • [31m415.6 kB/s[0m[2K[35m 51%[0m [91m━━━━━━━━━━━━━━━━━━━━[0m[90m╺[0m[90m━━━━━━━━━━━━━━━━━━━[0m [32m6.0/11.8 MB[0m • [36m00:14[0m • [31m415.6 kB/s[0m[2K[35m 51%[0m [91m━━━━━━━━━━━━━━━━━━━━[0m[90m╺[0m[90m━━━━━━━━━━━━━━━━━━━[0m [32m6.0/11.8 MB[0m • [36m00:14[0m • [31m415.6 kB/s[0m[2K[35m 51%[0m [91m━━━━━━━━━━━━━━━━━━━━[0m[90m╺[0m[90m━━━━━━━━━━━━━━━━━━━[0m [32m6.0/11.8 MB[0m • [36m00:14[0m • [31m415.6 kB/s[0m[2K[35m 51%[0m [91m━━━━━━━━━━━━━━━━━━━━[0m[90m╺[0m[90m━━━━━━━━━━━━━━━━━━━[0m [32m6.0/11.8 MB[0m • [36m00:14[0m • [31m415.6 kB/s[0m[2K[35m 51%[0m [91m━━━━━━━━━━━━━━━━━━━━[0m[90m╺[0m[90m━━━━━━━━━━━━━━━━━━━[0m [32m6.0/11.8 MB[0m • [36m00:14[0m • [31m415.6 kB/s[0m[2K[35m 51%[0m [91m━━━━━━━━━━━━━━━━━━━━[0m[90m╺[0m[90m━━━━━━━━━━━━━━━━━━━[0m [32m6.0/11.8 MB[0m • [36m00:14[0m • [31m415.6 kB/s[0m[2K[35m 51%[0m [91m━━━━━━━━━━━━━━━━━━━━[0m[90m╺[0m[90m━━━━━━━━━━━━━━━━━━━[0m [32m6.0/11.8 MB[0m • [36m00:14[0m • [31m415.6 kB/s[0m[2K[35m 51%[0m [91m━━━━━━━━━━━━━━━━━━━━[0m[90m╺[0m[90m━━━━━━━━━━━━━━━━━━━[0m [32m6.0/11.8 MB[0m • [36m00:14[0m • [31m415.6 kB/s[0m[2K[35m 51%[0m [91m━━━━━━━━━━━━━━━━━━━━[0m[90m╺[0m[90m━━━━━━━━━━━━━━━━━━━[0m [32m6.0/11.8 MB[0m • [36m00:14[0m • [31m415.6 kB/s[0m[2K[35m 51%[0m [91m━━━━━━━━━━━━━━━━━━━━[0m[90m╺[0m[90m━━━━━━━━━━━━━━━━━━━[0m [32m6.0/11.8 MB[0m • [36m00:14[0m • [31m415.6 kB/s[0m[2K[35m 51%[0m [91m━━━━━━━━━━━━━━━━━━━━[0m[90m╺[0m[90m━━━━━━━━━━━━━━━━━━━[0m [32m6.0/11.8 MB[0m • [36m00:14[0m • [31m415.6 kB/s[0m[2K[35m 53%[0m [91m━━━━━━━━━━━━━━━━━━━━━[0m[90m╺[0m[90m━━━━━━━━━━━━━━━━━━[0m [32m6.3/11.8 MB[0m • [36m00:15[0m • [31m396.0 kB/s[0m[2K[35m 53%[0m [91m━━━━━━━━━━━━━━━━━━━━━[0m[90m╺[0m[90m━━━━━━━━━━━━━━━━━━[0m [32m6.3/11.8 MB[0m • [36m00:15[0m • [31m396.0 kB/s[0m[2K[35m 53%[0m [91m━━━━━━━━━━━━━━━━━━━━━[0m[90m╺[0m[90m━━━━━━━━━━━━━━━━━━[0m [32m6.3/11.8 MB[0m • [36m00:15[0m • [31m396.0 kB/s[0m[2K[35m 53%[0m [91m━━━━━━━━━━━━━━━━━━━━━[0m[90m╺[0m[90m━━━━━━━━━━━━━━━━━━[0m [32m6.3/11.8 MB[0m • [36m00:15[0m • [31m396.0 kB/s[0m[2K[35m 53%[0m [91m━━━━━━━━━━━━━━━━━━━━━[0m[90m╺[0m[90m━━━━━━━━━━━━━━━━━━[0m [32m6.3/11.8 MB[0m • [36m00:15[0m • [31m396.0 kB/s[0m[2K[35m 53%[0m [91m━━━━━━━━━━━━━━━━━━━━━[0m[90m╺[0m[90m━━━━━━━━━━━━━━━━━━[0m [32m6.3/11.8 MB[0m • [36m00:15[0m • [31m396.0 kB/s[0m[2K[35m 53%[0m [91m━━━━━━━━━━━━━━━━━━━━━[0m[90m╺[0m[90m━━━━━━━━━━━━━━━━━━[0m [32m6.3/11.8 MB[0m • [36m00:15[0m • [31m396.0 kB/s[0m[2K[35m 55%[0m [91m━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m[90m━━━━━━━━━━━━━━━━━━[0m [32m6.5/11.8 MB[0m • [36m00:14[0m • [31m389.4 kB/s[0m[2K[35m 55%[0m [91m━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m[90m━━━━━━━━━━━━━━━━━━[0m [32m6.5/11.8 MB[0m • [36m00:14[0m • [31m389.4 kB/s[0m[2K[35m 55%[0m [91m━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m[90m━━━━━━━━━━━━━━━━━━[0m [32m6.5/11.8 MB[0m • [36m00:14[0m • [31m389.4 kB/s[0m[2K[35m 55%[0m [91m━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m[90m━━━━━━━━━━━━━━━━━━[0m [32m6.5/11.8 MB[0m • [36m00:14[0m • [31m389.4 kB/s[0m[2K[35m 56%[0m [91m━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m[90m━━━━━━━━━━━━━━━━━[0m [32m6.7/11.8 MB[0m • [36m00:14[0m • [31m391.7 kB/s[0m[2K[35m 56%[0m [91m━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m[90m━━━━━━━━━━━━━━━━━[0m [32m6.7/11.8 MB[0m • [36m00:14[0m • [31m391.7 kB/s[0m[2K[35m 56%[0m [91m━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m[90m━━━━━━━━━━━━━━━━━[0m [32m6.7/11.8 MB[0m • [36m00:14[0m • [31m391.7 kB/s[0m[2K[35m 56%[0m [91m━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m[90m━━━━━━━━━━━━━━━━━[0m [32m6.7/11.8 MB[0m • [36m00:14[0m • [31m391.7 kB/s[0m[2K[35m 56%[0m [91m━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m[90m━━━━━━━━━━━━━━━━━[0m [32m6.7/11.8 MB[0m • [36m00:14[0m • [31m391.7 kB/s[0m[2K[35m 56%[0m [91m━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m[90m━━━━━━━━━━━━━━━━━[0m [32m6.7/11.8 MB[0m • [36m00:14[0m • [31m391.7 kB/s[0m[2K[35m 56%[0m [91m━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m[90m━━━━━━━━━━━━━━━━━[0m [32m6.7/11.8 MB[0m • [36m00:14[0m • [31m391.7 kB/s[0m[2K[35m 56%[0m [91m━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m[90m━━━━━━━━━━━━━━━━━[0m [32m6.7/11.8 MB[0m • [36m00:14[0m • [31m391.7 kB/s[0m[2K[35m 56%[0m [91m━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m[90m━━━━━━━━━━━━━━━━━[0m [32m6.7/11.8 MB[0m • [36m00:14[0m • [31m391.7 kB/s[0m[2K[35m 56%[0m [91m━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m[90m━━━━━━━━━━━━━━━━━[0m [32m6.7/11.8 MB[0m • [36m00:14[0m • [31m391.7 kB/s[0m[2K[35m 56%[0m [91m━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m[90m━━━━━━━━━━━━━━━━━[0m [32m6.7/11.8 MB[0m • [36m00:14[0m • [31m391.7 kB/s[0m[2K[35m 56%[0m [91m━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m[90m━━━━━━━━━━━━━━━━━[0m [32m6.7/11.8 MB[0m • [36m00:14[0m • [31m391.7 kB/s[0m[2K[35m 56%[0m [91m━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m[90m━━━━━━━━━━━━━━━━━[0m [32m6.7/11.8 MB[0m • [36m00:14[0m • [31m391.7 kB/s[0m[2K[35m 56%[0m [91m━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m[90m━━━━━━━━━━━━━━━━━[0m [32m6.7/11.8 MB[0m • [36m00:14[0m • [31m391.7 kB/s[0m[2K[35m 56%[0m [91m━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m[90m━━━━━━━━━━━━━━━━━[0m [32m6.7/11.8 MB[0m • [36m00:14[0m • [31m391.7 kB/s[0m[2K[35m 58%[0m [91m━━━━━━━━━━━━━━━━━━━━━━━[0m[90m╺[0m[90m━━━━━━━━━━━━━━━━[0m [32m6.8/11.8 MB[0m • [36m00:14[0m • [31m369.0 kB/s[0m[2K[35m 58%[0m [91m━━━━━━━━━━━━━━━━━━━━━━━[0m[90m╺[0m[90m━━━━━━━━━━━━━━━━[0m [32m6.8/11.8 MB[0m • [36m00:14[0m • [31m369.0 kB/s[0m[2K[35m 58%[0m [91m━━━━━━━━━━━━━━━━━━━━━━━[0m[90m╺[0m[90m━━━━━━━━━━━━━━━━[0m [32m6.8/11.8 MB[0m • [36m00:14[0m • [31m369.0 kB/s[0m[2K[35m 58%[0m [91m━━━━━━━━━━━━━━━━━━━━━━━[0m[90m╺[0m[90m━━━━━━━━━━━━━━━━[0m [32m6.8/11.8 MB[0m • [36m00:14[0m • [31m369.0 kB/s[0m[2K[35m 58%[0m [91m━━━━━━━━━━━━━━━━━━━━━━━[0m[90m╺[0m[90m━━━━━━━━━━━━━━━━[0m [32m6.8/11.8 MB[0m • [36m00:14[0m • [31m369.0 kB/s[0m[2K[35m 58%[0m [91m━━━━━━━━━━━━━━━━━━━━━━━[0m[90m╺[0m[90m━━━━━━━━━━━━━━━━[0m [32m6.8/11.8 MB[0m • [36m00:14[0m • [31m369.0 kB/s[0m[2K[35m 58%[0m [91m━━━━━━━━━━━━━━━━━━━━━━━[0m[90m╺[0m[90m━━━━━━━━━━━━━━━━[0m [32m6.8/11.8 MB[0m • [36m00:14[0m • [31m369.0 kB/s[0m[2K[35m 58%[0m [91m━━━━━━━━━━━━━━━━━━━━━━━[0m[90m╺[0m[90m━━━━━━━━━━━━━━━━[0m [32m6.8/11.8 MB[0m • [36m00:14[0m • [31m369.0 kB/s[0m[2K[35m 58%[0m [91m━━━━━━━━━━━━━━━━━━━━━━━[0m[90m╺[0m[90m━━━━━━━━━━━━━━━━[0m [32m6.8/11.8 MB[0m • [36m00:14[0m • [31m369.0 kB/s[0m[2K[35m 60%[0m [91m━━━━━━━━━━━━━━━━━━━━━━━━[0m[90m╺[0m[90m━━━━━━━━━━━━━━━[0m [32m7.1/11.8 MB[0m • [36m00:13[0m • [31m365.3 kB/s[0m[2K[35m 60%[0m [91m━━━━━━━━━━━━━━━━━━━━━━━━[0m[90m╺[0m[90m━━━━━━━━━━━━━━━[0m [32m7.1/11.8 MB[0m • [36m00:13[0m • [31m365.3 kB/s[0m[2K[35m 60%[0m [91m━━━━━━━━━━━━━━━━━━━━━━━━[0m[90m╺[0m[90m━━━━━━━━━━━━━━━[0m [32m7.1/11.8 MB[0m • [36m00:13[0m • [31m365.3 kB/s[0m[2K[35m 60%[0m [91m━━━━━━━━━━━━━━━━━━━━━━━━[0m[90m╺[0m[90m━━━━━━━━━━━━━━━[0m [32m7.1/11.8 MB[0m • [36m00:13[0m • [31m365.3 kB/s[0m[2K[35m 60%[0m [91m━━━━━━━━━━━━━━━━━━━━━━━━[0m[90m╺[0m[90m━━━━━━━━━━━━━━━[0m [32m7.1/11.8 MB[0m • [36m00:13[0m • [31m365.3 kB/s[0m[2K[35m 60%[0m [91m━━━━━━━━━━━━━━━━━━━━━━━━[0m[90m╺[0m[90m━━━━━━━━━━━━━━━[0m [32m7.1/11.8 MB[0m • [36m00:13[0m • [31m365.3 kB/s[0m[2K[35m 62%[0m [91m━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m[90m━━━━━━━━━━━━━━━[0m [32m7.3/11.8 MB[0m • [36m00:13[0m • [31m364.5 kB/s[0m[2K[35m 62%[0m [91m━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m[90m━━━━━━━━━━━━━━━[0m [32m7.3/11.8 MB[0m • [36m00:13[0m • [31m364.5 kB/s[0m[2K[35m 62%[0m [91m━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m[90m━━━━━━━━━━━━━━━[0m [32m7.3/11.8 MB[0m • [36m00:13[0m • [31m364.5 kB/s[0m[2K[35m 62%[0m [91m━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m[90m━━━━━━━━━━━━━━━[0m [32m7.3/11.8 MB[0m • [36m00:13[0m • [31m364.5 kB/s[0m[2K[35m 62%[0m [91m━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m[90m━━━━━━━━━━━━━━━[0m [32m7.3/11.8 MB[0m • [36m00:13[0m • [31m364.5 kB/s[0m[2K[35m 62%[0m [91m━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m[90m━━━━━━━━━━━━━━━[0m [32m7.3/11.8 MB[0m • [36m00:13[0m • [31m364.5 kB/s[0m[2K[35m 62%[0m [91m━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m[90m━━━━━━━━━━━━━━━[0m [32m7.3/11.8 MB[0m • [36m00:13[0m • [31m364.5 kB/s[0m[2K[35m 63%[0m [91m━━━━━━━━━━━━━━━━━━━━━━━━━[0m[90m╺[0m[90m━━━━━━━━━━━━━━[0m [32m7.5/11.8 MB[0m • [36m00:12[0m • [31m361.0 kB/s[0m[2K[35m 63%[0m [91m━━━━━━━━━━━━━━━━━━━━━━━━━[0m[90m╺[0m[90m━━━━━━━━━━━━━━[0m [32m7.5/11.8 MB[0m • [36m00:12[0m • [31m361.0 kB/s[0m[2K[35m 63%[0m [91m━━━━━━━━━━━━━━━━━━━━━━━━━[0m[90m╺[0m[90m━━━━━━━━━━━━━━[0m [32m7.5/11.8 MB[0m • [36m00:12[0m • [31m361.0 kB/s[0m[2K[35m 63%[0m [91m━━━━━━━━━━━━━━━━━━━━━━━━━[0m[90m╺[0m[90m━━━━━━━━━━━━━━[0m [32m7.5/11.8 MB[0m • [36m00:12[0m • [31m361.0 kB/s[0m[2K[35m 63%[0m [91m━━━━━━━━━━━━━━━━━━━━━━━━━[0m[90m╺[0m[90m━━━━━━━━━━━━━━[0m [32m7.5/11.8 MB[0m • [36m00:12[0m • [31m361.0 kB/s[0m[2K[35m 63%[0m [91m━━━━━━━━━━━━━━━━━━━━━━━━━[0m[90m╺[0m[90m━━━━━━━━━━━━━━[0m [32m7.5/11.8 MB[0m • [36m00:12[0m • [31m361.0 kB/s[0m[2K[35m 65%[0m [91m━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[90m╺[0m[90m━━━━━━━━━━━━━[0m [32m7.7/11.8 MB[0m • [36m00:12[0m • [31m359.0 kB/s[0m[2K[35m 65%[0m [91m━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[90m╺[0m[90m━━━━━━━━━━━━━[0m [32m7.7/11.8 MB[0m • [36m00:12[0m • [31m359.0 kB/s[0m[2K[35m 65%[0m [91m━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[90m╺[0m[90m━━━━━━━━━━━━━[0m [32m7.7/11.8 MB[0m • [36m00:12[0m • [31m359.0 kB/s[0m[2K[35m 65%[0m [91m━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[90m╺[0m[90m━━━━━━━━━━━━━[0m [32m7.7/11.8 MB[0m • [36m00:12[0m • [31m359.0 kB/s[0m[2K[35m 65%[0m [91m━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[90m╺[0m[90m━━━━━━━━━━━━━[0m [32m7.7/11.8 MB[0m • [36m00:12[0m • [31m359.0 kB/s[0m[2K[35m 65%[0m [91m━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[90m╺[0m[90m━━━━━━━━━━━━━[0m [32m7.7/11.8 MB[0m • [36m00:12[0m • [31m359.0 kB/s[0m[2K[35m 67%[0m [91m━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m[90m━━━━━━━━━━━━━[0m [32m7.9/11.8 MB[0m • [36m00:11[0m • [31m358.8 kB/s[0m[2K[35m 67%[0m [91m━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m[90m━━━━━━━━━━━━━[0m [32m7.9/11.8 MB[0m • [36m00:11[0m • [31m358.8 kB/s[0m[2K[35m 67%[0m [91m━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m[90m━━━━━━━━━━━━━[0m [32m7.9/11.8 MB[0m • [36m00:11[0m • [31m358.8 kB/s[0m[2K[35m 67%[0m [91m━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m[90m━━━━━━━━━━━━━[0m [32m7.9/11.8 MB[0m • [36m00:11[0m • [31m358.8 kB/s[0m[2K[35m 67%[0m [91m━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m[90m━━━━━━━━━━━━━[0m [32m7.9/11.8 MB[0m • [36m00:11[0m • [31m358.8 kB/s[0m[2K[35m 69%[0m [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m[90m━━━━━━━━━━━━[0m [32m8.1/11.8 MB[0m • [36m00:11[0m • [31m361.2 kB/s[0m[2K[35m 69%[0m [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m[90m━━━━━━━━━━━━[0m [32m8.1/11.8 MB[0m • [36m00:11[0m • [31m361.2 kB/s[0m[2K[35m 69%[0m [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m[90m━━━━━━━━━━━━[0m [32m8.1/11.8 MB[0m • [36m00:11[0m • [31m361.2 kB/s[0m[2K[35m 69%[0m [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m[90m━━━━━━━━━━━━[0m [32m8.1/11.8 MB[0m • [36m00:11[0m • [31m361.2 kB/s[0m[2K[35m 69%[0m [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m[90m━━━━━━━━━━━━[0m [32m8.1/11.8 MB[0m • [36m00:11[0m • [31m361.2 kB/s[0m[2K[35m 69%[0m [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m[90m━━━━━━━━━━━━[0m [32m8.1/11.8 MB[0m • [36m00:11[0m • [31m361.2 kB/s[0m[2K[35m 71%[0m [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[90m╺[0m[90m━━━━━━━━━━━[0m [32m8.3/11.8 MB[0m • [36m00:10[0m • [31m360.9 kB/s[0m[2K[35m 71%[0m [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[90m╺[0m[90m━━━━━━━━━━━[0m [32m8.3/11.8 MB[0m • [36m00:10[0m • [31m360.9 kB/s[0m[2K[35m 71%[0m [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[90m╺[0m[90m━━━━━━━━━━━[0m [32m8.3/11.8 MB[0m • [36m00:10[0m • [31m360.9 kB/s[0m[2K[35m 71%[0m [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[90m╺[0m[90m━━━━━━━━━━━[0m [32m8.3/11.8 MB[0m • [36m00:10[0m • [31m360.9 kB/s[0m[2K[35m 71%[0m [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[90m╺[0m[90m━━━━━━━━━━━[0m [32m8.3/11.8 MB[0m • [36m00:10[0m • [31m360.9 kB/s[0m[2K[35m 71%[0m [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[90m╺[0m[90m━━━━━━━━━━━[0m [32m8.3/11.8 MB[0m • [36m00:10[0m • [31m360.9 kB/s[0m[2K[35m 71%[0m [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[90m╺[0m[90m━━━━━━━━━━━[0m [32m8.3/11.8 MB[0m • [36m00:10[0m • [31m360.9 kB/s[0m[2K[35m 71%[0m [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[90m╺[0m[90m━━━━━━━━━━━[0m [32m8.3/11.8 MB[0m • [36m00:10[0m • [31m360.9 kB/s[0m[2K[35m 73%[0m [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[90m╺[0m[90m━━━━━━━━━━[0m [32m8.6/11.8 MB[0m • [36m00:09[0m • [31m359.1 kB/s[0m[2K[35m 73%[0m [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[90m╺[0m[90m━━━━━━━━━━[0m [32m8.6/11.8 MB[0m • [36m00:09[0m • [31m359.1 kB/s[0m[2K[35m 73%[0m [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[90m╺[0m[90m━━━━━━━━━━[0m [32m8.6/11.8 MB[0m • [36m00:09[0m • [31m359.1 kB/s[0m[2K[35m 73%[0m [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[90m╺[0m[90m━━━━━━━━━━[0m [32m8.6/11.8 MB[0m • [36m00:09[0m • [31m359.1 kB/s[0m[2K[35m 73%[0m [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[90m╺[0m[90m━━━━━━━━━━[0m [32m8.6/11.8 MB[0m • [36m00:09[0m • [31m359.1 kB/s[0m[2K[35m 73%[0m [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[90m╺[0m[90m━━━━━━━━━━[0m [32m8.6/11.8 MB[0m • [36m00:09[0m • [31m359.1 kB/s[0m[2K[35m 73%[0m [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[90m╺[0m[90m━━━━━━━━━━[0m [32m8.6/11.8 MB[0m • [36m00:09[0m • [31m359.1 kB/s[0m[2K[35m 73%[0m [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[90m╺[0m[90m━━━━━━━━━━[0m [32m8.6/11.8 MB[0m • [36m00:09[0m • [31m359.1 kB/s[0m[2K[35m 73%[0m [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[90m╺[0m[90m━━━━━━━━━━[0m [32m8.6/11.8 MB[0m • [36m00:09[0m • [31m359.1 kB/s[0m[2K[35m 73%[0m [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[90m╺[0m[90m━━━━━━━━━━[0m [32m8.6/11.8 MB[0m • [36m00:09[0m • [31m359.1 kB/s[0m[2K[35m 73%[0m [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[90m╺[0m[90m━━━━━━━━━━[0m [32m8.6/11.8 MB[0m • [36m00:09[0m • [31m359.1 kB/s[0m[2K[35m 73%[0m [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[90m╺[0m[90m━━━━━━━━━━[0m [32m8.6/11.8 MB[0m • [36m00:09[0m • [31m359.1 kB/s[0m[2K[35m 73%[0m [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[90m╺[0m[90m━━━━━━━━━━[0m [32m8.6/11.8 MB[0m • [36m00:09[0m • [31m359.1 kB/s[0m[2K[35m 73%[0m [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[90m╺[0m[90m━━━━━━━━━━[0m [32m8.6/11.8 MB[0m • [36m00:09[0m • [31m359.1 kB/s[0m[2K[35m 73%[0m [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[90m╺[0m[90m━━━━━━━━━━[0m [32m8.6/11.8 MB[0m • [36m00:09[0m • [31m359.1 kB/s[0m[2K[35m 73%[0m [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[90m╺[0m[90m━━━━━━━━━━[0m [32m8.6/11.8 MB[0m • [36m00:09[0m • [31m359.1 kB/s[0m[2K[35m 73%[0m [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[90m╺[0m[90m━━━━━━━━━━[0m [32m8.6/11.8 MB[0m • [36m00:09[0m • [31m359.1 kB/s[0m[2K[35m 75%[0m [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m[90m━━━━━━━━━━[0m [32m8.9/11.8 MB[0m • [36m00:09[0m • [31m345.6 kB/s[0m[2K[35m 75%[0m [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m[90m━━━━━━━━━━[0m [32m8.9/11.8 MB[0m • [36m00:09[0m • [31m345.6 kB/s[0m[2K[35m 75%[0m [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m[90m━━━━━━━━━━[0m [32m8.9/11.8 MB[0m • [36m00:09[0m • [31m345.6 kB/s[0m[2K[35m 75%[0m [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m[90m━━━━━━━━━━[0m [32m8.9/11.8 MB[0m • [36m00:09[0m • [31m345.6 kB/s[0m[2K[35m 75%[0m [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m[90m━━━━━━━━━━[0m [32m8.9/11.8 MB[0m • [36m00:09[0m • [31m345.6 kB/s[0m[2K[35m 75%[0m [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m[90m━━━━━━━━━━[0m [32m8.9/11.8 MB[0m • [36m00:09[0m • [31m345.6 kB/s[0m[2K[35m 75%[0m [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m[90m━━━━━━━━━━[0m [32m8.9/11.8 MB[0m • [36m00:09[0m • [31m345.6 kB/s[0m[2K[35m 75%[0m [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m[90m━━━━━━━━━━[0m [32m8.9/11.8 MB[0m • [36m00:09[0m • [31m345.6 kB/s[0m[2K[35m 77%[0m [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m[90m━━━━━━━━━[0m [32m9.1/11.8 MB[0m • [36m00:09[0m • [31m341.4 kB/s[0m[2K[35m 77%[0m [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m[90m━━━━━━━━━[0m [32m9.1/11.8 MB[0m • [36m00:09[0m • [31m341.4 kB/s[0m[2K[35m 77%[0m [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m[90m━━━━━━━━━[0m [32m9.1/11.8 MB[0m • [36m00:09[0m • [31m341.4 kB/s[0m[2K[35m 77%[0m [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m[90m━━━━━━━━━[0m [32m9.1/11.8 MB[0m • [36m00:09[0m • [31m341.4 kB/s[0m[2K[35m 77%[0m [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m[90m━━━━━━━━━[0m [32m9.1/11.8 MB[0m • [36m00:09[0m • [31m341.4 kB/s[0m[2K[35m 77%[0m [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m[90m━━━━━━━━━[0m [32m9.1/11.8 MB[0m • [36m00:09[0m • [31m341.4 kB/s[0m[2K[35m 79%[0m [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[90m╺[0m[90m━━━━━━━━[0m [32m9.3/11.8 MB[0m • [36m00:08[0m • [31m343.5 kB/s[0m[2K[35m 79%[0m [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[90m╺[0m[90m━━━━━━━━[0m [32m9.3/11.8 MB[0m • [36m00:08[0m • [31m343.5 kB/s[0m[2K[35m 79%[0m [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[90m╺[0m[90m━━━━━━━━[0m [32m9.3/11.8 MB[0m • [36m00:08[0m • [31m343.5 kB/s[0m[2K[35m 79%[0m [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[90m╺[0m[90m━━━━━━━━[0m [32m9.3/11.8 MB[0m • [36m00:08[0m • [31m343.5 kB/s[0m[2K[35m 79%[0m [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[90m╺[0m[90m━━━━━━━━[0m [32m9.3/11.8 MB[0m • [36m00:08[0m • [31m343.5 kB/s[0m[2K[35m 79%[0m [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[90m╺[0m[90m━━━━━━━━[0m [32m9.3/11.8 MB[0m • [36m00:08[0m • [31m343.5 kB/s[0m[2K[35m 80%[0m [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[90m╺[0m[90m━━━━━━━[0m [32m9.5/11.8 MB[0m • [36m00:07[0m • [31m342.0 kB/s[0m[2K[35m 80%[0m [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[90m╺[0m[90m━━━━━━━[0m [32m9.5/11.8 MB[0m • [36m00:07[0m • [31m342.0 kB/s[0m[2K[35m 80%[0m [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[90m╺[0m[90m━━━━━━━[0m [32m9.5/11.8 MB[0m • [36m00:07[0m • [31m342.0 kB/s[0m[2K[35m 80%[0m [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[90m╺[0m[90m━━━━━━━[0m [32m9.5/11.8 MB[0m • [36m00:07[0m • [31m342.0 kB/s[0m[2K[35m 80%[0m [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[90m╺[0m[90m━━━━━━━[0m [32m9.5/11.8 MB[0m • [36m00:07[0m • [31m342.0 kB/s[0m[2K[35m 80%[0m [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[90m╺[0m[90m━━━━━━━[0m [32m9.5/11.8 MB[0m • [36m00:07[0m • [31m342.0 kB/s[0m[2K[35m 80%[0m [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[90m╺[0m[90m━━━━━━━[0m [32m9.5/11.8 MB[0m • [36m00:07[0m • [31m342.0 kB/s[0m[2K[35m 80%[0m [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[90m╺[0m[90m━━━━━━━[0m [32m9.5/11.8 MB[0m • [36m00:07[0m • [31m342.0 kB/s[0m[2K[35m 80%[0m [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[90m╺[0m[90m━━━━━━━[0m [32m9.5/11.8 MB[0m • [36m00:07[0m • [31m342.0 kB/s[0m[2K[35m 80%[0m [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[90m╺[0m[90m━━━━━━━[0m [32m9.5/11.8 MB[0m • [36m00:07[0m • [31m342.0 kB/s[0m[2K[35m 80%[0m [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[90m╺[0m[90m━━━━━━━[0m [32m9.5/11.8 MB[0m • [36m00:07[0m • [31m342.0 kB/s[0m[2K[35m 80%[0m [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[90m╺[0m[90m━━━━━━━[0m [32m9.5/11.8 MB[0m • [36m00:07[0m • [31m342.0 kB/s[0m[2K[35m 80%[0m [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[90m╺[0m[90m━━━━━━━[0m [32m9.5/11.8 MB[0m • [36m00:07[0m • [31m342.0 kB/s[0m[2K[35m 80%[0m [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[90m╺[0m[90m━━━━━━━[0m [32m9.5/11.8 MB[0m • [36m00:07[0m • [31m342.0 kB/s[0m[2K[35m 80%[0m [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[90m╺[0m[90m━━━━━━━[0m [32m9.5/11.8 MB[0m • [36m00:07[0m • [31m342.0 kB/s[0m[2K[35m 80%[0m [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[90m╺[0m[90m━━━━━━━[0m [32m9.5/11.8 MB[0m • [36m00:07[0m • [31m342.0 kB/s[0m[2K[35m 82%[0m [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m[90m━━━━━━━[0m [32m9.7/11.8 MB[0m • [36m00:07[0m • [31m330.2 kB/s[0m[2K[35m 82%[0m [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m[90m━━━━━━━[0m [32m9.7/11.8 MB[0m • [36m00:07[0m • [31m330.2 kB/s[0m[2K[35m 82%[0m [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m[90m━━━━━━━[0m [32m9.7/11.8 MB[0m • [36m00:07[0m • [31m330.2 kB/s[0m[2K[35m 82%[0m [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m[90m━━━━━━━[0m [32m9.7/11.8 MB[0m • [36m00:07[0m • [31m330.2 kB/s[0m[2K[35m 82%[0m [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m[90m━━━━━━━[0m [32m9.7/11.8 MB[0m • [36m00:07[0m • [31m330.2 kB/s[0m[2K[35m 82%[0m [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m[90m━━━━━━━[0m [32m9.7/11.8 MB[0m • [36m00:07[0m • [31m330.2 kB/s[0m[2K[35m 82%[0m [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m[90m━━━━━━━[0m [32m9.7/11.8 MB[0m • [36m00:07[0m • [31m330.2 kB/s[0m[2K[35m 82%[0m [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m[90m━━━━━━━[0m [32m9.7/11.8 MB[0m • [36m00:07[0m • [31m330.2 kB/s[0m[2K[35m 82%[0m [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m[90m━━━━━━━[0m [32m9.7/11.8 MB[0m • [36m00:07[0m • [31m330.2 kB/s[0m[2K[35m 82%[0m [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m[90m━━━━━━━[0m [32m9.7/11.8 MB[0m • [36m00:07[0m • [31m330.2 kB/s[0m[2K[35m 82%[0m [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m[90m━━━━━━━[0m [32m9.7/11.8 MB[0m • [36m00:07[0m • [31m330.2 kB/s[0m[2K[35m 82%[0m [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m[90m━━━━━━━[0m [32m9.7/11.8 MB[0m • [36m00:07[0m • [31m330.2 kB/s[0m[2K[35m 82%[0m [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m[90m━━━━━━━[0m [32m9.7/11.8 MB[0m • [36m00:07[0m • [31m330.2 kB/s[0m[2K[35m 82%[0m [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m[90m━━━━━━━[0m [32m9.7/11.8 MB[0m • [36m00:07[0m • [31m330.2 kB/s[0m[2K[35m 82%[0m [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m[90m━━━━━━━[0m [32m9.7/11.8 MB[0m • [36m00:07[0m • [31m330.2 kB/s[0m[2K[35m 82%[0m [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m[90m━━━━━━━[0m [32m9.7/11.8 MB[0m • [36m00:07[0m • [31m330.2 kB/s[0m[2K[35m 84%[0m [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[90m╺[0m[90m━━━━━━[0m [32m9.9/11.8 MB[0m • [36m00:07[0m • [31m282.2 kB/s[0m[2K[35m 84%[0m [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[90m╺[0m[90m━━━━━━[0m [32m9.9/11.8 MB[0m • [36m00:07[0m • [31m282.2 kB/s[0m[2K[35m 84%[0m [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[90m╺[0m[90m━━━━━━[0m [32m9.9/11.8 MB[0m • [36m00:07[0m • [31m282.2 kB/s[0m[2K[35m 84%[0m [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[90m╺[0m[90m━━━━━━[0m [32m9.9/11.8 MB[0m • [36m00:07[0m • [31m282.2 kB/s[0m[2K[35m 84%[0m [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[90m╺[0m[90m━━━━━━[0m [32m9.9/11.8 MB[0m • [36m00:07[0m • [31m282.2 kB/s[0m[2K[35m 84%[0m [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[90m╺[0m[90m━━━━━━[0m [32m9.9/11.8 MB[0m • [36m00:07[0m • [31m282.2 kB/s[0m[2K[35m 84%[0m [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[90m╺[0m[90m━━━━━━[0m [32m9.9/11.8 MB[0m • [36m00:07[0m • [31m282.2 kB/s[0m[2K[35m 84%[0m [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[90m╺[0m[90m━━━━━━[0m [32m9.9/11.8 MB[0m • [36m00:07[0m • [31m282.2 kB/s[0m[2K[35m 84%[0m [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[90m╺[0m[90m━━━━━━[0m [32m9.9/11.8 MB[0m • [36m00:07[0m • [31m282.2 kB/s[0m[2K[35m 84%[0m [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[90m╺[0m[90m━━━━━━[0m [32m9.9/11.8 MB[0m • [36m00:07[0m • [31m282.2 kB/s[0m[2K[35m 84%[0m [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[90m╺[0m[90m━━━━━━[0m [32m9.9/11.8 MB[0m • [36m00:07[0m • [31m282.2 kB/s[0m[2K[35m 84%[0m [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[90m╺[0m[90m━━━━━━[0m [32m9.9/11.8 MB[0m • [36m00:07[0m • [31m282.2 kB/s[0m[2K[35m 84%[0m [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[90m╺[0m[90m━━━━━━[0m [32m9.9/11.8 MB[0m • [36m00:07[0m • [31m282.2 kB/s[0m[2K[35m 84%[0m [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[90m╺[0m[90m━━━━━━[0m [32m9.9/11.8 MB[0m • [36m00:07[0m • [31m282.2 kB/s[0m[2K[35m 84%[0m [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[90m╺[0m[90m━━━━━━[0m [32m9.9/11.8 MB[0m • [36m00:07[0m • [31m282.2 kB/s[0m[2K[35m 84%[0m [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[90m╺[0m[90m━━━━━━[0m [32m9.9/11.8 MB[0m • [36m00:07[0m • [31m282.2 kB/s[0m[2K[35m 84%[0m [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[90m╺[0m[90m━━━━━━[0m [32m9.9/11.8 MB[0m • [36m00:07[0m • [31m282.2 kB/s[0m[2K[35m 84%[0m [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[90m╺[0m[90m━━━━━━[0m [32m9.9/11.8 MB[0m • [36m00:07[0m • [31m282.2 kB/s[0m[2K[35m 84%[0m [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[90m╺[0m[90m━━━━━━[0m [32m9.9/11.8 MB[0m • [36m00:07[0m • [31m282.2 kB/s[0m[2K[35m 84%[0m [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[90m╺[0m[90m━━━━━━[0m [32m9.9/11.8 MB[0m • [36m00:07[0m • [31m282.2 kB/s[0m[2K[35m 84%[0m [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[90m╺[0m[90m━━━━━━[0m [32m9.9/11.8 MB[0m • [36m00:07[0m • [31m282.2 kB/s[0m[2K[35m 84%[0m [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[90m╺[0m[90m━━━━━━[0m [32m9.9/11.8 MB[0m • [36m00:07[0m • [31m282.2 kB/s[0m[2K[35m 84%[0m [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[90m╺[0m[90m━━━━━━[0m [32m9.9/11.8 MB[0m • [36m00:07[0m • [31m282.2 kB/s[0m[2K[35m 84%[0m [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[90m╺[0m[90m━━━━━━[0m [32m9.9/11.8 MB[0m • [36m00:07[0m • [31m282.2 kB/s[0m[2K[35m 84%[0m [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[90m╺[0m[90m━━━━━━[0m [32m9.9/11.8 MB[0m • [36m00:07[0m • [31m282.2 kB/s[0m[2K[35m 85%[0m [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[90m╺[0m[90m━━━━━[0m [32m10.1/11.8 MB[0m • [36m00:07[0m • [31m261.1 kB/s[0m[2K[35m 85%[0m [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[90m╺[0m[90m━━━━━[0m [32m10.1/11.8 MB[0m • [36m00:07[0m • [31m261.1 kB/s[0m[2K[35m 85%[0m [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[90m╺[0m[90m━━━━━[0m [32m10.1/11.8 MB[0m • [36m00:07[0m • [31m261.1 kB/s[0m[2K[35m 85%[0m [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[90m╺[0m[90m━━━━━[0m [32m10.1/11.8 MB[0m • [36m00:07[0m • [31m261.1 kB/s[0m[2K[35m 85%[0m [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[90m╺[0m[90m━━━━━[0m [32m10.1/11.8 MB[0m • [36m00:07[0m • [31m261.1 kB/s[0m[2K[35m 85%[0m [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[90m╺[0m[90m━━━━━[0m [32m10.1/11.8 MB[0m • [36m00:07[0m • [31m261.1 kB/s[0m[2K[35m 85%[0m [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[90m╺[0m[90m━━━━━[0m [32m10.1/11.8 MB[0m • [36m00:07[0m • [31m261.1 kB/s[0m[2K[35m 85%[0m [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[90m╺[0m[90m━━━━━[0m [32m10.1/11.8 MB[0m • [36m00:07[0m • [31m261.1 kB/s[0m[2K[35m 85%[0m [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[90m╺[0m[90m━━━━━[0m [32m10.1/11.8 MB[0m • [36m00:07[0m • [31m261.1 kB/s[0m[2K[35m 85%[0m [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[90m╺[0m[90m━━━━━[0m [32m10.1/11.8 MB[0m • [36m00:07[0m • [31m261.1 kB/s[0m[2K[35m 85%[0m [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[90m╺[0m[90m━━━━━[0m [32m10.1/11.8 MB[0m • [36m00:07[0m • [31m261.1 kB/s[0m[2K[35m 85%[0m [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[90m╺[0m[90m━━━━━[0m [32m10.1/11.8 MB[0m • [36m00:07[0m • [31m261.1 kB/s[0m[2K[35m 85%[0m [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[90m╺[0m[90m━━━━━[0m [32m10.1/11.8 MB[0m • [36m00:07[0m • [31m261.1 kB/s[0m[2K[35m 88%[0m [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[90m╺[0m[90m━━━━[0m [32m10.4/11.8 MB[0m • [36m00:06[0m • [31m246.2 kB/s[0m[2K[35m 88%[0m [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[90m╺[0m[90m━━━━[0m [32m10.4/11.8 MB[0m • [36m00:06[0m • [31m246.2 kB/s[0m[2K[35m 88%[0m [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[90m╺[0m[90m━━━━[0m [32m10.4/11.8 MB[0m • [36m00:06[0m • [31m246.2 kB/s[0m[2K[35m 88%[0m [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[90m╺[0m[90m━━━━[0m [32m10.4/11.8 MB[0m • [36m00:06[0m • [31m246.2 kB/s[0m[2K[35m 88%[0m [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[90m╺[0m[90m━━━━[0m [32m10.4/11.8 MB[0m • [36m00:06[0m • [31m246.2 kB/s[0m[2K[35m 88%[0m [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[90m╺[0m[90m━━━━[0m [32m10.4/11.8 MB[0m • [36m00:06[0m • [31m246.2 kB/s[0m[2K[35m 88%[0m [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[90m╺[0m[90m━━━━[0m [32m10.4/11.8 MB[0m • [36m00:06[0m • [31m246.2 kB/s[0m[2K[35m 88%[0m [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[90m╺[0m[90m━━━━[0m [32m10.4/11.8 MB[0m • [36m00:06[0m • [31m246.2 kB/s[0m[2K[35m 89%[0m [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m[90m━━━━[0m [32m10.5/11.8 MB[0m • [36m00:06[0m • [31m244.2 kB/s[0m[2K[35m 89%[0m [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m[90m━━━━[0m [32m10.5/11.8 MB[0m • [36m00:06[0m • [31m244.2 kB/s[0m[2K[35m 89%[0m [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m[90m━━━━[0m [32m10.5/11.8 MB[0m • [36m00:06[0m • [31m244.2 kB/s[0m[2K[35m 89%[0m [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m[90m━━━━[0m [32m10.5/11.8 MB[0m • [36m00:06[0m • [31m244.2 kB/s[0m[2K[35m 89%[0m [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m[90m━━━━[0m [32m10.5/11.8 MB[0m • [36m00:06[0m • [31m244.2 kB/s[0m[2K[35m 89%[0m [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m[90m━━━━[0m [32m10.5/11.8 MB[0m • [36m00:06[0m • [31m244.2 kB/s[0m[2K[35m 91%[0m [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[90m╺[0m[90m━━━[0m [32m10.7/11.8 MB[0m • [36m00:05[0m • [31m242.9 kB/s[0m[2K[35m 91%[0m [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[90m╺[0m[90m━━━[0m [32m10.7/11.8 MB[0m • [36m00:05[0m • [31m242.9 kB/s[0m[2K[35m 91%[0m [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[90m╺[0m[90m━━━[0m [32m10.7/11.8 MB[0m • [36m00:05[0m • [31m242.9 kB/s[0m[2K[35m 92%[0m [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m[90m━━━[0m [32m10.9/11.8 MB[0m • [36m00:04[0m • [31m244.1 kB/s[0m[2K[35m 92%[0m [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m[90m━━━[0m [32m10.9/11.8 MB[0m • [36m00:04[0m • [31m244.1 kB/s[0m[2K[35m 92%[0m [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m[90m━━━[0m [32m10.9/11.8 MB[0m • [36m00:04[0m • [31m244.1 kB/s[0m[2K[35m 92%[0m [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m[90m━━━[0m [32m10.9/11.8 MB[0m • [36m00:04[0m • [31m244.1 kB/s[0m[2K[35m 92%[0m [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m[90m━━━[0m [32m10.9/11.8 MB[0m • [36m00:04[0m • [31m244.1 kB/s[0m[2K[35m 92%[0m [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m[90m━━━[0m [32m10.9/11.8 MB[0m • [36m00:04[0m • [31m244.1 kB/s[0m[2K[35m 92%[0m [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m[90m━━━[0m [32m10.9/11.8 MB[0m • [36m00:04[0m • [31m244.1 kB/s[0m[2K[35m 92%[0m [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m[90m━━━[0m [32m10.9/11.8 MB[0m • [36m00:04[0m • [31m244.1 kB/s[0m[2K[35m 92%[0m [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m[90m━━━[0m [32m10.9/11.8 MB[0m • [36m00:04[0m • [31m244.1 kB/s[0m[2K[35m 92%[0m [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m[90m━━━[0m [32m10.9/11.8 MB[0m • [36m00:04[0m • [31m244.1 kB/s[0m[2K[35m 95%[0m [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m[90m━━[0m [32m11.2/11.8 MB[0m • [36m00:03[0m • [31m239.4 kB/s[0m[2K[35m 95%[0m [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m[90m━━[0m [32m11.2/11.8 MB[0m • [36m00:03[0m • [31m239.4 kB/s[0m[2K[35m 95%[0m [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m[90m━━[0m [32m11.2/11.8 MB[0m • [36m00:03[0m • [31m239.4 kB/s[0m[2K[35m 95%[0m [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m[90m━━[0m [32m11.2/11.8 MB[0m • [36m00:03[0m • [31m239.4 kB/s[0m[2K[35m 95%[0m [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m[90m━━[0m [32m11.2/11.8 MB[0m • [36m00:03[0m • [31m239.4 kB/s[0m[2K[35m 95%[0m [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m[90m━━[0m [32m11.2/11.8 MB[0m • [36m00:03[0m • [31m239.4 kB/s[0m[2K[35m 95%[0m [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m[90m━━[0m [32m11.2/11.8 MB[0m • [36m00:03[0m • [31m239.4 kB/s[0m[2K[35m 95%[0m [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m[90m━━[0m [32m11.2/11.8 MB[0m • [36m00:03[0m • [31m239.4 kB/s[0m[2K[35m 95%[0m [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m[90m━━[0m [32m11.2/11.8 MB[0m • [36m00:03[0m • [31m239.4 kB/s[0m[2K[35m 95%[0m [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m[90m━━[0m [32m11.2/11.8 MB[0m • [36m00:03[0m • [31m239.4 kB/s[0m[2K[35m 95%[0m [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m[90m━━[0m [32m11.2/11.8 MB[0m • [36m00:03[0m • [31m239.4 kB/s[0m[2K[35m 95%[0m [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m[90m━━[0m [32m11.2/11.8 MB[0m • [36m00:03[0m • [31m239.4 kB/s[0m[2K[35m 95%[0m [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m[90m━━[0m [32m11.2/11.8 MB[0m • [36m00:03[0m • [31m239.4 kB/s[0m[2K[35m 95%[0m [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m[90m━━[0m [32m11.2/11.8 MB[0m • [36m00:03[0m • [31m239.4 kB/s[0m[2K[35m 96%[0m [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m[90m━[0m [32m11.4/11.8 MB[0m • [36m00:02[0m • [31m233.9 kB/s[0m[2K[35m 96%[0m [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m[90m━[0m [32m11.4/11.8 MB[0m • [36m00:02[0m • [31m233.9 kB/s[0m[2K[35m 96%[0m [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m[90m━[0m [32m11.4/11.8 MB[0m • [36m00:02[0m • [31m233.9 kB/s[0m[2K[35m 96%[0m [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m[90m━[0m [32m11.4/11.8 MB[0m • [36m00:02[0m • [31m233.9 kB/s[0m[2K[35m 96%[0m [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m[90m━[0m [32m11.4/11.8 MB[0m • [36m00:02[0m • [31m233.9 kB/s[0m[2K[35m 96%[0m [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m[90m━[0m [32m11.4/11.8 MB[0m • [36m00:02[0m • [31m233.9 kB/s[0m[2K[35m 99%[0m [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[90m╺[0m [32m11.6/11.8 MB[0m • [36m00:01[0m • [31m237.9 kB/s[0m[2K[35m 99%[0m [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[90m╺[0m [32m11.6/11.8 MB[0m • [36m00:01[0m • [31m237.9 kB/s[0m[2K[35m 99%[0m [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[90m╺[0m [32m11.6/11.8 MB[0m • [36m00:01[0m • [31m237.9 kB/s[0m[2K[35m 99%[0m [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[90m╺[0m [32m11.6/11.8 MB[0m • [36m00:01[0m • [31m237.9 kB/s[0m[2K[35m100%[0m [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m11.8/11.8 MB[0m • [33m00:40[0m • [31m236.7 kB/s[0m[2K[35m100%[0m [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m11.8/11.8 MB[0m • [33m00:40[0m • [31m236.7 kB/s[0m[2K[35m100%[0m [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m11.8/11.8 MB[0m • [33m00:40[0m • [31m236.7 kB/s[0m[2K[35m100%[0m [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m11.8/11.8 MB[0m • [33m00:40[0m • [31m236.7 kB/s[0m[2K[35m100%[0m [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m11.8/11.8 MB[0m • [33m00:40[0m • [31m236.7 kB/s[0m[2K[35m100%[0m [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m11.8/11.8 MB[0m • [33m00:40[0m • [31m236.7 kB/s[0m[2K[35m100%[0m [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m11.8/11.8 MB[0m • [33m00:40[0m • [31m236.7 kB/s[0m[2K[35m100%[0m [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m11.8/11.8 MB[0m • [33m00:40[0m • [31m236.7 kB/s[0m[2K[35m100%[0m [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m11.8/11.8 MB[0m • [33m00:40[0m • [31m236.7 kB/s[0m[2K[35m100%[0m [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m11.8/11.8 MB[0m • [33m00:40[0m • [31m236.7 kB/s[0m[2K[35m100%[0m [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m11.8/11.8 MB[0m • [33m00:40[0m • [31m236.7 kB/s[0m[2K[35m100%[0m [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m11.8/11.8 MB[0m • [33m00:40[0m • [31m236.7 kB/s[0m[2K[35m100%[0m [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m11.8/11.8 MB[0m • [33m00:40[0m • [31m236.7 kB/s[0m[2K[35m100%[0m [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m11.8/11.8 MB[0m • [33m00:40[0m • [31m236.7 kB/s[0m[2K[35m100%[0m [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m11.8/11.8 MB[0m • [33m00:40[0m • [31m236.7 kB/s[0m[2K[35m100%[0m [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m11.8/11.8 MB[0m • [33m00:40[0m • [31m236.7 kB/s[0m[2K[35m100%[0m [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m11.8/11.8 MB[0m • [33m00:40[0m • [31m236.7 kB/s[0m[2K[35m100%[0m [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m11.8/11.8 MB[0m • [33m00:40[0m • [31m236.7 kB/s[0m[2K[35m100%[0m [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m11.8/11.8 MB[0m • [33m00:40[0m • [31m236.7 kB/s[0m[2K[35m100%[0m [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m11.8/11.8 MB[0m • [33m00:40[0m • [31m236.7 kB/s[0m[2K[35m100%[0m [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m11.8/11.8 MB[0m • [33m00:40[0m • [31m236.7 kB/s[0m[2K[35m100%[0m [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m11.8/11.8 MB[0m • [33m00:40[0m • [31m236.7 kB/s[0m[2K[35m100%[0m [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m11.8/11.8 MB[0m • [33m00:40[0m • [31m236.7 kB/s[0m[2K[35m100%[0m [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m11.8/11.8 MB[0m • [33m00:40[0m • [31m236.7 kB/s[0m[2K[35m100%[0m [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m11.8/11.8 MB[0m • [33m00:40[0m • [31m236.7 kB/s[0m[2K[35m100%[0m [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m11.8/11.8 MB[0m • [33m00:40[0m • [31m236.7 kB/s[0m[2K[35m100%[0m [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m11.8/11.8 MB[0m • [33m00:40[0m • [31m236.7 kB/s[0m[2K[35m100%[0m [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m11.8/11.8 MB[0m • [33m00:40[0m • [31m236.7 kB/s[0m[2K[35m100%[0m [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m11.8/11.8 MB[0m • [33m00:40[0m • [31m236.7 kB/s[0m[2K[35m100%[0m [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m11.8/11.8 MB[0m • [33m00:40[0m • [31m236.7 kB/s[0m[2K[35m100%[0m [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m11.8/11.8 MB[0m • [33m00:40[0m • [31m236.7 kB/s[0m[2K[35m100%[0m [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m11.8/11.8 MB[0m • [33m00:40[0m • [31m236.7 kB/s[0m[2K[35m100%[0m [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m11.8/11.8 MB[0m • [33m00:40[0m • [31m236.7 kB/s[0m[2K[35m100%[0m [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m11.8/11.8 MB[0m • [33m00:40[0m • [31m236.7 kB/s[0m[2K[35m100%[0m [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m11.8/11.8 MB[0m • [33m00:40[0m • [31m236.7 kB/s[0m[2K[35m100%[0m [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m11.8/11.8 MB[0m • [33m00:40[0m • [31m236.7 kB/s[0m[2K[35m100%[0m [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m11.8/11.8 MB[0m • [33m00:40[0m • [31m236.7 kB/s[0m[2K[35m100%[0m [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m11.8/11.8 MB[0m • [33m00:40[0m • [31m236.7 kB/s[0m[2K[35m100%[0m [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m11.8/11.8 MB[0m • [33m00:40[0m • [31m236.7 kB/s[0m[2K[35m100%[0m [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m11.8/11.8 MB[0m • [33m00:40[0m • [31m236.7 kB/s[0m[2K[35m100%[0m [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m11.8/11.8 MB[0m • [33m00:40[0m • [31m236.7 kB/s[0m[2K[35m100%[0m [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m11.8/11.8 MB[0m • [33m00:40[0m • [31m236.7 kB/s[0m[2K[35m100%[0m [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m11.8/11.8 MB[0m • [33m00:40[0m • [31m236.7 kB/s[0m[2K[35m100%[0m [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m11.8/11.8 MB[0m • [33m00:40[0m • [31m236.7 kB/s[0m[2K[35m100%[0m [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m11.8/11.8 MB[0m • [33m00:40[0m • [31m236.7 kB/s[0m[2K[35m100%[0m [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m11.8/11.8 MB[0m • [33m00:40[0m • [31m236.7 kB/s[0m[2K[35m100%[0m [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m11.8/11.8 MB[0m • [33m00:40[0m • [31m236.7 kB/s[0m[2K[35m100%[0m [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m11.8/11.8 MB[0m • [33m00:40[0m • [31m236.7 kB/s[0m[2K[35m100%[0m [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m11.8/11.8 MB[0m • [33m00:40[0m • [31m236.7 kB/s[0m[2K[35m100%[0m [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m11.8/11.8 MB[0m • [33m00:40[0m • [31m236.7 kB/s[0m[2K[35m100%[0m [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m11.8/11.8 MB[0m • [33m00:40[0m • [31m236.7 kB/s[0m[2K[35m100%[0m [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m11.8/11.8 MB[0m • [33m00:40[0m • [31m236.7 kB/s[0m
+[?25h
+[32mView at:[0m
+https://pypi.org/project/acc-provision/6.1.1.2/
++'[' 0 -ne 0 ']'
++IS_RELEASE=true
++[[ 6.1.1.2 =~ 6.1.1.2rc[0-9]+ ]]
++/tmp/cicd/travis/push-to-cicd-status.sh https://pypi.org/project/acc-provision/6.1.1.2/#files 6.1.1.2 true true
+++dirname /tmp/cicd/travis/push-to-cicd-status.sh
++SCRIPTS_DIR=/tmp/cicd/travis
++source /tmp/cicd/travis/globals.sh
+++set -x
+++RELEASE_TAG=6.1.1.2
+++export RELEASE_TAG
++++date +%m%d%y
+++DATE_TAG=122024
+++TRAVIS_TAG_WITH_UPSTREAM_ID=6.1.1.2.81c2369
+++TRAVIS_TAG_WITH_UPSTREAM_ID_DATE_TRAVIS_BUILD_NUMBER=6.1.1.2.81c2369.122024.10358
+++IMAGE_TAG=6.1.1.2.81c2369
+++UPSTREAM_IMAGE_TAG=6.1.1.2.81c2369
+++UPSTREAM_IMAGE_Z_TAG=6.1.1.2.81c2369.z
+++IMAGE_Z_TAG=6.1.1.2.81c2369.z
+++RELEASE_Z_TAG=6.1.1.2.z
+++RC_PREFIX=6.1.1.2rc
+++RC_REGEX='6.1.1.2rc[0-9]+'
+++QUAY_REGISTRY=quay.io/noirolabs
+++QUAY_NOIRO_REGISTRY=quay.io/noiro
+++DOCKER_REGISTRY=docker.io/noiro
+++CICD_STATUS_REPO=https://github.com/noironetworks/cicd-status.git
+++git rev-parse --abbrev-ref HEAD
++current_branch=HEAD
++[[ acc-provision != \a\c\c\-\p\r\o\v\i\s\i\o\n ]]
++PYPI_REGISTRY=https://pypi.org/project/acc-provision/6.1.1.2/#files
++TAG_NAME=6.1.1.2
++IS_RELEASE=true
++TWINE_UPLOAD=true
++GIT_REPO=https://github.com/noironetworks/cicd-status.git
++GIT_LOCAL_DIR=cicd-status
++GIT_BRANCH=main
++GIT_EMAIL=test@cisco.com
++GIT_TOKEN=[secure]
++GIT_USER=travis-tagger
++git_clone_repo
++cd /tmp/
++git clone https://travis-tagger:[secure]@github.com/noironetworks/cicd-status.git -b main cicd-status
+Cloning into 'cicd-status'...

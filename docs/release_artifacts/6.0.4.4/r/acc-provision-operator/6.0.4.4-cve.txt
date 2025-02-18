@@ -1,0 +1,50 @@
+NAME              INSTALLED  FIXED-IN   TYPE       VULNERABILITY        SEVERITY 
+ansible-core      2.17.5     2.17.6rc1  python     GHSA-32p4-gm2c-wmch  Medium    
+ansible-core      2.17.5     2.17.7rc1  python     GHSA-99w6-3xph-cx78  Low       
+golang.org/x/net  v0.29.0    0.33.0     go-module  GHSA-w32m-9786-jp63  High      
+idna              2.10       3.7        python     GHSA-jjg7-2v4v-x38h  Medium    
+requests          2.25.1     2.31.0     python     GHSA-j8r2-6x86-q33q  Medium    
+requests          2.25.1     2.32.0     python     GHSA-9wx4-h78v-vm56  Medium    
+requests          2.31.0     2.32.0     python     GHSA-9wx4-h78v-vm56  Medium    
+setuptools        53.0.0     65.5.1     python     GHSA-r9hx-vwmv-q579  High      
+setuptools        53.0.0     70.0.0     python     GHSA-cx63-2mw6-8hw5  High      
+urllib3           1.26.5     1.26.17    python     GHSA-v845-jxx5-vc9f  High      
+urllib3           1.26.5     1.26.18    python     GHSA-g4mx-q9vg-27p4  Medium    
+urllib3           1.26.5     1.26.19    python     GHSA-34jh-p97f-mpxf  Medium
+
+quay.io/noiro/acc-provision-operator:6.0.4.4.81c2369.z (redhat 9.5)
+===================================================================
+Total: 0 (UNKNOWN: 0, LOW: 0, MEDIUM: 0, HIGH: 0, CRITICAL: 0)
+
+
+Python (python-pkg)
+===================
+Total: 3 (UNKNOWN: 0, LOW: 1, MEDIUM: 2, HIGH: 0, CRITICAL: 0)
+
+┌─────────────────────────┬────────────────┬──────────┬────────┬───────────────────┬──────────────────────────────────────────────────────────┬─────────────────────────────────────────────────────────────┐
+│         Library         │ Vulnerability  │ Severity │ Status │ Installed Version │                      Fixed Version                       │                            Title                            │
+├─────────────────────────┼────────────────┼──────────┼────────┼───────────────────┼──────────────────────────────────────────────────────────┼─────────────────────────────────────────────────────────────┤
+│ ansible-core (METADATA) │ CVE-2024-9902  │ MEDIUM   │ fixed  │ 2.17.5            │ 2.14.18rc1, 2.15.13rc1, 2.16.13rc1, 2.17.6rc1, 2.18.0rc2 │ ansible-core: Ansible-core user may read/write unauthorized │
+│                         │                │          │        │                   │                                                          │ content                                                     │
+│                         │                │          │        │                   │                                                          │ https://avd.aquasec.com/nvd/cve-2024-9902                   │
+│                         ├────────────────┼──────────┤        │                   ├──────────────────────────────────────────────────────────┼─────────────────────────────────────────────────────────────┤
+│                         │ CVE-2024-11079 │ LOW      │        │                   │ 2.18.1rc1, 2.17.7rc1, 2.16.14rc1                         │ ansible-core: Unsafe Tagging Bypass via hostvars Object in  │
+│                         │                │          │        │                   │                                                          │ Ansible-Core                                                │
+│                         │                │          │        │                   │                                                          │ https://avd.aquasec.com/nvd/cve-2024-11079                  │
+├─────────────────────────┼────────────────┼──────────┤        ├───────────────────┼──────────────────────────────────────────────────────────┼─────────────────────────────────────────────────────────────┤
+│ requests (METADATA)     │ CVE-2024-35195 │ MEDIUM   │        │ 2.31.0            │ 2.32.0                                                   │ requests: subsequent requests to the same host ignore cert  │
+│                         │                │          │        │                   │                                                          │ verification                                                │
+│                         │                │          │        │                   │                                                          │ https://avd.aquasec.com/nvd/cve-2024-35195                  │
+└─────────────────────────┴────────────────┴──────────┴────────┴───────────────────┴──────────────────────────────────────────────────────────┴─────────────────────────────────────────────────────────────┘
+
+usr/local/bin/ansible-operator (gobinary)
+=========================================
+Total: 1 (UNKNOWN: 0, LOW: 0, MEDIUM: 0, HIGH: 1, CRITICAL: 0)
+
+┌──────────────────┬────────────────┬──────────┬────────┬───────────────────┬───────────────┬───────────────────────────────────────────────────┐
+│     Library      │ Vulnerability  │ Severity │ Status │ Installed Version │ Fixed Version │                       Title                       │
+├──────────────────┼────────────────┼──────────┼────────┼───────────────────┼───────────────┼───────────────────────────────────────────────────┤
+│ golang.org/x/net │ CVE-2024-45338 │ HIGH     │ fixed  │ v0.29.0           │ 0.33.0        │ Non-linear parsing of case-insensitive content in │
+│                  │                │          │        │                   │               │ golang.org/x/net/html                             │
+│                  │                │          │        │                   │               │ https://avd.aquasec.com/nvd/cve-2024-45338        │
+└──────────────────┴────────────────┴──────────┴────────┴───────────────────┴───────────────┴───────────────────────────────────────────────────┘

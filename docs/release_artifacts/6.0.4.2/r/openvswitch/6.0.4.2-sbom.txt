@@ -1,0 +1,16 @@
+NAME                                     VERSION                                   TYPE      
+./pkg/ipam                               (devel)                                   go-module  
+dbus-python                              1.2.18                                    python     
+distro                                   1.5.0                                     python     
+github.com/containernetworking/cni       v1.1.2                                    go-module  
+github.com/noironetworks/aci-containers  41e40ebebeb8e50ecf64c672f42b2d3ad9280f9e  go-module  
+gpg                                      1.15.1                                    python     
+libcomps                                 0.1.18                                    python     
+python-dateutil                          2.8.1                                     python     
+rpm                                      4.16.1.3                                  python     
+selinux                                  3.6                                       python     
+sepolicy                                 3.6                                       python     
+setools                                  4.4.4                                     python     
+setuptools                               53.0.0                                    python     
+six                                      1.15.0                                    python     
+systemd-python                           234                                       python     

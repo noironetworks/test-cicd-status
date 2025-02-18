@@ -9,6 +9,9 @@ fetch('release_artifacts/releases.yaml')
     const releaseName = urlParams.get('release');
     const releaseTag = releaseName.replace(/(\.z|.rc[0-9]+)$/, '');
     var accProcOpRow = document.createElement('tr');
+    var aciConWeb = document.createElement('tr');
+    var aciConCert = document.createElement('tr');
+    var aciConHostOvscni = document.createElement('tr');
 
     for (const releaseData of parsedData.releases) {
       if (releaseData.release_tag === releaseTag) {
@@ -139,7 +142,21 @@ fetch('release_artifacts/releases.yaml')
                   const baseImageL = image['base-image'][0].severity[0].L.toString();
                   const baseImageU = image['base-image'][0].severity[0].U.toString();
 
-                  const baseImageCVEText = `<span class="cve-letter cve-c">C:${baseImageC}</span><br>
+                  let severityType = 'GRYPE';
+                  let severityTypeClass = 'severity_type_grype';
+                  if (image['base-image'][0].hasOwnProperty('severity_type')) {
+                    severityType = image['base-image'][0].severity_type;
+                    if (severityType.toLowerCase() === 'quay') {
+                      severityTypeClass = 'severity_type_quay';
+                      if (image['base-image'][0].severity_link) {
+                        baseImageCVELink.href = image['base-image'][0].severity_link;
+                      }
+                    }
+                  }
+                  severityType = severityType.toUpperCase()
+                  const baseImageCVEText = ` <div class="${severityTypeClass}">${severityType}</div>
+                  <hr>
+                  <span class="cve-letter cve-c">C:${baseImageC}</span><br>
                   <span class="cve-letter cve-h">H:${baseImageH}</span><br>
                   <span class="cve-letter cve-m">M:${baseImageM}</span><br>
                   <span class="cve-letter cve-l">L:${baseImageL}</span><br>
@@ -147,8 +164,21 @@ fetch('release_artifacts/releases.yaml')
                   
                   baseImageCVELink.innerHTML = baseImageCVEText;
                   baseImageCVECell.appendChild(baseImageCVELink);
-                } else {
-                  baseImageCVELink.textContent = 'N/A';
+                } else if (image['base-image'][0].hasOwnProperty('base_cve_error') && image['base-image'][0].base_cve_error === 'Scanning Queued in Quay'){
+                  if (image['base-image'][0].hasOwnProperty('severity_type')) {
+                    severityType = image['base-image'][0].severity_type;
+                    if (severityType.toLowerCase() === 'quay') {
+                      severityTypeClass = 'severity_type_quay';
+                      if (image['base-image'][0].severity_link) {
+                        baseImageCVELink.href = image['base-image'][0].severity_link;
+                      }
+                    }
+                  }
+                  severityType = severityType.toUpperCase()
+                  const cveText = ` <div class="${severityTypeClass}">${severityType}</div>
+                                    <hr>
+                                    <span>Queued</span><br>`;
+                  baseImageCVELink.innerHTML = cveText;
                   baseImageCVECell.appendChild(baseImageCVELink);
                 }
               }
@@ -187,6 +217,9 @@ fetch('release_artifacts/releases.yaml')
                   severityType = image.severity_type;
                   if (severityType.toLowerCase() === 'quay') {
                     severityTypeClass = 'severity_type_quay';
+                    if (image.severity_link) {
+                      cveLink.href = image.severity_link;
+                    }
                   }
                 }
                 severityType = severityType.toUpperCase()
@@ -199,8 +232,21 @@ fetch('release_artifacts/releases.yaml')
                                   <span class="cve-letter cve-u">U:${U}</span>`;
                 cveLink.innerHTML = cveText;
                 cveCell.appendChild(cveLink);
-              } else {
-                cveLink.textContent = 'N/A';
+              } else if (image.cve_error === 'Scanning Queued in Quay'){
+                if (image.hasOwnProperty('severity_type')) {
+                  severityType = image.severity_type;
+                  if (severityType.toLowerCase() === 'quay') {
+                    severityTypeClass = 'severity_type_quay';
+                    if (image.severity_link) {
+                      cveLink.href = image.severity_link;
+                    }
+                  }
+                }
+                severityType = severityType.toUpperCase()
+                const cveText = ` <div class="${severityTypeClass}">${severityType}</div>
+                                  <hr>
+                                  <span>Queued</span><br>`;
+                cveLink.innerHTML = cveText;
                 cveCell.appendChild(cveLink);
               }
               releaseRow.appendChild(cveCell);
@@ -219,10 +265,19 @@ fetch('release_artifacts/releases.yaml')
 
               if (image.name == "acc-provision-operator") {
                 accProcOpRow = releaseRow;
+              } else if (image.name == "aci-containers-webhook") {
+                aciConWeb = releaseRow;
+              } else if (image.name == "aci-containers-certmanager") {
+                aciConCert = releaseRow;
+              } else if (image.name == "aci-containers-host-ovscni") {
+                aciConHostOvscni = releaseRow;
               } else {
                 tableBody.appendChild(releaseRow);
               }
             }
+            tableBody.appendChild(aciConCert);
+            tableBody.appendChild(aciConWeb);
+            tableBody.appendChild(aciConHostOvscni);
             tableBody.appendChild(accProcOpRow);
             // Exit the loop once the specific release is found
             break;

@@ -19,11 +19,11 @@ fetch('release_artifacts/releases.yaml')
             if (releaseStream.acc_provision && releaseStream.acc_provision.length > 0) {
               for (const accProvisionEntry of releaseStream.acc_provision) {
                   const accProvisionRow = document.createElement('tr');
-                  const accProvisionTagCell = document.createElement('td');
+                  const accProvisionVersionCell = document.createElement('td');
                   const accProvisionLinkCell = document.createElement('td');
 
-                  accProvisionTagCell.textContent = accProvisionEntry.tag;
-                  accProvisionRow.appendChild(accProvisionTagCell);
+                  accProvisionVersionCell.textContent = accProvisionEntry.tag;
+                  accProvisionRow.appendChild(accProvisionVersionCell);
 
                   // if commit is available, add a link to the commit
                   if (accProvisionEntry.commit) {
@@ -36,10 +36,36 @@ fetch('release_artifacts/releases.yaml')
                       accProvisionRow.appendChild(commitCell);
                   }
 
-                  const accProvisionLink = document.createElement('a');
-                  accProvisionLink.href = accProvisionEntry.link;
-                  accProvisionLink.textContent = accProvisionEntry.link;
-                  accProvisionLinkCell.appendChild(accProvisionLink);
+                  // Create an unordered list element
+                  const linkList = document.createElement('ul');
+                  // Create and append the PyPi link as a list item
+                  const pypiLinkItem = document.createElement('li');
+                  const pypiLink = document.createElement('a');
+                  pypiLink.href = accProvisionEntry.link;
+                  pypiLink.textContent = 'PyPi Release';
+                  pypiLinkItem.appendChild(pypiLink);
+                  linkList.appendChild(pypiLinkItem);
+                  // Define additional links
+                  const additionalLinks = [
+                    { href: `manifest-sha.html?release=${encodeURIComponent(releaseName)}&dq=${encodeURIComponent("quay")}`, text: 'SHA256 for Quay Manifest' },
+                    { href: `manifest-sha.html?release=${encodeURIComponent(releaseName)}&dq=${encodeURIComponent("docker")}`, text: 'SHA256 for Docker Manifest' }
+                  ];
+                  // Create and append list items for each additional link
+                  additionalLinks.forEach(linkEntry => {
+                    const listItem = document.createElement('li');
+                    const link = document.createElement('a');
+                    link.href = linkEntry.href;
+                    link.textContent = linkEntry.text;
+                    listItem.appendChild(link);
+                    linkList.appendChild(listItem);
+                  });
+                  // Append the list to the cell
+                  accProvisionLinkCell.appendChild(linkList);
+                  // Create and append the help message
+                  const message = document.createElement('p');
+                  message.textContent = "Please copy one of the above manifests to your Acc-Provision input file.";
+                  accProvisionLinkCell.appendChild(message);
+                  // Append the cell to the row
                   accProvisionRow.appendChild(accProvisionLinkCell);
 
                   // if build logs are available, add a link to the build logs
