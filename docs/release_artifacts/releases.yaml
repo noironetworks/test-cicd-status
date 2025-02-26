@@ -5286,7 +5286,7 @@ releases:
           U: 0
         sha: 14f14e03d68f7fd5f2b18a13478b6b127c341b346c86b6e0b886ed2b7573b8e0
       build-logs: release_artifacts/6.1.2.1/z/opflex/6.1.2.1-buildlog.txt
-      build-time: 2025-02-26 13:38:06 PST
+      build-time: 2025-02-26 15:55:55 PST
       commit:
       - link: https://github.com/noironetworks/opflex/commit/f80fe581d8b9023f1b0706b95b1666d82e9055c2
         sha: f80fe581d8b9023f1b0706b95b1666d82e9055c2
@@ -5320,7 +5320,7 @@ releases:
         M: 0
         U: 0
       severity_type: grype
-    last_updated: 2025-02-26 13:38:07 PST
+    last_updated: 2025-02-26 15:55:56 PST
     release_name: 6.1.2.1.z
   - acc_provision: []
     container_images: []
