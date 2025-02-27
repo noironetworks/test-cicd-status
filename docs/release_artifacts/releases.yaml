@@ -5286,7 +5286,7 @@ releases:
           U: 0
         sha: 14f14e03d68f7fd5f2b18a13478b6b127c341b346c86b6e0b886ed2b7573b8e0
       build-logs: release_artifacts/6.1.2.1/z/opflex/6.1.2.1-buildlog.txt
-      build-time: 2025-02-26 15:55:55 PST
+      build-time: 2025-02-27 13:01:44 PST
       commit:
       - link: https://github.com/noironetworks/opflex/commit/f80fe581d8b9023f1b0706b95b1666d82e9055c2
         sha: f80fe581d8b9023f1b0706b95b1666d82e9055c2
@@ -5295,23 +5295,20 @@ releases:
       - link: https://hub.docker.com/layers/noiro/opflex/6.1.2.1.81c2369.z/images/sha256-84d9de5b2d45c7ffa50e52155d21267b0d2e77e79d9d1ad7bd8104341fbf875a?context=explore
         sha: 84d9de5b2d45c7ffa50e52155d21267b0d2e77e79d9d1ad7bd8104341fbf875a
         tag: 6.1.2.1.81c2369.z
-      - link: https://hub.docker.com/layers/noiro/opflex/6.1.2.1.81c2369.022625.4380/images/sha256-error?context=explore
+      - link: https://hub.docker.com/layers/noiro/opflex/6.1.2.1.81c2369.022725.4380/images/sha256-error?context=explore
         sha: error
-        tag: 6.1.2.1.81c2369.022625.4380
+        tag: 6.1.2.1.81c2369.022725.4380
       name: opflex
       opflex-metadata:
         base-image: registry.access.redhat.com/ubi9/ubi-minimal:latest
-        base-image-sha: 'sha256:da8c0ca2c3f40c149598f1a3b5f3987911fb20187b079c677d3ed0aad2e431d0
-
-          '
-        branch: 6.1.2.1
+        base-image-sha: 14f14e03d68f7fd5f2b18a13478b6b127c341b346c86b6e0b886ed2b7573b8e0
       quay:
       - link: https://quay.io/noiro/opflex:6.1.2.1.81c2369.z
         sha: 84d9de5b2d45c7ffa50e52155d21267b0d2e77e79d9d1ad7bd8104341fbf875a
         tag: 6.1.2.1.81c2369.z
-      - link: https://quay.io/noiro/opflex:6.1.2.1.81c2369.022625.4380
+      - link: https://quay.io/noiro/opflex:6.1.2.1.81c2369.022725.4380
         sha: error
-        tag: 6.1.2.1.81c2369.022625.4380
+        tag: 6.1.2.1.81c2369.022725.4380
       sbom: release_artifacts/6.1.2.1/z/opflex/6.1.2.1-sbom.txt
       severity:
       - C: 0
@@ -5320,7 +5317,7 @@ releases:
         M: 0
         U: 0
       severity_type: grype
-    last_updated: 2025-02-26 15:55:56 PST
+    last_updated: 2025-02-27 13:01:44 PST
     release_name: 6.1.2.1.z
   - acc_provision: []
     container_images: []
