@@ -5301,7 +5301,7 @@ releases:
       name: opflex
       opflex-metadata:
         base-image: registry.access.redhat.com/ubi9/ubi-minimal:latest
-        base-image-sha: 14f14e03d68f7fd5f2b18a13478b6b127c341b346c86b6e0b886ed2b7573b8e0
+        base-image-sha: 37237214f14e03d68f7fd5f2b18a13478b6b127c341b346c86b6e0b886ed2b7573b8e0
       quay:
       - link: https://quay.io/noiro/opflex:6.1.2.1.81c2369.z
         sha: 84d9de5b2d45c7ffa50e52155d21267b0d2e77e79d9d1ad7bd8104341fbf875a
