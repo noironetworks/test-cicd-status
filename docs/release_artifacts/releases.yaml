@@ -6613,6 +6613,17 @@ releases:
         severity_link: https://quay.io/repository/noirolabs/ansible-operator/manifest/sha256:7cce278227132fbe300bc4348842d721f2f5ad59afa7034a24d98006239b6dd7?tab=vulnerabilities
         severity_type: quay
         sha: 7cce278227132fbe300bc4348842d721f2f5ad59afa7034a24d98006239b6dd7
+      original-base-image:
+      - cve: release_artifacts/6.1.1.2/r/acc-provision-operator/6.1.1.2-cve-base.txt
+        severity:
+          - C: 0
+            H: 1
+            L: 10
+            M: 5
+            U: 0
+        sha: "sha256:examplebaseimage"
+        date-and-time: "2023-01-01 12:30:00 PST"
+      update-release-cves-until: "2023-01-01 12:30:00 PST"
       build-logs: release_artifacts/6.1.1.2/r/acc-provision-operator/6.1.1.2-buildlog.txt
       build-time: 2024-12-20 01:57:36 PST
       commit:
@@ -6650,6 +6661,17 @@ releases:
         severity_link: https://quay.io/repository/noirolabs/ubi9-minimal/manifest/sha256:b83669217a3b18c0d4269d37ad428dca936cfe9f127fd5ee65ea072670eced82?tab=vulnerabilities
         severity_type: quay
         sha: b83669217a3b18c0d4269d37ad428dca936cfe9f127fd5ee65ea072670eced82
+      original-base-image:
+      - cve: release_artifacts/6.1.1.2/r/aci-containers-host/6.1.1.2-cve-base.txt
+        severity:
+          - C: 0
+            H: 1
+            L: 10
+            M: 5
+            U: 0
+        sha: "sha256:examplebaseimage"
+        date-and-time: "2023-01-01 12:30:00 PST"
+      update-release-cves-until: "2023-01-01 12:30:00 PST"
       build-logs: release_artifacts/6.1.1.2/r/aci-containers-host/6.1.1.2-buildlog.txt
       build-time: 2024-12-20 01:57:55 PST
       commit:
@@ -6687,6 +6709,17 @@ releases:
         severity_link: https://quay.io/repository/noirolabs/ubi9/manifest/sha256:2d267fee99700fab182ecd5eff93baf6b39144a063e06d49adb065ada099e70d?tab=vulnerabilities
         severity_type: quay
         sha: 2d267fee99700fab182ecd5eff93baf6b39144a063e06d49adb065ada099e70d
+      original-base-image:
+      - cve: release_artifacts/6.1.1.2/r/aci-containers-controller/6.1.1.2-cve-base.txt
+        severity:
+          - C: 0
+            H: 1
+            L: 10
+            M: 5
+            U: 0
+        sha: "sha256:examplebaseimage"
+        date-and-time: "2023-01-01 12:30:00 PST"
+      update-release-cves-until: "2023-01-01 12:30:00 PST"
       build-logs: release_artifacts/6.1.1.2/r/aci-containers-controller/6.1.1.2-buildlog.txt
       build-time: 2024-12-20 01:58:12 PST
       commit:
@@ -6724,6 +6757,17 @@ releases:
         severity_link: https://quay.io/repository/noirolabs/ubi9/manifest/sha256:2d267fee99700fab182ecd5eff93baf6b39144a063e06d49adb065ada099e70d?tab=vulnerabilities
         severity_type: quay
         sha: 2d267fee99700fab182ecd5eff93baf6b39144a063e06d49adb065ada099e70d
+      original-base-image:
+      - cve: release_artifacts/6.1.1.2/r/cnideploy/6.1.1.2-cve-base.txt
+        severity:
+          - C: 0
+            H: 1
+            L: 10
+            M: 5
+            U: 0
+        sha: "sha256:examplebaseimage"
+        date-and-time: "2023-01-01 12:30:00 PST"
+      update-release-cves-until: "2023-01-01 12:30:00 PST"
       build-logs: release_artifacts/6.1.1.2/r/cnideploy/6.1.1.2-buildlog.txt
       build-time: 2024-12-20 01:58:24 PST
       commit:
@@ -6761,6 +6805,17 @@ releases:
         severity_link: https://quay.io/repository/noirolabs/ubi9/manifest/sha256:2d267fee99700fab182ecd5eff93baf6b39144a063e06d49adb065ada099e70d?tab=vulnerabilities
         severity_type: quay
         sha: 2d267fee99700fab182ecd5eff93baf6b39144a063e06d49adb065ada099e70d
+      original-base-image:
+      - cve: release_artifacts/6.1.1.2/r/aci-containers-operator/6.1.1.2-cve-base.txt
+        severity:
+          - C: 0
+            H: 1
+            L: 10
+            M: 5
+            U: 0
+        sha: "sha256:examplebaseimage"
+        date-and-time: "2023-01-01 12:30:00 PST"
+      update-release-cves-until: "2023-01-01 12:30:00 PST"
       build-logs: release_artifacts/6.1.1.2/r/aci-containers-operator/6.1.1.2-buildlog.txt
       build-time: 2024-12-20 01:58:38 PST
       commit:
@@ -6798,6 +6853,15 @@ releases:
         severity_link: https://quay.io/repository/noirolabs/ubi9-minimal/manifest/sha256:b83669217a3b18c0d4269d37ad428dca936cfe9f127fd5ee65ea072670eced82?tab=vulnerabilities
         severity_type: quay
         sha: b83669217a3b18c0d4269d37ad428dca936cfe9f127fd5ee65ea072670eced82
+      original-base-image:
+      - cve: release_artifacts/6.1.1.2/r/openvswitch/6.1.1.2-cve-base.txt
+        severity:
+          - C: 0
+            H: 1
+            L: 10
+            M: 5
+            U: 0
+        sha: "sha256:examplebaseimage"
       build-logs: release_artifacts/6.1.1.2/r/openvswitch/6.1.1.2-buildlog.txt
       build-time: 2024-12-20 01:58:58 PST
       commit: *id062
@@ -6833,6 +6897,15 @@ releases:
         severity_link: https://quay.io/repository/noirolabs/ubi9/manifest/sha256:2d267fee99700fab182ecd5eff93baf6b39144a063e06d49adb065ada099e70d?tab=vulnerabilities
         severity_type: quay
         sha: 2d267fee99700fab182ecd5eff93baf6b39144a063e06d49adb065ada099e70d
+      original-base-image:
+      - cve: release_artifacts/6.1.1.2/r/aci-containers-webhook/6.1.1.2-cve-base.txt
+        severity:
+          - C: 0
+            H: 1
+            L: 10
+            M: 5
+            U: 0
+        sha: "sha256:examplebaseimage"
       build-logs: release_artifacts/6.1.1.2/r/aci-containers-webhook/6.1.1.2-buildlog.txt
       build-time: 2024-12-20 01:59:02 PST
       commit: *id063
@@ -6868,6 +6941,15 @@ releases:
         severity_link: https://quay.io/repository/noirolabs/ubi9/manifest/sha256:2d267fee99700fab182ecd5eff93baf6b39144a063e06d49adb065ada099e70d?tab=vulnerabilities
         severity_type: quay
         sha: 2d267fee99700fab182ecd5eff93baf6b39144a063e06d49adb065ada099e70d
+      original-base-image:
+      - cve: release_artifacts/6.1.1.2/r/aci-containers-certmanager/6.1.1.2-cve-base.txt
+        severity:
+          - C: 0
+            H: 1
+            L: 10
+            M: 5
+            U: 0
+        sha: "sha256:examplebaseimage"
       build-logs: release_artifacts/6.1.1.2/r/aci-containers-certmanager/6.1.1.2-buildlog.txt
       build-time: 2024-12-20 01:59:20 PST
       commit: *id064
@@ -6903,6 +6985,15 @@ releases:
         severity_link: https://quay.io/repository/noirolabs/ubi9-minimal/manifest/sha256:b83669217a3b18c0d4269d37ad428dca936cfe9f127fd5ee65ea072670eced82?tab=vulnerabilities
         severity_type: quay
         sha: b83669217a3b18c0d4269d37ad428dca936cfe9f127fd5ee65ea072670eced82
+      original-base-image:
+      - cve: release_artifacts/6.1.1.2/r/aci-containers-host-ovscni/6.1.1.2-cve-base.txt
+        severity:
+          - C: 0
+            H: 1
+            L: 10
+            M: 5
+            U: 0
+        sha: "sha256:examplebaseimage"
       build-logs: release_artifacts/6.1.1.2/r/aci-containers-host-ovscni/6.1.1.2-buildlog.txt
       build-time: 2024-12-20 01:59:33 PST
       commit: *id065
@@ -6938,6 +7029,15 @@ releases:
         severity_link: https://quay.io/repository/noirolabs/ubi9-minimal/manifest/sha256:b59e3773fec0663dde7a3194eea1f014d38795dd6ff80503752df76fd69993b4?tab=vulnerabilities
         severity_type: quay
         sha: b59e3773fec0663dde7a3194eea1f014d38795dd6ff80503752df76fd69993b4
+      original-base-image:
+      - cve: release_artifacts/6.1.1.2/r/opflex/6.1.1.2-cve-base.txt
+        severity:
+          - C: 0
+            H: 1
+            L: 10
+            M: 5
+            U: 0
+        sha: "sha256:examplebaseimage"
       build-logs: release_artifacts/6.1.1.2/r/opflex/6.1.1.2-buildlog.txt
       build-time: 2024-12-20 01:59:53 PST
       commit: *id066
