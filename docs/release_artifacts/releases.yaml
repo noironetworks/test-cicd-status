@@ -6622,8 +6622,8 @@ releases:
             M: 5
             U: 0
         sha: "sha256:examplebaseimage"
-        date-and-time: "2023-01-01 12:30:00 PST"
-      update-release-cves-until: "2023-01-01 12:30:00 PST"
+        date-and-time: "2026-01-01 12:30:00 PST"
+      update-release-cves-until: "2026-01-01 12:30:00 PST"
       build-logs: release_artifacts/6.1.1.2/r/acc-provision-operator/6.1.1.2-buildlog.txt
       build-time: 2024-12-20 01:57:36 PST
       commit:
@@ -6670,8 +6670,8 @@ releases:
             M: 5
             U: 0
         sha: "sha256:examplebaseimage"
-        date-and-time: "2023-01-01 12:30:00 PST"
-      update-release-cves-until: "2023-01-01 12:30:00 PST"
+        date-and-time: "2026-01-01 12:30:00 PST"
+      update-release-cves-until: "2026-01-01 12:30:00 PST"
       build-logs: release_artifacts/6.1.1.2/r/aci-containers-host/6.1.1.2-buildlog.txt
       build-time: 2024-12-20 01:57:55 PST
       commit:
@@ -6718,8 +6718,8 @@ releases:
             M: 5
             U: 0
         sha: "sha256:examplebaseimage"
-        date-and-time: "2023-01-01 12:30:00 PST"
-      update-release-cves-until: "2023-01-01 12:30:00 PST"
+        date-and-time: "2026-01-01 12:30:00 PST"
+      update-release-cves-until: "2026-01-01 12:30:00 PST"
       build-logs: release_artifacts/6.1.1.2/r/aci-containers-controller/6.1.1.2-buildlog.txt
       build-time: 2024-12-20 01:58:12 PST
       commit:
@@ -6766,8 +6766,8 @@ releases:
             M: 5
             U: 0
         sha: "sha256:examplebaseimage"
-        date-and-time: "2023-01-01 12:30:00 PST"
-      update-release-cves-until: "2023-01-01 12:30:00 PST"
+        date-and-time: "2026-01-01 12:30:00 PST"
+      update-release-cves-until: "2026-01-01 12:30:00 PST"
       build-logs: release_artifacts/6.1.1.2/r/cnideploy/6.1.1.2-buildlog.txt
       build-time: 2024-12-20 01:58:24 PST
       commit:
@@ -6814,8 +6814,8 @@ releases:
             M: 5
             U: 0
         sha: "sha256:examplebaseimage"
-        date-and-time: "2023-01-01 12:30:00 PST"
-      update-release-cves-until: "2023-01-01 12:30:00 PST"
+        date-and-time: "2026-01-01 12:30:00 PST"
+      update-release-cves-until: "2026-01-01 12:30:00 PST"
       build-logs: release_artifacts/6.1.1.2/r/aci-containers-operator/6.1.1.2-buildlog.txt
       build-time: 2024-12-20 01:58:38 PST
       commit:
