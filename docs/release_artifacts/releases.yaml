@@ -8066,26 +8066,26 @@ releases:
           U: 0
         sha: ea57285741f007e83f2ee20423c20b0cbcce0b59cc3da027c671692cc7efe4dd
       build-logs: release_artifacts/6.1.1.4/z/aci-containers-host-ovscni/6.1.1.4-buildlog.txt
-      build-time: 2025-04-11 00:27:32 PDT
+      build-time: 2025-04-11 01:39:43 PDT
       commit:
-      - link: https://github.com/noironetworks/aci-containers/commit/52fb8a44a03df76efe153881db34ee7c6cbf5a8d
-        sha: 52fb8a44a03df76efe153881db34ee7c6cbf5a8d
+      - link: https://github.com/noironetworks/aci-containers/commit/0aaf50b16a77bf0a56930b0a6d221a01816db092
+        sha: 0aaf50b16a77bf0a56930b0a6d221a01816db092
       cve: release_artifacts/6.1.1.4/z/aci-containers-host-ovscni/6.1.1.4-cve.txt
       docker:
-      - link: https://hub.docker.com/layers/noiro/aci-containers-host-ovscni/6.1.1.4.81c2369.z/images/sha256-7e4d6645272824671e7e5281e23f9c0fe79fb6a9e7290867eaf57942aefc470f?context=explore
-        sha: 7e4d6645272824671e7e5281e23f9c0fe79fb6a9e7290867eaf57942aefc470f
+      - link: https://hub.docker.com/layers/noiro/aci-containers-host-ovscni/6.1.1.4.81c2369.z/images/sha256-7f5a561260fe20f8f5b1d9a22953d7fd8709143c775d6f23211a67a8f0974286?context=explore
+        sha: 7f5a561260fe20f8f5b1d9a22953d7fd8709143c775d6f23211a67a8f0974286
         tag: 6.1.1.4.81c2369.z
-      - link: https://hub.docker.com/layers/noiro/aci-containers-host-ovscni/6.1.1.4.81c2369.041125.10555/images/sha256-7e4d6645272824671e7e5281e23f9c0fe79fb6a9e7290867eaf57942aefc470f?context=explore
-        sha: 7e4d6645272824671e7e5281e23f9c0fe79fb6a9e7290867eaf57942aefc470f
-        tag: 6.1.1.4.81c2369.041125.10555
+      - link: https://hub.docker.com/layers/noiro/aci-containers-host-ovscni/6.1.1.4.81c2369.041125.10558/images/sha256-7f5a561260fe20f8f5b1d9a22953d7fd8709143c775d6f23211a67a8f0974286?context=explore
+        sha: 7f5a561260fe20f8f5b1d9a22953d7fd8709143c775d6f23211a67a8f0974286
+        tag: 6.1.1.4.81c2369.041125.10558
       name: aci-containers-host-ovscni
       quay:
       - link: https://quay.io/noiro/aci-containers-host-ovscni:6.1.1.4.81c2369.z
-        sha: 7e4d6645272824671e7e5281e23f9c0fe79fb6a9e7290867eaf57942aefc470f
+        sha: 7f5a561260fe20f8f5b1d9a22953d7fd8709143c775d6f23211a67a8f0974286
         tag: 6.1.1.4.81c2369.z
-      - link: https://quay.io/noiro/aci-containers-host-ovscni:6.1.1.4.81c2369.041125.10555
-        sha: 7e4d6645272824671e7e5281e23f9c0fe79fb6a9e7290867eaf57942aefc470f
-        tag: 6.1.1.4.81c2369.041125.10555
+      - link: https://quay.io/noiro/aci-containers-host-ovscni:6.1.1.4.81c2369.041125.10558
+        sha: 7f5a561260fe20f8f5b1d9a22953d7fd8709143c775d6f23211a67a8f0974286
+        tag: 6.1.1.4.81c2369.041125.10558
       sbom: release_artifacts/6.1.1.4/z/aci-containers-host-ovscni/6.1.1.4-sbom.txt
       severity:
       - C: 0
@@ -8094,7 +8094,7 @@ releases:
         M: 2
         U: 0
       severity_type: grype
-    last_updated: 2025-04-11 01:37:42 PDT
+    last_updated: 2025-04-11 01:39:43 PDT
     release_name: 6.1.1.4.z
   - acc_provision: []
     container_images: []
