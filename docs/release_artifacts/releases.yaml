@@ -7952,26 +7952,26 @@ releases:
           U: 0
         sha: ac61c96b93894b9169221e87718733354dd3765dd4a62b275893c7ff0d876869
       build-logs: release_artifacts/6.1.1.4/z/openvswitch/6.1.1.4-buildlog.txt
-      build-time: 2025-04-11 00:22:41 PDT
+      build-time: 2025-04-11 01:34:25 PDT
       commit:
-      - link: https://github.com/noironetworks/aci-containers/commit/52fb8a44a03df76efe153881db34ee7c6cbf5a8d
-        sha: 52fb8a44a03df76efe153881db34ee7c6cbf5a8d
+      - link: https://github.com/noironetworks/aci-containers/commit/0aaf50b16a77bf0a56930b0a6d221a01816db092
+        sha: 0aaf50b16a77bf0a56930b0a6d221a01816db092
       cve: release_artifacts/6.1.1.4/z/openvswitch/6.1.1.4-cve.txt
       docker:
-      - link: https://hub.docker.com/layers/noiro/openvswitch/6.1.1.4.81c2369.z/images/sha256-error?context=explore
-        sha: error
+      - link: https://hub.docker.com/layers/noiro/openvswitch/6.1.1.4.81c2369.z/images/sha256-fbdc116405ee493e42ed4969a6422f9065e5e09cbf20e4a4ae71577feac3a308?context=explore
+        sha: fbdc116405ee493e42ed4969a6422f9065e5e09cbf20e4a4ae71577feac3a308
         tag: 6.1.1.4.81c2369.z
-      - link: https://hub.docker.com/layers/noiro/openvswitch/6.1.1.4.81c2369.041125.10555/images/sha256-error?context=explore
-        sha: error
-        tag: 6.1.1.4.81c2369.041125.10555
+      - link: https://hub.docker.com/layers/noiro/openvswitch/6.1.1.4.81c2369.041125.10558/images/sha256-fbdc116405ee493e42ed4969a6422f9065e5e09cbf20e4a4ae71577feac3a308?context=explore
+        sha: fbdc116405ee493e42ed4969a6422f9065e5e09cbf20e4a4ae71577feac3a308
+        tag: 6.1.1.4.81c2369.041125.10558
       name: openvswitch
       quay:
       - link: https://quay.io/noiro/openvswitch:6.1.1.4.81c2369.z
-        sha: error
+        sha: fbdc116405ee493e42ed4969a6422f9065e5e09cbf20e4a4ae71577feac3a308
         tag: 6.1.1.4.81c2369.z
-      - link: https://quay.io/noiro/openvswitch:6.1.1.4.81c2369.041125.10555
-        sha: error
-        tag: 6.1.1.4.81c2369.041125.10555
+      - link: https://quay.io/noiro/openvswitch:6.1.1.4.81c2369.041125.10558
+        sha: fbdc116405ee493e42ed4969a6422f9065e5e09cbf20e4a4ae71577feac3a308
+        tag: 6.1.1.4.81c2369.041125.10558
       sbom: release_artifacts/6.1.1.4/z/openvswitch/6.1.1.4-sbom.txt
       severity:
       - C: 0
@@ -8094,7 +8094,7 @@ releases:
         M: 2
         U: 0
       severity_type: grype
-    last_updated: 2025-04-11 01:31:36 PDT
+    last_updated: 2025-04-11 01:34:25 PDT
     release_name: 6.1.1.4.z
   - acc_provision: []
     container_images: []
