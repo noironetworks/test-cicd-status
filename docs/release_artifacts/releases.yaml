@@ -7876,26 +7876,26 @@ releases:
           U: 0
         sha: ea57285741f007e83f2ee20423c20b0cbcce0b59cc3da027c671692cc7efe4dd
       build-logs: release_artifacts/6.1.1.4/z/cnideploy/6.1.1.4-buildlog.txt
-      build-time: 2025-04-10 23:27:51 PDT
+      build-time: 2025-04-11 00:20:33 PDT
       commit:
-      - link: https://github.com/noironetworks/aci-containers/commit/d2fa64ce7bdcc2294397797d1d291420b3fdc76a
-        sha: d2fa64ce7bdcc2294397797d1d291420b3fdc76a
+      - link: https://github.com/noironetworks/aci-containers/commit/52fb8a44a03df76efe153881db34ee7c6cbf5a8d
+        sha: 52fb8a44a03df76efe153881db34ee7c6cbf5a8d
       cve: release_artifacts/6.1.1.4/z/cnideploy/6.1.1.4-cve.txt
       docker:
-      - link: https://hub.docker.com/layers/noiro/cnideploy/6.1.1.4.81c2369.z/images/sha256-8f6f631cb698d296c6ec6cc1a77aff1eadf994e81697c1f11382f5ba14e5ca9a?context=explore
-        sha: 8f6f631cb698d296c6ec6cc1a77aff1eadf994e81697c1f11382f5ba14e5ca9a
+      - link: https://hub.docker.com/layers/noiro/cnideploy/6.1.1.4.81c2369.z/images/sha256-ab60e8cec0d57825eb8b991f7c9585ae781508b59a072d6eff46c06027a391ea?context=explore
+        sha: ab60e8cec0d57825eb8b991f7c9585ae781508b59a072d6eff46c06027a391ea
         tag: 6.1.1.4.81c2369.z
-      - link: https://hub.docker.com/layers/noiro/cnideploy/6.1.1.4.81c2369.041125.10552/images/sha256-8f6f631cb698d296c6ec6cc1a77aff1eadf994e81697c1f11382f5ba14e5ca9a?context=explore
-        sha: 8f6f631cb698d296c6ec6cc1a77aff1eadf994e81697c1f11382f5ba14e5ca9a
-        tag: 6.1.1.4.81c2369.041125.10552
+      - link: https://hub.docker.com/layers/noiro/cnideploy/6.1.1.4.81c2369.041125.10555/images/sha256-ab60e8cec0d57825eb8b991f7c9585ae781508b59a072d6eff46c06027a391ea?context=explore
+        sha: ab60e8cec0d57825eb8b991f7c9585ae781508b59a072d6eff46c06027a391ea
+        tag: 6.1.1.4.81c2369.041125.10555
       name: cnideploy
       quay:
       - link: https://quay.io/noiro/cnideploy:6.1.1.4.81c2369.z
-        sha: 8f6f631cb698d296c6ec6cc1a77aff1eadf994e81697c1f11382f5ba14e5ca9a
+        sha: ab60e8cec0d57825eb8b991f7c9585ae781508b59a072d6eff46c06027a391ea
         tag: 6.1.1.4.81c2369.z
-      - link: https://quay.io/noiro/cnideploy:6.1.1.4.81c2369.041125.10552
-        sha: 8f6f631cb698d296c6ec6cc1a77aff1eadf994e81697c1f11382f5ba14e5ca9a
-        tag: 6.1.1.4.81c2369.041125.10552
+      - link: https://quay.io/noiro/cnideploy:6.1.1.4.81c2369.041125.10555
+        sha: ab60e8cec0d57825eb8b991f7c9585ae781508b59a072d6eff46c06027a391ea
+        tag: 6.1.1.4.81c2369.041125.10555
       sbom: release_artifacts/6.1.1.4/z/cnideploy/6.1.1.4-sbom.txt
       severity:
       - C: 0
@@ -8056,7 +8056,7 @@ releases:
         M: 6
         U: 0
       severity_type: grype
-    last_updated: 2025-04-11 00:18:36 PDT
+    last_updated: 2025-04-11 00:20:33 PDT
     release_name: 6.1.1.4.z
   - acc_provision: []
     container_images: []
