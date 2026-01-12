@@ -8102,3 +8102,52 @@ releases:
     release_name: 6.1.1.4
     released: false
   release_tag: 6.1.1.4
+- release_streams:
+  - acc_provision: []
+    container_images:
+    - base-image:
+      - cve: release_artifacts/1.2.3.4/z/opflex/1.2.3.4-cve-base.txt
+        severity:
+        - C: 0
+          H: 0
+          L: 0
+          M: 0
+          U: 0
+        sha: error
+      build-logs: release_artifacts/1.2.3.4/z/opflex/1.2.3.4-buildlog.txt
+      build-time: 2026-01-12 10:02:27 PST
+      commit:
+      - link: https://github.com/noironetworks/opflex/commit/16c895f95e1b4a0b25d29588f2d8d850a8c05fb0
+        sha: 16c895f95e1b4a0b25d29588f2d8d850a8c05fb0
+      cve: release_artifacts/1.2.3.4/z/opflex/1.2.3.4-cve.txt
+      docker:
+      - link: https://hub.docker.com/layers/noiro/opflex/1.2.3.4.81c2369.z/images/sha256-error?context=explore
+        sha: error
+        tag: 1.2.3.4.81c2369.z
+      - link: https://hub.docker.com/layers/noiro/opflex/1.2.3.4.81c2369.011226.5176/images/sha256-error?context=explore
+        sha: error
+        tag: 1.2.3.4.81c2369.011226.5176
+      name: opflex
+      quay:
+      - link: https://quay.io/noiro/opflex:1.2.3.4.81c2369.z
+        sha: error
+        tag: 1.2.3.4.81c2369.z
+      - link: https://quay.io/noiro/opflex:1.2.3.4.81c2369.011226.5176
+        sha: error
+        tag: 1.2.3.4.81c2369.011226.5176
+      sbom: release_artifacts/1.2.3.4/z/opflex/1.2.3.4-sbom.txt
+      severity:
+      - C: 0
+        H: 0
+        L: 0
+        M: 0
+        U: 0
+      severity_type: grype
+    last_updated: 2026-01-12 10:02:27 PST
+    release_name: 1.2.3.4.z
+  - acc_provision: []
+    container_images: []
+    last_updated: 2026-01-12 10:02:24 PST
+    release_name: 1.2.3.4
+    released: false
+  release_tag: 1.2.3.4
