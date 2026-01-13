@@ -8115,26 +8115,26 @@ releases:
           U: 0
         sha: error
       build-logs: release_artifacts/1.2.3.4/z/opflex/1.2.3.4-buildlog.txt
-      build-time: 2026-01-12 10:02:27 PST
+      build-time: 2026-01-12 21:07:55 PST
       commit:
-      - link: https://github.com/noironetworks/opflex/commit/16c895f95e1b4a0b25d29588f2d8d850a8c05fb0
-        sha: 16c895f95e1b4a0b25d29588f2d8d850a8c05fb0
+      - link: https://github.com/noironetworks/opflex/commit/7253a3117f96bb01e071e4dff2338d714a2b781c
+        sha: 7253a3117f96bb01e071e4dff2338d714a2b781c
       cve: release_artifacts/1.2.3.4/z/opflex/1.2.3.4-cve.txt
       docker:
-      - link: https://hub.docker.com/layers/noiro/opflex/1.2.3.4.81c2369.z/images/sha256-error?context=explore
+      - link: https://hub.docker.com/layers/noiro/opflex/1.2.3.5.81c2369.z/images/sha256-error?context=explore
         sha: error
-        tag: 1.2.3.4.81c2369.z
-      - link: https://hub.docker.com/layers/noiro/opflex/1.2.3.4.81c2369.011226.5176/images/sha256-error?context=explore
+        tag: 1.2.3.5.81c2369.z
+      - link: https://hub.docker.com/layers/noiro/opflex/1.2.3.5.81c2369.011326.5181/images/sha256-error?context=explore
         sha: error
-        tag: 1.2.3.4.81c2369.011226.5176
+        tag: 1.2.3.5.81c2369.011326.5181
       name: opflex
       quay:
-      - link: https://quay.io/noiro/opflex:1.2.3.4.81c2369.z
+      - link: https://quay.io/noiro/opflex:1.2.3.5.81c2369.z
         sha: error
-        tag: 1.2.3.4.81c2369.z
-      - link: https://quay.io/noiro/opflex:1.2.3.4.81c2369.011226.5176
+        tag: 1.2.3.5.81c2369.z
+      - link: https://quay.io/noiro/opflex:1.2.3.5.81c2369.011326.5181
         sha: error
-        tag: 1.2.3.4.81c2369.011226.5176
+        tag: 1.2.3.5.81c2369.011326.5181
       sbom: release_artifacts/1.2.3.4/z/opflex/1.2.3.4-sbom.txt
       severity:
       - C: 0
@@ -8143,7 +8143,7 @@ releases:
         M: 0
         U: 0
       severity_type: grype
-    last_updated: 2026-01-12 10:02:27 PST
+    last_updated: 2026-01-12 21:07:55 PST
     release_name: 1.2.3.4.z
   - acc_provision: []
     container_images: []
