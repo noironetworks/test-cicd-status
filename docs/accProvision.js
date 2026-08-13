@@ -1,4 +1,4 @@
-fetch('release_artifacts/releases.yaml')
+fetch('release_artifacts/releases.yaml', { cache: 'no-store' })
   .then(response => response.text())
   .then(data => {
     const parsedData = jsyaml.load(data);

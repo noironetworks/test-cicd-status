@@ -12,7 +12,7 @@ function copyCodeToClipboard() {
   }
 
 // Fetch the YAML file and load the data
-fetch('release_artifacts/releases.yaml')
+fetch('release_artifacts/releases.yaml', { cache: 'no-store' })
   .then(response => response.text())
   .then(data => {
     const parsedData = jsyaml.load(data);
@@ -21,16 +21,15 @@ fetch('release_artifacts/releases.yaml')
     // Get the URL parameters
     const urlParams = new URLSearchParams(window.location.search);
     const releaseName = urlParams.get('release');
+    if (!releaseName) {
+      throw new Error('Missing required release query parameter.');
+    }
     const releaseTag = releaseName.replace(/(\.z|.rc[0-9]+)$/, '');
     console.log('releaseTag', releaseTag);
     const imageRegistry = urlParams.get('dq'); // Should be either "quay" or "docker"
 
-    // Define the registry domain based on the imageRegistry value
-    let registryDomain = '';
-    if (imageRegistry === 'docker') {
-      registryDomain = 'docker.io';
-    } else if (imageRegistry === 'quay') {
-      registryDomain = 'quay.io';
+    if (imageRegistry !== 'docker' && imageRegistry !== 'quay') {
+      throw new Error('Registry query parameter must be either "quay" or "docker".');
     }
  
     // Find the specific release data
@@ -45,27 +44,39 @@ fetch('release_artifacts/releases.yaml')
       return;
     }
 
+    const legacyRegistryPrefixes = {
+      docker: 'docker.io/noiro',
+      quay: 'quay.io/noiro'
+    };
+    const configuredRegistryPrefixes = releaseData.registry_prefixes || {};
+    const configuredRegistryPrefix = configuredRegistryPrefixes[imageRegistry];
+    const registryPrefix = (typeof configuredRegistryPrefix === 'string' && configuredRegistryPrefix.trim())
+      ? configuredRegistryPrefix.trim().replace(/\/$/, '')
+      : legacyRegistryPrefixes[imageRegistry];
+
     // Fill the image prefix
     const imagePrefixElement = document.getElementById('image-prefix');
-    imagePrefixElement.textContent = imageRegistry;
+    imagePrefixElement.textContent = registryPrefix;
 
      // Generate the code for the code box
      let codeContent = `registry:\n`;
      codeContent += `  use_digest: true\n`;
-     codeContent += `  image_prefix: ${registryDomain}/noiro \n`;
+     codeContent += `  image_prefix: ${registryPrefix} \n`;
  
-     let imageIndex = 1;
-     for (const image of releaseData.container_images) {
+     for (const image of (releaseData.container_images || [])) {
+       const dockerTags = Array.isArray(image.docker) ? image.docker : [];
+       const quayTags = Array.isArray(image.quay) ? image.quay : [];
        let sha = '';
-       if (imageRegistry === 'docker' && image.docker.length > 0) {
-         sha = image.docker[0].sha.replace('sha256:', '');
-       } else if (imageRegistry === 'quay' && image.quay.length > 0) {
-         sha = image.quay[0].sha.replace('sha256:', '');
+       if (imageRegistry === 'docker' && dockerTags[0] && dockerTags[0].sha) {
+         sha = dockerTags[0].sha.replace('sha256:', '');
+       } else if (imageRegistry === 'quay' && quayTags[0] && quayTags[0].sha) {
+         sha = quayTags[0].sha.replace('sha256:', '');
        }
- 
-       const imageNameVersion = `${image.name}_version: ${sha}\n`;
-       codeContent += `  ${imageNameVersion}`;
-       imageIndex++;
+
+       if (sha && sha !== 'error') {
+         const imageNameVersion = `${image.name}_version: ${sha}\n`;
+         codeContent += `  ${imageNameVersion}`;
+       }
      }
  
      // Set the generated code to the code box
