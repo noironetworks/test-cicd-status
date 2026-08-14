@@ -10590,49 +10590,27 @@ releases:
       link: https://test.pypi.org/project/acc-provision/6.1.1.7.dev15/#files
       tag: 6.1.1.7.dev15
     container_images:
-    - base-image:
-      - base_cve_error: ''
-        cve: release_artifacts/6.1.1.7/z/opflex/6.1.1.7-cve-base.txt
-        severity:
-        - C: 0
-          H: 41
-          L: 108
-          M: 185
-          U: 0
-        severity_link: https://quay.io/repository/noirolabs/ubi9-minimal/manifest/sha256:b59e3773fec0663dde7a3194eea1f014d38795dd6ff80503752df76fd69993b4?tab=vulnerabilities
-        severity_type: quay
-        sha: b59e3773fec0663dde7a3194eea1f014d38795dd6ff80503752df76fd69993b4
-      build-logs: release_artifacts/6.1.1.7/z/opflex/6.1.1.7-buildlog.txt
-      build-time: 2026-07-09 05:38:02 PDT
+    - base-image: []
+      build-logs: "https://github.com/noironetworks/opflex/actions/runs/31794929940/attempts/1"
+      build-time: "2026-08-14T12:09:57Z"
       commit:
-      - link: https://github.com/noironetworks/opflex/commit/46bcaffc0704d7d31ba8dc9659e59d8a09220aff
-        sha: 46bcaffc0704d7d31ba8dc9659e59d8a09220aff
-      cve: release_artifacts/6.1.1.7/z/opflex/6.1.1.7-quay-cve.txt
-      cve_error: ''
+      - link: "https://github.com/noironetworks/opflex/commit/33cca8b84996ae3dd8cb72de85544c44e4613447"
+        sha: "33cca8b84996ae3dd8cb72de85544c44e4613447"
       docker:
-      - link: https://hub.docker.com/layers/noiro/opflex/6.1.1.7.81c2369.z/images/sha256-3a71b0cf8f797de77b54b3d9eef5f907fa01abc7f423a843f8297768c75aa455?context=explore
-        sha: 3a71b0cf8f797de77b54b3d9eef5f907fa01abc7f423a843f8297768c75aa455
-        tag: 6.1.1.7.81c2369.z
-      - link: https://hub.docker.com/layers/noiro/opflex/6.1.1.7.81c2369.070926.5325/images/sha256-3a71b0cf8f797de77b54b3d9eef5f907fa01abc7f423a843f8297768c75aa455?context=explore
-        sha: 3a71b0cf8f797de77b54b3d9eef5f907fa01abc7f423a843f8297768c75aa455
-        tag: 6.1.1.7.81c2369.070926.5325
-      name: opflex
+      - link: "https://hub.docker.com/layers/noiro/opflex/6.1.1.7.81c2369.z/images/sha256-852f0ca2b9233956c7ee73164c8e22557d9e49849095d9e430ec59dc606842a6?context=explore"
+        sha: "852f0ca2b9233956c7ee73164c8e22557d9e49849095d9e430ec59dc606842a6"
+        tag: "6.1.1.7.81c2369.z"
+      - link: "https://hub.docker.com/layers/noiro/opflex/6.1.1.7.81c2369.081426.4/images/sha256-852f0ca2b9233956c7ee73164c8e22557d9e49849095d9e430ec59dc606842a6?context=explore"
+        sha: "852f0ca2b9233956c7ee73164c8e22557d9e49849095d9e430ec59dc606842a6"
+        tag: "6.1.1.7.81c2369.081426.4"
+      name: "opflex"
       quay:
-      - link: https://quay.io/noiro/opflex:6.1.1.7.81c2369.z
-        sha: 3a71b0cf8f797de77b54b3d9eef5f907fa01abc7f423a843f8297768c75aa455
-        tag: 6.1.1.7.81c2369.z
-      - link: https://quay.io/noiro/opflex:6.1.1.7.81c2369.070926.5325
-        sha: 3a71b0cf8f797de77b54b3d9eef5f907fa01abc7f423a843f8297768c75aa455
-        tag: 6.1.1.7.81c2369.070926.5325
-      sbom: release_artifacts/6.1.1.7/z/opflex/6.1.1.7-sbom.txt
-      severity:
-      - C: 0
-        H: 20
-        L: 195
-        M: 177
-        U: 0
-      severity_link: https://quay.io/repository/noiro/opflex/manifest/sha256:3a71b0cf8f797de77b54b3d9eef5f907fa01abc7f423a843f8297768c75aa455?tab=vulnerabilities
-      severity_type: quay
+      - link: "https://quay.io/noiro/opflex:6.1.1.7.81c2369.z"
+        sha: "852f0ca2b9233956c7ee73164c8e22557d9e49849095d9e430ec59dc606842a6"
+        tag: "6.1.1.7.81c2369.z"
+      - link: "https://quay.io/noiro/opflex:6.1.1.7.81c2369.081426.4"
+        sha: "852f0ca2b9233956c7ee73164c8e22557d9e49849095d9e430ec59dc606842a6"
+        tag: "6.1.1.7.81c2369.081426.4"
     - base-image: []
       build-logs: "https://github.com/noironetworks/aci-containers/actions/runs/31797660171/attempts/1"
       build-time: "2026-08-14T12:07:28Z"
@@ -10801,7 +10779,7 @@ releases:
       - link: "https://quay.io/noiro/aci-containers-host-ovscni:6.1.1.7.81c2369.081426.8"
         sha: "706873053cb853e942932e1cd37b6ad372017c8246ac2ad059e86828586f1b26"
         tag: "6.1.1.7.81c2369.081426.8"
-    last_updated: "2026-08-14T12:07:28Z"
+    last_updated: "2026-08-14T12:09:57Z"
     release_name: 6.1.1.7.z
   - acc_provision: []
     container_images: []
