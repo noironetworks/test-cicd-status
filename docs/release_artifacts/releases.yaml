@@ -10985,3 +10985,148 @@ releases:
     release_name: 6.1.1.7
     released: false
   release_tag: 6.1.1.7
+- release_streams:
+  - acc_provision: []
+    container_images:
+    - base-image: []
+      build-logs: "https://github.com/noironetworks/aci-containers/actions/runs/31773061719/attempts/1"
+      build-time: "2026-08-14T05:45:26Z"
+      commit:
+      - link: "https://github.com/noironetworks/aci-containers/commit/80f71b1b9a217dbdfdc29d5ef5e346920ad695f5"
+        sha: "80f71b1b9a217dbdfdc29d5ef5e346920ad695f5"
+      docker:
+      - link: "https://hub.docker.com/layers/noiro/aci-containers-host/6.1.1.7.81c2369.gha.80f71b1b9a21.31773061719.1/images/sha256-0d1a721823f73787fb7c6850e150f7d083f576f506b1536c74333b578ae75da9?context=explore"
+        sha: "sha256:0d1a721823f73787fb7c6850e150f7d083f576f506b1536c74333b578ae75da9"
+        tag: "6.1.1.7.81c2369.gha.80f71b1b9a21.31773061719.1"
+      name: "aci-containers-host"
+      quay:
+      - link: "https://quay.io/repository/noirolabs/aci-containers-host/manifest/sha256:0d1a721823f73787fb7c6850e150f7d083f576f506b1536c74333b578ae75da9"
+        sha: "sha256:0d1a721823f73787fb7c6850e150f7d083f576f506b1536c74333b578ae75da9"
+        tag: "6.1.1.7.81c2369.gha.80f71b1b9a21.31773061719.1"
+    - base-image: []
+      build-logs: "https://github.com/noironetworks/aci-containers/actions/runs/31773061719/attempts/1"
+      build-time: "2026-08-14T05:45:26Z"
+      commit:
+      - link: "https://github.com/noironetworks/aci-containers/commit/80f71b1b9a217dbdfdc29d5ef5e346920ad695f5"
+        sha: "80f71b1b9a217dbdfdc29d5ef5e346920ad695f5"
+      docker:
+      - link: "https://hub.docker.com/layers/noiro/aci-containers-controller/6.1.1.7.81c2369.gha.80f71b1b9a21.31773061719.1/images/sha256-d1dde8a39dff56aa22969cb7e0f02b9701959de821f6f72168869b948f1096d8?context=explore"
+        sha: "sha256:d1dde8a39dff56aa22969cb7e0f02b9701959de821f6f72168869b948f1096d8"
+        tag: "6.1.1.7.81c2369.gha.80f71b1b9a21.31773061719.1"
+      name: "aci-containers-controller"
+      quay:
+      - link: "https://quay.io/repository/noirolabs/aci-containers-controller/manifest/sha256:d1dde8a39dff56aa22969cb7e0f02b9701959de821f6f72168869b948f1096d8"
+        sha: "sha256:d1dde8a39dff56aa22969cb7e0f02b9701959de821f6f72168869b948f1096d8"
+        tag: "6.1.1.7.81c2369.gha.80f71b1b9a21.31773061719.1"
+    - base-image: []
+      build-logs: "https://github.com/noironetworks/aci-containers/actions/runs/31773061719/attempts/1"
+      build-time: "2026-08-14T05:45:26Z"
+      commit:
+      - link: "https://github.com/noironetworks/aci-containers/commit/80f71b1b9a217dbdfdc29d5ef5e346920ad695f5"
+        sha: "80f71b1b9a217dbdfdc29d5ef5e346920ad695f5"
+      docker:
+      - link: "https://hub.docker.com/layers/noiro/cnideploy/6.1.1.7.81c2369.gha.80f71b1b9a21.31773061719.1/images/sha256-82b64e08aca0a9b9510e824044c9dde341bba74dacbd712c1f5526c04c74db6b?context=explore"
+        sha: "sha256:82b64e08aca0a9b9510e824044c9dde341bba74dacbd712c1f5526c04c74db6b"
+        tag: "6.1.1.7.81c2369.gha.80f71b1b9a21.31773061719.1"
+      name: "cnideploy"
+      quay:
+      - link: "https://quay.io/repository/noirolabs/cnideploy/manifest/sha256:82b64e08aca0a9b9510e824044c9dde341bba74dacbd712c1f5526c04c74db6b"
+        sha: "sha256:82b64e08aca0a9b9510e824044c9dde341bba74dacbd712c1f5526c04c74db6b"
+        tag: "6.1.1.7.81c2369.gha.80f71b1b9a21.31773061719.1"
+    - base-image: []
+      build-logs: "https://github.com/noironetworks/aci-containers/actions/runs/31773061719/attempts/1"
+      build-time: "2026-08-14T05:45:26Z"
+      commit:
+      - link: "https://github.com/noironetworks/aci-containers/commit/80f71b1b9a217dbdfdc29d5ef5e346920ad695f5"
+        sha: "80f71b1b9a217dbdfdc29d5ef5e346920ad695f5"
+      docker:
+      - link: "https://hub.docker.com/layers/noiro/aci-containers-operator/6.1.1.7.81c2369.gha.80f71b1b9a21.31773061719.1/images/sha256-bddc60a1776ebe6d856720e673f3c963fd5fabef42fa970bcace447804bcb911?context=explore"
+        sha: "sha256:bddc60a1776ebe6d856720e673f3c963fd5fabef42fa970bcace447804bcb911"
+        tag: "6.1.1.7.81c2369.gha.80f71b1b9a21.31773061719.1"
+      name: "aci-containers-operator"
+      quay:
+      - link: "https://quay.io/repository/noirolabs/aci-containers-operator/manifest/sha256:bddc60a1776ebe6d856720e673f3c963fd5fabef42fa970bcace447804bcb911"
+        sha: "sha256:bddc60a1776ebe6d856720e673f3c963fd5fabef42fa970bcace447804bcb911"
+        tag: "6.1.1.7.81c2369.gha.80f71b1b9a21.31773061719.1"
+    - base-image: []
+      build-logs: "https://github.com/noironetworks/aci-containers/actions/runs/31773061719/attempts/1"
+      build-time: "2026-08-14T05:45:26Z"
+      commit:
+      - link: "https://github.com/noironetworks/aci-containers/commit/80f71b1b9a217dbdfdc29d5ef5e346920ad695f5"
+        sha: "80f71b1b9a217dbdfdc29d5ef5e346920ad695f5"
+      docker:
+      - link: "https://hub.docker.com/layers/noiro/openvswitch/6.1.1.7.81c2369.gha.80f71b1b9a21.31773061719.1/images/sha256-1c11292d4d41f86e7ec7db42d3c26607d2437454feb79720106340e1634eabd9?context=explore"
+        sha: "sha256:1c11292d4d41f86e7ec7db42d3c26607d2437454feb79720106340e1634eabd9"
+        tag: "6.1.1.7.81c2369.gha.80f71b1b9a21.31773061719.1"
+      name: "openvswitch"
+      quay:
+      - link: "https://quay.io/repository/noirolabs/openvswitch/manifest/sha256:1c11292d4d41f86e7ec7db42d3c26607d2437454feb79720106340e1634eabd9"
+        sha: "sha256:1c11292d4d41f86e7ec7db42d3c26607d2437454feb79720106340e1634eabd9"
+        tag: "6.1.1.7.81c2369.gha.80f71b1b9a21.31773061719.1"
+    - base-image: []
+      build-logs: "https://github.com/noironetworks/aci-containers/actions/runs/31773061719/attempts/1"
+      build-time: "2026-08-14T05:45:26Z"
+      commit:
+      - link: "https://github.com/noironetworks/aci-containers/commit/80f71b1b9a217dbdfdc29d5ef5e346920ad695f5"
+        sha: "80f71b1b9a217dbdfdc29d5ef5e346920ad695f5"
+      docker:
+      - link: "https://hub.docker.com/layers/noiro/aci-containers-webhook/6.1.1.7.81c2369.gha.80f71b1b9a21.31773061719.1/images/sha256-adadf522c9fbfd65c352d74b0aa986b245aef8351dd00a741f08fed4a90985fc?context=explore"
+        sha: "sha256:adadf522c9fbfd65c352d74b0aa986b245aef8351dd00a741f08fed4a90985fc"
+        tag: "6.1.1.7.81c2369.gha.80f71b1b9a21.31773061719.1"
+      name: "aci-containers-webhook"
+      quay:
+      - link: "https://quay.io/repository/noirolabs/aci-containers-webhook/manifest/sha256:adadf522c9fbfd65c352d74b0aa986b245aef8351dd00a741f08fed4a90985fc"
+        sha: "sha256:adadf522c9fbfd65c352d74b0aa986b245aef8351dd00a741f08fed4a90985fc"
+        tag: "6.1.1.7.81c2369.gha.80f71b1b9a21.31773061719.1"
+    - base-image: []
+      build-logs: "https://github.com/noironetworks/aci-containers/actions/runs/31773061719/attempts/1"
+      build-time: "2026-08-14T05:45:26Z"
+      commit:
+      - link: "https://github.com/noironetworks/aci-containers/commit/80f71b1b9a217dbdfdc29d5ef5e346920ad695f5"
+        sha: "80f71b1b9a217dbdfdc29d5ef5e346920ad695f5"
+      docker:
+      - link: "https://hub.docker.com/layers/noiro/aci-containers-certmanager/6.1.1.7.81c2369.gha.80f71b1b9a21.31773061719.1/images/sha256-4fd496734396df96e889920c0c9873c41b41385b66b65a82d325e88c5807d254?context=explore"
+        sha: "sha256:4fd496734396df96e889920c0c9873c41b41385b66b65a82d325e88c5807d254"
+        tag: "6.1.1.7.81c2369.gha.80f71b1b9a21.31773061719.1"
+      name: "aci-containers-certmanager"
+      quay:
+      - link: "https://quay.io/repository/noirolabs/aci-containers-certmanager/manifest/sha256:4fd496734396df96e889920c0c9873c41b41385b66b65a82d325e88c5807d254"
+        sha: "sha256:4fd496734396df96e889920c0c9873c41b41385b66b65a82d325e88c5807d254"
+        tag: "6.1.1.7.81c2369.gha.80f71b1b9a21.31773061719.1"
+    - base-image: []
+      build-logs: "https://github.com/noironetworks/aci-containers/actions/runs/31773061719/attempts/1"
+      build-time: "2026-08-14T05:45:26Z"
+      commit:
+      - link: "https://github.com/noironetworks/aci-containers/commit/80f71b1b9a217dbdfdc29d5ef5e346920ad695f5"
+        sha: "80f71b1b9a217dbdfdc29d5ef5e346920ad695f5"
+      docker:
+      - link: "https://hub.docker.com/layers/noiro/aci-containers-host-ovscni/6.1.1.7.81c2369.gha.80f71b1b9a21.31773061719.1/images/sha256-f0b2724364b6bbe9dc2804ba81070b929925eee93909b1083ec5c6309ee3ee74?context=explore"
+        sha: "sha256:f0b2724364b6bbe9dc2804ba81070b929925eee93909b1083ec5c6309ee3ee74"
+        tag: "6.1.1.7.81c2369.gha.80f71b1b9a21.31773061719.1"
+      name: "aci-containers-host-ovscni"
+      quay:
+      - link: "https://quay.io/repository/noirolabs/aci-containers-host-ovscni/manifest/sha256:f0b2724364b6bbe9dc2804ba81070b929925eee93909b1083ec5c6309ee3ee74"
+        sha: "sha256:f0b2724364b6bbe9dc2804ba81070b929925eee93909b1083ec5c6309ee3ee74"
+        tag: "6.1.1.7.81c2369.gha.80f71b1b9a21.31773061719.1"
+    last_updated: "2026-08-14T05:45:26Z"
+    registry_prefixes:
+      docker: "docker.io/noiro"
+      quay: "quay.io/noirolabs"
+    release_name: "6.1.1.7-gha-test.z"
+    source:
+      aci_commit: "80f71b1b9a217dbdfdc29d5ef5e346920ad695f5"
+      cicd_commit: "df84307dfc20f70b3aa6a660dd0ac2f4e39c8623"
+      image_tag: "6.1.1.7.81c2369.gha.80f71b1b9a21.31773061719.1"
+      provider: "github-actions"
+      repository: "noironetworks/aci-containers"
+      run_attempt: "1"
+      run_id: "31773061719"
+      run_url: "https://github.com/noironetworks/aci-containers/actions/runs/31773061719/attempts/1"
+      trigger_ref: "refs/tags/6.1.1.7-gha-test"
+      trigger_tag: "6.1.1.7-gha-test"
+  - acc_provision: []
+    container_images: []
+    last_updated: "2026-08-14T05:45:26Z"
+    release_name: "6.1.1.7-gha-test"
+    released: false
+  release_tag: "6.1.1.7-gha-test"
