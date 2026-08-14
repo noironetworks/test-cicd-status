@@ -11108,23 +11108,38 @@ releases:
       - link: "https://quay.io/repository/noirolabs/aci-containers-host-ovscni/manifest/sha256:e76e66faae3fc342a4b16c34a29fa5ffc3af9630aa63ffe671f82b8979840f03"
         sha: "sha256:e76e66faae3fc342a4b16c34a29fa5ffc3af9630aa63ffe671f82b8979840f03"
         tag: "6.1.1.7.81c2369.gha.234b5a78baa7.31780667207.1"
-    last_updated: "2026-08-14T07:55:22Z"
+    - base-image: []
+      build-logs: "https://github.com/noironetworks/opflex/actions/runs/31780633255/attempts/1"
+      build-time: "2026-08-14T08:32:50Z"
+      commit:
+      - link: "https://github.com/noironetworks/opflex/commit/21d1bc1749cffaeb0e7b674f58ad3a943a8f1483"
+        sha: "21d1bc1749cffaeb0e7b674f58ad3a943a8f1483"
+      docker:
+      - link: "https://hub.docker.com/layers/noiro/opflex/6.1.1.7.81c2369.gha.21d1bc1749cf.31780633255.1/images/sha256-a4dcc19e219e8cca37bf6a4b5a7e072ac7836500797c025c549e35050f6a6b7a?context=explore"
+        sha: "sha256:a4dcc19e219e8cca37bf6a4b5a7e072ac7836500797c025c549e35050f6a6b7a"
+        tag: "6.1.1.7.81c2369.gha.21d1bc1749cf.31780633255.1"
+      name: "opflex"
+      quay:
+      - link: "https://quay.io/repository/noirolabs/opflex/manifest/sha256:a4dcc19e219e8cca37bf6a4b5a7e072ac7836500797c025c549e35050f6a6b7a"
+        sha: "sha256:a4dcc19e219e8cca37bf6a4b5a7e072ac7836500797c025c549e35050f6a6b7a"
+        tag: "6.1.1.7.81c2369.gha.21d1bc1749cf.31780633255.1"
+    last_updated: "2026-08-14T08:32:50Z"
     registry_prefixes:
       docker: "docker.io/noiro"
       quay: "quay.io/noirolabs"
     release_name: "6.1.1.7-gha-test.z"
     source:
       cicd_commit: "86add425f36538c451819a6170472c172a738218"
-      component: "aci-containers"
-      image_tag: "6.1.1.7.81c2369.gha.234b5a78baa7.31780667207.1"
+      component: "opflex"
+      image_tag: "6.1.1.7.81c2369.gha.21d1bc1749cf.31780633255.1"
       provider: "github-actions"
-      repository: "noironetworks/aci-containers"
+      repository: "noironetworks/opflex"
       run_attempt: "1"
-      run_id: "31780667207"
-      run_url: "https://github.com/noironetworks/aci-containers/actions/runs/31780667207/attempts/1"
-      source_commit: "234b5a78baa7f7b70640f512a0e1060b7ddf304c"
-      trigger_ref: "refs/tags/6.1.1.7-gha-test"
-      trigger_tag: "6.1.1.7-gha-test"
+      run_id: "31780633255"
+      run_url: "https://github.com/noironetworks/opflex/actions/runs/31780633255/attempts/1"
+      source_commit: "21d1bc1749cffaeb0e7b674f58ad3a943a8f1483"
+      trigger_ref: "refs/tags/gha-test-6.1.1.7-opflex"
+      trigger_tag: "gha-test-6.1.1.7-opflex"
   - acc_provision: []
     container_images: []
     last_updated: "2026-08-14T05:45:26Z"
