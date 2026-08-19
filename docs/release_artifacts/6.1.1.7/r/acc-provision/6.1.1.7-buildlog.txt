@@ -1,0 +1,7 @@
+GitHub Actions run: https://github.com/noironetworks/acc-provision/actions/runs/32311447570
+Run attempt: 1
+Source commit: 282ebbf38a1233960d419b16f04571c172fd0015
+Trigger tag: 081926-test-01
+Published distribution: noironetworks-acc-provision-release-smoke==6.1.1.7
+Artifact: noironetworks_acc_provision_release_smoke-6.1.1.7.tar.gz
+SHA-256: 6444b896f72bb7cff1b9beeffbb75b3884d337a77d5fc8cf1d68518c9eefde48
