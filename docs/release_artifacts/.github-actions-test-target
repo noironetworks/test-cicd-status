@@ -1,0 +1,3 @@
+repository=noironetworks/test-cicd-status
+branch=main
+release=6.1.1.7
