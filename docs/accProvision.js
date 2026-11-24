@@ -17,6 +17,10 @@ fetch('release_artifacts/releases.yaml')
           if (releaseStream.release_name === releaseName) {
             // Populate the acc-provision-table
             if (releaseStream.acc_provision && releaseStream.acc_provision.length > 0) {
+              const manifestRegistries = ['quay', 'docker'].filter(registry =>
+                (releaseName !== releaseTag || releaseStream.released !== false) &&
+                registryEvidence.manifest(releaseStream.container_images, registry)
+              );
               for (const accProvisionEntry of releaseStream.acc_provision) {
                   const accProvisionRow = document.createElement('tr');
                   const accProvisionVersionCell = document.createElement('td');
@@ -42,29 +46,27 @@ fetch('release_artifacts/releases.yaml')
                   const pypiLinkItem = document.createElement('li');
                   const pypiLink = document.createElement('a');
                   pypiLink.href = accProvisionEntry.link;
-                  pypiLink.textContent = 'PyPi Release';
+                  pypiLink.textContent = accProvisionEntry.link?.startsWith('https://test.pypi.org/')
+                    ? 'TestPyPI Release'
+                    : 'PyPI Release';
                   pypiLinkItem.appendChild(pypiLink);
                   linkList.appendChild(pypiLinkItem);
-                  // Define additional links
-                  const additionalLinks = [
-                    { href: `manifest-sha.html?release=${encodeURIComponent(releaseName)}&dq=${encodeURIComponent("quay")}`, text: 'SHA256 for Quay Manifest' },
-                    { href: `manifest-sha.html?release=${encodeURIComponent(releaseName)}&dq=${encodeURIComponent("docker")}`, text: 'SHA256 for Docker Manifest' }
-                  ];
-                  // Create and append list items for each additional link
-                  additionalLinks.forEach(linkEntry => {
+                  for (const registry of manifestRegistries) {
                     const listItem = document.createElement('li');
                     const link = document.createElement('a');
-                    link.href = linkEntry.href;
-                    link.textContent = linkEntry.text;
+                    link.href = `manifest-sha.html?release=${encodeURIComponent(releaseName)}&dq=${registry}`;
+                    link.textContent = registry === 'quay' ? 'SHA256 for Quay Manifest' : 'SHA256 for Docker Manifest';
                     listItem.appendChild(link);
                     linkList.appendChild(listItem);
-                  });
+                  }
                   // Append the list to the cell
                   accProvisionLinkCell.appendChild(linkList);
                   // Create and append the help message
-                  const message = document.createElement('p');
-                  message.textContent = "Please copy one of the above manifests to your Acc-Provision input file.";
-                  accProvisionLinkCell.appendChild(message);
+                  if (manifestRegistries.length) {
+                    const message = document.createElement('p');
+                    message.textContent = "Copy a manifest to your Acc-Provision input file.";
+                    accProvisionLinkCell.appendChild(message);
+                  }
                   // Append the cell to the row
                   accProvisionRow.appendChild(accProvisionLinkCell);
 

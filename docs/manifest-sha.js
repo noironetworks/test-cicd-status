@@ -11,67 +11,35 @@ function copyCodeToClipboard() {
     document.body.removeChild(tempTextArea);
   }
 
-// Fetch the YAML file and load the data
 fetch('release_artifacts/releases.yaml')
   .then(response => response.text())
   .then(data => {
     const parsedData = jsyaml.load(data);
-    console.log("Parsed YAML file 'release_artifacts/releases.yaml':", parsedData);
-
-    // Get the URL parameters
-    const urlParams = new URLSearchParams(window.location.search);
-    const releaseName = urlParams.get('release');
-    const releaseTag = releaseName.replace(/(\.z|.rc[0-9]+)$/, '');
-    console.log('releaseTag', releaseTag);
-    const imageRegistry = urlParams.get('dq'); // Should be either "quay" or "docker"
-
-    // Define the registry domain based on the imageRegistry value
-    let registryDomain = '';
-    if (imageRegistry === 'docker') {
-      registryDomain = 'docker.io';
-    } else if (imageRegistry === 'quay') {
-      registryDomain = 'quay.io';
-    }
- 
-    // Find the specific release data
-    const releaseTagData = parsedData.releases.find(release => release.release_tag === releaseTag);
-    if (!releaseTagData) {
-      console.error(`Release with tag "${releaseTag}" not found.`);
-      return;
-    }
-    const releaseData = releaseTagData.release_streams.find(release => release.release_name === releaseName);
-    if (!releaseData) {
-      console.error(`Release with name "${releaseName}" not found.`);
+    const params = new URLSearchParams(window.location.search);
+    const release = params.get('release');
+    const releaseTag = release?.replace(/(\.z|\.rc[0-9]+)$/, '');
+    const registry = params.get('dq');
+    const stream = parsedData.releases
+      .find(item => item.release_tag === releaseTag)
+      ?.release_streams.find(item => item.release_name === release);
+    const manifest = release !== releaseTag || stream?.released !== false
+      ? registryEvidence.manifest(stream?.container_images, registry)
+      : null;
+    const codeBox = document.getElementById('code-box');
+    if (!manifest) {
+      codeBox.textContent = 'Manifest unavailable. This release needs a digest for every image from the same registry namespace.';
       return;
     }
 
-    // Fill the image prefix
-    const imagePrefixElement = document.getElementById('image-prefix');
-    imagePrefixElement.textContent = imageRegistry;
-
-     // Generate the code for the code box
-     let codeContent = `registry:\n`;
-     codeContent += `  use_digest: true\n`;
-     codeContent += `  image_prefix: ${registryDomain}/noiro \n`;
- 
-     let imageIndex = 1;
-     for (const image of releaseData.container_images) {
-       let sha = '';
-       if (imageRegistry === 'docker' && image.docker.length > 0) {
-         sha = image.docker[0].sha.replace('sha256:', '');
-       } else if (imageRegistry === 'quay' && image.quay.length > 0) {
-         sha = image.quay[0].sha.replace('sha256:', '');
-       }
- 
-       const imageNameVersion = `${image.name}_version: ${sha}\n`;
-       codeContent += `  ${imageNameVersion}`;
-       imageIndex++;
-     }
- 
-     // Set the generated code to the code box
-     const codeBox = document.getElementById('code-box');
-     codeBox.textContent = codeContent;
+    document.getElementById('image-prefix').textContent = manifest.prefix;
+    const lines = ['registry:', '  use_digest: true', `  image_prefix: ${manifest.prefix}`];
+    for (const record of manifest.records) {
+      lines.push(`  ${record.name}_version: ${record.digest}`);
+    }
+    codeBox.textContent = lines.join('\n') + '\n';
+    document.getElementById('copy-manifest').disabled = false;
   })
   .catch(error => {
+    document.getElementById('code-box').textContent = 'Manifest unavailable. Release data could not be loaded.';
     console.error("Error loading YAML file 'release_artifacts/releases.yaml':", error);
   });

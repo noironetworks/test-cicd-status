@@ -18,13 +18,14 @@
   
       <div class="code-box-container">
         <pre id="code-box"></pre>
-        <button onclick="copyCodeToClipboard()">Copy</button>
+        <button id="copy-manifest" onclick="copyCodeToClipboard()" disabled>Copy</button>
       </div>
     <h6>Please copy the above the manifest to your Acc-Provision input file.</h6>
     </body>
   </div>
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/js-yaml/3.14.1/js-yaml.min.js"></script>
+  <script src="registryEvidence.js"></script>
   <script src="manifest-sha.js"></script>
   <script src="menu.js"></script>
 </body>

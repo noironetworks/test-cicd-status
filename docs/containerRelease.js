@@ -44,6 +44,10 @@ fetch('release_artifacts/releases.yaml')
               if (a.name < b.name) return -1;
               return 0;
             });
+            const manifests = {
+              quay: registryEvidence.manifest(sortedImages, 'quay'),
+              docker: registryEvidence.manifest(sortedImages, 'docker')
+            };
             for (const image of sortedImages) {
               const releaseRow = document.createElement('tr');
 
@@ -63,69 +67,34 @@ fetch('release_artifacts/releases.yaml')
               }
               releaseRow.appendChild(commitCell);
 
-              // create a link for quay tags
-              const quayTagsCell = document.createElement('td');
-              const quayTagsList = document.createElement('ul');
-              if (image.hasOwnProperty('quay') === false) {
-                quayTagsCell.textContent = '';
-              } else {
-              for (const quayTag of image.quay) {
-                const quayTagItem = document.createElement('li');
-                const quayTagLink = document.createElement('a');
-                quayTagLink.href = quayTag.link;
-                quayTagLink.textContent = quayTag.tag;
-                quayTagItem.appendChild(quayTagLink);
-                quayTagsList.appendChild(quayTagItem);
-              }
-              quayTagsCell.appendChild(quayTagsList);
-              }
-              releaseRow.appendChild(quayTagsCell);
+              for (const registry of ['quay', 'docker']) {
+                const tags = registryEvidence.tags(image, registry);
+                const tagsCell = document.createElement('td');
+                const list = document.createElement('ul');
+                for (const tag of tags) {
+                  if (!tag?.link || !tag.tag) continue;
+                  const item = document.createElement('li');
+                  const link = document.createElement('a');
+                  link.href = tag.link;
+                  link.textContent = tag.tag;
+                  item.appendChild(link);
+                  list.appendChild(item);
+                }
+                if (list.childElementCount) tagsCell.appendChild(list);
+                releaseRow.appendChild(tagsCell);
 
-              const quaySHACell = document.createElement('td');
-              if (!image.quay[0].hasOwnProperty('sha')) {
-                releaseRow.appendChild(quaySHACell.textContent = '');
-              } else if (image.quay[0].sha === "error") {
-                  quaySHACell.textContent = 'N/A';
-              } else {
-                const quaySHALink = document.createElement('a');
-                const quay = "quay";
-                quaySHALink.href = `manifest-sha.html?release=${encodeURIComponent(releaseName)}&dq=${encodeURIComponent(quay)}`
-                quaySHALink.textContent = image.quay[0].sha.replace('sha256:', '').substring(0, 12);
-                quaySHACell.appendChild(quaySHALink);
+                const digestCell = document.createElement('td');
+                const digest = registryEvidence.digest(tags[0]);
+                if (digest && manifests[registry]) {
+                  const link = document.createElement('a');
+                  link.href = `manifest-sha.html?release=${encodeURIComponent(releaseName)}&dq=${registry}`;
+                  link.textContent = digest.slice(0, 12);
+                  digestCell.appendChild(link);
+                } else if (digest || tags.length) {
+                  digestCell.textContent = digest ? digest.slice(0, 12) : 'N/A';
+                }
+                releaseRow.appendChild(digestCell);
               }
-              releaseRow.appendChild(quaySHACell);
-
-              // create a link for docker tags
-              const dockerTagsCell = document.createElement('td');
-              const dockerTagsList = document.createElement('ul');
-              if (!image.hasOwnProperty('docker')) {
-                dockerTagsCell.textContent = '';
-              } else {
-              for (const dockerTag of image.docker) {
-                const dockerTagItem = document.createElement('li');
-                const dockerTagLink = document.createElement('a');
-                dockerTagLink.href = dockerTag.link;
-                dockerTagLink.textContent = dockerTag.tag;
-                dockerTagItem.appendChild(dockerTagLink);
-                dockerTagsList.appendChild(dockerTagItem);
-              }
-              dockerTagsCell.appendChild(dockerTagsList);
-              }
-              releaseRow.appendChild(dockerTagsCell);
-
-              const dockerSHACell = document.createElement('td');
-              if (!image.docker[0].hasOwnProperty('sha')) {
-                releaseRow.appendChild(dockerSHACell.textContent = '');
-              } else if (image.docker[0].sha === "error") {
-                  dockerSHACell.textContent = 'N/A';
-              } else {
-                  const dockerSHALink = document.createElement('a');
-                  const docker = "docker";
-                  dockerSHALink.href = `manifest-sha.html?release=${encodeURIComponent(releaseName)}&dq=${encodeURIComponent(docker)}`
-                  dockerSHALink.textContent = image.docker[0].sha.replace('sha256:', '').substring(0, 12);
-                  dockerSHACell.appendChild(dockerSHALink);
-              }
-              releaseRow.appendChild(dockerSHACell);
 
               const baseImageCVECell = document.createElement('td');
               const baseImageCVELink = document.createElement('a');
