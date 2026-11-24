@@ -1,0 +1,77 @@
+{
+  "components": {
+    "images:anmol372/aci-containers:aci-containers-certmanager": {
+      "bundle_sha256": "47c41adad0e852a6d95ab534b691f1636cfdbc914da8d260440a9ef9e3c1c82c",
+      "cicd_sha": "508cdc562f2ae11b0aab5b2a380285e4b43d936a",
+      "order": [
+        45482059563,
+        1
+      ],
+      "source_sha": "08ece72cb20d4f6ca80bc5c99ce21eaf13b18ac9"
+    },
+    "images:anmol372/aci-containers:aci-containers-controller": {
+      "bundle_sha256": "47c41adad0e852a6d95ab534b691f1636cfdbc914da8d260440a9ef9e3c1c82c",
+      "cicd_sha": "508cdc562f2ae11b0aab5b2a380285e4b43d936a",
+      "order": [
+        45482059563,
+        1
+      ],
+      "source_sha": "08ece72cb20d4f6ca80bc5c99ce21eaf13b18ac9"
+    },
+    "images:anmol372/aci-containers:aci-containers-host": {
+      "bundle_sha256": "47c41adad0e852a6d95ab534b691f1636cfdbc914da8d260440a9ef9e3c1c82c",
+      "cicd_sha": "508cdc562f2ae11b0aab5b2a380285e4b43d936a",
+      "order": [
+        45482059563,
+        1
+      ],
+      "source_sha": "08ece72cb20d4f6ca80bc5c99ce21eaf13b18ac9"
+    },
+    "images:anmol372/aci-containers:aci-containers-host-ovscni": {
+      "bundle_sha256": "47c41adad0e852a6d95ab534b691f1636cfdbc914da8d260440a9ef9e3c1c82c",
+      "cicd_sha": "508cdc562f2ae11b0aab5b2a380285e4b43d936a",
+      "order": [
+        45482059563,
+        1
+      ],
+      "source_sha": "08ece72cb20d4f6ca80bc5c99ce21eaf13b18ac9"
+    },
+    "images:anmol372/aci-containers:aci-containers-operator": {
+      "bundle_sha256": "47c41adad0e852a6d95ab534b691f1636cfdbc914da8d260440a9ef9e3c1c82c",
+      "cicd_sha": "508cdc562f2ae11b0aab5b2a380285e4b43d936a",
+      "order": [
+        45482059563,
+        1
+      ],
+      "source_sha": "08ece72cb20d4f6ca80bc5c99ce21eaf13b18ac9"
+    },
+    "images:anmol372/aci-containers:aci-containers-webhook": {
+      "bundle_sha256": "47c41adad0e852a6d95ab534b691f1636cfdbc914da8d260440a9ef9e3c1c82c",
+      "cicd_sha": "508cdc562f2ae11b0aab5b2a380285e4b43d936a",
+      "order": [
+        45482059563,
+        1
+      ],
+      "source_sha": "08ece72cb20d4f6ca80bc5c99ce21eaf13b18ac9"
+    },
+    "images:anmol372/aci-containers:cnideploy": {
+      "bundle_sha256": "47c41adad0e852a6d95ab534b691f1636cfdbc914da8d260440a9ef9e3c1c82c",
+      "cicd_sha": "508cdc562f2ae11b0aab5b2a380285e4b43d936a",
+      "order": [
+        45482059563,
+        1
+      ],
+      "source_sha": "08ece72cb20d4f6ca80bc5c99ce21eaf13b18ac9"
+    },
+    "images:anmol372/aci-containers:openvswitch": {
+      "bundle_sha256": "47c41adad0e852a6d95ab534b691f1636cfdbc914da8d260440a9ef9e3c1c82c",
+      "cicd_sha": "508cdc562f2ae11b0aab5b2a380285e4b43d936a",
+      "order": [
+        45482059563,
+        1
+      ],
+      "source_sha": "08ece72cb20d4f6ca80bc5c99ce21eaf13b18ac9"
+    }
+  },
+  "schema_version": 1
+}

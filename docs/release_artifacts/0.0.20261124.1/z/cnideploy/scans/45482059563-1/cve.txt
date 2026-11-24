@@ -1,0 +1,30 @@
+{
+  "state": "ok",
+  "observed_at": "2026-11-24T20:53:54.163601Z",
+  "freshness": {
+    "state": "unknown"
+  },
+  "digest": "sha256:df8f5bf41d6c9d32c4f5748d862cb5351858317ce00baa03950fc875b9a98db8",
+  "scanner": "grype@0.121.3",
+  "report": "cve.json",
+  "counts": {
+    "C": 1,
+    "H": 27,
+    "M": 214,
+    "L": 267,
+    "U": 2
+  },
+  "last_success": {
+    "digest": "sha256:df8f5bf41d6c9d32c4f5748d862cb5351858317ce00baa03950fc875b9a98db8",
+    "observed_at": "2026-11-24T20:53:54.163601Z",
+    "scanner": "grype@0.121.3",
+    "report": "cve.json",
+    "counts": {
+      "C": 1,
+      "H": 27,
+      "M": 214,
+      "L": 267,
+      "U": 2
+    }
+  }
+}

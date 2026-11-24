@@ -11820,3 +11820,2630 @@ releases:
     release_name: 6.1.1.8
     released: false
   release_tag: 6.1.1.8
+- release_tag: 0.0.20261124.1
+  release_streams:
+  - release_name: 0.0.20261124.1.z
+    last_updated: 2026-11-24 12:56:47 PST
+    container_images:
+    - base-image:
+      - cve: release_artifacts/0.0.20261124.1/z/aci-containers-host/0.0.20261124.1-cve-base.txt
+        severity:
+        - C: 0
+          H: 7
+          L: 85
+          M: 80
+          U: 0
+        sha: 08d4c70f1baf6537a0728656cf7942d561e74a35916509d205b6519861266352
+      build-logs: release_artifacts/0.0.20261124.1/z/aci-containers-host/0.0.20261124.1-buildlog.txt
+      build-time: 2026-11-24 12:56:47 PST
+      commit:
+      - link: https://github.com/anmol372/aci-containers/commit/08ece72cb20d4f6ca80bc5c99ce21eaf13b18ac9
+        sha: 08ece72cb20d4f6ca80bc5c99ce21eaf13b18ac9
+      cve: release_artifacts/0.0.20261124.1/z/aci-containers-host/0.0.20261124.1-cve.txt
+      docker: []
+      name: aci-containers-host
+      publication:
+        alias_policy: aliases-last
+        attempts:
+        - command:
+          - docker
+          - push
+          finished_at: '2026-11-24T20:53:08.968750Z'
+          phase: push
+          reference: quay.io/anmrasto/aci-containers-host:0.0.20261124.1.a378a7d
+          started_at: '2026-11-24T20:52:56.594824Z'
+          state: ok
+        - command:
+          - docker
+          - pull
+          finished_at: '2026-11-24T20:53:09.407200Z'
+          phase: verify-pull
+          reference: quay.io/anmrasto/aci-containers-host:0.0.20261124.1.a378a7d
+          started_at: '2026-11-24T20:53:09.068921Z'
+          state: ok
+        - command:
+          - docker
+          - image
+          finished_at: '2026-11-24T20:53:09.424945Z'
+          phase: verify-digest
+          reference: quay.io/anmrasto/aci-containers-host:0.0.20261124.1.a378a7d
+          started_at: '2026-11-24T20:53:09.407645Z'
+          state: ok
+        - command:
+          - docker
+          - image
+          finished_at: '2026-11-24T20:53:09.443693Z'
+          phase: verify-image-id
+          reference: quay.io/anmrasto/aci-containers-host:0.0.20261124.1.a378a7d
+          started_at: '2026-11-24T20:53:09.425354Z'
+          state: ok
+        - command:
+          - docker
+          - tag
+          finished_at: '2026-11-24T20:53:09.529596Z'
+          phase: tag
+          reference: quay.io/anmrasto/aci-containers-host:0.0.20261124.1.a378a7d.112426.1
+          started_at: '2026-11-24T20:53:09.508988Z'
+          state: ok
+        - command:
+          - docker
+          - push
+          finished_at: '2026-11-24T20:53:09.994195Z'
+          phase: push
+          reference: quay.io/anmrasto/aci-containers-host:0.0.20261124.1.a378a7d.112426.1
+          started_at: '2026-11-24T20:53:09.529999Z'
+          state: ok
+        - command:
+          - docker
+          - pull
+          finished_at: '2026-11-24T20:53:10.129835Z'
+          phase: verify-pull
+          reference: quay.io/anmrasto/aci-containers-host:0.0.20261124.1.a378a7d.112426.1
+          started_at: '2026-11-24T20:53:10.075015Z'
+          state: ok
+        - command:
+          - docker
+          - image
+          finished_at: '2026-11-24T20:53:10.148806Z'
+          phase: verify-digest
+          reference: quay.io/anmrasto/aci-containers-host:0.0.20261124.1.a378a7d.112426.1
+          started_at: '2026-11-24T20:53:10.130379Z'
+          state: ok
+        - command:
+          - docker
+          - image
+          finished_at: '2026-11-24T20:53:10.166783Z'
+          phase: verify-image-id
+          reference: quay.io/anmrasto/aci-containers-host:0.0.20261124.1.a378a7d.112426.1
+          started_at: '2026-11-24T20:53:10.149250Z'
+          state: ok
+        - command:
+          - docker
+          - tag
+          finished_at: '2026-11-24T20:53:10.246119Z'
+          phase: tag
+          reference: quay.io/anmrasto/aci-containers-host:0.0.20261124.1.a378a7d.rc1
+          started_at: '2026-11-24T20:53:10.227047Z'
+          state: ok
+        - command:
+          - docker
+          - push
+          finished_at: '2026-11-24T20:53:10.684743Z'
+          phase: push
+          reference: quay.io/anmrasto/aci-containers-host:0.0.20261124.1.a378a7d.rc1
+          started_at: '2026-11-24T20:53:10.246595Z'
+          state: ok
+        - command:
+          - docker
+          - pull
+          finished_at: '2026-11-24T20:53:10.814243Z'
+          phase: verify-pull
+          reference: quay.io/anmrasto/aci-containers-host:0.0.20261124.1.a378a7d.rc1
+          started_at: '2026-11-24T20:53:10.760753Z'
+          state: ok
+        - command:
+          - docker
+          - image
+          finished_at: '2026-11-24T20:53:10.833096Z'
+          phase: verify-digest
+          reference: quay.io/anmrasto/aci-containers-host:0.0.20261124.1.a378a7d.rc1
+          started_at: '2026-11-24T20:53:10.814828Z'
+          state: ok
+        - command:
+          - docker
+          - image
+          finished_at: '2026-11-24T20:53:10.851380Z'
+          phase: verify-image-id
+          reference: quay.io/anmrasto/aci-containers-host:0.0.20261124.1.a378a7d.rc1
+          started_at: '2026-11-24T20:53:10.833665Z'
+          state: ok
+        - command:
+          - docker
+          - tag
+          finished_at: '2026-11-24T20:53:10.968766Z'
+          phase: tag
+          reference: quay.io/anmrasto/aci-containers-host:0.0.20261124.1.a378a7d.z
+          started_at: '2026-11-24T20:53:10.949708Z'
+          state: ok
+        - command:
+          - docker
+          - push
+          finished_at: '2026-11-24T20:53:11.383996Z'
+          phase: push
+          reference: quay.io/anmrasto/aci-containers-host:0.0.20261124.1.a378a7d.z
+          started_at: '2026-11-24T20:53:10.969233Z'
+          state: ok
+        - command:
+          - docker
+          - pull
+          finished_at: '2026-11-24T20:53:11.526006Z'
+          phase: verify-pull
+          reference: quay.io/anmrasto/aci-containers-host:0.0.20261124.1.a378a7d.z
+          started_at: '2026-11-24T20:53:11.472598Z'
+          state: ok
+        - command:
+          - docker
+          - image
+          finished_at: '2026-11-24T20:53:11.545661Z'
+          phase: verify-digest
+          reference: quay.io/anmrasto/aci-containers-host:0.0.20261124.1.a378a7d.z
+          started_at: '2026-11-24T20:53:11.526591Z'
+          state: ok
+        - command:
+          - docker
+          - image
+          finished_at: '2026-11-24T20:53:11.565304Z'
+          phase: verify-image-id
+          reference: quay.io/anmrasto/aci-containers-host:0.0.20261124.1.a378a7d.z
+          started_at: '2026-11-24T20:53:11.546206Z'
+          state: ok
+        critical_failure: null
+        finished_at: '2026-11-24T20:53:11.566463Z'
+        image: aci-containers-host
+        image_id: sha256:0ef0da23f22282e939689cac87fd4fc1d2e40a322316c2f3230a439af40998ae
+        references:
+        - digest: sha256:4c778ab58b0c8614018580daba5cb86dc56305dc576e6260804d3544d6054a78
+          expires_at: 1795575188
+          image_id: sha256:0ef0da23f22282e939689cac87fd4fc1d2e40a322316c2f3230a439af40998ae
+          reference: quay.io/anmrasto/aci-containers-host:0.0.20261124.1.a378a7d
+          registry: rehearsal
+          reused: false
+          tag: 0.0.20261124.1.a378a7d
+          verified_at: '2026-11-24T20:53:09.444103Z'
+        - digest: sha256:4c778ab58b0c8614018580daba5cb86dc56305dc576e6260804d3544d6054a78
+          expires_at: 1795575189
+          image_id: sha256:0ef0da23f22282e939689cac87fd4fc1d2e40a322316c2f3230a439af40998ae
+          reference: quay.io/anmrasto/aci-containers-host:0.0.20261124.1.a378a7d.112426.1
+          registry: rehearsal
+          reused: false
+          tag: 0.0.20261124.1.a378a7d.112426.1
+          verified_at: '2026-11-24T20:53:10.167197Z'
+        - digest: sha256:4c778ab58b0c8614018580daba5cb86dc56305dc576e6260804d3544d6054a78
+          expires_at: 1795575190
+          image_id: sha256:0ef0da23f22282e939689cac87fd4fc1d2e40a322316c2f3230a439af40998ae
+          reference: quay.io/anmrasto/aci-containers-host:0.0.20261124.1.a378a7d.rc1
+          registry: rehearsal
+          reused: false
+          tag: 0.0.20261124.1.a378a7d.rc1
+          verified_at: '2026-11-24T20:53:10.852075Z'
+        - digest: sha256:4c778ab58b0c8614018580daba5cb86dc56305dc576e6260804d3544d6054a78
+          expires_at: 1795575191
+          image_id: sha256:0ef0da23f22282e939689cac87fd4fc1d2e40a322316c2f3230a439af40998ae
+          reference: quay.io/anmrasto/aci-containers-host:0.0.20261124.1.a378a7d.z
+          registry: rehearsal
+          reused: false
+          tag: 0.0.20261124.1.a378a7d.z
+          verified_at: '2026-11-24T20:53:11.565945Z'
+        scan_policy: advisory
+        schema_version: 1
+        started_at: '2026-11-24T20:52:56.525828Z'
+        state: complete
+      quay: []
+      rehearsal:
+      - link: https://quay.io/anmrasto/aci-containers-host:0.0.20261124.1.a378a7d.z
+        sha: 4c778ab58b0c8614018580daba5cb86dc56305dc576e6260804d3544d6054a78
+        tag: 0.0.20261124.1.a378a7d.z
+      - link: https://quay.io/anmrasto/aci-containers-host:0.0.20261124.1.a378a7d
+        sha: 4c778ab58b0c8614018580daba5cb86dc56305dc576e6260804d3544d6054a78
+        tag: 0.0.20261124.1.a378a7d
+      - link: https://quay.io/anmrasto/aci-containers-host:0.0.20261124.1.a378a7d.112426.1
+        sha: 4c778ab58b0c8614018580daba5cb86dc56305dc576e6260804d3544d6054a78
+        tag: 0.0.20261124.1.a378a7d.112426.1
+      - link: https://quay.io/anmrasto/aci-containers-host:0.0.20261124.1.a378a7d.rc1
+        sha: 4c778ab58b0c8614018580daba5cb86dc56305dc576e6260804d3544d6054a78
+        tag: 0.0.20261124.1.a378a7d.rc1
+      sbom: release_artifacts/0.0.20261124.1/z/aci-containers-host/0.0.20261124.1-sbom.txt
+      scan:
+        build:
+          base:
+            base_repository_digest: sha256:08d4c70f1baf6537a0728656cf7942d561e74a35916509d205b6519861266352
+            counts:
+              C: 0
+              H: 7
+              L: 85
+              M: 80
+              U: 0
+            digest: sha256:4a9db16985440874fa412568a0d5c0801e8fafad866e11ddd71081de3886e12d
+            freshness:
+              state: unknown
+            last_success:
+              counts:
+                C: 0
+                H: 7
+                L: 85
+                M: 80
+                U: 0
+              digest: sha256:4a9db16985440874fa412568a0d5c0801e8fafad866e11ddd71081de3886e12d
+              observed_at: '2026-11-24T20:52:34.307907Z'
+              report: release_artifacts/0.0.20261124.1/z/aci-containers-host/scans/45482059563-1/cve-base.txt
+              scanner: grype@0.121.3
+            observed_at: '2026-11-24T20:52:34.307907Z'
+            provenance:
+              captured_before_build: true
+              digest: sha256:08d4c70f1baf6537a0728656cf7942d561e74a35916509d205b6519861266352
+              dockerfile: docker/travis/Dockerfile-host
+              image_id: sha256:4a9db16985440874fa412568a0d5c0801e8fafad866e11ddd71081de3886e12d
+              observed_at: '2026-11-24T20:34:20.677518Z'
+              reference: registry.access.redhat.com/ubi9/ubi-minimal:latest
+              state: ok
+            report: release_artifacts/0.0.20261124.1/z/aci-containers-host/scans/45482059563-1/cve-base.txt
+            scanner: grype@0.121.3
+            state: ok
+          image:
+            counts:
+              C: 1
+              H: 22
+              L: 137
+              M: 234
+              U: 0
+            digest: sha256:0ef0da23f22282e939689cac87fd4fc1d2e40a322316c2f3230a439af40998ae
+            freshness:
+              state: unknown
+            last_success:
+              counts:
+                C: 1
+                H: 22
+                L: 137
+                M: 234
+                U: 0
+              digest: sha256:0ef0da23f22282e939689cac87fd4fc1d2e40a322316c2f3230a439af40998ae
+              observed_at: '2026-11-24T20:52:31.272649Z'
+              report: release_artifacts/0.0.20261124.1/z/aci-containers-host/scans/45482059563-1/cve.txt
+              scanner: grype@0.121.3
+            observed_at: '2026-11-24T20:52:31.272649Z'
+            report: release_artifacts/0.0.20261124.1/z/aci-containers-host/scans/45482059563-1/cve.txt
+            scanner: grype@0.121.3
+            state: ok
+      scan-tools:
+        image_id: sha256:0ef0da23f22282e939689cac87fd4fc1d2e40a322316c2f3230a439af40998ae
+        sbom:
+          digest: sha256:0ef0da23f22282e939689cac87fd4fc1d2e40a322316c2f3230a439af40998ae
+          scanner: syft@1.57.1
+          state: ok
+        trivy:
+          counts:
+            C: 0
+            H: 22
+            L: 143
+            M: 246
+            U: 0
+          digest: sha256:0ef0da23f22282e939689cac87fd4fc1d2e40a322316c2f3230a439af40998ae
+          freshness:
+            state: unknown
+          last_success:
+            counts:
+              C: 0
+              H: 22
+              L: 143
+              M: 246
+              U: 0
+            digest: sha256:0ef0da23f22282e939689cac87fd4fc1d2e40a322316c2f3230a439af40998ae
+            observed_at: '2026-11-24T20:52:56.518768Z'
+            report: trivy.json
+            scanner: trivy@0.76.2
+          observed_at: '2026-11-24T20:52:56.518768Z'
+          report: trivy.json
+          scanner: trivy@0.76.2
+          state: ok
+      severity:
+      - C: 1
+        H: 22
+        L: 137
+        M: 234
+        U: 0
+      severity_type: grype
+    - base-image:
+      - cve: release_artifacts/0.0.20261124.1/z/aci-containers-controller/0.0.20261124.1-cve-base.txt
+        severity:
+        - C: 0
+          H: 10
+          L: 267
+          M: 197
+          U: 1
+        sha: 6636b79fba9e5044360366f189333c30b5ce528efd92c40c68b074592b971fcd
+      build-logs: release_artifacts/0.0.20261124.1/z/aci-containers-controller/0.0.20261124.1-buildlog.txt
+      build-time: 2026-11-24 12:56:47 PST
+      commit:
+      - link: https://github.com/anmol372/aci-containers/commit/08ece72cb20d4f6ca80bc5c99ce21eaf13b18ac9
+        sha: 08ece72cb20d4f6ca80bc5c99ce21eaf13b18ac9
+      cve: release_artifacts/0.0.20261124.1/z/aci-containers-controller/0.0.20261124.1-cve.txt
+      docker: []
+      name: aci-containers-controller
+      publication:
+        alias_policy: aliases-last
+        attempts:
+        - command:
+          - docker
+          - push
+          finished_at: '2026-11-24T20:53:43.862219Z'
+          phase: push
+          reference: quay.io/anmrasto/aci-containers-controller:0.0.20261124.1.a378a7d
+          started_at: '2026-11-24T20:53:31.603124Z'
+          state: ok
+        - command:
+          - docker
+          - pull
+          finished_at: '2026-11-24T20:53:44.192664Z'
+          phase: verify-pull
+          reference: quay.io/anmrasto/aci-containers-controller:0.0.20261124.1.a378a7d
+          started_at: '2026-11-24T20:53:43.945638Z'
+          state: ok
+        - command:
+          - docker
+          - image
+          finished_at: '2026-11-24T20:53:44.211843Z'
+          phase: verify-digest
+          reference: quay.io/anmrasto/aci-containers-controller:0.0.20261124.1.a378a7d
+          started_at: '2026-11-24T20:53:44.193156Z'
+          state: ok
+        - command:
+          - docker
+          - image
+          finished_at: '2026-11-24T20:53:44.230225Z'
+          phase: verify-image-id
+          reference: quay.io/anmrasto/aci-containers-controller:0.0.20261124.1.a378a7d
+          started_at: '2026-11-24T20:53:44.212314Z'
+          state: ok
+        - command:
+          - docker
+          - tag
+          finished_at: '2026-11-24T20:53:44.317513Z'
+          phase: tag
+          reference: quay.io/anmrasto/aci-containers-controller:0.0.20261124.1.a378a7d.112426.1
+          started_at: '2026-11-24T20:53:44.298074Z'
+          state: ok
+        - command:
+          - docker
+          - push
+          finished_at: '2026-11-24T20:53:44.705520Z'
+          phase: push
+          reference: quay.io/anmrasto/aci-containers-controller:0.0.20261124.1.a378a7d.112426.1
+          started_at: '2026-11-24T20:53:44.317954Z'
+          state: ok
+        - command:
+          - docker
+          - pull
+          finished_at: '2026-11-24T20:53:44.836703Z'
+          phase: verify-pull
+          reference: quay.io/anmrasto/aci-containers-controller:0.0.20261124.1.a378a7d.112426.1
+          started_at: '2026-11-24T20:53:44.780488Z'
+          state: ok
+        - command:
+          - docker
+          - image
+          finished_at: '2026-11-24T20:53:44.854539Z'
+          phase: verify-digest
+          reference: quay.io/anmrasto/aci-containers-controller:0.0.20261124.1.a378a7d.112426.1
+          started_at: '2026-11-24T20:53:44.837207Z'
+          state: ok
+        - command:
+          - docker
+          - image
+          finished_at: '2026-11-24T20:53:44.872599Z'
+          phase: verify-image-id
+          reference: quay.io/anmrasto/aci-containers-controller:0.0.20261124.1.a378a7d.112426.1
+          started_at: '2026-11-24T20:53:44.854976Z'
+          state: ok
+        - command:
+          - docker
+          - tag
+          finished_at: '2026-11-24T20:53:44.955009Z'
+          phase: tag
+          reference: quay.io/anmrasto/aci-containers-controller:0.0.20261124.1.a378a7d.rc1
+          started_at: '2026-11-24T20:53:44.935166Z'
+          state: ok
+        - command:
+          - docker
+          - push
+          finished_at: '2026-11-24T20:53:45.331186Z'
+          phase: push
+          reference: quay.io/anmrasto/aci-containers-controller:0.0.20261124.1.a378a7d.rc1
+          started_at: '2026-11-24T20:53:44.955477Z'
+          state: ok
+        - command:
+          - docker
+          - pull
+          finished_at: '2026-11-24T20:53:45.541243Z'
+          phase: verify-pull
+          reference: quay.io/anmrasto/aci-containers-controller:0.0.20261124.1.a378a7d.rc1
+          started_at: '2026-11-24T20:53:45.484108Z'
+          state: ok
+        - command:
+          - docker
+          - image
+          finished_at: '2026-11-24T20:53:45.560651Z'
+          phase: verify-digest
+          reference: quay.io/anmrasto/aci-containers-controller:0.0.20261124.1.a378a7d.rc1
+          started_at: '2026-11-24T20:53:45.542014Z'
+          state: ok
+        - command:
+          - docker
+          - image
+          finished_at: '2026-11-24T20:53:45.578806Z'
+          phase: verify-image-id
+          reference: quay.io/anmrasto/aci-containers-controller:0.0.20261124.1.a378a7d.rc1
+          started_at: '2026-11-24T20:53:45.561229Z'
+          state: ok
+        - command:
+          - docker
+          - tag
+          finished_at: '2026-11-24T20:53:45.662887Z'
+          phase: tag
+          reference: quay.io/anmrasto/aci-containers-controller:0.0.20261124.1.a378a7d.z
+          started_at: '2026-11-24T20:53:45.642170Z'
+          state: ok
+        - command:
+          - docker
+          - push
+          finished_at: '2026-11-24T20:53:46.009784Z'
+          phase: push
+          reference: quay.io/anmrasto/aci-containers-controller:0.0.20261124.1.a378a7d.z
+          started_at: '2026-11-24T20:53:45.663413Z'
+          state: ok
+        - command:
+          - docker
+          - pull
+          finished_at: '2026-11-24T20:53:46.121475Z'
+          phase: verify-pull
+          reference: quay.io/anmrasto/aci-containers-controller:0.0.20261124.1.a378a7d.z
+          started_at: '2026-11-24T20:53:46.070218Z'
+          state: ok
+        - command:
+          - docker
+          - image
+          finished_at: '2026-11-24T20:53:46.140282Z'
+          phase: verify-digest
+          reference: quay.io/anmrasto/aci-containers-controller:0.0.20261124.1.a378a7d.z
+          started_at: '2026-11-24T20:53:46.122200Z'
+          state: ok
+        - command:
+          - docker
+          - image
+          finished_at: '2026-11-24T20:53:46.158829Z'
+          phase: verify-image-id
+          reference: quay.io/anmrasto/aci-containers-controller:0.0.20261124.1.a378a7d.z
+          started_at: '2026-11-24T20:53:46.140872Z'
+          state: ok
+        critical_failure: null
+        finished_at: '2026-11-24T20:53:46.159853Z'
+        image: aci-containers-controller
+        image_id: sha256:0c4ed66e53c52db12777e92a2aadf6bc422d0e574f7d9852bd304efd189e523c
+        references:
+        - digest: sha256:0499cf05e04a3de5e56bde8fed06cee413da71ef692e2d9686c2fed185cf3e2c
+          expires_at: 1795575223
+          image_id: sha256:0c4ed66e53c52db12777e92a2aadf6bc422d0e574f7d9852bd304efd189e523c
+          reference: quay.io/anmrasto/aci-containers-controller:0.0.20261124.1.a378a7d
+          registry: rehearsal
+          reused: false
+          tag: 0.0.20261124.1.a378a7d
+          verified_at: '2026-11-24T20:53:44.230633Z'
+        - digest: sha256:0499cf05e04a3de5e56bde8fed06cee413da71ef692e2d9686c2fed185cf3e2c
+          expires_at: 1795575224
+          image_id: sha256:0c4ed66e53c52db12777e92a2aadf6bc422d0e574f7d9852bd304efd189e523c
+          reference: quay.io/anmrasto/aci-containers-controller:0.0.20261124.1.a378a7d.112426.1
+          registry: rehearsal
+          reused: false
+          tag: 0.0.20261124.1.a378a7d.112426.1
+          verified_at: '2026-11-24T20:53:44.873014Z'
+        - digest: sha256:0499cf05e04a3de5e56bde8fed06cee413da71ef692e2d9686c2fed185cf3e2c
+          expires_at: 1795575225
+          image_id: sha256:0c4ed66e53c52db12777e92a2aadf6bc422d0e574f7d9852bd304efd189e523c
+          reference: quay.io/anmrasto/aci-containers-controller:0.0.20261124.1.a378a7d.rc1
+          registry: rehearsal
+          reused: false
+          tag: 0.0.20261124.1.a378a7d.rc1
+          verified_at: '2026-11-24T20:53:45.579301Z'
+        - digest: sha256:0499cf05e04a3de5e56bde8fed06cee413da71ef692e2d9686c2fed185cf3e2c
+          expires_at: 1795575225
+          image_id: sha256:0c4ed66e53c52db12777e92a2aadf6bc422d0e574f7d9852bd304efd189e523c
+          reference: quay.io/anmrasto/aci-containers-controller:0.0.20261124.1.a378a7d.z
+          registry: rehearsal
+          reused: false
+          tag: 0.0.20261124.1.a378a7d.z
+          verified_at: '2026-11-24T20:53:46.159383Z'
+        scan_policy: advisory
+        schema_version: 1
+        started_at: '2026-11-24T20:53:31.544993Z'
+        state: complete
+      quay: []
+      rehearsal:
+      - link: https://quay.io/anmrasto/aci-containers-controller:0.0.20261124.1.a378a7d.z
+        sha: 0499cf05e04a3de5e56bde8fed06cee413da71ef692e2d9686c2fed185cf3e2c
+        tag: 0.0.20261124.1.a378a7d.z
+      - link: https://quay.io/anmrasto/aci-containers-controller:0.0.20261124.1.a378a7d
+        sha: 0499cf05e04a3de5e56bde8fed06cee413da71ef692e2d9686c2fed185cf3e2c
+        tag: 0.0.20261124.1.a378a7d
+      - link: https://quay.io/anmrasto/aci-containers-controller:0.0.20261124.1.a378a7d.112426.1
+        sha: 0499cf05e04a3de5e56bde8fed06cee413da71ef692e2d9686c2fed185cf3e2c
+        tag: 0.0.20261124.1.a378a7d.112426.1
+      - link: https://quay.io/anmrasto/aci-containers-controller:0.0.20261124.1.a378a7d.rc1
+        sha: 0499cf05e04a3de5e56bde8fed06cee413da71ef692e2d9686c2fed185cf3e2c
+        tag: 0.0.20261124.1.a378a7d.rc1
+      sbom: release_artifacts/0.0.20261124.1/z/aci-containers-controller/0.0.20261124.1-sbom.txt
+      scan:
+        build:
+          base:
+            base_repository_digest: sha256:6636b79fba9e5044360366f189333c30b5ce528efd92c40c68b074592b971fcd
+            counts:
+              C: 0
+              H: 10
+              L: 267
+              M: 197
+              U: 1
+            digest: sha256:87bce12a84504e55bbfedcb10a1a74db75cd77f6c6a2d13da3f9cf761c726c45
+            freshness:
+              state: unknown
+            last_success:
+              counts:
+                C: 0
+                H: 10
+                L: 267
+                M: 197
+                U: 1
+              digest: sha256:87bce12a84504e55bbfedcb10a1a74db75cd77f6c6a2d13da3f9cf761c726c45
+              observed_at: '2026-11-24T20:53:23.448807Z'
+              report: release_artifacts/0.0.20261124.1/z/aci-containers-controller/scans/45482059563-1/cve-base.txt
+              scanner: grype@0.121.3
+            observed_at: '2026-11-24T20:53:23.448807Z'
+            provenance:
+              captured_before_build: true
+              digest: sha256:6636b79fba9e5044360366f189333c30b5ce528efd92c40c68b074592b971fcd
+              dockerfile: docker/travis/Dockerfile-controller
+              image_id: sha256:87bce12a84504e55bbfedcb10a1a74db75cd77f6c6a2d13da3f9cf761c726c45
+              observed_at: '2026-11-24T20:34:24.405659Z'
+              reference: registry.access.redhat.com/ubi9/ubi:latest
+              state: ok
+            report: release_artifacts/0.0.20261124.1/z/aci-containers-controller/scans/45482059563-1/cve-base.txt
+            scanner: grype@0.121.3
+            state: ok
+          image:
+            counts:
+              C: 1
+              H: 14
+              L: 268
+              M: 198
+              U: 1
+            digest: sha256:0c4ed66e53c52db12777e92a2aadf6bc422d0e574f7d9852bd304efd189e523c
+            freshness:
+              state: unknown
+            last_success:
+              counts:
+                C: 1
+                H: 14
+                L: 268
+                M: 198
+                U: 1
+              digest: sha256:0c4ed66e53c52db12777e92a2aadf6bc422d0e574f7d9852bd304efd189e523c
+              observed_at: '2026-11-24T20:53:18.120159Z'
+              report: release_artifacts/0.0.20261124.1/z/aci-containers-controller/scans/45482059563-1/cve.txt
+              scanner: grype@0.121.3
+            observed_at: '2026-11-24T20:53:18.120159Z'
+            report: release_artifacts/0.0.20261124.1/z/aci-containers-controller/scans/45482059563-1/cve.txt
+            scanner: grype@0.121.3
+            state: ok
+      scan-tools:
+        image_id: sha256:0c4ed66e53c52db12777e92a2aadf6bc422d0e574f7d9852bd304efd189e523c
+        sbom:
+          digest: sha256:0c4ed66e53c52db12777e92a2aadf6bc422d0e574f7d9852bd304efd189e523c
+          scanner: syft@1.57.1
+          state: ok
+        trivy:
+          counts:
+            C: 0
+            H: 10
+            L: 272
+            M: 208
+            U: 0
+          digest: sha256:0c4ed66e53c52db12777e92a2aadf6bc422d0e574f7d9852bd304efd189e523c
+          freshness:
+            state: unknown
+          last_success:
+            counts:
+              C: 0
+              H: 10
+              L: 272
+              M: 208
+              U: 0
+            digest: sha256:0c4ed66e53c52db12777e92a2aadf6bc422d0e574f7d9852bd304efd189e523c
+            observed_at: '2026-11-24T20:53:31.537110Z'
+            report: trivy.json
+            scanner: trivy@0.76.2
+          observed_at: '2026-11-24T20:53:31.537110Z'
+          report: trivy.json
+          scanner: trivy@0.76.2
+          state: ok
+      severity:
+      - C: 1
+        H: 14
+        L: 268
+        M: 198
+        U: 1
+      severity_type: grype
+    - base-image:
+      - cve: release_artifacts/0.0.20261124.1/z/cnideploy/0.0.20261124.1-cve-base.txt
+        severity:
+        - C: 0
+          H: 10
+          L: 267
+          M: 197
+          U: 1
+        sha: 6636b79fba9e5044360366f189333c30b5ce528efd92c40c68b074592b971fcd
+      build-logs: release_artifacts/0.0.20261124.1/z/cnideploy/0.0.20261124.1-buildlog.txt
+      build-time: 2026-11-24 12:56:47 PST
+      commit:
+      - link: https://github.com/anmol372/aci-containers/commit/08ece72cb20d4f6ca80bc5c99ce21eaf13b18ac9
+        sha: 08ece72cb20d4f6ca80bc5c99ce21eaf13b18ac9
+      cve: release_artifacts/0.0.20261124.1/z/cnideploy/0.0.20261124.1-cve.txt
+      docker: []
+      name: cnideploy
+      publication:
+        alias_policy: aliases-last
+        attempts:
+        - command:
+          - docker
+          - push
+          finished_at: '2026-11-24T20:54:17.402239Z'
+          phase: push
+          reference: quay.io/anmrasto/cnideploy:0.0.20261124.1.a378a7d
+          started_at: '2026-11-24T20:54:08.617421Z'
+          state: ok
+        - command:
+          - docker
+          - pull
+          finished_at: '2026-11-24T20:54:17.780306Z'
+          phase: verify-pull
+          reference: quay.io/anmrasto/cnideploy:0.0.20261124.1.a378a7d
+          started_at: '2026-11-24T20:54:17.469964Z'
+          state: ok
+        - command:
+          - docker
+          - image
+          finished_at: '2026-11-24T20:54:17.798294Z'
+          phase: verify-digest
+          reference: quay.io/anmrasto/cnideploy:0.0.20261124.1.a378a7d
+          started_at: '2026-11-24T20:54:17.780787Z'
+          state: ok
+        - command:
+          - docker
+          - image
+          finished_at: '2026-11-24T20:54:17.815061Z'
+          phase: verify-image-id
+          reference: quay.io/anmrasto/cnideploy:0.0.20261124.1.a378a7d
+          started_at: '2026-11-24T20:54:17.798715Z'
+          state: ok
+        - command:
+          - docker
+          - tag
+          finished_at: '2026-11-24T20:54:17.889804Z'
+          phase: tag
+          reference: quay.io/anmrasto/cnideploy:0.0.20261124.1.a378a7d.112426.1
+          started_at: '2026-11-24T20:54:17.870873Z'
+          state: ok
+        - command:
+          - docker
+          - push
+          finished_at: '2026-11-24T20:54:18.313038Z'
+          phase: push
+          reference: quay.io/anmrasto/cnideploy:0.0.20261124.1.a378a7d.112426.1
+          started_at: '2026-11-24T20:54:17.890168Z'
+          state: ok
+        - command:
+          - docker
+          - pull
+          finished_at: '2026-11-24T20:54:18.455537Z'
+          phase: verify-pull
+          reference: quay.io/anmrasto/cnideploy:0.0.20261124.1.a378a7d.112426.1
+          started_at: '2026-11-24T20:54:18.400647Z'
+          state: ok
+        - command:
+          - docker
+          - image
+          finished_at: '2026-11-24T20:54:18.473161Z'
+          phase: verify-digest
+          reference: quay.io/anmrasto/cnideploy:0.0.20261124.1.a378a7d.112426.1
+          started_at: '2026-11-24T20:54:18.456015Z'
+          state: ok
+        - command:
+          - docker
+          - image
+          finished_at: '2026-11-24T20:54:18.490880Z'
+          phase: verify-image-id
+          reference: quay.io/anmrasto/cnideploy:0.0.20261124.1.a378a7d.112426.1
+          started_at: '2026-11-24T20:54:18.473623Z'
+          state: ok
+        - command:
+          - docker
+          - tag
+          finished_at: '2026-11-24T20:54:18.559884Z'
+          phase: tag
+          reference: quay.io/anmrasto/cnideploy:0.0.20261124.1.a378a7d.rc1
+          started_at: '2026-11-24T20:54:18.539988Z'
+          state: ok
+        - command:
+          - docker
+          - push
+          finished_at: '2026-11-24T20:54:18.914566Z'
+          phase: push
+          reference: quay.io/anmrasto/cnideploy:0.0.20261124.1.a378a7d.rc1
+          started_at: '2026-11-24T20:54:18.560322Z'
+          state: ok
+        - command:
+          - docker
+          - pull
+          finished_at: '2026-11-24T20:54:19.040287Z'
+          phase: verify-pull
+          reference: quay.io/anmrasto/cnideploy:0.0.20261124.1.a378a7d.rc1
+          started_at: '2026-11-24T20:54:18.986215Z'
+          state: ok
+        - command:
+          - docker
+          - image
+          finished_at: '2026-11-24T20:54:19.059046Z'
+          phase: verify-digest
+          reference: quay.io/anmrasto/cnideploy:0.0.20261124.1.a378a7d.rc1
+          started_at: '2026-11-24T20:54:19.040908Z'
+          state: ok
+        - command:
+          - docker
+          - image
+          finished_at: '2026-11-24T20:54:19.076777Z'
+          phase: verify-image-id
+          reference: quay.io/anmrasto/cnideploy:0.0.20261124.1.a378a7d.rc1
+          started_at: '2026-11-24T20:54:19.059779Z'
+          state: ok
+        - command:
+          - docker
+          - tag
+          finished_at: '2026-11-24T20:54:19.158270Z'
+          phase: tag
+          reference: quay.io/anmrasto/cnideploy:0.0.20261124.1.a378a7d.z
+          started_at: '2026-11-24T20:54:19.139311Z'
+          state: ok
+        - command:
+          - docker
+          - push
+          finished_at: '2026-11-24T20:54:19.602385Z'
+          phase: push
+          reference: quay.io/anmrasto/cnideploy:0.0.20261124.1.a378a7d.z
+          started_at: '2026-11-24T20:54:19.158797Z'
+          state: ok
+        - command:
+          - docker
+          - pull
+          finished_at: '2026-11-24T20:54:19.712813Z'
+          phase: verify-pull
+          reference: quay.io/anmrasto/cnideploy:0.0.20261124.1.a378a7d.z
+          started_at: '2026-11-24T20:54:19.663229Z'
+          state: ok
+        - command:
+          - docker
+          - image
+          finished_at: '2026-11-24T20:54:19.731086Z'
+          phase: verify-digest
+          reference: quay.io/anmrasto/cnideploy:0.0.20261124.1.a378a7d.z
+          started_at: '2026-11-24T20:54:19.713380Z'
+          state: ok
+        - command:
+          - docker
+          - image
+          finished_at: '2026-11-24T20:54:19.748428Z'
+          phase: verify-image-id
+          reference: quay.io/anmrasto/cnideploy:0.0.20261124.1.a378a7d.z
+          started_at: '2026-11-24T20:54:19.731733Z'
+          state: ok
+        critical_failure: null
+        finished_at: '2026-11-24T20:54:19.749513Z'
+        image: cnideploy
+        image_id: sha256:df8f5bf41d6c9d32c4f5748d862cb5351858317ce00baa03950fc875b9a98db8
+        references:
+        - digest: sha256:733a402e0134ef936643cbf34804a594524dc6454461c5f2de4cc127005fbd7f
+          expires_at: 1795575256
+          image_id: sha256:df8f5bf41d6c9d32c4f5748d862cb5351858317ce00baa03950fc875b9a98db8
+          reference: quay.io/anmrasto/cnideploy:0.0.20261124.1.a378a7d
+          registry: rehearsal
+          reused: false
+          tag: 0.0.20261124.1.a378a7d
+          verified_at: '2026-11-24T20:54:17.815479Z'
+        - digest: sha256:733a402e0134ef936643cbf34804a594524dc6454461c5f2de4cc127005fbd7f
+          expires_at: 1795575258
+          image_id: sha256:df8f5bf41d6c9d32c4f5748d862cb5351858317ce00baa03950fc875b9a98db8
+          reference: quay.io/anmrasto/cnideploy:0.0.20261124.1.a378a7d.112426.1
+          registry: rehearsal
+          reused: false
+          tag: 0.0.20261124.1.a378a7d.112426.1
+          verified_at: '2026-11-24T20:54:18.491357Z'
+        - digest: sha256:733a402e0134ef936643cbf34804a594524dc6454461c5f2de4cc127005fbd7f
+          expires_at: 1795575258
+          image_id: sha256:df8f5bf41d6c9d32c4f5748d862cb5351858317ce00baa03950fc875b9a98db8
+          reference: quay.io/anmrasto/cnideploy:0.0.20261124.1.a378a7d.rc1
+          registry: rehearsal
+          reused: false
+          tag: 0.0.20261124.1.a378a7d.rc1
+          verified_at: '2026-11-24T20:54:19.077257Z'
+        - digest: sha256:733a402e0134ef936643cbf34804a594524dc6454461c5f2de4cc127005fbd7f
+          expires_at: 1795575259
+          image_id: sha256:df8f5bf41d6c9d32c4f5748d862cb5351858317ce00baa03950fc875b9a98db8
+          reference: quay.io/anmrasto/cnideploy:0.0.20261124.1.a378a7d.z
+          registry: rehearsal
+          reused: false
+          tag: 0.0.20261124.1.a378a7d.z
+          verified_at: '2026-11-24T20:54:19.748980Z'
+        scan_policy: advisory
+        schema_version: 1
+        started_at: '2026-11-24T20:54:08.507264Z'
+        state: complete
+      quay: []
+      rehearsal:
+      - link: https://quay.io/anmrasto/cnideploy:0.0.20261124.1.a378a7d.z
+        sha: 733a402e0134ef936643cbf34804a594524dc6454461c5f2de4cc127005fbd7f
+        tag: 0.0.20261124.1.a378a7d.z
+      - link: https://quay.io/anmrasto/cnideploy:0.0.20261124.1.a378a7d
+        sha: 733a402e0134ef936643cbf34804a594524dc6454461c5f2de4cc127005fbd7f
+        tag: 0.0.20261124.1.a378a7d
+      - link: https://quay.io/anmrasto/cnideploy:0.0.20261124.1.a378a7d.112426.1
+        sha: 733a402e0134ef936643cbf34804a594524dc6454461c5f2de4cc127005fbd7f
+        tag: 0.0.20261124.1.a378a7d.112426.1
+      - link: https://quay.io/anmrasto/cnideploy:0.0.20261124.1.a378a7d.rc1
+        sha: 733a402e0134ef936643cbf34804a594524dc6454461c5f2de4cc127005fbd7f
+        tag: 0.0.20261124.1.a378a7d.rc1
+      sbom: release_artifacts/0.0.20261124.1/z/cnideploy/0.0.20261124.1-sbom.txt
+      scan:
+        build:
+          base:
+            base_repository_digest: sha256:6636b79fba9e5044360366f189333c30b5ce528efd92c40c68b074592b971fcd
+            counts:
+              C: 0
+              H: 10
+              L: 267
+              M: 197
+              U: 1
+            digest: sha256:87bce12a84504e55bbfedcb10a1a74db75cd77f6c6a2d13da3f9cf761c726c45
+            freshness:
+              state: unknown
+            last_success:
+              counts:
+                C: 0
+                H: 10
+                L: 267
+                M: 197
+                U: 1
+              digest: sha256:87bce12a84504e55bbfedcb10a1a74db75cd77f6c6a2d13da3f9cf761c726c45
+              observed_at: '2026-11-24T20:53:59.558902Z'
+              report: release_artifacts/0.0.20261124.1/z/cnideploy/scans/45482059563-1/cve-base.txt
+              scanner: grype@0.121.3
+            observed_at: '2026-11-24T20:53:59.558902Z'
+            provenance:
+              captured_before_build: true
+              digest: sha256:6636b79fba9e5044360366f189333c30b5ce528efd92c40c68b074592b971fcd
+              dockerfile: docker/travis/Dockerfile-cnideploy
+              image_id: sha256:87bce12a84504e55bbfedcb10a1a74db75cd77f6c6a2d13da3f9cf761c726c45
+              observed_at: '2026-11-24T20:34:24.508238Z'
+              reference: registry.access.redhat.com/ubi9/ubi:latest
+              state: ok
+            report: release_artifacts/0.0.20261124.1/z/cnideploy/scans/45482059563-1/cve-base.txt
+            scanner: grype@0.121.3
+            state: ok
+          image:
+            counts:
+              C: 1
+              H: 27
+              L: 267
+              M: 214
+              U: 2
+            digest: sha256:df8f5bf41d6c9d32c4f5748d862cb5351858317ce00baa03950fc875b9a98db8
+            freshness:
+              state: unknown
+            last_success:
+              counts:
+                C: 1
+                H: 27
+                L: 267
+                M: 214
+                U: 2
+              digest: sha256:df8f5bf41d6c9d32c4f5748d862cb5351858317ce00baa03950fc875b9a98db8
+              observed_at: '2026-11-24T20:53:54.163601Z'
+              report: release_artifacts/0.0.20261124.1/z/cnideploy/scans/45482059563-1/cve.txt
+              scanner: grype@0.121.3
+            observed_at: '2026-11-24T20:53:54.163601Z'
+            report: release_artifacts/0.0.20261124.1/z/cnideploy/scans/45482059563-1/cve.txt
+            scanner: grype@0.121.3
+            state: ok
+      scan-tools:
+        image_id: sha256:df8f5bf41d6c9d32c4f5748d862cb5351858317ce00baa03950fc875b9a98db8
+        sbom:
+          digest: sha256:df8f5bf41d6c9d32c4f5748d862cb5351858317ce00baa03950fc875b9a98db8
+          scanner: syft@1.57.1
+          state: ok
+        trivy:
+          counts:
+            C: 0
+            H: 429
+            L: 308
+            M: 559
+            U: 18
+          digest: sha256:df8f5bf41d6c9d32c4f5748d862cb5351858317ce00baa03950fc875b9a98db8
+          freshness:
+            state: unknown
+          last_success:
+            counts:
+              C: 0
+              H: 429
+              L: 308
+              M: 559
+              U: 18
+            digest: sha256:df8f5bf41d6c9d32c4f5748d862cb5351858317ce00baa03950fc875b9a98db8
+            observed_at: '2026-11-24T20:54:08.497786Z'
+            report: trivy.json
+            scanner: trivy@0.76.2
+          observed_at: '2026-11-24T20:54:08.497786Z'
+          report: trivy.json
+          scanner: trivy@0.76.2
+          state: ok
+      severity:
+      - C: 1
+        H: 27
+        L: 267
+        M: 214
+        U: 2
+      severity_type: grype
+    - base-image:
+      - cve: release_artifacts/0.0.20261124.1/z/aci-containers-operator/0.0.20261124.1-cve-base.txt
+        severity:
+        - C: 0
+          H: 10
+          L: 267
+          M: 197
+          U: 1
+        sha: 6636b79fba9e5044360366f189333c30b5ce528efd92c40c68b074592b971fcd
+      build-logs: release_artifacts/0.0.20261124.1/z/aci-containers-operator/0.0.20261124.1-buildlog.txt
+      build-time: 2026-11-24 12:56:47 PST
+      commit:
+      - link: https://github.com/anmol372/aci-containers/commit/08ece72cb20d4f6ca80bc5c99ce21eaf13b18ac9
+        sha: 08ece72cb20d4f6ca80bc5c99ce21eaf13b18ac9
+      cve: release_artifacts/0.0.20261124.1/z/aci-containers-operator/0.0.20261124.1-cve.txt
+      docker: []
+      name: aci-containers-operator
+      publication:
+        alias_policy: aliases-last
+        attempts:
+        - command:
+          - docker
+          - push
+          finished_at: '2026-11-24T20:54:46.957584Z'
+          phase: push
+          reference: quay.io/anmrasto/aci-containers-operator:0.0.20261124.1.a378a7d
+          started_at: '2026-11-24T20:54:38.954149Z'
+          state: ok
+        - command:
+          - docker
+          - pull
+          finished_at: '2026-11-24T20:54:47.364503Z'
+          phase: verify-pull
+          reference: quay.io/anmrasto/aci-containers-operator:0.0.20261124.1.a378a7d
+          started_at: '2026-11-24T20:54:47.029832Z'
+          state: ok
+        - command:
+          - docker
+          - image
+          finished_at: '2026-11-24T20:54:47.382539Z'
+          phase: verify-digest
+          reference: quay.io/anmrasto/aci-containers-operator:0.0.20261124.1.a378a7d
+          started_at: '2026-11-24T20:54:47.364925Z'
+          state: ok
+        - command:
+          - docker
+          - image
+          finished_at: '2026-11-24T20:54:47.400563Z'
+          phase: verify-image-id
+          reference: quay.io/anmrasto/aci-containers-operator:0.0.20261124.1.a378a7d
+          started_at: '2026-11-24T20:54:47.382985Z'
+          state: ok
+        - command:
+          - docker
+          - tag
+          finished_at: '2026-11-24T20:54:47.482664Z'
+          phase: tag
+          reference: quay.io/anmrasto/aci-containers-operator:0.0.20261124.1.a378a7d.112426.1
+          started_at: '2026-11-24T20:54:47.464396Z'
+          state: ok
+        - command:
+          - docker
+          - push
+          finished_at: '2026-11-24T20:54:47.935669Z'
+          phase: push
+          reference: quay.io/anmrasto/aci-containers-operator:0.0.20261124.1.a378a7d.112426.1
+          started_at: '2026-11-24T20:54:47.483021Z'
+          state: ok
+        - command:
+          - docker
+          - pull
+          finished_at: '2026-11-24T20:54:48.115015Z'
+          phase: verify-pull
+          reference: quay.io/anmrasto/aci-containers-operator:0.0.20261124.1.a378a7d.112426.1
+          started_at: '2026-11-24T20:54:48.063481Z'
+          state: ok
+        - command:
+          - docker
+          - image
+          finished_at: '2026-11-24T20:54:48.134224Z'
+          phase: verify-digest
+          reference: quay.io/anmrasto/aci-containers-operator:0.0.20261124.1.a378a7d.112426.1
+          started_at: '2026-11-24T20:54:48.115489Z'
+          state: ok
+        - command:
+          - docker
+          - image
+          finished_at: '2026-11-24T20:54:48.151425Z'
+          phase: verify-image-id
+          reference: quay.io/anmrasto/aci-containers-operator:0.0.20261124.1.a378a7d.112426.1
+          started_at: '2026-11-24T20:54:48.134682Z'
+          state: ok
+        - command:
+          - docker
+          - tag
+          finished_at: '2026-11-24T20:54:48.229353Z'
+          phase: tag
+          reference: quay.io/anmrasto/aci-containers-operator:0.0.20261124.1.a378a7d.rc1
+          started_at: '2026-11-24T20:54:48.209681Z'
+          state: ok
+        - command:
+          - docker
+          - push
+          finished_at: '2026-11-24T20:54:48.601771Z'
+          phase: push
+          reference: quay.io/anmrasto/aci-containers-operator:0.0.20261124.1.a378a7d.rc1
+          started_at: '2026-11-24T20:54:48.229897Z'
+          state: ok
+        - command:
+          - docker
+          - pull
+          finished_at: '2026-11-24T20:54:48.801194Z'
+          phase: verify-pull
+          reference: quay.io/anmrasto/aci-containers-operator:0.0.20261124.1.a378a7d.rc1
+          started_at: '2026-11-24T20:54:48.746997Z'
+          state: ok
+        - command:
+          - docker
+          - image
+          finished_at: '2026-11-24T20:54:48.819511Z'
+          phase: verify-digest
+          reference: quay.io/anmrasto/aci-containers-operator:0.0.20261124.1.a378a7d.rc1
+          started_at: '2026-11-24T20:54:48.801728Z'
+          state: ok
+        - command:
+          - docker
+          - image
+          finished_at: '2026-11-24T20:54:48.838451Z'
+          phase: verify-image-id
+          reference: quay.io/anmrasto/aci-containers-operator:0.0.20261124.1.a378a7d.rc1
+          started_at: '2026-11-24T20:54:48.820227Z'
+          state: ok
+        - command:
+          - docker
+          - tag
+          finished_at: '2026-11-24T20:54:48.929495Z'
+          phase: tag
+          reference: quay.io/anmrasto/aci-containers-operator:0.0.20261124.1.a378a7d.z
+          started_at: '2026-11-24T20:54:48.910885Z'
+          state: ok
+        - command:
+          - docker
+          - push
+          finished_at: '2026-11-24T20:54:49.409099Z'
+          phase: push
+          reference: quay.io/anmrasto/aci-containers-operator:0.0.20261124.1.a378a7d.z
+          started_at: '2026-11-24T20:54:48.929983Z'
+          state: ok
+        - command:
+          - docker
+          - pull
+          finished_at: '2026-11-24T20:54:49.579568Z'
+          phase: verify-pull
+          reference: quay.io/anmrasto/aci-containers-operator:0.0.20261124.1.a378a7d.z
+          started_at: '2026-11-24T20:54:49.524625Z'
+          state: ok
+        - command:
+          - docker
+          - image
+          finished_at: '2026-11-24T20:54:49.598859Z'
+          phase: verify-digest
+          reference: quay.io/anmrasto/aci-containers-operator:0.0.20261124.1.a378a7d.z
+          started_at: '2026-11-24T20:54:49.580176Z'
+          state: ok
+        - command:
+          - docker
+          - image
+          finished_at: '2026-11-24T20:54:49.617511Z'
+          phase: verify-image-id
+          reference: quay.io/anmrasto/aci-containers-operator:0.0.20261124.1.a378a7d.z
+          started_at: '2026-11-24T20:54:49.599427Z'
+          state: ok
+        critical_failure: null
+        finished_at: '2026-11-24T20:54:49.618628Z'
+        image: aci-containers-operator
+        image_id: sha256:899b6e87a6e0efdc533facd4d446a924350cddb0b0a7381c55c5fc5eb125806d
+        references:
+        - digest: sha256:3967849e1f273a7df77530a28b789fb4fb407859b3c98d97a589360016333b7f
+          expires_at: 1795575286
+          image_id: sha256:899b6e87a6e0efdc533facd4d446a924350cddb0b0a7381c55c5fc5eb125806d
+          reference: quay.io/anmrasto/aci-containers-operator:0.0.20261124.1.a378a7d
+          registry: rehearsal
+          reused: false
+          tag: 0.0.20261124.1.a378a7d
+          verified_at: '2026-11-24T20:54:47.400962Z'
+        - digest: sha256:3967849e1f273a7df77530a28b789fb4fb407859b3c98d97a589360016333b7f
+          expires_at: 1795575287
+          image_id: sha256:899b6e87a6e0efdc533facd4d446a924350cddb0b0a7381c55c5fc5eb125806d
+          reference: quay.io/anmrasto/aci-containers-operator:0.0.20261124.1.a378a7d.112426.1
+          registry: rehearsal
+          reused: false
+          tag: 0.0.20261124.1.a378a7d.112426.1
+          verified_at: '2026-11-24T20:54:48.151835Z'
+        - digest: sha256:3967849e1f273a7df77530a28b789fb4fb407859b3c98d97a589360016333b7f
+          expires_at: 1795575288
+          image_id: sha256:899b6e87a6e0efdc533facd4d446a924350cddb0b0a7381c55c5fc5eb125806d
+          reference: quay.io/anmrasto/aci-containers-operator:0.0.20261124.1.a378a7d.rc1
+          registry: rehearsal
+          reused: false
+          tag: 0.0.20261124.1.a378a7d.rc1
+          verified_at: '2026-11-24T20:54:48.838944Z'
+        - digest: sha256:3967849e1f273a7df77530a28b789fb4fb407859b3c98d97a589360016333b7f
+          expires_at: 1795575289
+          image_id: sha256:899b6e87a6e0efdc533facd4d446a924350cddb0b0a7381c55c5fc5eb125806d
+          reference: quay.io/anmrasto/aci-containers-operator:0.0.20261124.1.a378a7d.z
+          registry: rehearsal
+          reused: false
+          tag: 0.0.20261124.1.a378a7d.z
+          verified_at: '2026-11-24T20:54:49.618109Z'
+        scan_policy: advisory
+        schema_version: 1
+        started_at: '2026-11-24T20:54:38.888899Z'
+        state: complete
+      quay: []
+      rehearsal:
+      - link: https://quay.io/anmrasto/aci-containers-operator:0.0.20261124.1.a378a7d.z
+        sha: 3967849e1f273a7df77530a28b789fb4fb407859b3c98d97a589360016333b7f
+        tag: 0.0.20261124.1.a378a7d.z
+      - link: https://quay.io/anmrasto/aci-containers-operator:0.0.20261124.1.a378a7d
+        sha: 3967849e1f273a7df77530a28b789fb4fb407859b3c98d97a589360016333b7f
+        tag: 0.0.20261124.1.a378a7d
+      - link: https://quay.io/anmrasto/aci-containers-operator:0.0.20261124.1.a378a7d.112426.1
+        sha: 3967849e1f273a7df77530a28b789fb4fb407859b3c98d97a589360016333b7f
+        tag: 0.0.20261124.1.a378a7d.112426.1
+      - link: https://quay.io/anmrasto/aci-containers-operator:0.0.20261124.1.a378a7d.rc1
+        sha: 3967849e1f273a7df77530a28b789fb4fb407859b3c98d97a589360016333b7f
+        tag: 0.0.20261124.1.a378a7d.rc1
+      sbom: release_artifacts/0.0.20261124.1/z/aci-containers-operator/0.0.20261124.1-sbom.txt
+      scan:
+        build:
+          base:
+            base_repository_digest: sha256:6636b79fba9e5044360366f189333c30b5ce528efd92c40c68b074592b971fcd
+            counts:
+              C: 0
+              H: 10
+              L: 267
+              M: 197
+              U: 1
+            digest: sha256:87bce12a84504e55bbfedcb10a1a74db75cd77f6c6a2d13da3f9cf761c726c45
+            freshness:
+              state: unknown
+            last_success:
+              counts:
+                C: 0
+                H: 10
+                L: 267
+                M: 197
+                U: 1
+              digest: sha256:87bce12a84504e55bbfedcb10a1a74db75cd77f6c6a2d13da3f9cf761c726c45
+              observed_at: '2026-11-24T20:54:31.468364Z'
+              report: release_artifacts/0.0.20261124.1/z/aci-containers-operator/scans/45482059563-1/cve-base.txt
+              scanner: grype@0.121.3
+            observed_at: '2026-11-24T20:54:31.468364Z'
+            provenance:
+              captured_before_build: true
+              digest: sha256:6636b79fba9e5044360366f189333c30b5ce528efd92c40c68b074592b971fcd
+              dockerfile: docker/travis/Dockerfile-operator
+              image_id: sha256:87bce12a84504e55bbfedcb10a1a74db75cd77f6c6a2d13da3f9cf761c726c45
+              observed_at: '2026-11-24T20:34:24.616256Z'
+              reference: registry.access.redhat.com/ubi9/ubi:latest
+              state: ok
+            report: release_artifacts/0.0.20261124.1/z/aci-containers-operator/scans/45482059563-1/cve-base.txt
+            scanner: grype@0.121.3
+            state: ok
+          image:
+            counts:
+              C: 1
+              H: 14
+              L: 268
+              M: 198
+              U: 1
+            digest: sha256:899b6e87a6e0efdc533facd4d446a924350cddb0b0a7381c55c5fc5eb125806d
+            freshness:
+              state: unknown
+            last_success:
+              counts:
+                C: 1
+                H: 14
+                L: 268
+                M: 198
+                U: 1
+              digest: sha256:899b6e87a6e0efdc533facd4d446a924350cddb0b0a7381c55c5fc5eb125806d
+              observed_at: '2026-11-24T20:54:26.055453Z'
+              report: release_artifacts/0.0.20261124.1/z/aci-containers-operator/scans/45482059563-1/cve.txt
+              scanner: grype@0.121.3
+            observed_at: '2026-11-24T20:54:26.055453Z'
+            report: release_artifacts/0.0.20261124.1/z/aci-containers-operator/scans/45482059563-1/cve.txt
+            scanner: grype@0.121.3
+            state: ok
+      scan-tools:
+        image_id: sha256:899b6e87a6e0efdc533facd4d446a924350cddb0b0a7381c55c5fc5eb125806d
+        sbom:
+          digest: sha256:899b6e87a6e0efdc533facd4d446a924350cddb0b0a7381c55c5fc5eb125806d
+          scanner: syft@1.57.1
+          state: ok
+        trivy:
+          counts:
+            C: 0
+            H: 10
+            L: 272
+            M: 208
+            U: 0
+          digest: sha256:899b6e87a6e0efdc533facd4d446a924350cddb0b0a7381c55c5fc5eb125806d
+          freshness:
+            state: unknown
+          last_success:
+            counts:
+              C: 0
+              H: 10
+              L: 272
+              M: 208
+              U: 0
+            digest: sha256:899b6e87a6e0efdc533facd4d446a924350cddb0b0a7381c55c5fc5eb125806d
+            observed_at: '2026-11-24T20:54:38.881127Z'
+            report: trivy.json
+            scanner: trivy@0.76.2
+          observed_at: '2026-11-24T20:54:38.881127Z'
+          report: trivy.json
+          scanner: trivy@0.76.2
+          state: ok
+      severity:
+      - C: 1
+        H: 14
+        L: 268
+        M: 198
+        U: 1
+      severity_type: grype
+    - base-image:
+      - cve: release_artifacts/0.0.20261124.1/z/openvswitch/0.0.20261124.1-cve-base.txt
+        severity:
+        - C: 0
+          H: 7
+          L: 85
+          M: 80
+          U: 0
+        sha: 08d4c70f1baf6537a0728656cf7942d561e74a35916509d205b6519861266352
+      build-logs: release_artifacts/0.0.20261124.1/z/openvswitch/0.0.20261124.1-buildlog.txt
+      build-time: 2026-11-24 12:56:47 PST
+      commit:
+      - link: https://github.com/anmol372/aci-containers/commit/08ece72cb20d4f6ca80bc5c99ce21eaf13b18ac9
+        sha: 08ece72cb20d4f6ca80bc5c99ce21eaf13b18ac9
+      cve: release_artifacts/0.0.20261124.1/z/openvswitch/0.0.20261124.1-cve.txt
+      docker: []
+      name: openvswitch
+      publication:
+        alias_policy: aliases-last
+        attempts:
+        - command:
+          - docker
+          - push
+          finished_at: '2026-11-24T20:55:16.789218Z'
+          phase: push
+          reference: quay.io/anmrasto/openvswitch:0.0.20261124.1.a378a7d
+          started_at: '2026-11-24T20:55:10.494972Z'
+          state: ok
+        - command:
+          - docker
+          - pull
+          finished_at: '2026-11-24T20:55:17.161515Z'
+          phase: verify-pull
+          reference: quay.io/anmrasto/openvswitch:0.0.20261124.1.a378a7d
+          started_at: '2026-11-24T20:55:16.882532Z'
+          state: ok
+        - command:
+          - docker
+          - image
+          finished_at: '2026-11-24T20:55:17.180324Z'
+          phase: verify-digest
+          reference: quay.io/anmrasto/openvswitch:0.0.20261124.1.a378a7d
+          started_at: '2026-11-24T20:55:17.162548Z'
+          state: ok
+        - command:
+          - docker
+          - image
+          finished_at: '2026-11-24T20:55:17.198626Z'
+          phase: verify-image-id
+          reference: quay.io/anmrasto/openvswitch:0.0.20261124.1.a378a7d
+          started_at: '2026-11-24T20:55:17.180784Z'
+          state: ok
+        - command:
+          - docker
+          - tag
+          finished_at: '2026-11-24T20:55:17.279635Z'
+          phase: tag
+          reference: quay.io/anmrasto/openvswitch:0.0.20261124.1.a378a7d.112426.1
+          started_at: '2026-11-24T20:55:17.259846Z'
+          state: ok
+        - command:
+          - docker
+          - push
+          finished_at: '2026-11-24T20:55:17.680724Z'
+          phase: push
+          reference: quay.io/anmrasto/openvswitch:0.0.20261124.1.a378a7d.112426.1
+          started_at: '2026-11-24T20:55:17.280002Z'
+          state: ok
+        - command:
+          - docker
+          - pull
+          finished_at: '2026-11-24T20:55:17.821740Z'
+          phase: verify-pull
+          reference: quay.io/anmrasto/openvswitch:0.0.20261124.1.a378a7d.112426.1
+          started_at: '2026-11-24T20:55:17.765198Z'
+          state: ok
+        - command:
+          - docker
+          - image
+          finished_at: '2026-11-24T20:55:17.841740Z'
+          phase: verify-digest
+          reference: quay.io/anmrasto/openvswitch:0.0.20261124.1.a378a7d.112426.1
+          started_at: '2026-11-24T20:55:17.822237Z'
+          state: ok
+        - command:
+          - docker
+          - image
+          finished_at: '2026-11-24T20:55:17.860538Z'
+          phase: verify-image-id
+          reference: quay.io/anmrasto/openvswitch:0.0.20261124.1.a378a7d.112426.1
+          started_at: '2026-11-24T20:55:17.842213Z'
+          state: ok
+        - command:
+          - docker
+          - tag
+          finished_at: '2026-11-24T20:55:17.929842Z'
+          phase: tag
+          reference: quay.io/anmrasto/openvswitch:0.0.20261124.1.a378a7d.rc1
+          started_at: '2026-11-24T20:55:17.910414Z'
+          state: ok
+        - command:
+          - docker
+          - push
+          finished_at: '2026-11-24T20:55:18.371663Z'
+          phase: push
+          reference: quay.io/anmrasto/openvswitch:0.0.20261124.1.a378a7d.rc1
+          started_at: '2026-11-24T20:55:17.930306Z'
+          state: ok
+        - command:
+          - docker
+          - pull
+          finished_at: '2026-11-24T20:55:18.504944Z'
+          phase: verify-pull
+          reference: quay.io/anmrasto/openvswitch:0.0.20261124.1.a378a7d.rc1
+          started_at: '2026-11-24T20:55:18.452669Z'
+          state: ok
+        - command:
+          - docker
+          - image
+          finished_at: '2026-11-24T20:55:18.523256Z'
+          phase: verify-digest
+          reference: quay.io/anmrasto/openvswitch:0.0.20261124.1.a378a7d.rc1
+          started_at: '2026-11-24T20:55:18.505495Z'
+          state: ok
+        - command:
+          - docker
+          - image
+          finished_at: '2026-11-24T20:55:18.541757Z'
+          phase: verify-image-id
+          reference: quay.io/anmrasto/openvswitch:0.0.20261124.1.a378a7d.rc1
+          started_at: '2026-11-24T20:55:18.523784Z'
+          state: ok
+        - command:
+          - docker
+          - tag
+          finished_at: '2026-11-24T20:55:18.614864Z'
+          phase: tag
+          reference: quay.io/anmrasto/openvswitch:0.0.20261124.1.a378a7d.z
+          started_at: '2026-11-24T20:55:18.592903Z'
+          state: ok
+        - command:
+          - docker
+          - push
+          finished_at: '2026-11-24T20:55:19.000864Z'
+          phase: push
+          reference: quay.io/anmrasto/openvswitch:0.0.20261124.1.a378a7d.z
+          started_at: '2026-11-24T20:55:18.615429Z'
+          state: ok
+        - command:
+          - docker
+          - pull
+          finished_at: '2026-11-24T20:55:19.140779Z'
+          phase: verify-pull
+          reference: quay.io/anmrasto/openvswitch:0.0.20261124.1.a378a7d.z
+          started_at: '2026-11-24T20:55:19.082307Z'
+          state: ok
+        - command:
+          - docker
+          - image
+          finished_at: '2026-11-24T20:55:19.160385Z'
+          phase: verify-digest
+          reference: quay.io/anmrasto/openvswitch:0.0.20261124.1.a378a7d.z
+          started_at: '2026-11-24T20:55:19.141425Z'
+          state: ok
+        - command:
+          - docker
+          - image
+          finished_at: '2026-11-24T20:55:19.180370Z'
+          phase: verify-image-id
+          reference: quay.io/anmrasto/openvswitch:0.0.20261124.1.a378a7d.z
+          started_at: '2026-11-24T20:55:19.161128Z'
+          state: ok
+        critical_failure: null
+        finished_at: '2026-11-24T20:55:19.181682Z'
+        image: openvswitch
+        image_id: sha256:8e541b8502c09e534e9585df8ec474b01b04ace57855a41229c7aab64830b394
+        references:
+        - digest: sha256:e22e3b0557605c25f637bf541e63acc25086955458791f9edd5382d9fd874295
+          expires_at: 1795575316
+          image_id: sha256:8e541b8502c09e534e9585df8ec474b01b04ace57855a41229c7aab64830b394
+          reference: quay.io/anmrasto/openvswitch:0.0.20261124.1.a378a7d
+          registry: rehearsal
+          reused: false
+          tag: 0.0.20261124.1.a378a7d
+          verified_at: '2026-11-24T20:55:17.199011Z'
+        - digest: sha256:e22e3b0557605c25f637bf541e63acc25086955458791f9edd5382d9fd874295
+          expires_at: 1795575317
+          image_id: sha256:8e541b8502c09e534e9585df8ec474b01b04ace57855a41229c7aab64830b394
+          reference: quay.io/anmrasto/openvswitch:0.0.20261124.1.a378a7d.112426.1
+          registry: rehearsal
+          reused: false
+          tag: 0.0.20261124.1.a378a7d.112426.1
+          verified_at: '2026-11-24T20:55:17.860985Z'
+        - digest: sha256:e22e3b0557605c25f637bf541e63acc25086955458791f9edd5382d9fd874295
+          expires_at: 1795575318
+          image_id: sha256:8e541b8502c09e534e9585df8ec474b01b04ace57855a41229c7aab64830b394
+          reference: quay.io/anmrasto/openvswitch:0.0.20261124.1.a378a7d.rc1
+          registry: rehearsal
+          reused: false
+          tag: 0.0.20261124.1.a378a7d.rc1
+          verified_at: '2026-11-24T20:55:18.542211Z'
+        - digest: sha256:e22e3b0557605c25f637bf541e63acc25086955458791f9edd5382d9fd874295
+          expires_at: 1795575318
+          image_id: sha256:8e541b8502c09e534e9585df8ec474b01b04ace57855a41229c7aab64830b394
+          reference: quay.io/anmrasto/openvswitch:0.0.20261124.1.a378a7d.z
+          registry: rehearsal
+          reused: false
+          tag: 0.0.20261124.1.a378a7d.z
+          verified_at: '2026-11-24T20:55:19.181159Z'
+        scan_policy: advisory
+        schema_version: 1
+        started_at: '2026-11-24T20:55:10.362026Z'
+        state: complete
+      quay: []
+      rehearsal:
+      - link: https://quay.io/anmrasto/openvswitch:0.0.20261124.1.a378a7d.z
+        sha: e22e3b0557605c25f637bf541e63acc25086955458791f9edd5382d9fd874295
+        tag: 0.0.20261124.1.a378a7d.z
+      - link: https://quay.io/anmrasto/openvswitch:0.0.20261124.1.a378a7d
+        sha: e22e3b0557605c25f637bf541e63acc25086955458791f9edd5382d9fd874295
+        tag: 0.0.20261124.1.a378a7d
+      - link: https://quay.io/anmrasto/openvswitch:0.0.20261124.1.a378a7d.112426.1
+        sha: e22e3b0557605c25f637bf541e63acc25086955458791f9edd5382d9fd874295
+        tag: 0.0.20261124.1.a378a7d.112426.1
+      - link: https://quay.io/anmrasto/openvswitch:0.0.20261124.1.a378a7d.rc1
+        sha: e22e3b0557605c25f637bf541e63acc25086955458791f9edd5382d9fd874295
+        tag: 0.0.20261124.1.a378a7d.rc1
+      sbom: release_artifacts/0.0.20261124.1/z/openvswitch/0.0.20261124.1-sbom.txt
+      scan:
+        build:
+          base:
+            base_repository_digest: sha256:08d4c70f1baf6537a0728656cf7942d561e74a35916509d205b6519861266352
+            counts:
+              C: 0
+              H: 7
+              L: 85
+              M: 80
+              U: 0
+            digest: sha256:4a9db16985440874fa412568a0d5c0801e8fafad866e11ddd71081de3886e12d
+            freshness:
+              state: unknown
+            last_success:
+              counts:
+                C: 0
+                H: 7
+                L: 85
+                M: 80
+                U: 0
+              digest: sha256:4a9db16985440874fa412568a0d5c0801e8fafad866e11ddd71081de3886e12d
+              observed_at: '2026-11-24T20:55:00.231880Z'
+              report: release_artifacts/0.0.20261124.1/z/openvswitch/scans/45482059563-1/cve-base.txt
+              scanner: grype@0.121.3
+            observed_at: '2026-11-24T20:55:00.231880Z'
+            provenance:
+              captured_before_build: true
+              digest: sha256:08d4c70f1baf6537a0728656cf7942d561e74a35916509d205b6519861266352
+              dockerfile: docker/travis/Dockerfile-openvswitch
+              image_id: sha256:4a9db16985440874fa412568a0d5c0801e8fafad866e11ddd71081de3886e12d
+              observed_at: '2026-11-24T20:34:24.721652Z'
+              reference: registry.access.redhat.com/ubi9/ubi-minimal:latest
+              state: ok
+            report: release_artifacts/0.0.20261124.1/z/openvswitch/scans/45482059563-1/cve-base.txt
+            scanner: grype@0.121.3
+            state: ok
+          image:
+            counts:
+              C: 0
+              H: 10
+              L: 249
+              M: 223
+              U: 0
+            digest: sha256:8e541b8502c09e534e9585df8ec474b01b04ace57855a41229c7aab64830b394
+            freshness:
+              state: unknown
+            last_success:
+              counts:
+                C: 0
+                H: 10
+                L: 249
+                M: 223
+                U: 0
+              digest: sha256:8e541b8502c09e534e9585df8ec474b01b04ace57855a41229c7aab64830b394
+              observed_at: '2026-11-24T20:54:57.241528Z'
+              report: release_artifacts/0.0.20261124.1/z/openvswitch/scans/45482059563-1/cve.txt
+              scanner: grype@0.121.3
+            observed_at: '2026-11-24T20:54:57.241528Z'
+            report: release_artifacts/0.0.20261124.1/z/openvswitch/scans/45482059563-1/cve.txt
+            scanner: grype@0.121.3
+            state: ok
+      scan-tools:
+        image_id: sha256:8e541b8502c09e534e9585df8ec474b01b04ace57855a41229c7aab64830b394
+        sbom:
+          digest: sha256:8e541b8502c09e534e9585df8ec474b01b04ace57855a41229c7aab64830b394
+          scanner: syft@1.57.1
+          state: ok
+        trivy:
+          counts:
+            C: 0
+            H: 8
+            L: 254
+            M: 221
+            U: 0
+          digest: sha256:8e541b8502c09e534e9585df8ec474b01b04ace57855a41229c7aab64830b394
+          freshness:
+            state: unknown
+          last_success:
+            counts:
+              C: 0
+              H: 8
+              L: 254
+              M: 221
+              U: 0
+            digest: sha256:8e541b8502c09e534e9585df8ec474b01b04ace57855a41229c7aab64830b394
+            observed_at: '2026-11-24T20:55:10.355824Z'
+            report: trivy.json
+            scanner: trivy@0.76.2
+          observed_at: '2026-11-24T20:55:10.355824Z'
+          report: trivy.json
+          scanner: trivy@0.76.2
+          state: ok
+      severity:
+      - C: 0
+        H: 10
+        L: 249
+        M: 223
+        U: 0
+      severity_type: grype
+    - base-image:
+      - cve: release_artifacts/0.0.20261124.1/z/aci-containers-webhook/0.0.20261124.1-cve-base.txt
+        severity:
+        - C: 0
+          H: 10
+          L: 267
+          M: 197
+          U: 1
+        sha: 6636b79fba9e5044360366f189333c30b5ce528efd92c40c68b074592b971fcd
+      build-logs: release_artifacts/0.0.20261124.1/z/aci-containers-webhook/0.0.20261124.1-buildlog.txt
+      build-time: 2026-11-24 12:56:47 PST
+      commit:
+      - link: https://github.com/anmol372/aci-containers/commit/08ece72cb20d4f6ca80bc5c99ce21eaf13b18ac9
+        sha: 08ece72cb20d4f6ca80bc5c99ce21eaf13b18ac9
+      cve: release_artifacts/0.0.20261124.1/z/aci-containers-webhook/0.0.20261124.1-cve.txt
+      docker: []
+      name: aci-containers-webhook
+      publication:
+        alias_policy: aliases-last
+        attempts:
+        - command:
+          - docker
+          - push
+          finished_at: '2026-11-24T20:55:43.951254Z'
+          phase: push
+          reference: quay.io/anmrasto/aci-containers-webhook:0.0.20261124.1.a378a7d
+          started_at: '2026-11-24T20:55:38.290700Z'
+          state: ok
+        - command:
+          - docker
+          - pull
+          finished_at: '2026-11-24T20:55:44.369697Z'
+          phase: verify-pull
+          reference: quay.io/anmrasto/aci-containers-webhook:0.0.20261124.1.a378a7d
+          started_at: '2026-11-24T20:55:44.010043Z'
+          state: ok
+        - command:
+          - docker
+          - image
+          finished_at: '2026-11-24T20:55:44.389002Z'
+          phase: verify-digest
+          reference: quay.io/anmrasto/aci-containers-webhook:0.0.20261124.1.a378a7d
+          started_at: '2026-11-24T20:55:44.370183Z'
+          state: ok
+        - command:
+          - docker
+          - image
+          finished_at: '2026-11-24T20:55:44.407962Z'
+          phase: verify-image-id
+          reference: quay.io/anmrasto/aci-containers-webhook:0.0.20261124.1.a378a7d
+          started_at: '2026-11-24T20:55:44.389481Z'
+          state: ok
+        - command:
+          - docker
+          - tag
+          finished_at: '2026-11-24T20:55:44.519220Z'
+          phase: tag
+          reference: quay.io/anmrasto/aci-containers-webhook:0.0.20261124.1.a378a7d.112426.1
+          started_at: '2026-11-24T20:55:44.500108Z'
+          state: ok
+        - command:
+          - docker
+          - push
+          finished_at: '2026-11-24T20:55:44.929837Z'
+          phase: push
+          reference: quay.io/anmrasto/aci-containers-webhook:0.0.20261124.1.a378a7d.112426.1
+          started_at: '2026-11-24T20:55:44.519634Z'
+          state: ok
+        - command:
+          - docker
+          - pull
+          finished_at: '2026-11-24T20:55:45.038586Z'
+          phase: verify-pull
+          reference: quay.io/anmrasto/aci-containers-webhook:0.0.20261124.1.a378a7d.112426.1
+          started_at: '2026-11-24T20:55:44.988196Z'
+          state: ok
+        - command:
+          - docker
+          - image
+          finished_at: '2026-11-24T20:55:45.056063Z'
+          phase: verify-digest
+          reference: quay.io/anmrasto/aci-containers-webhook:0.0.20261124.1.a378a7d.112426.1
+          started_at: '2026-11-24T20:55:45.039025Z'
+          state: ok
+        - command:
+          - docker
+          - image
+          finished_at: '2026-11-24T20:55:45.074429Z'
+          phase: verify-image-id
+          reference: quay.io/anmrasto/aci-containers-webhook:0.0.20261124.1.a378a7d.112426.1
+          started_at: '2026-11-24T20:55:45.056537Z'
+          state: ok
+        - command:
+          - docker
+          - tag
+          finished_at: '2026-11-24T20:55:45.151022Z'
+          phase: tag
+          reference: quay.io/anmrasto/aci-containers-webhook:0.0.20261124.1.a378a7d.rc1
+          started_at: '2026-11-24T20:55:45.129154Z'
+          state: ok
+        - command:
+          - docker
+          - push
+          finished_at: '2026-11-24T20:55:45.561405Z'
+          phase: push
+          reference: quay.io/anmrasto/aci-containers-webhook:0.0.20261124.1.a378a7d.rc1
+          started_at: '2026-11-24T20:55:45.151551Z'
+          state: ok
+        - command:
+          - docker
+          - pull
+          finished_at: '2026-11-24T20:55:45.698917Z'
+          phase: verify-pull
+          reference: quay.io/anmrasto/aci-containers-webhook:0.0.20261124.1.a378a7d.rc1
+          started_at: '2026-11-24T20:55:45.647652Z'
+          state: ok
+        - command:
+          - docker
+          - image
+          finished_at: '2026-11-24T20:55:45.718035Z'
+          phase: verify-digest
+          reference: quay.io/anmrasto/aci-containers-webhook:0.0.20261124.1.a378a7d.rc1
+          started_at: '2026-11-24T20:55:45.699560Z'
+          state: ok
+        - command:
+          - docker
+          - image
+          finished_at: '2026-11-24T20:55:45.736066Z'
+          phase: verify-image-id
+          reference: quay.io/anmrasto/aci-containers-webhook:0.0.20261124.1.a378a7d.rc1
+          started_at: '2026-11-24T20:55:45.718632Z'
+          state: ok
+        - command:
+          - docker
+          - tag
+          finished_at: '2026-11-24T20:55:45.813068Z'
+          phase: tag
+          reference: quay.io/anmrasto/aci-containers-webhook:0.0.20261124.1.a378a7d.z
+          started_at: '2026-11-24T20:55:45.793319Z'
+          state: ok
+        - command:
+          - docker
+          - push
+          finished_at: '2026-11-24T20:55:46.205001Z'
+          phase: push
+          reference: quay.io/anmrasto/aci-containers-webhook:0.0.20261124.1.a378a7d.z
+          started_at: '2026-11-24T20:55:45.813631Z'
+          state: ok
+        - command:
+          - docker
+          - pull
+          finished_at: '2026-11-24T20:55:46.338637Z'
+          phase: verify-pull
+          reference: quay.io/anmrasto/aci-containers-webhook:0.0.20261124.1.a378a7d.z
+          started_at: '2026-11-24T20:55:46.280056Z'
+          state: ok
+        - command:
+          - docker
+          - image
+          finished_at: '2026-11-24T20:55:46.358630Z'
+          phase: verify-digest
+          reference: quay.io/anmrasto/aci-containers-webhook:0.0.20261124.1.a378a7d.z
+          started_at: '2026-11-24T20:55:46.339256Z'
+          state: ok
+        - command:
+          - docker
+          - image
+          finished_at: '2026-11-24T20:55:46.378042Z'
+          phase: verify-image-id
+          reference: quay.io/anmrasto/aci-containers-webhook:0.0.20261124.1.a378a7d.z
+          started_at: '2026-11-24T20:55:46.359244Z'
+          state: ok
+        critical_failure: null
+        finished_at: '2026-11-24T20:55:46.379369Z'
+        image: aci-containers-webhook
+        image_id: sha256:f89eb8b146c8e716ac1b0cb4a18f57dbe99588de1f9fe22d7de94f0e68ec2ece
+        references:
+        - digest: sha256:b924c536fa9c14d81f0bf8aec5c8c3bcc426efe3f8ca90595436ee63b967fc3d
+          expires_at: 1795575343
+          image_id: sha256:f89eb8b146c8e716ac1b0cb4a18f57dbe99588de1f9fe22d7de94f0e68ec2ece
+          reference: quay.io/anmrasto/aci-containers-webhook:0.0.20261124.1.a378a7d
+          registry: rehearsal
+          reused: false
+          tag: 0.0.20261124.1.a378a7d
+          verified_at: '2026-11-24T20:55:44.408443Z'
+        - digest: sha256:b924c536fa9c14d81f0bf8aec5c8c3bcc426efe3f8ca90595436ee63b967fc3d
+          expires_at: 1795575344
+          image_id: sha256:f89eb8b146c8e716ac1b0cb4a18f57dbe99588de1f9fe22d7de94f0e68ec2ece
+          reference: quay.io/anmrasto/aci-containers-webhook:0.0.20261124.1.a378a7d.112426.1
+          registry: rehearsal
+          reused: false
+          tag: 0.0.20261124.1.a378a7d.112426.1
+          verified_at: '2026-11-24T20:55:45.074842Z'
+        - digest: sha256:b924c536fa9c14d81f0bf8aec5c8c3bcc426efe3f8ca90595436ee63b967fc3d
+          expires_at: 1795575345
+          image_id: sha256:f89eb8b146c8e716ac1b0cb4a18f57dbe99588de1f9fe22d7de94f0e68ec2ece
+          reference: quay.io/anmrasto/aci-containers-webhook:0.0.20261124.1.a378a7d.rc1
+          registry: rehearsal
+          reused: false
+          tag: 0.0.20261124.1.a378a7d.rc1
+          verified_at: '2026-11-24T20:55:45.736648Z'
+        - digest: sha256:b924c536fa9c14d81f0bf8aec5c8c3bcc426efe3f8ca90595436ee63b967fc3d
+          expires_at: 1795575346
+          image_id: sha256:f89eb8b146c8e716ac1b0cb4a18f57dbe99588de1f9fe22d7de94f0e68ec2ece
+          reference: quay.io/anmrasto/aci-containers-webhook:0.0.20261124.1.a378a7d.z
+          registry: rehearsal
+          reused: false
+          tag: 0.0.20261124.1.a378a7d.z
+          verified_at: '2026-11-24T20:55:46.378833Z'
+        scan_policy: advisory
+        schema_version: 1
+        started_at: '2026-11-24T20:55:38.242025Z'
+        state: complete
+      quay: []
+      rehearsal:
+      - link: https://quay.io/anmrasto/aci-containers-webhook:0.0.20261124.1.a378a7d.z
+        sha: b924c536fa9c14d81f0bf8aec5c8c3bcc426efe3f8ca90595436ee63b967fc3d
+        tag: 0.0.20261124.1.a378a7d.z
+      - link: https://quay.io/anmrasto/aci-containers-webhook:0.0.20261124.1.a378a7d
+        sha: b924c536fa9c14d81f0bf8aec5c8c3bcc426efe3f8ca90595436ee63b967fc3d
+        tag: 0.0.20261124.1.a378a7d
+      - link: https://quay.io/anmrasto/aci-containers-webhook:0.0.20261124.1.a378a7d.112426.1
+        sha: b924c536fa9c14d81f0bf8aec5c8c3bcc426efe3f8ca90595436ee63b967fc3d
+        tag: 0.0.20261124.1.a378a7d.112426.1
+      - link: https://quay.io/anmrasto/aci-containers-webhook:0.0.20261124.1.a378a7d.rc1
+        sha: b924c536fa9c14d81f0bf8aec5c8c3bcc426efe3f8ca90595436ee63b967fc3d
+        tag: 0.0.20261124.1.a378a7d.rc1
+      sbom: release_artifacts/0.0.20261124.1/z/aci-containers-webhook/0.0.20261124.1-sbom.txt
+      scan:
+        build:
+          base:
+            base_repository_digest: sha256:6636b79fba9e5044360366f189333c30b5ce528efd92c40c68b074592b971fcd
+            counts:
+              C: 0
+              H: 10
+              L: 267
+              M: 197
+              U: 1
+            digest: sha256:87bce12a84504e55bbfedcb10a1a74db75cd77f6c6a2d13da3f9cf761c726c45
+            freshness:
+              state: unknown
+            last_success:
+              counts:
+                C: 0
+                H: 10
+                L: 267
+                M: 197
+                U: 1
+              digest: sha256:87bce12a84504e55bbfedcb10a1a74db75cd77f6c6a2d13da3f9cf761c726c45
+              observed_at: '2026-11-24T20:55:30.852934Z'
+              report: release_artifacts/0.0.20261124.1/z/aci-containers-webhook/scans/45482059563-1/cve-base.txt
+              scanner: grype@0.121.3
+            observed_at: '2026-11-24T20:55:30.852934Z'
+            provenance:
+              captured_before_build: true
+              digest: sha256:6636b79fba9e5044360366f189333c30b5ce528efd92c40c68b074592b971fcd
+              dockerfile: docker/travis/Dockerfile-webhook
+              image_id: sha256:87bce12a84504e55bbfedcb10a1a74db75cd77f6c6a2d13da3f9cf761c726c45
+              observed_at: '2026-11-24T20:34:24.827814Z'
+              reference: registry.access.redhat.com/ubi9/ubi:latest
+              state: ok
+            report: release_artifacts/0.0.20261124.1/z/aci-containers-webhook/scans/45482059563-1/cve-base.txt
+            scanner: grype@0.121.3
+            state: ok
+          image:
+            counts:
+              C: 1
+              H: 14
+              L: 267
+              M: 198
+              U: 1
+            digest: sha256:f89eb8b146c8e716ac1b0cb4a18f57dbe99588de1f9fe22d7de94f0e68ec2ece
+            freshness:
+              state: unknown
+            last_success:
+              counts:
+                C: 1
+                H: 14
+                L: 267
+                M: 198
+                U: 1
+              digest: sha256:f89eb8b146c8e716ac1b0cb4a18f57dbe99588de1f9fe22d7de94f0e68ec2ece
+              observed_at: '2026-11-24T20:55:25.516465Z'
+              report: release_artifacts/0.0.20261124.1/z/aci-containers-webhook/scans/45482059563-1/cve.txt
+              scanner: grype@0.121.3
+            observed_at: '2026-11-24T20:55:25.516465Z'
+            report: release_artifacts/0.0.20261124.1/z/aci-containers-webhook/scans/45482059563-1/cve.txt
+            scanner: grype@0.121.3
+            state: ok
+      scan-tools:
+        image_id: sha256:f89eb8b146c8e716ac1b0cb4a18f57dbe99588de1f9fe22d7de94f0e68ec2ece
+        sbom:
+          digest: sha256:f89eb8b146c8e716ac1b0cb4a18f57dbe99588de1f9fe22d7de94f0e68ec2ece
+          scanner: syft@1.57.1
+          state: ok
+        trivy:
+          counts:
+            C: 0
+            H: 10
+            L: 272
+            M: 208
+            U: 0
+          digest: sha256:f89eb8b146c8e716ac1b0cb4a18f57dbe99588de1f9fe22d7de94f0e68ec2ece
+          freshness:
+            state: unknown
+          last_success:
+            counts:
+              C: 0
+              H: 10
+              L: 272
+              M: 208
+              U: 0
+            digest: sha256:f89eb8b146c8e716ac1b0cb4a18f57dbe99588de1f9fe22d7de94f0e68ec2ece
+            observed_at: '2026-11-24T20:55:38.234184Z'
+            report: trivy.json
+            scanner: trivy@0.76.2
+          observed_at: '2026-11-24T20:55:38.234184Z'
+          report: trivy.json
+          scanner: trivy@0.76.2
+          state: ok
+      severity:
+      - C: 1
+        H: 14
+        L: 267
+        M: 198
+        U: 1
+      severity_type: grype
+    - base-image:
+      - cve: release_artifacts/0.0.20261124.1/z/aci-containers-certmanager/0.0.20261124.1-cve-base.txt
+        severity:
+        - C: 0
+          H: 10
+          L: 267
+          M: 197
+          U: 1
+        sha: 6636b79fba9e5044360366f189333c30b5ce528efd92c40c68b074592b971fcd
+      build-logs: release_artifacts/0.0.20261124.1/z/aci-containers-certmanager/0.0.20261124.1-buildlog.txt
+      build-time: 2026-11-24 12:56:47 PST
+      commit:
+      - link: https://github.com/anmol372/aci-containers/commit/08ece72cb20d4f6ca80bc5c99ce21eaf13b18ac9
+        sha: 08ece72cb20d4f6ca80bc5c99ce21eaf13b18ac9
+      cve: release_artifacts/0.0.20261124.1/z/aci-containers-certmanager/0.0.20261124.1-cve.txt
+      docker: []
+      name: aci-containers-certmanager
+      publication:
+        alias_policy: aliases-last
+        attempts:
+        - command:
+          - docker
+          - push
+          finished_at: '2026-11-24T20:56:11.064592Z'
+          phase: push
+          reference: quay.io/anmrasto/aci-containers-certmanager:0.0.20261124.1.a378a7d
+          started_at: '2026-11-24T20:56:05.669638Z'
+          state: ok
+        - command:
+          - docker
+          - pull
+          finished_at: '2026-11-24T20:56:11.354211Z'
+          phase: verify-pull
+          reference: quay.io/anmrasto/aci-containers-certmanager:0.0.20261124.1.a378a7d
+          started_at: '2026-11-24T20:56:11.120010Z'
+          state: ok
+        - command:
+          - docker
+          - image
+          finished_at: '2026-11-24T20:56:11.373531Z'
+          phase: verify-digest
+          reference: quay.io/anmrasto/aci-containers-certmanager:0.0.20261124.1.a378a7d
+          started_at: '2026-11-24T20:56:11.354743Z'
+          state: ok
+        - command:
+          - docker
+          - image
+          finished_at: '2026-11-24T20:56:11.392438Z'
+          phase: verify-image-id
+          reference: quay.io/anmrasto/aci-containers-certmanager:0.0.20261124.1.a378a7d
+          started_at: '2026-11-24T20:56:11.373959Z'
+          state: ok
+        - command:
+          - docker
+          - tag
+          finished_at: '2026-11-24T20:56:11.468636Z'
+          phase: tag
+          reference: quay.io/anmrasto/aci-containers-certmanager:0.0.20261124.1.a378a7d.112426.1
+          started_at: '2026-11-24T20:56:11.449824Z'
+          state: ok
+        - command:
+          - docker
+          - push
+          finished_at: '2026-11-24T20:56:11.830419Z'
+          phase: push
+          reference: quay.io/anmrasto/aci-containers-certmanager:0.0.20261124.1.a378a7d.112426.1
+          started_at: '2026-11-24T20:56:11.469010Z'
+          state: ok
+        - command:
+          - docker
+          - pull
+          finished_at: '2026-11-24T20:56:11.956159Z'
+          phase: verify-pull
+          reference: quay.io/anmrasto/aci-containers-certmanager:0.0.20261124.1.a378a7d.112426.1
+          started_at: '2026-11-24T20:56:11.903698Z'
+          state: ok
+        - command:
+          - docker
+          - image
+          finished_at: '2026-11-24T20:56:11.974281Z'
+          phase: verify-digest
+          reference: quay.io/anmrasto/aci-containers-certmanager:0.0.20261124.1.a378a7d.112426.1
+          started_at: '2026-11-24T20:56:11.956622Z'
+          state: ok
+        - command:
+          - docker
+          - image
+          finished_at: '2026-11-24T20:56:11.992208Z'
+          phase: verify-image-id
+          reference: quay.io/anmrasto/aci-containers-certmanager:0.0.20261124.1.a378a7d.112426.1
+          started_at: '2026-11-24T20:56:11.974760Z'
+          state: ok
+        - command:
+          - docker
+          - tag
+          finished_at: '2026-11-24T20:56:12.156759Z'
+          phase: tag
+          reference: quay.io/anmrasto/aci-containers-certmanager:0.0.20261124.1.a378a7d.rc1
+          started_at: '2026-11-24T20:56:12.138712Z'
+          state: ok
+        - command:
+          - docker
+          - push
+          finished_at: '2026-11-24T20:56:12.542368Z'
+          phase: push
+          reference: quay.io/anmrasto/aci-containers-certmanager:0.0.20261124.1.a378a7d.rc1
+          started_at: '2026-11-24T20:56:12.157349Z'
+          state: ok
+        - command:
+          - docker
+          - pull
+          finished_at: '2026-11-24T20:56:12.776299Z'
+          phase: verify-pull
+          reference: quay.io/anmrasto/aci-containers-certmanager:0.0.20261124.1.a378a7d.rc1
+          started_at: '2026-11-24T20:56:12.720513Z'
+          state: ok
+        - command:
+          - docker
+          - image
+          finished_at: '2026-11-24T20:56:12.794762Z'
+          phase: verify-digest
+          reference: quay.io/anmrasto/aci-containers-certmanager:0.0.20261124.1.a378a7d.rc1
+          started_at: '2026-11-24T20:56:12.776906Z'
+          state: ok
+        - command:
+          - docker
+          - image
+          finished_at: '2026-11-24T20:56:12.858729Z'
+          phase: verify-image-id
+          reference: quay.io/anmrasto/aci-containers-certmanager:0.0.20261124.1.a378a7d.rc1
+          started_at: '2026-11-24T20:56:12.795301Z'
+          state: ok
+        - command:
+          - docker
+          - tag
+          finished_at: '2026-11-24T20:56:13.082271Z'
+          phase: tag
+          reference: quay.io/anmrasto/aci-containers-certmanager:0.0.20261124.1.a378a7d.z
+          started_at: '2026-11-24T20:56:13.063039Z'
+          state: ok
+        - command:
+          - docker
+          - push
+          finished_at: '2026-11-24T20:56:13.453952Z'
+          phase: push
+          reference: quay.io/anmrasto/aci-containers-certmanager:0.0.20261124.1.a378a7d.z
+          started_at: '2026-11-24T20:56:13.082783Z'
+          state: ok
+        - command:
+          - docker
+          - pull
+          finished_at: '2026-11-24T20:56:13.564556Z'
+          phase: verify-pull
+          reference: quay.io/anmrasto/aci-containers-certmanager:0.0.20261124.1.a378a7d.z
+          started_at: '2026-11-24T20:56:13.510883Z'
+          state: ok
+        - command:
+          - docker
+          - image
+          finished_at: '2026-11-24T20:56:13.583313Z'
+          phase: verify-digest
+          reference: quay.io/anmrasto/aci-containers-certmanager:0.0.20261124.1.a378a7d.z
+          started_at: '2026-11-24T20:56:13.565178Z'
+          state: ok
+        - command:
+          - docker
+          - image
+          finished_at: '2026-11-24T20:56:13.601885Z'
+          phase: verify-image-id
+          reference: quay.io/anmrasto/aci-containers-certmanager:0.0.20261124.1.a378a7d.z
+          started_at: '2026-11-24T20:56:13.583927Z'
+          state: ok
+        critical_failure: null
+        finished_at: '2026-11-24T20:56:13.602850Z'
+        image: aci-containers-certmanager
+        image_id: sha256:fd9f1ca99775a6383d1528a7f3ceeb9f3c6402ce6f007d01f5ac1debe71c6765
+        references:
+        - digest: sha256:99197c5ca3fd097af3fd330e1e181955ab74dcc15f37ac4e2fdf492dba68ed45
+          expires_at: 1795575370
+          image_id: sha256:fd9f1ca99775a6383d1528a7f3ceeb9f3c6402ce6f007d01f5ac1debe71c6765
+          reference: quay.io/anmrasto/aci-containers-certmanager:0.0.20261124.1.a378a7d
+          registry: rehearsal
+          reused: false
+          tag: 0.0.20261124.1.a378a7d
+          verified_at: '2026-11-24T20:56:11.392808Z'
+        - digest: sha256:99197c5ca3fd097af3fd330e1e181955ab74dcc15f37ac4e2fdf492dba68ed45
+          expires_at: 1795575371
+          image_id: sha256:fd9f1ca99775a6383d1528a7f3ceeb9f3c6402ce6f007d01f5ac1debe71c6765
+          reference: quay.io/anmrasto/aci-containers-certmanager:0.0.20261124.1.a378a7d.112426.1
+          registry: rehearsal
+          reused: false
+          tag: 0.0.20261124.1.a378a7d.112426.1
+          verified_at: '2026-11-24T20:56:11.992685Z'
+        - digest: sha256:99197c5ca3fd097af3fd330e1e181955ab74dcc15f37ac4e2fdf492dba68ed45
+          expires_at: 1795575372
+          image_id: sha256:fd9f1ca99775a6383d1528a7f3ceeb9f3c6402ce6f007d01f5ac1debe71c6765
+          reference: quay.io/anmrasto/aci-containers-certmanager:0.0.20261124.1.a378a7d.rc1
+          registry: rehearsal
+          reused: false
+          tag: 0.0.20261124.1.a378a7d.rc1
+          verified_at: '2026-11-24T20:56:12.859298Z'
+        - digest: sha256:99197c5ca3fd097af3fd330e1e181955ab74dcc15f37ac4e2fdf492dba68ed45
+          expires_at: 1795575373
+          image_id: sha256:fd9f1ca99775a6383d1528a7f3ceeb9f3c6402ce6f007d01f5ac1debe71c6765
+          reference: quay.io/anmrasto/aci-containers-certmanager:0.0.20261124.1.a378a7d.z
+          registry: rehearsal
+          reused: false
+          tag: 0.0.20261124.1.a378a7d.z
+          verified_at: '2026-11-24T20:56:13.602410Z'
+        scan_policy: advisory
+        schema_version: 1
+        started_at: '2026-11-24T20:56:05.444381Z'
+        state: complete
+      quay: []
+      rehearsal:
+      - link: https://quay.io/anmrasto/aci-containers-certmanager:0.0.20261124.1.a378a7d.z
+        sha: 99197c5ca3fd097af3fd330e1e181955ab74dcc15f37ac4e2fdf492dba68ed45
+        tag: 0.0.20261124.1.a378a7d.z
+      - link: https://quay.io/anmrasto/aci-containers-certmanager:0.0.20261124.1.a378a7d
+        sha: 99197c5ca3fd097af3fd330e1e181955ab74dcc15f37ac4e2fdf492dba68ed45
+        tag: 0.0.20261124.1.a378a7d
+      - link: https://quay.io/anmrasto/aci-containers-certmanager:0.0.20261124.1.a378a7d.112426.1
+        sha: 99197c5ca3fd097af3fd330e1e181955ab74dcc15f37ac4e2fdf492dba68ed45
+        tag: 0.0.20261124.1.a378a7d.112426.1
+      - link: https://quay.io/anmrasto/aci-containers-certmanager:0.0.20261124.1.a378a7d.rc1
+        sha: 99197c5ca3fd097af3fd330e1e181955ab74dcc15f37ac4e2fdf492dba68ed45
+        tag: 0.0.20261124.1.a378a7d.rc1
+      sbom: release_artifacts/0.0.20261124.1/z/aci-containers-certmanager/0.0.20261124.1-sbom.txt
+      scan:
+        build:
+          base:
+            base_repository_digest: sha256:6636b79fba9e5044360366f189333c30b5ce528efd92c40c68b074592b971fcd
+            counts:
+              C: 0
+              H: 10
+              L: 267
+              M: 197
+              U: 1
+            digest: sha256:87bce12a84504e55bbfedcb10a1a74db75cd77f6c6a2d13da3f9cf761c726c45
+            freshness:
+              state: unknown
+            last_success:
+              counts:
+                C: 0
+                H: 10
+                L: 267
+                M: 197
+                U: 1
+              digest: sha256:87bce12a84504e55bbfedcb10a1a74db75cd77f6c6a2d13da3f9cf761c726c45
+              observed_at: '2026-11-24T20:55:58.083247Z'
+              report: release_artifacts/0.0.20261124.1/z/aci-containers-certmanager/scans/45482059563-1/cve-base.txt
+              scanner: grype@0.121.3
+            observed_at: '2026-11-24T20:55:58.083247Z'
+            provenance:
+              captured_before_build: true
+              digest: sha256:6636b79fba9e5044360366f189333c30b5ce528efd92c40c68b074592b971fcd
+              dockerfile: docker/travis/Dockerfile-certmanager
+              image_id: sha256:87bce12a84504e55bbfedcb10a1a74db75cd77f6c6a2d13da3f9cf761c726c45
+              observed_at: '2026-11-24T20:34:24.942766Z'
+              reference: registry.access.redhat.com/ubi9/ubi:latest
+              state: ok
+            report: release_artifacts/0.0.20261124.1/z/aci-containers-certmanager/scans/45482059563-1/cve-base.txt
+            scanner: grype@0.121.3
+            state: ok
+          image:
+            counts:
+              C: 1
+              H: 14
+              L: 267
+              M: 198
+              U: 1
+            digest: sha256:fd9f1ca99775a6383d1528a7f3ceeb9f3c6402ce6f007d01f5ac1debe71c6765
+            freshness:
+              state: unknown
+            last_success:
+              counts:
+                C: 1
+                H: 14
+                L: 267
+                M: 198
+                U: 1
+              digest: sha256:fd9f1ca99775a6383d1528a7f3ceeb9f3c6402ce6f007d01f5ac1debe71c6765
+              observed_at: '2026-11-24T20:55:52.652289Z'
+              report: release_artifacts/0.0.20261124.1/z/aci-containers-certmanager/scans/45482059563-1/cve.txt
+              scanner: grype@0.121.3
+            observed_at: '2026-11-24T20:55:52.652289Z'
+            report: release_artifacts/0.0.20261124.1/z/aci-containers-certmanager/scans/45482059563-1/cve.txt
+            scanner: grype@0.121.3
+            state: ok
+      scan-tools:
+        image_id: sha256:fd9f1ca99775a6383d1528a7f3ceeb9f3c6402ce6f007d01f5ac1debe71c6765
+        sbom:
+          digest: sha256:fd9f1ca99775a6383d1528a7f3ceeb9f3c6402ce6f007d01f5ac1debe71c6765
+          scanner: syft@1.57.1
+          state: ok
+        trivy:
+          counts:
+            C: 0
+            H: 10
+            L: 272
+            M: 208
+            U: 0
+          digest: sha256:fd9f1ca99775a6383d1528a7f3ceeb9f3c6402ce6f007d01f5ac1debe71c6765
+          freshness:
+            state: unknown
+          last_success:
+            counts:
+              C: 0
+              H: 10
+              L: 272
+              M: 208
+              U: 0
+            digest: sha256:fd9f1ca99775a6383d1528a7f3ceeb9f3c6402ce6f007d01f5ac1debe71c6765
+            observed_at: '2026-11-24T20:56:05.436285Z'
+            report: trivy.json
+            scanner: trivy@0.76.2
+          observed_at: '2026-11-24T20:56:05.436285Z'
+          report: trivy.json
+          scanner: trivy@0.76.2
+          state: ok
+      severity:
+      - C: 1
+        H: 14
+        L: 267
+        M: 198
+        U: 1
+      severity_type: grype
+    - base-image:
+      - cve: release_artifacts/0.0.20261124.1/z/aci-containers-host-ovscni/0.0.20261124.1-cve-base.txt
+        severity:
+        - C: 0
+          H: 7
+          L: 85
+          M: 80
+          U: 0
+        sha: 08d4c70f1baf6537a0728656cf7942d561e74a35916509d205b6519861266352
+      build-logs: release_artifacts/0.0.20261124.1/z/aci-containers-host-ovscni/0.0.20261124.1-buildlog.txt
+      build-time: 2026-11-24 12:56:47 PST
+      commit:
+      - link: https://github.com/anmol372/aci-containers/commit/08ece72cb20d4f6ca80bc5c99ce21eaf13b18ac9
+        sha: 08ece72cb20d4f6ca80bc5c99ce21eaf13b18ac9
+      cve: release_artifacts/0.0.20261124.1/z/aci-containers-host-ovscni/0.0.20261124.1-cve.txt
+      docker: []
+      name: aci-containers-host-ovscni
+      publication:
+        alias_policy: aliases-last
+        attempts:
+        - command:
+          - docker
+          - push
+          finished_at: '2026-11-24T20:56:44.000405Z'
+          phase: push
+          reference: quay.io/anmrasto/aci-containers-host-ovscni:0.0.20261124.1.a378a7d
+          started_at: '2026-11-24T20:56:37.082866Z'
+          state: ok
+        - command:
+          - docker
+          - pull
+          finished_at: '2026-11-24T20:56:44.362154Z'
+          phase: verify-pull
+          reference: quay.io/anmrasto/aci-containers-host-ovscni:0.0.20261124.1.a378a7d
+          started_at: '2026-11-24T20:56:44.063315Z'
+          state: ok
+        - command:
+          - docker
+          - image
+          finished_at: '2026-11-24T20:56:44.381664Z'
+          phase: verify-digest
+          reference: quay.io/anmrasto/aci-containers-host-ovscni:0.0.20261124.1.a378a7d
+          started_at: '2026-11-24T20:56:44.362575Z'
+          state: ok
+        - command:
+          - docker
+          - image
+          finished_at: '2026-11-24T20:56:44.400312Z'
+          phase: verify-image-id
+          reference: quay.io/anmrasto/aci-containers-host-ovscni:0.0.20261124.1.a378a7d
+          started_at: '2026-11-24T20:56:44.382025Z'
+          state: ok
+        - command:
+          - docker
+          - tag
+          finished_at: '2026-11-24T20:56:44.482315Z'
+          phase: tag
+          reference: quay.io/anmrasto/aci-containers-host-ovscni:0.0.20261124.1.a378a7d.112426.1
+          started_at: '2026-11-24T20:56:44.461934Z'
+          state: ok
+        - command:
+          - docker
+          - push
+          finished_at: '2026-11-24T20:56:44.944912Z'
+          phase: push
+          reference: quay.io/anmrasto/aci-containers-host-ovscni:0.0.20261124.1.a378a7d.112426.1
+          started_at: '2026-11-24T20:56:44.482745Z'
+          state: ok
+        - command:
+          - docker
+          - pull
+          finished_at: '2026-11-24T20:56:45.062246Z'
+          phase: verify-pull
+          reference: quay.io/anmrasto/aci-containers-host-ovscni:0.0.20261124.1.a378a7d.112426.1
+          started_at: '2026-11-24T20:56:45.005404Z'
+          state: ok
+        - command:
+          - docker
+          - image
+          finished_at: '2026-11-24T20:56:45.080739Z'
+          phase: verify-digest
+          reference: quay.io/anmrasto/aci-containers-host-ovscni:0.0.20261124.1.a378a7d.112426.1
+          started_at: '2026-11-24T20:56:45.062782Z'
+          state: ok
+        - command:
+          - docker
+          - image
+          finished_at: '2026-11-24T20:56:45.099145Z'
+          phase: verify-image-id
+          reference: quay.io/anmrasto/aci-containers-host-ovscni:0.0.20261124.1.a378a7d.112426.1
+          started_at: '2026-11-24T20:56:45.081328Z'
+          state: ok
+        - command:
+          - docker
+          - tag
+          finished_at: '2026-11-24T20:56:45.716468Z'
+          phase: tag
+          reference: quay.io/anmrasto/aci-containers-host-ovscni:0.0.20261124.1.a378a7d.rc1
+          started_at: '2026-11-24T20:56:45.696583Z'
+          state: ok
+        - command:
+          - docker
+          - push
+          finished_at: '2026-11-24T20:56:46.181905Z'
+          phase: push
+          reference: quay.io/anmrasto/aci-containers-host-ovscni:0.0.20261124.1.a378a7d.rc1
+          started_at: '2026-11-24T20:56:45.716934Z'
+          state: ok
+        - command:
+          - docker
+          - pull
+          finished_at: '2026-11-24T20:56:46.319851Z'
+          phase: verify-pull
+          reference: quay.io/anmrasto/aci-containers-host-ovscni:0.0.20261124.1.a378a7d.rc1
+          started_at: '2026-11-24T20:56:46.266442Z'
+          state: ok
+        - command:
+          - docker
+          - image
+          finished_at: '2026-11-24T20:56:46.338472Z'
+          phase: verify-digest
+          reference: quay.io/anmrasto/aci-containers-host-ovscni:0.0.20261124.1.a378a7d.rc1
+          started_at: '2026-11-24T20:56:46.320418Z'
+          state: ok
+        - command:
+          - docker
+          - image
+          finished_at: '2026-11-24T20:56:46.357539Z'
+          phase: verify-image-id
+          reference: quay.io/anmrasto/aci-containers-host-ovscni:0.0.20261124.1.a378a7d.rc1
+          started_at: '2026-11-24T20:56:46.339124Z'
+          state: ok
+        - command:
+          - docker
+          - tag
+          finished_at: '2026-11-24T20:56:46.457251Z'
+          phase: tag
+          reference: quay.io/anmrasto/aci-containers-host-ovscni:0.0.20261124.1.a378a7d.z
+          started_at: '2026-11-24T20:56:46.437439Z'
+          state: ok
+        - command:
+          - docker
+          - push
+          finished_at: '2026-11-24T20:56:46.890486Z'
+          phase: push
+          reference: quay.io/anmrasto/aci-containers-host-ovscni:0.0.20261124.1.a378a7d.z
+          started_at: '2026-11-24T20:56:46.457747Z'
+          state: ok
+        - command:
+          - docker
+          - pull
+          finished_at: '2026-11-24T20:56:47.019456Z'
+          phase: verify-pull
+          reference: quay.io/anmrasto/aci-containers-host-ovscni:0.0.20261124.1.a378a7d.z
+          started_at: '2026-11-24T20:56:46.965268Z'
+          state: ok
+        - command:
+          - docker
+          - image
+          finished_at: '2026-11-24T20:56:47.038672Z'
+          phase: verify-digest
+          reference: quay.io/anmrasto/aci-containers-host-ovscni:0.0.20261124.1.a378a7d.z
+          started_at: '2026-11-24T20:56:47.020016Z'
+          state: ok
+        - command:
+          - docker
+          - image
+          finished_at: '2026-11-24T20:56:47.057982Z'
+          phase: verify-image-id
+          reference: quay.io/anmrasto/aci-containers-host-ovscni:0.0.20261124.1.a378a7d.z
+          started_at: '2026-11-24T20:56:47.039365Z'
+          state: ok
+        critical_failure: null
+        finished_at: '2026-11-24T20:56:47.059215Z'
+        image: aci-containers-host-ovscni
+        image_id: sha256:06854e62217e30a36881e75f3f3bbf1a1fb2a2d9302332dd765ad372b4f35fc9
+        references:
+        - digest: sha256:9fec2a6fc49001c0360e71ce2fd4fc5f5ffe3a4e8e2ffb02bef85a0ccd1c4405
+          expires_at: 1795575403
+          image_id: sha256:06854e62217e30a36881e75f3f3bbf1a1fb2a2d9302332dd765ad372b4f35fc9
+          reference: quay.io/anmrasto/aci-containers-host-ovscni:0.0.20261124.1.a378a7d
+          registry: rehearsal
+          reused: false
+          tag: 0.0.20261124.1.a378a7d
+          verified_at: '2026-11-24T20:56:44.400727Z'
+        - digest: sha256:9fec2a6fc49001c0360e71ce2fd4fc5f5ffe3a4e8e2ffb02bef85a0ccd1c4405
+          expires_at: 1795575404
+          image_id: sha256:06854e62217e30a36881e75f3f3bbf1a1fb2a2d9302332dd765ad372b4f35fc9
+          reference: quay.io/anmrasto/aci-containers-host-ovscni:0.0.20261124.1.a378a7d.112426.1
+          registry: rehearsal
+          reused: false
+          tag: 0.0.20261124.1.a378a7d.112426.1
+          verified_at: '2026-11-24T20:56:45.099658Z'
+        - digest: sha256:9fec2a6fc49001c0360e71ce2fd4fc5f5ffe3a4e8e2ffb02bef85a0ccd1c4405
+          expires_at: 1795575406
+          image_id: sha256:06854e62217e30a36881e75f3f3bbf1a1fb2a2d9302332dd765ad372b4f35fc9
+          reference: quay.io/anmrasto/aci-containers-host-ovscni:0.0.20261124.1.a378a7d.rc1
+          registry: rehearsal
+          reused: false
+          tag: 0.0.20261124.1.a378a7d.rc1
+          verified_at: '2026-11-24T20:56:46.358150Z'
+        - digest: sha256:9fec2a6fc49001c0360e71ce2fd4fc5f5ffe3a4e8e2ffb02bef85a0ccd1c4405
+          expires_at: 1795575406
+          image_id: sha256:06854e62217e30a36881e75f3f3bbf1a1fb2a2d9302332dd765ad372b4f35fc9
+          reference: quay.io/anmrasto/aci-containers-host-ovscni:0.0.20261124.1.a378a7d.z
+          registry: rehearsal
+          reused: false
+          tag: 0.0.20261124.1.a378a7d.z
+          verified_at: '2026-11-24T20:56:47.058689Z'
+        scan_policy: advisory
+        schema_version: 1
+        started_at: '2026-11-24T20:56:37.028702Z'
+        state: complete
+      quay: []
+      rehearsal:
+      - link: https://quay.io/anmrasto/aci-containers-host-ovscni:0.0.20261124.1.a378a7d.z
+        sha: 9fec2a6fc49001c0360e71ce2fd4fc5f5ffe3a4e8e2ffb02bef85a0ccd1c4405
+        tag: 0.0.20261124.1.a378a7d.z
+      - link: https://quay.io/anmrasto/aci-containers-host-ovscni:0.0.20261124.1.a378a7d
+        sha: 9fec2a6fc49001c0360e71ce2fd4fc5f5ffe3a4e8e2ffb02bef85a0ccd1c4405
+        tag: 0.0.20261124.1.a378a7d
+      - link: https://quay.io/anmrasto/aci-containers-host-ovscni:0.0.20261124.1.a378a7d.112426.1
+        sha: 9fec2a6fc49001c0360e71ce2fd4fc5f5ffe3a4e8e2ffb02bef85a0ccd1c4405
+        tag: 0.0.20261124.1.a378a7d.112426.1
+      - link: https://quay.io/anmrasto/aci-containers-host-ovscni:0.0.20261124.1.a378a7d.rc1
+        sha: 9fec2a6fc49001c0360e71ce2fd4fc5f5ffe3a4e8e2ffb02bef85a0ccd1c4405
+        tag: 0.0.20261124.1.a378a7d.rc1
+      sbom: release_artifacts/0.0.20261124.1/z/aci-containers-host-ovscni/0.0.20261124.1-sbom.txt
+      scan:
+        build:
+          base:
+            base_repository_digest: sha256:08d4c70f1baf6537a0728656cf7942d561e74a35916509d205b6519861266352
+            counts:
+              C: 0
+              H: 7
+              L: 85
+              M: 80
+              U: 0
+            digest: sha256:4a9db16985440874fa412568a0d5c0801e8fafad866e11ddd71081de3886e12d
+            freshness:
+              state: unknown
+            last_success:
+              counts:
+                C: 0
+                H: 7
+                L: 85
+                M: 80
+                U: 0
+              digest: sha256:4a9db16985440874fa412568a0d5c0801e8fafad866e11ddd71081de3886e12d
+              observed_at: '2026-11-24T20:56:25.162695Z'
+              report: release_artifacts/0.0.20261124.1/z/aci-containers-host-ovscni/scans/45482059563-1/cve-base.txt
+              scanner: grype@0.121.3
+            observed_at: '2026-11-24T20:56:25.162695Z'
+            provenance:
+              captured_before_build: true
+              digest: sha256:08d4c70f1baf6537a0728656cf7942d561e74a35916509d205b6519861266352
+              dockerfile: docker/travis/Dockerfile-host
+              image_id: sha256:4a9db16985440874fa412568a0d5c0801e8fafad866e11ddd71081de3886e12d
+              observed_at: '2026-11-24T20:34:20.776279Z'
+              reference: registry.access.redhat.com/ubi9/ubi-minimal:latest
+              state: ok
+            report: release_artifacts/0.0.20261124.1/z/aci-containers-host-ovscni/scans/45482059563-1/cve-base.txt
+            scanner: grype@0.121.3
+            state: ok
+          image:
+            counts:
+              C: 1
+              H: 22
+              L: 137
+              M: 234
+              U: 0
+            digest: sha256:06854e62217e30a36881e75f3f3bbf1a1fb2a2d9302332dd765ad372b4f35fc9
+            freshness:
+              state: unknown
+            last_success:
+              counts:
+                C: 1
+                H: 22
+                L: 137
+                M: 234
+                U: 0
+              digest: sha256:06854e62217e30a36881e75f3f3bbf1a1fb2a2d9302332dd765ad372b4f35fc9
+              observed_at: '2026-11-24T20:56:22.175824Z'
+              report: release_artifacts/0.0.20261124.1/z/aci-containers-host-ovscni/scans/45482059563-1/cve.txt
+              scanner: grype@0.121.3
+            observed_at: '2026-11-24T20:56:22.175824Z'
+            report: release_artifacts/0.0.20261124.1/z/aci-containers-host-ovscni/scans/45482059563-1/cve.txt
+            scanner: grype@0.121.3
+            state: ok
+      scan-tools:
+        image_id: sha256:06854e62217e30a36881e75f3f3bbf1a1fb2a2d9302332dd765ad372b4f35fc9
+        sbom:
+          digest: sha256:06854e62217e30a36881e75f3f3bbf1a1fb2a2d9302332dd765ad372b4f35fc9
+          scanner: syft@1.57.1
+          state: ok
+        trivy:
+          counts:
+            C: 0
+            H: 22
+            L: 143
+            M: 246
+            U: 0
+          digest: sha256:06854e62217e30a36881e75f3f3bbf1a1fb2a2d9302332dd765ad372b4f35fc9
+          freshness:
+            state: unknown
+          last_success:
+            counts:
+              C: 0
+              H: 22
+              L: 143
+              M: 246
+              U: 0
+            digest: sha256:06854e62217e30a36881e75f3f3bbf1a1fb2a2d9302332dd765ad372b4f35fc9
+            observed_at: '2026-11-24T20:56:37.021526Z'
+            report: trivy.json
+            scanner: trivy@0.76.2
+          observed_at: '2026-11-24T20:56:37.021526Z'
+          report: trivy.json
+          scanner: trivy@0.76.2
+          state: ok
+      severity:
+      - C: 1
+        H: 22
+        L: 137
+        M: 234
+        U: 0
+      severity_type: grype
+    acc_provision: []
+  - release_name: 0.0.20261124.1
+    last_updated: 2026-11-24 12:56:47 PST
+    container_images: []
+    acc_provision: []
+    released: false

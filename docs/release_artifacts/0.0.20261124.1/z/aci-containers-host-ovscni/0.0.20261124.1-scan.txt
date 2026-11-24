@@ -1,0 +1,108 @@
+{
+  "base": {
+    "base_repository_digest": "sha256:08d4c70f1baf6537a0728656cf7942d561e74a35916509d205b6519861266352",
+    "counts": {
+      "C": 0,
+      "H": 7,
+      "L": 85,
+      "M": 80,
+      "U": 0
+    },
+    "digest": "sha256:4a9db16985440874fa412568a0d5c0801e8fafad866e11ddd71081de3886e12d",
+    "freshness": {
+      "state": "unknown"
+    },
+    "last_success": {
+      "counts": {
+        "C": 0,
+        "H": 7,
+        "L": 85,
+        "M": 80,
+        "U": 0
+      },
+      "digest": "sha256:4a9db16985440874fa412568a0d5c0801e8fafad866e11ddd71081de3886e12d",
+      "observed_at": "2026-11-24T20:56:25.162695Z",
+      "report": "cve-base.json",
+      "scanner": "grype@0.121.3"
+    },
+    "observed_at": "2026-11-24T20:56:25.162695Z",
+    "provenance": {
+      "captured_before_build": true,
+      "digest": "sha256:08d4c70f1baf6537a0728656cf7942d561e74a35916509d205b6519861266352",
+      "dockerfile": "docker/travis/Dockerfile-host",
+      "image_id": "sha256:4a9db16985440874fa412568a0d5c0801e8fafad866e11ddd71081de3886e12d",
+      "observed_at": "2026-11-24T20:34:20.776279Z",
+      "reference": "registry.access.redhat.com/ubi9/ubi-minimal:latest",
+      "state": "ok"
+    },
+    "report": "cve-base.json",
+    "scanner": "grype@0.121.3",
+    "state": "ok"
+  },
+  "image": {
+    "counts": {
+      "C": 1,
+      "H": 22,
+      "L": 137,
+      "M": 234,
+      "U": 0
+    },
+    "digest": "sha256:06854e62217e30a36881e75f3f3bbf1a1fb2a2d9302332dd765ad372b4f35fc9",
+    "freshness": {
+      "state": "unknown"
+    },
+    "last_success": {
+      "counts": {
+        "C": 1,
+        "H": 22,
+        "L": 137,
+        "M": 234,
+        "U": 0
+      },
+      "digest": "sha256:06854e62217e30a36881e75f3f3bbf1a1fb2a2d9302332dd765ad372b4f35fc9",
+      "observed_at": "2026-11-24T20:56:22.175824Z",
+      "report": "cve.json",
+      "scanner": "grype@0.121.3"
+    },
+    "observed_at": "2026-11-24T20:56:22.175824Z",
+    "report": "cve.json",
+    "scanner": "grype@0.121.3",
+    "state": "ok"
+  },
+  "image_id": "sha256:06854e62217e30a36881e75f3f3bbf1a1fb2a2d9302332dd765ad372b4f35fc9",
+  "sbom": {
+    "digest": "sha256:06854e62217e30a36881e75f3f3bbf1a1fb2a2d9302332dd765ad372b4f35fc9",
+    "scanner": "syft@1.57.1",
+    "state": "ok"
+  },
+  "trivy": {
+    "counts": {
+      "C": 0,
+      "H": 22,
+      "L": 143,
+      "M": 246,
+      "U": 0
+    },
+    "digest": "sha256:06854e62217e30a36881e75f3f3bbf1a1fb2a2d9302332dd765ad372b4f35fc9",
+    "freshness": {
+      "state": "unknown"
+    },
+    "last_success": {
+      "counts": {
+        "C": 0,
+        "H": 22,
+        "L": 143,
+        "M": 246,
+        "U": 0
+      },
+      "digest": "sha256:06854e62217e30a36881e75f3f3bbf1a1fb2a2d9302332dd765ad372b4f35fc9",
+      "observed_at": "2026-11-24T20:56:37.021526Z",
+      "report": "trivy.json",
+      "scanner": "trivy@0.76.2"
+    },
+    "observed_at": "2026-11-24T20:56:37.021526Z",
+    "report": "trivy.json",
+    "scanner": "trivy@0.76.2",
+    "state": "ok"
+  }
+}
