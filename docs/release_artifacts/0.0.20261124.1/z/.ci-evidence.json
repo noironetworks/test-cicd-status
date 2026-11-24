@@ -71,6 +71,15 @@
         1
       ],
       "source_sha": "08ece72cb20d4f6ca80bc5c99ce21eaf13b18ac9"
+    },
+    "images:anmol372/opflex:opflex": {
+      "bundle_sha256": "51b799a9464c536d4caa1162469e5443164a347f8a07480284d44a8e5f313873",
+      "cicd_sha": "508cdc562f2ae11b0aab5b2a380285e4b43d936a",
+      "order": [
+        45483001692,
+        1
+      ],
+      "source_sha": "eff22a483d1d1cf1f879875730502703ed34d19a"
     }
   },
   "schema_version": 1

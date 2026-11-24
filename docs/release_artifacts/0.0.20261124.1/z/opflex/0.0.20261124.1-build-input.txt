@@ -1,0 +1,2 @@
+opflex_build_base_ref=quay.io/anmrasto/opflex-build-base@sha256:d59f7d0341f5a4b7c98368f7ba211878c0eba769f63e5329eda913249f8748fc
+opflex_build_base_digest=sha256:d59f7d0341f5a4b7c98368f7ba211878c0eba769f63e5329eda913249f8748fc

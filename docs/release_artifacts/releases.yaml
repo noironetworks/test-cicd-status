@@ -11823,7 +11823,7 @@ releases:
 - release_tag: 0.0.20261124.1
   release_streams:
   - release_name: 0.0.20261124.1.z
-    last_updated: 2026-11-24 12:56:47 PST
+    last_updated: 2026-11-24 13:08:31 PST
     container_images:
     - base-image:
       - cve: release_artifacts/0.0.20261124.1/z/aci-containers-host/0.0.20261124.1-cve-base.txt
@@ -14439,6 +14439,333 @@ releases:
         H: 22
         L: 137
         M: 234
+        U: 0
+      severity_type: grype
+    - base-image:
+      - cve: release_artifacts/0.0.20261124.1/z/opflex/0.0.20261124.1-cve-base.txt
+        severity:
+        - C: 0
+          H: 7
+          L: 85
+          M: 80
+          U: 0
+        sha: 08d4c70f1baf6537a0728656cf7942d561e74a35916509d205b6519861266352
+      build-logs: release_artifacts/0.0.20261124.1/z/opflex/0.0.20261124.1-buildlog.txt
+      build-time: 2026-11-24 13:08:31 PST
+      commit:
+      - link: https://github.com/anmol372/opflex/commit/eff22a483d1d1cf1f879875730502703ed34d19a
+        sha: eff22a483d1d1cf1f879875730502703ed34d19a
+      cve: release_artifacts/0.0.20261124.1/z/opflex/0.0.20261124.1-cve.txt
+      docker: []
+      name: opflex
+      publication:
+        alias_policy: aliases-last
+        attempts:
+        - command:
+          - docker
+          - push
+          finished_at: '2026-11-24T21:08:22.381532Z'
+          phase: push
+          reference: quay.io/anmrasto/opflex:0.0.20261124.1.a378a7d
+          started_at: '2026-11-24T21:08:07.692793Z'
+          state: ok
+        - command:
+          - docker
+          - pull
+          finished_at: '2026-11-24T21:08:23.469423Z'
+          phase: verify-pull
+          reference: quay.io/anmrasto/opflex:0.0.20261124.1.a378a7d
+          started_at: '2026-11-24T21:08:22.662726Z'
+          state: ok
+        - command:
+          - docker
+          - image
+          finished_at: '2026-11-24T21:08:23.487823Z'
+          phase: verify-digest
+          reference: quay.io/anmrasto/opflex:0.0.20261124.1.a378a7d
+          started_at: '2026-11-24T21:08:23.469827Z'
+          state: ok
+        - command:
+          - docker
+          - image
+          finished_at: '2026-11-24T21:08:23.505816Z'
+          phase: verify-image-id
+          reference: quay.io/anmrasto/opflex:0.0.20261124.1.a378a7d
+          started_at: '2026-11-24T21:08:23.488213Z'
+          state: ok
+        - command:
+          - docker
+          - tag
+          finished_at: '2026-11-24T21:08:23.769553Z'
+          phase: tag
+          reference: quay.io/anmrasto/opflex:0.0.20261124.1.a378a7d.112426.4
+          started_at: '2026-11-24T21:08:23.751130Z'
+          state: ok
+        - command:
+          - docker
+          - push
+          finished_at: '2026-11-24T21:08:25.638113Z'
+          phase: push
+          reference: quay.io/anmrasto/opflex:0.0.20261124.1.a378a7d.112426.4
+          started_at: '2026-11-24T21:08:23.769927Z'
+          state: ok
+        - command:
+          - docker
+          - pull
+          finished_at: '2026-11-24T21:08:26.096511Z'
+          phase: verify-pull
+          reference: quay.io/anmrasto/opflex:0.0.20261124.1.a378a7d.112426.4
+          started_at: '2026-11-24T21:08:25.870557Z'
+          state: ok
+        - command:
+          - docker
+          - image
+          finished_at: '2026-11-24T21:08:26.114189Z'
+          phase: verify-digest
+          reference: quay.io/anmrasto/opflex:0.0.20261124.1.a378a7d.112426.4
+          started_at: '2026-11-24T21:08:26.096988Z'
+          state: ok
+        - command:
+          - docker
+          - image
+          finished_at: '2026-11-24T21:08:26.131994Z'
+          phase: verify-image-id
+          reference: quay.io/anmrasto/opflex:0.0.20261124.1.a378a7d.112426.4
+          started_at: '2026-11-24T21:08:26.114644Z'
+          state: ok
+        - command:
+          - docker
+          - tag
+          finished_at: '2026-11-24T21:08:26.375758Z'
+          phase: tag
+          reference: quay.io/anmrasto/opflex:0.0.20261124.1.a378a7d.rc1
+          started_at: '2026-11-24T21:08:26.357275Z'
+          state: ok
+        - command:
+          - docker
+          - push
+          finished_at: '2026-11-24T21:08:28.165905Z'
+          phase: push
+          reference: quay.io/anmrasto/opflex:0.0.20261124.1.a378a7d.rc1
+          started_at: '2026-11-24T21:08:26.376189Z'
+          state: ok
+        - command:
+          - docker
+          - pull
+          finished_at: '2026-11-24T21:08:28.612906Z'
+          phase: verify-pull
+          reference: quay.io/anmrasto/opflex:0.0.20261124.1.a378a7d.rc1
+          started_at: '2026-11-24T21:08:28.395200Z'
+          state: ok
+        - command:
+          - docker
+          - image
+          finished_at: '2026-11-24T21:08:28.631017Z'
+          phase: verify-digest
+          reference: quay.io/anmrasto/opflex:0.0.20261124.1.a378a7d.rc1
+          started_at: '2026-11-24T21:08:28.613446Z'
+          state: ok
+        - command:
+          - docker
+          - image
+          finished_at: '2026-11-24T21:08:28.648295Z'
+          phase: verify-image-id
+          reference: quay.io/anmrasto/opflex:0.0.20261124.1.a378a7d.rc1
+          started_at: '2026-11-24T21:08:28.631555Z'
+          state: ok
+        - command:
+          - docker
+          - tag
+          finished_at: '2026-11-24T21:08:28.893167Z'
+          phase: tag
+          reference: quay.io/anmrasto/opflex:0.0.20261124.1.a378a7d.z
+          started_at: '2026-11-24T21:08:28.875392Z'
+          state: ok
+        - command:
+          - docker
+          - push
+          finished_at: '2026-11-24T21:08:30.744333Z'
+          phase: push
+          reference: quay.io/anmrasto/opflex:0.0.20261124.1.a378a7d.z
+          started_at: '2026-11-24T21:08:28.893652Z'
+          state: ok
+        - command:
+          - docker
+          - pull
+          finished_at: '2026-11-24T21:08:31.209268Z'
+          phase: verify-pull
+          reference: quay.io/anmrasto/opflex:0.0.20261124.1.a378a7d.z
+          started_at: '2026-11-24T21:08:30.990752Z'
+          state: ok
+        - command:
+          - docker
+          - image
+          finished_at: '2026-11-24T21:08:31.227191Z'
+          phase: verify-digest
+          reference: quay.io/anmrasto/opflex:0.0.20261124.1.a378a7d.z
+          started_at: '2026-11-24T21:08:31.209901Z'
+          state: ok
+        - command:
+          - docker
+          - image
+          finished_at: '2026-11-24T21:08:31.244819Z'
+          phase: verify-image-id
+          reference: quay.io/anmrasto/opflex:0.0.20261124.1.a378a7d.z
+          started_at: '2026-11-24T21:08:31.227818Z'
+          state: ok
+        critical_failure: null
+        finished_at: '2026-11-24T21:08:31.245939Z'
+        image: opflex
+        image_id: sha256:8ea59973afd69d244bf3debcef11fff895498144f9f6593f59482742e5556de0
+        references:
+        - digest: sha256:cba25b87db58a64e790b6905de19ea62e36cb2a0ce582828e7c1857e27c6fbfd
+          expires_at: 1795576102
+          image_id: sha256:8ea59973afd69d244bf3debcef11fff895498144f9f6593f59482742e5556de0
+          reference: quay.io/anmrasto/opflex:0.0.20261124.1.a378a7d
+          registry: rehearsal
+          reused: false
+          tag: 0.0.20261124.1.a378a7d
+          verified_at: '2026-11-24T21:08:23.506213Z'
+        - digest: sha256:cba25b87db58a64e790b6905de19ea62e36cb2a0ce582828e7c1857e27c6fbfd
+          expires_at: 1795576105
+          image_id: sha256:8ea59973afd69d244bf3debcef11fff895498144f9f6593f59482742e5556de0
+          reference: quay.io/anmrasto/opflex:0.0.20261124.1.a378a7d.112426.4
+          registry: rehearsal
+          reused: false
+          tag: 0.0.20261124.1.a378a7d.112426.4
+          verified_at: '2026-11-24T21:08:26.132375Z'
+        - digest: sha256:cba25b87db58a64e790b6905de19ea62e36cb2a0ce582828e7c1857e27c6fbfd
+          expires_at: 1795576108
+          image_id: sha256:8ea59973afd69d244bf3debcef11fff895498144f9f6593f59482742e5556de0
+          reference: quay.io/anmrasto/opflex:0.0.20261124.1.a378a7d.rc1
+          registry: rehearsal
+          reused: false
+          tag: 0.0.20261124.1.a378a7d.rc1
+          verified_at: '2026-11-24T21:08:28.648812Z'
+        - digest: sha256:cba25b87db58a64e790b6905de19ea62e36cb2a0ce582828e7c1857e27c6fbfd
+          expires_at: 1795576110
+          image_id: sha256:8ea59973afd69d244bf3debcef11fff895498144f9f6593f59482742e5556de0
+          reference: quay.io/anmrasto/opflex:0.0.20261124.1.a378a7d.z
+          registry: rehearsal
+          reused: false
+          tag: 0.0.20261124.1.a378a7d.z
+          verified_at: '2026-11-24T21:08:31.245483Z'
+        scan_policy: advisory
+        schema_version: 1
+        started_at: '2026-11-24T21:08:07.388052Z'
+        state: complete
+      quay: []
+      rehearsal:
+      - link: https://quay.io/anmrasto/opflex:0.0.20261124.1.a378a7d.z
+        sha: cba25b87db58a64e790b6905de19ea62e36cb2a0ce582828e7c1857e27c6fbfd
+        tag: 0.0.20261124.1.a378a7d.z
+      - link: https://quay.io/anmrasto/opflex:0.0.20261124.1.a378a7d
+        sha: cba25b87db58a64e790b6905de19ea62e36cb2a0ce582828e7c1857e27c6fbfd
+        tag: 0.0.20261124.1.a378a7d
+      - link: https://quay.io/anmrasto/opflex:0.0.20261124.1.a378a7d.112426.4
+        sha: cba25b87db58a64e790b6905de19ea62e36cb2a0ce582828e7c1857e27c6fbfd
+        tag: 0.0.20261124.1.a378a7d.112426.4
+      - link: https://quay.io/anmrasto/opflex:0.0.20261124.1.a378a7d.rc1
+        sha: cba25b87db58a64e790b6905de19ea62e36cb2a0ce582828e7c1857e27c6fbfd
+        tag: 0.0.20261124.1.a378a7d.rc1
+      sbom: release_artifacts/0.0.20261124.1/z/opflex/0.0.20261124.1-sbom.txt
+      scan:
+        build:
+          base:
+            base_repository_digest: sha256:08d4c70f1baf6537a0728656cf7942d561e74a35916509d205b6519861266352
+            counts:
+              C: 0
+              H: 7
+              L: 85
+              M: 80
+              U: 0
+            digest: sha256:4a9db16985440874fa412568a0d5c0801e8fafad866e11ddd71081de3886e12d
+            freshness:
+              state: unknown
+            last_success:
+              counts:
+                C: 0
+                H: 7
+                L: 85
+                M: 80
+                U: 0
+              digest: sha256:4a9db16985440874fa412568a0d5c0801e8fafad866e11ddd71081de3886e12d
+              observed_at: '2026-11-24T21:07:57.349708Z'
+              report: release_artifacts/0.0.20261124.1/z/opflex/scans/45483001692-1/cve-base.txt
+              scanner: grype@0.121.3
+            observed_at: '2026-11-24T21:07:57.349708Z'
+            provenance:
+              captured_before_build: true
+              digest: sha256:08d4c70f1baf6537a0728656cf7942d561e74a35916509d205b6519861266352
+              dockerfile: docker/travis/Dockerfile-opflex
+              image_id: sha256:4a9db16985440874fa412568a0d5c0801e8fafad866e11ddd71081de3886e12d
+              observed_at: '2026-11-24T20:39:31.264746Z'
+              reference: registry.access.redhat.com/ubi9/ubi-minimal:latest
+              state: ok
+            report: release_artifacts/0.0.20261124.1/z/opflex/scans/45483001692-1/cve-base.txt
+            scanner: grype@0.121.3
+            state: ok
+          image:
+            counts:
+              C: 0
+              H: 10
+              L: 242
+              M: 211
+              U: 0
+            digest: sha256:8ea59973afd69d244bf3debcef11fff895498144f9f6593f59482742e5556de0
+            freshness:
+              state: unknown
+            last_success:
+              counts:
+                C: 0
+                H: 10
+                L: 242
+                M: 211
+                U: 0
+              digest: sha256:8ea59973afd69d244bf3debcef11fff895498144f9f6593f59482742e5556de0
+              observed_at: '2026-11-24T21:07:54.400910Z'
+              report: release_artifacts/0.0.20261124.1/z/opflex/scans/45483001692-1/cve.txt
+              scanner: grype@0.121.3
+            observed_at: '2026-11-24T21:07:54.400910Z'
+            report: release_artifacts/0.0.20261124.1/z/opflex/scans/45483001692-1/cve.txt
+            scanner: grype@0.121.3
+            state: ok
+      scan-tools:
+        image_id: sha256:8ea59973afd69d244bf3debcef11fff895498144f9f6593f59482742e5556de0
+        sbom:
+          digest: sha256:8ea59973afd69d244bf3debcef11fff895498144f9f6593f59482742e5556de0
+          scanner: syft@1.57.1
+          state: ok
+        trivy:
+          counts:
+            C: 0
+            H: 8
+            L: 247
+            M: 209
+            U: 0
+          digest: sha256:8ea59973afd69d244bf3debcef11fff895498144f9f6593f59482742e5556de0
+          freshness:
+            state: unknown
+          last_success:
+            counts:
+              C: 0
+              H: 8
+              L: 247
+              M: 209
+              U: 0
+            digest: sha256:8ea59973afd69d244bf3debcef11fff895498144f9f6593f59482742e5556de0
+            observed_at: '2026-11-24T21:08:07.381620Z'
+            report: trivy.json
+            scanner: trivy@0.76.2
+          observed_at: '2026-11-24T21:08:07.381620Z'
+          report: trivy.json
+          scanner: trivy@0.76.2
+          state: ok
+      severity:
+      - C: 0
+        H: 10
+        L: 242
+        M: 211
         U: 0
       severity_type: grype
     acc_provision: []
